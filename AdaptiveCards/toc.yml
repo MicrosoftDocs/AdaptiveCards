@@ -1,3 +1,5 @@
+- name: Home
+  href: index.md
 - name: Overview
   href: ./about/Overview.md
 - name: Creating Cards
@@ -12,12 +14,12 @@
     href: ./create/TextFeatures.md
   - name: Libraries
     items:
-      - name: JavaScript
-        href: ./create/libraries/Javascript.md
-      - name: .NET
-        href: ./create/libraries/NET.md
-      - name: TypeScript
-        href: ./create/libraries/Typescript.md
+    - name: JavaScript
+      href: ./create/libraries/Javascript.md
+    - name: .NET
+      href: ./create/libraries/NET.md
+    - name: TypeScript
+      href: ./create/libraries/Typescript.md
 - name: Displaying Cards
   items:
   - name: Getting Started
