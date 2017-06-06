@@ -26,6 +26,24 @@
     href: ./create/HostConfig.md
   - name: Implement a Renderer
     href: ./create/ImplementingRenderer.md
+  - name: Libraries
+    items:
+      - name: Android
+        href: ./display/libraries/Android.md)
+      - name: HTML Client
+        href: ./display/libraries/HTMLClient.md)
+      - name: HTML Server
+        href: ./display/libraries/HTMLServer.md)
+      - name: Image
+        href: ./display/libraries/Image.md)
+      - name: iOS
+        href: ./display/libraries/iOS.md)
+      - name: UWP
+        href: ./display/libraries/UWP.md)
+      - name: WPF
+        href: ./display/libraries/WPF.md)
+      - name: Xamarin.Forms
+        href: ./display/libraries/XamarinForms.md)
 - name: Resources
   items:
   - name: Roadmap 
