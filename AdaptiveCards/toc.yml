@@ -1,0 +1,56 @@
+- name: Home
+  href: index.md
+- name: Overview
+  href: ./about/Overview.md
+- name: Creating Cards
+  items:
+  - name: Getting Started
+    href: ./create/GettingStarted.md
+  - name: Card Schema
+    href: ./create/CardSchema.md
+  - name: Speech
+    href: ./create/Speech.md
+  - name: Text Customization
+    href: ./create/TextFeatures.md
+  - name: Libraries
+    items:
+    - name: JavaScript
+      href: ./create/libraries/Javascript.md
+    - name: .NET
+      href: ./create/libraries/NET.md
+    - name: TypeScript
+      href: ./create/libraries/Typescript.md
+- name: Displaying Cards
+  items:
+  - name: Getting Started
+    href: ./display/GettingStarted.md
+  - name: Host Config Schema
+    href: ./create/HostConfig.md
+  - name: Implement a Renderer
+    href: ./create/ImplementingRenderer.md
+  - name: Libraries
+    items:
+      - name: Android
+        href: ./display/libraries/Android.md)
+      - name: HTML Client
+        href: ./display/libraries/HTMLClient.md)
+      - name: HTML Server
+        href: ./display/libraries/HTMLServer.md)
+      - name: Image
+        href: ./display/libraries/Image.md)
+      - name: iOS
+        href: ./display/libraries/iOS.md)
+      - name: UWP
+        href: ./display/libraries/UWP.md)
+      - name: WPF
+        href: ./display/libraries/WPF.md)
+      - name: Xamarin.Forms
+        href: ./display/libraries/XamarinForms.md)
+- name: Resources
+  items:
+  - name: Roadmap 
+    href: ./resources/Future.md
+  - name: Partners
+    href: ./resources/Partners.md
+  - name: Tools
+    href: ./resources/Tools.md
