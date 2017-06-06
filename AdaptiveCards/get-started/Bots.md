@@ -10,7 +10,7 @@ Click the following link and [talk to our Scuba Bot](http://contososcubabot.azur
 
 All of the bot's responses are created with Adaptive Cards.
 
-[![Scuba chat screenshot](/content/scuba-chat.png)](http://contososcubabot.azurewebsites.net/)
+[![Scuba chat screenshot](../content/scuba-chat.png)](http://contososcubabot.azurewebsites.net/)
 
 # Adaptive Cards in Bot Framework
 
@@ -40,7 +40,7 @@ Here's a standard Bot Framework `message` payload that can be delivered to any c
 
 To add some richness beyond just text, the Bot Framework has a concept of `attachment`s. Let's add an Adaptive Card `attachment` that displays custom text.
 
-![Basic adaptive card](/content/hello-adaptivecards.png)
+![Basic adaptive card](../content/hello-adaptivecards.png)
 
 ```json
 {
