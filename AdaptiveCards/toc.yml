@@ -10,6 +10,14 @@
     href: ./create/Speech.md
   - name: Text Customization
     href: ./create/TextFeatures.md
+  - name: Libraries
+    items:
+      - name: JavaScript
+        href: ./create/libraries/Javascript.md
+      - name: .NET
+        href: ./create/libraries/NET.md
+      - name: TypeScript
+        href: ./create/libraries/Typescript.md
 - name: Displaying Cards
   items:
   - name: Getting Started
@@ -18,3 +26,11 @@
     href: ./create/HostConfig.md
   - name: Implement a Renderer
     href: ./create/ImplementingRenderer.md
+- name: Resources
+  items:
+  - name: Roadmap 
+    href: ./resources/Future.md
+  - name: Partners
+    href: ./resources/Partners.md
+  - name: Tools
+    href: ./resources/Tools.md
