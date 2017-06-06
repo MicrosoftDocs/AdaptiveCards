@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Adaptive Cards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/content/fonts.css">
+    <link rel="stylesheet" href="/content/shared.css">
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="get-started.js"></script>
+    <style>
+        @media(max-width: 600px) {
+            .content-sidebar{
+                margin-left:24px;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- Nav bar-->
+<div class="w3-top">
+    <div class="w3-bar w3-black">
+        <a href="javascript:void(0)" onclick="showSideBar()"><img src="/content/icons_transparent/white-48.png" class="logo" /></a>
+        <a href="/" class="w3-bar-item w3-button ">Adaptive Cards</a>
+        <a href="/get-started" class="w3-bar-item w3-button w3-mobile w3-hide-small w3-hide-medium">Get Started</a>
+        <a href="/documentation" class="w3-bar-item w3-button w3-mobile w3-hide-small w3-hide-medium">Documentation</a>
+        <a href="/explorer" class="w3-bar-item w3-button w3-mobile w3-hide-small w3-hide-medium">Schema Explorer</a>
+        <a href="/visualizer" class="w3-bar-item w3-button w3-mobile w3-hide-small w3-hide-medium">Visualizer</a>
+        <a href="/samples" class="w3-bar-item w3-button w3-mobile w3-hide-small w3-hide-medium">Samples</a>
+        <a href="/connect" class="w3-bar-item w3-button w3-mobile w3-hide-small w3-hide-medium">Connect</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-right " onclick="showNav()">&#9776;</a>
+    </div>
+</div>
+<!-- nav bar small-->
+<div id="navBarSmall" class="w3-bar-block w3-black w3-hide w3-hide-large ">
+    <a href="/" class="w3-bar-item w3-button ">Adaptive Cards</a>
+    <a href="/documentation" class="w3-bar-item w3-button ">Documentation</a>
+    <a href="/explorer" class="w3-bar-item w3-button ">Schema Explorer</a>
+    <a href="/visualizer" class="w3-bar-item w3-button ">Visualizer</a>
+    <a href="/samples" class="w3-bar-item w3-button ">Samples</a>
+    <a href="/connect" class="w3-bar-item w3-button ">Connect</a>
+</div>
+<script>
+    function showNav() {
+        var x = document.getElementById("navBarSmall");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+
+<!-- side bar -->
+<div id="sidebar" class="w3-sidebar w3-light-grey w3-bar-block w3-hide-small content">
+    <a href="#bots" id="bots-link" class="elementLink w3-bar-item w3-button navLink">Bot Developers</a>
+    <a href="#windows" id="windows-link" class="elementLink w3-bar-item w3-button navLink">Windows Developers</a>
+</div>
+    
+
+<div class="w3-container">
+    <div class="content-sidebar" id="topic" style="max-width: 1000px;">
+        
+    </div>
+</div>
+
+</body>
+</html>
