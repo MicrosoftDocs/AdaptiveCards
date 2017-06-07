@@ -2,7 +2,8 @@
 
 Adaptive Cards are a great fit for Bots. They let you author a card once and have it render beautifully inside multiple apps, like Skype\*, Microsoft Teams\*, your own website, and more.
 
-> **NOTE:** Skype and Microsoft Teams are not yet supported in the current preview, but we're working on it! Please see the Channel Status section below for details.
+> [!NOTE]
+> Skype and Microsoft Teams are not yet supported in the current preview, but we're working on it! Please see the Channel Status section below for details.
 
 ## Try it out
 
@@ -16,7 +17,8 @@ All of the bot's responses are created with Adaptive Cards.
 
 With the [Bot Framework](https://dev.botframework.com/) you can write a bot is able to chat with users across multiple "channels", like Skype, Microsoft Teams, Facebook Messenger, etc.
 
-> ### Early preview disclaimer
+> [!IMPORTANT]
+> ### Early Preview Disclaimer
 > We're thrilled you want to try out Adaptive Cards! :raised_hands:
 >
 > ... but we want to take this opporunity to remind you that we're in preview and actively seeking feedback, so please expect a few rough edges and reach out with any feedback you may have. 
@@ -38,7 +40,7 @@ Here's a standard Bot Framework `message` payload that can be delivered to any c
 
 ### Step 1: Add an Adaptive Card `attachment`
 
-To add some richness beyond just text, the Bot Framework has a concept of `attachment`s. Let's add an Adaptive Card `attachment` that displays custom text.
+To add some richness beyond just text, the Bot Framework has a concept of `attachment`. Let's add an Adaptive Card `attachment` that displays custom text.
 
 ![Basic adaptive card](../content/hello-adaptivecards.png)
 
