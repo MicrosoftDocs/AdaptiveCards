@@ -13,7 +13,7 @@ All of the bot's responses are created with Adaptive Cards.
 
 [![Scuba chat screenshot](../content/scuba-chat.png)](http://contososcubabot.azurewebsites.net/)
 
-# Adaptive Cards in Bot Framework
+## Adaptive Cards in Bot Framework
 
 With the [Bot Framework](https://dev.botframework.com/) you can write a single bot that is able to chat with users across multiple "channels", like Skype, Microsoft Teams, Facebook Messenger, etc.
 
@@ -86,17 +86,16 @@ Let's attach an Adaptive Card that displays custom text.
 
 ### Step 2: Build even richer cards 
 
-Adaptive Cards offer more than just customizable text.
+Adaptive Cards offer more than just customizable text. 
 
-Some other things you can do with Adaptive Cards are...
+You can: 
 
 * Add `Images` to your card
-* Add structure to your content with `Containers` and `Columns`
+* Organize your content with `Containers` and `Columns`
 * Add multiple types of `Actions`
 * Collect `Input` from your users
 * Have one card `show another card`
 * ...[and more](http://localhost:55000/explorer/)! 
-
 
 ## Platform Libraries
 
