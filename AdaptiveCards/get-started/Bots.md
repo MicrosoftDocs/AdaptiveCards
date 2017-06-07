@@ -40,7 +40,9 @@ Here's a standard Bot Framework `message` payload that can be delivered to any c
 
 ### Step 1: Add an Adaptive Card `attachment`
 
-To add some richness beyond just text, the Bot Framework has a concept of `attachment`. Let's add an Adaptive Card `attachment` that displays custom text.
+To add some richness beyond just text, the Bot Framework has a concept of `attachments`. 
+
+Let's attach an Adaptive Card that displays custom text.
 
 ![Basic adaptive card](../content/hello-adaptivecards.png)
 
