@@ -30,7 +30,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+        "uhfHeaderId": "MSDocsHeader-AdaptiveCards"
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "AdaptiveCards"
