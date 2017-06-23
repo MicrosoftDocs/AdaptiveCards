@@ -97,7 +97,7 @@ You can:
 * Have one card `show another card`
 * ...[and more](http://localhost:55000/explorer/)! 
 
-## Platform Libraries
+## Platform SDKs
 
 If your bot is developed using .NET or NodeJS we have libraries to make building Adaptive Cards even easier.
 
@@ -129,7 +129,7 @@ Email | Render to Image + limited mapping to links
 Skype For Business | Not supported
 
 
-# Dive in!
+## Dive in!
 
 We've just scratched the surface in this tutorial, so please take a look at the links below to explore more ways that Adaptive Cards can enhance your bot.
 

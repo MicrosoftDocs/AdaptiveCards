@@ -7,9 +7,9 @@ adaptive cards in json.
 
 In Visual Studio and Visual Studio Code you can get automatic Intellisense by including a `$schema` reference.
 
-![bad](../../content/invalidjson1.png)
+![bad](../content/invalidjson1.png)
 
-![autocomplete](../../content/autocomplete.png)
+![autocomplete](../content/autocomplete.png)
 
 Example:
 ```javascript
@@ -46,11 +46,11 @@ There are some tools and samples in the source tree which are useful references 
 We have created a Visual Studio code extension which allows you to visualize the card you are editing in real time
 inside the editor itself. 
 
-![extension](../../content/vscode-extension.png)
+![extension](../content/vscode-extension.png)
 
 To install, open Extensions Marketplace and search for **Adaptive Card Viewer**.
 
-![marketplace](../../content/vscode-extension-marketplace.png)
+![marketplace](../content/vscode-extension-marketplace.png)
 
 
 ## WPF Visualizer Sample
@@ -58,7 +58,7 @@ The [WPF visualizer sample project](https://github.com/Microsoft/AdaptiveCards/t
 editor is built in for editing and viewing host config settings. Save these settings as a JSON to use them in rendering
 in your application.
 
-![wpf visualizer](../../content/wpfvisualizer.png)
+![wpf visualizer](../content/wpfvisualizer.png)
 
 ## Render2Image Sample
 The [Render2Image sample project](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet/Samples/RenderImage) turns any card into a PNG from the command line.

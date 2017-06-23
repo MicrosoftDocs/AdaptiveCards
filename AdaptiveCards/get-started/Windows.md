@@ -34,12 +34,12 @@ await userActivity.SaveAsync();
 
 This session at Build 2017 covers User Activities in detial.
 
-<iframe src="https://channel9.msdn.com/Events/Build/2017/B8002/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+<iframe src="https://channel9.msdn.com/Events/Build/2017/B8108/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
 ## Other Windows Surfaces
 We don't have anything to share just yet, but we're working on incorporating Adaptive Cards into more Windows experiences.
 
-# Dive in!
+## Dive in!
 
 We've barely scratched the surface in this tutorial, so check back soon and browse the links below to explore more about Adaptive Cards.
 
