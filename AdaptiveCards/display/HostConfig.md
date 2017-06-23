@@ -5,7 +5,7 @@ This allows properties which are platform agnostic to be shared among renderers 
  
 See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/master/samples/Themes/sample.json) to get a feeling for its contents.
 
-> ![NOTE] 
+> [!NOTE]
 >
 > You are not restricited to the limited set of styling that Host Config offers. 
 > You can customize the look and feel of the card further using the styling mechanisms appropriate to the UI framework used to render the card.  For example, use CSS in HTML to change the look and behavior of action elements.
