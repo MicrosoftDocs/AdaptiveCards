@@ -4,15 +4,17 @@ Adaptive Cards are an open card exchange format enabling developers to exchange 
 
 > [!NOTE]
 >
-> We're thrilled you want to try out Adaptive Cards! :raised_hands:
+> We're thrilled you want to check out Adaptive Cards! :raised_hands:
 >
 > ... but we want to take this opportunity to remind you that **we're in preview and actively seeking feedback**, so please expect a few rough edges and reach out with any feedback you have. 
+
+The following session at Build 2017 covers the motivation and an introduction to the technology.
 
 <iframe src="https://channel9.msdn.com/Events/Build/2017/B8002/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
 ## How they work
 
-**Card Authors** describe their content as a simple JSON object. That content can then be rendered natively inside a **Host Application**, automatically adapting to the look and feel of the Host.
+**Card Creators** describe their content as a simple JSON object. That content can then be rendered natively inside a **Host Application**, automatically adapting to the look and feel of the Host.
 
 For example, Contoso Bot can author an Adaptive Card through the Bot Framework, and when delivered to Skype, it will look and feel like a Skype card. When that same payload is sent to Microsoft Teams, it will look and feel like Microsoft Teams. As more host apps start to support Adaptive Cards, that same payload will automatically light up inside these applications, yet still feel entirely native to the app.
 

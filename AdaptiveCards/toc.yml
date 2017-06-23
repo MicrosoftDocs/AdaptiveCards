@@ -3,9 +3,9 @@
 - name: Getting Started
   items: 
     - name: Bot Developers
-      href: ./getting-started/Bots.md
+      href: ./get-started/Bots.md
     - name: Windows Developers
-      href: ./getting-started/Windows.md
+      href: ./get-started/Windows.md
 - name: Creating Cards
   items:
   - name: Getting Started
