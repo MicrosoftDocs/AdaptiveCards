@@ -1,4 +1,4 @@
-# Bot Developers
+# Adaptive Cards for Bot Developers
 
 Adaptive Cards are a great fit for Bots. They let you author a card once and have it render beautifully inside multiple apps, like Skype\*, Microsoft Teams\*, your own website, and more.
 
@@ -13,7 +13,7 @@ All of the bot's responses are created with Adaptive Cards.
 
 [![Scuba chat screenshot](../content/scuba-chat.png)](http://contososcubabot.azurewebsites.net/)
 
-## Adaptive Cards in Bot Framework
+## Bot Framework Integration
 
 With the [Bot Framework](https://dev.botframework.com/) you can write a single bot that is able to chat with users across multiple "channels", like Skype, Microsoft Teams, Facebook Messenger, etc.
 
@@ -21,7 +21,7 @@ With the [Bot Framework](https://dev.botframework.com/) you can write a single b
 >
 > We're thrilled you want to try out Adaptive Cards! :raised_hands:
 >
-> ... but we want to take this opportunity to remind you that **we're in preview and actively seeking feedback**, so please expect a few rough edges and reach out with any feedback you may have. 
+> ... but we want to take this opportunity to remind you that **we're in preview and actively seeking feedback**, so please expect a few rough edges and reach out with any feedback you have. 
 
 ## Walkthrough
 

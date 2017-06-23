@@ -1,7 +1,11 @@
-- name: Home
-  href: index.md
 - name: Overview
-  href: ./about/Overview.md
+  href: index.md
+- name: Getting Started
+  items: 
+    - name: Bot Developers
+      href: ./getting-started/Bots.md
+    - name: Windows Developers
+      href: ./getting-started/Windows.md
 - name: Creating Cards
   items:
   - name: Getting Started
@@ -12,7 +16,7 @@
     href: ./create/Speech.md
   - name: Text Customization
     href: ./create/TextFeatures.md
-  - name: Libraries
+  - name: SDKs
     items:
     - name: JavaScript
       href: ./create/libraries/Javascript.md
@@ -20,15 +24,15 @@
       href: ./create/libraries/NET.md
     - name: TypeScript
       href: ./create/libraries/Typescript.md
-- name: Displaying Cards
+- name: Rendering Cards
   items:
   - name: Getting Started
     href: ./display/GettingStarted.md
-  - name: Host Config Schema
-    href: ./create/HostConfig.md
+  - name: Host Config
+    href: ./display/HostConfig.md
   - name: Implement a Renderer
-    href: ./create/ImplementingRenderer.md
-  - name: Libraries
+    href: ./display/ImplementingRenderer.md
+  - name: SDKs
     items:
       - name: Android
         href: ./display/libraries/Android.md)
