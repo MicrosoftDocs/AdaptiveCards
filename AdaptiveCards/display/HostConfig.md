@@ -1,5 +1,5 @@
 # What is HostConfig?
-HostConfig is an **shared configuration object** that specifies how an Adaptive Card Renderer generates UI.  
+`HostConfig` is a **shared configuration object** that specifies how an Adaptive Card Renderer generates UI.  
 
 This allows properties which are platform agnostic to be shared among renderers on different platforms and devices. It also allows tooling to be created which gives you an idea of the look and feel that card would have for a given environment.
  
