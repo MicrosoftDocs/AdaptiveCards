@@ -77,7 +77,7 @@ private void _OnMissingInput(object sender, MissingInputEventArgs args)
 ## Customization
 
 ### HostConfig 
-To customize the renderer, provide an instance of the HostConfig object. See the [Host Config Schema](../HostConfigSchema.md) for a full description. Since the HostConfig object is instantiated with defaults, you only have to set the properties you want to change from the defaults.
+To customize the renderer, provide an instance of the HostConfig object. See the [Host Config Schema](../HostConfig.md) for a full description. Since the HostConfig object is instantiated with defaults, you only have to set the properties you want to change from the defaults.
 Passing it to the XamlRenderer sets the default HostConfig to use for every card you render.
 
 Example:

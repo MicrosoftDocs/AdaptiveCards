@@ -8,7 +8,9 @@ Adaptive Cards are an open card exchange format enabling developers to exchange 
 >
 > ... but we want to take this opportunity to remind you that **we're in preview and actively seeking feedback**, so please expect a few rough edges and reach out with any feedback you have. 
 
-The following session at Build 2017 covers the motivation and an introduction to the technology.
+## Build 2017 Session
+
+The following session at Build 2017 covers the motivation behind Adaptive Cards and an introduction to the technology.
 
 <iframe src="https://channel9.msdn.com/Events/Build/2017/B8002/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 

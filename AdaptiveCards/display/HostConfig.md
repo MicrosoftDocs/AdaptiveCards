@@ -1,13 +1,14 @@
 # What is HostConfig?
-HostConfig is an shared configuration object which defines parameters controlling how an Adaptive Card Renderer generates UI.  
+HostConfig is an **shared configuration object** that specifies how an Adaptive Card Renderer generates UI.  
 
 This allows properties which are platform agnostic to be shared among renderers on different platforms and devices. It also allows tooling to be created which gives you an idea of the look and feel that card would have for a given environment.
  
-Examine [HostConfig.json](/samples/themes/hostconfig.json) to see a sample theme.
+See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/master/samples/Themes/sample.json) to get a feeling for its contents.
 
 > ![NOTE] 
-> You can customize the look and feel of the card further using the styling mechanisms appropriate to the UI framework 
-> used to render the card.  For example, use CSS in HTML to change the look and behavior of action elements.
+>
+> You are not restricited to the limited set of styling that Host Config offers. 
+> You can customize the look and feel of the card further using the styling mechanisms appropriate to the UI framework used to render the card.  For example, use CSS in HTML to change the look and behavior of action elements.
 
 ## HostConfig
 

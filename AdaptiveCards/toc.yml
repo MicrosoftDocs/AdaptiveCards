@@ -35,21 +35,21 @@
   - name: SDKs
     items:
       - name: Android
-        href: ./display/libraries/Android.md)
+        href: ./display/libraries/Android.md
       - name: HTML Client
-        href: ./display/libraries/HTMLClient.md)
+        href: ./display/libraries/HTMLClient.md
       - name: HTML Server
-        href: ./display/libraries/HTMLServer.md)
+        href: ./display/libraries/HTMLServer.md
       - name: Image
-        href: ./display/libraries/Image.md)
+        href: ./display/libraries/Image.md
       - name: iOS
-        href: ./display/libraries/iOS.md)
+        href: ./display/libraries/iOS.md
       - name: UWP
-        href: ./display/libraries/UWP.md)
+        href: ./display/libraries/UWP.md
       - name: WPF
-        href: ./display/libraries/WPF.md)
+        href: ./display/libraries/WPF.md
       - name: Xamarin.Forms
-        href: ./display/libraries/XamarinForms.md)
+        href: ./display/libraries/XamarinForms.md
 - name: Resources
   items:
   - name: Roadmap 

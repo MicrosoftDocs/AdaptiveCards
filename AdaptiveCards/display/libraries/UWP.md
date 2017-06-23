@@ -32,7 +32,7 @@ myGrid.Children.Add(uiCard);
 
 ### HostConfig 
 
-To customize the renderer you provide an instance of the HostConfig object. (See [Host Config Schema](/documentation/#display-hostconfigschema) for the full description.)
+To customize the renderer you provide an instance of the HostConfig object. (See [Host Config Schema](../HostConfig.md) for the full description.)
 
 > The HostConfig object will be instantiated with defaults, so you can set just the properties you want to change.
 
