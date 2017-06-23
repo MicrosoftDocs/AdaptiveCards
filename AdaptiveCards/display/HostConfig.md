@@ -271,7 +271,7 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
 | **actionMode** | [ShowActionMode](#showactionmode) | InlineEdgeToEdge | Defines whether showCard should popup or be displayed inline or inline with background extended to container boundary|
 | **backgroundColor** | string | #FFF8F8F8"| Defines inline slide-out background color |  
 | **inlineTopMargin** | number | when in inline mode defines the space between action buttons and the inline card |
-| **padding** | [SpacingDefinition]](#spacingdefinition) | {16,16,16,16} | The padding for the card when shown inline  |
+| **padding** | [SpacingDefinition](#spacingdefinition) | {16,16,16,16} | The padding for the card when shown inline  |
 
 ## SpacingDefinition
 <a name="spaceDef"></a>Defines left, top, right and bottom number values
