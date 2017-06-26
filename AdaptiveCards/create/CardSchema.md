@@ -59,7 +59,7 @@ Enumerations
 | Property | Type | Required | Description |
 |---|---|---|---|
 | **type**| **"AdaptiveCard"** | true |  |
-| **body** | [CardElement](#CardElement)[] | true | The items that are to be displayed in this container. |
+| **body** | [CardElement](#cardelement)[] | true | The items that are to be displayed in this container. |
 | **actions** |[Action](#action)[]| false | Actions |
 | **version** | string| false | version of schema that this card was authored |
 | **minVersion** | string|false| if a client doesn't support the minVersion the card should be rejected.  If it does, then the elements that are not supported are safe to ignore|
@@ -198,7 +198,7 @@ Input elements give you the ability to show input controls to the uer.
 | **speak** | [Speak](Speech.md) | false |Specifies what should be spoken for this entire element. This is a simple text or SSML fragment |
 
 ### Input ChoiceSet
-<a name="input-choiceset"></a>*Extends [CardElement](#CardElement)*
+<a name="input-choiceset"></a>*Extends [CardElement](#cardelement)*
 
 Shows an array of choices the to the user.
 
@@ -236,7 +236,7 @@ Shows an array of choices the to the user.
 | Property | Type | Required | Description |
 |---|---|---|---|
 | **type**| **"Container"**| true |  |
-| **items** |  [CardElement](#CardElement)[] | true | The items that are to be displayed in this container. |
+| **items** |  [CardElement](#cardelement)[] | true | The items that are to be displayed in this container. |
 | **actions** | [Action](#action)[] | false | Actions associated with this container. |
 | **selectAction** | [Action](#action) | false | Action to perform for a tap on this container. This allows the entire container to act as an action. |
 | **style** | normal, emphasis | normal | A container can group elements together in a normal or emphasized style. |
@@ -261,7 +261,7 @@ Shows an array of choices the to the user.
 |---|---|---|---|
 | **type**|  **"Column"** | true |  |
 | **size** | string | false | "auto", "stretch", or a number representing relative width of the column in the column Set (Default:Auto)|
-| **items** |  [CardElement](#CardElement)[] | true | The items that are to be displayed in this container. |
+| **items** |  [CardElement](#cardelement)[] | true | The items that are to be displayed in this container. |
 | **selectAction** | [Action](#action) | false | Action to perform for a tap on this container, (this allows entire container to act as an action) |
 | **separation** | [SeparationStyle](#separationstyle) | none | visually separate this element from previous element |
 | **speak** | [Speak](Speech.md) | false |Specifies what should be spoken for this entire element. This is a simple text or SSML fragment. |
