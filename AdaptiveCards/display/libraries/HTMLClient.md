@@ -11,7 +11,7 @@ This is a HTML renderer which works in the browser against the DOM.
 
 ## Add a renderer
 This is available as a NPM package. 
-```
+```console
 npm install microsoft-adaptivecards
 ```
 

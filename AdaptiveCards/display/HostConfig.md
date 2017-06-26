@@ -83,8 +83,8 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
 |---|---|---|---|
 | **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
 
-### ActionOrientation
-<a name="actionorient"></a>Controls how actions are oriented
+### ActionsOrientation
+<a name="actionsorientation"></a>Controls how actions are oriented
 
 | Value | Meaning |
 |---|---|
@@ -174,7 +174,7 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
 
 | Property | Type | default | Description |
 |---|---|---|---|
-| **imageSize** | [ImageSize](#imagesize)| Auto | The default image size to use for an image| 
+| **imageSize** | [ImageSize](#imagesizeconfig)| Auto | The default image size to use for an image| 
 | **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
 
 ## ImageSetConfig
@@ -182,7 +182,7 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
 
 | Property | Type | default | Description |
 |---|---|---|---|
-| **imageSize** | [ImageSize](#imagesize)| Medium | The default image size to use for an imageSet| 
+| **imageSize** | [ImageSize](#imagesizeconfig)| Medium | The default image size to use for an imageSet| 
 | **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
 
 

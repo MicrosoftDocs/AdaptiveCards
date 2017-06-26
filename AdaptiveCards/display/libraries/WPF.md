@@ -12,7 +12,7 @@ which means it supports `Date` and `Time` controls as simple textbox controls.
 
 ## Add a renderer
 This is available as a nuget packages. 
-```
+```console
 nuget install Microsoft.AdaptiveCards.Xaml.WPF
 ```
 ## Create an instance of the renderer

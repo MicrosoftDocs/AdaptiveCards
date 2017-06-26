@@ -14,7 +14,7 @@ The important part is that it correctly implements all of the magic STA UI goo s
 
 ## Add a renderer
 This is available as a nuget packages. 
-```
+```console
 nuget install Microsoft.AdaptiveCards.Xaml.WPF
 ```
 
@@ -104,10 +104,3 @@ Sample Xaml file which defines a round opacity mask on images of style "person".
 
 </ResourceDictionary>
 ```
-## Next steps
-
-* [Implement a renderer](../ImplementingRenderer.md) 
-* <a href="/docs/wwwroot/documentation/markdown/display/libraries">Other libraries</a>
-
-
-

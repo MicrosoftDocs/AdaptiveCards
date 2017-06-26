@@ -11,16 +11,9 @@ ms.topic: reference
 Cards
 * [AdaptiveCard](#adaptivecard) - top level card
 
-Input Elements
+Card Elements
 * [TextBlock](#textblock) - display text
 * [Image](#image) - display an image
-* [Input.Text](#input-text) - get text input from user
-* [Input.Date](#input-date) - get date input from user
-* [Input.Time](#input-time) - get time input from user
-* [Input.Number](#input-number) - get number input from user
-* [Input.Toggle](#input-toggle) - get user to select between two options
-* [Input.ChoiceSet](#input-choiceset) - display set of choices to the user 
-    * [Choice](#choice) - choice object
 
 Containers
 * [Container](#container) - container of items
@@ -36,6 +29,16 @@ Actions
 * [Action.ShowCard](#action-showcard) - defines action which shows a card to the user
 * [Action.Submit](#action-submit) - defines action which collects input and sends via client appropriate mechanism (it's up to client)
 
+Input Elements
+* [Input.Text](#input-text) - get text input from user
+* [Input.Date](#input-date) - get date input from user
+* [Input.Time](#input-time) - get time input from user
+* [Input.Number](#input-number) - get number input from user
+* [Input.Toggle](#input-toggle) - get user to select between two options
+* [Input.ChoiceSet](#input-choiceset) - display set of choices to the user 
+    * [Choice](#choice) - choice object
+
+
 Enumerations
 * [ImageSize](#imagesize) - Controls the horizontal size (width) of element.  
 * [HorizontalAlignment](#HorizontalAlignment) - Controls how items are horizontally positioned within their container.
@@ -46,7 +49,7 @@ Enumerations
 * [ImageStyle](#ImageStyle) - Controls the way Image items are displayed.
 * [ContainerStyle](#ContainerStyle) - Indicates the style of container desired.
 * [TextInputStyle](#TextInputStyle) - Style hint for [Input.text](#input-text).
-* [ChoiceSetStyle](#ChoiceSetStyle) - Style hint for [Input.ChoiceSet](#input-choiceset).
+* [ChoiceInputStyle](#ChoiceInputStyle) - Style hint for [Input.ChoiceSet](#input-choiceset).
 
 # Cards
 
@@ -61,6 +64,9 @@ Enumerations
 | **version** | string| false | version of schema that this card was authored |
 | **minVersion** | string|false| if a client doesn't support the minVersion the card should be rejected.  If it does, then the elements that are not supported are safe to ignore|
 | **fallbackText** | string|false| if a client is not able to show the card, show fallbackText to the user. This can be in markdown format. |
+
+# Card Elements
+<a name="cardelement"></a>
 
 ## Image 
 <a name="image"></a>
@@ -206,7 +212,7 @@ Shows an array of choices the to the user.
 | **id** | string | true  | ID for the value. This will be used to identify collected input when SUBMIT is clicked. |
 | **isRequired** | bool | false | The input must have a value for it to be part of a Submit or HTTP action. |
 | **speak** | [Speak](Speech.md) | false | Specifies what should be spoken for this entire element. This is simple text or SSML fragment. |
-| **style**| [ChoiceSetStyle](#choicesetstyle) | false | Hint of style of input. |
+| **style**| [ChoiceInputStyle](#choiceinputstyle) | false | Hint of style of input. |
 | **isMultiSelect** | boolean | false | Allow multiple choices to be selected (Default=false)|
 | **choices** | Choice[] | true | The choice options |
 | **separation** | [SeparationStyle](#separationstyle) | none | Visually separate this element from previous element |
@@ -291,6 +297,7 @@ Shows an array of choices the to the user.
 | **speak** | [Speak](Speech.md) | false | Specifies what should be spoken for this entire element. This is simple text or SSML fragment. |
 
 # Actions
+<a name="action"></a>
 Actions define clickable targets that do something.
 
 ## Action Http
@@ -428,10 +435,10 @@ The following enumerations are used by various element types.
 | **url** | Input is a url and the client may use this information to provide optimized keyboard input for the user.|
 | **email** | Input is a email and the client may use this information to provide optimized keyboard input for the user.|
 
-## ChoiceSetStyle
-<a name="ChoiceSetStyle"></a>Style hint for [Input.ChoiceSet](#input-choiceset).
+## ChoiceInputStyle
+<a name="ChoiceInputStyle"></a>Style hint for [Input.ChoiceSet](#input-choiceset).
 
 | Value | Meaning |
 |---|---|
-| **compact** | choices are preferred to be compactly displayed. Example: ComboBox ) |
-| **expanded** | choices are preferred to be displayed for easy input. Example: Checkbox or Radio buttons) |
+| **compact** | choices are preferred to be compactly displayed. Example: ComboBox |
+| **expanded** | choices are preferred to be displayed for easy input. Example: Checkbox or Radio buttons |

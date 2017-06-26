@@ -16,7 +16,7 @@ You can use any tooling you want to create the adaptive card JSON.
 The **microsoft-adaptivecards** npm package defines a typescript library  for working with adaptive cards in Typescript
 
 ## To install
-```
+```console
 npm install microsoft-adaptivecards
 ```
 There are interface definitions in `schema.d.ts` which describe the shape of the schema.

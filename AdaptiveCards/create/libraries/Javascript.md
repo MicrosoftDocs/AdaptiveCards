@@ -14,7 +14,7 @@ You can use any tooling that you want to create the adaptive card json.
 The `microsoft-adaptivecards` npm package defines a library  for working with adaptive cards in javascript
 
 ## To install
-```
+```console
 npm install microsoft-adaptivecards
 ```
 

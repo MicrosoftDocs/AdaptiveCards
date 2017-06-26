@@ -30,7 +30,7 @@ The [`Windows.ApplicationModel.UserActivities.UserActivity`](https://docs.micros
 
 The Adaptive Card will be supplied via the `Content` property of `VisualElement`, as seen below:
 
-```
+```csharp
 UserActivity userActivity = await channel.GetOrCreateUserActivityAsync(activityId, new HostName("contoso.com"));
 userActivity.ActivationUri = new Uri("rss-reader:article?" + article.Link);
 userActivity.DisplayText = article.Title; //used for details tile text
