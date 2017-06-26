@@ -6,7 +6,7 @@ ms.date: 06/26/2017
 ms.topic: reference
 ---
 
-# Table of Contents
+# Card Schema
 
 Cards
 * [AdaptiveCard](#adaptivecard) - top level card
