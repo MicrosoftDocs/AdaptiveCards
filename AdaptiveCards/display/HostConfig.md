@@ -25,7 +25,7 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
 | **actions** | [ActionsConfig](#actionsconfig) | - | Defines configuration for actions in general|
 | **actionAlignment** | [ActionAlignment](#actionalign) |  - |Controls how actions are horizontally positioned within their container | 
 | **actionSetConfig** | [ActionSetConfig](#actionSetconfig) |  - |Defines ActionSet configuration  | 
-| **actionOrientation** | [ActionOrientation](#actionorient) |  - |Controls how actions are oriented | 
+| **actionsOrientation** | [ActionsOrientation](#actionsorientation) |  - |Controls how actions are oriented | 
 | **adaptiveCard**| [AdaptiveCardConfig](#adaptivecardconfig) | - | Defines adaptive card configuration |
 | **choiceSet**| [ChoiceSetConfig](#choicesetconfig) | - | Defines ChoiceSet configuration |
 | **colors** | [ColorsConfig](#colorsconfig) | - | Defines color palette|
@@ -174,7 +174,7 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
 
 | Property | Type | default | Description |
 |---|---|---|---|
-| **imageSize** | [ImageSize](#imagesizeconfig)| Auto | The default image size to use for an image| 
+| **imageSize** | [ImageSize](#imagesizesconfig)| Auto | The default image size to use for an image| 
 | **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
 
 ## ImageSetConfig
@@ -182,7 +182,7 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
 
 | Property | Type | default | Description |
 |---|---|---|---|
-| **imageSize** | [ImageSize](#imagesizeconfig)| Medium | The default image size to use for an imageSet| 
+| **imageSize** | [ImageSize](#imagesizesconfig)| Medium | The default image size to use for an imageSet| 
 | **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
 
 
