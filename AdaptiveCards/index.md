@@ -1,3 +1,11 @@
+---
+title:  Adaptive Cards Overview
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # Adaptive Cards Overview 
 
 Adaptive Cards are an open card exchange format enabling developers to exchange UI content in a common and consistent way.
