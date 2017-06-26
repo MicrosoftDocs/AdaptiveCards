@@ -6,7 +6,7 @@
       href: ./get-started/Bots.md
     - name: Windows Developers
       href: ./get-started/Windows.md
-- name: Creating Cards
+- name: Authoring Cards
   items:
   - name: Getting Started
     href: ./create/GettingStarted.md
