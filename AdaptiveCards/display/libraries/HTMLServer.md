@@ -1,3 +1,11 @@
+---
+title: HTML Server SDK
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # HTML server library
 This is a .NET server side library for generating HTML markup to be sent to a client.
 

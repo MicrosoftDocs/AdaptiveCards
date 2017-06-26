@@ -1,3 +1,11 @@
+---
+title: .NET Image Rendering SDK
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # Image library
 This is a WPF-based renderer which renders to an png image. 
 The important part is that it correctly implements all of the magic STA UI goo so that it can be used on a server safely. 

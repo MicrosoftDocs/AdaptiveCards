@@ -1,3 +1,11 @@
+---
+title: Text Features
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # Text features
 TextBlock is one of the core elements and has some special features in the interpretation of text.
 

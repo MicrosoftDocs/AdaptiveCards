@@ -1,3 +1,11 @@
+---
+title: TypeScript SDK for Adaptive Cards
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # Typescript libraries for card creation
 As we described in the Getting Started, an adaptive card is nothing more then a serialized JSON object of 
 a card object model. To make it easy to manipulate the object model, we defined libraries which 

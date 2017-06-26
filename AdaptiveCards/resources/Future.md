@@ -1,3 +1,11 @@
+---
+title:  Adaptive Cards for Bot Developers
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # Future work
 While we have made excellent progress defining adaptive cards, there is still lots of work to do. 
 

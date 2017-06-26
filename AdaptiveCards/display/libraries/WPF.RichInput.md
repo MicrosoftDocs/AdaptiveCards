@@ -1,3 +1,11 @@
+---
+title: WPF RichInput SDK
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # WPF RichInput library
 This library is a extension of the WPF renderer.  It adds a dependency on the 
 WPF Toolkit to add rich Email, Number, Telephone, Date and Time input controls.

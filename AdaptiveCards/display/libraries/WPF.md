@@ -1,3 +1,11 @@
+---
+title: WPF SDK
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # WPF library
 This is a renderer which targets WPF Xaml.  It has no dependencies outside of standard Windows components, 
 which means it supports `Date` and `Time` controls as simple textbox controls.

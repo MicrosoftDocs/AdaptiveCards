@@ -1,3 +1,11 @@
+---
+title:  Adaptive Cards for Bot Developers
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # Adaptive Cards for Bot Developers
 
 Adaptive Cards are a great fit for Bots. They let you author a card once and have it render beautifully inside multiple apps, like Skype\*, Microsoft Teams\*, your own website, and more.

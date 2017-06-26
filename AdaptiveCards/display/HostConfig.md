@@ -1,3 +1,11 @@
+---
+title: HostConfig for Adaptive Cards
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # What is HostConfig?
 `HostConfig` is a **shared configuration object** that specifies how an Adaptive Card Renderer generates UI.  
 

@@ -1,3 +1,11 @@
+---
+title:  Adaptive Cards Tools
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # Schema validation
 Schema validation is a powerful way of making authoring easier and enabling tooling.
 

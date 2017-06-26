@@ -1,4 +1,12 @@
-# Get Started 
+---
+title: Getting Started
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: get-started-article
+---
+
+# Getting Started 
 
 An Adaptive Card is nothing more than a JSON-serialized card object model.
 

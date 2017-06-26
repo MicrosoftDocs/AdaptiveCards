@@ -1,4 +1,12 @@
-# Implement a Renderer
+---
+title: Implementing a Renderer
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
+# Implementing a Renderer
 
 The following guidance describes how each of the renderers is implemented and how to follow the same concepts to implement a renderer on any UI platform.
 

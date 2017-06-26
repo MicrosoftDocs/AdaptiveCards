@@ -1,4 +1,12 @@
-# Get started adding cards to your application
+---
+title: Displaying Cards inside your application
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
+# Displaying Cards inside your application
 To add the ability to display cards in your application:
 
 1. **Add a renderer library** - add a reference to a renderer library appropriate to your application.

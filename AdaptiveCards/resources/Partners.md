@@ -1,3 +1,11 @@
+---
+title:  Adaptive Cards Partners
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # Partners 
 Adaptive cards are only useful if they benefit to a broad set of developers.  We will
 develop adaptive cards in cooperation with communities and companies which share the vision 

@@ -1,3 +1,12 @@
+---
+title:  Handling Speech
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
+
 # Handling speech
 To support speech adaptive cards has the *speak* property which contains information on how to create speech to play for the user.
 

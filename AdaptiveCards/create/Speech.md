@@ -1,3 +1,11 @@
+---
+title: Speech and Advanced Customization
+author: matthidinger
+ms.author: mahiding
+ms.date: 06/26/2017
+ms.topic: article
+---
+
 # Speech and advanced customization
 We live in an era of speech interaction via services like Cortana.  Adaptive cards are designed from day one
 to support speech, enabling cool new hands-full scenarios.
