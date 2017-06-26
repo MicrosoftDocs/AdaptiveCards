@@ -14,7 +14,7 @@ define a strongly-typed class hierarchy that makes it easy to serialize/deserial
 You can use any tooling that you want to create the adaptive card JSON.
 
 ## .NET 
-The **Microsoft.AdaptiveCards** nuget package defines a class hierachy for working with adaptive cards in .NET
+The `Microsoft.AdaptiveCards` nuget package defines a class hierachy for working with adaptive cards in .NET
 
 ### To install
 ```console
