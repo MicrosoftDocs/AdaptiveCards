@@ -34,7 +34,7 @@ recipient's timezone.  This is a much easier task for the client than for the se
 
 These functions can be invoked anywhere in the text of a text block.
 
-```javascript
+```json
 "Your order was shipped {{DATE(2017-02-13T20:46:30Z, Long)}} and will arrive at {{TIME(2017-02-13T20:00:00Z, Short)}}" 
 ```
 
@@ -44,18 +44,18 @@ The DATE function is passed an [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601
 
 The format is expressed as a binding clause like this:
 
-```javascript
+```json
 {{DATE(..iso-8601.., Short|Long)}}
 ```
 
 Example for (en-us):
-```javascript
+```json
 {{DATE(2017-02-13T20:46:30Z, Short)}} => 2/13/2017
 {{DATE(2017-02-13T20:46:30Z, Long)}} => Monday, February 13, 2017
 ```
 The Hint part of the function is optional and can be omitted.
 
-```javascript
+```json
 {{DATE(2017-02-13T20:46:30z)}}
 ```
 
@@ -65,16 +65,16 @@ The TIME function is passed an ISO-8601 formatted date-time record (example: 201
 
 The format is expressed as a binding clause like this:
 
-```javascript
+```json
 {{TIME(..iso-8601.., Short|Long)}}
 ```
 Example for (en-us):
-```javascript
+```json
 {{TIME(2017-02-13T20:46:30Z, Short)}} => 8:46 PM
 {{TIME(2017-02-13T20:46:30Z, Long)}} => 8:46:30 PM
 ```
 The Hint part of the function is optional and can be omitted.
 
-```javascript
+```json
 {{TIME(2017-02-13T20:46:30z)}}
 ```

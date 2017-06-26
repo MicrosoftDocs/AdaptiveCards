@@ -24,7 +24,7 @@ There are two patterns for speak property usage by a host application:
 
 ### Examples
 
-```javascript
+```json
     "speak":"hello world!"
 
     "speak":"<s>This is sentence 1.</s><s>This is sentence two</s>"
