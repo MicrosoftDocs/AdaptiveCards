@@ -76,6 +76,6 @@ By focusing on keeping it simple and expressive, Markdown created an easy and co
 same way, we believe that Adaptive Cards can create a simple, expressive means of describing card content.
 
 ### When in doubt, keep it out
-It is easier to add later then it is to live with a mistake. Iif we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
+It is easier to add later then it is to live with a mistake. If we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
 
 
