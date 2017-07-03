@@ -15,7 +15,7 @@ To understand the object model represented by the JSON, it is useful to understa
 
 A simple example card which has a single line of text followed by an image:
 
-```javascript
+```json
 {
     "type": "AdaptiveCard",
     "version": "0.5",

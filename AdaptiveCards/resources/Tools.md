@@ -20,7 +20,7 @@ In Visual Studio and Visual Studio Code you can get automatic Intellisense by in
 ![autocomplete](../content/autocomplete.png)
 
 Example:
-```javascript
+```json
 {
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
     "type": "AdaptiveCard",
