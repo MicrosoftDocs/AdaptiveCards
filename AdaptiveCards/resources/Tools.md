@@ -60,6 +60,27 @@ To install, open Extensions Marketplace and search for **Adaptive Card Viewer**.
 
 ![marketplace](../content/vscode-extension-marketplace.png)
 
+**Usage**
+
+When you are editing a .json file with a adaptive card $`schema` property you can view by using **Ctrl+Shift+V A**.
+```js
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": []
+}
+```
+
+**Options**
+
+The following Visual Studio Code setting is available for the AdaptiveCards Viewer. This can be set in User Settings or Workspace Settings.
+```js
+{
+    // Open or not open the preview screen automatically
+    "adaptivecardsviewer.enableautopreview": true,
+}
+```
 
 ## WPF Visualizer Sample
 The [WPF visualizer sample project](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet/Samples/WPFVisualizer) lets you visualize cards using WPF/Xaml on a Windows machine.  A `hostconfig`
