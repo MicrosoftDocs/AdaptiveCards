@@ -121,8 +121,8 @@ The Bot Framework lets you publish your bot to multiple channels. We're working 
 
 Channel | Status
 --------|-------
-[Emulator](https://docs.microsoft.com/en-us/bot-framework/debug-bots-emulator) | Full support
-[WebChat Control](https://github.com/Microsoft/BotFramework-WebChat) | Full support
+[Emulator](https://docs.microsoft.com/en-us/bot-framework/debug-bots-emulator) | Full support ([except Action.Http](https://github.com/Microsoft/BotFramework-WebChat/blob/master/AdaptiveCards.md#actions))
+[WebChat Control](https://github.com/Microsoft/BotFramework-WebChat) | Full support ([except Action.Http](https://github.com/Microsoft/BotFramework-WebChat/blob/master/AdaptiveCards.md#actions))
 Skype | Full support coming soon
 Microsoft Teams | Full support coming soon
 Bing | Coming soon via Skype Webchat Control
