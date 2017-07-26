@@ -62,7 +62,7 @@ To install, open Extensions Marketplace and search for **Adaptive Card Viewer**.
 
 **Usage**
 
-When you are editing a .json file with a adaptive card $`schema` property you can view by using **Ctrl+Shift+V A**.
+When you are editing a .json file with a adaptive card `$schema` property you can view by using **Ctrl+Shift+V A**.
 ```js
 {
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
