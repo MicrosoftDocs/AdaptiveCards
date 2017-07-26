@@ -9,8 +9,8 @@ ms.topic: article
 # Schema validation
 Schema validation is a powerful way of making authoring easier and enabling tooling.
 
-## JSON Schema file
-We have provided a complete [JSON schema file](http://adaptivecards.io/schemas/adaptive-card.json) for editing and validating 
+## JSON Schema
+We have provided a complete [JSON Schema file](http://adaptivecards.io/schemas/adaptive-card.json) for editing and validating 
 adaptive cards in json.
 
 In Visual Studio and Visual Studio Code you can get automatic Intellisense by including a `$schema` reference.
@@ -19,7 +19,8 @@ In Visual Studio and Visual Studio Code you can get automatic Intellisense by in
 
 ![autocomplete](../content/autocomplete.png)
 
-Example:
+### Example
+
 ```json
 {
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
@@ -27,24 +28,6 @@ Example:
     "version": "0.5",
     "body": []
 }
-```
-
-## XSD Schema file
-The Microsoft.AdaptiveCards .NET library has XML annotations so that you can serialize and deserialize XML 
-as well as JSON, making it easy to use with XML-based toolsets. 
-
-We have provided a complete [XSD schema file](http://adaptivecards.io/schemas/adaptive-card.xsd) for editing and validating 
-adaptive cards in xml.
-
-In Visual Studio and Visual Studio Code you can get automatic Intellisense by including a XSD reference like this:
-
-```xml
-<?xml version="1.0" encoding="utf-16"?>
-<AdaptiveCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    xsi:noNamespaceSchemaLocation="http://adaptivecards.io/schemas/adaptive-card.xsd">
-  <TextBlock Text="Hello world" />
-</AdaptiveCard>
 ```
 
 # Tools and samples
@@ -60,10 +43,10 @@ To install, open Extensions Marketplace and search for **Adaptive Card Viewer**.
 
 ![marketplace](../content/vscode-extension-marketplace.png)
 
-**Usage**
+### Usage
 
-When you are editing a .json file with a adaptive card `$schema` property you can view by using **Ctrl+Shift+V A**.
-```js
+When you are editing a .json file with an Adaptive Card `$schema` property you can view by using `Ctrl+Shift+V A`.
+```json
 {
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
     "type": "AdaptiveCard",
@@ -72,9 +55,10 @@ When you are editing a .json file with a adaptive card `$schema` property you ca
 }
 ```
 
-**Options**
+### Options
 
 The following Visual Studio Code setting is available for the AdaptiveCards Viewer. This can be set in User Settings or Workspace Settings.
+
 ```js
 {
     // Open or not open the preview screen automatically
