@@ -28,7 +28,7 @@ var card = new AdaptiveCard();
 card.Body.Add(new TextBlock() 
 {
     Text = "Hello",
-    Size = TextSizes.ExtraLarge,
+    Size = TextSize.ExtraLarge,
     Color = TextColor.Attention
 });
 card.Body.Add(new Image() 
