@@ -103,7 +103,7 @@ You can:
 * Add multiple types of `Actions`
 * Collect `Input` from your users
 * Have one card `show another card`
-* ...[and more](http://localhost:55000/explorer/)! 
+* ...[and more](http://adaptivecards.io/explorer/)! 
 
 ## Platform SDKs
 
@@ -117,12 +117,12 @@ NodeJS | `npm install microsoft-adaptivecards` | [Bot Framework NodeJS Docs](htt
 
 ## Channel status
 
-The Bot Framework let's you publish your bot to multiple channels. We're working with various channels to provide full support for Adaptive Cards. Below is the current list of channels and their status.
+The Bot Framework lets you publish your bot to multiple channels. We're working with various channels to provide full support for Adaptive Cards. Below is the current list of channels and their status.
 
 Channel | Status
 --------|-------
-[Emulator](https://docs.microsoft.com/en-us/bot-framework/debug-bots-emulator) | Full support
-[WebChat Control](https://github.com/Microsoft/BotFramework-WebChat) | Full support
+[Emulator](https://docs.microsoft.com/en-us/bot-framework/debug-bots-emulator) | Full support ([except Action.Http](https://github.com/Microsoft/BotFramework-WebChat/blob/master/AdaptiveCards.md#actions))
+[WebChat Control](https://github.com/Microsoft/BotFramework-WebChat) | Full support ([except Action.Http](https://github.com/Microsoft/BotFramework-WebChat/blob/master/AdaptiveCards.md#actions))
 Skype | Full support coming soon
 Microsoft Teams | Full support coming soon
 Bing | Coming soon via Skype Webchat Control

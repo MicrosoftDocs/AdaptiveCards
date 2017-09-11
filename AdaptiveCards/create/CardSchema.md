@@ -310,7 +310,7 @@ Actions define clickable targets that do something.
 | **speak** | [Speak](Speech.md) | false | Specifies what should be spoken for this entire element.  This is simple text or SSML fragment. |
 | **url** | string | true | url to use (can have binding information) |
 | **method** | string | true | HTTP method (Example: POST) |
-| **headers** | object | false | Object which represents headers Example: { "content-type":"application/json" }  |
+| **headers** | array | false | The HTTP headers to send with the request. Each item in the array should be a name/value pair. Example: [{ "name": "content-type", "value: "application/json" }]  |
 | **body** | string | false | content to post (can have binding information) |
 
 ## Action OpenUrl
