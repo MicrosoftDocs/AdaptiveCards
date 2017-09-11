@@ -11,7 +11,7 @@ ms.topic: article
 > This content is not finished yet and some major pieces are missing. Check back shortly.
 
 # Renderer Status
-The following functionality **SHOULD** be included in every Adaptive Cards renderer.
+The following functionality should be included in every Adaptive Cards renderer.
 
 ## Parsing
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
@@ -51,7 +51,7 @@ Action.ShowCard inline expansion | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 ## Inputs
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Input binding | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+Input value substitution | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ## Events
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
@@ -90,7 +90,7 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 1. A renderer **MUST** ignore unknown elements, and continue rendering the rest of the payload
 
 > MATT TODO
-> * Author final v1.0 json-schema and update docs, including separation/spacing model, `extensions`
+> * Author final v1.0 json-schema and update docs, including separation/spacing model, `extensions`, id property
 > * 1 BREAKING CHANGE on the table is `backgroundImage` property moves into an `images` object.
 
 ### Spacing
@@ -124,19 +124,18 @@ _Not supported_
 
 #### Formatting functions
 
-1. `TextBlock`s allow [date/time formatting functions](../create/TextFeatures.md) that **MUST** be supported on every renderer.
+1. `TextBlock` allows [date/time formatting functions](../create/TextFeatures.md) that **MUST** be supported on every renderer.
 1. TODO: Include regex and spec
 
 
 ### Images
 
-1. TODO Any image notes?
-1. Prefetch images
-1. When downloading HTTP images you **MUST** inspect the Host Config `maxImageSize` param
+1. A renderer **MUST** optionally allow host apps to prefetch any HTTP images and only return when the card has been fully rendererd.
+1. A renderer **MUST** inspect the Host Config `maxImageSize` param when downloading HTTP images
 
 ### Host Config
 
-[`HostConfig`](../HostConfig.md) is a **shared configuration object** that specifies how an Adaptive Card Renderer generates UI.  
+[`HostConfig`](../HostConfig.md) is a shared configuration object that specifies how an Adaptive Card Renderer generates UI.  
 
 This allows properties which are platform agnostic to be shared among renderers on different platforms and devices. It also allows tooling to be created which gives you an idea of the look and feel that card would have for a given environment.
 
