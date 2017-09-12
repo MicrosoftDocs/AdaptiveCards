@@ -237,7 +237,6 @@ Shows an array of choices the to the user.
 |---|---|---|---|
 | **type**| **"Container"**| true |  |
 | **items** |  [CardElement](#cardelement)[] | true | The items that are to be displayed in this container. |
-| **actions** | [Action](#action)[] | false | Actions associated with this container. |
 | **selectAction** | [Action](#action) | false | Action to perform for a tap on this container. This allows the entire container to act as an action. |
 | **style** | normal, emphasis | normal | A container can group elements together in a normal or emphasized style. |
 | **separation** | [SeparationStyle](#separationstyle) | none | Visually separates this element from the previous element. |
