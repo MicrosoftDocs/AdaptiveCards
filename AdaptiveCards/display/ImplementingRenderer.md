@@ -17,7 +17,7 @@ The following functionality should be included in every Adaptive Cards renderer.
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Validate JSON-schema | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Return validation errors | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+Return validation failures | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Parse extension properties | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ## Versioning
@@ -33,7 +33,7 @@ Render full schema | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Ignore unknown Elements | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Host Config support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Native platform styling | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
-Markdown processing | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
+Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 
 ## Extensbility
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
@@ -87,11 +87,11 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 
 > MATT TODO
 > * Author final v1.0 json-schema and update docs, including separation/spacing model, `extensions`, id property
-> * 1 BREAKING CHANGE on the table is `backgroundImage` property moves into an `images` object.
 
 ### Spacing
 
-> TODO: detail spacing spec
+> MATT TODO: detail spacing spec
+https://github.com/Microsoft/AdaptiveCards/issues/462
 
 ### Columns
 
@@ -147,14 +147,15 @@ This allows properties which are platform agnostic to be shared among renderers 
 
 1. A renderer **MUST** allow host apps to override default element renderers. E.g., replace `TextBlock` rendering with their own logic.
 1. A renderer **MUST** allow host apps to register custom element types. E.g., add support for a custom `ProgressBar` element
-1. A renderer **MUST** allow host apps to remove support for a default element. E.g., remove `Action.Http` if they don't want it supported.
+1. A renderer **MUST** allow host apps to remove support for a default element. E.g., remove `Action.Submit` if they don't want it supported.
 
 ## Actions
 
 1. If HostConfig `supportsInteractivity` is `false`, a renderer **MUST NOT** render any actions.
 1. The `actions` property **MUST** be rendered as buttons in some kind of action bar, usually at the bottom of the card. 
 1. When a button is tapped it **MUST** allow the host app to handle the event. 
-1. The event **MUST** pass along all associated properties with the action, along with `input` value-substitution (explained below).
+1. The event **MUST** pass along all associated properties with the action
+1. The event **MUST** pass along the `AdaptiveCard` which was executed
 
 Action | Behavior
 --- | ---
@@ -171,6 +172,11 @@ Action | Behavior
 1. `Action.ShowCard` **MUST** be supported in some way, based on the hostConfig setting. There are two modes: inline, and popup. Inline cards **SHOULD** toggle the card visibility automatically. In popup mode, an event **SHOULD** be fired to the host app to show the card in some way.
 
 ### Action.Submit
+
+The Submit Action behaves like an HTML form submit, except that where HTML typically triggers an HTTP post, Adaptive Cards leaves it up to each host app to determine what "submit" means to them. 
+
+1. When this **MUST** raise an event the user taps the action invokved.  
+1. The `data` property **MUST** be included in the callback payload.
 1. For `Action.Submit`, a renderer **MUST** gather all inputs on the card and retrieve their values. This RegEx can be used to gather input values: `/\{{2}([a-z0-9_$@]+).value\}{2}/gi;`
 
 
