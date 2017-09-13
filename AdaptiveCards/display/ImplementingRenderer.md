@@ -45,13 +45,9 @@ Remove Element Renderer | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 ## Actions
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Fire event when tapped | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Action.ShowCard inline expansion | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-
-## Inputs
-Functionality | HTML | .NET HTML | UWP | iOS | Android | React
---- | --- | --- | --- | --- | --- | ---
-Input value substitution | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+Action.OpenUrl support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+Action.ShowCard support  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+Action.Submit support  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ## Events
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
@@ -135,7 +131,7 @@ _Not supported_
 
 ### Host Config
 
-[`HostConfig`](../HostConfig.md) is a shared configuration object that specifies how an Adaptive Card Renderer generates UI.  
+[`HostConfig`](HostConfig.md) is a shared configuration object that specifies how an Adaptive Card Renderer generates UI.  
 
 This allows properties which are platform agnostic to be shared among renderers on different platforms and devices. It also allows tooling to be created which gives you an idea of the look and feel that card would have for a given environment.
 
@@ -155,6 +151,7 @@ This allows properties which are platform agnostic to be shared among renderers 
 
 ## Actions
 
+1. If HostConfig `supportsInteractivity` is `false`, a renderer **MUST NOT** render any actions.
 1. The `actions` property **MUST** be rendered as buttons in some kind of action bar, usually at the bottom of the card. 
 1. When a button is tapped it **MUST** allow the host app to handle the event. 
 1. The event **MUST** pass along all associated properties with the action, along with `input` value-substitution (explained below).
@@ -162,18 +159,26 @@ This allows properties which are platform agnostic to be shared among renderers 
 Action | Behavior
 --- | ---
 **Action.OpenUrl** | Open an external URL for viewing
-**Action.ShowCard** | Requests a sub-card to be shown to the user.  
-**Action.Http** | Requests that all of the input data is gathered up and sent via an HTTP call 
+**Action.ShowCard** | Requests a sub-card to be shown to the user.
 **Action.Submit** | Ask for all of the input elements to be gathered up into an object which is then sent to you through some method defined by the host application.
+
+### Action.OpenUrl
+1. `Action.OpenUrl` **SHOULD** open a URL using the native platform mechanism
+1. If this is not possible it **MUST** raise an event to the host app to handle opening the URL. This event **MUST** allow the host app to override the default behavior. E.g., let them open the URL within their own app.
 
 ### Action.ShowCard
 
 1. `Action.ShowCard` **MUST** be supported in some way, based on the hostConfig setting. There are two modes: inline, and popup. Inline cards **SHOULD** toggle the card visibility automatically. In popup mode, an event **SHOULD** be fired to the host app to show the card in some way.
 
+### Action.Submit
+1. For `Action.Submit`, a renderer **MUST** gather all inputs on the card and retrieve their values. This RegEx can be used to gather input values: `/\{{2}([a-z0-9_$@]+).value\}{2}/gi;`
+
+
 ## Inputs
 
-1. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then you **SHOULD** always fall back to rendering a standard text box.
-1. For `Action.Submit`, a renderer **MUST** gather all inputs on the card and retrieve their values. This RegEx can be used to gather input values: `/\{{2}([a-z0-9_$@]+).value\}{2}/gi;`
+1. If HostConfig `supportsInteractivity` is `false` a renderer **MUST NOT** render any inputs.
+1. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then you **MUST** always fall back to rendering a standard text box.
+
 
 1. The object **MUST** be returned to the host app as follows:
 * MATT TODO SPEC
