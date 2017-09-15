@@ -136,7 +136,7 @@ Input elements give you the ability to show input controls to the uer.
 | **isRequired** | bool | false | The input must have a value for it to be part of a Submit or HTTP action |
 | **speak** | [Speak](Speech.md) | false | Specifies what should be spoken for this entire element.  This is simple text or SSML fragment. |
 | **value** | string | false | The initial value for a field |
-| **placeholder** | string | false | initial text descripting the input desired |
+| **placeholder** | string | false | initial text describing the input desired |
 | **min** | string | false | Minimum date in ISO-8601 format (Not all clients will be able to honor this)|
 | **max** | string  | false | Maximum date in ISO-8601 format (Not all clients will be able to honor this)|
 | **separation** | [SeparationStyle](#separationstyle) | none | visually separate this element from previous element |

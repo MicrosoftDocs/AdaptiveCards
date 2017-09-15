@@ -30,6 +30,7 @@ Return fallback text on failure | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Render full schema | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+TextBlock customizations | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Ignore unknown Elements | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Host Config support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Native platform styling | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
@@ -72,6 +73,10 @@ The following guidance describes how each of the renderers is implemented and ho
 1. A renderer **MUST** check if the content exceeds the `maxPayloadSize` from Host Config
 1. If unknown elements are encountered they **MUST** give the host app the opportunity to access them before rendering
 1. A renderer **MUST** parse `extension` properties. TODO: This may not be necessary to highlight if they are in the json schema?
+1. The `speak` property may contain SSML markup and **MUST** be returned to the host app as-specified
+
+## Parsing Host Config
+1. TODO MATT
 
 ## Versioning
 
@@ -90,6 +95,7 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 
 ### Spacing
 
+1. A visible separator **MUST** only be drawn if the item is not the first in an array.
 > MATT TODO: detail spacing spec
 https://github.com/Microsoft/AdaptiveCards/issues/462
 
@@ -109,8 +115,8 @@ Text Style | Markdown
 ---|---
 **Bold**        | `**Bold**`
 _Italic_        | `_Italic_`
-Bullet list     | ```- Item 1<br/>- Item 2<br/>- Item 3```
-Numbered list   | ```1. Green<br/>2. Orange<br/>3. Blue```
+Bullet list     | ```- Item 1\r- Item 2\r- Item 3```
+Numbered list   | ```1. Green\r2. Orange\r3. Blue```
 Hyperlinks      | ```[Title](url)```
 
 _Not supported_
@@ -128,6 +134,11 @@ _Not supported_
 
 1. A renderer **MUST** optionally allow host apps to prefetch any HTTP images and only return when the card has been fully rendererd.
 1. A renderer **MUST** inspect the Host Config `maxImageSize` param when downloading HTTP images
+
+#### Image content
+1. A renderer **MUST** support .png and .jpeg
+1. A renderer **SHOULD** support .gif images
+
 
 ### Host Config
 
@@ -183,8 +194,8 @@ The Submit Action behaves like an HTML form submit, except that where HTML typic
 ## Inputs
 
 1. If HostConfig `supportsInteractivity` is `false` a renderer **MUST NOT** render any inputs.
-1. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then you **MUST** always fall back to rendering a standard text box.
-
+1. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then you **MUST** fall back to rendering a standard text box.
+1. A renderer **MUST** display the `placeholderText` in the most appropriate way possible
 
 1. The object **MUST** be returned to the host app as follows:
 * MATT TODO SPEC
