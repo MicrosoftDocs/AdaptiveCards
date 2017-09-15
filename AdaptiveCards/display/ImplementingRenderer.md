@@ -29,25 +29,25 @@ Return fallback text on failure | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 ## Rendering
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Render full schema | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Ignore unknown Elements | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Host Config support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
+Render full schema | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
+Ignore unknown Elements | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ 
+Host Config support | ✅ | ❌ | ✅ | ❌ | ✅ | ❌
 Native platform styling | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 
 ## Extensbility
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Override Element Renderer | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
-Add new Element Renderer | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
-Remove Element Renderer | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
+Override Element Renderer | ✅ | ❌ | ❌ | ❌ | ✅ | ❌
+Add new Element Renderer | ✅ | ❌ | ❌ | ❌ | ✅ | ❌
+Remove Element Renderer | ✅ | ❌ | ❌ | ❌ | ✅ | ❌
 
 ## Actions
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Action.OpenUrl support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Action.ShowCard support  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Action.Submit support  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+Action.OpenUrl support | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
+Action.ShowCard support  | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
+Action.Submit support  | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
 
 ## Events
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
