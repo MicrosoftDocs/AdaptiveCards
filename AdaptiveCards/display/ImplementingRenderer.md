@@ -35,9 +35,9 @@ TextBlock customizations | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Ignore unknown Elements | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Host Config support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 =======
-Render full schema | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Ignore unknown Elements | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Host Config support | ✅ | ❌ | ✅ | ❌ | ✅ | ❌
+Render full schema | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Ignore unknown Elements | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Host Config support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌
 >>>>>>> b685c524282bae42ec345553184c9157071a7b1e
 Native platform styling | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
@@ -52,9 +52,9 @@ Remove Element Renderer | ✅ | ❌ | ❌ | ❌ | ✅ | ❌
 ## Actions
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Action.OpenUrl support | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Action.ShowCard support  | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Action.Submit support  | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
+Action.OpenUrl support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Action.ShowCard support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Action.Submit support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
 
 ## Events
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
