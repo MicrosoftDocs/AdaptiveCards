@@ -19,6 +19,11 @@ Create an instance of the renderer library.
 var renderer = new XamlCardRenderer();
 ```
 
+## Create a card from a JSON string
+```csharp
+var card = AdaptiveCard.CreateCardFromJson(jsonString);
+```
+
 ## Render a card
 Acquire a card from a source and render it.
 
@@ -33,7 +38,8 @@ Here is an example from the UWP renderer.
 
 ```csharp
 var renderer = new XamlCardRenderer();
-var uiCard = await renderer.RenderCardAsXamlAsync(_card);
+var card = AdaptiveCard.CreateCardFromJson(jsonString);
+var uiCard = await renderer.RenderCardAsXamlAsync(card);
 myGrid.Children.Add(uiCard);
 ...
 ```
@@ -47,7 +53,7 @@ To customize the renderer you provide an instance of the HostConfig object. (See
 
 Example:
 ```csharp
-var hostOptions = new AdaptiveHostOptions() 
+var hostConfig = new AdaptiveHostConfig() 
 {
     FontSizes = {
         Small = 15,
@@ -57,8 +63,17 @@ var hostOptions = new AdaptiveHostOptions()
         ExtraLarge= 40
     }
 };
-renderer.HostOptions = hostConfig;
+renderer.HostConfig = hostConfig;
 ```
+> Alternatively, you can load the HostConfig from a JSON string.
+
+Example:
+```csharp
+var hostConfig = AdaptiveHostConfig.CreateHostConfigFromJson(jsonString); 
+
+renderer.HostConfig = hostConfig;
+```
+
 When you pass it in to the UWPRenderer you are setting the default HostConfig to use for every card you render.
 
 ### Changing per element rendering
