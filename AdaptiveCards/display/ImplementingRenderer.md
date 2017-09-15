@@ -30,7 +30,7 @@ Return fallback text on failure | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Render full schema | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Ignore unknown Elements | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ 
+Ignore unknown Elements | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
 Host Config support | ✅ | ❌ | ✅ | ❌ | ✅ | ❌
 Native platform styling | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
