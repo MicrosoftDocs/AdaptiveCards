@@ -16,9 +16,7 @@ The following functionality should be included in every Adaptive Cards renderer.
 ## Parsing
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Validate JSON-schema | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Return validation failures | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Parse extension properties | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ## Versioning
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
@@ -26,28 +24,29 @@ Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 Check payload version | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Return fallback text on failure | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
-## Rendering
+## Card Rendering
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-<<<<<<< HEAD
-Render full schema | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-TextBlock customizations | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Ignore unknown Elements | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Host Config support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
-=======
 Render full schema | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
+Render actions bar | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
 Ignore unknown Elements | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Host Config support | ✅ | ❌ | ✅ | ❌ | ✅ | ❌
->>>>>>> b685c524282bae42ec345553184c9157071a7b1e
-Native platform styling | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
-Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
+Host Config support | ✅ | ✅ | ✅ | ❌ | ✅ | ❌
+Native platform styling | ✅ | ✅ | ❌ | ❌ | ❌ | ❌
+
+## Element Rendering
+Functionality | HTML | .NET HTML | UWP | iOS | Android | React
+--- | --- | --- | --- | --- | --- | ---
+Spacing and Separator | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
+TextBlock DATE/TIME formatting | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+TextBlock Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
+Inputs | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 
 ## Extensbility
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Override Element Renderer | ✅ | ❌ | ❌ | ❌ | ✅ | ❌
-Add new Element Renderer | ✅ | ❌ | ❌ | ❌ | ✅ | ❌
-Remove Element Renderer | ✅ | ❌ | ❌ | ❌ | ✅ | ❌
+Override Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
+Add new Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
+Remove Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
 
 ## Actions
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
@@ -55,12 +54,12 @@ Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 Action.OpenUrl support | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
 Action.ShowCard support  | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
 Action.Submit support  | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
+selectAction support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ## Events
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Element visibility changed | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-
 
 
 # Detailed Specification
@@ -74,7 +73,7 @@ The following guidance describes how each of the renderers is implemented and ho
 ## Parsing
 
 1. A renderer **SHOULD** check that it's valid JSON content
-1. A renderer **MUST** attempt to validate against the json-schema
+1. A renderer **SHOULD** attempt to validate against the json-schema
 1. Schema validation errors **MUST** be returned to the host app
 1. A renderer **MUST** check if the content exceeds the `maxPayloadSize` from Host Config
 1. If unknown elements are encountered they **MUST** give the host app the opportunity to access them before rendering
@@ -82,28 +81,27 @@ The following guidance describes how each of the renderers is implemented and ho
 1. The `speak` property may contain SSML markup and **MUST** be returned to the host app as-specified
 
 ## Parsing Host Config
-1. TODO MATT
+1. MATT TODO
 
 ## Versioning
 
 1. A renderer **MUST** implement a particular version of the schema. 
-1. If a renderer encounters a `minRequiredVersion` property in the `AdaptiveCard` that is higher than the supported version, it **SHOULD** return the `fallbackText` instead.
+1. If a renderer encounters a `minRequiredVersion` property in the `AdaptiveCard` that is higher than the supported version, it **MUST** return the `fallbackText` instead.
 
 ## Rendering
 
-An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection of `CardElement`s that you will enumerate and render. 
+An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection of `CardElement`s that a renderer will enumerate and render. 
 
-1. Each Element is a "block level" element and **MUST** take up the width of its container.
-1. A renderer **MUST** ignore unknown elements, and continue rendering the rest of the payload
+1. Each Element is a "block level" element and **MUST** stretch to the width of its container.
+1. A renderer **MUST** ignore unknown elements, and continue rendering the rest of the payload.
 
-> MATT TODO
-> * Author final v1.0 json-schema and update docs, including separation/spacing model, `extensions`, id property
+### Spacing and Separators
 
-### Spacing
-
-1. A visible separator **MUST** only be drawn if the item is not the first in an array.
-> MATT TODO: detail spacing spec
-https://github.com/Microsoft/AdaptiveCards/issues/462
+1. The `spaceing` property on every element influences the amount of space between the **current** element and the one **before** it.
+1. Spacing **MUST ONLY** apply when an element **IS NOT** the first in the array.
+1. A renderer **MUST** look up the amount of space to use from the `hostConfig` spacing for the enum value applied to the current element.
+1. If the element has a `separator` of `true`, then a visible separator **MUST** be drawn between the current element and the one before it.
+1. A separator **MUST ONLY** be drawn if the item **IS NOT** the first in the array.
 
 ### Columns
 
@@ -114,6 +112,7 @@ https://github.com/Microsoft/AdaptiveCards/issues/462
 1. A TextBlock **MUST** take up a single line unless the `wrap` property is `true`.
 
 #### Markdown
+
 1. Adaptive Cards allow for a subset of Markdown and **SHOULD** be supported in `TextBlock`. 
 
 _Supported_
@@ -138,7 +137,7 @@ _Not supported_
 
 ### Images
 
-1. A renderer **MUST** optionally allow host apps to prefetch any HTTP images and only return when the card has been fully rendererd.
+1. A renderer **MUST** optionally allow host apps to prefetch all HTTP images and only callback to the host app when card has been fully rendererd.
 1. A renderer **MUST** inspect the Host Config `maxImageSize` param when downloading HTTP images
 
 #### Image content
@@ -196,11 +195,14 @@ The Submit Action behaves like an HTML form submit, except that where HTML typic
 1. The `data` property **MUST** be included in the callback payload.
 1. For `Action.Submit`, a renderer **MUST** gather all inputs on the card and retrieve their values. This RegEx can be used to gather input values: `/\{{2}([a-z0-9_$@]+).value\}{2}/gi;`
 
+### selectAction
+
+1. `Image`, `ColumnSet`, and `Column` offer a `selectAction` property, which **SHOULD** be executed when the user invokes it, e.g., by tapping the element.
 
 ## Inputs
 
 1. If HostConfig `supportsInteractivity` is `false` a renderer **MUST NOT** render any inputs.
-1. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then you **MUST** fall back to rendering a standard text box.
+1. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then the renderer **MUST** fall back to rendering a standard text box.
 1. A renderer **MUST** display the `placeholderText` in the most appropriate way possible
 
 1. The object **MUST** be returned to the host app as follows:
