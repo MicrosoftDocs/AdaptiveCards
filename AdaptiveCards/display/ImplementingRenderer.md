@@ -17,20 +17,16 @@ The following functionality should be included in every Adaptive Cards renderer.
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Return validation failures | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-
-## Versioning
-Functionality | HTML | .NET HTML | UWP | iOS | Android | React
---- | --- | --- | --- | --- | --- | ---
-Check payload version | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Return fallback text on failure | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+Parse unknown properties | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ## Card Rendering
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Render full schema | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Render actions bar | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Ignore unknown Elements | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Host Config support | ✅ | ✅ | ✅ | ❌ | ✅ | ❌
+Check for supported version | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+Render full schema | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Render actions bar | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Ignore unknown Elements | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Host Config support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌
 Native platform styling | ✅ | ✅ | ❌ | ❌ | ❌ | ❌
 
 ## Element Rendering
@@ -39,7 +35,7 @@ Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 Spacing and Separator | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
 TextBlock DATE/TIME formatting | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 TextBlock Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
-Inputs | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
+Full Input support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 
 ## Extensbility
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
@@ -51,9 +47,9 @@ Remove Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
 ## Actions
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Action.OpenUrl support | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Action.ShowCard support  | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
-Action.Submit support  | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ 
+Action.OpenUrl support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Action.ShowCard support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Action.Submit support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
 selectAction support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ## Events
