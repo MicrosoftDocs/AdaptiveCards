@@ -2,24 +2,26 @@
 title: Implementing a Renderer
 author: matthidinger
 ms.author: mahiding
-ms.date: 06/26/2017
+ms.date: 09/15/2017
 ms.topic: article
 ---
+
+
+# Renderer Status
+The following functionality should be included in every Adaptive Cards renderer.
 
 > [!IMPORTANT]
 > 
 > This content is not finished yet and some major pieces are missing. Check back shortly.
 
-# Renderer Status
-The following functionality should be included in every Adaptive Cards renderer.
 
-## Parsing
+### Parsing
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Return validation failures | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Parse unknown properties | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
-## Card Rendering
+### Card Rendering
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Check for supported version | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
@@ -29,7 +31,7 @@ Ignore unknown Elements | ✅ | ❌ | ✅ | ✅ | ✅ | ❌
 Host Config support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌
 Native platform styling | ✅ | ✅ | ❌ | ❌ | ❌ | ❌
 
-## Element Rendering
+### Element Rendering
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Spacing and Separator | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
@@ -37,14 +39,14 @@ TextBlock DATE/TIME formatting | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 TextBlock Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Full Input support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 
-## Extensbility
+### Extensbility
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Override Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
 Add new Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
 Remove Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
 
-## Actions
+### Actions
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Action.OpenUrl support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
@@ -52,7 +54,7 @@ Action.ShowCard support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌
 Action.Submit support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
 selectAction support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
-## Events
+### Events
 Functionality | HTML | .NET HTML | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Element visibility changed | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
@@ -137,6 +139,7 @@ _Not supported_
 1. A renderer **MUST** inspect the Host Config `maxImageSize` param when downloading HTTP images
 
 #### Image content
+
 1. A renderer **MUST** support .png and .jpeg
 1. A renderer **SHOULD** support .gif images
 
