@@ -84,6 +84,7 @@ The following guidance describes how each of the renderers is implemented and ho
 ## Versioning
 
 1. A renderer **MUST** implement a particular version of the schema. 
+1. The `AdaptiveCard` constructor **MUST** give the `Version` property a default value based on the current schema version 
 1. If a renderer encounters a `minRequiredVersion` property in the `AdaptiveCard` that is higher than the supported version, it **MUST** return the `fallbackText` instead.
 
 ## Rendering
@@ -147,6 +148,9 @@ _Not supported_
 
 
 ### Host Config
+
+* TODO: What should the defaults be? Should they all share it? Should we embed a common hostConfig.json file in the binaries?
+* TODO: I think HostConfig needs to be versioned as well for parsing?
 
 [`HostConfig`](HostConfig.md) is a shared configuration object that specifies how an Adaptive Card Renderer generates UI.  
 
