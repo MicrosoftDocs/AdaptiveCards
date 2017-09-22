@@ -16,13 +16,13 @@ The following functionality should be included in every Adaptive Cards renderer.
 
 
 ### Parsing
-Functionality | HTML | .NET HTML | UWP | iOS | Android | React
+Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Return validation failures | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Parse unknown properties | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ### Card Rendering
-Functionality | HTML | .NET HTML | UWP | iOS | Android | React
+Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Check for supported version | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 Render full schema | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
@@ -32,7 +32,7 @@ Host Config support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌
 Native platform styling | ✅ | ✅ | ❌ | ❌ | ❌ | ❌
 
 ### Element Rendering
-Functionality | HTML | .NET HTML | UWP | iOS | Android | React
+Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Spacing and Separator | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
 TextBlock DATE/TIME formatting | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
@@ -40,14 +40,14 @@ TextBlock Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Full Input support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 
 ### Extensbility
-Functionality | HTML | .NET HTML | UWP | iOS | Android | React
+Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Override Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
 Add new Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
 Remove Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
 
 ### Actions
-Functionality | HTML | .NET HTML | UWP | iOS | Android | React
+Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Action.OpenUrl support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
 Action.ShowCard support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
@@ -55,7 +55,7 @@ Action.Submit support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌
 selectAction support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ### Events
-Functionality | HTML | .NET HTML | UWP | iOS | Android | React
+Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Element visibility changed | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
@@ -79,7 +79,7 @@ The following guidance describes how each of the renderers is implemented and ho
 1. The `speak` property may contain SSML markup and **MUST** be returned to the host app as-specified
 
 ## Parsing Host Config
-1. MATT TODO
+1. TODO
 
 ## Versioning
 
@@ -98,7 +98,8 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 1. The `spaceing` property on every element influences the amount of space between the **current** element and the one **before** it.
 1. Spacing **MUST ONLY** apply when an element **IS NOT** the first in the array.
 1. A renderer **MUST** look up the amount of space to use from the `hostConfig` spacing for the enum value applied to the current element.
-1. If the element has a `separator` of `true`, then a visible separator **MUST** be drawn between the current element and the one before it.
+1. If the element has a `separator` of `true`, then a visible line **MUST** be drawn between the current element and the one before it.
+1. The separator line **MUST** be drawn using the `container` `style` `defaultColor`. (TODO: confirm this property name)
 1. A separator **MUST ONLY** be drawn if the item **IS NOT** the first in the array.
 
 ### Columns
@@ -107,7 +108,8 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 
 ### TextBlock
 
-1. A TextBlock **MUST** take up a single line unless the `wrap` property is `true`.
+1. A TextBlock **MUST** take up a single line unless the `wrap` property is `true`. 
+1. The text block **SHOULD** trim any excess text with an ellipsis (...)
 
 #### Markdown
 
@@ -196,16 +198,21 @@ The Submit Action behaves like an HTML form submit, except that where HTML typic
 
 ### selectAction
 
+1. If Host Config `supportedInteractivity` is `false` then a `selectAction` **MUST NOT** render as a touch target.
 1. `Image`, `ColumnSet`, and `Column` offer a `selectAction` property, which **SHOULD** be executed when the user invokes it, e.g., by tapping the element.
 
 ## Inputs
 
 1. If HostConfig `supportsInteractivity` is `false` a renderer **MUST NOT** render any inputs.
 1. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then the renderer **MUST** fall back to rendering a standard text box.
-1. A renderer **MUST** display the `placeholderText` in the most appropriate way possible
+1. A renderer **SHOULD** display the `placeholderText` if possible
+1. A renderer **DOES NOT** have to implement validation of the input. Users of Adaptive Cards must plan to validate any receieved data on their end.
+1. Input value binding **MUST** be properly escaped
 
 1. The object **MUST** be returned to the host app as follows:
-* MATT TODO SPEC
+
+ We do not make any promises of input validation in adaptive cards, so it's up to the receiving party to properly parse the response. E.g., a Input.Number could return "hello" and they need to be prepared for that.
+
 
 ## Events
 
