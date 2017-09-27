@@ -45,8 +45,8 @@ renderResult = [ACRRenderer render:cardParseResult.card
 ### Example
 ```Objective-C
 ACRRenderResult *renderResult;
-ACOParseResult *hostconfigParseResult = [ACOHostConfig FromJson:self.hostconfig];
-ACOParseResult *cardParseResult       = [ACOAdaptiveCards FromJson:jsonStr];
+ACOHostConfigParseResult *hostconfigParseResult = [ACOHostConfig FromJson:self.hostconfig];
+ACOAdaptiveCardsParseResult *cardParseResult       = [ACOAdaptiveCards FromJson:jsonStr];
 
 // checking parse result
 if(hostconfigParseResult.IsValid == YES && cardParseResult.IsValid == YES)
