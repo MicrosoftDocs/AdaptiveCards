@@ -37,7 +37,6 @@ If you want to the action buttons to do something, hook up an action handler.
 
 * **Action.OpenUrl** - opens the `action.Url`.  
 * **Action.Submit** - takes the result of the submit and send it to the source. How you send it to the source of the card is entirely up to you.
-* **Action.Http** - for this action, submit an HTTP request to the appropriate url with Headers and Body set.
 * **Action.ShowCard**  invokes a dialog and renders the sub-card into that dialog. Note that you only need to handle this if `ShowCardActionMode` is set to `popup`.
 
 ## Render a card
