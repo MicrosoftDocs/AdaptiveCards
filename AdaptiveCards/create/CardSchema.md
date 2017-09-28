@@ -1,3 +1,11 @@
+---
+title: Card Schema
+author: matthidinger
+ms.author: mahiding
+ms.date: 09/28/2017
+ms.topic: reference
+---
+
 # Card Schema
 
 Cards
