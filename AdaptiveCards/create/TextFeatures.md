@@ -13,8 +13,8 @@ TextBlock is one of the core elements and has some special features in the inter
 To support inline markup, adaptive cards supports a subset of Markdown syntax.
 
 _Supported_
-Text Style | Markdown
----|---
+| Text Style | Markdown |
+|-----------------|-----|
 | **Bold**        | `**Bold**` |
 | _Italic_        | `_Italic_` |
 | Bullet list     | ```- Item 1\r- Item 2\r- Item 3``` | 
