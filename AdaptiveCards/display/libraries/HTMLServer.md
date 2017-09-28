@@ -126,7 +126,7 @@ This framework annotates all HtmlTags it outputs with the following class names 
 
 ### Change per-element rendering
 The HtmlRenderer has a registration mechanism which allows you to set a function that is called to perform the
-rendering on a per-element basis.  It exposes a method called `SetRenderer<ElementT>(func);` 
+rendering on a per-element basis.  It exposes a method called `ElementRenderers.Set<TElement>(func);` 
 
 To override the rendering of a `Input.Date` element:
 
