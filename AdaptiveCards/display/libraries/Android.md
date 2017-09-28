@@ -1,39 +1,28 @@
 ---
 title: Android SDK
-author: matthidinger
-ms.author: mahiding
-ms.date: 06/26/2017
+author: bekao
+ms.author: bekao
+ms.date: 09/27/2017
 ms.topic: article
 ---
 
 # Android library
 This is a renderer which targets Android native controls.
 
-## Add a renderer
-
-*Coming soon*
-
-## Create an instance of your renderer
-*Coming soon*
-
-## Hook up action callback
-*Coming soon*
-
+## Create Adaptive Card Object Instance from JSON Text
+```java
+AdaptiveCard adaptiveCard = AdaptiveCard.DeserializeFromString(jsonText);
+```
 ## Render a card
-*Coming soon*
+```java
+View view = AdaptiveCardRenderer.getInstance().render(getApplicationContext(), getSupportFragmentManager(), adaptiveCard, showCardActionHandler, submitActionHandler, new HostConfig());
+```
 
-## Example
-*Coming soon*
-
-## Customization
-<a name="customize"></a>
 ### HostConfig 
 
-*Coming soon*
+To customize the renderer you provide an instance of the HostConfig object. (See [Host Config Schema](../HostConfig.md) for the full description.)
 
-### Changing per element rendering
-*Coming soon*
-
+> The HostConfig object will be instantiated with defaults, so you can set just the properties you want to change.
 
 ### UI Framework styling
 *Coming soon*
