@@ -65,15 +65,9 @@ The TIME function is passed an ISO-8601 formatted date-time record (example: 201
 The format is expressed as a binding clause like this:
 
 ```json
-{{TIME(..iso-8601.., Short|Long)}}
+{{TIME(..iso-8601..)}}
 ```
 Example for (en-us):
 ```json
-{{TIME(2017-02-13T20:46:30Z, Short)}} => 8:46 PM
-{{TIME(2017-02-13T20:46:30Z, Long)}} => 8:46:30 PM
-```
-The Hint part of the function is optional and can be omitted.
-
-```json
-{{TIME(2017-02-13T20:46:30z)}}
+{{TIME(2017-02-13T20:46:30Z)}} => 8:46 PM
 ```
