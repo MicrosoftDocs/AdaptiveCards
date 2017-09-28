@@ -17,7 +17,7 @@ _Supported_
 | Text Style      | Markdown |
 |-----------------|-----|
 | **Bold**        | ```**Bold**``` |
-| _Italic_        | ````_Italic_``` |
+| _Italic_        | ```_Italic_``` |
 | Bullet list     | ```- Item 1\r- Item 2\r- Item 3``` | 
 | Numbered list   | ```1. Green\r2. Orange\r3. Blue``` |
 | Hyperlinks      | ```[Title](url)``` |
