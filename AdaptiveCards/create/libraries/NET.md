@@ -25,24 +25,36 @@ nuget install Microsoft.AdaptiveCards
 
 ```csharp
 var card = new AdaptiveCard();
+
 card.Body.Add(new TextBlock() 
 {
     Text = "Hello",
     Size = TextSize.ExtraLarge,
     Color = TextColor.Attention
 });
+
 card.Body.Add(new Image() 
 {
     Url = "http://someUrl.com/example.png"
 });
 ```
-### Example: save using JSON.NET
+
+### Example: Parse from JSON
+```csharp
+AdaptiveCardParseResult result = AdaptiveCard.FromJson(json);
+
+if (result.Card != null)
+{
+    // Get card from result
+    AdaptiveCard card = result.Card;
+}
+else
+{
+    // Failed parsing
+}
+```
+
+### Example: Export to JSON using JSON.NET
 ```csharp
 var json = JsonConvert.SerializeObject(card);
 ```
-
-### Example: load using JSON.NET
-```csharp
-var card = JsonConvert.DeserializeObject<AdaptiveCard>(json);
-```
-
