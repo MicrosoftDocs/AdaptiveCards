@@ -13,7 +13,7 @@ This is a .NET server side library for generating HTML markup to be sent to a cl
 This is available as a nuget packages. 
 
 ```console
-Installed-Package AdaptiveCards.Renderer.Html
+Install-Package AdaptiveCards.Renderer.Html
 ```
 
 ## Render card
