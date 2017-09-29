@@ -11,6 +11,10 @@ ms.topic: article
 
 The following guidance describes how each of the renderers is implemented and how to follow the same concepts to implement a renderer on any UI platform.
 
+> [!IMPORTANT]
+> 
+> This content is not finished yet. Check back shortly.
+
 ## SDK Versioning
 
 1. The SDK major and minor version **MUST** match the `schema` version. Patch/build **CAN** be used for renderer updates that don't have schema changes.
