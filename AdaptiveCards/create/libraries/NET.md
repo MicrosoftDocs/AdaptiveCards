@@ -9,21 +9,24 @@ ms.topic: article
 # .NET Libraries for card creation
 As we described in the Getting Started, an adaptive card is nothing more than a serialized JSON object of 
 a card object model. To make it easy to manipulate the object model, we defined libraries which 
-define a strongly-typed class hierarchy that makes it easy to serialize/deserialize JSON. <!-- make sure i didn't change the meaning of this last sentence-->
+define a strongly-typed class hierarchy that makes it easy to serialize/deserialize JSON. 
 
 You can use any tooling that you want to create the adaptive card JSON.
 
 ## .NET 
-The `Microsoft.AdaptiveCards` nuget package defines a class hierachy for working with adaptive cards in .NET
+The `AdaptiveCards` nuget package defines a class hierachy for working with adaptive cards in .NET
 
 ### To install
 ```console
-nuget install Microsoft.AdaptiveCards 
+Install-Package Microsoft.AdaptiveCards 
 ```
 
 ### Example: create
 
 ```csharp
+using AdaptiveCards;
+// ....
+
 var card = new AdaptiveCard();
 
 card.Body.Add(new TextBlock() 
