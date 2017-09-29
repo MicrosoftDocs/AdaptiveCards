@@ -1,10 +1,13 @@
+---
+title: Renderer Status
+author: matthidinger
+ms.author: mahiding
+ms.date: 09/28/2017
+ms.topic: article
+---
+
 # Renderer Status
 The following functionality should be included in every Adaptive Cards renderer.
-
-> [!IMPORTANT]
-> 
-> This content is not finished yet and some major pieces are missing. Check back shortly.
-
 
 ### Parsing
 Functionality | HTML | .NET | UWP | iOS | Android | React
