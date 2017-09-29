@@ -25,19 +25,19 @@ Parse unknown properties | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
 Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Check for supported version | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-Render full schema | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
-Render actions bar | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
-Ignore unknown Elements | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
-Host Config support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌
+Render full schema | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ 
+Render actions bar | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ 
+Ignore unknown Elements | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ 
+Host Config support | ✅ | ✅ | ✅ | ✅ | ✅ | ❌
 Native platform styling | ✅ | ✅ | ❌ | ❌ | ❌ | ❌
 
 ### Element Rendering
 Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Spacing and Separator | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
-TextBlock DATE/TIME formatting | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-TextBlock Markdown support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
-Full Input support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌
+Spacing and Separator | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ 
+TextBlock DATE/TIME formatting | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ 
+TextBlock Markdown support | ✅ | ✅ | ❌ | ❌ | ❌ | ❌
+Full Input support | ✅ | ✅ | ✅ | ❌ | ❌ | ❌
 
 ### Extensbility
 Functionality | HTML | .NET | UWP | iOS | Android | React
@@ -49,9 +49,9 @@ Remove Element Renderer | ✅ | ✅ | ❌ | ❌ | ✅ | ❌
 ### Actions
 Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Action.OpenUrl support | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
-Action.ShowCard support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
-Action.Submit support  | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ 
+Action.OpenUrl support | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ 
+Action.ShowCard support  | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ 
+Action.Submit support  | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ 
 selectAction support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 ### Events
