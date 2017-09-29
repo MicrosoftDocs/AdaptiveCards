@@ -18,7 +18,7 @@ The `AdaptiveCards` nuget package defines a class hierachy for working with adap
 
 ### To install
 ```console
-Install-Package Microsoft.AdaptiveCards 
+Install-Package AdaptiveCards 
 ```
 
 ### Example: create
