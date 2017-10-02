@@ -12,20 +12,21 @@ TextBlock is one of the core elements and has some special features in the inter
 ## Markdown
 To support inline markup, adaptive cards supports a subset of Markdown syntax.
 
-Supported:
+_Supported_
 
-**Bold** </br>
-*Italic*
-* Bulleted Lists
-1. Numbered Lists
+| Text Style      | Markdown |
+|-----------------|-----|
+| **Bold**        | ```**Bold**``` |
+| _Italic_        | ```_Italic_``` |
+| Bullet list     | ```- Item 1\r- Item 2\r- Item 3``` | 
+| Numbered list   | ```1. Green\r2. Orange\r3. Blue``` |
+| Hyperlinks      | ```[Title](url)``` |
 
-Not supported:
-Headers, tables and images.
+_Not supported_
 
-## Emojis
-The schema supports text-friendly emoji translation, so each renderer should properly translate the text to its unicode character.
-
-> `":umbrella:"`  => ":umbrella:" => *unicode umbrella emoji character in the text*
+* Headers
+* Tables
+* Images
 
 ## Formatting functions
 
@@ -66,15 +67,9 @@ The TIME function is passed an ISO-8601 formatted date-time record (example: 201
 The format is expressed as a binding clause like this:
 
 ```json
-{{TIME(..iso-8601.., Short|Long)}}
+{{TIME(..iso-8601..)}}
 ```
 Example for (en-us):
 ```json
-{{TIME(2017-02-13T20:46:30Z, Short)}} => 8:46 PM
-{{TIME(2017-02-13T20:46:30Z, Long)}} => 8:46:30 PM
-```
-The Hint part of the function is optional and can be omitted.
-
-```json
-{{TIME(2017-02-13T20:46:30z)}}
+{{TIME(2017-02-13T20:46:30Z)}} => 8:46 PM
 ```

@@ -11,30 +11,51 @@ This is a renderer which targets UWP native controls.
 
 ## Add a renderer
 
-Coming Soon... 
+nuget install AdaptiveCards.Renderer.Uwp
 
 ## Create an instance of your renderer
 Create an instance of the renderer library. 
 ```csharp
-var renderer = new XamlCardRenderer();
+var renderer = new AdaptiveCardRenderer();
+```
+
+## Create a card from a JSON string
+```csharp
+var card = AdaptiveCard.FromJsonString(jsonString);
+```
+
+## Create a card from a JSON object
+```csharp
+var card = AdaptiveCard.FromJson(jsonObject);
 ```
 
 ## Render a card
 Acquire a card from a source and render it.
 
 ```csharp
-var uiCard = await renderer.RenderCardAsXamlAsync(card);
-// add it to your ui
-myGrid.Children.Add(uiCard);
+RenderedAdaptiveCard renderResult =  renderer.RenderAdaptiveCard(card);
+// check if the render was successful
+if (renderResult.FrameworkElement != null)
+{
+    //Get the ui element
+    var uiCard = renderResult.FrameworkElement;
+    // add it to your ui
+    myGrid.Children.Add(uiCard);
+}
+
 ```
 
 ## Example
 Here is an example from the UWP renderer.
 
 ```csharp
-var renderer = new XamlCardRenderer();
-var uiCard = await renderer.RenderCardAsXamlAsync(_card);
-myGrid.Children.Add(uiCard);
+var renderer = new AdaptiveCardRenderer();
+var card = AdaptiveCard.FromJsonString(jsonString);
+var renderResult = renderer.RenderAdaptiveCard(card);
+if (renderResult.FrameworkElement != null)
+{
+    myGrid.Children.Add(renderResult.FrameworkElement);
+}
 ...
 ```
 
@@ -47,7 +68,7 @@ To customize the renderer you provide an instance of the HostConfig object. (See
 
 Example:
 ```csharp
-var hostOptions = new AdaptiveHostOptions() 
+var hostConfig = new AdaptiveHostConfig() 
 {
     FontSizes = {
         Small = 15,
@@ -57,12 +78,41 @@ var hostOptions = new AdaptiveHostOptions()
         ExtraLarge= 40
     }
 };
-renderer.HostOptions = hostConfig;
+renderer.HostConfig = hostConfig;
 ```
+> Alternatively, you can load the HostConfig from a JSON string.
+
+Example:
+```csharp
+var hostConfig = AdaptiveHostConfig.FromJsonString(jsonString); 
+
+renderer.HostConfig = hostConfig;
+```
+
 When you pass it in to the UWPRenderer you are setting the default HostConfig to use for every card you render.
 
 ### Changing per element rendering
-*Coming soon*
+Implement a renderer class and set it in the renderer
+
+```csharp
+// My custom renderer is going to replace how textblocks should render!
+public class MyCustomRenderer : IAdaptiveElementRenderer
+{
+    public UIElement Render(IAdaptiveCardElement element, AdaptiveRenderContext context)
+    {
+        var adaptiveTextBlock = element as AdaptiveTextBlock;
+        TextBlock textblock = new TextBlock()
+        {
+            Text = adaptiveTextBlock.Text + "I want every single textblock to append this text, and it should be aligned to the right!",
+            HorizontalAlignment = HorizontalAlignment.Right
+        };
+
+        return textblock;
+    }
+}
+
+renderer.ElementRenderers.Set("TextBlock", new MyCustomRenderer());
+```
 
 ### UI Framework styling
 *Coming soon*

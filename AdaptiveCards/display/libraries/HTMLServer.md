@@ -9,74 +9,100 @@ ms.topic: article
 # HTML server library
 This is a .NET server side library for generating HTML markup to be sent to a client.
 
-## Add a renderer
+## Getting the SDK
 This is available as a nuget packages. 
+
 ```console
-nuget install Microsoft.AdaptiveCards.Html
-```
-## Create an instance of your renderer
-The next step is to create an instance of the renderer library. 
-```csharp
-HtmlRenderer htmlRenderer = new HtmlRenderer(new HostConfig() { SupportsInteractivity = false });
+Install-Package AdaptiveCards.Renderer.Html
 ```
 
-## Hook up action callback
-This library doesn't currently support interactive cards.
+## Render card
 
-## Render a card
-Acquire a card from a source and render it.
+### Instantiate a renderer
+The next step is to create an instance of the renderer. 
 
 ```csharp
-var html = htmlRenderer.RenderAdaptiveCard(card);
+using AdaptiveCards;
+using AdaptiveCards.Rendering;
+using AdaptiveCards.Rendering.Config;
+
+// ... 
+
+// Create a default renderer
+AdaptiveCardRenderer renderer = new AdaptiveCardHtmlRenderer();
+
+// Or use custom host config
+AdaptiveCardRenderer renderer = new AdaptiveCardRenderer(hostConfig);
+
+// Or assign the host config with the property
+renderer.HostConfig = hostConfig;
+
+// Get the schema version this renderer supports
+AdaptiveSchemaVersion schemaVersion = renderer.SupportedSchemaVersion; // 1.0
 ```
 
-## Example
-An example from the Xaml renderer.
-
+### Render a Card
 ```csharp
-var hostConfig = new HostConfig() { ... };
-HtmlRenderer renderer = new HtmlRenderer(new HostConfig() { SupportsInteractivity = false });
-var result = renderer.RenderAdaptiveCard(card);
+RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
+
+// Validate the rendered card
+if (renderedCard.HtmlTag == null)
+{
+    // Failed rendering
+    return;
+}
+
+// Get the HTML string
+string html = renderedCard.HtmlTag.ToString();
+
+// Just for fun, get the AdaptiveCard object model back out
+AdaptiveCard originatingCard = renderedCard.OriginatingCard;
 ```
 
-## Customization
+### Wire up Action events
+This library doesn't currently support the action callback.
 
 ### HostConfig 
 To customize the renderer, provide an instance of the HostConfig object. See the [Host Config Schema](../HostConfig.md) for a full description. Since the HostConfig object is instantiated with defaults, you only have to set the properties you want to change from the defaults.
-Passing it to the renderer sets the default HostConfig to use for every card you render.
+
+Passing it to the renderer sets the HostConfig to use for every card you render.
 
 Example:
 ```csharp
+// Construct programmatically
 var hostConfig = new HostConfig() 
 {
     FontSizes = {
         Small = 15,
-        Normal =20,
+        Default = 20,
         Medium = 25,
         Large = 30,
         ExtraLarge= 40
     }
 };
-```
 
-### Change per-element rendering
-The HtmlRenderer has a registration mechanism which allows you to set a function that is called to perform the
-rendering on a per-element basis.  It exposes a method called `SetRenderer<ElementT>(func);` 
+// Or parse from JSON
+HostConfigParseResult result = HostConfig.FromJson(@"{
+    ""fontSizes"": {
+        ""small"": 25,
+        ""default"": 26,
+        ""medium"": 27,
+        ""large"": 28,
+        ""extraLarge"": 29
+    }
+}");
 
-To override the rendering of a `Input.Date` element:
-```csharp
-htmlRenderer.SetRenderer<DateInput>(RenderMyCustomDate);
-```
-The new date renderer would look like this:
-```csharp
-protected static HtmlTag DateInputRender(TypedElement element, RenderContext context)
+if (result.HostConfig != null)
 {
-    DateInput input = (DateInput)element;
-    ...
-    return htmlTag;
+    HostConfig config = result.HostConfig;
+}
+else
+{
+    // Error parsing
 }
 ```
-### Style UI framework
+
+### Native platform styling
 This framework annotates all HtmlTags it outputs with the following class names so that you can use CSS to customize further.
 
 | Element | Style names used|
@@ -100,6 +126,69 @@ This framework annotates all HtmlTags it outputs with the following class names 
 | ImageSet  | ac-imageset |
 | FactSet | ac-factset, ac-facttitle, ac.factvalue|
 | TextBlock  | ac-textblock |
+
+
+## Extensibility
+
+### Change per-element rendering
+The HtmlRenderer has a registration mechanism which allows you to set a function that is called to perform the
+rendering on a per-element basis.  It exposes a method called `ElementRenderers.Set<TElement>(func);` 
+
+To override the rendering of a `Input.Date` element:
+
+```csharp
+renderer.ElementRenderers.Set<DateInput>(MyCustomDateInputRenderer);
+```
+
+The new date renderer would look like this:
+
+```csharp
+protected static HtmlTag MyCustomDateInputRenderer(DateInput input, RenderContext context)
+{
+    ...
+    return htmlTag;
+}
+```
+
+### Remove a renderer
+
+```csharp
+renderer.ElementRenderers.Remove<DateInput>();
+```
+
+### Get a renderer
+
+```csharp
+// Get using generic type
+Func<DateInput, TContext, TUIElement> renderFunc = renderer.ElementRenderers.Get<DateInput>();
+
+// Get using runtime type
+Func<TypedElement, TContext, TUIElement> renderFunc = renderer.ElementRenderers.Get(element.GetType());
+```
+
+## Example
+An example from the HTML sample app.
+
+```csharp
+AdaptiveCardRenderer renderer = new AdaptiveCardRenderer(new HostConfig()
+{
+    SupportsInteractivity = supportsInteractivity
+});
+
+RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
+
+if (renderedCard.HtmlTag != null)
+{
+    Console.WriteLine($"<div class='cardcontainer'>{renderedCard.HtmlTag.ToString()}</div>");
+}
+else
+{
+    Console.WriteLine($"<p>Rendering failed</p>");
+}
+```
+
+
+
 
 ## Next steps
 

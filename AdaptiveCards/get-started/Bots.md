@@ -63,6 +63,7 @@ Let's attach an Adaptive Card that displays custom text.
       "contentType": "application/vnd.microsoft.card.adaptive",
       "content": {
         "type": "AdaptiveCard",
+        "version": "1.0",
         "body": [
           {
             "type": "TextBlock",
@@ -111,7 +112,7 @@ If your bot is developed using .NET or NodeJS we have libraries to make building
 
 Platform|Install|Learn more
 --------|-------|----------
-.NET | `Install-Package Microsoft.AdaptiveCards` | [Bot Framework .NET Docs](https://docs.microsoft.com/en-us/bot-framework/dotnet/bot-builder-dotnet-add-rich-card-attachments)
+.NET | `Install-Package AdaptiveCards` | [Bot Framework .NET Docs](https://docs.microsoft.com/en-us/bot-framework/dotnet/bot-builder-dotnet-add-rich-card-attachments)
 NodeJS | `npm install microsoft-adaptivecards` | [Bot Framework NodeJS Docs](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-send-rich-cards)
 
 

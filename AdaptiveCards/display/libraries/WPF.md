@@ -7,120 +7,129 @@ ms.topic: article
 ---
 
 # WPF library
-This is a renderer which targets WPF Xaml.  It has no dependencies outside of standard Windows components, 
+
+This is a renderer which targets WPF XAML.  It has no dependencies outside of standard Windows components, 
 which means it supports `Date` and `Time` controls as simple textbox controls.
 
-## Add a renderer
+## Getting the SDK
 This is available as a nuget packages. 
 ```console
-nuget install Microsoft.AdaptiveCards.Xaml.WPF
+Install-Package AdaptiveCards.Renderer.Wpf
 ```
-## Create an instance of the renderer
+
+## Render card
+
+### Instantiate a renderer
 Create an instance of the renderer library. 
 ```csharp
-var renderer = new XamlRenderer(hostConfig, this.Resources, onAction, OnMissingInput);
+using AdaptiveCards;
+using AdaptiveCards.Rendering;
+using AdaptiveCards.Rendering.Config;
+// ...
+
+// Create a default renderer
+AdaptiveCardRenderer renderer = new AdaptiveCardRenderer();
+
+// Or use custom host config
+AdaptiveCardRenderer renderer = new AdaptiveCardRenderer(hostConfig);
+
+// Or assign the host config with the property
+renderer.HostConfig = hostConfig;
+
+// Get the schema version this renderer supports
+AdaptiveSchemaVersion schemaVersion = renderer.SupportedSchemaVersion; // 1.0
 ```
 
-## Hook up action callback
-To hook up action events, pass in a callback when you instantiate your renderer.
-```csharp
-var hostConfig = new HostConfig() { ... };
-var renderer = new XamlRenderer(..., actionCallback:  _onAction);
-```
-
-## Render a card
-Acquire a card from a source and render it.
+### Render a Card WPF
 
 ```csharp
-var uiCard = renderer.RenderAdaptiveCard(card);
-// add it to your ui
-myGrid.Children.Add(uiCard);
-```
+RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
 
-## Example
-Here is an example from the Xaml renderer.
-
-```csharp
-var hostConfig = new HostConfig() { ... };
-var renderer = new XamlRenderer(hostConfig, this.Resources, _onAction, _OnMissingInput);
-var uiCard = renderer.RenderAdaptiveCard(_card);
-myGrid.Children.Add(uiCard);
-...
-private void _onAction(object sender, ActionEventArgs e)
+// Validate the rendered card
+if (renderedCard.FrameworkElement == null)
 {
-    if (e.Action is OpenUrlAction)
-    {
-        OpenUrlAction action = (OpenUrlAction)e.Action;
-        Process.Start(action.Url);
-    }
-    else if (e.Action is ShowCardAction)
-    {
-        ShowCardAction action = (ShowCardAction)e.Action;
-        ShowCardWindow dialog = new ShowCardWindow(action.Title, action, this.Resources);
-        dialog.ShowDialog();
-    }
-    else if (e.Action is SubmitAction)
-    {
-        SubmitAction action = (SubmitAction)e.Action;
-        // Send e.Data to the source...
-        ...
-    }
-    else if (e.Action is AdaptiveCards.HttpAction)
-    {
-        AdaptiveCards.HttpAction action = (HttpAction)e.Action;
-        ... 
-        // action.Headers  has headers for HTTP operation
-        // action.Body has content body
-        // action.Method has method to use
-        // action.Url has url to post to
-    }
+    // Failed rendering
+    return;
 }
 
-private void _OnMissingInput(object sender, MissingInputEventArgs args)
+// Get the FrameworkElement
+FrameworkElement el = renderedCard.FrameworkElement;
+
+// Just for fun, get the AdaptiveCard object model back out
+AdaptiveCard originatingCard = renderedCard.OriginatingCard;
+```
+
+### Render a Card Xamarin
+In Xamarin, we return a View item.
+
+```csharp
+RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
+
+// Validate the rendered card
+if (renderedCard.View == null)
 {
-    MessageBox.Show($"Required input is missing.");
+    // Failed rendering
+    return;
+}
+
+// Get the view
+View view = renderedCard.View;
+
+// Just for fun, get the AdaptiveCard object model back out
+AdaptiveCard originatingCard = renderedCard.OriginatingCard;
+```
+
+### Wire up Action events
+On your rendered card, use the `OnAction` event to subscribe to action invoked events.
+```csharp
+RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
+
+renderedCard.OnAction += MainView_OnAction;
+
+private void MainView_OnAction(object sender, ActionEventArgs e)
+{
+    // What action was tapped
+    ActionBase action = e.Action;
 }
 ```
 
-## Customization
+### HostConfig
 
-### HostConfig 
-To customize the renderer, provide an instance of the HostConfig object. See the [Host Config Schema](../HostConfig.md) for a full description. Since the HostConfig object is instantiated with defaults, you only have to set the properties you want to change from the defaults.
-Passing it to the XamlRenderer sets the default HostConfig to use for every card you render.
-
-Example:
 ```csharp
+// Construct programmatically
 var hostConfig = new HostConfig() 
 {
     FontSizes = {
         Small = 15,
-        Normal =20,
+        Default = 20,
         Medium = 25,
         Large = 30,
         ExtraLarge= 40
     }
 };
-```
 
-### Change per element rendering
-The XamlRenderer has a registration mechanism which allows you to set a function that is called to perform the
-rendering on a per-element basis.  It exposes a method called `SetRenderer<ElementT>(func); `
+// Or parse from JSON
+HostConfigParseResult result = HostConfig.FromJson(@"{
+    ""fontSizes"": {
+        ""small"": 25,
+        ""default"": 26,
+        ""medium"": 27,
+        ""large"": 28,
+        ""extraLarge"": 29
+    }
+}");
 
-To override the rendering of a `Input.Date` element:
-```csharp
-xamlRenderer.SetRenderer<DateInput>(RenderMyCustomDate);
-```
-The new date renderer would look like this:
-```csharp
-public static FrameworkElement Render(TypedElement element, RenderContext context)
+if (result.HostConfig != null)
 {
-    DateInput input = (DateInput)element;
-    var datePicker = new DatePicker();
-    ...
-    return datePicker;
+    HostConfig config = result.HostConfig;
+}
+else
+{
+    // Error parsing
 }
 ```
-### Style UI framework
+
+### Native platform styling
 If you pass in a Xaml ResourceDictionary, you can customize the Xaml behavior further. This
 allows you to define roll over behaviors, animations, rounded buttons, and so forth.  Here is a table of the 
 style names that are used for each element.  
@@ -183,6 +192,83 @@ Here is a sample resource dictionary which adds a hover effect on elements with 
     </Style>
 </Window.Resources>
 ```
+
+## Extensibility
+
+### Change per-element rendering
+The renderer has a registration mechanism which allows you to set a function that is called to perform the
+rendering on a per-element basis.  It exposes a method called `ElementRenderers.Set<TElement>(func); `
+
+To override the rendering of a `Input.Date` element:
+```csharp
+renderer.ElementRenderers.Set<DateInput>(MyCustomDateInputRenderer);
+```
+
+The new date renderer would look like this in WPF:
+```csharp
+public static FrameworkElement Render(DateInput input, RenderContext context)
+{
+    var datePicker = new DatePicker();
+    ...
+    return datePicker;
+}
+```
+
+In Xamarin, it would look like this:
+```csharp
+public static View Render(DateInput input, RenderContext context)
+{
+    var datePicker = new DatePicker();
+    ...
+    return datePicker;
+}
+```
+
+
+## Example
+Here is an example from the WPF renderer.
+
+```csharp
+var hostConfig = new HostConfig() { ... };
+var renderer = new AdaptiveCardRenderer(hostConfig);
+
+var renderedCard = renderer.RenderCard(card);
+renderedCard.OnAction += _onAction;
+
+myGrid.Children.Add(rendererdCard.FrameworkElement);
+...
+
+private void _onAction(object sender, ActionEventArgs e)
+{
+    if (e.Action is OpenUrlAction)
+    {
+        OpenUrlAction action = (OpenUrlAction)e.Action;
+        Process.Start(action.Url);
+    }
+    else if (e.Action is ShowCardAction)
+    {
+        ShowCardAction action = (ShowCardAction)e.Action;
+        ShowCardWindow dialog = new ShowCardWindow(action.Title, action, this.Resources);
+        dialog.ShowDialog();
+    }
+    else if (e.Action is SubmitAction)
+    {
+        SubmitAction action = (SubmitAction)e.Action;
+        // Send e.Data to the source...
+        ...
+    }
+    else if (e.Action is AdaptiveCards.HttpAction)
+    {
+        AdaptiveCards.HttpAction action = (HttpAction)e.Action;
+        ... 
+        // action.Headers  has headers for HTTP operation
+        // action.Body has content body
+        // action.Method has method to use
+        // action.Url has url to post to
+    }
+}
+```
+
 
 ## Next steps
 
