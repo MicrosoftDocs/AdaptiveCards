@@ -8,7 +8,7 @@ ms.topic: get-started-article
 
 # Getting Started 
 
-An Adaptive Card is nothing more than a JSON-serialized card object model.
+An Adaptive Card is a JSON-serialized card object model.
 
 ## Basic card architecture 
 To understand the object model represented by the JSON, it is useful to understand the basic architecture of a card.  A card is made up of containers of elements and actions. These containers are stacked vertically unless there is an ColumnSet element which allows you to define a collection of containers that live side by side.
@@ -18,11 +18,11 @@ A simple example card which has a single line of text followed by an image:
 ```json
 {
     "type": "AdaptiveCard",
-    "version": "0.5",
+    "version": "1.0",
     "body": [
         {
             "type": "Image",
-            "url": "http://adaptivecards.io/api/cat"
+            "url": "http://adaptivecards.io/content/cats/1.png"
         },
         {
             "type": "TextBlock",
@@ -56,14 +56,13 @@ Input elements allow you to ask for native UI to build simple forms:
 * **Input.Time** - get a Time from the user
 * **Input.Number** - get a Number from the user
 * **Input.ChoiceSet** - Give the user a set of choices and have them pick
-* **Input.ToggleChoice** - Give the user a single choice between two items and have them pick
+* **Input.Toggle** - Give the user a single choice between two items and have them pick
 
 ## Actions
 Actions add buttons to the card.  They don't define the logic of the actions, but use the predefined action types instead.
 
 * **Action.OpenUrl** - the button opens an external URL for viewing
 * **Action.ShowCard** - Requests a sub-card to be shown to the user.  
-* **Action.Http** - Requests that all of the input data is gathered up and sent via an HTTP call 
 * **Action.Submit** - Ask for all of the input elements to be gathered up into an object which is then sent to you through some method defined by the host application.
 
 > **Example Action.Submit**: With Skype, an Action.Submit will send a Bot Framework bot activity back to the bot with the **Value** property containing an object with all of the input data on it.
@@ -72,5 +71,5 @@ Actions add buttons to the card.  They don't define the logic of the actions, bu
 
 * [Browse Sample cards](http://adaptivecards.io/samples/) for inspiration
 * Use the [Schema Explorer](http://adaptivecards.io/explorer) to learn the available elements
-* Build a card using the [Interactive Visualizer](http://adaptivecards.io/visualizer/index.html?hostApp=Skype)
+* Build a card using the [Interactive Visualizer](http://adaptivecards.io/visualizer/)
 * [Get in touch](http://adaptivecards.io/connect) with any feedback you have
