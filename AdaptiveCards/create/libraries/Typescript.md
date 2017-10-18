@@ -13,18 +13,18 @@ define a strongly-typed class hierarchy that makes it easy to serialize/deserial
 
 You can use any tooling you want to create the adaptive card JSON.
 
-The `microsoft-adaptivecards` npm package defines a typescript library  for working with adaptive cards in Typescript
+The `adaptivecards` npm package defines a typescript library  for working with adaptive cards in Typescript
 
 ## To install
 ```console
-npm install microsoft-adaptivecards
+npm install adaptivecards
 ```
 There are interface definitions in `schema.d.ts` which describe the shape of the schema.
 
 ```typescript
 let card :IAdaptiveCard = {
     "type": "AdaptiveCard",
-    "version": "0.5",
+    "version": "1..0",
     "body": [
         {
             "type": "Container",

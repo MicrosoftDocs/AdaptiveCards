@@ -2,47 +2,54 @@
 title: .NET SDK for Adaptive Cards
 author: matthidinger
 ms.author: mahiding
-ms.date: 06/26/2017
+ms.date: 10/01/2017
 ms.topic: article
 ---
 
-# .NET Libraries for card creation
-As we described in the Getting Started, an adaptive card is nothing more than a serialized JSON object of 
-a card object model. To make it easy to manipulate the object model, we defined libraries which 
-define a strongly-typed class hierarchy that makes it easy to serialize/deserialize JSON. 
+# .NET SDK for card creation
 
-You can use any tooling that you want to create the adaptive card JSON.
+As we described in [Getting Started](../GettingStarted,md) page, an adaptive card is a JSON-serialized card object model. To make it easy to manipulate the object model, you can use our .NET SDK to serialize to and from JSON.
 
-## .NET 
-The `AdaptiveCards` nuget package defines a class hierachy for working with adaptive cards in .NET
+> ![IMPORTANT]
+> Breaking changes from v0.5
+> 
+> 1. Package renamed from `Microsoft.AdaptiveCards` to `AdaptiveCards`
+> 1. Due to frequent name collisions with framework namespaces, all model types have been prefixed with "Adaptive". E.g., `TextBlock` is now `AdaptiveTextBlock`
+> 1. There have also been some schema changes from the v0.5 preview, which are [outlined here](https://github.com/Microsoft/AdaptiveCards/pull/633)
 
-### To install
+
+## NuGet Install
+The `AdaptiveCards` NuGet package provides types for working with adaptive cards in .NET
+
+[![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.svg)](https://www.nuget.org/packages/AdaptiveCards)
+
 ```console
 Install-Package AdaptiveCards 
 ```
 
-### Example: create
+
+## Example: Create a Card
 
 ```csharp
 using AdaptiveCards;
-// ....
+// ...
 
-var card = new AdaptiveCard();
+AdaptiveCard card = new AdaptiveCard();
 
-card.Body.Add(new TextBlock() 
+card.Body.Add(new AdaptiveTextBlock() 
 {
     Text = "Hello",
-    Size = TextSize.ExtraLarge,
-    Color = TextColor.Attention
+    Size = AdaptiveTextSize.ExtraLarge
 });
 
-card.Body.Add(new Image() 
+card.Body.Add(new AdaptiveImage() 
 {
     Url = "http://someUrl.com/example.png"
 });
 ```
 
-### Example: Parse from JSON
+## Example: Parse from JSON
+
 ```csharp
 AdaptiveCardParseResult result = AdaptiveCard.FromJson(json);
 
@@ -57,7 +64,8 @@ else
 }
 ```
 
-### Example: Export to JSON using JSON.NET
+### Example: Serialize the card to JSON
+
 ```csharp
-var json = JsonConvert.SerializeObject(card);
+string json = card.ToJson();
 ```
