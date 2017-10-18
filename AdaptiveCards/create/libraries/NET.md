@@ -8,7 +8,7 @@ ms.topic: article
 
 # .NET SDK for card creation
 
-As we described in [Getting Started](../GettingStarted,md) page, an adaptive card is a JSON-serialized card object model. To make it easy to manipulate the object model, you can use our .NET SDK to serialize to and from JSON.
+As we described in [Getting Started](../GettingStarted.md) page, an adaptive card is a JSON-serialized card object model. To make it easy to manipulate the object model, you can use our .NET SDK to serialize to and from JSON.
 
 > [!IMPORTANT]
 > **Breaking changes from v0.5**
@@ -24,7 +24,7 @@ The `AdaptiveCards` NuGet package provides types for working with adaptive cards
 [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.svg)](https://www.nuget.org/packages/AdaptiveCards)
 
 ```console
-Install-Package AdaptiveCards 
+dotnet add package AdaptiveCards 
 ```
 
 
@@ -64,7 +64,7 @@ else
 }
 ```
 
-### Example: Serialize the card to JSON
+## Example: Serialize the card to JSON
 
 ```csharp
 string json = card.ToJson();
