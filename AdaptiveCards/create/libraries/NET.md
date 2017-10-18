@@ -10,8 +10,8 @@ ms.topic: article
 
 As we described in [Getting Started](../GettingStarted,md) page, an adaptive card is a JSON-serialized card object model. To make it easy to manipulate the object model, you can use our .NET SDK to serialize to and from JSON.
 
-> ![IMPORTANT]
-> Breaking changes from v0.5
+> [!IMPORTANT]
+> **Breaking changes from v0.5**
 > 
 > 1. Package renamed from `Microsoft.AdaptiveCards` to `AdaptiveCards`
 > 1. Due to frequent name collisions with framework namespaces, all model types have been prefixed with "Adaptive". E.g., `TextBlock` is now `AdaptiveTextBlock`
