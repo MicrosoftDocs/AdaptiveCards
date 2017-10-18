@@ -11,11 +11,11 @@ As we described in the getting started section, an adaptive card is nothing more
 
 You can use any tooling that you want to create the adaptive card json.
 
-The `microsoft-adaptivecards` npm package defines a library  for working with adaptive cards in javascript
+The `adaptivecards` npm package defines a library for working with adaptive cards in javascript
 
 ## To install
 ```console
-npm install microsoft-adaptivecards
+npm install adaptivecards
 ```
 
 ## Example creating 
@@ -24,7 +24,7 @@ There are interface definitions in schema.d.ts which describe the shape of the s
 ```typescript
 let card = {
     "type": "AdaptiveCard",
-    "version": "0.5",
+    "version": "1.0",
     "body": [
         {
             "type": "Container",
@@ -35,7 +35,7 @@ let card = {
                 },
                 {
                     "type": "Image",
-                    "url": "http://adaptivecards.io/api/cat"
+                    "url": "http://adaptivecards.io/content/cats/1.png"
                 }
             ]
         }

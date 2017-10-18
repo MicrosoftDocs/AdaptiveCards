@@ -48,8 +48,6 @@
         href: ./display/libraries/UWP.md
       - name: WPF
         href: ./display/libraries/WPF.md
-      - name: Xamarin.Forms
-        href: ./display/libraries/XamarinForms.md
       - name: Renderer Status
         href: ./display/RendererStatus.md
 - name: Resources
