@@ -11,21 +11,21 @@ To add the ability to display cards in your application:
 
 1. **Add a renderer library** - add a reference to a renderer library appropriate to your application.
 2. **Create an instance** - of the renderer configured with your app's style, and with action event handlers
-3. **Render your card** -ask the renderer to render a card to your UI framework
+3. **Render your card** - ask the renderer to render a card to your UI framework
 
 ## Add a renderer
-In the adaptive cards Github repo we have implemented a number of renderers that target various environments.
+In the adaptive cards GitHub repo, we have implemented a number of renderers that target various environments.
 
 * Android native
 * iOS native
-* Html in browser
-* Html server side
+* Html client-side
+* Html server-side
 * Xamarin Forms
-  * iOs
+  * iOS
   * Android
   * Windows
-* UWP Windows/Xaml
-* WPF Windows/Xaml
+* Windows UWP (XAML)
+* Windows WPF (XAML)
 * Image renderer
 
 
@@ -33,11 +33,11 @@ In the adaptive cards Github repo we have implemented a number of renderers that
 The next step is to create an instance of the renderer library. 
 
 ### Hook up action events
-If you want to the action buttons to do something, hook up an action handler.
+If you want the action buttons to do something, hook up an action handler.
 
-* **Action.OpenUrl** - opens the `action.Url`.  
-* **Action.Submit** - takes the result of the submit and send it to the source. How you send it to the source of the card is entirely up to you.
-* **Action.ShowCard**  invokes a dialog and renders the sub-card into that dialog. Note that you only need to handle this if `ShowCardActionMode` is set to `popup`.
+* **Action.OpenUrl** - should open the `url`.  
+* **Action.Submit** - should take the result of the submit and send it to the source. How you send it to the source of the card is entirely up to you.
+* **Action.ShowCard** - shows an additional card. Note that you only need to handle this if `ShowCardActionMode` is set to `popup`. The default is `inline`, which means the card will be shown inline below the button.
 
 ## Render a card
 After you acquire a card from some source, simply call the renderer and pass in the card. You will to get back a native UI object which
