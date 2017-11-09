@@ -51,7 +51,7 @@ Here is an example from the UWP renderer.
 ```csharp
 var renderer = new AdaptiveCardRenderer();
 var card = AdaptiveCard.FromJsonString(jsonString);
-var renderResult = renderer.RenderAdaptiveCard(card);
+var renderResult = renderer.RenderAdaptiveCard(card.AdaptiveCard);
 if (renderResult.FrameworkElement != null)
 {
     myGrid.Children.Add(renderResult.FrameworkElement);
