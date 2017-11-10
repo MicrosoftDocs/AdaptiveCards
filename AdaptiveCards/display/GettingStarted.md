@@ -8,13 +8,13 @@ ms.topic: article
 
 # Displaying Cards inside your application
 
-It's easy to render Adaptive Cards inside your application. We provide SDKs for the most common platforms, as well as provide a [detailed specification](ImplementingRenderer.md) for creating your own Adaptive Card renderer.
+It's easy to render Adaptive Cards inside your application. We provide SDKs for the all common platforms, as well as provide a [detailed specification](ImplementingRenderer.md) for creating your own Adaptive Card renderer.
 
-1. **Install a renderer SDK** - add a reference to a renderer library appropriate to your application.
-2. **Create a renderer** - of the renderer configured with your app's style, and with action event handlers
-3. **Render your card to native UI** -ask the renderer to render a card to your UI framework
+1. **Install a renderer SDK** - for your target platform.
+2. **Create a renderer instance** - configured with your app's style, rules, and action event handlers.
+3. **Render a card to native UI** - automatically styled to your app.
 
-## Adaptive Card rendering SDKs
+## Adaptive Cards SDKs
 
 |Platform|Install|Build|Docs|
 |---|---|---|---|
@@ -32,9 +32,9 @@ The next step is to create an instance of an `AdaptiveCardRenderer`.
 
 ### Hook up action events
 
-By default, the actions will render as buttons on the card, but it's up to your app to make them behave as you expect. Each SDK has some kind of `OnAction` event that you should handle.
+By default, the actions will render as buttons on the card, but it's up to your app to make them behave as you expect. Each SDK has the equivalent of an `OnAction` event that you must handle.
 
-* **Action.OpenUrl** - open the specified `Url`.  
+* **Action.OpenUrl** - open the specified `url`.  
 * **Action.Submit** - take the result of the submit and send it to the source. How you send it to the source of the card is entirely up to you.
 * **Action.ShowCard** - invokes a dialog and renders the sub-card into that dialog. Note that you only need to handle this if `ShowCardActionMode` is set to `popup`.
 
@@ -56,8 +56,7 @@ Most UI frameworks allow you to style the rendered card be using the native UI f
 
 ### Customize per-element rendering
 
-Each SDK allows you to override the rendering of any element, or even add support for entirely new elements that you define.  For example, you can change the `Input.Date` renderer to emit your own custom control while still retaining
-the rest of the output of the renderer. Or you can add support for a custom `ProgressBar` element.
+Each SDK allows you to override the rendering of any element, or even add support for entirely new elements that you define.  For example, you can change the `Input.Date` renderer to emit your own custom control while still retaining the rest of the output of the renderer. Or you can add support for a custom `Rating` element to you define.
 
 
 

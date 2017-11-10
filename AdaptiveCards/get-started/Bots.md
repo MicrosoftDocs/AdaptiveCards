@@ -95,7 +95,7 @@ Let's attach an Adaptive Card that displays custom text.
 
 ### Step 2: Build even richer cards 
 
-Adaptive Cards offer more than just customizable text. 
+Adaptive Cards offer much more than just customizable text. 
 
 You can: 
 
@@ -104,7 +104,7 @@ You can:
 * Add multiple types of `Actions`
 * Collect `Input` from your users
 * Have one card `show another card`
-* ...[and more](http://adaptivecards.io/explorer/)! 
+* [Check out the full scham explorer](http://adaptivecards.io/explorer/)! 
 
 ## Platform SDKs
 
@@ -112,8 +112,8 @@ If your bot is developed using .NET or NodeJS we have libraries to make building
 
 Platform|Install|Learn more
 --------|-------|----------
-.NET | `Install-Package AdaptiveCards` | [Bot Framework .NET Docs](https://docs.microsoft.com/en-us/bot-framework/dotnet/bot-builder-dotnet-add-rich-card-attachments)
-NodeJS | `npm install microsoft-adaptivecards` | [Bot Framework NodeJS Docs](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-send-rich-cards)
+.NET | `Install-Package AdaptiveCards -IncludePrerelease` | [Bot Framework .NET Docs](https://docs.microsoft.com/en-us/bot-framework/dotnet/bot-builder-dotnet-add-rich-card-attachments)
+NodeJS | `npm install adaptivecards` | [Bot Framework NodeJS Docs](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-send-rich-cards)
 
 
 ## Channel status
@@ -122,12 +122,12 @@ The Bot Framework lets you publish your bot to multiple channels. We're working 
 
 Channel | Status
 --------|-------
-[Emulator](https://docs.microsoft.com/en-us/bot-framework/debug-bots-emulator) | Full support ([except Action.Http](https://github.com/Microsoft/BotFramework-WebChat/blob/master/AdaptiveCards.md#actions))
-[WebChat Control](https://github.com/Microsoft/BotFramework-WebChat) | Full support ([except Action.Http](https://github.com/Microsoft/BotFramework-WebChat/blob/master/AdaptiveCards.md#actions))
+[Emulator](https://docs.microsoft.com/en-us/bot-framework/debug-bots-emulator) | Full support (https://github.com/Microsoft/BotFramework-WebChat/blob/master/AdaptiveCards.md#actions))
+[WebChat Control](https://github.com/Microsoft/BotFramework-WebChat) | Full support(https://github.com/Microsoft/BotFramework-WebChat/blob/master/AdaptiveCards.md#actions))
 Skype | Full support coming soon
+Cortana | Full support coming soon
 Microsoft Teams | Full support coming soon
 Bing | Coming soon via Skype Webchat Control
-Cortana | Full support coming
 Kik | Render to Image + limited mapping to keyboard (full support coming)
 Facebook Messenger | Render to image + limited mapping to  buttons
 Slack | Render to Image + limited mapping to buttons

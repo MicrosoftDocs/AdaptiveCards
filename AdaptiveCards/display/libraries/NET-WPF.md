@@ -8,14 +8,7 @@ ms.topic: article
 
 # .NET WPF SDK
 
-As we described in [Getting Started](../GettingStarted.md) page, an Adaptive Card is a JSON-serialized card object model. To make it easy to manipulate the object model, you can use the .NET SDK to serialize to and from JSON.
-
-> [!IMPORTANT]
-> **Breaking changes from v0.5**
-> 
-> 1. Package renamed `AdaptiveCards.Rendering.Wpf`
-> 1. Due to frequent name collisions with framework namespaces, all model types have been prefixed with "Adaptive". E.g., `TextBlock` is now `AdaptiveTextBlock`
-> 1. There have also been some schema changes from the v0.5 preview, which are [outlined here](https://github.com/Microsoft/AdaptiveCards/pull/633)
+As we described in [Getting Started](../GettingStarted.md) page, an Adaptive Card is a JSON-serialized card object model. This library makes it easy to render that JSON into WPF UI that you can use within your app.
 
 ## NuGet install
 
@@ -25,9 +18,9 @@ As we described in [Getting Started](../GettingStarted.md) page, an Adaptive Car
 Install-Package AdaptiveCards.Rendering.Wpf -IncludePrerelease
 ```
 
-## Xceed enhanced input package
+### Xceed enhanced input package
 
-This optional package adds enhanced Input controls beyond what WPF provides out of the box.
+This optional package enhances the Adaptive Card Input controls beyond what WPF provides out of the box. It has a dependency on `Extended.Wpf.Toolkit`
 
 [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Wpf.Xceed.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Wpf.Xceed)
 
@@ -35,17 +28,25 @@ This optional package adds enhanced Input controls beyond what WPF provides out 
 Install-Package AdaptiveCards.Rendering.Wpf.Xceed -IncludePrerelease
 ```
 
+## WPF Visualizer Sample
+
+![Visualizer screenshot](../../content/wpfvisualizer.png)
+
+The [WPF Visualizer sample](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet/Samples/WPFVisualizer) lets you visualize cards using WPF.  A `Host Config` editor is built in for editing and viewing host config settings. Save these settings as a JSON to use them in rendering in your application.
+
 ## Render card
 
 ### Instantiate a renderer
+
 Create an instance of the renderer library. 
+
 ```csharp
 using AdaptiveCards;
 using AdaptiveCards.Rendering;
 using AdaptiveCards.Rendering.Wpf;
 // ...
 
-// Create a default renderer
+// Create a card renderer
 AdaptiveCardRenderer renderer = new AdaptiveCardRenderer();
 
 // If using the Xceed package, enable the enhanced input
@@ -55,77 +56,90 @@ renderer.UseXceedElementRenderers();
 AdaptiveSchemaVersion schemaVersion = renderer.SupportedSchemaVersion;
 ```
 
-
-### Render the card into XAML
+### Render a card to XAML
 
 ```csharp
 // Build a simple card
 // In the real world this would probably be provided as JSON
 AdaptiveCard card = new AdaptiveCard()
-                    {
-                        Body = { new AdaptiveTextBlock() { Text = "Hello World" } }
-                    };
+{
+    Body = { new AdaptiveTextBlock() { Text = "Hello World" } }
+};
 
-// Render the card
-RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
+try
+{
+    // Render the card
+    RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
 
-// Validate the rendered card
-if (renderedCard.FrameworkElement == null)
+    // Get the FrameworkElement
+    // Add this to your app's UI somewhere
+    FrameworkElement fe = renderedCard.FrameworkElement;
+
+    // (Optional) Check for any renderer warnings
+    // This includes things like an unknown element type found in the card
+    // Or the card exceeded the maxmimum number of supported actions, etc
+    IList<AdaptiveWarning> warnings = rendererdCard.Warnings;
+}
+catch(AdaptiveException ex)
 {
     // Failed rendering
-    return;
 }
-
-// Get the FrameworkElement
-FrameworkElement el = renderedCard.FrameworkElement;
-
-// Just for fun, get the AdaptiveCard object model back out
-AdaptiveCard originatingCard = renderedCard.OriginatingCard;
 ```
 
 ### Wire up Action events
 
-On your rendered card, use the `OnAction` event to subscribe to action invoked events.
+Any `actions` within the card will render as WPF `Button`s, but it's up to your app to handle what happens when a user presses them. 
 
+The `RenderedAdaptiveCard` object provides an `OnAction` event for this purpose.
 ```csharp
 
+// Event handler fires when a user clicks an action within the card
 renderedCard.OnAction += MyActionHandler;
 
 private void MyActionHandler(RenderedAdaptiveCard sender, ActionEventArgs e)
 {
-    // Handle Action.OpenUrl
     if (e.Action is AdaptiveOpenUrlAction openUrlAction)
     {
         Process.Start(openUrlAction.Url);
     }
-    // Handle Action.ShowCard (if popup mode)
     else if (e.Action is AdaptiveShowCardAction showCardAction)
     {
-        if (Renderer.HostConfig.Actions.ShowCard.ActionMode == ShowCardActionMode.Popup)
+        // Action.ShowCard can be rendered inline automatically
+        // ... but if you want to handle show card as a "popup", you handle this event
+        if (_myHostConfig.Actions.ShowCard.ActionMode == ShowCardActionMode.Popup)
         {
             var dialog = new ShowCardWindow(showCardAction.Title, showCardAction, Resources);
             dialog.Owner = this;
             dialog.ShowDialog();
         }
     }
-    // Handle Action.Submit (how do you want to submit cards?)
     else if (e.Action is AdaptiveSubmitAction submitAction)
     {
-        var inputs = sender.GetUserInputs(InputValueMode.RawString).AsJson();
+        var inputs = sender.UserInputs.AsJson();
         inputs.Merge(submitAction.Data);
         MessageBox.Show(this, JsonConvert.SerializeObject(inputs, Formatting.Indented), "SubmitAction");
     }
 }
 ```
 
+## Customization
+
+There are 3 ways to customize the adaptive card rendering: 
+1. Host Config
+2. XAML styling
+3. Custom element rendering
+
 ### HostConfig
 
-You should consider applying a Host Config to the renderer for basic styling and behavior support. 
-```csharp
+A [Host Config](../HostConfig.md) is a shared configuration object that all renderers understand. This allows you to define common styles (e.g., font family, font sizes, default spacing) and behaviors (e.g., max number of actions) that will be automatically interpreted by each platform renderer. 
 
+The goal is that the native UI generated by each platform renderer will look very similar with minimal work on your part.
+
+```csharp
 // Construct programmatically
 renderer.HostConfig = new AdaptiveHostConfig() 
 {
+    FontFamily = "Comic Sans",
     FontSizes = {
         Small = 15,
         Default = 20,
@@ -136,7 +150,8 @@ renderer.HostConfig = new AdaptiveHostConfig()
 };
 
 // Or parse from JSON
-AdaptiveHostConfigParseResult result = AdaptiveHostConfig.FromJson(@"{
+renderer.HostConfig  = AdaptiveHostConfig.FromJson(@"{
+    ""fontFamily"": ""Comic Sans"",
     ""fontSizes"": {
         ""small"": 25,
         ""default"": 26,
@@ -145,34 +160,24 @@ AdaptiveHostConfigParseResult result = AdaptiveHostConfig.FromJson(@"{
         ""extraLarge"": 29
     }
 }");
-
-if (result.HostConfig != null)
-{
-    renderer.HostConfig = result.HostConfig;
-}
-else
-{
-    // Error parsing
-}
 ```
 
-### Native platform styling
+### XAML Styling
 
-If you pass in a ResourceDictionary, you can customize the Xaml behavior further. This
-allows you to define roll over behaviors, animations, rounded buttons, and so forth.  Here is a table of the 
-style names that are used for each element.  
+While Host Config will get you most of the way there on each platform, it's likely that you will have to do some native styling on each platform. 
 
-| Element | Style names used|
+WPF makes this easy by allowing you to pass a ResourceDictionary for fine-grained styling, behavior, animations, etc.
+
+| Element | Style names |
 |---|---|
 | AdaptiveCard | Adaptive.Card| 
 | Action.OpenUrl  | Adaptive.Action.OpenUrl  |
 | Action.ShowCard | Adaptive.Action.ShowCard |
 | Action.Submit  | Adaptive.Action.Submit  |
-| ActionSet | Adaptive.ActionSet |
 | Column | Adaptive.Column, Adaptive.Action.Tap |
 | ColumnSet | Adaptive.ColumnSet, Adaptive.VerticalSeparator |
 | Container | Adaptive.Container|
-| Input.ChoiceSet | Adaptive.Input.ChoiceSet,  Adaptive.Input.ChoiceSet.ComboBox, Adaptive.Input.ChoiceSet.CheckBox,  Adaptive.Input.ChoiceSet.Radio,  Adaptive.Input.ChoiceSet.ComboBoxItem, |
+| Input.ChoiceSet | Adaptive.Input.ChoiceSet,  Adaptive.Input.ChoiceSet.ComboBox, Adaptive.Input.ChoiceSet.CheckBox,  Adaptive.Input.ChoiceSet.Radio,  Adaptive.Input.ChoiceSet.ComboBoxItem |
 | Input.Date | Adaptive.Input.Text.Date
 | Input.Number | Adaptive.Input.Text.Number |
 | Input.Text | Adaptive.Input.Text |
@@ -180,70 +185,73 @@ style names that are used for each element.
 | Input.Toggle| Adaptive.Input.Toggle|
 | Image  | Adaptive.Image |
 | ImageSet  | Adaptive.ImageSet |
-| FactSet | Adaptive.FactSet, Adaptive.Fact.Title, Adaptive.Fact.Value|
+| FactSet | Adaptive.FactSet, Adaptive.Fact.Title, Adaptive.Fact.Value |
 | TextBlock  | Adaptive.TextBlock |
 
-Here is a sample resource dictionary which adds a hover effect on elements with an Action defined on them:
+This sample XAML Resource dictionary that sets the background of all TextBlocks to Aqua. You will probably want something more advanced than this 😁
+
 ```xml
-<Window.Resources>
-    <Style x:Key="Adaptive.Action.Tap" TargetType="Button">
-        <Style.Triggers>
-            <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Cursor" Value="Hand" />
-            </Trigger>
-            <EventTrigger RoutedEvent="UIElement.MouseEnter">
-                <BeginStoryboard>
-                    <Storyboard>
-                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetProperty="Opacity" To="0.7" />
-                    </Storyboard>
-                </BeginStoryboard>
-            </EventTrigger>
-            <EventTrigger RoutedEvent="UIElement.MouseLeave">
-                <BeginStoryboard>
-                    <Storyboard>
-                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetProperty="Opacity" To="1.0" />
-                    </Storyboard>
-                </BeginStoryboard>
-            </EventTrigger>
-
-        </Style.Triggers>
-        <Setter Property="Template">
-            <Setter.Value>
-                <ControlTemplate TargetType="Button">
-                    <Border Background="Transparent">
-                        <ContentPresenter/>
-                    </Border>
-                </ControlTemplate>
-            </Setter.Value>
-        </Setter>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="Adaptive.TextBlock" TargetType="TextBlock">
+        <Setter Property="Background" Value="Aqua"></Setter>
     </Style>
-</Window.Resources>
+</ResourceDictionary>
+```
+```csharp
+// Use a ResourceDictionary instance
+// DON'T use this property if rendering from a server
+renderer.Resources = myResourceDictionary;
+
+// ... or load it from a file path
+// USE this if rendering from a server
+renderer.ResourcesPath = <path-to-my-resource-dictionary.xaml>;
 ```
 
-## Extensibility
+> [!IMPORTANT]
+> **A note about server-side image generation**
+> The WPF renderer provides a `RenderCardToImageAsync` method that can be used for server-side image generation. 
+> You must only use the `ResourcesPath` property if used in this environment. 
+> See the [Image Rendering](NET-Image.md) docs for more
 
-### Change per-element rendering
-The renderer has a registration mechanism which allows you to set a function that is called to perform the
-rendering on a per-element basis.  It exposes a method called `ElementRenderers.Set<TElement>(func); `
+## Custom Element Rendering
 
-To override the rendering of a `Input.Date` element:
+For full control of the renderer you can use the `ElementRenderers` property to **add**, **remove**, or **override** default renderers.
+
+The following example shows how you could define a custom `"type": "Rating"` element and render it.
+
 ```csharp
-renderer.ElementRenderers.Set<DateInput>(MyCustomDateInputRenderer);
-```
+// Register the new type with the JSON parser
+AdaptiveTypedElementConverter.RegisterTypedElement<MyCustomRating>();
 
-The new date renderer would look like this in WPF:
-```csharp
-public static FrameworkElement Render(DateInput input, RenderContext context)
+// Add the new type to the element renderer registry
+renderer.ElementRenderers.Set<MyCustomRating>(MyCustomRating.Render);
+
+// Define a custom Rating element type
+public class MyCustomRating : AdaptiveElement
 {
-    var datePicker = new DatePicker();
-    ...
-    return datePicker;
+    public override string Type => "Rating";
+
+    public double Rating { get; set; }
+
+    public AdaptiveTextSize Size { get; set; }
+
+    public AdaptiveTextColor Color { get; set; }
+
+    public static FrameworkElement Render(MyCustomRating rating, AdaptiveRenderContext context)
+    {
+        var textBlock = new AdaptiveTextBlock
+        {
+            Size = rating.Size,
+            Color = rating.Color
+        };
+        for (int i = 0; i < rating.Rating; i++)
+        {
+            textBlock.Text += "\u2605";
+        }
+        textBlock.Text += $" ({rating.Rating})";
+        return context.Render(textBlock);
+    }
 }
 ```
-
-## WPF Visualizer Sample
-
-The [WPF visualizer sample project](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet/Samples/WPFVisualizer) lets you visualize cards using WPF.  A `hostconfig` editor is built in for editing and viewing host config settings. Save these settings as a JSON to use them in rendering in your application.
-
-![Visualizer screenshot](../../content/wpfvisualizer.png)
-
