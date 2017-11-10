@@ -46,7 +46,7 @@ card.Body.Add(new AdaptiveTextBlock()
 
 card.Body.Add(new AdaptiveImage() 
 {
-    Url = "http://someUrl.com/example.png"
+    Url = "http://adaptivecards.io/content/cats/1.png"
 });
 
 // serialize the card to JSON
@@ -55,7 +55,7 @@ string json = card.ToJson();
 
 ## Example: Parse an AdaptiveCard from JSON
 
-This example demonstrates how to parse a JSON payload into an Adaptive Card. This makes it easy to manipulate the object model or even render Adaptive Cards inside your app by using our [renderer SDKs](../display/GettingStarted.md).
+This example demonstrates how to parse a JSON payload into an Adaptive Card. This makes it easy to manipulate the object model or even render Adaptive Cards inside your app by using our [renderer SDKs](../../display/GettingStarted.md).
 
 ```csharp
 try

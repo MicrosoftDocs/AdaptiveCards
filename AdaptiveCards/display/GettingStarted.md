@@ -18,7 +18,7 @@ It's easy to render Adaptive Cards inside your application. We provide SDKs for 
 
 |Platform|Install|Build|Docs|
 |---|---|---|---|
-| HTML Client | [![npm install](https://img.shields.io/npm/v/adaptivecards.svg)](https://www.npmjs.com/package/adaptivecards) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/html)| [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/htmlclient) |
+| HTML Client | [![npm install](https://img.shields.io/npm/v/adaptivecards.svg)](https://www.npmjs.com/package/adaptivecards) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/nodejs)| [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/htmlclient) |
 | .NET WPF | [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Wpf.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Wpf) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet)| [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/wpf) |
 | .NET HTML | [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Html.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Html) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet) | [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/htmlserver)
 | Windows UWP | [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Renderer.Uwp.svg)](https://www.nuget.org/packages/AdaptiveCards.Renderer.Uwp) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/uwp) | [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/uwp) |
