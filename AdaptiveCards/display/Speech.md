@@ -6,10 +6,9 @@ ms.date: 06/26/2017
 ms.topic: article
 ---
 
-
 # Handling speech
-To support speech adaptive cards has the *speak* property which contains information on how to create speech to play for the user.
 
+To support speech adaptive Cards has the `speak` property which contains information on how a card shoudl be read aloud to a user.
 
 The speech tag can be annotated using  [SSML markup](https://msdn.microsoft.com/en-us/library/office/hh361578(v=office.14).aspx). 
 SSML gives you the ability control the speed, tone, inflection of the speech.  It even allows you to stream audio or a render a TTS audio stream

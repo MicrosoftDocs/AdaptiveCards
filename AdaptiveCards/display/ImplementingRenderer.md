@@ -9,7 +9,7 @@ ms.topic: article
 
 # Adaptive Card Renderer Specification
 
-The following guidance describes how each of the renderers is implemented and how to follow the same concepts to implement a renderer on any UI platform.
+The following specification describes how implement an Adaptive Card renderer on any UI platform.
 
 > [!IMPORTANT]
 > 
@@ -17,16 +17,25 @@ The following guidance describes how each of the renderers is implemented and ho
 
 ## SDK Versioning
 
-1. The SDK major and minor version **MUST** match the `schema` version. Patch/build **CAN** be used for renderer updates that don't have schema changes.
+1. The SDK major and minor version **SHOULD** match the `schema` version. 
+1. Patch/build **SHOULD** be used for renderer updates that don't have schema changes.
 
-## Parsing
+## Parsing JSON
 
-1. A renderer **SHOULD** check that it's valid JSON content
-1. A renderer **SHOULD** attempt to validate against the json-schema
-1. Schema validation errors **MUST** be returned to the host app
-1. A renderer **MUST** check if the content exceeds the `maxPayloadSize` from Host Config
-1. If unknown elements are encountered they **MUST** give the host app the opportunity to access them before rendering
-1. A renderer **MUST** parse `extension` properties. TODO: This may not be necessary to highlight if they are in the json schema?
+### Error conditions
+1. A parser **MUST** check that it's valid JSON content
+1. A parser **MUST** validate against the schema (required properties, etc)
+1. A parser **MUST** check if the content exceeds the `maxPayloadSize` from Host Config
+1. The above errors **MUST** be reported to the host app (exception or equivalent)
+
+### Unknown types
+1. If unknown "types" are encountered they **MUST BE DROPPED** from the result
+1. Any alterations of the payload (like above) **SHOULD** be reported as warnings to the host app
+
+### Unknown properties
+1. A parser **MUST** include **additional** properties on elements
+
+### Additional considerations
 1. The `speak` property may contain SSML markup and **MUST** be returned to the host app as-specified
 
 ## Parsing Host Config
@@ -40,23 +49,23 @@ The following guidance describes how each of the renderers is implemented and ho
 
 ## Rendering
 
-An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection of `CardElement`s that a renderer will enumerate and render. 
+An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection of `CardElement`s that a renderer will enumerate and render in order. 
 
-1. Each Element is a "block level" element and **MUST** stretch to the width of its container.
-1. A renderer **MUST** ignore unknown elements, and continue rendering the rest of the payload.
+1. Each Element **MUST** stretch to the width of its parent (think `display: block` in HTML).
+1. A renderer **MUST** ignore unknown element types, and continue rendering the rest of the payload.
 
 ### Spacing and Separators
 
-1. The `spaceing` property on every element influences the amount of space between the **current** element and the one **before** it.
-1. Spacing **MUST ONLY** apply when an element **IS NOT** the first in the array.
+1. The `spacing` property on every element influences the amount of space between the **CURRENT** element and the one **BEFORE** it.
+1. Spacing **MUST ONLY** apply when there actually is an element preceding it. (E.g., won't apply to the first item in an array)
 1. A renderer **MUST** look up the amount of space to use from the `hostConfig` spacing for the enum value applied to the current element.
-1. If the element has a `separator` of `true`, then a visible line **MUST** be drawn between the current element and the one before it.
-1. The separator line **MUST** be drawn using the `container` `style` `defaultColor`. (TODO: confirm this property name)
+1. If the element has a `separator` value of `true`, then a visible line **MUST** be drawn between the current element and the one before it.
+1. The separator line **MUST** be drawn using the `container.style.default.foregroundColor`.
 1. A separator **MUST ONLY** be drawn if the item **IS NOT** the first in the array.
 
 ### Columns
 
-1. `Column` width **MUST** be interpreted by "auto", "stretch" or a weighted ratio.
+1. `Column` `width` **MUST** be interpreted by "auto", "stretch" or a weighted ratio.
 
 ### TextBlock
 
@@ -66,37 +75,19 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 #### Markdown
 
 1. Adaptive Cards allow for a subset of Markdown and **SHOULD** be supported in `TextBlock`. 
-
-_Supported_
-Text Style | Markdown
----|---
-**Bold**        | `**Bold**`
-_Italic_        | `_Italic_`
-Bullet list     | ```- Item 1\r- Item 2\r- Item 3```
-Numbered list   | ```1. Green\r2. Orange\r3. Blue```
-Hyperlinks      | ```[Title](url)```
-
-_Not supported_
-* Headers
-* Tables
-* Images
+1. See full [markdown requirements](../create/TextFeatures.md)
 
 #### Formatting functions
 
-1. `TextBlock` allows [date/time formatting functions](../create/TextFeatures.md) that **MUST** be supported on every renderer.
-1. TODO: Include regex and spec
-
+1. `TextBlock` allows [DATE/TIME formatting functions](../create/TextFeatures.md) that **MUST** be supported on every renderer.
+1. TODO: Include regex
 
 ### Images
 
-1. A renderer **MUST** optionally allow host apps to prefetch all HTTP images and only callback to the host app when card has been fully rendererd.
+1. A renderer **SHOULD** allow host apps to know when all HTTP images have been downloaded and the card is "fully rendererd"
 1. A renderer **MUST** inspect the Host Config `maxImageSize` param when downloading HTTP images
-
-#### Image content
-
-1. A renderer **MUST** support .png and .jpeg
-1. A renderer **SHOULD** support .gif images
-
+1. A renderer **MUST** support `.png` and `.jpeg`
+1. A renderer **SHOULD** support `.gif` images
 
 ### Host Config
 
@@ -114,11 +105,10 @@ This allows properties which are platform agnostic to be shared among renderers 
 
 1. Each element type **SHOULD** attach a native platform style with the generated UI element. E.g., in HTML we added a CSS class to the element types, and in XAML we assign a specific Style.
 
-
 ## Extensbility 
 
 1. A renderer **MUST** allow host apps to override default element renderers. E.g., replace `TextBlock` rendering with their own logic.
-1. A renderer **MUST** allow host apps to register custom element types. E.g., add support for a custom `ProgressBar` element
+1. A renderer **MUST** allow host apps to register custom element types. E.g., add support for a custom `Rating` element
 1. A renderer **MUST** allow host apps to remove support for a default element. E.g., remove `Action.Submit` if they don't want it supported.
 
 ## Actions
@@ -149,7 +139,7 @@ The Submit Action behaves like an HTML form submit, except that where HTML typic
 
 1. When this **MUST** raise an event the user taps the action invokved.  
 1. The `data` property **MUST** be included in the callback payload.
-1. For `Action.Submit`, a renderer **MUST** gather all inputs on the card and retrieve their values. This RegEx can be used to gather input values: `/\{{2}([a-z0-9_$@]+).value\}{2}/gi;`
+1. For `Action.Submit`, a renderer **MUST** gather all inputs on the card and retrieve their values. 
 
 ### selectAction
 
@@ -171,4 +161,4 @@ The Submit Action behaves like an HTML form submit, except that where HTML typic
 
 ## Events
 
-1. A renderer **MUST** fire an event when an element's visibility has changed, allowing the host app to scroll the card into position.
+1. A renderer **SHOULD** fire an event when an element's visibility has changed, allowing the host app to scroll the card into position.

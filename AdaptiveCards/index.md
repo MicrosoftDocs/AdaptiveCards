@@ -24,7 +24,7 @@ The following session at Build 2017 covers the motivation behind Adaptive Cards 
 
 ## How they work
 
-**Card Creators** describe their content as a simple JSON object. That content can then be rendered natively inside a **Host Application**, automatically adapting to the look and feel of the Host.
+**Card Authors** describe their content as a simple JSON object. That content can then be rendered natively inside a **Host Application**, automatically adapting to the look and feel of the Host.
 
 For example, Contoso Bot can author an Adaptive Card through the Bot Framework, and when delivered to Skype, it will look and feel like a Skype card. When that same payload is sent to Microsoft Teams, it will look and feel like Microsoft Teams. As more host apps start to support Adaptive Cards, that same payload will automatically light up inside these applications, yet still feel entirely native to the app.
 
@@ -36,16 +36,16 @@ The goals for adaptive cards are:
 * **Portable** - To any app, device, and UI framework
 * **Open** - Libraries and schema are open source and shared
 * **Low cost** - Easy to define, easy to consume
-* **Expressive** - Targeted at the long tail of content that developers want to produce.
+* **Expressive** - Targeted at the long tail of content that developers want to produce
 * **Purely declarative** - No code is needed or allowed
-* **Automatically Styled** - To the Host application UX and brand guidelines
+* **Automatically styled** - To the Host application UX and brand guidelines
 
 ## For Card Authors
 Adaptive Cards are great for card authors:
 
 * **One schema** - You get a single format, minimizing the cost of creating a card and maximizing the number of places it can be used.
-* **Richer Expression** - Your content can more closely align with want you want to say because you have a richer palette to paint with.
-* **Broad Reach** - Your content will work across a broader set of applications without you having to learn new schemas.
+* **Richer expression** - Your content can more closely align with want you want to say because you have a richer palette to paint with.
+* **Broad reach** - Your content will work across a broader set of applications without you having to learn new schemas.
 * **Input controls** - Your card can include input controls for gathering information from the user that is viewing the card.
 * **Better tooling** - An open card ecosystem means better tooling that is shared by everyone.
 
