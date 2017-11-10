@@ -7,15 +7,13 @@ ms.topic: article
 ---
 
 # Speech and advanced customization
-We live in an era of speech interaction via services like Cortana.  Adaptive cards are designed from day one
-to support speech, enabling cool new hands-full scenarios.
+We live in an era of speech interaction via services like Cortana.  Adaptive cards are designed from day one to support speech, enabling cool new hands-full scenarios.
 
 The `speak` tag enables the adaptive card to be delivered to an environment where a visual display is not primary experience, such as to a car dashboard while driving. 
 
 ## Speak property
-To support speech we have a *speak* property which contains text to say to the user. The text can be annotated using speech synthesis markup language
-([SSML](https://msdn.microsoft.com/en-us/library/office/hh361578)). SSML controls the speed, tone, and inflection of the speech.  It even allows you to stream audio or a render a TTS audio stream
-from your own service, giving you a great deal of flexibility for customization.
+To support speech we have a `speak` property which contains text to say to the user. The text can be annotated using speech synthesis markup language
+([SSML](https://msdn.microsoft.com/en-us/library/office/hh361578)). SSML controls the speed, tone, and inflection of the speech.  It even allows you to stream audio or a render a TTS audio stream from your own service, giving you a great deal of flexibility for customization.
 
 There are two patterns for speak property usage by a host application:
 
@@ -33,5 +31,5 @@ There are two patterns for speak property usage by a host application:
 ```
 
 ## Speech content design
-Content designed for speech is different from content designed for visual display. When you design
-a card, you are designing an entire visual experience to present information to a user in a way that delights them. When designing for speech, you should think about how to verbally describe the content in a way that delights the user.  
+
+Content designed for speech is different from content designed for visual display. When you design a card, you are designing an entire visual experience to present information to a user in a way that delights them. When designing for speech, you should think about how to verbally describe the content in a way that delights the user.  
