@@ -24,7 +24,7 @@ The following session at Build 2017 covers the motivation behind Adaptive Cards 
 
 ## How they work
 
-**Card Creators** describe their content as a simple JSON object. That content can then be rendered natively inside a **Host Application**, automatically adapting to the look and feel of the Host.
+**Card Authors** describe their content as a simple JSON object. That content can then be rendered natively inside a **Host Application**, automatically adapting to the look and feel of the Host.
 
 For example, Contoso Bot can author an Adaptive Card through the Bot Framework, and when delivered to Skype, it will look and feel like a Skype card. When that same payload is sent to Microsoft Teams, it will look and feel like Microsoft Teams. As more host apps start to support Adaptive Cards, that same payload will automatically light up inside these applications, yet still feel entirely native to the app.
 
@@ -36,7 +36,7 @@ The goals for adaptive cards are:
 * **Portable** - To any app, device, and UI framework
 * **Open** - Libraries and schema are open source and shared
 * **Low cost** - Easy to define, easy to consume
-* **Expressive** - Targeted at the long tail of content that developers want to produce.
+* **Expressive** - Targeted at the long tail of content that developers want to produce
 * **Purely declarative** - No code is needed or allowed
 * **Automatically styled** - To the Host application UX and brand guidelines
 
