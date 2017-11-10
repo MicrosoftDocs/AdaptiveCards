@@ -7,61 +7,56 @@ ms.topic: article
 ---
 
 # Displaying Cards inside your application
-To add the ability to display cards in your application:
 
-1. **Add a renderer library** - add a reference to a renderer library appropriate to your application.
-2. **Create an instance** - of the renderer configured with your app's style, and with action event handlers
-3. **Render your card** -ask the renderer to render a card to your UI framework
+It's easy to render Adaptive Cards inside your application. We provide SDKs for the all common platforms, as well as provide a [detailed specification](ImplementingRenderer.md) for creating your own Adaptive Card renderer.
 
-## Add a renderer
-In the adaptive cards Github repo we have implemented a number of renderers that target various environments.
+1. **Install a renderer SDK** - for your target platform.
+2. **Create a renderer instance** - configured with your app's style, rules, and action event handlers.
+3. **Render a card to native UI** - automatically styled to your app.
 
-* Android native
-* iOS native
-* Html in browser
-* Html server side
-* Xamarin Forms
-  * iOs
-  * Android
-  * Windows
-* UWP Windows/Xaml
-* WPF Windows/Xaml
-* Image renderer
+## Adaptive Cards SDKs
+
+|Platform|Install|Build|Docs|
+|---|---|---|---|
+| HTML Client | [![npm install](https://img.shields.io/npm/v/adaptivecards.svg)](https://www.npmjs.com/package/adaptivecards) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/nodejs)| [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/htmlclient) |
+| .NET WPF | [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Wpf.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Wpf) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet)| [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/wpf) |
+| .NET HTML | [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Html.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Html) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet) | [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/htmlserver)
+| Windows UWP | [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Renderer.Uwp.svg)](https://www.nuget.org/packages/AdaptiveCards.Renderer.Uwp) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/uwp) | [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/uwp) |
+| Android | [![Maven Central](https://img.shields.io/maven-central/v/io.adaptivecards/adaptivecards-android-arm.svg)](https://search.maven.org/#search%7Cga%7C1%7Ca%3A%22adaptivecards-android-arm%22) | [Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/android) | [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/android) |
+| iOS | [![CocoaPods](https://img.shields.io/cocoapods/v/AdaptiveCards.svg)](https://cocoapods.org/pods/AdaptiveCards) |[Source](https://github.com/Microsoft/AdaptiveCards/tree/master/source/ios) | [Docs](https://docs.microsoft.com/en-us/adaptive-cards/display/libraries/ios) |
 
 
 ## Create an instance of the renderer
-The next step is to create an instance of the renderer library. 
+
+The next step is to create an instance of an `AdaptiveCardRenderer`. 
 
 ### Hook up action events
-If you want to the action buttons to do something, hook up an action handler.
 
-* **Action.OpenUrl** - opens the `action.Url`.  
-* **Action.Submit** - takes the result of the submit and send it to the source. How you send it to the source of the card is entirely up to you.
-* **Action.ShowCard**  invokes a dialog and renders the sub-card into that dialog. Note that you only need to handle this if `ShowCardActionMode` is set to `popup`.
+By default, the actions will render as buttons on the card, but it's up to your app to make them behave as you expect. Each SDK has the equivalent of an `OnAction` event that you must handle.
+
+* **Action.OpenUrl** - open the specified `url`.  
+* **Action.Submit** - take the result of the submit and send it to the source. How you send it to the source of the card is entirely up to you.
+* **Action.ShowCard** - invokes a dialog and renders the sub-card into that dialog. Note that you only need to handle this if `ShowCardActionMode` is set to `popup`.
 
 ## Render a card
-After you acquire a card from some source, simply call the renderer and pass in the card. You will to get back a native UI object which
-represents your card rendered into your UI framework.  Add the card to your UI and you are done.
+
+After you acquire a card payload, simply call the renderer and pass in the card. You will to get back a native UI object made up of the card contents. Now just put this UI somewhere in your app.
 
 ## Customization
+
 There are several ways you can customize what is rendered. 
 
-### Configure HostConfig
-The HostConfig is a cross-library, cross-platform group of settings which control how the cards are rendered.  Through this 
-object you can define things like font sizes, separation between elements, colors, and so forth. 
+### HostConfig
 
-### Change per-element rendering
-Most libraries allow you to override the rendering of any element, making it easy for you to substitute your own rendering
-for that element.  For example, you can change the `Input.Date` renderer to emit your own custom control while still retaining
-the rest of the output of the renderer.
+A [HostConfig](HostConfig.md) is a shared, cross-platform configuration object that controls the basic styling and behavior of cards inside your app. It defines things like font sizes, spacing between elements, colors, number of supported actions, etc. 
 
-### Style UI Framework
-Most UI frameworks allow you to style the output further using UI framework styling.  For example, in HTML you can style
-the output of the renderer using CSS, and in XAML you can style the output of the renderer using XAML Styles.
+### Native platform styling
 
-## Resources
-* [Implement a renderer](ImplementingRenderer.md) 
+Most UI frameworks allow you to style the rendered card be using the native UI framework styling. For example, in HTML you can specify CSS classes for the HTML, or in XAML you can pass in a custom ResourceDictionary for fine-grained control of the output.
 
+### Customize per-element rendering
+
+Each SDK allows you to override the rendering of any element, or even add support for entirely new elements that you define.  For example, you can change the `Input.Date` renderer to emit your own custom control while still retaining the rest of the output of the renderer. Or you can add support for a custom `Rating` element to you define.
 
 
 
