@@ -25,7 +25,6 @@ The following specification describes how implement an Adaptive Card renderer on
 ### Error conditions
 1. A parser **MUST** check that it's valid JSON content
 1. A parser **MUST** validate against the schema (required properties, etc)
-1. A parser **MUST** check if the content exceeds the `maxPayloadSize` from Host Config
 1. The above errors **MUST** be reported to the host app (exception or equivalent)
 
 ### Unknown types
