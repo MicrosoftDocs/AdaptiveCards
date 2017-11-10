@@ -171,4 +171,4 @@ The Submit Action behaves like an HTML form submit, except that where HTML typic
 
 ## Events
 
-1. A renderer **MUST** fire an event when an element's visibility has changed, allowing the host app to scroll the card into position.
+1. A renderer **SHOULD** fire an event when an element's visibility has changed, allowing the host app to scroll the card into position.

@@ -1,19 +1,19 @@
 ---
-title: HTML Server SDK
+title: .NET HTML SDK
 author: matthidinger
 ms.author: mahiding
-ms.date: 06/26/2017
+ms.date: 10/19/2017
 ms.topic: article
 ---
 
-# HTML server library
-This is a .NET server side library for generating HTML markup to be sent to a client.
+# .NET HTML SDK
+This is a .NET library for generating HTML markup, typically from a server.
 
 ## Getting the SDK
 This is available as a nuget packages. 
 
 ```console
-Install-Package AdaptiveCards.Renderer.Html
+dotnet add package AdaptiveCards.Rendering.Html
 ```
 
 ## Render card
@@ -23,18 +23,14 @@ The next step is to create an instance of the renderer.
 
 ```csharp
 using AdaptiveCards;
-using AdaptiveCards.Rendering;
-using AdaptiveCards.Rendering.Config;
+using AdaptiveCards.Rendering.Html;
 
 // ... 
 
 // Create a default renderer
-AdaptiveCardRenderer renderer = new AdaptiveCardHtmlRenderer();
+AdaptiveCardRenderer renderer = new AdaptiveCardRenderer();
 
-// Or use custom host config
-AdaptiveCardRenderer renderer = new AdaptiveCardRenderer(hostConfig);
-
-// Or assign the host config with the property
+// Assign a Host Config if you have one
 renderer.HostConfig = hostConfig;
 
 // Get the schema version this renderer supports
@@ -46,17 +42,15 @@ AdaptiveSchemaVersion schemaVersion = renderer.SupportedSchemaVersion; // 1.0
 RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
 
 // Validate the rendered card
-if (renderedCard.HtmlTag == null)
+if (renderedCard.Html != null)
 {
-    // Failed rendering
-    return;
+    // Get the HTML string
+    string html = renderedCard.Html.ToString();
+
+    // Just for fun, get the AdaptiveCard object model back out
+    AdaptiveCard originatingCard = renderedCard.OriginatingCard;
 }
 
-// Get the HTML string
-string html = renderedCard.HtmlTag.ToString();
-
-// Just for fun, get the AdaptiveCard object model back out
-AdaptiveCard originatingCard = renderedCard.OriginatingCard;
 ```
 
 ### Wire up Action events
@@ -177,9 +171,9 @@ AdaptiveCardRenderer renderer = new AdaptiveCardRenderer(new HostConfig()
 
 RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
 
-if (renderedCard.HtmlTag != null)
+if (renderedCard.Html != null)
 {
-    Console.WriteLine($"<div class='cardcontainer'>{renderedCard.HtmlTag.ToString()}</div>");
+    Console.WriteLine($"<div class='cardcontainer'>{renderedCard.Html.ToString()}</div>");
 }
 else
 {
@@ -187,11 +181,6 @@ else
 }
 ```
 
+## Sample Project
 
-
-
-## Next steps
-
-* [Implement a renderer](../ImplementingRenderer.md) 
-
-
+Take a look at the AdaptiveCards.

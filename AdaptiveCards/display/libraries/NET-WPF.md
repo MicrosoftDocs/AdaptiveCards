@@ -1,20 +1,38 @@
 ---
-title: WPF SDK
+title: .NET WPF SDK
 author: matthidinger
 ms.author: mahiding
-ms.date: 06/26/2017
+ms.date: 10/19/2017
 ms.topic: article
 ---
 
-# WPF library
+# .NET WPF SDK
 
-This is a renderer which targets WPF XAML.  It has no dependencies outside of standard Windows components, 
-which means it supports `Date` and `Time` controls as simple textbox controls.
+As we described in [Getting Started](../GettingStarted.md) page, an Adaptive Card is a JSON-serialized card object model. To make it easy to manipulate the object model, you can use the .NET SDK to serialize to and from JSON.
 
-## Getting the SDK
-This is available as a nuget packages. 
+> [!IMPORTANT]
+> **Breaking changes from v0.5**
+> 
+> 1. Package renamed `AdaptiveCards.Rendering.Wpf`
+> 1. Due to frequent name collisions with framework namespaces, all model types have been prefixed with "Adaptive". E.g., `TextBlock` is now `AdaptiveTextBlock`
+> 1. There have also been some schema changes from the v0.5 preview, which are [outlined here](https://github.com/Microsoft/AdaptiveCards/pull/633)
+
+## NuGet install
+
+[![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Wpf.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Wpf)
+
 ```console
-Install-Package AdaptiveCards.Renderer.Wpf
+Install-Package AdaptiveCards.Rendering.Wpf -IncludePrerelease
+```
+
+## Xceed enhanced input package
+
+This optional package adds enhanced Input controls beyond what WPF provides out of the box.
+
+[![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Wpf.Xceed.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Wpf.Xceed)
+
+```console
+Install-Package AdaptiveCards.Rendering.Wpf.Xceed -IncludePrerelease
 ```
 
 ## Render card
@@ -24,25 +42,31 @@ Create an instance of the renderer library.
 ```csharp
 using AdaptiveCards;
 using AdaptiveCards.Rendering;
-using AdaptiveCards.Rendering.Config;
+using AdaptiveCards.Rendering.Wpf;
 // ...
 
 // Create a default renderer
 AdaptiveCardRenderer renderer = new AdaptiveCardRenderer();
 
-// Or use custom host config
-AdaptiveCardRenderer renderer = new AdaptiveCardRenderer(hostConfig);
+// If using the Xceed package, enable the enhanced input
+renderer.UseXceedElementRenderers();
 
-// Or assign the host config with the property
-renderer.HostConfig = hostConfig;
-
-// Get the schema version this renderer supports
-AdaptiveSchemaVersion schemaVersion = renderer.SupportedSchemaVersion; // 1.0
+// For fun, check the schema version this renderer supports
+AdaptiveSchemaVersion schemaVersion = renderer.SupportedSchemaVersion;
 ```
 
-### Render a Card WPF
+
+### Render the card into XAML
 
 ```csharp
+// Build a simple card
+// In the real world this would probably be provided as JSON
+AdaptiveCard card = new AdaptiveCard()
+                    {
+                        Body = { new AdaptiveTextBlock() { Text = "Hello World" } }
+                    };
+
+// Render the card
 RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
 
 // Validate the rendered card
@@ -59,45 +83,48 @@ FrameworkElement el = renderedCard.FrameworkElement;
 AdaptiveCard originatingCard = renderedCard.OriginatingCard;
 ```
 
-### Render a Card Xamarin
-In Xamarin, we return a View item.
-
-```csharp
-RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
-
-// Validate the rendered card
-if (renderedCard.View == null)
-{
-    // Failed rendering
-    return;
-}
-
-// Get the view
-View view = renderedCard.View;
-
-// Just for fun, get the AdaptiveCard object model back out
-AdaptiveCard originatingCard = renderedCard.OriginatingCard;
-```
-
 ### Wire up Action events
+
 On your rendered card, use the `OnAction` event to subscribe to action invoked events.
+
 ```csharp
-RenderedAdaptiveCard renderedCard = renderer.RenderCard(card);
 
-renderedCard.OnAction += MainView_OnAction;
+renderedCard.OnAction += MyActionHandler;
 
-private void MainView_OnAction(object sender, ActionEventArgs e)
+private void MyActionHandler(RenderedAdaptiveCard sender, ActionEventArgs e)
 {
-    // What action was tapped
-    ActionBase action = e.Action;
+    // Handle Action.OpenUrl
+    if (e.Action is AdaptiveOpenUrlAction openUrlAction)
+    {
+        Process.Start(openUrlAction.Url);
+    }
+    // Handle Action.ShowCard (if popup mode)
+    else if (e.Action is AdaptiveShowCardAction showCardAction)
+    {
+        if (Renderer.HostConfig.Actions.ShowCard.ActionMode == ShowCardActionMode.Popup)
+        {
+            var dialog = new ShowCardWindow(showCardAction.Title, showCardAction, Resources);
+            dialog.Owner = this;
+            dialog.ShowDialog();
+        }
+    }
+    // Handle Action.Submit (how do you want to submit cards?)
+    else if (e.Action is AdaptiveSubmitAction submitAction)
+    {
+        var inputs = sender.GetUserInputs(InputValueMode.RawString).AsJson();
+        inputs.Merge(submitAction.Data);
+        MessageBox.Show(this, JsonConvert.SerializeObject(inputs, Formatting.Indented), "SubmitAction");
+    }
 }
 ```
 
 ### HostConfig
 
+You should consider applying a Host Config to the renderer for basic styling and behavior support. 
 ```csharp
+
 // Construct programmatically
-var hostConfig = new HostConfig() 
+renderer.HostConfig = new AdaptiveHostConfig() 
 {
     FontSizes = {
         Small = 15,
@@ -109,7 +136,7 @@ var hostConfig = new HostConfig()
 };
 
 // Or parse from JSON
-HostConfigParseResult result = HostConfig.FromJson(@"{
+AdaptiveHostConfigParseResult result = AdaptiveHostConfig.FromJson(@"{
     ""fontSizes"": {
         ""small"": 25,
         ""default"": 26,
@@ -121,7 +148,7 @@ HostConfigParseResult result = HostConfig.FromJson(@"{
 
 if (result.HostConfig != null)
 {
-    HostConfig config = result.HostConfig;
+    renderer.HostConfig = result.HostConfig;
 }
 else
 {
@@ -130,14 +157,14 @@ else
 ```
 
 ### Native platform styling
-If you pass in a Xaml ResourceDictionary, you can customize the Xaml behavior further. This
+
+If you pass in a ResourceDictionary, you can customize the Xaml behavior further. This
 allows you to define roll over behaviors, animations, rounded buttons, and so forth.  Here is a table of the 
 style names that are used for each element.  
 
 | Element | Style names used|
 |---|---|
 | AdaptiveCard | Adaptive.Card| 
-| Action.Http | Adaptive.Action.Http |
 | Action.OpenUrl  | Adaptive.Action.OpenUrl  |
 | Action.ShowCard | Adaptive.Action.ShowCard |
 | Action.Submit  | Adaptive.Action.Submit  |
@@ -214,64 +241,9 @@ public static FrameworkElement Render(DateInput input, RenderContext context)
 }
 ```
 
-In Xamarin, it would look like this:
-```csharp
-public static View Render(DateInput input, RenderContext context)
-{
-    var datePicker = new DatePicker();
-    ...
-    return datePicker;
-}
-```
+## WPF Visualizer Sample
 
+The [WPF visualizer sample project](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet/Samples/WPFVisualizer) lets you visualize cards using WPF.  A `hostconfig` editor is built in for editing and viewing host config settings. Save these settings as a JSON to use them in rendering in your application.
 
-## Example
-Here is an example from the WPF renderer.
-
-```csharp
-var hostConfig = new HostConfig() { ... };
-var renderer = new AdaptiveCardRenderer(hostConfig);
-
-var renderedCard = renderer.RenderCard(card);
-renderedCard.OnAction += _onAction;
-
-myGrid.Children.Add(rendererdCard.FrameworkElement);
-...
-
-private void _onAction(object sender, ActionEventArgs e)
-{
-    if (e.Action is OpenUrlAction)
-    {
-        OpenUrlAction action = (OpenUrlAction)e.Action;
-        Process.Start(action.Url);
-    }
-    else if (e.Action is ShowCardAction)
-    {
-        ShowCardAction action = (ShowCardAction)e.Action;
-        ShowCardWindow dialog = new ShowCardWindow(action.Title, action, this.Resources);
-        dialog.ShowDialog();
-    }
-    else if (e.Action is SubmitAction)
-    {
-        SubmitAction action = (SubmitAction)e.Action;
-        // Send e.Data to the source...
-        ...
-    }
-    else if (e.Action is AdaptiveCards.HttpAction)
-    {
-        AdaptiveCards.HttpAction action = (HttpAction)e.Action;
-        ... 
-        // action.Headers  has headers for HTTP operation
-        // action.Body has content body
-        // action.Method has method to use
-        // action.Url has url to post to
-    }
-}
-```
-
-
-## Next steps
-
-* [Implement a renderer](../ImplementingRenderer.md) 
-
+![Visualizer screenshot](../../content/wpfvisualizer.png)
 

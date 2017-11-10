@@ -11,7 +11,9 @@ This is a renderer which targets UWP native controls.
 
 ## Add a renderer
 
-nuget install AdaptiveCards.Renderer.Uwp
+```console
+Install-Package AdaptiveCards.Renderer.Uwp -IncludePrerelease
+```
 
 ## Create an instance of your renderer
 Create an instance of the renderer library. 
@@ -116,9 +118,4 @@ renderer.ElementRenderers.Set("TextBlock", new MyCustomRenderer());
 
 ### UI Framework styling
 *Coming soon*
-
-## Next steps
-
-* [Implement a renderer](../ImplementingRenderer.md) 
-
 

@@ -36,19 +36,19 @@
     items:
       - name: Android
         href: ./display/libraries/Android.md
-      - name: HTML Client
+      - name: JavaScript
         href: ./display/libraries/HTMLClient.md
-      - name: HTML Server
-        href: ./display/libraries/HTMLServer.md
-      - name: Image
-        href: ./display/libraries/Image.md
+      - name: .NET HTML
+        href: ./display/libraries/NET-HTML.md
+      - name: .NET WPF
+        href: ./display/libraries/NET-WPF.md
+      - name: .NET Image Generator
+        href: ./display/libraries/NET-Image.md
       - name: iOS
         href: ./display/libraries/iOS.md
-      - name: UWP
+      - name: Windows UWP
         href: ./display/libraries/UWP.md
-      - name: WPF
-        href: ./display/libraries/WPF.md
-      - name: Renderer Status
+      - name: SDK Status
         href: ./display/RendererStatus.md
 - name: Resources
   items:

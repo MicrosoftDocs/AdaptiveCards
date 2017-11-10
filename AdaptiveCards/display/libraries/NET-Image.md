@@ -2,7 +2,7 @@
 title: .NET Image Rendering SDK
 author: matthidinger
 ms.author: mahiding
-ms.date: 06/26/2017
+ms.date: 10/19/2017
 ms.topic: article
 ---
 
@@ -10,12 +10,13 @@ ms.topic: article
 This is a WPF-based renderer which renders to an png image. 
 The important part is that it correctly implements all of the magic STA UI goo so that it can be used on a server safely. 
 
->NOTE: This is defined as part of the Microsoft.AdaptiveCards.Xaml.WPF library
+> [!NOTE]
+> This is defined as part of the `AdaptiveCards.Rendering.Wpf` library
 
 ## Add a renderer
 This is available as a nuget packages. 
 ```console
-nuget install Microsoft.AdaptiveCards.Xaml.WPF
+Install-Package Microsoft.AdaptiveCards.Xaml.
 ```
 
 ## Create an instance of your renderer
