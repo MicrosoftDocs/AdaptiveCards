@@ -145,7 +145,7 @@ HTML makes this easy by adding CSS classes to every element.
 | FactSet | ac-factset |
 | TextBlock  | ac-textblock |
 
-## Custom Element Rendering
+### Custom Element Rendering
 
 For full control of the renderer you can use the `ElementRenderers` property to **add**, **remove**, or **override** default renderers.
 
