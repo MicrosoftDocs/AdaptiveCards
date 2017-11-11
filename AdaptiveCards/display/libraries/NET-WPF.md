@@ -215,7 +215,7 @@ renderer.ResourcesPath = <path-to-my-resource-dictionary.xaml>;
 > You must only use the `ResourcesPath` property if used in this environment. 
 > See the [Image Rendering](NET-Image.md) docs for more
 
-## Custom Element Rendering
+### Custom Element Rendering
 
 For full control of the renderer you can use the `ElementRenderers` property to **add**, **remove**, or **override** default renderers.
 
