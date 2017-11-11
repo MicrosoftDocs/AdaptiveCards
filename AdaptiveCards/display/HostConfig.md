@@ -13,6 +13,10 @@ This allows properties which are platform agnostic to be shared among renderers 
  
 See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/master/samples/v1.0/HostConfig/sample.json) to get a feeling for its contents.
 
+> [!IMPORTANT]
+>
+> This content is **out of date** and will be updated shortly. Please see the sample Host Config above for the most up-to-date structure
+
 > [!NOTE]
 >
 > You are not restricited to the limited set of styling that Host Config offers. 
