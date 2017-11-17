@@ -1,3 +1,4 @@
+
 ---
 title: Text Features
 author: matthidinger
@@ -32,7 +33,8 @@ _Not supported_
 
 ### Markdown Example
 
-The below payload would render like this:
+The below payload would render something like this:
+
 ![markdown screenshot](../content/markdown.png)
 
 ```json
