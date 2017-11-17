@@ -32,6 +32,9 @@ _Not supported_
 
 ### Markdown Example
 
+The below payload would render like this:
+![markdown screenshot](../content/markdown.png)
+
 ```json
 {
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
@@ -66,7 +69,7 @@ _Not supported_
 
 Sometimes you won't know the timezone of the user receiving the card, so Adaptive Cards offers `DATE()` and `TIME()` formatting functions to automatically localize the time on the target device.
 
-## Date/Time Example
+### Date/Time Example
 
 ```json
 {
@@ -83,17 +86,24 @@ Sometimes you won't know the timezone of the user receiving the card, so Adaptiv
 }
 ```
 
-The above card will display: **Your package will arrive on Tue, Feb 14th, 2017 at 6:00 AM**
+The above card will display: 
 
-## Date/Time function rules
+> **Your package will arrive on Tue, Feb 14th, 2017 at 6:00 AM**
 
-There are some rules to properly interpret the the date/time functions on every platform. If the rules aren't met then the raw string will be displayed to the user, and no one wants that!
+### Date/Time function rules
+
+There are some rules to properly interpret the the date/time functions on every platform. If the rules aren't met then the raw string will be displayed to the user, and no one wants that.
 
 1. **CASE SENSITIVE** (must be all caps)
 1. **NO SPACES** between the `{{`, `}}`, or parentheses
-1. **ONLY UTC** timezone (trailing Z)
-1. **OPTIONAL** seconds in the time portion
+1. **STRICT [RFC 3389](https://tools.ietf.org/html/rfc3339) FORMATTING** (See examples below)
 1. **MUST BE** a valid date and time
+
+### Valid formats
+
+* `2017-02-14T06:08:00Z`
+* `2017-02-14T06:08:00-07:00`
+* `2017-02-14T06:08:00+07:00`
 
 ### Date formatting param
 
