@@ -46,7 +46,7 @@ card.Body.Add(new AdaptiveTextBlock()
 
 card.Body.Add(new AdaptiveImage() 
 {
-    Url = "http://adaptivecards.io/content/cats/1.png"
+    Url = new Uri("http://adaptivecards.io/content/cats/1.png")
 });
 
 // serialize the card to JSON

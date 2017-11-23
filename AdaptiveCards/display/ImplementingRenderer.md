@@ -79,6 +79,8 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 #### Formatting functions
 
 1. `TextBlock` allows [DATE/TIME formatting functions](../create/TextFeatures.md) that **MUST** be supported on every renderer.
+1. **ALL FAILURES MUST** display the raw string in the card. No friendly message attempted. (The goal being to make the developer immediately aware there is a problem)
+
 1. TODO: Include regex
 
 ### Images
