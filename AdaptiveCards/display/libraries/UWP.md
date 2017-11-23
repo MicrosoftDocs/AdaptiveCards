@@ -12,12 +12,15 @@ This is a renderer which targets UWP native controls.
 ## Add a renderer
 
 ```console
-Install-Package AdaptiveCards.Renderer.Uwp -IncludePrerelease
+Install-Package AdaptiveCards.Rendering.Uwp -IncludePrerelease
 ```
 
 ## Create an instance of your renderer
 Create an instance of the renderer library. 
 ```csharp
+using AdaptiveCards.Rendering.Uwp;
+// ...
+
 var renderer = new AdaptiveCardRenderer();
 ```
 
