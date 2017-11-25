@@ -68,7 +68,9 @@ catch(AdaptiveException ex)
 
 ### Wire up Action events
 
-Any `actions` within the card will render as an HTML `<button>`. Since this is a server-side library it's up to you to wire up client-side event handlers when buttons are pressed. Each `<button>` in the HTML will have attributes that you can use to wire up the proper behavior.
+Top-level card `actions` will render as an HTML `<button>`. Since this is a server-side library it's up to you to wire up client-side event handlers when buttons are pressed. Each `<button>` in the HTML will have attributes that you can use to wire up the proper behavior.
+
+Some elements have a `selectAction` property (Container, Columns, Image) which makes them invokable. If an element has a `selectAction` the renderer will add a CSS class of `ac-selectable`, along with the below attributes.
 
 Action Type | CSS class | Additional attributes
 ---|---|---
@@ -126,6 +128,7 @@ HTML makes this easy by adding CSS classes to every element.
 |---|---|
 | AdaptiveCard | ac-adaptivecard |
 | All Actions | ac-pushButton | 
+| Select Actions | ac-selectable |
 | Action.OpenUrl  | ac-action-openUrl |
 | Action.ShowCard | ac-action-showCard |
 | Action.Submit  | ac-action-submit  |
