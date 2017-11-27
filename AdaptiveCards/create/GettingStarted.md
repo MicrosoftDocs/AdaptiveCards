@@ -82,6 +82,15 @@ Actions add buttons to the card. These can perform a variety of actions, like op
 
 > **Example Action.Submit**: With Skype, an Action.Submit will send a Bot Framework bot activity back to the bot with the **Value** property containing an object with all of the input data on it.
 
+## Customization
+
+You can add custom properties to your card elements by calling calling the **AditionalProperties** property of **AdaptiveTypedElement** as follows:
+
+```csharp
+var card = new AdaptiveCard();
+card.AdditionalProperties.Add(new KeyValuePair<string, object>("myCustomProperty", "myCustomValue"));
+```
+
 ## Learn More
 
 * [Browse Sample cards](http://adaptivecards.io/samples/) for inspiration
