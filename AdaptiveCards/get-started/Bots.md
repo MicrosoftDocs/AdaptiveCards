@@ -104,7 +104,7 @@ You can:
 * Add multiple types of `Actions`
 * Collect `Input` from your users
 * Have one card `show another card`
-* [Check out the full scham explorer](http://adaptivecards.io/explorer/)! 
+* [Check out the full schema explorer](http://adaptivecards.io/explorer/)! 
 
 ## Platform SDKs
 
