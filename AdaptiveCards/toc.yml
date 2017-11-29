@@ -32,8 +32,6 @@
     href: ./display/ImplementingRenderer.md
   - name: SDKs
     items:
-      - name: Android
-        href: ./display/libraries/Android.md
       - name: JavaScript
         href: ./display/libraries/HTMLClient.md
       - name: .NET HTML
@@ -42,6 +40,8 @@
         href: ./display/libraries/NET-WPF.md
       - name: .NET Image Generator
         href: ./display/libraries/NET-Image.md
+      - name: Android
+        href: ./display/libraries/Android.md
       - name: iOS
         href: ./display/libraries/iOS.md
       - name: Windows UWP

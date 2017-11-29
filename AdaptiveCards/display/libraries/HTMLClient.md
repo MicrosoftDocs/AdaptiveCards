@@ -160,7 +160,7 @@ The following CSS classes will be added to various elements.
 For full control of the renderer, you can access the global registry to modify behavior of element rendering, or even introduce your own.
 
 * For Actions use `AdaptiveCards.AdaptiveCard.actionTypeRegistry` 
-* For Elements use `AdaptiveCards.AdaptiveCard.elementTypeRegistry` w
+* For Elements use `AdaptiveCards.AdaptiveCard.elementTypeRegistry`
 
 For example, to override the rendering of a `Input.Date` element:
 
