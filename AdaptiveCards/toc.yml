@@ -22,8 +22,6 @@
       href: ./create/libraries/Javascript.md
     - name: .NET
       href: ./create/libraries/NET.md
-    - name: TypeScript
-      href: ./create/libraries/Typescript.md
 - name: Rendering Cards
   items:
   - name: Getting Started
