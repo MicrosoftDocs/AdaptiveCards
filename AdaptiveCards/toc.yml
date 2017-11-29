@@ -17,11 +17,12 @@
   - name: Text Customization
     href: ./create/TextFeatures.md
   - name: SDKs
+    expanded: true
     items:
-    - name: JavaScript
-      href: ./create/libraries/Javascript.md
     - name: .NET
       href: ./create/libraries/NET.md
+    - name: JavaScript
+      href: ./create/libraries/Javascript.md
 - name: Rendering Cards
   items:
   - name: Getting Started
@@ -31,6 +32,7 @@
   - name: Implement a Renderer
     href: ./display/ImplementingRenderer.md
   - name: SDKs
+    expanded: true
     items:
       - name: JavaScript
         href: ./display/libraries/HTMLClient.md
