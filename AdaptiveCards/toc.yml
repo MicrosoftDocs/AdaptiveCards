@@ -17,13 +17,12 @@
   - name: Text Customization
     href: ./create/TextFeatures.md
   - name: SDKs
+    expanded: true
     items:
-    - name: JavaScript
-      href: ./create/libraries/Javascript.md
     - name: .NET
       href: ./create/libraries/NET.md
-    - name: TypeScript
-      href: ./create/libraries/Typescript.md
+    - name: JavaScript
+      href: ./create/libraries/Javascript.md
 - name: Rendering Cards
   items:
   - name: Getting Started
@@ -33,9 +32,8 @@
   - name: Implement a Renderer
     href: ./display/ImplementingRenderer.md
   - name: SDKs
+    expanded: true
     items:
-      - name: Android
-        href: ./display/libraries/Android.md
       - name: JavaScript
         href: ./display/libraries/HTMLClient.md
       - name: .NET HTML
@@ -44,6 +42,8 @@
         href: ./display/libraries/NET-WPF.md
       - name: .NET Image Generator
         href: ./display/libraries/NET-Image.md
+      - name: Android
+        href: ./display/libraries/Android.md
       - name: iOS
         href: ./display/libraries/iOS.md
       - name: Windows UWP
