@@ -48,7 +48,7 @@ var AdaptiveCards = require("adaptivecards");
 AdaptiveCards.renderCard(...);
 ```
 
-## Render a card
+### Render a card
 
 ```js
 // author a card
