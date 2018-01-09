@@ -15,7 +15,7 @@ An Adaptive Card is a JSON-serialized card object model.
 The basic structure of a card is as follows:
 
 * `AdaptiveCard` - The root object describes the AdaptiveCard itself, including its element makeup, its actions, how it should be spoken, and the schema version required to render it.
-* `body` - The body of the card is made up of building-blocks known as `elements`. Elements can be composed in nearly infinte arrangements to create many types of cards. 
+* `body` - The body of the card is made up of building-blocks known as `elements`. Elements can be composed in nearly infinite arrangements to create many types of cards. 
 * `actions` - Many cards have a set of actions a user may take on it. This property describes those actions which typically get rendered in an "action bar" at the bottom.
 
 ### Example Card
