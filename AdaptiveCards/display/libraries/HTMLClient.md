@@ -10,6 +10,16 @@ ms.topic: article
 
 As we described in [Getting Started](../GettingStarted.md) page, an Adaptive Card is a JSON-serialized card object model. This is a JavaScript library for generating client-side HTML in the browser.
 
+> [!IMPORTANT]
+> **Breaking changes from v0.5**
+> 
+> 1. Package renamed from `microsoft-adaptivecards` to `adaptivecards`
+> 1. The static `AdaptiveCards.setHostConfig()` has been moved to an instance member of `AdaptiveCard`. E.g., `myCard.hostConfig = {}` 
+> 1. `HostConfig` has gone though various renames and moves. See the [sample.json](https://github.com/Microsoft/AdaptiveCards/blob/master/samples/v1.0/HostConfig/sample.json) Host Config for current structure
+> 1. There have also been some schema changes from the v0.5 preview, which are [outlined here](https://github.com/Microsoft/AdaptiveCards/pull/633)
+> 1. The static `renderCard()` function was removed as it was redundant with the class methods. Use `adaptiveCard.render()` as described below. 
+
+
 ## Install
 
 ### Node
@@ -39,11 +49,11 @@ var AdaptiveCards = require("adaptivecards");
 AdaptiveCards.renderCard(...);
 ```
 
-## Render a card
+### Render a card
 
 ```js
-// author a card
-// in practice you'll probably get this from a service
+// Author a card
+// In practice you'll probably get this from a service
 // see http://adaptivecards.io/samples/ for inspiration
 var card = {
     "type": "AdaptiveCard",
@@ -72,28 +82,33 @@ var card = {
     ]
 };
 
-// define your render options
-var renderOptions = {
+// Create an AdaptiveCard instance
+var adaptiveCard = new AdaptiveCards.AdaptiveCard();
 
-    // a Host Config defines the style and behavior of all cards
-    hostConfig: {
-        "fontFamily": "Segoe UI, Helvetica Nue, sans-serif"
-    },
+// Set its hostConfig property unless you want to use the default Host Config
+// Host Config defines the style and behavior of a card
+adaptiveCard.hostConfig = new AdaptiveCards.HostConfig({
+    fontFamily: "Segoe UI, Helvetica Nue, sans-serif"
+    // More host config options
+});
 
-    // the action handler is invoked when actions are pressed
-    onExecuteAction: function (action) { alert("Ow!"); },
+// Set the adaptive card's event handlers. onExecuteAction is invoked
+// whenever an action is clicked in the card
+adaptiveCard.onExecuteAction = function(action) { alert("Ow!"); }
 
-    // For markdown support you need a third-party library
-    // E.g., to use markdown-it include the script and add the following:
-    // <!-- <script type="text/javascript" src="https://unpkg.com/markdown-it/dist/markdown-it.js"></script> -->
-    //processMarkdown: function (text) { return markdownit().render(text); }
-};
+// For markdown support you need a third-party library
+// E.g., to use markdown-it, include in your HTML page:
+//     <script type="text/javascript" src="https://unpkg.com/markdown-it/dist/markdown-it.js"></script>
+// And add this code to replace the default markdown handler:
+//     AdaptiveCards.processMarkdown = function(text) { return markdownit().render(text); }
 
+// Parse the card payload
+adaptiveCard.parse(card);
 
-// render the card to HTML
-var renderedCard = AdaptiveCards.renderCard(card, renderOptions);
+// Render the card to an HTML element:
+var renderedCard = adaptiveCard.render();
 
-// now put it somewhere!
+// And finally insert it somewhere in your page:
 document.body.appendChild(renderedCard);
 ```
 
