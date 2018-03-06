@@ -1,6 +1,6 @@
 ---
 title:  Adaptive Cards Partners
-author: Molly Dalton 
+author: mollyd26
 ms.author: modalton
 ms.date: 03/6/2018
 ms.topic: article
