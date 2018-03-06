@@ -10,11 +10,7 @@ ms.topic: article
 
 Adaptive Cards are an open card exchange format enabling developers to exchange UI content in a common and consistent way.
 
-> [!NOTE]
->
-> We're thrilled you want to check out Adaptive Cards! :raised_hands:
->
-> ... but we want to take this opportunity to remind you that **we're in preview and actively seeking feedback**, so please expect a few rough edges and reach out with any feedback you have. 
+
 
 ## Build 2017 Session
 
