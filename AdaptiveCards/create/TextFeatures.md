@@ -53,11 +53,13 @@ The below payload would render something like this:
         },
         {
             "type": "TextBlock",
-            "text": "- Bullet \r- List \r"
+            "text": "- Bullet \r- List \r",
+            "wrap": true
         },
         {
             "type": "TextBlock",
-            "text": "1. Numbered\r2. List\r"
+            "text": "1. Numbered\r2. List\r",
+            "wrap": true
         },
         {
             "type": "TextBlock",

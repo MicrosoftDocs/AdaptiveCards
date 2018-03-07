@@ -22,6 +22,9 @@ Add header
 AdaptiveCard is generated from JSON string
 ```objective-c
 ACOParseResult *cardParseResult = [ACOAdaptiveCards FromJson:jsonStr];
+/// access for parse warnings and errors
+NSArray<NSError *> errors = cardParseResult.parseErrors;
+NSArray<ACRParseWarning *> warnings = cardPraseResult.parseWarnings;
 ```
 
 
@@ -69,11 +72,86 @@ if(renderResult.Suceeded == YES)
 
 
 ### Changing per element rendering
-*Coming soon*
+Developers can customize the look of renderred AdaptiveCards elements such as TextBlock.
+Following example shows how one can change background color of NumberInput.
+````objective-c
+ACRRegistration *registration = [ACRRegistration getInstance];
+// register custom renderer with registration
+// custom renderer must implement ACRIBaseCardElementRenderer protocol
+// for more information, please refer to CustomInputNumberRenderer.mm
+ [registration setBaseCardElementRenderer:[CustomInputNumberRenderer getInstance] cardElementType:ACRNumberInput];
+ ...
+/// CustiomInputNumberRenderer.mm
+- (UIView *)render:(UIView<ACRIContentHoldingView> *)viewGroup
+              rootViewController:(UIViewController *)vc
+              inputs:(NSArray *)inputs
+     baseCardElement:(ACOBaseCardElement *)acoElem
+          hostConfig:(ACOHostConfig *)acoConfig
+  {
+      ACRInputNumberRenderer *defaultRenderer = [ACRInputNumberRenderer getInstance];
+ 
+      UIView *input = [defaultRenderer render:viewGroup
+                           rootViewController:vc
+                                       inputs:inputs
+                              baseCardElement:acoElem
+                                   hostConfig:acoConfig];
+      if(input)
+      {   
+          // customize background color of input
+          [input setBackgroundColor: [UIColor colorWithRed:1.0
+                                                     green:59.0/255.0
+                                                      blue:48.0/255.0
+                                                     alpha:1.0]];
+      }
+      return input;
+  }
+  ````
+ ### Additional Property
+ Developers can also send in additional properties as part of json payload.
+ For example, in addition to "spacing" and "id" of json payload for BaseCardElement, one can add radius for corners of TextBlock to its json payload.
+ ````
+ "type":"TextBlock",
+ ...
+ "radius":20,
+ ...
+ ````
+ ````
+         NSData *additionalProperty = [acoElem additionalProperty];
+          if(additionalProperty) {
+              NSDictionary *dictionary = [NSJSONSerialization JSONObjectWithData:additionalProperty options:NSJSONReadingMutableLeaves error:nil];
+              radiusForMyTextBlock = dictionary[@"radius"];
+          ...
+  ````
+ ### Custom Parsing
+Developers can also have custom parsing and have new UI element added to adpative card such as progress bar. Please check CustomProgressBarRenderer.mm for detail.
+Custom parser must implement ACOIBaseCardElementParser protocol. deserializeToCustomElement method should parses given json payload given as NSData and return a pointer to UIView object that will be added to AdaptiveCard rendered object.
+````
+      CustomProgressBarRenderer *progressBarRenderer = [[CustomProgressBarRenderer alloc] init];
+      [registration setCustomElementParser:progressBarRenderer];
+````
+### Action Handling
+Developers can receive actions such SubmitAction and OpenUrl by implementing ACRActionDelegate, and set it to instance of AdaptiveCard.
+````
+//// delegate implementation
+- (void) didFetchUserResponses:(ACOAdaptiveCard *)card action:(ACOBaseActionElement *)action
+{
+     if(action.type == ACROpenUrl){
+         NSURL *url = [NSURL URLWithString:[action url]];
+         SFSafariViewController *svc = [[SFSafariViewController alloc] initWithURL:url];
+         [self presentViewController:svc animated:YES completion:nil];
+     }
+     else if(action.type == ACRSubmit){
+         /// inputs can be examined by method inputs
+         NSData * userInputsAsJson = [card inputs];
+         NSString *str = [[NSString alloc] initWithData:userInputsAsJson encoding:NSUTF8StringEncoding];
+         NSLog(@"user response fetched: %@ with %@", str, [action data]);
+     }
+}
+
+/// register the delegate with AdaptiveCard instance
+adcVc.acrActionDelegate = self;
 
 
-### UI Framework styling
-*Coming soon*
 
 
 
