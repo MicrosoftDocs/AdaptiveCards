@@ -123,9 +123,7 @@ public class ActionHandler implements ICardActionHandler
 
 To customize the renderer you provide an instance of the HostConfig object. (See [Host Config Schema](../HostConfig.md) for the full description.)
 
-> The HostConfig object will be instantiated with defaults, so you can set just the properties you want to change.
-
-> You may also create a HostConfig from a Json String
+To Create a HostConfig object from a string, use the DeserializeFromString method
 ```java
 HostConfig hostConfig = HostConfig.DeserializeFromString(hostConfigText);
 ```
@@ -182,7 +180,7 @@ public class MyCardElementParser extends BaseCardElementParser
 }
 ```
 
-And this is how to register the your parser and get an AdaptiveCard object containing the custom element:
+And this is how to register the parser and get an AdaptiveCard object that contains the custom element:
 ```java
 // Create an ElementParserRegistrationObject and add your parser to it
 ElementParserRegistration elementParserRegistration = new ElementParserRegistration();
