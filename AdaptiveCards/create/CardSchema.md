@@ -139,7 +139,7 @@ Defines a container that is part of a ColumnSet
 |--------|----|--------|-----------|
 |**items**|`array[]`|Yes|The Card Elements to include in the Column
 |**selectAction**|`object`| No|An Action that will be invoked when the Column is tapped or selected
-|**width**|`string,number`| No|"auto", "stretch", or a number representing relative width of the column in the column group
+|**size**|`string,number`| No|"auto", "stretch", or a number representing relative width of the column in the column group
 |**type**|`"Column"`| No|Must be Column
 |**id**|`string`| No|A unique Id associated with the element
 |**spacing**|`string`| No|Controls the amount of spacing between this element and the previous element.
