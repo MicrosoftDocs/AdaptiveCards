@@ -10,7 +10,7 @@ ms.topic: article
 `HostConfig` is a **cross-platform configuration object** that specifies how an Adaptive Card Renderer generates UI.  
 
 This allows properties which are platform agnostic to be shared among renderers on different platforms and devices. It also allows tooling to be created which gives you an idea of the look and feel that card would have for a given environment.
- 
+
 See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/master/samples/v1.0/HostConfig/sample.json) to get a feeling for its contents.
 
 > [!IMPORTANT]
@@ -262,8 +262,10 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
 ## ToggleInputConfig
 <a name="toggleinputconfig"></a>Defines configuration for Toggle input elements
 
+
 | Property | Type | default | Description |
-|---|---|---|---|
+|----------|------|---------|-------------|
+|          |      |         |             |
 
 ### SeparationConfig
 <a name="SeparationConfig"></a>Properties which define spacing, line thickness and color for separating elements

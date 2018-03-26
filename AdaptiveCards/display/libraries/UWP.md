@@ -47,7 +47,6 @@ if (renderResult.FrameworkElement != null)
     // add it to your ui
     myGrid.Children.Add(uiCard);
 }
-
 ```
 
 ## Example

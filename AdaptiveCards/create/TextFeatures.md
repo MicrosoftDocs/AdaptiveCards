@@ -1,4 +1,3 @@
-
 ---
 title: Text Features
 author: matthidinger
@@ -113,8 +112,10 @@ There are some rules to properly interpret the the date/time functions on every 
 
 For dates, an optional param may be specified to format the output.
 
-Format | Example
----|---
-`COMPACT` (Default) | "2/13/2017" 
-`SHORT` | "Mon, Feb 13th, 2017"
-`LONG` | "Monday, February 13th, 2017"
+
+|       Format        |            Example            |
+|---------------------|-------------------------------|
+| `COMPACT` (Default) |          "2/13/2017"          |
+|       `SHORT`       |     "Mon, Feb 13th, 2017"     |
+|       `LONG`        | "Monday, February 13th, 2017" |
+
