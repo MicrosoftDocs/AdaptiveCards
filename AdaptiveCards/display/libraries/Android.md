@@ -217,7 +217,7 @@ public class MyCardElementRenderer extends BaseCardElementRenderer
 
 We then register this renderer like so:
 ```java
-CardRendererRegistration.getInstance().registerRenderer("blah", new CustomBlahRenderer());
+CardRendererRegistration.getInstance().registerRenderer("MyType", new CustomBlahRenderer());
 
 RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.getInstance().render(context, getSupportFragmentManager(), adaptiveCard, cardActionHandler, new HostConfig());
 ```

@@ -36,9 +36,9 @@
       "ms.prod": "adaptive-cards",
       "ms.technology": "adaptive-cards",
       "titleSuffix": "Adaptive Cards",
-      "searchScope": [
-        "Adaptive Cards"
-      ]
+      "searchScope": ["Adaptive Cards"],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/AdaptiveCards"
     },
     "fileMetadata": {},
     "template": [],
