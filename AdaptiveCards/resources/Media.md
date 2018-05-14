@@ -10,7 +10,7 @@ ms.topic: article
 
 ## Introduction Video
 
-<video controls>
+<video controls width="100%" poster="../content/videoposter.png">
     <source src="https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" type="video/mp4">
 </video>
 
