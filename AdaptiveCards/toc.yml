@@ -6,6 +6,8 @@
       href: ./get-started/Bots.md
     - name: Windows Developers
       href: ./get-started/Windows.md
+    - name: Outlook Developers
+      href: ./get-started/Outlook.md
 - name: Authoring Cards
   items:
   - name: Getting Started
@@ -56,3 +58,5 @@
     href: ./resources/Partners.md
   - name: Tools
     href: ./resources/Tools.md
+  - name: Media
+    href: ./resource/Media.md
