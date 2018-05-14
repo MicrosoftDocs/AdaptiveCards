@@ -6,23 +6,24 @@ ms.date: 5/14/2018
 ms.topic: article
 ---
 
-# Motivations behind the Adaptive Card format
+# Adaptive Card Guiding Principles
 
-- In early 2016, several teams at Microsoft (including Outlook, Windows and the Bot Framework) came to the realization that they all wanted something extremely similar ("cards") and that each of them were designing their own solutions independently:
+## Motivations behind the format
+
+In early 2016, several teams at Microsoft (including Outlook, Windows and the Bot Framework) came to the realization that they all wanted something extremely similar ("cards") and that each of them were designing their own solutions independently:
 
     - Windows had its own Live Tiles and Notifications format
     - The Bot framework was using a set of predefined card templates developers could choose from when sending Bot messages
     - Outlook was using its own MessageCard format for its Actionable Messages feature
 
-- At the same time, other platforms such as LINE, FaceBook Messenger, Slack and more were also using their own, proprietary "card" format
-- So a few Microsoft employees gathered up and started an effort to define one card format and a set of SDKs that:
+At the same time, other platforms such as LINE, FaceBook Messenger, Slack and more were definining their own, proprietary "card" format. So a few Microsoft employees gathered up and started an effort to define a single, open card format and a set of SDKs that:
 
     - Would facilitate the interchange of cards between hosts
     - Would allow each host to keep control over the styling of cards to ensure visual consistency
-    - Would make it easy for a host application to display cards with minimum coding effort via ready-to-use SDKs
+    - Would make it easy for a host application to display cards with minimum effort via ready-to-use SDKs
     - And that would also provide value to third parties and eventually get adopted widely by the industry
 
-# Principles guiding the Adaptive Card format
+## Principles governing Adaptive Card
 
 1.  **Adaptive Card is a _simple_ and _declarative_ card format**
 

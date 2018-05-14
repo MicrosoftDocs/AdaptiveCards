@@ -16,19 +16,19 @@ ms.topic: article
 
 ## Build 2018
 
-<iframe src="https://medius.studios.ms/Embed/Video/BRK2401?SFYT=true" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+<iframe src="https://medius.studios.ms/Embed/Video/BRK2401?SFYT=true" width="100%" allowFullScreen frameBorder="0"></iframe>
 
 ## Windows Developer Day
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7BfKcU-7UjA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/7BfKcU-7UjA" frameborder="0" width="100%"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe src="https://channel9.msdn.com/Events/Windows/Windows-Developer-Day-Fall-Creators-Update/WinDev003/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+<iframe src="https://channel9.msdn.com/Events/Windows/Windows-Developer-Day-Fall-Creators-Update/WinDev003/player" width="100%" allowFullScreen frameBorder="0"></iframe>
 
 ## Ignite 2017
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v3pOg0EO2t4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/v3pOg0EO2t4" frameborder="0" width="100%" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Build 2017 
 
-<iframe src="https://channel9.msdn.com/Events/Build/2017/B8002/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+<iframe src="https://channel9.msdn.com/Events/Build/2017/B8002/player" width="100%" allowFullScreen frameBorder="0"></iframe>
 
