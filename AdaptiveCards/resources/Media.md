@@ -10,7 +10,9 @@ ms.topic: article
 
 ## Introduction Video
 
-<video src="https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" />
+<video controls>
+    <source src="https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" type="video/mp4">
+</video>
 
 ## Build 2018
 
