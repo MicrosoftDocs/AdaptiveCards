@@ -8,7 +8,7 @@ ms.topic: article
 
 # Motivations and Principles
 
-Below are the motivations and principles govering the evoluation of the Adaptive Card format.
+Below are the motivations and principles govering the evolution of the Adaptive Card format.
 
 ## Motivations behind the format
 

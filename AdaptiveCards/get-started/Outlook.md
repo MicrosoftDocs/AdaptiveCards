@@ -12,10 +12,10 @@ Whether you are filling out a survey, approving an expense report, or updating a
 
 You can now use Adaptive Cards to power your Outlook Actionable Messages, and create rich experiences like the one showcased at the Build 2018 conference:
 
-GitHub:
+## GitHub
 ![GitHub Actionable Message](../content/GitHub.png)
 
-Limeade:
+## Limeade
 ![GitHub Actionable Message](../content/Limeade.jpg)
 
 
