@@ -18,7 +18,7 @@ In early 2016, several teams at Microsoft (including Outlook, Windows and the Bo
 -  The Bot framework was using a set of predefined card templates developers could choose from when sending Bot messages
 - Outlook was using its own MessageCard format for its Actionable Messages feature
 
-At the same time, other platforms such as LINE, FaceBook Messenger, Slack and more were definining their own, proprietary "card" format. So a few Microsoft employees gathered up and started an effort to define a single, open card format and a set of SDKs that:
+At the same time, other platforms such as LINE, FaceBook Messenger, Slack and more were defining their own, proprietary "card" format. So a few Microsoft employees gathered up and started an effort to define a single, open card format and a set of SDKs that:
 
 - Would facilitate the interchange of cards between hosts
 - Would allow each host to keep control over the styling of cards to ensure visual consistency
@@ -31,8 +31,8 @@ At the same time, other platforms such as LINE, FaceBook Messenger, Slack and mo
 
     1.  It is not meant as an HTML or XAML replacement/alternative
     2.  There is **no "code behind"** with Adaptive Cards
-        i. Card authors cannot embed custom/arbitrary code with their payloads, and as a result an Adaptive Card host never needs to run third party code
-        ii. Dynamism and interactivity are achieved solely via declarative markup
+        1. Card authors cannot embed custom/arbitrary code with their payloads, and as a result an Adaptive Card host never needs to run third party code
+        2. Dynamism and interactivity are achieved solely via declarative markup
     3.  This ensures that the effort necessary to build an Adaptive Card SDK for a new platform remains reasonable
 
 2.  **The Adaptive Card format can't impose the use of any particular underlying technology**
@@ -57,11 +57,11 @@ At the same time, other platforms such as LINE, FaceBook Messenger, Slack and mo
     and triaged and overall progress on vNext work items is tracked
     3.  The Working Group uses feedback from the community at large, including internal Microsoft teams, to decide how the format evolves
     4.  To be approved by the Working Group, proposed new features:
-        i. Must be justified by real life use cases
-        ii. Must have a functional specification
+        1. Must be justified by real life use cases
+        2. Must have a functional specification
     5.  Approved new feature are added to the backlog and considered for vNext
-        i. The criteria used to prioritize new features include the breadth of scenarios the feature enables, its complexity/maintainability and more
-        ii. When in doubt, keep it out! It's a lot easier to introduce a well designed feature later than to live with a mistake forever.
+        1. The criteria used to prioritize new features include the breadth of scenarios the feature enables, its complexity/maintainability and more
+        2. When in doubt, keep it out! It's a lot easier to introduce a well designed feature later than to live with a mistake forever.
     6.  All new features are implemented in all supported SDKs
     7.  All new features are documented and associated with a test card published in the samples folder
     8.  New versions of the format and SDKs go through a beta phase
@@ -72,9 +72,9 @@ At the same time, other platforms such as LINE, FaceBook Messenger, Slack and mo
     1.  Hosts should have the freedom of adding support for custom elements or custom actions that go beyond what the format is capable of
     2.  This is particularly important for actions, as various hosts don't necessarily support the same set of actions
     3.  These additions are at the discretion of the host
-        i. They are not a *de facto* addition to the Adaptive Card specification
-        ii. As such, they make a payload that uses them incompatible with the mainstream Adaptive Card format
-        iii. They can however be presented to the Working Group and proposed as new features for a future version of the format, as described in point #5
+        1. They are not a *de facto* addition to the Adaptive Card specification
+        2. As such, they make a payload that uses them incompatible with the mainstream Adaptive Card format
+        3. They can however be presented to the Working Group and proposed as new features for a future version of the format, as described in point #5
 
 7.  **Card authors own the content, host apps own the look and feel**
 
