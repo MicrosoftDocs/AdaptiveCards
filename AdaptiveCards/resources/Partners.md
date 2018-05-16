@@ -14,7 +14,7 @@ If you are interested in joining the Adaptive Cards ecosystem, please [reach out
 
 ## Live
 
-Platforms | Description | Getting Started
+Platform | Description | Getting Started
 --------|-------|-------|
 [Bot Framework WebChat](https://github.com/Microsoft/BotFramework-WebChat)  | Embeddable web chat control for the Microsoft Bot Framework | [Get Started](https://docs.microsoft.com/en-us/adaptive-cards/get-started/bots)
 [Cortana Skills](https://techcommunity.microsoft.com/t5/Cortana-Skills-Kit-Blog/Cortana-Skills-now-support-Adaptive-Cards/ba-p/160122)  | A virtual assistant for Windows 10 | [Get Started](https://docs.microsoft.com/en-us/adaptive-cards/get-started/bots)
@@ -22,13 +22,15 @@ Platforms | Description | Getting Started
 [Outlook Actionable Messages](https://outlook.office.com)  | Attach an actionable message to email | [Get Started](https://docs.microsoft.com/en-us/outlook/actionable-messages/)
 
 
-## In Preview
+## In Progress
 
-Platforms | Description 
+The following platforms are under active development and will be released as soon as they are ready. Stay tuned for updates!
+
+Platform | Description 
 --------|-------|
 [Skype](https://www.skype.com/en/)  | App that specializes in video chat, voice calls, messaging 
 [Microsoft Teams](https://products.office.com/en-US/microsoft-teams/group-chat-software)  | Platform that combines workplace chat, meetings, and notes
 [Windows Notifications](https://docs.microsoft.com/en-us/windows/uwp/design/shell/tiles-and-notifications/adaptive-interactive-toasts)  | Notifications in Windows 10
-[Bot Framework - Other Channels](https://dev.botframework.com/)  | Other channels in the Bot Framework 
+
 
 
