@@ -56,6 +56,8 @@ At the same time, other platforms such as LINE, FaceBook Messenger, Slack and mo
     2.  The Working Group conducts weekly meetings (currently on Monday) during which feature proposals are reviewed, open issues are discussed 
     and triaged and overall progress on vNext work items is tracked
     3.  The Working Group uses feedback from the community at large, including internal Microsoft teams, to decide how the format evolves
+        1. Anyone can participate in the working group through opening issues in GitHub (see below)
+        2. Issues/feature requests rooted in actual usage of the Adaptive Cards framework (either as a host or as a card author) have the most impact on the future of the format
     4.  To be approved by the Working Group, proposed new features:
         1. Must be justified by real life use cases
         2. Must have a functional specification
@@ -67,7 +69,13 @@ At the same time, other platforms such as LINE, FaceBook Messenger, Slack and mo
     8.  New versions of the format and SDKs go through a beta phase
     9.  The release schedule for Adaptive Card schema and SDK versions is driven by quality, not date
 
-6.  **The format needs to be extensible**
+6.	**Interoperability**
+    1.	Cards authored in accordance with the documented format (e.g. not using any host-specific extensions) will render properly in any Adaptive Card-capable host
+    2.	The only exceptions to this principles are:
+        1.	Some hosts might not allow interactivity, and will therefore not render inputs nor actions
+        2.	Execution of Action.Submit actions is at the discretion of the host, and not all hosts will necessarily properly handle all Action.Submit payloads. Furthermore, some hosts might not support Action.Submit at all
+
+7.  **The format needs to be extensible**
 
     1.  Hosts should have the freedom of adding support for custom elements or custom actions that go beyond what the format is capable of
     2.  This is particularly important for actions, as various hosts don't necessarily support the same set of actions
@@ -76,12 +84,12 @@ At the same time, other platforms such as LINE, FaceBook Messenger, Slack and mo
         2. As such, they make a payload that uses them incompatible with the mainstream Adaptive Card format
         3. They can however be presented to the Working Group and proposed as new features for a future version of the format, as described in point #5
 
-7.  **Card authors own the content, host apps own the look and feel**
+8.  **Card authors own the content, host apps own the look and feel**
 
     1.  Host apps impose their styling so cards look and feel like they are native extensions of the app's experience
     2.  Card authors can still specify styling, but only via semantic expressions of colors, sizes, etc.
 
-8.  **SDKs will be provided for the most popular developer platforms**
+9.  **SDKs will be provided for the most popular developer platforms**
 
     1.  SDKs make it easy to render Adaptive Card payloads in any host
     2.  This ensures the barrier to entry is as low as can be both for third party developers and Microsoft teams
