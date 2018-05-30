@@ -14,7 +14,7 @@ If you are interested in joining the Adaptive Cards ecosystem, please [reach out
 
 ## Live
 
-Platform | Description | Documention
+Platform | Description | Documentation
 |--------|-------------|---------------|
 [Bot Framework WebChat](https://github.com/Microsoft/BotFramework-WebChat)  | Embeddable web chat control for the Microsoft Bot Framework | [Get Started](https://docs.microsoft.com/en-us/adaptive-cards/get-started/bots)
 [Cortana Skills](https://techcommunity.microsoft.com/t5/Cortana-Skills-Kit-Blog/Cortana-Skills-now-support-Adaptive-Cards/ba-p/160122)  | A virtual assistant for Windows 10 | [Get Started](https://docs.microsoft.com/en-us/adaptive-cards/get-started/bots)
@@ -23,7 +23,7 @@ Platform | Description | Documention
 
 ## In Preview
 
-Platform | Description | Documention
+Platform | Description | Documentation
 |--------|-------------|----------------|
 [Microsoft Teams](https://products.office.com/en-US/microsoft-teams/group-chat-software) | Platform that combines workplace chat, meetings, and notes | [Get Started](https://docs.microsoft.com/en-us/microsoftteams/platform/resources/dev-preview/developer-preview-features)
 
