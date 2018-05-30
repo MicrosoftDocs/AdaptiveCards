@@ -106,7 +106,7 @@ This allows properties which are platform agnostic to be shared among renderers 
 
 1. Each element type **SHOULD** attach a native platform style with the generated UI element. E.g., in HTML we added a CSS class to the element types, and in XAML we assign a specific Style.
 
-## Extensbility 
+## Extensibility 
 
 1. A renderer **MUST** allow host apps to override default element renderers. E.g., replace `TextBlock` rendering with their own logic.
 1. A renderer **MUST** allow host apps to register custom element types. E.g., add support for a custom `Rating` element

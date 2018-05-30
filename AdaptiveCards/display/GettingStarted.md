@@ -51,7 +51,7 @@ A [HostConfig](HostConfig.md) is a shared, cross-platform configuration object t
 
 ### Native platform styling
 
-Most UI frameworks allow you to style the rendered card be using the native UI framework styling. For example, in HTML you can specify CSS classes for the HTML, or in XAML you can pass in a custom ResourceDictionary for fine-grained control of the output.
+Most UI frameworks allow you to style the rendered card by using the native UI framework styling. For example, in HTML you can specify CSS classes for the HTML, or in XAML you can pass in a custom ResourceDictionary for fine-grained control of the output.
 
 ### Customize per-element rendering
 

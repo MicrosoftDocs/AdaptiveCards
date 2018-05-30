@@ -10,23 +10,20 @@ ms.topic: article
 
 Adaptive Cards are an open card exchange format enabling developers to exchange UI content in a common and consistent way.
 
-
-
-## Build 2017 Session
-
-The following session at Build 2017 covers the motivation behind Adaptive Cards and an introduction to the technology.
-
-<iframe src="https://channel9.msdn.com/Events/Build/2017/B8002/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+<video controls width="100%" poster="./content/videoposter.png">
+    <source src="https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" type="video/mp4">
+</video>
 
 ## How they work
 
-**Card Authors** describe their content as a simple JSON object. That content can then be rendered natively inside a **Host Application**, automatically adapting to the look and feel of the Host.
+[**Card Authors**](./create/GettingStarted.md) describe their content as a simple JSON object. That content can then be rendered natively inside a [**Host Application**](./display/GettingStarted.md), automatically adapting to the look and feel of the Host.
 
 For example, Contoso Bot can author an Adaptive Card through the Bot Framework, and when delivered to Skype, it will look and feel like a Skype card. When that same payload is sent to Microsoft Teams, it will look and feel like Microsoft Teams. As more host apps start to support Adaptive Cards, that same payload will automatically light up inside these applications, yet still feel entirely native to the app.
 
 Users win because everything feels familiar. Host apps win because they control the user experience. And Card Authors win because their content gets broader reach without any additional work.
 
 ## Goals 
+
 The goals for adaptive cards are:
 
 * **Portable** - To any app, device, and UI framework
@@ -56,7 +53,8 @@ If you are an app developer who wants to tap into an ecosystem of third-party co
 * **Shared tooling** - You save time because you don't have to create custom tooling.
 
 ## Core Design Principles 
-The design of adaptive cards has been driven by some core principles that have been useful for keeping the design on track.
+
+Adaptive Cards are driven by a set of [guiding principles](./resources/Principles.md) that have been useful for keeping the design on track. 
 
 ### Semantic instead of pixel-perfect
 We have striven as much as possible for semantic values and concepts as opposed to pure pixel-perfect layout. 
@@ -75,3 +73,8 @@ same way, we believe that Adaptive Cards can create a simple, expressive means o
 It is easier to add later then it is to live with a mistake. If we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
 
 
+## Build 2018 Session
+
+The following session at Build 2018 showcases Adaptive Cards in Bots, Cortana, Outlook, and Windows. 
+
+<iframe src="https://medius.studios.ms/Embed/Video/BRK2401?SFYT=true" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
