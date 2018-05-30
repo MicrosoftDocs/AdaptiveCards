@@ -2,7 +2,7 @@
 title:  Adaptive Cards for Bot Developers
 author: matthidinger
 ms.author: mahiding
-ms.date: 06/26/2017
+ms.date: 05/30/2018
 ms.topic: article
 ---
 
@@ -11,25 +11,23 @@ ms.topic: article
 Adaptive Cards are a great fit for Bots. They let you author a card once and have it render beautifully inside multiple apps, like Skype\*, Microsoft Teams\*, your own website, and more.
 
 > [!NOTE]
-> Skype and Microsoft Teams are not yet supported in the current preview, but we're working on it! Please see the Channel Status section below for details.
+> Skype and Microsoft Teams are not yet supported in the current preview, but we're working on it! See the [Partner Status](../Resources/Partners.md) page for the latest.
 
 ## Try it out
 
-Click the following link and [talk to our Scuba Bot](http://contososcubabot.azurewebsites.net/). Say `hello` and he'll help you book the scuba trip of your dreams.  
+Click the following link and [talk to our Scuba Bot](http://contososcubademo.azurewebsites.net/). Say `I'm looking for scuba` and it'll help you book the scuba trip of your dreams.  
 
 All of the bot's responses are created with Adaptive Cards.
 
-[![Scuba chat screenshot](../content/scuba-chat.png)](http://contososcubabot.azurewebsites.net/)
+[![Scuba chat screenshot](../content/scuba-chat.png)](http://contososcubademo.azurewebsites.net/)
+
+**Get the code**: the full [Contoso Scuba Bot source code](https://github.com/matthidinger/ContosoScubaBot
+) can be found on GitHub.
+
 
 ## Bot Framework Integration
 
 With the [Bot Framework](https://dev.botframework.com/) you can write a single bot that is able to chat with users across multiple "channels", like Skype, Microsoft Teams, Facebook Messenger, etc.
-
-> [!IMPORTANT]
->
-> We're thrilled you want to try out Adaptive Cards! :raised_hands:
->
-> ... but we want to take this opportunity to remind you that **we're in preview and actively seeking feedback**, so please expect a few rough edges and reach out with any feedback you have. 
 
 ## Walkthrough
 
@@ -118,24 +116,7 @@ NodeJS | `npm install adaptivecards` | [Bot Framework NodeJS Docs](https://docs.
 
 ## Channel status
 
-The Bot Framework lets you publish your bot to multiple channels. We're working with various channels to provide full support for Adaptive Cards. Below is the current list of channels and their status.
-
-Channel | Status
---------|-------
-[Emulator](https://docs.microsoft.com/en-us/bot-framework/debug-bots-emulator) | Full support
-[WebChat Control](https://github.com/Microsoft/BotFramework-WebChat) | Full support
-Skype | Full support coming soon
-Cortana | Full support coming soon
-Microsoft Teams | Full support coming soon
-Bing | Coming soon via Skype Webchat Control
-Kik | Render to Image + limited mapping to keyboard (full support coming)
-Facebook Messenger | Render to image + limited mapping to  buttons
-Slack | Render to Image + limited mapping to buttons
-Telegram | Render to Image + limited mapping to keyboard
-SMS | Render to Image + text
-GroupMe | Render to Image + text
-Email | Render to Image + limited mapping to links
-Skype For Business | Not supported
+The Bot Framework lets you publish your bot to multiple channels. We're working with various channels to provide full support for Adaptive Cards. See the [Partner Status](../Resources/Partners.md) page for the latest.
 
 
 ## Dive in!
