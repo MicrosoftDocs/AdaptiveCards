@@ -73,5 +73,5 @@ in your application.
 
 ![wpf visualizer](../content/wpfvisualizer.png)
 
-## Render2Image Sample
-The [Render2Image sample project](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet/Samples/RenderImage) turns any card into a PNG from the command line.
+## WPF ImageRender Sample
+The [ImageRender sample project](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet/Samples/AdaptiveCards.Sample.ImageRender) turns any card into a PNG from the command line using WPF. 
