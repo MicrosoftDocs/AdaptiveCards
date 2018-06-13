@@ -89,7 +89,7 @@ At the same time, other platforms such as LINE, FaceBook Messenger, Slack and mo
     1.  Host apps impose their styling so cards look and feel like they are native extensions of the app's experience
     2.  Card authors can still specify styling, but only via semantic expressions of colors, sizes, etc.
 
-9.  **SDKs will be provided for the most popular developer platforms**
+9.  **Rendering Libraries (SDKs) will be provided for the most popular developer platforms**
 
-    1.  SDKs make it easy to render Adaptive Card payloads in any host
-    2.  This ensures the barrier to entry is as low as can be both for third party developers and Microsoft teams
+    1. SDKs make it easy to render Adaptive Card payloads in any host. This ensures the barrier to entry is as low as can be both for third-party developers and Microsoft teams
+    2. Where possible, we will strive for consistency in renderer functionality and extensibility
