@@ -150,14 +150,14 @@ The Submit Action behaves like an HTML form submit, except that where HTML typic
 ## Inputs
 
 1. If HostConfig `supportsInteractivity` is `false` a renderer **MUST NOT** render any inputs.
-1. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then the renderer **MUST** fall back to rendering a standard text box.
-1. A renderer **SHOULD** display the `placeholderText` if possible
-1. A renderer **DOES NOT** have to implement validation of the input. Users of Adaptive Cards must plan to validate any receieved data on their end.
-1. Input value binding **MUST** be properly escaped
+2. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then the renderer **MUST** fall back to rendering a standard text box.
+3. A renderer **SHOULD** display the `placeholderText` if possible
+4. A renderer **DOES NOT** have to implement validation of the input. Users of Adaptive Cards must plan to validate any receieved data on their end.
+5. Input value binding **MUST** be properly escaped
 
-1. The object **MUST** be returned to the host app as follows:
+6. The object **MUST** be returned to the host app as follows:
 
- We do not make any promises of input validation in adaptive cards, so it's up to the receiving party to properly parse the response. E.g., a Input.Number could return "hello" and they need to be prepared for that.
+   We do not make any promises of input validation in adaptive cards, so it's up to the receiving party to properly parse the response. E.g., a Input.Number could return "hello" and they need to be prepared for that.
 
 
 ## Events
