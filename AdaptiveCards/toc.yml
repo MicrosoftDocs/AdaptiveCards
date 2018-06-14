@@ -28,118 +28,120 @@
   items:
   - name: Getting Started
     href: ./display/getting-started/index.md
+  - name: SDKs
     items:
-    - name: Android
-      href: ./display/getting-started/android.md
-    - name: iOS
-      href: ./display/getting-started/ios.md
-    - name: JavaScript
-      href: ./display/getting-started/javascript.md
-    - name: .NET HTML
-      href: ./display/getting-started/net-html.md
-    - name: .NET WPF
-      href: ./display/getting-started/net-wpf.md
-    - name: .NET Image
-      href: ./display/getting-started/net-image.md
-    - name: UWP
-      href: ./display/getting-started/uwp.md
-    - name: Xamarin Forms
-      href: ./display/getting-started/xamarin-forms.md
-  - name: Render a Card
-    href: ./display/render-a-card/index.md
-    items:
-    - name: Android
-      href: ./display/render-a-card/android.md
-    - name: iOS
-      href: ./display/render-a-card/ios.md
-    - name: JavaScript
-      href: ./display/render-a-card/javascript.md
-    - name: .NET HTML
-      href: ./display/render-a-card/net-html.md
-    - name: .NET WPF
-      href: ./display/render-a-card/net-wpf.md
-    - name: .NET Image
-      href: ./display/render-a-card/net-image.md
-    - name: UWP
-      href: ./display/render-a-card/uwp.md
-    - name: Xamarin Forms
-      href: ./display/render-a-card/xamarin-forms.md
-  - name: Actions
-    href: ./display/actions/index.md
-    items:
-    - name: Android
-      href: ./display/actions/android.md
-    - name: iOS
-      href: ./display/actions/ios.md
-    - name: JavaScript
-      href: ./display/actions/javascript.md
-    - name: .NET HTML
-      href: ./display/actions/net-html.md
-    - name: .NET WPF
-      href: ./display/actions/net-wpf.md
-    - name: .NET Image
-      href: ./display/actions/net-image.md
-    - name: UWP
-      href: ./display/actions/uwp.md
-    - name: Xamarin Forms
-      href: ./display/actions/xamarin-forms.md
-  - name: Host Config
-    href: ./display/host-config/index.md
-    items:
-    - name: Android
-      href: ./display/host-config/android.md
-    - name: iOS
-      href: ./display/host-config/ios.md
-    - name: JavaScript
-      href: ./display/host-config/javascript.md
-    - name: .NET HTML
-      href: ./display/host-config/net-html.md
-    - name: .NET WPF
-      href: ./display/host-config/net-wpf.md
-    - name: .NET Image
-      href: ./display/host-config/net-image.md
-    - name: UWP
-      href: ./display/host-config/uwp.md
-    - name: Xamarin Forms
-      href: ./display/host-config/xamarin-forms.md
-  - name: Native Styling
-    href: ./display/native-styling/index.md
-    items:
-    - name: Android
-      href: ./display/native-styling/android.md
-    - name: iOS
-      href: ./display/native-styling/ios.md
-    - name: JavaScript
-      href: ./display/native-styling/javascript.md
-    - name: .NET HTML
-      href: ./display/native-styling/net-html.md
-    - name: .NET WPF
-      href: ./display/native-styling/net-wpf.md
-    - name: .NET Image
-      href: ./display/native-styling/net-image.md
-    - name: UWP
-      href: ./display/native-styling/uwp.md
-    - name: Xamarin Forms
-      href: ./display/native-styling/xamarin-forms.md
-  - name: Extensibility
-    href: ./display/extensibility/index.md
-    items:
-    - name: Android
-      href: ./display/extensibility/android.md
-    - name: iOS
-      href: ./display/extensibility/ios.md
-    - name: JavaScript
-      href: ./display/extensibility/javascript.md
-    - name: .NET HTML
-      href: ./display/extensibility/net-html.md
-    - name: .NET WPF
-      href: ./display/extensibility/net-wpf.md
-    - name: .NET Image
-      href: ./display/extensibility/net-image.md
-    - name: UWP
-      href: ./display/extensibility/uwp.md
-    - name: Xamarin Forms
-      href: ./display/extensibility/xamarin-forms.md
+      - name: Android
+        items: 
+        - name: Getting Started
+          href: ./display/getting-started/android.md
+        - name: Render a Card
+          href: ./display/render-a-card/android.md
+        - name: Actions
+          href: ./display/actions/android.md
+        - name: Host Config
+          href: ./display/host-config/android.md
+        - name: Native Styling
+          href: ./display/native-styling/android.md
+        - name: Extensibility
+          href: ./display/extensibility/android.md
+      - name: iOS
+        items:
+        - name: Getting Started
+          href: ./display/getting-started/ios.md
+        - name: Render a Card
+          href: ./display/render-a-card/ios.md
+        - name: Actions
+          href: ./display/actions/ios.md
+        - name: Host Config
+          href: ./display/host-config/ios.md
+        - name: Native Styling
+          href: ./display/native-styling/ios.md
+        - name: Extensibility
+          href: ./display/extensibility/ios.md
+      - name: JavaScript
+        items:
+        - name: Getting Started
+          href: ./display/getting-started/javascript.md
+        - name: Render a Card
+          href: ./display/render-a-card/javascript.md
+        - name: Actions
+          href: ./display/actions/javascript.md
+        - name: Host Config
+          href: ./display/host-config/javascript.md
+        - name: Native Styling
+          href: ./display/native-styling/javascript.md
+        - name: Extensibility
+          href: ./display/extensibility/javascript.md
+      - name: .NET HTML
+        items:
+        - name: Getting Started
+          href: ./display/getting-started/net-html.md
+        - name: Render a Card
+          href: ./display/render-a-card/net-html.md
+        - name: Actions
+          href: ./display/actions/net-html.md
+        - name: Host Config
+          href: ./display/host-config/net-html.md
+        - name: Native Styling
+          href: ./display/native-styling/net-html.md
+        - name: Extensibility
+          href: ./display/extensibility/net-html.md
+      - name: .NET WPF
+        items:
+        - name: Getting Started
+          href: ./display/getting-started/net-wpf.md
+        - name: Render a Card
+          href: ./display/render-a-card/net-wpf.md
+        - name: Actions
+          href: ./display/actions/net-wpf.md
+        - name: Host Config
+          href: ./display/host-config/net-wpf.md
+        - name: Native Styling
+          href: ./display/native-styling/net-wpf.md
+        - name: Extensibility
+          href: ./display/extensibility/net-wpf.md
+      - name: .NET Image
+        items:
+        - name: Getting Started
+          href: ./display/getting-started/net-image.md
+        - name: Render a Card
+          href: ./display/render-a-card/net-image.md
+        - name: Actions
+          href: ./display/actions/net-image.md
+        - name: Host Config
+          href: ./display/host-config/net-image.md
+        - name: Native Styling
+          href: ./display/native-styling/net-image.md
+        - name: Extensibility
+          href: ./display/extensibility/net-image.md
+      - name: UWP
+        items:
+        - name: Getting Started
+          href: ./display/getting-started/uwp.md
+        - name: Render a Card
+          href: ./display/render-a-card/uwp.md
+        - name: Actions
+          href: ./display/actions/uwp.md
+        - name: Host Config
+          href: ./display/host-config/uwp.md
+        - name: Native Styling
+          href: ./display/native-styling/uwp.md
+        - name: Extensibility
+          href: ./display/extensibility/uwp.md
+      - name: Xamarin Forms
+        items:
+        - name: Getting Started
+          href: ./display/getting-started/xamarin-forms.md
+        - name: Render a Card
+          href: ./display/render-a-card/xamarin-forms.md
+        - name: Actions
+          href: ./display/actions/xamarin-forms.md
+        - name: Host Config
+          href: ./display/host-config/xamarin-forms.md
+        - name: Native Styling
+          href: ./display/native-styling/xamarin-forms.md
+        - name: Extensibility
+          href: ./display/extensibility/xamarin-forms.md
   - name: Implement a Renderer
     href: ./display/ImplementingRenderer.md
 - name: Resources
