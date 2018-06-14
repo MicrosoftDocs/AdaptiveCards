@@ -7,14 +7,14 @@ ms.topic: article
 ---
 
 # Renderer Status
-The following functionality should be included in every Adaptive Cards renderer.
+The tables below show the current status of each renderer, based on their public published versions.
 
 ### Parsing
 
 Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
-Return validation failures | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ 
-Parse unknown properties | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ 
+Return validation failures | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ 
+Parse unknown properties | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ 
 
 ### Card Rendering
 
@@ -32,8 +32,8 @@ Native platform styling | ✅ | ✅ | ❌ | ❌ | ❌ | ❌
 Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Spacing and Separator | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ 
-TextBlock DATE/TIME formatting | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
-TextBlock Markdown support | ❌* | ❌ | ❌ | ❌ | ❌ | ❌
+TextBlock DATE/TIME formatting | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
+TextBlock Markdown support | ❌* | ❌ | ✅ | ❌ | ❌ | ❌
 Full Input support | ✅ | ✅ | ✅ | ❌ | ❌ | ❌
 
 \* The HTML renderer doesn’t include built-in Markdown support in order to minimize the size of the library and to let consuming applications use their preferred Markdown processor. The HTML renderer will however automatically use Markdown-It if it is loaded.
@@ -53,7 +53,7 @@ Functionality | HTML | .NET | UWP | iOS | Android | React
 Action.OpenUrl support | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ 
 Action.ShowCard support  | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ 
 Action.Submit support  | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ 
-selectAction support | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ 
+selectAction support | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
 
 ### Events
 
