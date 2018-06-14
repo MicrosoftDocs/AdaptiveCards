@@ -32,7 +32,7 @@ Native platform styling | ✅ | ✅ | ❌ | ❌ | ❌ | ❌
 Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Spacing and Separator | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ 
-[TextBlock DATE/TIME formatting](../create/TextFeatures.md#Date/Time-formatting-and-localization) | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
+[TextBlock DATE/TIME formatting](../create/TextFeatures.md#DateTime-formatting-and-localization) | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
 [TextBlock Markdown support](../create/TextFeatures.md#markdown) | ✅* | ❌ | ✅ | ❌ | ❌ | ❌
 Full Input support | ✅ | ✅ | ✅ | ❌ | ❌ | ❌
 
