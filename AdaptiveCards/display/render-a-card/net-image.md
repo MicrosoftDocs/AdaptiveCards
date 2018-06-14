@@ -6,21 +6,9 @@ ms.date: 10/19/2017
 ms.topic: article
 ---
 
-# .NET Image Rendering
+# Render a card - .NET Image
 
-As we described in [Getting Started](../GettingStarted.md) page, an Adaptive Card is a JSON-serialized card object model. This library makes it easy to render that JSON into into a PNG image.
-
-This package can even be used on a server to generate images, and implements all the "magic STA thread" goo for you. 
-
-## NuGet install
-
-[![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Wpf.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Wpf)
-
-```console
-Install-Package AdaptiveCards.Rendering.Wpf -IncludePrerelease
-```
-
-## Example
+Here's how to render a card using the .NET Image SDK.
 
 ```csharp
 try
@@ -67,12 +55,3 @@ catch (Exception ex)
     // Log failure
 }
 ```
-
-## Customization
-
-There are 3 ways to customize the adaptive card rendering: 
-1. Host Config
-2. XAML styling
-3. Custom element rendering
-
-See the [WPF docs](NET-WPF.md) for a full run-down of these options.
