@@ -32,8 +32,8 @@ Native platform styling | ✅ | ✅ | ❌ | ❌ | ❌ | ❌
 Functionality | HTML | .NET | UWP | iOS | Android | React
 --- | --- | --- | --- | --- | --- | ---
 Spacing and Separator | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ 
-[TextBlock DATE/TIME formatting](../create/textfeatures#Date/Time-formatting-and-localization) | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
-[TextBlock Markdown support](../create/textfeatures#markdown) | ✅* | ❌ | ✅ | ❌ | ❌ | ❌
+[TextBlock DATE/TIME formatting](../create/TextFeatures.md#Date/Time-formatting-and-localization) | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ 
+[TextBlock Markdown support](../create/TextFeatures.md#markdown) | ✅* | ❌ | ✅ | ❌ | ❌ | ❌
 Full Input support | ✅ | ✅ | ✅ | ❌ | ❌ | ❌
 
 \* The HTML renderer doesn’t include built-in Markdown support in order to minimize the size of the library and to let consuming applications use their preferred Markdown processor. The HTML renderer will however automatically use Markdown-It if it is loaded.
