@@ -30,7 +30,7 @@
     href: /sdk/authoring-cards
     maintainContext: true
   - name: Rendering Cards
-    items: /sdk/rendering-cards
+    href: /sdk/rendering-cards
     maintainContext: true
 - name: Resources
   items:
