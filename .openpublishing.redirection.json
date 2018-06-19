@@ -1,0 +1,9 @@
+{
+    "redirections": [
+      {
+         "source_path": "AdaptiveCards/create/CardSchema.md",
+         "redirect_url": "/authoring-cards/CardSchema",
+         "redirect_document_id": true
+      }
+    ]
+  }

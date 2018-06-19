@@ -1,0 +1,112 @@
+- name: Android
+  items: 
+  - name: Getting Started
+    href: /android/getting-started.md
+  - name: Render a Card
+    href: /android/render-a-card.md
+  - name: Actions
+    href: /android/actions.md
+  - name: Host Config
+    href: /android/host-config.md
+  - name: Native Styling
+    href: /android/native-styling.md
+  - name: Extensibility
+    href: /android/extensibility.md
+- name: iOS
+  items:
+  - name: Getting Started
+    href: /ios/getting-started.md
+  - name: Render a Card
+    href: /ios/render-a-card/ios.md
+  - name: Actions
+    href: /ios/actions/ios.md
+  - name: Host Config
+    href: /ios/host-config/ios.md
+  - name: Native Styling
+    href: /ios/native-styling/ios.md
+  - name: Extensibility
+    href: /ios/extensibility/ios.md
+- name: JavaScript
+  items:
+  - name: Getting Started
+    href: /javascript/getting-started.md
+  - name: Render a Card
+    href: /javascript/render-a-card.md
+  - name: Actions
+    href: /javascript/actions.md
+  - name: Host Config
+    href: /javascript/host-config.md
+  - name: Native Styling
+    href: /javascript/native-styling.md
+  - name: Extensibility
+    href: /javascript/extensibility.md
+- name: .NET HTML
+  items:
+  - name: Getting Started
+    href: /net-html/getting-started.md
+  - name: Render a Card
+    href: /net-html/render-a-card.md
+  - name: Actions
+    href: /net-html/actions.md
+  - name: Host Config
+    href: /net-html/host-config.md
+  - name: Native Styling
+    href: /net-html/native-styling.md
+  - name: Extensibility
+    href: /net-html/extensibility.md
+- name: .NET WPF
+  items:
+  - name: Getting Started
+    href: /net-wpf/getting-started.md
+  - name: Render a Card
+    href: /net-wpf/render-a-card.md
+  - name: Actions
+    href: /net-wpf/actions.md
+  - name: Host Config
+    href: /net-wpf/host-config.md
+  - name: Native Styling
+    href: /net-wpf/native-styling.md
+  - name: Extensibility
+    href: /net-wpf/extensibility.md
+- name: .NET Image
+  items:
+  - name: Getting Started
+    href: /net-image/getting-started.md
+  - name: Render a Card
+    href: /net-image/render-a-card.md
+  - name: Actions
+    href: /net-image/actions.md
+  - name: Host Config
+    href: /net-image/host-config.md
+  - name: Native Styling
+    href: /net-image/native-styling.md
+  - name: Extensibility
+    href: /net-image/extensibility.md
+- name: UWP
+  items:
+  - name: Getting Started
+    href: /uwp/getting-started.md
+  - name: Render a Card
+    href: /uwp/render-a-card.md
+  - name: Actions
+    href: /uwp/actions.md
+  - name: Host Config
+    href: /uwp/host-config.md
+  - name: Native Styling
+    href: /uwp/native-styling.md
+  - name: Extensibility
+    href: /uwp/extensibility.md
+- name: Xamarin Forms
+  items:
+  - name: Getting Started
+    href: /xamarin-forms/getting-started.md
+  - name: Render a Card
+    href: /xamarin-forms/render-a-card.md
+  - name: Actions
+    href: /xamarin-forms/actions.md
+  - name: Host Config
+    href: /xamarin-forms/host-config.md
+  - name: Native Styling
+    href: /xamarin-forms/native-styling.md
+  - name: Extensibility
+    href: /xamarin-forms/extensibility.md
