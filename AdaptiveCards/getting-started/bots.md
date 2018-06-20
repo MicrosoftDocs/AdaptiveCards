@@ -19,7 +19,7 @@ Click the following link and [talk to our Scuba Bot](http://contososcubademo.azu
 
 All of the bot's responses are created with Adaptive Cards.
 
-[![Scuba chat screenshot](../content/scuba-chat.png)](http://contososcubademo.azurewebsites.net/)
+[![Scuba chat screenshot](media/bots/scuba-chat.png)](http://contososcubademo.azurewebsites.net/)
 
 **Get the code**: the full [Contoso Scuba Bot source code](https://github.com/matthidinger/ContosoScubaBot
 ) can be found on GitHub.
@@ -50,7 +50,7 @@ To add some richness beyond just text, the Bot Framework has a concept of `attac
 
 Let's attach an Adaptive Card that displays custom text.
 
-![Basic adaptive card](../content/hello-adaptivecards.png)
+![Basic adaptive card](media/bots/hello-adaptivecards.png)
 
 ```json
 {

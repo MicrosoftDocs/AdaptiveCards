@@ -34,7 +34,7 @@ _Not supported_
 
 The below payload would render something like this:
 
-![markdown screenshot](../content/markdown.png)
+![markdown screenshot](media/text-features/markdown.png)
 
 ```json
 {

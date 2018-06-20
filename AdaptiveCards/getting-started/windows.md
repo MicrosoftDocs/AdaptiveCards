@@ -14,7 +14,7 @@ ms.topic: get-started-article
 
 The first Windows experience to supports Adaptive Cards will be Timeline, a brand new experience coming in a future Windows release. 
 
-![Timeline](../content/timeline.png)
+![Timeline](media/windows/timeline.png)
 
 ### UserActivity API
 

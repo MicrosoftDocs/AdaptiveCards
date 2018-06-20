@@ -30,7 +30,7 @@ Install-Package AdaptiveCards.Rendering.Wpf.Xceed -IncludePrerelease
 
 ## WPF Visualizer Sample
 
-![Visualizer screenshot](../../content/wpfvisualizer.png)
+![Visualizer screenshot](../../../resources/media/tools/wpfvisualizer.png)
 
 The [WPF Visualizer sample](https://github.com/Microsoft/AdaptiveCards/tree/master/source/dotnet/Samples/WPFVisualizer) lets you visualize cards using WPF.  A `Host Config` editor is built in for editing and viewing host config settings. Save these settings as a JSON to use them in rendering in your application.
 
