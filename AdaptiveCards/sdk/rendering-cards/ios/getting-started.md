@@ -26,4 +26,4 @@ Add header
 
 ## Next steps
 
-See [Render a card](../render-a-card/ios.md) for the next steps!
+See [Render a card](render-a-card.md) for the next steps!

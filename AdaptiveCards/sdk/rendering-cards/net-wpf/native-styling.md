@@ -57,4 +57,4 @@ renderer.ResourcesPath = <path-to-my-resource-dictionary.xaml>;
 > **A note about server-side image generation**
 > The WPF renderer provides a `RenderCardToImageAsync` method that can be used for server-side image generation. 
 > You must only use the `ResourcesPath` property if used in this environment. 
-> See the [Image Rendering](NET-Image.md) docs for more
+> See the [Image Rendering](../net-image/getting-started.md) docs for more

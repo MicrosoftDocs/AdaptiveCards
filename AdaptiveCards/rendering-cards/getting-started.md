@@ -8,7 +8,7 @@ ms.topic: article
 
 # Displaying Cards inside your application
 
-It's easy to render Adaptive Cards inside your application. We provide SDKs for the all common platforms, as well as provide a [detailed specification](ImplementingRenderer.md) for creating your own Adaptive Card renderer.
+It's easy to render Adaptive Cards inside your application. We provide SDKs for the all common platforms, as well as provide a [detailed specification](implement-a-renderer.md) for creating your own Adaptive Card renderer.
 
 1. **Install a renderer SDK** - for your target platform.
 2. **Create a renderer instance** - configured with your app's style, rules, and action event handlers.
@@ -47,7 +47,7 @@ There are several ways you can customize what is rendered.
 
 ### HostConfig
 
-A [HostConfig](HostConfig.md) is a shared, cross-platform configuration object that controls the basic styling and behavior of cards inside your app. It defines things like font sizes, spacing between elements, colors, number of supported actions, etc. 
+A [HostConfig](host-config.md) is a shared, cross-platform configuration object that controls the basic styling and behavior of cards inside your app. It defines things like font sizes, spacing between elements, colors, number of supported actions, etc. 
 
 ### Native platform styling
 

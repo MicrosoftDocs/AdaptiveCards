@@ -26,4 +26,4 @@ using AdaptiveCards.Rendering.Uwp;
 
 ## Next steps
 
-See [Render a card](../render-a-card/uwp.md) for the next steps!
+See [Render a card](render-a-card.md) for the next steps!

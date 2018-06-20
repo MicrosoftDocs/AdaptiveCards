@@ -16,7 +16,7 @@ Adaptive Cards are an open card exchange format enabling developers to exchange 
 
 ## How they work
 
-[**Card Authors**](./create/GettingStarted.md) describe their content as a simple JSON object. That content can then be rendered natively inside a [**Host Application**](./display/GettingStarted.md), automatically adapting to the look and feel of the Host.
+[**Card Authors**](authoring-cards/getting-started.md) describe their content as a simple JSON object. That content can then be rendered natively inside a [**Host Application**](rendering-cards/getting-started.md), automatically adapting to the look and feel of the Host.
 
 For example, Contoso Bot can author an Adaptive Card through the Bot Framework, and when delivered to Skype, it will look and feel like a Skype card. When that same payload is sent to Microsoft Teams, it will look and feel like Microsoft Teams. As more host apps start to support Adaptive Cards, that same payload will automatically light up inside these applications, yet still feel entirely native to the app.
 
@@ -54,7 +54,7 @@ If you are an app developer who wants to tap into an ecosystem of third-party co
 
 ## Core Design Principles 
 
-Adaptive Cards are driven by a set of [guiding principles](./resources/Principles.md) that have been useful for keeping the design on track. 
+Adaptive Cards are driven by a set of [guiding principles](resources/principles.md) that have been useful for keeping the design on track. 
 
 ### Semantic instead of pixel-perfect
 We have striven as much as possible for semantic values and concepts as opposed to pure pixel-perfect layout. 

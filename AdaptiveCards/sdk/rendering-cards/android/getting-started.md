@@ -18,4 +18,4 @@ This is a renderer which targets Android native controls.
 
 ## Next steps
 
-See [Render a card](../render-a-card/android.md) for the next steps!
+See [Render a card](render-a-card.md) for the next steps!

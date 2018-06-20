@@ -8,7 +8,7 @@ ms.topic: article
 
 # .NET SDK for Authoring Cards
 
-As we described in the [Getting Started](../GettingStarted.md) page, an Adaptive Card is a JSON object model. The .NET library makes working with that JSON much easier.
+As we described in the [Getting Started](../../authoring-cards/getting-started.md) page, an Adaptive Card is a JSON object model. The .NET library makes working with that JSON much easier.
 
 > [!IMPORTANT]
 > **Breaking changes from v0.5**
@@ -55,7 +55,7 @@ string json = card.ToJson();
 
 ## Example: Parse an AdaptiveCard from JSON
 
-This example demonstrates how to parse a JSON payload into an Adaptive Card. This makes it easy to manipulate the object model or even render Adaptive Cards inside your app by using our [renderer SDKs](../../display/GettingStarted.md).
+This example demonstrates how to parse a JSON payload into an Adaptive Card. This makes it easy to manipulate the object model or even render Adaptive Cards inside your app by using our [renderer SDKs](../../rendering-cards/getting-started.md).
 
 ```csharp
 try

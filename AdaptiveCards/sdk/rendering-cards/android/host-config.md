@@ -8,7 +8,7 @@ ms.topic: article
 
 # Host config - Android
 
-To customize the renderer you provide an instance of the HostConfig object. (See [Host Config Schema](../host-config/index.md) for the full description.)
+To customize the renderer you provide an instance of the HostConfig object. (See [Host Config Schema](../../../rendering-cards/host-config.md) for the full description.)
 
 To Create a HostConfig object from a string, use the DeserializeFromString method
 

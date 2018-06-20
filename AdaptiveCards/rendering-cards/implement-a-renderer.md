@@ -74,11 +74,11 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 #### Markdown
 
 1. Adaptive Cards allow for a subset of Markdown and **SHOULD** be supported in `TextBlock`. 
-1. See full [markdown requirements](../create/TextFeatures.md)
+1. See full [markdown requirements](../authoring-cards/text-features.md)
 
 #### Formatting functions
 
-1. `TextBlock` allows [DATE/TIME formatting functions](../create/TextFeatures.md) that **MUST** be supported on every renderer.
+1. `TextBlock` allows [DATE/TIME formatting functions](../authoring-cards/text-features.md) that **MUST** be supported on every renderer.
 1. **ALL FAILURES MUST** display the raw string in the card. No friendly message attempted. (The goal being to make the developer immediately aware there is a problem)
 
 1. TODO: Include regex
@@ -95,7 +95,7 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 * TODO: What should the defaults be? Should they all share it? Should we embed a common hostConfig.json file in the binaries?
 * TODO: I think HostConfig needs to be versioned as well for parsing?
 
-[`HostConfig`](HostConfig.md) is a shared configuration object that specifies how an Adaptive Card Renderer generates UI.  
+[`HostConfig`](host-config.md) is a shared configuration object that specifies how an Adaptive Card Renderer generates UI.  
 
 This allows properties which are platform agnostic to be shared among renderers on different platforms and devices. It also allows tooling to be created which gives you an idea of the look and feel that card would have for a given environment.
 

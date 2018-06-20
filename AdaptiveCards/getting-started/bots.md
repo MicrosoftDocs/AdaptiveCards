@@ -11,7 +11,7 @@ ms.topic: article
 Adaptive Cards are a great fit for Bots. They let you author a card once and have it render beautifully inside multiple apps, like Skype\*, Microsoft Teams\*, your own website, and more.
 
 > [!NOTE]
-> Skype and Microsoft Teams are not yet supported in the current preview, but we're working on it! See the [Partner Status](../Resources/Partners.md) page for the latest.
+> Skype and Microsoft Teams are not yet supported in the current preview, but we're working on it! See the [Partner Status](../resources/partners.md) page for the latest.
 
 ## Try it out
 
@@ -116,7 +116,7 @@ NodeJS | `npm install adaptivecards` | [Bot Framework NodeJS Docs](https://docs.
 
 ## Channel status
 
-The Bot Framework lets you publish your bot to multiple channels. We're working with various channels to provide full support for Adaptive Cards. See the [Partner Status](../Resources/Partners.md) page for the latest.
+The Bot Framework lets you publish your bot to multiple channels. We're working with various channels to provide full support for Adaptive Cards. See the [Partner Status](../resources/partners.md) page for the latest.
 
 
 ## Dive in!

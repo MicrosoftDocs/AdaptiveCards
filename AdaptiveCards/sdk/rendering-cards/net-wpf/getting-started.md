@@ -8,7 +8,7 @@ ms.topic: article
 
 # Getting started - .NET WPF
 
-As we described in [Getting Started](index.md) page, an Adaptive Card is a JSON-serialized card object model. This library makes it easy to render that JSON into WPF UI that you can use within your app.
+As we described in [Getting Started](../../../authoring-cards/getting-started.md) page, an Adaptive Card is a JSON-serialized card object model. This library makes it easy to render that JSON into WPF UI that you can use within your app.
 
 ## NuGet install
 

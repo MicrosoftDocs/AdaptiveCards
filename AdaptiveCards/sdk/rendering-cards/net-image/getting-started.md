@@ -8,7 +8,7 @@ ms.topic: article
 
 # Getting started - .NET Image
 
-As we described in [Getting Started](index.md) page, an Adaptive Card is a JSON-serialized card object model. This library makes it easy to render that JSON into into a PNG image.
+As we described in [Getting Started](../../../authoring-cards/getting-started.md) page, an Adaptive Card is a JSON-serialized card object model. This library makes it easy to render that JSON into into a PNG image.
 
 This package can even be used on a server to generate images, and implements all the "magic STA thread" goo for you. 
 
@@ -22,4 +22,4 @@ Install-Package AdaptiveCards.Rendering.Wpf -IncludePrerelease
 
 ## Next steps
 
-See [Render a card](../render-a-card/net-wpf.md) for the next steps!
+See [Render a card](render-a-card.md) for the next steps!
