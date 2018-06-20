@@ -33,10 +33,10 @@
 - name: Resources
   items:
   - name: Principles
-    href: resources/Principles.md
+    href: resources/principles.md
   - name: Partners
-    href: resources/Partners.md
+    href: resources/partners.md
   - name: Tools
-    href: resources/Tools.md
+    href: resources/tools.md
   - name: Roadmap 
-    href: resources/Future.md
+    href: resources/future.md

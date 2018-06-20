@@ -101,11 +101,6 @@
          "redirect_document_id": true
       },
       {
-         "source_path": "AdaptiveCards/get-started/Home.md",
-         "redirect_url": "/adaptive-cards/getting-started/home",
-         "redirect_document_id": true
-      },
-      {
          "source_path": "AdaptiveCards/get-started/Outlook.md",
          "redirect_url": "/adaptive-cards/getting-started/outlook",
          "redirect_document_id": true
