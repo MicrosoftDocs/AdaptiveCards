@@ -22,6 +22,12 @@
   items:
   - name: Getting Started
     href: rendering-cards/getting-started/index.md
+  - name: Actions
+    href: rendering-cards/actions.md
+  - name: Host Config
+    href: rendering-cards/host-config.md
+  - name: Extensibility
+    href: rendering-cards/extensibility.md
   - name: Implement a Renderer
     href: rendering-cards/implement-a-renderer.md
 - name: SDK
