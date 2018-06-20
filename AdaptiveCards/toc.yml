@@ -28,6 +28,8 @@
     href: rendering-cards/host-config.md
   - name: Extensibility
     href: rendering-cards/extensibility.md
+  - name: Renderer Status
+    href: rendering-cards/renderer-status.md
   - name: Implement a Renderer
     href: rendering-cards/implement-a-renderer.md
 - name: SDK
