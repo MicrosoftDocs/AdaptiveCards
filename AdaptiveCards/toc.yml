@@ -3,27 +3,27 @@
 - name: Getting Started
   items: 
     - name: Bot Developers
-      href: get-started/Bots.md
+      href: getting-started/bots.md
     - name: Windows Developers
-      href: get-started/Windows.md
+      href: getting-started/windows.md
     - name: Outlook Developers
-      href: get-started/Outlook.md
+      href: getting-started/outlook.md
 - name: Authoring Cards
   items:
   - name: Getting Started
-    href: authoring-cards/GettingStarted.md
+    href: authoring-cards/getting-started.md
   - name: Card Schema
-    href: authoring-cards/CardSchema.md
+    href: authoring-cards/card-schema.md
   - name: Speech
-    href: authoring-cards/Speech.md
+    href: authoring-cards/speech.md
   - name: Text Features
-    href: authoring-cards/TextFeatures.md
+    href: authoring-cards/text-features.md
 - name: Rendering Cards
   items:
   - name: Getting Started
     href: rendering-cards/getting-started/index.md
   - name: Implement a Renderer
-    href: rendering-cards/ImplementingRenderer.md
+    href: rendering-cards/implement-a-renderer.md
 - name: SDK
   items:
   - name: Authoring Cards
