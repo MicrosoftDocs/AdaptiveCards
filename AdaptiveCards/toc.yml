@@ -27,11 +27,9 @@
 - name: SDK
   items:
   - name: Authoring Cards
-    href: /sdk/authoring-cards
-    maintainContext: true
+    href: /sdk/authoring-cards/toc.yml
   - name: Rendering Cards
-    href: /sdk/rendering-cards
-    maintainContext: true
+    href: /sdk/rendering-cards/toc.yml
 - name: Resources
   items:
   - name: Principles
