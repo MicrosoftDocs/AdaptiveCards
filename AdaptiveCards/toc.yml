@@ -3,40 +3,40 @@
 - name: Getting Started
   items: 
     - name: Bot Developers
-      href: /get-started/Bots.md
+      href: get-started/Bots.md
     - name: Windows Developers
-      href: /get-started/Windows.md
+      href: get-started/Windows.md
     - name: Outlook Developers
-      href: /get-started/Outlook.md
+      href: get-started/Outlook.md
 - name: Authoring Cards
   items:
   - name: Getting Started
-    href: /authoring-cards/GettingStarted.md
+    href: authoring-cards/GettingStarted.md
   - name: Card Schema
-    href: /authoring-cards/CardSchema.md
+    href: authoring-cards/CardSchema.md
   - name: Speech
-    href: /authoring-cards/Speech.md
+    href: authoring-cards/Speech.md
   - name: Text Customization
-    href: /authoring-cards/TextFeatures.md
+    href: authoring-cards/TextFeatures.md
 - name: Rendering Cards
   items:
   - name: Getting Started
-    href: /rendering-cards/getting-started/index.md
+    href: rendering-cards/getting-started/index.md
   - name: Implement a Renderer
-    href: /rendering-cards/ImplementingRenderer.md
+    href: rendering-cards/ImplementingRenderer.md
 - name: SDK
   items:
   - name: Authoring Cards
-    href: /sdk/authoring-cards/toc.yml
+    href: sdk/authoring-cards/toc.yml
   - name: Rendering Cards
-    href: /sdk/rendering-cards/toc.yml
+    href: sdk/rendering-cards/toc.yml
 - name: Resources
   items:
   - name: Principles
-    href: /resources/Principles.md
+    href: resources/Principles.md
   - name: Partners
-    href: /resources/Partners.md
+    href: resources/Partners.md
   - name: Tools
-    href: /resources/Tools.md
+    href: resources/Tools.md
   - name: Roadmap 
-    href: /resources/Future.md
+    href: resources/Future.md
