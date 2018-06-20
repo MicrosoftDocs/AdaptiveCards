@@ -17,15 +17,15 @@
   - name: Getting Started
     href: ios/getting-started.md
   - name: Render a Card
-    href: ios/render-a-card/ios.md
+    href: ios/render-a-card.md
   - name: Actions
-    href: ios/actions/ios.md
+    href: ios/actions.md
   - name: Host Config
-    href: ios/host-config/ios.md
+    href: ios/host-config.md
   - name: Native Styling
-    href: ios/native-styling/ios.md
+    href: ios/native-styling.md
   - name: Extensibility
-    href: ios/extensibility/ios.md
+    href: ios/extensibility.md
 - name: JavaScript
   items:
   - name: Getting Started

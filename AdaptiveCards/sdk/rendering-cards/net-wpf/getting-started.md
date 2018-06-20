@@ -36,4 +36,4 @@ The [WPF Visualizer sample](https://github.com/Microsoft/AdaptiveCards/tree/mast
 
 ## Next steps
 
-See [Render a card](../render-a-card/net-wpf.md) for the next steps!
+See [Render a card](render-a-card.md) for the next steps!

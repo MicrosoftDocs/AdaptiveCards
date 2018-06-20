@@ -21,7 +21,7 @@
 - name: Rendering Cards
   items:
   - name: Getting Started
-    href: rendering-cards/getting-started/index.md
+    href: rendering-cards/getting-started.md
   - name: Actions
     href: rendering-cards/actions.md
   - name: Host Config
