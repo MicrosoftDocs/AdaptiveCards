@@ -2,7 +2,117 @@
     "redirections": [
       {
          "source_path": "AdaptiveCards/create/CardSchema.md",
-         "redirect_url": "/authoring-cards/CardSchema",
+         "redirect_url": "/authoring-cards/card-schema",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/create/GettingStarted.md",
+         "redirect_url": "/authoring-cards/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/create/Speech.md",
+         "redirect_url": "/authoring-cards/speech",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/create/TextFeatures.md",
+         "redirect_url": "/authoring-cards/text-features",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/create/libraries/Javascript.md",
+         "redirect_url": "/sdk/authoring-cards/javascript",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/create/libraries/NET.md",
+         "redirect_url": "/sdk/authoring-cards/net",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/GettingStarted.md",
+         "redirect_url": "/rendering-cards/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/HostConfig.md",
+         "redirect_url": "/rendering-cards/host-config",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/ImplementingRenderer.md",
+         "redirect_url": "/rendering-cards/implement-a-renderer",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/RendererStatus.md",
+         "redirect_url": "/rendering-cards/renderer-status",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/Speech.md",
+         "redirect_url": "/rendering-cards/speech",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/libraries/Android.md",
+         "redirect_url": "/sdk/rendering-cards/android/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/libraries/HTMLClient.md",
+         "redirect_url": "/sdk/rendering-cards/javascript/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/libraries/NET-HTML.md",
+         "redirect_url": "/sdk/rendering-cards/net-html/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/libraries/NET-Image.md",
+         "redirect_url": "/sdk/rendering-cards/net-image/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/libraries/NET-WPF.md",
+         "redirect_url": "/sdk/rendering-cards/net-wpf/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/libraries/UWP.md",
+         "redirect_url": "/sdk/rendering-cards/uwp/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/libraries/XamarinForms.md",
+         "redirect_url": "/sdk/rendering-cards/xamarin-forms/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/display/libraries/iOS.md",
+         "redirect_url": "/sdk/rendering-cards/ios/getting-started",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/get-started/Bots.md",
+         "redirect_url": "/getting-started/bots",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/get-started/Home.md",
+         "redirect_url": "/getting-started/home",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/get-started/Outlook.md",
+         "redirect_url": "/getting-started/outlook",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "AdaptiveCards/get-started/Windows.md",
+         "redirect_url": "/getting-started/windows",
          "redirect_document_id": true
       }
     ]

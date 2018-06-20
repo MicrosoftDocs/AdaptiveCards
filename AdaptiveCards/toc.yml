@@ -16,7 +16,7 @@
     href: authoring-cards/CardSchema.md
   - name: Speech
     href: authoring-cards/Speech.md
-  - name: Text Customization
+  - name: Text Features
     href: authoring-cards/TextFeatures.md
 - name: Rendering Cards
   items:
