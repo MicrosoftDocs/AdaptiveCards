@@ -38,27 +38,30 @@ var card = AdaptiveCard.FromJson(jsonObject);
 Acquire a card from a source and render it.
 
 ```csharp
-RenderedAdaptiveCard renderResult =  renderer.RenderAdaptiveCard(card);
-// check if the render was successful
-if (renderResult.FrameworkElement != null)
+RenderedAdaptiveCard renderedAdaptiveCard =  renderer.RenderAdaptiveCard(card);
+
+// Check if the render was successful
+if (renderedAdaptiveCard.FrameworkElement != null)
 {
-    //Get the ui element
-    var uiCard = renderResult.FrameworkElement;
-    // add it to your ui
+    // Get the framework element
+    var uiCard = renderedAdaptiveCard.FrameworkElement;
+
+    // Add it to your UI
     myGrid.Children.Add(uiCard);
 }
 ```
 
 ## Example
+
 Here is an example from the UWP renderer.
 
 ```csharp
 var renderer = new AdaptiveCardRenderer();
 var card = AdaptiveCard.FromJsonString(jsonString);
-var renderResult = renderer.RenderAdaptiveCard(card.AdaptiveCard);
-if (renderResult.FrameworkElement != null)
+var renderedAdaptiveCard = renderer.RenderAdaptiveCard(card.AdaptiveCard);
+if (renderedAdaptiveCard.FrameworkElement != null)
 {
-    myGrid.Children.Add(renderResult.FrameworkElement);
+    myGrid.Children.Add(renderedAdaptiveCard.FrameworkElement);
 }
 ...
 ```
