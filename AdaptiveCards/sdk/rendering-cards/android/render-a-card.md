@@ -1,5 +1,5 @@
 ---
-title: Android SDK
+title: Render a card - Android SDK
 author: bekao
 ms.author: bekao
 ms.date: 09/27/2017

@@ -1,5 +1,5 @@
 ---
-title: Android SDK
+title: Host config - Android SDK
 author: bekao
 ms.author: bekao
 ms.date: 09/27/2017

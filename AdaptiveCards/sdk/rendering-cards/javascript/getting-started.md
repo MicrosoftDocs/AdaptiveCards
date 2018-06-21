@@ -1,5 +1,5 @@
 ---
-title: JavaScript library
+title: JavaScript SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 11/28/2017
@@ -8,7 +8,7 @@ ms.topic: article
 
 # Getting started - JavaScript
 
-As we described in [Getting Started](../../../authoring-cards/getting-started.md) page, an Adaptive Card is a JSON-serialized card object model. This is a JavaScript library for generating client-side HTML in the browser.
+As we described in [Getting Started](../../../authoring-cards/getting-started.md) page, an Adaptive Card is a JSON-serialized card object model. This is a JavaScript SDK for generating client-side HTML in the browser.
 
 > [!IMPORTANT]
 > **Breaking changes from v0.5**

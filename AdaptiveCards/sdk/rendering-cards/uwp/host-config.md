@@ -1,5 +1,5 @@
 ---
-title: UWP SDK
+title: Host config - UWP SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 06/26/2017

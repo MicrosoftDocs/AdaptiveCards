@@ -1,5 +1,5 @@
 ---
-title: .NET WPF SDK
+title: Host config - .NET WPF SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 10/19/2017

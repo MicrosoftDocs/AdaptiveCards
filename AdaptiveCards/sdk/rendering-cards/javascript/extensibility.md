@@ -1,5 +1,5 @@
 ---
-title: JavaScript library
+title: Extensibility - JavaScript SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 11/28/2017

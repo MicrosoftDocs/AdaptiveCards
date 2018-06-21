@@ -1,5 +1,5 @@
 ---
-title: .NET Image Rendering SDK
+title: Host config - .NET Image Rendering SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 10/19/2017

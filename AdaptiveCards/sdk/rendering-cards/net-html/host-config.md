@@ -1,5 +1,5 @@
 ---
-title: .NET HTML SDK
+title: Host config - .NET HTML SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 10/19/2017

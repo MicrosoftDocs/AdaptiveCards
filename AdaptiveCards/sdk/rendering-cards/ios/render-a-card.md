@@ -1,5 +1,5 @@
 ---
-title: iOS SDK
+title: Render a card - iOS SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 06/26/2017

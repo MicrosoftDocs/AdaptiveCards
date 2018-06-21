@@ -1,5 +1,5 @@
 ---
-title: UWP SDK
+title: Native styling - UWP SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 06/26/2017

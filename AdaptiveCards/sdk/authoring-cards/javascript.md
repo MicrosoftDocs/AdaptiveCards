@@ -6,7 +6,7 @@ ms.date: 06/26/2017
 ms.topic: article
 ---
 
-# JavaScript library for creating cards
+# JavaScript SDK for creating cards
 
 > [!IMPORTANT]
 > The library for serializing JSON is still in development and your milage may vary.

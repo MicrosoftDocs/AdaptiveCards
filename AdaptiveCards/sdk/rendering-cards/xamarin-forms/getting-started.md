@@ -1,5 +1,5 @@
 ---
-title: Xamarin.Forms SDK
+title: Xamarin Forms SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 06/26/2017
