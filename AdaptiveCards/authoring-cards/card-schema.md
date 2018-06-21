@@ -49,9 +49,8 @@ Card schema for an adaptive card
 |**type**|`"AdaptiveCard"`|Yes|Must be AdaptiveCard
 |**actions**|`Action[]`| No|The Actions to show in the card's action bar
 |**body**|`array[]`| No|The Card Elements to show in the primary card region
-|**version**|`string`|Yes|version of schema that this card was authored 
-|**minVersion**|`string`| No|if a client doesn't support the minVersion the card should be rejected and return the fallbackText.  If it does, then the elements that are not supported are safe to ignore
-|**fallbackText**|`string`| No|if a client is not able to show the card, show fallbackText to the user. This can be in markdown format. 
+|**version**|`string`|Yes|Schema version that this card requires. If a client is lower than this version the fallbackText will be rendered
+|**fallbackText**|`string`| No|Text shown when the client doesn’t support the version specified. This can be in markdown format
 |**speak**|`string`| No|Specifies what should be spoken for this entire Item. This is simple text or SSML fragment
 
 
