@@ -3,60 +3,48 @@
 - name: Getting Started
   items: 
     - name: Bot Developers
-      href: ./get-started/Bots.md
+      href: getting-started/bots.md
     - name: Windows Developers
-      href: ./get-started/Windows.md
+      href: getting-started/windows.md
     - name: Outlook Developers
-      href: ./get-started/Outlook.md
+      href: getting-started/outlook.md
 - name: Authoring Cards
   items:
   - name: Getting Started
-    href: ./create/GettingStarted.md
+    href: authoring-cards/getting-started.md
   - name: Card Schema
-    href: ./create/CardSchema.md
+    href: authoring-cards/card-schema.md
   - name: Speech
-    href: ./create/Speech.md
-  - name: Text Customization
-    href: ./create/TextFeatures.md
-  - name: SDKs
-    items:
-    - name: .NET
-      href: ./create/libraries/NET.md
-    - name: JavaScript
-      href: ./create/libraries/Javascript.md
+    href: authoring-cards/speech.md
+  - name: Text Features
+    href: authoring-cards/text-features.md
 - name: Rendering Cards
   items:
   - name: Getting Started
-    href: ./display/GettingStarted.md
+    href: rendering-cards/getting-started.md
+  - name: Actions
+    href: rendering-cards/actions.md
   - name: Host Config
-    href: ./display/HostConfig.md
+    href: rendering-cards/host-config.md
+  - name: Extensibility
+    href: rendering-cards/extensibility.md
+  - name: Renderer Status
+    href: rendering-cards/renderer-status.md
   - name: Implement a Renderer
-    href: ./display/ImplementingRenderer.md
-  - name: SDKs
-    items:
-      - name: JavaScript
-        href: ./display/libraries/HTMLClient.md
-      - name: .NET HTML
-        href: ./display/libraries/NET-HTML.md
-      - name: .NET WPF
-        href: ./display/libraries/NET-WPF.md
-      - name: .NET Image Generator
-        href: ./display/libraries/NET-Image.md
-      - name: Android
-        href: ./display/libraries/Android.md
-      - name: iOS
-        href: ./display/libraries/iOS.md
-      - name: Windows UWP
-        href: ./display/libraries/UWP.md
-      - name: SDK Status
-        href: ./display/RendererStatus.md
+    href: rendering-cards/implement-a-renderer.md
+- name: SDK
+  items:
+  - name: Authoring Cards
+    href: sdk/authoring-cards/toc.yml
+  - name: Rendering Cards
+    href: sdk/rendering-cards/toc.yml
 - name: Resources
   items:
   - name: Principles
-    href: ./resources/Principles.md
+    href: resources/principles.md
   - name: Partners
-    href: ./resources/Partners.md
+    href: resources/partners.md
   - name: Tools
-    href: ./resources/Tools.md
+    href: resources/tools.md
   - name: Roadmap 
-    href: ./resources/Future.md
+    href: resources/future.md
