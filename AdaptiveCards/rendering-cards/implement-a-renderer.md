@@ -43,8 +43,8 @@ The following specification describes how implement an Adaptive Card renderer on
 ## Versioning
 
 1. A renderer **MUST** implement a particular version of the schema. 
-1. The `AdaptiveCard` constructor **MUST** give the `Version` property a default value based on the current schema version 
-1. If a renderer encounters a `minRequiredVersion` property in the `AdaptiveCard` that is higher than the supported version, it **MUST** return the `fallbackText` instead.
+1. The `AdaptiveCard` constructor **MUST** give the `version` property a default value based on the current schema version 
+1. If a renderer encounters a `version` property in the `AdaptiveCard` that is higher than the supported version, it **MUST** return the `fallbackText` instead.
 
 ## Rendering
 
