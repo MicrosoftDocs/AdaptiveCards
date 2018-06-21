@@ -1,12 +1,12 @@
 ---
-title: Displaying Cards inside your application
+title: Rendering cards inside your application
 author: matthidinger
 ms.author: mahiding
 ms.date: 06/26/2017
 ms.topic: article
 ---
 
-# Displaying Cards inside your application
+# Rendering cards inside your application
 
 It's easy to render Adaptive Cards inside your application. We provide SDKs for the all common platforms, as well as provide a [detailed specification](implement-a-renderer.md) for creating your own Adaptive Card renderer.
 
