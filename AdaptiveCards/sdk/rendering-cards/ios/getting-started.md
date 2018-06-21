@@ -10,15 +10,17 @@ ms.topic: article
 
 This renderer which targets iOS native controls.
 
-## Add a renderer
+## Install pod
 
 This is available as a pod.
+
+[![CocoaPods](https://img.shields.io/cocoapods/v/AdaptiveCards.svg)](https://cocoapods.org/pods/AdaptiveCards)
 
 ```console
  pod 'AdaptiveCards'
 ```
 
-Add header
+## Add header
 
 ```objective-c
 #import "AdaptiveCards/ACFramework.h"

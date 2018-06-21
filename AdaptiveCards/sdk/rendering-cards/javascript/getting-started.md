@@ -24,6 +24,8 @@ As we described in [Getting Started](../../../authoring-cards/getting-started.md
 
 ### Node
 
+[![npm install](https://img.shields.io/npm/v/adaptivecards.svg)](https://www.npmjs.com/package/adaptivecards)
+
 ```console
 npm install adaptivecards --save
 ```

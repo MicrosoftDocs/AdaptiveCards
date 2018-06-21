@@ -12,8 +12,12 @@ This is a renderer which targets UWP native controls.
 
 ## Install NuGet package
 
+**AdaptiveCards.Rendering.Uwp**
+
+[![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Uwp.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Uwp)
+
 ```console
-Install-Package AdaptiveCards.Rendering.Uwp -IncludePrerelease
+Install-Package AdaptiveCards.Rendering.Uwp
 ```
 
 ## Namespace
