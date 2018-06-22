@@ -96,17 +96,3 @@
     href: uwp/native-styling.md
   - name: Extensibility
     href: uwp/extensibility.md
-- name: Xamarin Forms
-  items:
-  - name: Getting Started
-    href: xamarin-forms/getting-started.md
-  - name: Render a Card
-    href: xamarin-forms/render-a-card.md
-  - name: Actions
-    href: xamarin-forms/actions.md
-  - name: Host Config
-    href: xamarin-forms/host-config.md
-  - name: Native Styling
-    href: xamarin-forms/native-styling.md
-  - name: Extensibility
-    href: xamarin-forms/extensibility.md

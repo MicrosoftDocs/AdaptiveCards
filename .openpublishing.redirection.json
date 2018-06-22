@@ -86,11 +86,6 @@
          "redirect_document_id": true
       },
       {
-         "source_path": "AdaptiveCards/display/libraries/XamarinForms.md",
-         "redirect_url": "/adaptive-cards/sdk/rendering-cards/xamarin-forms/getting-started",
-         "redirect_document_id": true
-      },
-      {
          "source_path": "AdaptiveCards/display/libraries/iOS.md",
          "redirect_url": "/adaptive-cards/sdk/rendering-cards/ios/getting-started",
          "redirect_document_id": true
