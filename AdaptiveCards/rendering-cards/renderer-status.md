@@ -45,7 +45,7 @@ Functionality | HTML | .NET | UWP | iOS | Android | React
 Override Element Renderer | ✅ | ✅ | ✅ | ❌ | ✅ | ❌
 Add new Element Renderer | ✅ | ✅ | ✅ | ❌ | ✅ | ❌
 Remove Element Renderer | ✅ | ✅ | ✅ | ❌ | ✅ | ❌
-[Override/add/remove Action Renderer](https://github.com/Microsoft/AdaptiveCards/issues/1671) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌
+[Override/add/remove Action Renderer](https://github.com/Microsoft/AdaptiveCards/issues/1671) | ✅ | ✅ | ❌ | ✅ | ❌ | ❌
 
 ### Actions
 
