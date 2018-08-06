@@ -195,7 +195,7 @@ When Action.OpenUrl is invoked it will show the given url, either by launching i
 
 |Property|Type|Required|Description|
 |--------|----|--------|-----------|
-|**title**|`string`| No|Label for button or link that represents this action
+|**title**|`string`| Yes|Label for button or link that represents this action
 |**type**|`"Action.OpenUrl"`|Yes|Must be Action.OpenUrl
 |**url**|`string`|Yes|The URL to open
 
@@ -208,7 +208,7 @@ Submit action gathers up input fields, merges with optional data field and gener
 |Property|Type|Required|Description|
 |--------|----|--------|-----------|
 |**type**|`"Action.Submit"`|Yes|Must be Action.Submit
-|**title**|`string`| No|Label for button or link that represents this action
+|**title**|`string`| Yes|Label for button or link that represents this action
 |**data**|`string,object`| No|initial data that input fields will be combined with. This is essentially 'hidden' properties
 
 
@@ -220,7 +220,7 @@ Action.ShowCard defines an inline AdaptiveCard which is shown to the user when i
 |Property|Type|Required|Description|
 |--------|----|--------|-----------|
 |**type**|`"Action.ShowCard"`|Yes|Must be Action.ShowCard
-|**title**|`string`| No|Label for button or link that represents this action
+|**title**|`string`| Yes|Label for button or link that represents this action
 |**card**|`object`|Yes|Card schema for an adaptive card
 
 
