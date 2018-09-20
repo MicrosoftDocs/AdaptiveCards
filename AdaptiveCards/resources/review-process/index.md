@@ -6,8 +6,6 @@
 
 Partners say "We need XYZ!"
 
-* We capture these individual requests as described in [the requests page](requests.md).
-
 
 ## We group requests into a requests collection
 
