@@ -1,310 +1,228 @@
 ---
 title: HostConfig for Adaptive Cards
-author: matthidinger
-ms.author: mahiding
-ms.date: 06/26/2017
-ms.topic: article
+author: paulcam206
+ms.author: paulcam
+ms.date: 09/18/2018
+ms.topic: reference
 ---
 
 # What is HostConfig?
-`HostConfig` is a **cross-platform configuration object** that specifies how an Adaptive Card Renderer generates UI.  
+`HostConfig` is a **cross-platform configuration object** that specifies how an Adaptive Card Renderer generates UI.
 
 This allows properties which are platform agnostic to be shared among renderers on different platforms and devices. It also allows tooling to be created which gives you an idea of the look and feel that card would have for a given environment.
 
 See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/master/samples/v1.0/HostConfig/sample.json) to get a feeling for its contents.
 
-> [!IMPORTANT]
->
-> This content is **out of date** and will be updated shortly. Please see the sample Host Config above for the most up-to-date structure
+---
 
-> [!NOTE]
->
-> You are not restricited to the limited set of styling that Host Config offers. 
-> You can customize the look and feel of the card further using the styling mechanisms appropriate to the UI framework used to render the card.  For example, use CSS in HTML to change the look and behavior of action elements.
+   * [`AdaptiveCardConfig`](#schema-adaptivecardconfig) - Toplevel options for `AdaptiveCards`
+   * [`ActionsConfig`](#schema-actionsconfig) - Options for `Action`s
+   * [`ContainerStylesConfig`](#schema-containerstylesconfig) - Controls styling for default and emphasis containers
+   * [`FactSetConfig`](#schema-factsetconfig) - Controls the display of `FactSet`s
+   * [`FontSizesConfig`](#schema-fontsizesconfig) - Controls font size metrics for different text styles
+   * [`FontWeightsConfig`](#schema-fontweightsconfig) - Controls font weight metrics
+   * [`ForegroundColorsConfig`](#schema-foregroundcolorsconfig) - Controls various font colors
+   * [`ImageSetConfig`](#schema-imagesetconfig) - Controls how `ImageSet`s are displayed
+   * [`ImageSizesConfig`](#schema-imagesizesconfig) - Controls `Image` sizes
+   * [`MediaConfig`](#schema-mediaconfig) - Controls the display and behavior of `Media` elements
+   * [`SeparatorConfig`](#schema-separatorconfig) - Controls how separators are displayed
+   * [`ShowCardConfig`](#schema-showcardconfig) - Controls behavior and styling of `Action.ShowCard`
+   * [`SpacingsConfig`](#schema-spacingsconfig) - Controls how elements are to be laid out
+   * [`TextBlockConfig`](#schema-textblockconfig) - Parameters controlling the display of text
 
-## HostConfig
+# Card Configuration
 
-| Property | Type | default | Description |
-|---|---|---|---|
-| **actions** | [ActionsConfig](#actionsconfig) | - | Defines configuration for actions in general|
-| **actionAlignment** | [ActionAlignment](#actionalign) |  - |Controls how actions are horizontally positioned within their container | 
-| **actionSetConfig** | [ActionSetConfig](#actionSetconfig) |  - |Defines ActionSet configuration  | 
-| **actionsOrientation** | [ActionsOrientation](#actionsorientation) |  - |Controls how actions are oriented | 
-| **adaptiveCard**| [AdaptiveCardConfig](#adaptivecardconfig) | - | Defines adaptive card configuration |
-| **choiceSet**| [ChoiceSetConfig](#choicesetconfig) | - | Defines ChoiceSet configuration |
-| **colors** | [ColorsConfig](#colorsconfig) | - | Defines color palette|
-| **colorConfig** | [ColorConfig](#colorconfig) |  - |Defines color and subtle version of color | 
-| **column** | [ColumnConfig](#columnconfig) | - | Defines configuration for Column element |
-| **columnSet** | [ColumnSetConfig](#columnsetconfig) | - | Defines configuration for ColumnSet element |
-| **container** | [ContainerConfig](#containerconfig) | - | Defines configuration for Container element |
-| **containerStyleConfig** | [ContainerStyleConfig](#containerStyleconfig) |  - |Defines a style for a container | 
-| **dateInput**| [DateInputConfig](#dateInputConfig) | - | Defines DateInput configuration |
-| **image**| [ImageConfig](#imageconfig) | - | Defines Image configuration |
-| **imageSet** | [ImageSetConfig](#imagesetconfig) | - | Defines configuration for ImageSet element|
-| **imageSizes** | [ImageSizesConfig](#imagesizesconfig) | - | Defines the sizes for images |
-| **factSet** | [FactSetConfig](#factsetconfig) | - | Defines configuration for FactSet element|
-| **fontFamily**| string | "Calibri" | Defines comma delimited font-family to be used for card |
-| **fontSizes** | [FontSizesConfig](#fontsizesconfig) |  - | Defines font sizes to use for text. |
-| **numberInput**| [NumberInputConfig](#numberinputconfig) | - | Defines NumberInput configuration |
-| **showActionMode** | [ShowActionMode](#showAction) | - | Controls how to show the card for a ShowActionCard  | 
-| **showCardActionConfig** | [ShowCardActionConfig](#showCardconfig) |  - |The configuration for showing a card action.|
-| **spacingDefinition** | [SpacingDefinition](#spaceDef) |  - |Defines left, top, right and bottom number values | 
-| **strongSeparation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between vertical elements| 
-| **supportsInteractivity** | bool | true| Does the host want to support interactivity like actions and inputs |
-| **textBlock**| [TextBlockConfig](#textblockconfig) | - | Defines TextBlock configuration |
-| **TextConfig** | [TextConfig](#textconfig) |  - |Defines text settings for things like FactSet Title. | 
-| **textInput**| [TextInputConfig](#textinputconfig) | - | Defines TextInput configuration |
-| **timeInput**| [TimeInputConfig](#timeinputconfig) | - | Defines TimeInput configuration |
-| **toggleInput**| [ToggleInputConfig](#toggleinputconfig) | - | Defines ToggleInput configuration |
-
-
-## ActionsConfig
-<a name="actionsconfig"></a>Defines config for how actions should be rendered
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **actionsOrientation** | [ActionsOrientation](#actionsorientation) | Horizontal | Defines actions as horizontal vs vertical |
-| **actionAlignment** | [ActionAlignment](#actionalignment) | center | should actions be aligned left, centered, right or stretch |
-| **buttonSpacing** | number | 8 | spacing between buttons in an actionSet|
-| **maxActions** | number | 5 | max number of actions that the app wants to support|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines separation between actionSet and previous elements | 
-| **showCard** | [ShowCardActionConfig](#showcardactionconfig)| - | Defines configuration for ShowCardAction|
-
-### ActionAlignment
-<a name="actionalign"></a>Controls how actions are horizontally positioned within their container
-
-| Value | Meaning |
-|---|---|
-| **left** | actions should be aligned to the left |
-| **center** | actions should be aligned center |
-| **right** | actions should be aligned tot the right |
-| **stretch** | actions should be be stretched to fit the width |
-
-## ActionSetConfig
-<a name="actionSetconfig"></a>Defines ActionSet configuration
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
-
-### ActionsOrientation
-<a name="actionsorientation"></a>Controls how actions are oriented
-
-| Value | Meaning |
-|---|---|
-| **horizontal** |actions should be laid out horizontally|
-| **vertically** |actions should be laid out vertically|
-
+<a name="schema-adaptivecardconfig"></a>
 ## AdaptiveCardConfig
-<a name="adaptivecardconfig"></a>Defines Card configuration
 
-| Property | Type | default | Description |
-|---|---|---|---|
-| **backgroundColor**| string | #FFFFFFFF | Defines default color for the background in RGBa format #AARRGGBB|
-| **padding**| [SpacingDefinition](#spacingdefinition) | 8,8,8,8 | Defines padding between card content and edge of card|
+Toplevel options for `AdaptiveCards`
 
-## ChoiceSetConfig
-<a name="choicesetconfig"></a>Defines configuration for ChoiceSet input elements
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
-
-## ColorsConfig
-<a name="colorsconfig"></a>Color configuration defines the palette for the card
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **default** | [ColorConfig](#colorconfig) | #FF000000 | default color to use |
-| **accent** | [ColorConfig](#colorconfig) | #FF0000FF | accent color to use |
-| **dark** | [ColorConfig](#colorconfig) | #FF101010 | dark color to use |
-| **light**  | [ColorConfig](#colorconfig) | #FFFFFFFF | light color to use |
-| **good**   | [ColorConfig](#colorconfig) | #FF008000 | good color to use |
-| **warning**  | [ColorConfig](#colorconfig) | #FFFFD700 | warning color to use |
-| **attention**  | [ColorConfig](#colorconfig) | #FF8B0000 | attention color to use |
-
-## ColorConfig
-<a name="colorconfig"></a>Defines color and subtle version of color
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **normal** | string | - | normal color to use (in #AARRGGBB)|
-| **subtle** | string | - | subtle color to use (in #AARRGGBB)|
-
-## ColumnSetConfig
-<a name="columnsetconfig"></a>Defines ColumnSet configuration
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
-
-## ColumnConfig
-<a name="columnconfig"></a>Defines column configuration
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) |- | Defines spacing and color for separations between columns | 
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**allowCustomStyle**|`boolean`| No, default: `true`|Controls whether custom styling is allowed|1.0
+|**supportsInteractivity**|`boolean`| No, default: `true`|Control whether interactive `Action`s are allowed to be invoke|1.0
+|**imageBaseUrl**|`string`| No|Base URL to be used when loading resources|1.0
+|**fontFamily**|`string`| No, default: `"Calibri"`|Font face to use when rendering text|1.0
+|**actions**|`object`| No|Options for `Action`s|1.0
+|**adaptiveCard**|`object`| No|Toplevel options for `AdaptiveCards`|1.0
+|**containerStyles**|`object`| No|Controls styling for default and emphasis containers|1.0
+|**imageSizes**|`object`| No|Controls `Image` sizes|1.0
+|**imageSet**|`object`| No|Controls how `ImageSet`s are displayed|1.0
+|**factSet**|`object`| No|Controls the display of `FactSet`s|1.0
+|**fontSizes**|`object`| No|Controls font size metrics for different text styles|1.0
+|**fontWeights**|`object`| No|Controls font weight metrics|1.0
+|**spacing**|`object`| No|Controls how elements are to be laid out|1.0
+|**separator**|`object`| No|Controls how separators are displayed|1.0
+|**media**|`object`| No|Controls the display and behavior of `Media` elements|1.1
 
 
-## ContainerConfig
-<a name="containerconfig"></a>Defines container configuration
+<a name="schema-actionsconfig"></a>
+## ActionsConfig
 
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
-| **normal**| [ContainerStyleConfig](#containerstyleconfig)| - | Defines the normal style for a container |
-| **emphasis**| [ContainerStyleConfig](#containerstyleconfig)| - | Defines an emphasized style for a container |
+Options for `Action`s
 
-### ContainerStyleConfig
-<a name="containerStyleconfig"></a>Defines a style for a container
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **backgroundColor** | string | transparent | Defines background color for the container | 
-| **borderColor** | string | transparent | Defines a border color for the container | 
-| **borderThickness** | [SpacingDefinition](#spacingdefinition) | {0,0,0,0} | Defines a border thickness for the container | 
-| **padding** | [SpacingDefinition](#spacingdefinition) | {0,0,0,0} | Defines background color for the container | 
-
-## DateInputConfig
-<a name="dateInputConfig"></a>Defines configuration for Date input elements
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**actionsOrientation**|`string`| No, default: `"horizontal"`|Controls how buttons are laid out|1.0
+|**actionAlignment**|`string`| No, default: `"stretch"`|Control layout of buttons|1.0
+|**buttonSpacing**|`integer`| No, default: `10`|Controls how much spacing to use between buttons|1.0
+|**maxActions**|`integer`| No, default: `5`|Controls how many actions are allowed in total|1.0
+|**spacing**|`string`| No, default: `"default"`|Controls overall spacing of action element|1.0
+|**showCard**|`object`| No|Controls behavior and styling of `Action.ShowCard`|1.0
+|**iconPlacement**|`string`| No, default: `"aboveTitle"`|Controls where to place the action icon|1.0
+|**iconSize**|`integer`| No, default: `30`|Controls size of action icon|1.0
 
 
-## ImageConfig
-<a name="imageconfig"></a>Default Image configuration
+<a name="schema-containerstylesconfig"></a>
+## ContainerStylesConfig
 
-| Property | Type | default | Description |
-|---|---|---|---|
-| **imageSize** | [ImageSize](#imagesizesconfig)| Auto | The default image size to use for an image| 
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
+Controls styling for default and emphasis containers
 
-## ImageSetConfig
-<a name="imagesetconfig"></a>Default Image size for the imageset
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **imageSize** | [ImageSize](#imagesizesconfig)| Medium | The default image size to use for an imageSet| 
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**default**|`object`| No|Default container style|1.0
+|**emphasis**|`object`| No|Container style to use for emphasis|1.0
 
 
-## ImageSizesConfig
-<a name="imagesizesconfig"></a>Defines imageSize for the card
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **small** | number | 60 | small image size|
-| **medium** | number | 120 | medium image size|
-| **large**  | number | 120 | large image size|
-
+<a name="schema-factsetconfig"></a>
 ## FactSetConfig
-<a name="factsetconfig"></a>Defines how factSets should look
 
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
-| **spacing** | number | 20 | spacing between fact and value |
-| **title** | [TextConfig](#textconfig) | {  Weight = TextWeight.Bolder }| sets how text for fact title should look|
-| **value** | [TextConfig](#textconfig) | { } | sets how text for fact value should look|
+Controls the display of `FactSet`s
 
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**title**|`object`| No, default: `{"weight":"bolder","size":"default","color":"default","isSubtle":false,"wrap":true,"maxWidth":150}`|Parameters controlling the display of text|1.0
+|**value**|`object`| No, default: `{"weight":"default","size":"default","color":"default","isSubtle":false,"wrap":true,"maxWidth":0}`|Parameters controlling the display of text|1.0
+|**spacing**|`integer`| No, default: `10`|&nbsp;|1.0
+
+
+<a name="schema-fontsizesconfig"></a>
 ## FontSizesConfig
-<a name="fontsizesconfig"></a>Defines font sizes 
 
-| Property | Type | default | Description |
-|---|---|---|---|
-| **small** | number | 10 | small font size|
-| **normal** | number | 12 | normal font size|
-| **medium** | number | 14 | medium font size|
-| **large** | number | 17 | large font size|
-| **extraLarge** | number | 20 | extraLarge font size|
+Controls font size metrics for different text styles
 
-## NumberInputConfig
-<a name="numberinputconfig"></a>Defines configuration for Number input elements
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**small**|`integer`| No, default: `10`|Small font size|1.0
+|**default**|`integer`| No, default: `12`|Default font size|1.0
+|**medium**|`integer`| No, default: `14`|Medium font size|1.0
+|**large**|`integer`| No, default: `17`|Large font size|1.0
+|**extraLarge**|`integer`| No, default: `20`|Extra large font size|1.0
 
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
 
+<a name="schema-fontweightsconfig"></a>
+## FontWeightsConfig
+
+Controls font weight metrics
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**lighter**|`integer`| No, default: `200`|&nbsp;|1.0
+|**default**|`integer`| No, default: `400`|&nbsp;|1.0
+|**bolder**|`integer`| No, default: `800`|&nbsp;|1.0
+
+
+<a name="schema-foregroundcolorsconfig"></a>
+## ForegroundColorsConfig
+
+Controls various font colors
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**default**|`object`| No, default: `{"default":"#FF000000","subtle":"#B2000000"}`|&nbsp;|1.0
+|**accent**|`object`| No, default: `{"default":"#FF0000FF","subtle":"#B20000FF"}`|&nbsp;|1.0
+|**dark**|`object`| No, default: `{"default":"#FF101010","subtle":"#B2101010"}`|&nbsp;|1.0
+|**light**|`object`| No, default: `{"default":"#FFFFFFFF","subtle":"#B2FFFFFF"}`|&nbsp;|1.0
+|**good**|`object`| No, default: `{"default":"#FF008000","subtle":"#B2008000"}`|&nbsp;|1.0
+|**warning**|`object`| No, default: `{"default":"#FFFFD700","subtle":"#B2FFD700"}`|&nbsp;|1.0
+|**attention**|`object`| No, default: `{"default":"#FF8B0000","subtle":"#B28B0000"}`|&nbsp;|1.0
+
+
+<a name="schema-imagesetconfig"></a>
+## ImageSetConfig
+
+Controls how `ImageSet`s are displayed
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**imageSize**|`string`| No, default: `"auto"`|Controls individual image sizing|1.0
+|**maxImageHeight**|`integer`| No, default: `100`|Constrain image height to this value|1.0
+
+
+<a name="schema-imagesizesconfig"></a>
+## ImageSizesConfig
+
+Controls `Image` sizes
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**small**|`integer`| No, default: `80`|Small image size value|1.0
+|**medium**|`integer`| No, default: `120`|Medium image size value|1.0
+|**large**|`integer`| No, default: `180`|Large image size value|1.0
+
+
+<a name="schema-mediaconfig"></a>
+## MediaConfig
+
+Controls the display and behavior of `Media` elements
+
+#### Introduced in version 1.1
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**defaultPoster**|`string`| No|URI to image to display when play button hasn't been invoked|1.1
+|**playButton**|`string`| No|Image to display as play button|1.1
+|**allowInlinePlayback**|`boolean`| No, default: `true`|Whether to display media inline or invoke externally|1.1
+
+
+<a name="schema-separatorconfig"></a>
+## SeparatorConfig
+
+Controls how separators are displayed
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**lineThickness**|`integer`| No, default: `1`|Thickness of separator line|1.0
+|**lineColor**|`string,null`| No, default: `#B2000000`|Color to use when drawing separator line|1.0
+
+
+<a name="schema-showcardconfig"></a>
+## ShowCardConfig
+
+Controls behavior and styling of `Action.ShowCard`
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**actionMode**|`string`| No, default: `"inline"`|Controls how the card is displayed|1.0
+|**style**|`object`| No, default: `emphasis`|Controls styling of a container|1.0
+|**inlineTopMargin**|`integer`| No, default: `16`|Amount of margin to use when displaying the card|1.0
+
+
+<a name="schema-spacingsconfig"></a>
+## SpacingsConfig
+
+Controls how elements are to be laid out
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**small**|`integer`| No, default: `3`|Small spacing value|1.0
+|**default**|`integer`| No, default: `8`|Default spacing value|1.0
+|**medium**|`integer`| No, default: `20`|Medium spacing value|1.0
+|**large**|`integer`| No, default: `30`|Large spacing value|1.0
+|**extraLarge**|`integer`| No, default: `40`|Extra large spacing value|1.0
+|**padding**|`integer`| No, default: `20`|Padding value|1.0
+
+
+<a name="schema-textblockconfig"></a>
 ## TextBlockConfig
-<a name="textblockconfig"></a>Defines configuration for TextBlock elements
 
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
+Parameters controlling the display of text
 
-## TextConfig
-<a name="textconfig"></a>Defines text settings for things like FactSet Title.
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **size** | TextSize | normal | desired size (small, normal, medium, large, extraLarge)  |
-| **weight** | TextWeight | normal | desired weight (lighter, normal, bolder)  |
-| **color** | TextColor | default | desired color from palette |
-| **wrap** | bool | false | can text be wrapped |
-| **isSubtle** | bool | false | should use subtle version of color |
-
-## TextInputConfig
-<a name="textinputconfig"></a>Defines configuration for Text input elements
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
-
-## TimeInputConfig
-<a name="timeinputconfig"></a>Defines configuration for Time input elements
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **separation** | [SeparationConfig](#separationconfig) | - | Defines spacing and color for separations between elements | 
-
-## ToggleInputConfig
-<a name="toggleinputconfig"></a>Defines configuration for Toggle input elements
-
-
-| Property | Type | default | Description |
-|----------|------|---------|-------------|
-|          |      |         |             |
-
-### SeparationConfig
-<a name="SeparationConfig"></a>Properties which define spacing, line thickness and color for separating elements
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **spacing**| number | - | spacing between elements|
-| **lineThickness** |  number | - | thickness of visible line if desired|
-| **lineColor** | string | - | color defined as RGBa value #AARRGGBB   |
-
-
-## ShowCardActionConfig
-<a name="showCardconfig"></a>The configuration for showing a card action.
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **actionMode** | [ShowActionMode](#showactionmode) | InlineEdgeToEdge | Defines whether showCard should popup or be displayed inline or inline with background extended to container boundary|
-| **backgroundColor** | string | #FFF8F8F8"| Defines inline slide-out background color |  
-| **inlineTopMargin** | number | when in inline mode defines the space between action buttons and the inline card |
-| **padding** | [SpacingDefinition](#spacingdefinition) | {16,16,16,16} | The padding for the card when shown inline  |
-
-## SpacingDefinition
-<a name="spaceDef"></a>Defines left, top, right and bottom number values
-
-| Property | Type | default | Description |
-|---|---|---|---|
-| **left**| number | 0 | define left value |
-| **right**| number | 0 | define right value |
-| **top**| number | 0 | define top value |
-| **bottom**| number | 0 | define bottom value |
-
-## ShowActionMode
-<a name="showAction"></a>Controls how to show the card for a ShowActionCard 
-
-| Value | Meaning |
-|---|---|
-| **InlineEdgeToEdge** | Show the card inline, but with background color extending to container boundaries |
-| **Inline** | Show the card inline |
-| **Popup** | Popup a window to show the card |
-
-
-
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**size**|`string`| No, default: `"default"`|Font size to use when a card doesn't specify|1.0
+|**weight**|`string`| No, default: `"normal"`|Font weight to use when a card doesn't specify|1.0
+|**color**|`string`| No, default: `"default"`|Font color to use when a card doesn't specify|1.0
+|**isSubtle**|`boolean`| No, default: `false`|Should text be subtle if a card doesn't specify|1.0
+|**wrap**|`boolean`| No, default: `true`|Should text wrap if a card doesn't specify|1.0
+|**maxWidth**|`integer`| No, default: `0`|Maximum width to use if a card doesn't specify|1.0
