@@ -48,3 +48,14 @@
     href: resources/tools.md
   - name: Roadmap 
     href: resources/future.md
+  - name: Review Process
+    href: resources/review-process/index.md
+    items:
+    - name: Requests
+      href: resources/review-process/requests.md
+    - name: Proposals
+      href: resources/review-process/proposals.md
+    - name: Specs
+      href: resources/review-process/specs.md
+    - name: Completed Features
+      href: resources/review-process/completed-features.md
