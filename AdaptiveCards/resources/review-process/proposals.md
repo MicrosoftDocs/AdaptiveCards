@@ -89,3 +89,5 @@ Minimum participants to have a quorum...
 At the end of the review, voting will occur. Participants can either vote **Approved**, **Denied**, or **No Opinion**. If the number of **Approved** is greater than or equal to the number of **Denied**, and there are at least 2 votes of **Approved**, the proposal will be approved.
 
 Each partner of Adaptive Cards will only get one vote (so even if one partner brings 5 people with them, they can only cast one collective vote). Everyone else's votes will be counted as-is.
+
+When there are two competing proposals, or two alternate solutions to a topic within a proposal, if agreement cannot be made, voting will occur on the competing ideas. Following the same voting rules as above, participants can either vote **Approved** or **No Opinion** on the competing ideas. An idea must receive at least 2 votes of **Approved** to be considered, and then the idea with the most **Approved** votes will be used. If there is a tie, participants can choose to debate the topic further and re-vote, or flip a coin to move past the stand-still.
