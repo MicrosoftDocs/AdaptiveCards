@@ -1,8 +1,8 @@
 ---
 title:  Adaptive Cards Partners
-author: mollyd26
-ms.author: modalton
-ms.date: 5/14/2018
+author: matthidinger
+ms.author: mahiding
+ms.date: 9/24/2018
 ms.topic: article
 ---
 
@@ -20,12 +20,7 @@ Platform | Description | Documentation
 [Cortana Skills](https://techcommunity.microsoft.com/t5/Cortana-Skills-Kit-Blog/Cortana-Skills-now-support-Adaptive-Cards/ba-p/160122)  | A virtual assistant for Windows 10 | [Get Started](https://docs.microsoft.com/en-us/adaptive-cards/get-started/bots)
 [Windows Timeline](https://blogs.windows.com/windowsexperience/2017/12/19/announcing-windows-10-insider-preview-build-17063-pc/) | A new way to resume past activities you started on this PC, other Windows PCs, and iOS/Android devices. | [Get Started](https://docs.microsoft.com/en-us/adaptive-cards/get-started/windows)
 [Outlook Actionable Messages](https://outlook.office.com)  | Attach an actionable message to email | [Get Started](https://docs.microsoft.com/en-us/outlook/actionable-messages/)
-
-## In Preview
-
-Platform | Description | Documentation
----------|-------------|--------------
-[Microsoft Teams](https://products.office.com/en-US/microsoft-teams/group-chat-software) | Platform that combines workplace chat, meetings, and notes | [Get Started](https://docs.microsoft.com/en-us/microsoftteams/platform/resources/dev-preview/developer-preview-features)
+[Microsoft Teams](https://products.office.com/en-US/microsoft-teams/group-chat-software) | Platform that combines workplace chat, meetings, and notes | [Get Started](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/cards/cards-reference?branch=Harysh-Adaptive-cards#adaptive-card)
 
 ## In Development
 
