@@ -41,7 +41,7 @@ Acquire a card from a source and render it.
 RenderedAdaptiveCard renderedAdaptiveCard =  renderer.RenderAdaptiveCard(card);
 
 // Check if the render was successful
-if (renderedAdaptiveCard.FrameworkElement != null)
+if (!(renderedAdaptiveCard.FrameworkElement is null))
 {
     // Get the framework element
     var uiCard = renderedAdaptiveCard.FrameworkElement;
@@ -59,7 +59,7 @@ Here is an example from the UWP renderer.
 var renderer = new AdaptiveCardRenderer();
 var card = AdaptiveCard.FromJsonString(jsonString);
 var renderedAdaptiveCard = renderer.RenderAdaptiveCard(card.AdaptiveCard);
-if (renderedAdaptiveCard.FrameworkElement != null)
+if (!(renderedAdaptiveCard.FrameworkElement is null))
 {
     myGrid.Children.Add(renderedAdaptiveCard.FrameworkElement);
 }
