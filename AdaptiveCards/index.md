@@ -76,5 +76,5 @@ It is easier to add later then it is to live with a mistake. If we found ourselv
 
 The following session at Build 2018 showcases Adaptive Cards in Bots, Cortana, Outlook, and Windows. 
 
-[Build 2018 video: Adaptive cards in Bots, Cortana, Outlook and Windows]
-<iframe src="https://medius.studios.ms/Embed/Video/BRK2401?SFYT=true" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+[Build 2018 video: Adaptive cards in Bots, Cortana, Outlook and Windows](https://medius.studios.ms/Embed/Video/BRK2401?SFYT=true)
+
