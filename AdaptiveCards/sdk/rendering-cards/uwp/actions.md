@@ -8,7 +8,7 @@ ms.topic: article
 
 # Actions - UWP
 
-Any **actions** within the card will render as UWP **Button**'s, but it's up to your app to handle what happens when a user presses them. 
+Any **actions** within the card will render as UWP **Button**'s, but it's up to your app to handle what happens when a user presses them (except for ShowCard actions... see code snippet for more info).
 
 The `RenderedAdaptiveCard` object provides an `Action` event for this purpose.
 
@@ -30,8 +30,8 @@ private async void RenderedAdaptiveCard_Action(RenderedAdaptiveCard sender, Adap
 
     else if (args.Action is AdaptiveShowCardAction showCardAction)
     {
-        // Action.ShowCard are rendered inline automatically
-        // ... but if you want to handle show card as a "popup", you handle this event
+        // This is only fired if, in HostConfig, you set the ShowCard ActionMode to Popup.
+        // Otherwise, the renderer will automatically display the card inline without firing this event.
     }
 
     else if (args.Action is AdaptiveSubmitAction submitAction)
