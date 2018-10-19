@@ -32,9 +32,7 @@ await userActivity.SaveAsync();
 
 ### Learn more
 
-This session at Build 2017 covers User Activities in detail.
-
-<iframe src="https://channel9.msdn.com/Events/Build/2017/B8108/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+This session at Build 2017 covers User Activities in detail: https://channel9.msdn.com/Events/Build/2017/B8108
 
 ## Other Windows Surfaces
 We don't have anything to share just yet, but we're working on incorporating Adaptive Cards into more Windows experiences.
