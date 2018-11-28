@@ -48,7 +48,7 @@ try
     // (Optional) Check for any renderer warnings
     // This includes things like an unknown element type found in the card
     // Or the card exceeded the maxmimum number of supported actions, etc
-    IList<AdaptiveWarning> warnings = rendererdCard.Warnings;
+    IList<AdaptiveWarning> warnings = renderedCard.Warnings;
 }
 catch(AdaptiveException ex)
 {
