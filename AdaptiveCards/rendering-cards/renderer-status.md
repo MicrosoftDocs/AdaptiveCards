@@ -45,7 +45,7 @@ The tables below show the current status of each renderer, based on their public
 |Override Element Renderer | ✅ | ✅ | ✅ | ✅ | ✅ |
 |Add new Element Renderer | ✅ | ✅ | ✅ | ✅ | ✅ |
 |Remove Element Renderer | ✅ | ✅ | ✅ | ✅ | ✅ |
-|[Override/add/remove Action Renderer](https://github.com/Microsoft/AdaptiveCards/issues/1671) | ✅ | ✅ | ❌ | ✅ | ✅ 
+|[Override/add/remove Action Renderer](https://github.com/Microsoft/AdaptiveCards/issues/1671) | ✅ | ✅ | ❌ | ✅ | ✅ |
 
 ### Actions
 
