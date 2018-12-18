@@ -12,7 +12,7 @@ ms.topic: get-started-article
 
 ## Timeline
 
-The first Windows experience to supports Adaptive Cards will be Timeline, a brand new experience coming in a future Windows release. 
+The first Windows experience to supports Adaptive Cards is Timeline, a brand new experience first introduced in Windows 10 1803. 
 
 ![Timeline](media/windows/timeline.png)
 
