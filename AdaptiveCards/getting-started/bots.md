@@ -11,7 +11,7 @@ ms.topic: article
 Adaptive Cards are a great fit for Bots. They let you author a card once and have it render beautifully inside multiple apps, like Skype\*, Microsoft Teams\*, your own website, and more.
 
 > [!NOTE]
-> Skype and Microsoft Teams are not yet supported in the current preview, but we're working on it! See the [Partner Status](../resources/partners.md) page for the latest.
+> Skype is not yet supported in the current preview, but we're working on it! See the [Partner Status](../resources/partners.md) page for the latest.
 
 ## Try it out
 
