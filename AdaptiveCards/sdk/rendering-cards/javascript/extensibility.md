@@ -10,7 +10,7 @@ ms.topic: article
 
 ## Implement and register a custom element
 
-The basic steps for creating a custom Adaptive Card element type are:
+The steps for creating a custom Adaptive Card element type are:
 - Create a new calss driving from CardElement
 - Implement its getJsonTypeName, parse, toJSON, internalRender and renderSpeech methods
 - Register it by adding it to the renderer's element registry
@@ -137,7 +137,49 @@ That's it. Now just register the Progress Bar class with the renderer:
 Adaptive.AdaptiveCard.elementTypeRegistry.registerType("ProgressBar", () => { return new ProgressBar(); });
 ```
 
-Here is a sample card that uses the Progress Bar element:
+## Implement and register a custom action
+
+The steps for creating a custom Adaptive Card action are essentially the same as those for custom elements. Here is a simple example of an Alert Action that simply displays a message box with configurable text:
+
+```typescript
+import * as Adaptive from "adaptivecards";
+
+export class AlertAction extends Adaptive.Action {
+    text: string;
+
+    getJsonTypeName(): string {
+        return "Action.ALert";
+    }
+
+    execute() {
+        alert(this.text);
+    }
+
+    parse(json: any) {
+        super.parse(json);
+
+        this.text = Adaptive.getStringValueOrDefault(json["text"], "Alert!");
+    }
+
+    toJSON() {
+        let result = super.toJSON();
+
+        Adaptive.setProperty(result, "text", this.text);
+
+        return result;
+    }
+}
+```
+
+Now register the new action:
+
+```
+Adaptive.AdaptiveCard.actionTypeRegistry.registerType("Action.Alert", () => { return new AlertAction(); });
+```
+
+## Example
+
+Here is a sample card that uses both the ProgressBar element and AlertAction action:
 ```
 {
     "type": "AdaptiveCard",
@@ -154,9 +196,16 @@ Here is a sample card that uses the Progress Bar element:
             "title": "Please wait...",
             "value": 10
         }
+    ],
+    "actions": [
+        {
+            "type": "Action.Alert",
+            "title": "Click me",
+            "text": "Hello world!"
+        }
     ]
 }
 ```
 
 And here is how it renders:
-![image](https://user-images.githubusercontent.com/1334689/52663751-27ebb980-2ebc-11e9-802b-c2ba31e38542.png)
+![image](https://user-images.githubusercontent.com/1334689/52665466-8155e780-2ec0-11e9-841a-7d272ad1d103.png)
