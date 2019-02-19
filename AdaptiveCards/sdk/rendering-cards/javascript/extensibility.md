@@ -11,8 +11,8 @@ ms.topic: article
 ## Implement and register a custom element
 
 The steps for creating a custom Adaptive Card element type are:
-- Create a new calss driving from CardElement
-- Implement its getJsonTypeName, parse, toJSON, internalRender and renderSpeech methods
+- Create a new class driving from `CardElement`
+- Implement its `getJsonTypeName`, `parse`, `toJSON`, `internalRender` and `renderSpeech` methods
 - Register it by adding it to the renderer's element registry
 
 Let's take an example and implement a simple Progress Bar element:
