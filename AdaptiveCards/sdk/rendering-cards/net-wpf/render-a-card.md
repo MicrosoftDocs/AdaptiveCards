@@ -10,6 +10,11 @@ ms.topic: article
 
 Here's how to render a card using the .NET WPF SDK.
 
+> [!NOTE]
+> **`Media` with HTTPS URLs will not work in WPF**
+> 
+> Due to a [bug in the WPF MediaElement control](https://stackoverflow.com/questions/30702505/playing-media-from-https-site-in-media-element-throwing-null-reference-exception) we aren't able to render media that is served via HTTPS. You should use HTTP URLs in the `Media` element until this is addressed.  
+
 ## Instantiate a renderer
 
 Create an instance of the renderer library. 

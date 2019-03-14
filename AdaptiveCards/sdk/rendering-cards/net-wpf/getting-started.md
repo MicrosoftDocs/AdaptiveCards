@@ -15,7 +15,7 @@ As we described in [Getting Started](../../../authoring-cards/getting-started.md
 [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Wpf.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Wpf)
 
 ```console
-Install-Package AdaptiveCards.Rendering.Wpf -IncludePrerelease
+Install-Package AdaptiveCards.Rendering.Wpf
 ```
 
 ### Xceed enhanced input package
@@ -25,7 +25,7 @@ This optional package enhances the Adaptive Card Input controls beyond what WPF 
 [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Rendering.Wpf.Xceed.svg)](https://www.nuget.org/packages/AdaptiveCards.Rendering.Wpf.Xceed)
 
 ```console
-Install-Package AdaptiveCards.Rendering.Wpf.Xceed -IncludePrerelease
+Install-Package AdaptiveCards.Rendering.Wpf.Xceed
 ```
 
 ## WPF Visualizer Sample

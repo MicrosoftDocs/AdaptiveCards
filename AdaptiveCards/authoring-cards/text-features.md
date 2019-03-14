@@ -82,7 +82,7 @@ Sometimes you won't know the timezone of the user receiving the card, so Adaptiv
     "body": [
         {
             "type": "TextBlock",
-            "text": "Your package will arrive on {{DATE(2017-02-14T06:00Z, SHORT)}} at {{TIME(2017-02-14T06:00Z)}}",
+            "text": "Your package will arrive on {{DATE(2017-02-14T06:00:00Z, SHORT)}} at {{TIME(2017-02-14T06:00:00Z)}}",
             "wrap": true
         }
     ]
