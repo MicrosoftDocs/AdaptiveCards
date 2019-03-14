@@ -2,11 +2,24 @@
 title:  Adaptive Cards Tools
 author: matthidinger
 ms.author: mahiding
-ms.date: 06/26/2017
+ms.date: 03/14/2019
 ms.topic: article
 ---
 
+# Card Designer 
+
+Need for a tool to design your cards? Look no further than the browser-based adaptive card designer at [https://adaptivecards.io/designer](https://adaptivecards.io/designer)
+
+[![designer screenshot](media/tools/designer.jpg)](https://adaptivecards.io/designer)
+
+## Embed the designer into your app
+
+But why send your users there when you can **embed the card designer directly into your web** app using our JavaScript library. 
+
+Check out the [adaptivecards-designer](https://npmjs.com/adaptivecards-designer) package to get started.
+
 # Schema validation
+
 Schema validation is a powerful way of making authoring easier and enabling tooling.
 
 ## JSON Schema
