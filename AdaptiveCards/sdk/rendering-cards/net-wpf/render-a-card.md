@@ -40,7 +40,7 @@ AdaptiveSchemaVersion schemaVersion = renderer.SupportedSchemaVersion;
 ```csharp
 // Build a simple card
 // In the real world this would probably be provided as JSON
-AdaptiveCard card = new AdaptiveCard()
+AdaptiveCard card = new AdaptiveCard("1.0")
 {
     Body = { new AdaptiveTextBlock() { Text = "Hello World" } }
 };
