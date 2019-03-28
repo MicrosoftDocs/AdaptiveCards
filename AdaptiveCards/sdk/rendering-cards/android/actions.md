@@ -104,3 +104,16 @@ public class ActionHandler implements ICardActionHandler
     }
 }
 ```
+
+> [!IMPORTANT]
+> **Breaking changes for v1.1**
+> 
+> 1. The media element included in this version requires two new methods to be implemented by the classes that implement ICardActionHandler, these methods are
+>
+> ```java
+> public void onMediaPlay(BaseCardElement mediaElement, RenderedAdaptiveCard renderedAdaptiveCard)
+> public void onMediaStop(BaseCardElement mediaElement, RenderedAdaptiveCard renderedAdaptiveCard)
+> ```
+>
+> onMediaPlay is invoked when the play button is pressed for the first time in any media element, meanwhile
+> onMediaStop is invoked when the media reaches it's end
