@@ -55,7 +55,7 @@ Most UI frameworks allow you to style the rendered card by using the native UI f
 
 ### Customize per-element rendering
 
-Each SDK allows you to override the rendering of any element, or even add support for entirely new elements that you define.  For example, you can change the `Input.Date` renderer to emit your own custom control while still retaining the rest of the output of the renderer. Or you can add support for a custom `Rating` element to you define.
+Each SDK allows you to override the rendering of any element, or even add support for entirely new elements that you define.  For example, you can change the `Input.Date` renderer to emit your own custom control while still retaining the rest of the output of the renderer. Or you can add support for a custom `Rating` element that you define.
 
 
 
