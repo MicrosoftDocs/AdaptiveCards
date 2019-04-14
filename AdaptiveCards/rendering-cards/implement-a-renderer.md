@@ -85,7 +85,7 @@ An `AdaptiveCard` consists of a `body` and `actions`. The `body` is a collection
 
 ### Images
 
-1. A renderer **SHOULD** allow host apps to know when all HTTP images have been downloaded and the card is "fully rendererd"
+1. A renderer **SHOULD** allow host apps to know when all HTTP images have been downloaded and the card is "fully rendered"
 1. A renderer **MUST** inspect the Host Config `maxImageSize` param when downloading HTTP images
 1. A renderer **MUST** support `.png` and `.jpeg`
 1. A renderer **SHOULD** support `.gif` images
@@ -138,7 +138,7 @@ Action | Behavior
 
 The Submit Action behaves like an HTML form submit, except that where HTML typically triggers an HTTP post, Adaptive Cards leaves it up to each host app to determine what "submit" means to them. 
 
-1. When this **MUST** raise an event the user taps the action invokved.  
+1. When this **MUST** raise an event the user taps the action invoked.  
 1. The `data` property **MUST** be included in the callback payload.
 1. For `Action.Submit`, a renderer **MUST** gather all inputs on the card and retrieve their values. 
 
@@ -152,7 +152,7 @@ The Submit Action behaves like an HTML form submit, except that where HTML typic
 1. If HostConfig `supportsInteractivity` is `false` a renderer **MUST NOT** render any inputs.
 2. Inputs **SHOULD** render with the highest fidelity possible. For example, an `Input.Date` would ideally offer a date picker to a user, but if this isn't possible on your UI stack, then the renderer **MUST** fall back to rendering a standard text box.
 3. A renderer **SHOULD** display the `placeholderText` if possible
-4. A renderer **DOES NOT** have to implement validation of the input. Users of Adaptive Cards must plan to validate any receieved data on their end.
+4. A renderer **DOES NOT** have to implement validation of the input. Users of Adaptive Cards must plan to validate any received data on their end.
 5. Input value binding **MUST** be properly escaped
 
 6. The object **MUST** be returned to the host app as follows:

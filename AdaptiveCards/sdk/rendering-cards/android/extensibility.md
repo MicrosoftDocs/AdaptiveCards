@@ -10,7 +10,7 @@ ms.topic: article
 
 ## Custom Parsing of Card Elements
 
-You may extend the parser to suport card elements that you have defined. For example, say we have a new element type that looks like this:
+You may extend the parser to support card elements that you have defined. For example, say we have a new element type that looks like this:
 ```json
 {
 	"type" : "MyType",
@@ -80,7 +80,7 @@ public class MyCardElementRenderer extends BaseCardElementRenderer
     @Override
     public View render(Context context, FragmentManager fragmentManager, ViewGroup viewGroup, BaseCardElement baseCardElement, Vector<IInputHandler> inputActionHandlerList, ICardActionHandler cardActionHandler, HostConfig hostConfig, ContainerStyle containerStyle) {
 
-    	//Call findImplObj on baseCardElement to get the instace we returned at parse. We can then cast that object to our type
+    	//Call findImplObj on baseCardElement to get the instance we returned at parse. We can then cast that object to our type
         CustomCardElement element = (CustomCardElement) baseCardElement.findImplObj();
 
         //Create some view and add it to the view group
