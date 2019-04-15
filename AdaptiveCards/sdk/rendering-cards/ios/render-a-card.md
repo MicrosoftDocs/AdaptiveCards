@@ -47,7 +47,7 @@ if(hostconfigParseResult.IsValid == YES && cardParseResult.IsValid == YES)
                        widthConstraint:300.0];
 }	
     
-if(renderResult.Suceeded == YES)
+if(renderResult.Succeeded == YES)
 {
     // access returned UIView object
     ACRView *adaptiveView = renderResult.view;
@@ -62,7 +62,7 @@ AdaptiveCard renderer can also return UIViewController.
 ```objective-c
 ACRRenderResult *renderResult = [ACRRenderer renderAsViewController:card config:config frame:frame delegate:acrActionDelegate];
 
-renderResult.viewif(renderResult.Suceeded == YES)
+renderResult.viewif(renderResult.Succeeded == YES)
 {
     ACRViewController *adaptiveViewController = renderResult.viewcontroller;
     [self addChildViewController:adaptiveViewController];
@@ -80,7 +80,7 @@ Height is not bound, and when returned it will have the height of sums of all co
 
 UI representation of Input.ChoiceSet has UINavigationController, and it needs to be presented to a presently active UIViewController to transition into UIView that allows user selection.
 
-To accomplish that, please implement didFecthSecondaryView of ACRActionDelegate.
+To accomplish that, please implement didFetchSecondaryView of ACRActionDelegate.
 
 ```objective-c
 - (void)didFetchSecondaryView:(ACOAdaptiveCard *)card navigationController:(UINavigationController *)navigationController{
