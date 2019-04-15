@@ -20,7 +20,7 @@ private void MyActionHandler(RenderedAdaptiveCard sender, ActionEventArgs e)
 {
     if (e.Action is AdaptiveOpenUrlAction openUrlAction)
     {
-        Process.Start(openUrlAction.Url);
+        Process.Start(openUrlAction.Url.AbsoluteUri);
     }
     else if (e.Action is AdaptiveShowCardAction showCardAction)
     {
