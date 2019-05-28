@@ -8,13 +8,20 @@ ms.topic: article
 
 # Extensibility - Android
 
+The Android renderer can be extended to support multiple scenarios including:
+* [Custom Parsing of Card Elements](#custom-parsing-of-card-elements)
+* [Custom Rendering of Card Elements](#custom-rendering-of-card-elements)
+* [Custom Rendering of Actions](#custom-rendering-of-actions) (Since v1.2)
+* [Custom Image Loading](#custom-image-loading) (Since v1.0.1)
+* [Custom Media Loading](#custom-media-loading) (Since v1.1)
+
 ## Custom Parsing of Card Elements
 
 You may extend the parser to support card elements that you have defined. For example, say we have a new element type that looks like this:
 ```json
 {
-	"type" : "MyType",
-	"MyTypeData" : "My data"
+    "type" : "MyType",
+    "MyTypeData" : "My data"
 }
 ```
 
@@ -73,7 +80,13 @@ Next comes rendering the custom element
 
 ## Custom Rendering of Card Elements
 
-To define our own custom renderer for our type, we must first create a class that extends from BaseCardElementParser:
+> [!IMPORTANT]
+>
+> **List of Breaking Changes**
+>
+> [Breaking changes for v1.2](#breaking-changes-for-v12)
+
+To define our own custom renderer for our type, we must first create a class that extends from ```BaseCardElementRenderer```:
 ```java
 public class MyCardElementRenderer extends BaseCardElementRenderer
 {
@@ -99,13 +112,141 @@ We then register this renderer like so:
 ```java
 CardRendererRegistration.getInstance().registerRenderer("MyType", new CustomBlahRenderer());
 
-RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.getInstance().render(context, getSupportFragmentManager(), adaptiveCard, cardActionHandler, new HostConfig());
+RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.getInstance().render(context, fragmentManager, adaptiveCard, cardActionHandler,  hostConfig);
 ```
 
-## Custom rendering of actions
+### Breaking changes for v1.2
 
-[!IMPORTANT]
-> Changes to the custom rendering of actions are planned for v1.2 but are not completed yet
+The ```render``` method was changed to include the ```RenderedAdaptiveCard``` parameter and ```ContainerStyle``` was changed for a RenderArgs where the ContainerStyle is now contained so a class that extends BaseCardElementRenderer should look like this
+
+```
+public class MyCardElementRenderer extends BaseCardElementRenderer
+{
+    @Override
+    public View render(RenderedAdaptiveCard renderedAdaptiveCard, Context context, FragmentManager fragmentManager, ViewGroup viewGroup,
+                       BaseCardElement baseCardElement, ICardActionHandler cardActionHandler, HostConfig hostConfig, RenderArgs renderArgs)
+    { }
+}
+```
+
+## Custom Parsing of Card Actions
+
+Similarly to parsing custom card elements in v1.2 the possibility to parse custom actions was introduced. For example, say we have a new action type that looks like this:
+```json
+{
+    "type" : "MyAction",
+    "ActionData" : "My data"
+}
+```
+
+Then the following lines demonstrate how to parse it into a ActionElement that extends from the ```BaseActionElement```:
+```java
+public class MyActionElement extends BaseActionElement
+{
+    public MyActionElement(ActionType type) 
+    {
+        super(type);
+    }
+
+    public String getActionData()
+    {
+        return mActionData;
+    }
+
+    public void setActionData(String s)
+    {
+        mActionData = s;
+    }
+
+    private String mActionData;
+    public static final String MyActionId = "myAction";
+}
+
+public class MyActionParser extends ActionElementParser
+{
+    @Override
+    public BaseActionElement Deserialize(ParseContext context, JsonValue value)
+    {
+        MyActionElement element = new MyActionElement(ActionType.Custom);
+        element.SetElementTypeString(MyActionElement.MyActionId);
+        String val = value.getString();
+        try {
+            JSONObject obj = new JSONObject(val);
+            element.setActionData(obj.getString("ActionData"));
+        } catch (JSONException e) {
+            e.printStackTrace();
+            element.setActionData("Failure");
+        }
+        return element;
+    }
+
+    @Override
+    public BaseActionElement DeserializeFromString(ParseContext context, String jsonString)
+    {
+        MyActionElement element = new MyActionElement(ActionType.Custom);
+        element.SetElementTypeString(MyActionElement.MyActionId);
+        try {
+            JSONObject obj = new JSONObject(jsonString);
+            element.setBackwardString(obj.getString("ActionData"));
+        } catch (JSONException e) {
+            e.printStackTrace();
+            element.setBackwardString("Failure");
+        }
+        return element;
+    }
+}
+```
+
+And the next lines demonstrate how to register the parser and get an AdaptiveCard object that contains the custom action element:
+```java
+// Create an ActionParserRegistration and add your parser to it
+ActionParserRegistration actionParserRegistration = new ActionParserRegistration();
+actionParserRegistration.AddParser(MyActionElement.MyActionId, new MyActionParser());
+
+ParseContext context = new ParseContext(null, actionParserRegistration);
+ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveCardRenderer.VERSION, context);
+```
+
+Next comes rendering the custom action
+
+## Custom Rendering of Actions
+
+To define our own custom action renderer for our type, we must first create a class that extends from ```BaseActionElementRenderer```:
+```java
+public class MyActionRenderer extends BaseActionElementRenderer
+{
+    @Override
+    public Button render(RenderedAdaptiveCard renderedCard,
+                         Context context,
+                         FragmentManager fragmentManager,
+                         ViewGroup viewGroup,
+                         BaseActionElement baseActionElement,
+                         ICardActionHandler cardActionHandler,
+                         HostConfig hostConfig,
+                         RenderArgs renderArgs)
+    {
+        Button myActionButton = new Button(context);
+
+        CustomActionElement customAction = (CustomActionElement) baseActionElement.findImplObj();
+
+        myActionButton.setBackgroundColor(getResources().getColor(R.color.greenActionColor));
+        myActionButton.setText(customAction.getMessage());
+        myActionButton.setAllCaps(false);
+        myActionButton.setOnClickListener(new BaseActionElementRenderer.ActionOnClickListener(renderedCard, baseActionElement, cardActionHandler));
+
+        viewGroup.addView(myActionButton);
+
+        return myActionButton;
+    }
+}
+```
+
+We then register this renderer like so:
+```java
+CardRendererRegistration.getInstance().registerActionRenderer("myAction", new CustomActionRenderer());
+
+RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.getInstance().render(context, fragmentManager, adaptiveCard, cardActionHandler, hostConfig);
+```
 
 ## Custom image loading
 
@@ -228,13 +369,13 @@ Transforming an IOnlineImageLoader to an IResourceResolver is a fairly easy task
 ```
 
 As you can see, the biggest changes are
-* loadOnlineImage(String, GenericImageLoaderAsync) was renamed to resolveImageResource(String, GenericImageLoaderAsync)
-* an overload for resolveImageResource(String, GenericImageLoaderAsync) was added as resolveImageResource(String, GenericImageLoaderAsync, int) in order to support scenarios where the max width is required
+* ```loadOnlineImage(String, GenericImageLoaderAsync)``` was renamed to ```resolveImageResource(String, GenericImageLoaderAsync)```
+* an overload for ```resolveImageResource(String, GenericImageLoaderAsync)``` was added as ```resolveImageResource(String, GenericImageLoaderAsync, int)``` in order to support scenarios where the max width is required
 
-## Custom media loading
+## Custom Media Loading
 
 > [!IMPORTANT]
-> **Remember IOnlineMediaLoader requires MediaDataSource was added in API level 23 or Android M**
+> **Remember ```IOnlineMediaLoader``` requires ```MediaDataSource``` which was added in API level 23 or Android M**
 
 Along with the inclusion of the media element, also was the inclusion of the IOnlineMediaLoader interface which allows developers to override the [https://developer.android.com/reference/android/media/MediaDataSource](MediaDataSource) used for the underlying mediaPlayer element. **(Requires android M)**
 
