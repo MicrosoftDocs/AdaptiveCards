@@ -49,7 +49,7 @@ If you are an app developer who wants to tap into an ecosystem of third-party co
 * **Native performance** - You get native performance as it targets your UI framework directly.
 * **Safe** - Content is delivered in safe payloads so you don't have to open up your UI framework to raw markup and scripting.
 * **Easy to implement** - You get off the shelf libraries to easily integrate on any platform you support 
-* **Free documentation** - You save time because you don't have invent, implement, and document a proprietary schema.
+* **Free documentation** - You save time because you don't have to invent, implement, and document a proprietary schema.
 * **Shared tooling** - You save time because you don't have to create custom tooling.
 
 ## Core Design Principles 

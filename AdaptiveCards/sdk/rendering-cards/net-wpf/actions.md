@@ -16,11 +16,11 @@ The `RenderedAdaptiveCard` object provides an `OnAction` event for this purpose.
 // Event handler fires when a user clicks an action within the card
 renderedCard.OnAction += MyActionHandler;
 
-private void MyActionHandler(RenderedAdaptiveCard sender, ActionEventArgs e)
+private void MyActionHandler(RenderedAdaptiveCard sender, AdaptiveActionEventArgs e)
 {
     if (e.Action is AdaptiveOpenUrlAction openUrlAction)
     {
-        Process.Start(openUrlAction.Url);
+        Process.Start(openUrlAction.Url.AbsoluteUri);
     }
     else if (e.Action is AdaptiveShowCardAction showCardAction)
     {

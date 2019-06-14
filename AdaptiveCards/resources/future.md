@@ -12,7 +12,7 @@ While we have made excellent progress defining adaptive cards, there is still lo
 
 ## Roadmap
 
-You can see our [current (non-final) roadmap here](https://github.com/Microsoft/AdaptiveCards/projects/8). Note that anything on here is subject to change, and is not a guarantee of shipping.
+You can see our [current (non-final) roadmap here](https://portal.productboard.com/adaptivecards/1-adaptive-cards-portal/tabs/1-backlog). Note that anything on here is subject to change, and is not a guarantee of shipping.
 
 ## Future ideas
 

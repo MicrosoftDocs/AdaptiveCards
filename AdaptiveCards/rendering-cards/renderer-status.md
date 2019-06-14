@@ -38,7 +38,7 @@ The tables below show the current status of each renderer, based on their public
 
 \* The HTML renderer doesn’t include built-in Markdown support in order to minimize the size of the library and to let consuming applications use their preferred Markdown processor. The HTML renderer will however automatically use Markdown-It if it is loaded.
 
-### Extensbility
+### Extensibility
 
 |Functionality | HTML | .NET | UWP | iOS | Android |
 |--- | --- | --- | --- | --- | --- | --- |

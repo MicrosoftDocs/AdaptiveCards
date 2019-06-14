@@ -40,7 +40,7 @@ AdaptiveSchemaVersion schemaVersion = renderer.SupportedSchemaVersion;
 ```csharp
 // Build a simple card
 // In the real world this would probably be provided as JSON
-AdaptiveCard card = new AdaptiveCard()
+AdaptiveCard card = new AdaptiveCard("1.0")
 {
     Body = { new AdaptiveTextBlock() { Text = "Hello World" } }
 };
@@ -56,7 +56,7 @@ try
 
     // (Optional) Check for any renderer warnings
     // This includes things like an unknown element type found in the card
-    // Or the card exceeded the maxmimum number of supported actions, etc
+    // Or the card exceeded the maximum number of supported actions, etc
     IList<AdaptiveWarning> warnings = renderedCard.Warnings;
 }
 catch(AdaptiveException ex)
