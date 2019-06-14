@@ -236,7 +236,7 @@ As you can see, the biggest changes are
 > [!IMPORTANT]
 > **Remember IOnlineMediaLoader requires MediaDataSource was added in API level 23 or Android M**
 
-Along with the inclusion of the media element, also was the inclusion of the IOnlineMediaLoader interface which allows developers to override the [https://developer.android.com/reference/android/media/MediaDataSource](MediaDataSource) used for the underlying mediaPlayer element. **(Requires android M)**
+Along with the inclusion of the media element, also was the inclusion of the IOnlineMediaLoader interface which allows developers to override the [MediaDataSource](https://developer.android.com/reference/android/media/MediaDataSource) used for the underlying mediaPlayer element. **(Requires android M)**
 
 The first needed thing to do is creating a class that implements IOnlineImageLoader
 
