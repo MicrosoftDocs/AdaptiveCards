@@ -24,8 +24,7 @@ Check out the [adaptivecards-designer](https://npmjs.com/adaptivecards-designer)
 
 Schema validation is a powerful way of making authoring easier and enabling tooling.
 
-We have provided a complete [JSON Schema file](http://adaptivecards.io/schemas/adaptive-card.json) for editing and validating 
-adaptive cards in json.
+We have provided a complete [JSON Schema file](http://adaptivecards.io/schemas/1.2.0/adaptive-card.json) for editing and validating adaptive cards in json. Note that the schema URL is versioned, newer versions of Adaptive Cards will have a corresponding URL.
 
 In Visual Studio and Visual Studio Code you can get automatic Intellisense by including a `$schema` reference.
 
@@ -37,7 +36,7 @@ In Visual Studio and Visual Studio Code you can get automatic Intellisense by in
 
 ```json
 {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "$schema": "http://adaptivecards.io/schemas/1.2.0/adaptive-card.json",
     "type": "AdaptiveCard",
     "version": "1.0",
     "body": []
@@ -60,7 +59,7 @@ To install, open Extensions Marketplace and search for **Adaptive Card Viewer**.
 When you are editing a .json file with an Adaptive Card `$schema` property you can view by using `Ctrl+Shift+V A`.
 ```json
 {
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "$schema": "http://adaptivecards.io/schemas/1.2.0/adaptive-card.json",
     "type": "AdaptiveCard",
     "version": "1.0",
     "body": []
