@@ -10,9 +10,8 @@ ms.topic: article
 
 Adaptive Cards are an open card exchange format enabling developers to exchange UI content in a common and consistent way.
 
-<video controls width="100%" poster="./content/videoposter.png">
-    <source src="https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" type="video/mp4">
-</video>
+[Adaptive Cards Overview Video](https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4)
+
 
 ## How they work
 
@@ -77,4 +76,5 @@ It is easier to add later then it is to live with a mistake. If we found ourselv
 
 The following session at Build 2018 showcases Adaptive Cards in Bots, Cortana, Outlook, and Windows. 
 
-<iframe src="https://medius.studios.ms/Embed/Video/BRK2401?SFYT=true" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+[Build 2018 video: Adaptive cards in Bots, Cortana, Outlook and Windows](https://medius.studios.ms/Embed/Video/BRK2401?SFYT=true)
+
