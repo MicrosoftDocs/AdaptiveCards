@@ -24,7 +24,7 @@ Users win because everything feels familiar. Host apps win because they control 
 
 ## Goals 
 
-The goals for adaptive cards are:
+The goals for Adaptive Cards are:
 
 * **Portable** - To any app, device, and UI framework
 * **Open** - Libraries and schema are open source and shared
