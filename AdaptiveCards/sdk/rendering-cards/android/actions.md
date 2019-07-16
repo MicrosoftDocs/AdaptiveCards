@@ -110,6 +110,7 @@ public class ActionHandler implements ICardActionHandler
     }
 }
 ```
+
 ## Breaking changes in v1.1
 
 The media element included in this version requires two new methods to be implemented by the classes that implement ```ICardActionHandler```, these methods are:

@@ -248,6 +248,11 @@ CardRendererRegistration.getInstance().registerActionRenderer("myAction", new Cu
 RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.getInstance().render(context, fragmentManager, adaptiveCard, cardActionHandler, hostConfig);
 ```
 
+## Custom rendering of actions
+
+[!IMPORTANT]
+> Changes to the custom rendering of actions are planned for v1.2 but are not completed yet
+
 ## Custom image loading
 
 ### IOnlineImageLoader
@@ -369,6 +374,7 @@ Transforming an IOnlineImageLoader to an IResourceResolver is a fairly easy task
 ```
 
 As you can see, the biggest changes are
+
 * ```loadOnlineImage(String, GenericImageLoaderAsync)``` was renamed to ```resolveImageResource(String, GenericImageLoaderAsync)```
 * an overload for ```resolveImageResource(String, GenericImageLoaderAsync)``` was added as ```resolveImageResource(String, GenericImageLoaderAsync, int)``` in order to support scenarios where the max width is required
 
