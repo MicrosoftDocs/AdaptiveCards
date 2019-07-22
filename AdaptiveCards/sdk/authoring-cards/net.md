@@ -62,8 +62,8 @@ try
 {
     // Get a JSON-serialized payload
     // Your app will probably get cards from somewhere else :)
-    var client = new HttpClient("http://adaptivecards.io/payloads/ActivityUpdate.json");
-    var response = await client.GetAsync(cardUrl);
+    var client = new HttpClient();
+    var response = await client.GetAsync("http://adaptivecards.io/payloads/ActivityUpdate.json");
     var json = await response.Content.ReadAsStringAsync();
 
     // Parse the JSON 
