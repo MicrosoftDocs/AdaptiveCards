@@ -11,7 +11,7 @@ ms.topic: article
 > [!IMPORTANT]
 > The library for serializing JSON is still in development and your milage may vary.
 
-As we described in the getting started section, an Adaptive Card is nothing more than a serialized JSON object of a card object model.  To make it easy to manipulate the object model we have defined some libraries which define a strongly typed class hierarchy that is easy to serialize/deserialize json.
+As we described in the [Getting Started](../../authoring-cards/getting-started.md), an Adaptive Card is nothing more than a serialized JSON object of a card object model.  To make it easy to manipulate the object model we have defined some libraries which define a strongly typed class hierarchy that is easy to serialize/deserialize json.
 
 You can use any tooling that you want to create the adaptive card json.
 
