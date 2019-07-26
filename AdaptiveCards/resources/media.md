@@ -8,6 +8,7 @@ ms.topic: article
 
 # Adaptive Cards Media
 
+
 ## Introduction Video
 
 [!VIDEO https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4]
