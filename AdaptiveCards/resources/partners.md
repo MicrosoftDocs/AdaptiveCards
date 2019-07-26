@@ -8,7 +8,7 @@ ms.topic: article
 
 # Partners 
 
-Adaptive Cards are most useful when they benefit a broad range of developers. Our vision is to create a shared ecosystem were developers can write and share content across multiple platforms. Our goal is to work in cooperation with communities and companies to build out this vision and develop a universal card exchange framework for developers.
+Adaptive Cards are most useful when they benefit a broad range of developers. Our vision is to create a shared ecosystem where developers can write and share content across multiple platforms. Our goal is to work in cooperation with communities and companies to build out this vision and develop a universal card exchange framework.
 
 If you are interested in joining the Adaptive Cards ecosystem, please [reach out directly on GitHub](https://github.com/Microsoft/AdaptiveCards).
 
