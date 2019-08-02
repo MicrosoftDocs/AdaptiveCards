@@ -47,9 +47,9 @@ At it's core, templating enables the separation of **data** from **presentation*
 
 It's comprised of 3 major components:
 
-1. The **[Template Language](template-language.md)** is the syntax used for authoring a template. The Designer aids in authoring templates by offering a way to preview the template with sample data.
+1. The **[Template Language](language.md)** is the syntax used for authoring a template. The Designer aids in authoring templates by offering a way to preview the template with sample data.
 2. The **[Templating SDK's](sdk.md)** will exist on all supported Adaptive Card platforms. These SDKs allow you to populate a template with data, on the back-end or directly on the client. 
-3. The **[Template Service](template-service.md)** is a proof-of-concept service that allows anyone to find, contribute to, and share a set of well-known templates.
+3. The **[Template Service](service.md)** is a proof-of-concept service that allows anyone to find, contribute to, and share a set of well-known templates.
 
 ## Template Language
 
@@ -61,7 +61,7 @@ The template langauge is the syntax used to author an Adaptive Card template.
 > 
 > Follow along with the example below by opening up a new tab to
 >
-> **http://vnext.adaptivecards.io/designer**
+> **https://vnext.adaptivecards.io/designer**
 > 
 > Click the **Preview Mode** button to toggle between design-mode and preview-mode.
 
@@ -144,7 +144,7 @@ Then paste the JSON data below into the **Sample Data Editor**:
     "photo": "https://pbs.twimg.com/profile_images/3647943215/d7f12830b3c17a5a9e4afcc370e3a37e_400x400.jpeg",
     "manager": {
         "name": "Thomas",
-        "title": "Principal Program Manager Lead"
+        "title": "PM Lead"
     },
     "peers": [
         {
@@ -168,7 +168,7 @@ Then paste the JSON data below into the **Sample Data Editor**:
 * **Preview Mode** - Press the toolbar button to toggle between the edit-experience and the sample-data-preview experience
 
 
-> Learn more about the [template language](template-language.md)
+> Learn more about the [template language](language.md)
 
 ## SDK support
 
@@ -204,7 +204,7 @@ The Adaptive Cards Template Service is a proof-of-concept service that allows an
 
 It's useful if you want to display some data but don't want to bother writing a custom adaptive card for it.
 
-> Learn more about the [card template Service](template-service.md)
+> Learn more about the [card template Service](service.md)
 
 
 # What's next and sending feedback

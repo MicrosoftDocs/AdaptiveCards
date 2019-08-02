@@ -38,7 +38,7 @@
     href: sdk/authoring-cards/toc.yml
   - name: Rendering Cards
     href: sdk/rendering-cards/toc.yml
-- name: Adaptive Card Templating
+- name: Templating (Preview)
   items:
   - name: Overview
     href: templating/index.md
