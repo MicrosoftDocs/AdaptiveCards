@@ -231,7 +231,7 @@ For example, the `TextBlock` below will be repeated 3 times since it's `$data` i
 
 ## Functions
 
-No templating language is complete with some helper funds. We will provide a set of functions that work on every SDK. 
+No templating language is complete without some helper functions. We will provide a standard set of functions that work on every SDK. 
 
 The syntax here is still up in the air so please check back soon, but here's a start of what we're planning:
 
@@ -268,7 +268,7 @@ The syntax here is still up in the air so please check back soon, but here's a s
 
 * JSON.parse - ability to parse a JSON string 
 
-**`JSON.parse` Example**
+**`JSON.parse` example**
 
 This is an Azure DevOps response where the `message` property is a JSON-serialized string. In order to access values within the string, we need to use the `JSON.parse` function in our template.
 
@@ -309,7 +309,7 @@ We want to make sure Hosts can add custom functions, which means we need robust 
 
 ## Conditional layout
 
-To drop an entire element if a condition is met, use the `$when` property. When `$when` evaluates to `false` the element will not appear to the user.
+To drop an entire element if a condition is met, use the `$when` property. If `$when` evaluates to `false` the element will not appear to the user.
 
 ```json
 {

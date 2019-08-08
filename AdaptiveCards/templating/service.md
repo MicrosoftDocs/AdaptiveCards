@@ -42,8 +42,8 @@ The card template service is a simple REST endpoint that helps:
 
 Behind it all, is:
 
-* A shared, open-source template repository backed by GitHub.
-* All the templates are flat JSON files in the repo which makes editing, contributing, and sharing painless.
+* A shared, open-source template repository backed by GitHub. *(The repo is currently private but will be made public as soon as we tie up some loose ends)*
+* All the templates are flat JSON files in the repo, which makes editing, contributing, and sharing a natural part of a developer workflow.
 * The code for the service will be made available so you can host wherever makes the most sense to you. 
 
 ## Using the service
@@ -86,14 +86,13 @@ Let's say I just hit a [Microsoft Graph](https://graph.microsoft.com) endpoint t
 
 ![Graph Explorer screenshot](content/2019-08-01-12-08-13.png)
 
-That API returned some JSON data, but how do I display it using Adaptive Cards? 
+That API returned **JSON data**, but how do I **display it** to users using Adaptive Cards? 
 
 First I want to see if a template exists for this type of data, so I make an HTTP request to the `/find` endpoint with my data in the `POST body`.
 
 ```
 HTTP POST https://templates.adaptivecards.io/find
 
-Body:
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users/$entity",
     "businessPhones": [
@@ -161,11 +160,11 @@ Let's get the Microsoft Graph profile template that was returned from `/find` ab
 }
 ```
 
-Now use this template with the [templating SDKs](sdk.md) and create a ready-to-render Adaptive Card.
+Now use this template with the [templating SDKs](sdk.md) to create a ready-to-render Adaptive Card.
 
 ### Populate a template server-side
 
-In some cases it may not make sense to populate a template on the client.  For these use cases, you can have the server return a fully-populated Adaptive Card, ready to be passed to any Adaptive Card Renderer.
+In some cases it may not make sense to populate a template on the client.  For these use cases, you can have the service return a fully-populated Adaptive Card, ready to be passed to any Adaptive Card Renderer.
 
 > `HTTP POST https://templates.adaptivecards.io/[TEMPLATE-PATH]`
 
@@ -176,7 +175,6 @@ Let's populate the Microsoft Graph profile template that was returned from `/fin
 ```
 HTTP POST https://templates.adaptivecards.io/graph.microsoft.com/Profile.json
 
-Body:
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users/$entity",
     "businessPhones": [

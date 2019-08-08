@@ -20,19 +20,17 @@ Templating enables the separation of **data** from the **layout** in an Adaptive
 
 ### It helps design a card once, and then populate it with real data
 
-Today it's impossible to create a card using the [Adaptive Card Designer](https://adaptivecards.io/designer) and use that JSON to populate the payload with **dynamic content**. In order to achieve this you must write custom code to build the JSON string, or use the Object Model SDKs to build an OM representing your card and serialize it to JSON. In either case the Designer is a one-time one-way operation and doesn't make it easy to modify the card in a designer once you've converted it to code.
-
-The tools below hope to address this situation and make designing a card in the designer, populate it with real data, and then put it back into the designer to make tweaks straight forward.
+Today it's impossible to create a card using the [Adaptive Card Designer](https://adaptivecards.io/designer) and use that JSON to populate the payload with **dynamic content**. In order to achieve this you must write custom code to build a JSON string, or use the Object Model SDKs to build an OM representing your card and serialize it to JSON. In either case the Designer is a one-time one-way operation and doesn't make it easy to tweak the card design later once you've converted it to code.
 
 ### It makes tranmissions over the wire smaller
 
-Imagine a world where the template and data can be combined **directly on the client**. This means if you use the same template multiple times, or want to update it with new data, you just need to send new data to the device and it can re-use the same template over and over.
+Imagine a world where a template and data can be combined **directly on the client**. This means if you use the same template multiple times, or want to update it with new data, you just need to send new data to the device and it can re-use the same template over and over.
 
 ### It helps you create a great looking card from just the data you provide
 
-We think Adaptive Cards are great, but what if you didn't have to write an Adaptive Card for everything you want to display to a user? With a distributed Template Service (described below) we can create a world where everyone can contribute, discover, and share templates over any type of data. 
+We think Adaptive Cards are great, but what if you didn't have to write an Adaptive Card for everything you want to display to a user? With a template service (described below) we can create a world where everyone can contribute, discover, and share templates over any type of data. 
 
-Share within your own projects, your organization, or with the entire world.
+Share within your own projects, your organization, or with the entire internet.
 
 ### AI and other services could improve user experiences
 
@@ -42,8 +40,8 @@ By separating data from content it opens a door for AI and other services to  "r
 
 It's comprised of 3 major components:
 
-1. The **[Template Language](language.md)** is the syntax used for authoring a template. The Designer helps author templates by providing a way to preview the template with sample data.
-2. The **[Templating SDK's](sdk.md)** will exist on all supported Adaptive Card platforms. These SDKs allow you to populate a template with data, on the back-end or directly on the client. 
+1. The **[Template Language](language.md)** is the syntax used for authoring a template. The Designer even lets you preview your templates at design time by including "sample data".
+2. The **[Templating SDK's](sdk.md)** will exist on all supported Adaptive Card platforms. These SDKs allow you to populate a template with real data, on the back-end or directly on the client. 
 3. The **[Template Service](service.md)** is a proof-of-concept service that allows anyone to find, contribute to, and share a set of well-known templates.
 
 ## Template Language
