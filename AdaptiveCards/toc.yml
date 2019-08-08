@@ -44,7 +44,7 @@
     href: templating/index.md
   - name: Template Language
     href: templating/language.md
-  - name: SDKs
+  - name: Templating SDKs
     href: templating/sdk.md
   - name: Template Service
     href: templating/service.md
