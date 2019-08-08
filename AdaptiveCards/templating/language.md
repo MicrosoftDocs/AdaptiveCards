@@ -1,32 +1,30 @@
 ---
-title:  Adaptive Card Template Language
+title:  Adaptive Cards Template Language
 author: matthidinger
 ms.author: mahiding
 ms.date: 08/01/2019
 ms.topic: article
 ---
 
-# Introduction 
+# Adaptive Cards Template Language
 
-> Please read this for an [Overview of Adaptive Card Templating](index.md)
+Templating enables the separation of **data** from **layout** in your Adaptive Card. The template langauge is the syntax used to author a template. 
 
-Templating enables the separation of **data** from **view** in your Adaptive Card.
+> Please read this for an [overview of Adaptive Card Templating](index.md)
 
 > [!IMPORTANT] 
 > 
 > These features are **in preview and subject to change**. Your feedback is not only welcome, but  critical to ensure we deliver the features **you** need.
 
-The templating SDKs make it easy to combine your data and template to produce a populated Adaptive Card that is ready to render.
-
-The data can be provided inline with the `AdaptiveCard` payload, or at runtime using new APIs.
+When authoring a template you can specify the data inline with the `AdaptiveCard` payload, or at runtime using the [Templating SDKs](sdk.md).
 
 ## Specify data within the card
 
-To specify data directly within the card payload, simply add a `$data` attribute to your `AdaptiveCard` (seen below).
+To provide data directly within the card payload, simply add a `$data` attribute to your `AdaptiveCard` (seen below).
 
 ## Binding to the data
 
-Then you can bind to the data within the `body` or `actions` of the card.
+You can bind to the data within the `body` or `actions` of the card.
 
 * Binding syntax starts with `{` and ends with `}`. E.g., `{myProperty}`
 * Dot-notation to access sub-objects
@@ -71,9 +69,9 @@ Then you can bind to the data within the `body` or `actions` of the card.
 
 ## Separating the template from the data
 
-Alternatively, you could create a re-usable card "template" without the data:
+Alternatively (and more likely), you will create a re-usable card "template" without including the data. This template could be stored as a file and added to source control.
 
-**EmployeeCard.json**
+**EmployeeCardTemplate.json**
 
 ```json
 {
@@ -95,46 +93,58 @@ Alternatively, you could create a re-usable card "template" without the data:
 }
 ```
 
-And provide the data to the template at runtime:
+Then load it up and provide the data at runtime using the [Templating SDKs](sdk.md).
 
-**C# example**
+**JavaScript example**
 
-```cs
-var myEmployee = new Employee() 
-{ 
-    Name = "Matt",
-    Manager = "Thomas",
-    Peers = new List<Employee>() 
-    { 
-        new Employee() { Name = "Andrew" },
-        new Employee() { Name = "Lei" },
-        new Employee() { Name = "Mary Anne" },
-        new Employee() { Name = "Adam" },
+Using the [adaptivecards-templating](https://npmjs.com/package/adaptivecards-templating) package.
+
+```js
+var template = new ACData.Template({ 
+    // EmployeeCardTemplate goes here
+});
+
+// Specify data at runtime
+var dataContext = new ACData.EvaluationContext();
+dataContext.$root = {
+    "employee": {
+        "name": "Matt",
+        "manager": { "name": "Thomas" },
+        "peers": [{
+            "name": "Andrew" 
+        }, { 
+            "name": "Lei"
+        }, { 
+            "name": "Mary Anne"
+        }, { 
+            "name": "Adam"
+        }]
     }
 };
 
-var card = AdaptiveCard.FromJson("EmployeeCard.json", myEmployee);
+var card = template.expand(dataContext);
+// Now you have an AdaptiveCard ready to render!
 ```
 
-# Designer Support
+## Designer Support
 
-The Adaptive Card Designer has also been updated to support templating. 
+The Adaptive Card Designer has been updated to support templating. 
 
-> Try it out now: **http://vnext.adaptivecards.io/designer**
+> Try out a "vnext" preview at: **[https://vnext.adaptivecards.io/designer](https://vnext.adaptivecards.io/designer)**
 
 [![image](https://user-images.githubusercontent.com/1432195/53214462-88d46980-3601-11e9-908d-253a1bb940a8.png)](http://vnext.adaptivecards.io/designer)
 
  
-This "vnext" URL is going to have bugs and will deploy frequently. **Clear your cache daily** to make sure you have the latest, and if you find bugs please let us know!
+This "vnext" URL is going to have bugs and will deploy frequently. **Clear your cache** to make sure you have the latest, and if you find bugs please let us know!
 
 * **Sample Data Editor** - Specify sample data here to view the data-bound card when in "Preview Mode." There is a small button in this pane to populate the Data Structure from the existing sample data.
 * **Data Structure** - This is the structure of your sample data. Fields can be dragged onto the design surface to create a binding to them 
 * **Preview Mode** - Press the toolbar button to toggle between the edit-experience and the sample-data-preview experience
 * **Open Sample** - click this button to open various sample payloads
 
-# Advanced binding
+## Advanced binding
 
-## Binding scopes
+### Binding scopes
 
 There are a few reserved keywords to access various binding scopes. 
 
@@ -144,15 +154,15 @@ There are a few reserved keywords to access various binding scopes.
 {
     "{<property>}": "Implicitly binds to `$data.<property>`",
     "$data": "The current data object",
-    "$root": "The root data object",
+    "$root": "The root data object. Useful when iterating to escape to parent object",
     "$index": "The current index when iterating",
     "$host": "Access properties of the host *(not working yet)*"
 }
 ```
 
-## Assigning a data context to elements
+### Assigning a data context to elements
 
-To assign a data context to any element add a `$data` attribute to the element.
+To assign a "data context" to any element add a `$data` attribute to the element.
 
 ```json
 {
@@ -173,10 +183,10 @@ To assign a data context to any element add a `$data` attribute to the element.
 
 ## Repeating items in an array
 
-This part is a bit of "dark magic".
+This part is a bit of "dark magic". Feedback welcome.
 
-* If an element's `$data` context is assigned to an **array**, then the element **will be repeated for each item in the array.** 
-* As it is being repeated, `$data` becomes scoped to the **individual item** within the array.
+* If the objects' `$data` property is set to an **array**, then the **object itself will be repeated for each item in the array.** 
+* As it is being repeated, `$data` used in property bindings are scoped to the **individual item** within the array.
 
 For example, the `TextBlock` below will be repeated 3 times since it's `$data` is an array. Notice how the `text` property is bound to the `name` property of an individual object within the array. 
 
@@ -221,7 +231,7 @@ For example, the `TextBlock` below will be repeated 3 times since it's `$data` i
 
 ## Functions
 
-We will provide a set of functions that work on every SDK. 
+No templating language is complete with some helper funds. We will provide a set of functions that work on every SDK. 
 
 The syntax here is still up in the air so please check back soon, but here's a start of what we're planning:
 
@@ -241,11 +251,24 @@ The syntax here is still up in the air so please check back soon, but here's a s
 * Parsing well-known date string formats *(not working yet)*
 * Formatting for well-known date/time representations *(not working yet)*
 
+### Conditional functions
+
+* if(*expression*, *trueValue*, *falseValue*)
+
+**`if` example**
+
+```json
+{
+    "type": "TextBlock",
+    "color": "if(priceChange >= 0, 'good', 'attention')"
+}
+```
+
 ### Data manipulation
 
 * JSON.parse - ability to parse a JSON string 
 
-**JSON.parse Example**
+**`JSON.parse` Example**
 
 This is an Azure DevOps response where the `message` property is a JSON-serialized string. In order to access values within the string, we need to use the `JSON.parse` function in our template.
 
@@ -286,7 +309,7 @@ We want to make sure Hosts can add custom functions, which means we need robust 
 
 ## Conditional layout
 
-We currently expose a `$when` clause allowing a template to toggle the visibility of an element based on the evaluation of a binding. 
+To drop an entire element if a condition is met, use the `$when` property. When `$when` evaluates to `false` the element will not appear to the user.
 
 ```json
 {
@@ -311,13 +334,12 @@ We currently expose a `$when` clause allowing a template to toggle the visibilit
 }
 ```
 
-
 ### Composing templates
 
 Currently there is no support for composing template "parts" together. But we are exploring options and hope to share more soon. Any thoughts here welcome!
 
 
-# Examples
+## Examples
 
 We only have a limited amount of samples created so far, but take a look here to get started.
 

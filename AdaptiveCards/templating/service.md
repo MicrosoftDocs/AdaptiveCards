@@ -1,18 +1,18 @@
 ---
-title:  Adaptive Card Template Service
+title:  Adaptive Cards Template Service
 author: matthidinger
 ms.author: mahiding
 ms.date: 08/01/2019
 ms.topic: article
 ---
 
-# Adaptive Card Template Service
+# Adaptive Cards Template Service
 
 The Adaptive Cards Template Service is a proof-of-concept service that allows anyone to find, contribute to, and share a set of well-known templates.
 
 It's useful if you want to display some data but don't want to bother writing a custom adaptive card for it.
 
-> Please read this for an [Overview of Adaptive Card Templating](index.md)
+> Please read this for an [overview of Adaptive Card Templating](index.md)
 
 > [!IMPORTANT] 
 > 
@@ -24,19 +24,27 @@ It's useful if you want to display some data but don't want to bother writing a 
 
 ## How does the service help me?
 
-Let's say I just got a piece of data, maybe it's stock/financial data, healthcare data, Microsoft Graph data, or schema.org data. 
+Let's say I just got a piece of data, maybe it's financial data, Microsoft Graph data, schema.org data, or custom data from within my organization. 
 
-Now I want to display this data to a user. 
+Now I want to display the data to a user. 
 
-Traditionally that means writing a UI template in whatever 
+Traditionally that means writing custom UI code in all of the front-end stacks that I deliver to end-users.
 
- I don't have a standard way to display it. The template service helps you discover templates for various types of data, retrieve an Adaptive Card template for the data, or populate the template with data server-side, so you can deliver an Adaptive Card to any [supported platform](https://docs.microsoft.com/en-us/adaptive-cards/resources/partners).
+But what if there were a world where my app could "learn" new UI templates based on the type of data? A world where anyone could contribute, enhance, and share common UI templates, within their own projects, within an organization, or for the entire internet.
 
-* An HTTP endpoint for **finding**
+## What is the card template service?
+
+The card template service is a simple REST endpoint that helps:
+
+* **Find** a template by analyzing the structure of your data
+* **Get** a template so you can bind it directly on the client, *without sending your data to the server or ever leaving the device*
+* **Populate** a template on the server, when client-side data binding isn't appropriate or possible
+
+Behind it all, is:
+
 * A shared, open-source template repository backed by GitHub.
 * All the templates are flat JSON files in the repo which makes editing, contributing, and sharing painless.
-* The code for the service will be made available so you can host it on your own; not everyone has to go through `https://templates.adaptivecards.io` to get the functionality this service provides.
-
+* The code for the service will be made available so you can host wherever makes the most sense to you. 
 
 ## Using the service
 
@@ -78,7 +86,9 @@ Let's say I just hit a [Microsoft Graph](https://graph.microsoft.com) endpoint t
 
 ![Graph Explorer screenshot](content/2019-08-01-12-08-13.png)
 
-That API returned some JSON data, but how do I display it using Adaptive Cards? First I want to see if a template exists for this type of data, so I make an HTTP request to the `/find` endpoint with my data in the `POST body`.
+That API returned some JSON data, but how do I display it using Adaptive Cards? 
+
+First I want to see if a template exists for this type of data, so I make an HTTP request to the `/find` endpoint with my data in the `POST body`.
 
 ```
 HTTP POST https://templates.adaptivecards.io/find
@@ -113,7 +123,7 @@ Body:
 ]
 ```
 
-The service returns a list of any matching templates, along with a `confidence` indicating how close the match is. Now I can use that template URL to get the template, or populate it server-side.
+The service returns a list of any matching templates, along with a `confidence` indicating how close the match is. Now I can use that template URL to **get** the template, or **populate** it server-side.
 
 ### Get a template
 
@@ -151,9 +161,11 @@ Let's get the Microsoft Graph profile template that was returned from `/find` ab
 }
 ```
 
+Now use this template with the [templating SDKs](sdk.md) and create a ready-to-render Adaptive Card.
+
 ### Populate a template server-side
 
-In some cases it may not make sense to populate a template on the client.  For these use cases, you can have server return a fully-populated Adaptive Card that can be passed to any Adaptive Card Renderer.
+In some cases it may not make sense to populate a template on the client.  For these use cases, you can have the server return a fully-populated Adaptive Card, ready to be passed to any Adaptive Card Renderer.
 
 > `HTTP POST https://templates.adaptivecards.io/[TEMPLATE-PATH]`
 
@@ -203,11 +215,13 @@ Body:
 }
 ```
 
+Notice how the response replaced the text of the first `TextBlock` with `"Megan Bowen"` instead of `"{name}"`, as in the `GET` request. This AdaptiveCard can now be passed to any Adaptive Card renderer without going through client-side templating.
+
 ## Contributing templates
 
-The template service is backed by a private GitHub repo currently, but we will open source it shortly.
+The template service is backed by a GitHub repo (which is currently **private**), but we will open source once we tie up some loose ends.
 
-Our hope is that by using GitHub as a backing store for the templates, we can "democratize" the process of authoring, improving, and sharing templates. Anyone can submit a Pull Request that includes a whole new template, or make enhancements to existing ones... all within the developer-friendly experience of GitHub.
+Our hope is that by using GitHub as a backing store for the templates, we can "democratize" the process of authoring, enhancing, and sharing templates. Anyone can submit a Pull Request that includes an entirely new template, or make enhancements to existing ones... all within the developer-friendly experience of GitHub.
 
 ## Self-hosting the service
 

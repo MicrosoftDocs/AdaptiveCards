@@ -8,12 +8,16 @@ ms.topic: article
 
 # Adaptive Card Templating SDKs
 
-During the initial preview we only have the JavaScript SDK available, but a .NET SDK will be available shortly.
+The Adaptive Card Templating SDKs make it easy to populate a [card template](language.md) with real data on any supported platform.
+
+> Please read this for an [overview of Adaptive Card Templating](index.md)
 
 > [!IMPORTANT] 
 > 
 > These features are **in preview and subject to change**. Your feedback is not only welcome, but  critical to ensure we deliver the features **you** need.
 > 
+> During the initial preview we only have the JavaScript SDK available, but a .NET SDK will be available shortly.
+
 ## JavaScript
 
 The [adaptivecards-templating](https://www.npmjs.com/package/adaptivecards-templating) library is available on npm and via CDN. See the npm link for full documentation.

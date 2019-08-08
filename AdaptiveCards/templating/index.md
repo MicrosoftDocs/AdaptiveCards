@@ -8,54 +8,47 @@ ms.topic: article
 
 # Adaptive Cards Templating (Preview)
 
-We're excited to share an early preview of new tools that will help you create, reuse, and share Adaptive Cards. 
+We're excited to share a preview of new tools that will help you **create**, **reuse**, and **share** Adaptive Cards. 
 
 > [!IMPORTANT] 
 > 
 > These features are **in preview and subject to change**. Your feedback is not only welcome, but  critical to ensure we deliver the features **you** need.
 
-## How does templating help you?
+## How can templating help you?
 
-Templating enables the separation of **data** from the **presentation** in an Adaptive Card. 
+Templating enables the separation of **data** from the **layout** in an Adaptive Card. 
 
-### It helps design a card that can be populated with real data
+### It helps design a card once, and then populate it with real data
 
-Today to populate an Adaptive Card with real data you have three options:
+Today it's impossible to create a card using the [Adaptive Card Designer](https://adaptivecards.io/designer) and use that JSON to populate the payload with **dynamic content**. In order to achieve this you must write custom code to build the JSON string, or use the Object Model SDKs to build an OM representing your card and serialize it to JSON. In either case the Designer is a one-time one-way operation and doesn't make it easy to modify the card in a designer once you've converted it to code.
 
-* Build a JSON string programatically using your language of choice
-* Use our .NET or JavaScript object models to create an object representation of the card and then serialize to JSON
-* Come up with your own method, like RazorLight, or a light-weight string-replace function
+The tools below hope to address this situation and make designing a card in the designer, populate it with real data, and then put it back into the designer to make tweaks straight forward.
 
-There are trade-offs with any of the above methods, but a key downside is that it becomes impossible to create a card using the [Adaptive Card Designer](https://adaptivecards.io/designer), then populate that card with real data, and then later put it back into the designer to make changes. 
+### It makes tranmissions over the wire smaller
 
-Designer -> Backend Implementation is pretty much a one-way, one-time operation today.
+Imagine a world where the template and data can be combined **directly on the client**. This means if you use the same template multiple times, or want to update it with new data, you just need to send new data to the device and it can re-use the same template over and over.
 
-The tools below hope to address this situation and make designing a card in the designer, then populating it with real data on any backend, and then putting it make into the designer to make tweaks work seamlessly.
+### It helps you create a great looking card from just the data you provide
 
-### It helps 
+We think Adaptive Cards are great, but what if you didn't have to write an Adaptive Card for everything you want to display to a user? With a distributed Template Service (described below) we can create a world where everyone can contribute, discover, and share templates over any type of data. 
 
-### It opens possibilities where AI services can "reason" over the cards and enhance user productivity 
+Share within your own projects, your organization, or with the entire world.
 
+### AI and other services could improve user experiences
 
-### By making the template a first-class object that can be passed around, you can start composing templates together 
+By separating data from content it opens a door for AI and other services to  "reason" over the data in the cards we see and enhance user productivity or help us find things.
 
-### It helps you get a great looking card just from the data you provide
-
-# What is Adaptive Cards Templating?
-
-At it's core, templating enables the separation of **data** from **presentation** in your Adaptive Cards. And once you have that, a whole new world of possibilities opens up. 
+## What is Adaptive Cards Templating?
 
 It's comprised of 3 major components:
 
-1. The **[Template Language](language.md)** is the syntax used for authoring a template. The Designer aids in authoring templates by offering a way to preview the template with sample data.
+1. The **[Template Language](language.md)** is the syntax used for authoring a template. The Designer helps author templates by providing a way to preview the template with sample data.
 2. The **[Templating SDK's](sdk.md)** will exist on all supported Adaptive Card platforms. These SDKs allow you to populate a template with data, on the back-end or directly on the client. 
 3. The **[Template Service](service.md)** is a proof-of-concept service that allows anyone to find, contribute to, and share a set of well-known templates.
 
 ## Template Language
 
 The template langauge is the syntax used to author an Adaptive Card template. 
-
-![Designer screenshot](content/2019-08-01-13-58-27.png)
 
 > [!NOTE]
 > 
@@ -65,9 +58,11 @@ The template langauge is the syntax used to author an Adaptive Card template.
 > 
 > Click the **Preview Mode** button to toggle between design-mode and preview-mode.
 
-The vNext Designer adds support for authoring templates and providing **Sample Data** to preview the template at design-time.
+![Designer screenshot](content/2019-08-01-13-58-27.png)
 
-Paste the example below in the **Card Payload Editor** pane: 
+The ["vNext Designer"](https://vnext.adaptivecards.io/designer) adds support for authoring templates and providing **Sample Data** to preview the card at design-time.
+
+Paste the example below into the **Card Payload Editor** pane: 
 
 **EmployeeCardTemplate.json**
 
@@ -134,9 +129,11 @@ Paste the example below in the **Card Payload Editor** pane:
 }
 ```
 
-Then paste the JSON data below into the **Sample Data Editor**:
+Then paste the JSON data below into the **Sample Data Editor**. 
 
-**Data**
+**Sample Data** helps you see exactly how your card will appear at runtime when passed actual data.
+
+**EmployeeData**
 
 ```json
 {
@@ -162,17 +159,20 @@ Then paste the JSON data below into the **Sample Data Editor**:
     ]
 }
 ```
- 
-* **Sample Data Editor** - Specify sample data here to view the data-bound card when in "Preview Mode." There is a small button in this pane to populate the Data Structure from the existing sample data.
-* **Data Structure** - This is the structure of your sample data. Fields can be dragged onto the design surface to create a binding to them 
-* **Preview Mode** - Press the toolbar button to toggle between the edit-experience and the sample-data-preview experience
 
+Click the **Preview Mode** button. You should see the card render according to the sample data provided above. Feel free to make tweaks to the sample data and watch the card update in realtime.
+
+**Congratulations**, you just authored your first Adaptive Card Template! Next let's learn how to populate the template with real data.
 
 > Learn more about the [template language](language.md)
 
 ## SDK support
 
-During the initial preview we only have a limited set of SDKs available. When we release there will be templating libraries for every supported Adaptive Cards platform.
+The Templating SDKs make it possible to populate a template with real-data.
+
+> [!NOTE]
+>
+> During the initial preview we only have a limited set of SDKs available. When we release there will be templating libraries for every supported Adaptive Cards platform.
 
 Platform | Install | Documentation
 --- | --- | ---
@@ -185,30 +185,36 @@ The JavaScript below shows the general pattern that will be used to populate a t
 
 ```js
 var template = new ACData.Template({ 
-    /* EmployeeCardTemplate goes here */ 
+    // EmployeeCardTemplate goes here
 });
 
 var dataContext = new ACData.EvaluationContext();
 dataContext.$root = {
-    /* Data goes here */
+    // Data goes here
 };
 
 var card = template.expand(dataContext);
+// Now you have an AdaptiveCard ready to render!
 ```
 
-> Learn more [about the templating SDKs](sdk.md)
+> Learn more about the [templating SDKs](sdk.md)
 
 ## Template Service
 
 The Adaptive Cards Template Service is a proof-of-concept service that allows anyone to find, contribute to, and share a set of well-known templates.
 
-It's useful if you want to display some data but don't want to bother writing a custom adaptive card for it.
+It's useful if you want to display some data but don't want to bother writing a custom Adaptive Card for it.
+
+The API to get a template is straight-forward enough, but the service actually offers much more, including the ability to analyze your data and find a template that might work for you.
+
+`HTTP GET https://templates.adaptivecards.io/graph.microsoft.com/Profile.json`
+
+All templates are flat JSON files stored in a GitHub repo so anyone can contribute to them like any other open source code.
 
 > Learn more about the [card template Service](service.md)
 
+## What's next and sending feedback
 
-# What's next and sending feedback
+Templating and the separation of presentation from data takes us a whole lot closer toward our mission: "an ecosystem for exchanging card content in a common and consistent way".
 
-Templating and the separation of card presentation from data takes us a whole lot closer toward our mission of "an ecosystem of exchangeable card content in a common and consistent way".
-
-We're eager to share more as soon as we can. In the meantime please give feedback here or Twitter **[@MattHidinger](https://twitter.com/matthidinger)**/**#AdaptiveCards**. 
+We're eager to share more as soon as we can. In the meantime please give feedback here, [GitHub](https://github.com/microsoft/AdaptiveCards), or Twitter **[@MattHidinger](https://twitter.com/matthidinger)**/**#AdaptiveCards**. 
