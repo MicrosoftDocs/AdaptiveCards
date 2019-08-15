@@ -10,16 +10,6 @@ ms.topic: article
 
 As we described in [Getting Started](../../../authoring-cards/getting-started.md) page, an Adaptive Card is a JSON-serialized card object model. This is a JavaScript SDK for generating client-side HTML in the browser.
 
-> [!IMPORTANT]
-> **Breaking changes from v0.5**
-> 
-> 1. Package renamed from `microsoft-adaptivecards` to `adaptivecards`
-> 1. The static `AdaptiveCards.setHostConfig()` has been moved to an instance member of `AdaptiveCard`. E.g., `myCard.hostConfig = {}` 
-> 1. `HostConfig` has gone though various renames and moves. See the [sample.json](https://github.com/Microsoft/AdaptiveCards/blob/master/samples/HostConfig/sample.json) Host Config for current structure
-> 1. There have also been some schema changes from the v0.5 preview, which are [outlined here](https://github.com/Microsoft/AdaptiveCards/pull/633)
-> 1. The static `renderCard()` function was removed as it was redundant with the class methods. Use `adaptiveCard.render()` as described below. 
-
-
 ## Install
 
 ### Node
@@ -27,7 +17,7 @@ As we described in [Getting Started](../../../authoring-cards/getting-started.md
 [![npm install](https://img.shields.io/npm/v/adaptivecards.svg)](https://www.npmjs.com/package/adaptivecards)
 
 ```console
-npm install adaptivecards --save
+npm install adaptivecards
 ```
 
 ### CDN

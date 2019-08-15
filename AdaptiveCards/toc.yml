@@ -32,12 +32,14 @@
     href: rendering-cards/renderer-status.md
   - name: Implement a Renderer
     href: rendering-cards/implement-a-renderer.md
-- name: SDK
+- name: SDKs
   items:
   - name: Authoring Cards
     href: sdk/authoring-cards/toc.yml
   - name: Rendering Cards
     href: sdk/rendering-cards/toc.yml
+  - name: Designer SDK
+    href: sdk/designer.md
 - name: Templating (Preview)
   items:
   - name: Overview
