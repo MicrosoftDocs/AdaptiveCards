@@ -8,8 +8,6 @@ ms.topic: article
 
 # Adaptive Cards for Windows Developers
 
-
-
 ## Timeline
 
 The first Windows experience to supports Adaptive Cards is Timeline, a brand new experience first introduced in Windows 10 1803. 
@@ -29,6 +27,12 @@ userActivity.DisplayText = article.Title; //used for details tile text
 userActivity.VisualElements.Content = AdaptiveCardBuilder.CreateAdaptiveCardFromJson(jsonString);
 await userActivity.SaveAsync();
 ```
+
+### Learning Module
+
+There is a great 45-min learn module that covers these steps end-to-end.
+
+[Integrate adaptive cards into Windows 10 Timeline](https://docs.microsoft.com/en-us/learn/modules/integrate-app-into-windows-10-timeline/)
 
 ### Learn more
 
