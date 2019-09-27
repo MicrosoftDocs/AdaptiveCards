@@ -28,7 +28,7 @@ This example demonstrates how to build an Adaptive Card using standard C# object
 using AdaptiveCards;
 // ...
 
-AdaptiveCard card = new AdaptiveCard();
+AdaptiveCard card = new AdaptiveCard(new AdaptiveSchemaVersion(1, 0));
 
 card.Body.Add(new AdaptiveTextBlock() 
 {
