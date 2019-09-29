@@ -73,8 +73,8 @@ same way, we believe that Adaptive Cards can create a simple, expressive means o
 It is easier to add later then it is to live with a mistake. If we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
 
 
-## Build 2018 Session
+## Build 2019 Session
 
-The following session at Build 2018 showcases Adaptive Cards in Bots, Cortana, Outlook, and Windows. 
+The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases. 
 
-<iframe src="https://medius.studios.ms/Embed/Video/BRK2401?SFYT=true" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wT1yFr_j6IM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
