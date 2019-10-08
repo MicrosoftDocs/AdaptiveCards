@@ -83,7 +83,7 @@ var htmlElement = adaptiveCard.render();
 dotnet add package AdaptiveCards.Templating --version 0.1.0-alpha1
 ```
 
-> ![NOTE]
+> [!NOTE]
 >
 > Consider changing the version above to the latest published version
 
