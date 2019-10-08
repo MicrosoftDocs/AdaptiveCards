@@ -84,6 +84,7 @@ dotnet add package AdaptiveCards.Templating --version 0.1.0-alpha1
 ```
 
 > ![NOTE]
+>
 > Consider changing the version above to the latest published version
 
 Import the library 
