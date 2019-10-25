@@ -260,7 +260,7 @@ The syntax here is still up in the air so please check back soon, but here's a s
 ```json
 {
     "type": "TextBlock",
-    "color": "if(priceChange >= 0, 'good', 'attention')"
+    "color": "{if(priceChange >= 0, 'good', 'attention')}"
 }
 ```
 

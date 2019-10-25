@@ -250,7 +250,7 @@ RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.getInstance().render(co
 
 ## Custom rendering of actions
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > Changes to the custom rendering of actions are planned for v1.2 but are not completed yet
 
 ## Custom image loading
