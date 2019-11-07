@@ -52,13 +52,13 @@ The template langauge is the syntax used to author an Adaptive Card template.
 > 
 > Follow along with the example below by opening up a new tab to
 >
-> **https://vnext.adaptivecards.io/designer**
+> **https://adaptivecards.io/designer**
 > 
 > Click the **Preview Mode** button to toggle between design-mode and preview-mode.
 
 ![Designer screenshot](content/2019-08-01-13-58-27.png)
 
-The ["vNext Designer"](https://vnext.adaptivecards.io/designer) adds support for authoring templates and providing **Sample Data** to preview the card at design-time.
+The newly updated Designer adds support for authoring templates and providing **Sample Data** to preview the card at design-time.
 
 Paste the example below into the **Card Payload Editor** pane: 
 
