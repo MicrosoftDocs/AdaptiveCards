@@ -130,12 +130,9 @@ var card = template.expand(dataContext);
 
 The Adaptive Card Designer has been updated to support templating. 
 
-> Try out a "vnext" preview at: **[https://vnext.adaptivecards.io/designer](https://vnext.adaptivecards.io/designer)**
+> Try it out at: **[https://adaptivecards.io/designer](https://adaptivecards.io/designer)**
 
-[![image](https://user-images.githubusercontent.com/1432195/53214462-88d46980-3601-11e9-908d-253a1bb940a8.png)](http://vnext.adaptivecards.io/designer)
-
- 
-This "vnext" URL is going to have bugs and will deploy frequently. **Clear your cache** to make sure you have the latest, and if you find bugs please let us know!
+[![image](https://user-images.githubusercontent.com/1432195/53214462-88d46980-3601-11e9-908d-253a1bb940a8.png)](https://adaptivecards.io/designer)
 
 * **Sample Data Editor** - Specify sample data here to view the data-bound card when in "Preview Mode." There is a small button in this pane to populate the Data Structure from the existing sample data.
 * **Data Structure** - This is the structure of your sample data. Fields can be dragged onto the design surface to create a binding to them 
@@ -260,7 +257,7 @@ The syntax here is still up in the air so please check back soon, but here's a s
 ```json
 {
     "type": "TextBlock",
-    "color": "if(priceChange >= 0, 'good', 'attention')"
+    "color": "{if(priceChange >= 0, 'good', 'attention')}"
 }
 ```
 
@@ -341,7 +338,4 @@ Currently there is no support for composing template "parts" together. But we ar
 
 ## Examples
 
-We only have a limited amount of samples created so far, but take a look here to get started.
-
-* Load samples within the [designer](http://vnext.adaptivecards.io/designer) by clicking **Open Sample**
-* Or just [browse a directory of them](https://github.com/Microsoft/AdaptiveCards/tree/js/template-engine/samples/v2.0/Scenarios) directly
+Browse the updated [Samples page](https://adaptivecards.io/samples) to explore all sorts of new templated cards.
