@@ -1,0 +1,103 @@
+---
+title: FeatureRegistration class - Xamarin.Android SDK
+author: almedina-ms
+ms.author: almedina
+ms.date: 12/02/2019
+ms.topic: article
+---
+
+# Feature Registration
+
+``` C#
+public class FeatureRegistration : Java.Lang.Object 
+```
+
+**Namespace**
+``` C#
+namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
+```
+
+## Summary
+
+| Public methods | |
+| --- | ---- |
+| ```void``` | [```AddFeature(string featureName, string featureVersion)```](http://something.com) |
+| ```string``` | [```GetFeatureVersion(string featureName)```]() |
+| ```void``` | [```RemoveFeature (string featureName)```]() |
+
+## Public Methods
+
+---
+
+### <a href="feature-registation-func-addfeature"></a> AddFeature
+<p style='text-align:right'>Added in version 0.1.0</p>
+
+``` C#
+public void AddFeature (string featureName, 
+                        string featureVersion)
+```
+
+Adds a feature containing its name and version to the renderer feature registration.
+
+| Parameters | |
+| --- | --- |
+| featureName | ```string``` |
+| featureVersion | ```string``` |
+
+#### Sample
+
+``` C#
+FeatureRegistration featureRegistration = new FeatureRegistration();
+featureRegistration.AddFeature("MyFeature", "1.2.0");
+CardRendererRegistration.Instance.RegisterFeatureRegistration(featureRegistration);
+```
+
+---
+
+### <a href="funcDeserializeFromString"></a> GetFeatureVersion
+<p style='text-align:right'>Added in version 0.1.0</p>
+
+``` C#
+public string GetFeatureVersion (string featureName)
+```
+
+Retrieves the version for a given feature. 
+
+| Parameters | |
+| --- | --- |
+| featureName | ```string``` |
+
+| Returns | |
+| --- | --- |
+| ```string``` | Feature version for the given feature |
+
+#### Sample
+
+``` C#
+FeatureRegistration featureRegistration = new FeatureRegistration();
+featureRegistration.AddFeature("MyFeature", "1.2.0");
+string featureVersion = featureRegistration.GetFeatureVersion("MyFeature"); // 1.2.0
+```
+
+---
+
+### <a href="funcDeserializeFromString"></a> RemoveFeature
+<p style='text-align:right'>Added in version 0.1.0</p>
+
+``` C#
+public void RemoveFeature (string featureName)
+```
+
+Removes the given feature from the feature dictionary.
+
+| Parameters | |
+| --- | --- |
+| featureName | ```string``` |
+
+#### Sample
+
+``` C#
+FeatureRegistration featureRegistration = new FeatureRegistration();
+featureRegistration.AddFeature("MyFeature", "1.2.0");
+featureRegistration.RemoveFeature("MyFeature");
+```
