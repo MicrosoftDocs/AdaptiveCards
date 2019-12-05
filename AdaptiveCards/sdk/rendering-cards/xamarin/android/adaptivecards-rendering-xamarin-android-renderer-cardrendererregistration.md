@@ -21,24 +21,24 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer.Registration
 
 | Public methods | |
 | --- | ---- |
-| ```void``` | [```RegisterFeatureRegistration (FeatureRegistration featureRegistration)```](http://something.com) |
+| ```void``` | [```RegisterFeatureRegistration (FeatureRegistration featureRegistration)```](#registerfeatureregistration) |
 
 ## Public Methods
 
 --- 
 
-### <a href="cardrendererregistration-func-registerfeatureregistration"></a> RegisterFeatureRegistration
+### <a id="registerfeatureregistration"></a> RegisterFeatureRegistration
 <p style='text-align:right'>Added in version 0.1.0</p>
 
 ``` C#
 public void RegisterFeatureRegistration (FeatureRegistration featureRegistration)
 ```
 
-Registers a [```FeatureRegistration```]() object for the card renderer to use.
+Registers a [```FeatureRegistration```](adaptivecards-rendering-xamarin-android-objectmodel-featureregistration.md) object for the card renderer to use.
 
 | Parameters | |
 | --- | --- |
-| featureRegistration | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.FeatureRegistration``` |
+| featureRegistration | [```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.FeatureRegistration```](adaptivecards-rendering-xamarin-android-objectmodel-featureregistration.md) |
 
 #### Sample
 

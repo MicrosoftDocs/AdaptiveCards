@@ -27,15 +27,17 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 | View | Visual result from the rendering process. |
 | Warnings | List of warnings produced from the rendering process. |
 
+&nbsp;
+
 | Public methods | |
 | --- | ---- |
-| ```void``` | [```AddWarning AdaptiveCards.Rendering.Xamarin.Android.Renderer.AdaptiveWarning warning)```](http://something.com) |
+| ```void``` | [```AddWarning AdaptiveCards.Rendering.Xamarin.Android.Renderer.AdaptiveWarning warning)```](#addwarning) |
 
 ## Public Methods
 
 ---
 
-### <a href="renderedadaptivecard-func-addwarning"></a> AddWarning
+### <a id="addwarning"></a> AddWarning
 <p style='text-align:right'>Added in version 0.1</p>
 
 ``` C#
@@ -48,8 +50,3 @@ Adds a warning to the warning list.
 | Parameters | |
 | --- | --- |
 | warning | ```AdaptiveCards.Rendering.Xamarin.Android.Renderer.AdaptiveWarning``` |
-
-
-#### Sample
-
-Here goes a sample :)

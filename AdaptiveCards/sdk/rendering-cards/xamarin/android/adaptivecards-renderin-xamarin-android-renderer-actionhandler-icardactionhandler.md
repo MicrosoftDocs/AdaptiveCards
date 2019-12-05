@@ -21,13 +21,13 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer.ActionHandler
 
 | Public methods | |
 | --- | ---- |
-| ```abstract void``` | [```OnAction (BaseActionElement p0, RenderedAdaptiveCard p1)```](http://something.com) |
-| ```abstract void``` | [```OnMediaPlay (BaseCardElement p0, RenderedAdaptiveCard p1)```]() |
-| ```abstract void``` | [```OnMediaStop (BaseCardElement p0, RenderedAdaptiveCard p1)```]() |
+| ```abstract void``` | [```OnAction (BaseActionElement p0, RenderedAdaptiveCard p1)```](#onaction) |
+| ```abstract void``` | [```OnMediaPlay (BaseCardElement p0, RenderedAdaptiveCard p1)```](#onmediaplay) |
+| ```abstract void``` | [```OnMediaStop (BaseCardElement p0, RenderedAdaptiveCard p1)```](#onmediastop) |
 
 ## Public Methods
 --- 
-### <a href="icardactionhandler-func-onaction"></a> OnAction
+### <a id="onaction"></a> OnAction
 <p style='text-align:right'>Added in version 0.1.0</p>
 
 ``` C#
@@ -39,7 +39,7 @@ Listener called when a OpenUrlAction, SubmitAction or ShowCardAction (if not inl
 | Parameters | |
 | --- | --- |
 | p0 | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.BaseActionElement``` |
-| p1 | ```AdaptiveCards.Rendering.Xamarin.Android.Renderer.RenderedAdaptiveCard``` |
+| p1 | [```AdaptiveCards.Rendering.Xamarin.Android.Renderer.RenderedAdaptiveCard```](adaptivecards-rendering-xamarin-android-renderer-renderedadaptivecard.md) |
 
 #### Sample
 
@@ -75,7 +75,7 @@ public class MyCardActionHandler : ICardActionHandler
 ```
 
 ---
-### <a href="icardactionhandler-func-onmediaplay"></a> OnMediaPlay
+### <a id="onmediaplay"></a> OnMediaPlay
 <p style='text-align:right'>Added in version 0.1</p>
 
 ``` C#
@@ -87,7 +87,7 @@ Listener called when the media element starts playing.
 | Parameters | |
 | --- | --- |
 | p0 | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.BaseCardElement``` |
-| p1 | ```AdaptiveCards.Rendering.Xamarin.Android.Renderer.RenderedAdaptiveCard``` |
+| p1 | [```AdaptiveCards.Rendering.Xamarin.Android.Renderer.RenderedAdaptiveCard```](adaptivecards-rendering-xamarin-android-renderer-renderedadaptivecard.md) |
 
 #### Sample
 
@@ -102,7 +102,7 @@ public class MyCardActionHandler : ICardActionHandler
 
 --- 
 
-### <a href="icardactionhandler-func-onmediastop"></a> OnMediaStop
+### <a id="onmediastop"></a> OnMediaStop
 <p style='text-align:right'>Added in version 0.1</p>
 
 ``` C#
@@ -114,7 +114,7 @@ Listener called when the media element stops playing.
 | Parameters | |
 | --- | --- |
 | p0 | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.BaseCardElement``` |
-| p1 | ```AdaptiveCards.Rendering.Xamarin.Android.Renderer.RenderedAdaptiveCard``` |
+| p1 | [```AdaptiveCards.Rendering.Xamarin.Android.Renderer.RenderedAdaptiveCard```](adaptivecards-rendering-xamarin-android-renderer-renderedadaptivecard.md) |
 
 #### Sample
 

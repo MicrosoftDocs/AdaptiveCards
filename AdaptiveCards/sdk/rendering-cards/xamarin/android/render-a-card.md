@@ -6,7 +6,7 @@ ms.date: 12/02/2019
 ms.topic: article
 ---
 
-# Render a card - Android
+# Render a card - Xamarin.Android
 
 Here's how to render a card using the Xamarin.Android SDK.
 
@@ -17,7 +17,7 @@ ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveC
 AdaptiveCard adaptiveCard = parseResult.AdaptiveCard;
 ```
 
-or you can also use a ParseContext object to be able to deserialize custom elements that are included in your adaptive card like this:
+or you can also use a ```ParseContext``` object to be able to deserialize custom elements that are included in your adaptive card like this:
 
 ```java
 ParseContext context = new ParseContext(); // Empty parseContext so only known elements up to v1.2 will be parsed
@@ -36,7 +36,7 @@ ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveC
 To be able to render a card you'll need some information
 * context: Obtainable from the Activity the card is hosted in
 * fragmentManager: can also be retrieved from the hosting activity
-* cardActionHandler: instance of [ICardActionHandler](icardactionhandler.md) to manage the action behaviour
+* cardActionHandler: instance of [```ICardActionHandler```](adaptivecards-renderin-xamarin-android-renderer-actionhandler-icardactionhandler.md) to manage the action behaviour
 
 ```java
 var renderedCard = AdaptiveCardRenderer.Instance.Render(context, fragmentManager, adaptiveCard, cardActionHandler, hostConfig);

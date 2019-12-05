@@ -6,9 +6,9 @@ ms.date: 12/02/2019
 ms.topic: article
 ---
 
-# Actions - Android
+# Actions - Xamarin.Android
 
-When a cards action is executed, the class that was passed to the render call that implements the [```ICardActionHandler```](icardactionhandler.md) interface gets invoked. Here is how to define your action handler:
+When a cards action is executed, the class that was passed to the render call that implements the [```ICardActionHandler```](adaptivecards-renderin-xamarin-android-renderer-actionhandler-icardactionhandler.md) interface gets invoked. Here is how to define your action handler:
 
 ```java
 public class CardActionHandlerImpl : ICardActionHandler

@@ -21,15 +21,15 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
 
 | Public methods | |
 | --- | ---- |
-| ```void``` | [```AddFeature(string featureName, string featureVersion)```](http://something.com) |
-| ```string``` | [```GetFeatureVersion(string featureName)```]() |
-| ```void``` | [```RemoveFeature (string featureName)```]() |
+| ```void``` | [```AddFeature(string featureName, string featureVersion)```](#addfeature) |
+| ```string``` | [```GetFeatureVersion(string featureName)```](#getfeatureversion) |
+| ```void``` | [```RemoveFeature (string featureName)```](#removefeature) |
 
 ## Public Methods
 
 ---
 
-### <a href="feature-registation-func-addfeature"></a> AddFeature
+### <a id="addfeature"></a> AddFeature
 <p style='text-align:right'>Added in version 0.1.0</p>
 
 ``` C#
@@ -54,7 +54,7 @@ CardRendererRegistration.Instance.RegisterFeatureRegistration(featureRegistratio
 
 ---
 
-### <a href="funcDeserializeFromString"></a> GetFeatureVersion
+### <a id="getfeatureversion"></a> GetFeatureVersion
 <p style='text-align:right'>Added in version 0.1.0</p>
 
 ``` C#
@@ -81,7 +81,7 @@ string featureVersion = featureRegistration.GetFeatureVersion("MyFeature"); // 1
 
 ---
 
-### <a href="funcDeserializeFromString"></a> RemoveFeature
+### <a id="removefeature"></a> RemoveFeature
 <p style='text-align:right'>Added in version 0.1.0</p>
 
 ``` C#

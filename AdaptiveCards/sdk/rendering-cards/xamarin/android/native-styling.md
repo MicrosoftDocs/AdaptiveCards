@@ -8,4 +8,4 @@ ms.topic: article
 
 # Native styling - Xamarin.Android
 
-Native styling is supported just as the Android renderer library allows it which can be found [here](android link).
+Native styling is supported just as the Android renderer library allows it which can be found [here](../../android/native-styling.md).

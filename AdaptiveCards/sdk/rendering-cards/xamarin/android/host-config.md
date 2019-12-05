@@ -10,7 +10,7 @@ ms.topic: article
 
 To customize the renderer you provide an instance of the HostConfig object. (See [Host Config Schema](../../../rendering-cards/host-config.md) for the full description.)
 
-To create a [```HostConfig```](hostconfig.md) object from a string, use the [```DeserializeFromString```](hostconfig.md#something) method like this:
+To create a ```HostConfig``` object from a string, use the ```DeserializeFromString``` method like this:
 
 ```c#
 HostConfig Config = HostConfig.DeserializeFromString(configJson);
