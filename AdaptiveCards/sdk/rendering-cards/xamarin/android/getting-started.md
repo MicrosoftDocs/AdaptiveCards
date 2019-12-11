@@ -17,7 +17,7 @@ This is a renderer library which targets native xamarin android applications and
 You can find the published packages [here](http://nuget.org)
 
 ```console
-Install-Package AdaptiveCards.Rendering.Xamarin.Android
+Install-Package AdaptiveCards.Rendering.Xamarin.Android -Version 0.1.0-alpha
 ```
 
 ## Xamarin.Android Visualizer Sample
