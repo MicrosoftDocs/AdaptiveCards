@@ -232,7 +232,7 @@ ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveC
 ```
 
 --- 
-### <a id="deserializefromtring1"></a> DeserializeFromString
+### <a id="deserializefromstring1"></a> DeserializeFromString
 <p style='text-align:right'>Added in version 0.1.0</p>
 
 ``` C#

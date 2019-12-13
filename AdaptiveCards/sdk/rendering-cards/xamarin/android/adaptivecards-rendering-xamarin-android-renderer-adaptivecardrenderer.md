@@ -6,7 +6,7 @@ ms.date: 12/02/2019
 ms.topic: article
 ---
 
-### AdaptiveCardRenderer
+# AdaptiveCardRenderer
 
 ``` C#
 public class AdaptiveCardRenderer : global::Java.Lang.Object

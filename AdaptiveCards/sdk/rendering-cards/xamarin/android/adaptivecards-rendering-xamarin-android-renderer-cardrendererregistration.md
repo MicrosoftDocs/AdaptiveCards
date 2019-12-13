@@ -6,7 +6,7 @@ ms.date: 12/02/2019
 ms.topic: article
 ---
 
-### CardRendererRegistration
+# CardRendererRegistration
 
 ``` C#
 public class CardRendererRegistration : Java.Lang.Object
