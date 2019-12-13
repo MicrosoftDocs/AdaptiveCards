@@ -10,7 +10,12 @@ ms.topic: article
 
 When a cards action is executed, the class that was passed to the render call that implements the [```ICardActionHandler```](adaptivecards-renderin-xamarin-android-renderer-actionhandler-icardactionhandler.md) interface gets invoked. Here is how to define your action handler:
 
-```java
+```csharp
+using AdaptiveCards.Rendering.Xamarin.Android.ObjectModel;
+using AdaptiveCards.Rendering.Xamarin.Android.Renderer.ActionHandler;
+
+// ...
+
 public class CardActionHandlerImpl : ICardActionHandler
 {
 
@@ -24,15 +29,11 @@ public class CardActionHandlerImpl : ICardActionHandler
             Toast.MakeText(this, data + "\n" + inputValues, ToastLength.Short).Show();
         }
         else if (actionType == ActionType.ShowCard)
-        {
-            var showcardAction = ShowCardAction.Dynamic_cast(element);
-            var card = showcardAction.Card;
+        {           
             showCard(card);
         }
         else if (actionType == ActionType.OpenUrl)
         {
-            var openUrlAction = OpenUrlAction.Dynamic_cast(element);
-            var url = openUrlAction.Url;
             openUrl(url);
         }
     }

@@ -8,12 +8,12 @@ ms.topic: article
 
 # Feature Registration
 
-``` C#
+```csharp
 public class FeatureRegistration : Java.Lang.Object 
 ```
 
 **Namespace**
-``` C#
+```csharp
 namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
 ```
 
@@ -32,7 +32,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
 ### <a id="addfeature"></a> AddFeature
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public void AddFeature (string featureName, 
                         string featureVersion)
 ```
@@ -46,7 +46,7 @@ Adds a feature containing its name and version to the renderer feature registrat
 
 #### Sample
 
-``` C#
+```csharp
 FeatureRegistration featureRegistration = new FeatureRegistration();
 featureRegistration.AddFeature("MyFeature", "1.2.0");
 CardRendererRegistration.Instance.RegisterFeatureRegistration(featureRegistration);
@@ -57,7 +57,7 @@ CardRendererRegistration.Instance.RegisterFeatureRegistration(featureRegistratio
 ### <a id="getfeatureversion"></a> GetFeatureVersion
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public string GetFeatureVersion (string featureName)
 ```
 
@@ -73,7 +73,7 @@ Retrieves the version for a given feature.
 
 #### Sample
 
-``` C#
+```csharp
 FeatureRegistration featureRegistration = new FeatureRegistration();
 featureRegistration.AddFeature("MyFeature", "1.2.0");
 string featureVersion = featureRegistration.GetFeatureVersion("MyFeature"); // 1.2.0
@@ -84,7 +84,7 @@ string featureVersion = featureRegistration.GetFeatureVersion("MyFeature"); // 1
 ### <a id="removefeature"></a> RemoveFeature
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public void RemoveFeature (string featureName)
 ```
 
@@ -96,7 +96,7 @@ Removes the given feature from the feature dictionary.
 
 #### Sample
 
-``` C#
+```csharp
 FeatureRegistration featureRegistration = new FeatureRegistration();
 featureRegistration.AddFeature("MyFeature", "1.2.0");
 featureRegistration.RemoveFeature("MyFeature");

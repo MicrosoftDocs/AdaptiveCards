@@ -8,12 +8,12 @@ ms.topic: article
 
 # ICardActionHandler
 
-``` C#
+```csharp
 public interface ICardActionHandler : IJavaObject 
 ```
 
 **Namespace**
-``` C#
+```csharp
 namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer.ActionHandler
 ```
 
@@ -30,7 +30,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer.ActionHandler
 ### <a id="onaction"></a> OnAction
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 void OnAction (BaseActionElement p0, RenderedAdaptiveCard p1)
 ```
 
@@ -43,7 +43,7 @@ Listener called when a OpenUrlAction, SubmitAction or ShowCardAction (if not inl
 
 #### Sample
 
-``` C#
+```csharp
 public class MyCardActionHandler : ICardActionHandler
 {
 
@@ -78,7 +78,7 @@ public class MyCardActionHandler : ICardActionHandler
 ### <a id="onmediaplay"></a> OnMediaPlay
 <p style='text-align:right'>Added in version 0.1</p>
 
-``` C#
+```csharp
 void OnMediaPlay (BaseCardElement p0, RenderedAdaptiveCard p1)
 ```
 
@@ -91,7 +91,7 @@ Listener called when the media element starts playing.
 
 #### Sample
 
-``` C#
+```csharp
 public class MyCardActionHandler : ICardActionHandler
 {
     public void OnMediaPlay(BaseCardElement element, RenderedAdaptiveCard renderedCard)
@@ -105,7 +105,7 @@ public class MyCardActionHandler : ICardActionHandler
 ### <a id="onmediastop"></a> OnMediaStop
 <p style='text-align:right'>Added in version 0.1</p>
 
-``` C#
+```csharp
 void OnMediaStop (BaseCardElement p0, RenderedAdaptiveCard p1)
 ```
 
@@ -118,7 +118,7 @@ Listener called when the media element stops playing.
 
 #### Sample
 
-``` C#
+```csharp
 public class MyCardActionHandler : ICardActionHandler
 {
     public void OnMediaStop(BaseCardElement element, RenderedAdaptiveCard renderedCard)

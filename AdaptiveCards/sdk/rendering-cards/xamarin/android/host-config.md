@@ -12,6 +12,9 @@ To customize the renderer you provide an instance of the HostConfig object. (See
 
 To create a ```HostConfig``` object from a string, use the ```DeserializeFromString``` method like this:
 
-```c#
+```csharp
+using AdaptiveCards.Rendering.Xamarin.Android.ObjectModel;
+// ...
+
 HostConfig Config = HostConfig.DeserializeFromString(configJson);
 ```

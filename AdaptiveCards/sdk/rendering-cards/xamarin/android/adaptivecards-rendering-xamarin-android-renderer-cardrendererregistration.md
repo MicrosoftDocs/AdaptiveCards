@@ -8,12 +8,12 @@ ms.topic: article
 
 # CardRendererRegistration
 
-``` C#
+```csharp
 public class CardRendererRegistration : Java.Lang.Object
 ```
 
 **Namespace**
-``` C#
+```csharp
 namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer.Registration
 ```
 
@@ -30,7 +30,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer.Registration
 ### <a id="registerfeatureregistration"></a> RegisterFeatureRegistration
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public void RegisterFeatureRegistration (FeatureRegistration featureRegistration)
 ```
 
@@ -42,7 +42,7 @@ Registers a [```FeatureRegistration```](adaptivecards-rendering-xamarin-android-
 
 #### Sample
 
-``` C#
+```csharp
 FeatureRegistration featureRegistration = new FeatureRegistration();
 featureRegistration.AddFeature("MyFeature", "1.2.0");
 CardRendererRegistration.Instance.RegisterFeatureRegistration(featureRegistration);

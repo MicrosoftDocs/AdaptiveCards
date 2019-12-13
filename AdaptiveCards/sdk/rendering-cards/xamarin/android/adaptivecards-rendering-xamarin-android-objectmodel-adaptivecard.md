@@ -8,13 +8,13 @@ ms.topic: article
 
 # AdaptiveCard
 
-``` C#
+```csharp
 public class AdaptiveCard : Java.Lang.Object 
 ```
 
 **Namespace**
 
-```C#
+```csharp
 namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
 ```
 
@@ -44,25 +44,25 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
 ---
 
 <a href="#ctor0"><div>
-``` C#
+```csharp
 AdaptiveCard(string version, string fallbackText, BackgroundImage backgroundImage, ContainerStyle style, string speak, string language, VerticalContentAlignment verticalContentAlignment, HeightType height, long minHeight)
 ```
 </div></a>
 
 <a href="#ctor1"><div>
-``` C#
+```csharp
 AdaptiveCard(string version, string fallbackText, BackgroundImage backgroundImage, ContainerStyle style, string speak, string language, VerticalContentAlignment verticalContentAlignment, HeightType height, long minHeight, BaseCardElementVector body, BaseActionElementVector actions)
 ```
 </div></a>
 
 <a href="#ctor2"><div>
-``` C#
+```csharp
 AdaptiveCard(string version, string fallbackText, string backgroundImageUrl, ContainerStyle style, string speak, string language, VerticalContentAlignment verticalContentAlignment, HeightType height, long minHeight)
 ```
 </div></a>
 
 <a href="#ctor3"><div>
-``` C#
+```csharp
 AdaptiveCard(string version, string fallbackText, string backgroundImageUrl, ContainerStyle style, string speak, string language, VerticalContentAlignment verticalContentAlignment, HeightType height, long minHeight, BaseCardElementVector body, BaseActionElementVector actions)
 ```
 </div></a>
@@ -83,7 +83,7 @@ AdaptiveCard(string version, string fallbackText, string backgroundImageUrl, Con
 ### <a id="ctor0"></a> AdaptiveCard
 <p style='text-align:right'>Added in version 0.1</p>
 
-``` C# 
+```csharp
 public AdaptiveCard (string version, 
                     string fallbackText, 
                     BackgroundImage backgroundImage, 
@@ -112,7 +112,7 @@ public AdaptiveCard (string version,
 ### <a id="ctor1"></a> AdaptiveCard
 <p style='text-align:right'>Added in version 0.1</p>
 
-``` C# 
+```csharp
 public AdaptiveCard (string version, 
                     string fallbackText, 
                     BackgroundImage backgroundImage, 
@@ -145,7 +145,7 @@ public AdaptiveCard (string version,
 ### <a id="ctor2"></a> AdaptiveCard
 <p style='text-align:right'>Added in version 0.1</p>
 
-``` C# 
+```csharp
 public AdaptiveCard (string version, 
                     string fallbackText, 
                     string backgroundImageUrl, 
@@ -174,7 +174,7 @@ public AdaptiveCard (string version,
 ### <a id="ctor3"></a> AdaptiveCard
 <p style='text-align:right'>Added in version 0.1</p>
 
-``` C# 
+```csharp
 public AdaptiveCard (string version, 
                     string fallbackText, 
                     string backgroundImageUrl, 
@@ -210,7 +210,7 @@ public AdaptiveCard (string version,
 ### <a id="deserializefromstring0"></a> DeserializeFromString
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public static ParseResult DeserializeFromString (string jsonString, string rendererVersion)
 ```
 
@@ -227,7 +227,7 @@ Deserializes the given adaptive card as a json string for the specified renderer
 
 #### Sample
 
-```C#
+```csharp
 ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveCardRenderer.Version);
 ```
 
@@ -235,7 +235,7 @@ ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveC
 ### <a id="deserializefromstring1"></a> DeserializeFromString
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public static ParseResult DeserializeFromString(string jsonString, string rendererVersion, ParseContext context)
 ```
 
@@ -253,7 +253,7 @@ Deserializes the given adaptive card as a json string for the specified renderer
 
 #### Sample
 
-```C#
+```csharp
 ParseContext parseContext = new ParseContext(elementParserRegistration, actionParserRegistration);
 ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveCardRenderer.Version, parseContext);
 ```
@@ -263,7 +263,7 @@ ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveC
 ### <a id="makefallbacktextcard"></a> MakeFallbackTextCard
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public static AdaptiveCard MakeFallbackTextCard (string fallbackText, string language, string speak)
 ```
 
@@ -281,7 +281,7 @@ Deserializes the given adaptive card as a json string for the specified renderer
 
 #### Sample
 
-```C#
+```csharp
 AdaptiveCard adaptiveCard = AdaptiveCard.MakeFallbackTextCard("This card failed to render", "es", "Unrendereable card");
 ```
 
@@ -290,7 +290,7 @@ AdaptiveCard adaptiveCard = AdaptiveCard.MakeFallbackTextCard("This card failed 
 ### <a id="serialize"></a> Serialize
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public string Serialize ()
 ```
 
@@ -302,7 +302,7 @@ Serializes the adaptive card into it's json string form.
 
 #### Sample
 
-```C#
+```csharp
 string jsonString = parseResult.AdaptiveCard.Serialize();
 ```
 
@@ -311,7 +311,7 @@ string jsonString = parseResult.AdaptiveCard.Serialize();
 ### <a id="serializetojsonvalue"></a> SerializeToJsonValue
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public JsonValue SerializeToJsonValue ()
 ```
 
@@ -323,6 +323,6 @@ Serializes the adaptive card into a json value object.
 
 #### Sample
 
-```C#
+```csharp
 JsonValue value = parseResult.AdaptiveCard.SerializeToJsonValue();
 ```

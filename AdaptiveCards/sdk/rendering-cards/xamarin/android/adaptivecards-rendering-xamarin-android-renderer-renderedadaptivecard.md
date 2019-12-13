@@ -8,13 +8,13 @@ ms.topic: article
 
 # RenderedAdaptiveCard
 
-``` C#
+```csharp
 public class RenderedAdaptiveCard : Java.Lang.Object
 ```
 
 **Namespace**
 
-``` C#
+```csharp
 namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 ```
 
@@ -40,7 +40,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 ### <a id="addwarning"></a> AddWarning
 <p style='text-align:right'>Added in version 0.1</p>
 
-``` C#
+```csharp
 public void AddWarning (AdaptiveWarning warning)
 
 ```

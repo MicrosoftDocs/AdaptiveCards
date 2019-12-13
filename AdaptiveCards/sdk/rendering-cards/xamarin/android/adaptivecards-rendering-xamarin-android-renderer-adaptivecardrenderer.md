@@ -8,12 +8,12 @@ ms.topic: article
 
 # AdaptiveCardRenderer
 
-``` C#
+```csharp
 public class AdaptiveCardRenderer : global::Java.Lang.Object
 ```
 
 **Namespace**
-``` C#
+```csharp
 namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 ```
 
@@ -31,7 +31,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 ### <a id="render0"></a> Render
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 public RenderedAdaptiveCard Render (Context context, 
                                     FragmentManager fragmentManager, 
                                     AdaptiveCard adaptiveCard,
@@ -53,7 +53,7 @@ Renders the specified adaptive card with default values for the host config.
 
 #### Sample
 
-``` C#
+```csharp
 ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveCardRenderer.Version);
 RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.Instance.Render(context, SupportFragmentManager, parseResult.AdaptiveCard, cardActionHandler);
 ```
@@ -63,7 +63,7 @@ RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.Instance.Render(context
 ### <a id="render1"></a> Render
 <p style='text-align:right'>Added in version 0.1.0</p>
 
-``` C#
+```csharp
 RenderedAdaptiveCard Render (Context context, 
                             FragmentManager fragmentManager, 
                             AdaptiveCard adaptiveCard, 
@@ -87,7 +87,7 @@ Renders the specified adaptive card with using the given host config.
 
 #### Sample
 
-``` C#
+```csharp
 ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveCardRenderer.Version);
 RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.Instance.Render(context, SupportFragmentManager, parseResult.AdaptiveCard, cardActionHandler, hostConfig);
 ```
