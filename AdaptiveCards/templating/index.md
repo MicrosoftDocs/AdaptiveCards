@@ -175,7 +175,7 @@ The Templating SDKs make it possible to populate a template with real-data.
 Platform | Install | Documentation
 --- | --- | ---
 JavaScript | `npm install adaptivecards-templating` | [Documentation](https://www.npmjs.com/package/adaptivecards-templating)
-.NET | `nuget install AdaptiveCards.Templating` | [Documentation](https://docs.microsoft.com/en-us/adaptive-cards/templating/sdk#net)
+.NET | `nuget install AdaptiveCards.Templating` | [Documentation](https://docs.microsoft.com/adaptive-cards/templating/sdk#net)
 
 ### JavaScript Example
 

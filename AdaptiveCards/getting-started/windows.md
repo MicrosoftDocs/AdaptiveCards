@@ -16,7 +16,7 @@ The first Windows experience to supports Adaptive Cards is Timeline, a brand new
 
 ### UserActivity API
 
-The [`Windows.ApplicationModel.UserActivities.UserActivity`](https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.useractivities.useractivity) API is what populates an Activity into Timeline.
+The [`Windows.ApplicationModel.UserActivities.UserActivity`](https://docs.microsoft.com/uwp/api/windows.applicationmodel.useractivities.useractivity) API is what populates an Activity into Timeline.
 
 The Adaptive Card will be supplied via the `Content` property of `VisualElement`, as seen below:
 
@@ -32,7 +32,7 @@ await userActivity.SaveAsync();
 
 There is a great 45-min learn module that covers these steps end-to-end.
 
-[Integrate adaptive cards into Windows 10 Timeline](https://docs.microsoft.com/en-us/learn/modules/integrate-app-into-windows-10-timeline/)
+[Integrate adaptive cards into Windows 10 Timeline](https://docs.microsoft.com/learn/modules/integrate-app-into-windows-10-timeline/)
 
 ### Learn more
 
