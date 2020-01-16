@@ -19,8 +19,8 @@ You can now use Adaptive Cards to power your Outlook Actionable Messages, and cr
 ![GitHub Actionable Message](media/outlook/Limeade.jpg)
 
 
-# Ready to start?
+## Ready to start?
 
-- Head over to https://docs.microsoft.com/en-us/outlook/actionable-messages/ which will guide you through the steps of creating your first Actionable Message scenario.
+- Head over to https://docs.microsoft.com/outlook/actionable-messages/ which will guide you through the steps of creating your first Actionable Message scenario.
 - Use the Actionable Message Card Playground tool to see card samples, create your own cards, send them to your own Office 365 account and see them in [Outlook for the Web](https://outlook.office.com).
 - Would you rather not write JSON manually? The [Adaptive Card Designer (preview)](https://acdesignerbeta.azurewebsites.net) lets you create Adaptive Cards without writing a single line of JSON!

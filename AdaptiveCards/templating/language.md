@@ -182,8 +182,9 @@ To assign a "data context" to any element add a `$data` attribute to the element
 
 This part is a bit of "dark magic". Feedback welcome.
 
-* If the objects' `$data` property is set to an **array**, then the **object itself will be repeated for each item in the array.** 
-* As it is being repeated, `$data` used in property bindings are scoped to the **individual item** within the array.
+* If an Adaptive Card element's `$data` property is bound to an **array**, then the **element itself will be repeated for each item in the array.** 
+* Any binding expressions (`{myProperty}`) used in property values will be scoped to the **individual item** within the array.
+* If binding to an array of strings, use `{$data}` to access the individual string element. E.g., `"text": "{$data}"`
 
 For example, the `TextBlock` below will be repeated 3 times since it's `$data` is an array. Notice how the `text` property is bound to the `name` property of an individual object within the array. 
 
