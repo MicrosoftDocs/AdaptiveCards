@@ -30,3 +30,11 @@ renderResult = [ACRRenderer render:cardParseResult.card
                             config:hostconfigParseResult.config
                    widthConstraint:300.0];
 ```
+
+## Customization
+
+There are 3 ways to customize the adaptive card rendering:
+
+1. Host Config
+2. XIB
+3. Custom element rendering
