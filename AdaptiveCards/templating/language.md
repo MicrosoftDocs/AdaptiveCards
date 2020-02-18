@@ -75,7 +75,7 @@ Alternatively (and more likely), you will create a re-usable card "template" wit
 
 ```json
 {
-    "type": "AdaptivCard",
+    "type": "AdaptiveCard",
     "body": [
         {
             "type": "TextBlock",
