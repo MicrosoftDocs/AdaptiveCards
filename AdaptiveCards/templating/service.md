@@ -217,7 +217,7 @@ Notice how the response replaced the text of the first `TextBlock` with `"Megan 
 
 ## Contributing templates
 
-The template service is backed by a GitHub repo (which is currently **private**), but we will open source once we tie up some loose ends.
+The templates are hosted on GitHub in the [adaptivecards-templates](https://github.com/microsoft/adaptivecards-templates) repo.
 
 Our hope is that by using GitHub as a backing store for the templates, we can "democratize" the process of authoring, enhancing, and sharing templates. Anyone can submit a Pull Request that includes an entirely new template, or make enhancements to existing ones... all within the developer-friendly experience of GitHub.
 
@@ -225,6 +225,6 @@ Our hope is that by using GitHub as a backing store for the templates, we can "d
 
 Not all types of data are appropriate for the "central" Adaptive Cards template service hosted at `https://templates.adaptivecards.io`. 
 
-We want to make sure anyone can host the template service within your organization, so the source code will be made available and we'll make it very simple to deploy to Azure or your own back-end.
+We want to make sure anyone can host the template service within your organization, so the source code is available on GitHub and can be easily deployed to your own Azure Function. 
 
-More on this at a later date.
+Get started here ➡ [adaptivecards-templates](https://github.com/microsoft/adaptivecards-templates)
