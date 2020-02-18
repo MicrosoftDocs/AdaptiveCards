@@ -80,7 +80,7 @@ This endpoint tries to find a template by analyzing the structure of your data.
 
 #### Example
 
-Let's say I just hit a [Microsoft Graph](https://graph.microsoft.com) endpoint to get organizational data about me.
+Let's say I access a [Microsoft Graph](https://graph.microsoft.com) endpoint to get organizational data about me.
 
 > `HTTP GET https://graph.microsoft.com/v1.0/me/`
 
