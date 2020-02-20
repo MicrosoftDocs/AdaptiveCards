@@ -8,7 +8,7 @@ ms.topic: article
 
 # Motivations and Principles
 
-Below are the motivations and principles govering the evolution of the Adaptive Card format.
+Below are the motivations and principles governing the evolution of the Adaptive Card format.
 
 ## Motivations behind the format
 
@@ -92,4 +92,4 @@ At the same time, other platforms such as LINE, FaceBook Messenger, Slack and mo
 9.  **SDKs will be provided for the most popular developer platforms**
 
     1.  SDKs make it easy to render Adaptive Card payloads in any host
-    2.  This ensures the barrier to entry is as low as can be both for third party developers and Microsoft teams
+    2.  This ensures the barrier to entry is as low, both for third party developers and Microsoft teams
