@@ -15,8 +15,6 @@ The Adaptive Card Templating SDKs make it easy to populate a [card template](lan
 > [!IMPORTANT] 
 > 
 > These features are **in preview and subject to change**. Your feedback is not only welcome, but  critical to ensure we deliver the features **you** need.
-> 
-> During the initial preview only the JavaScript SDK is available, but a .NET SDK should arrive shortly.
 
 ## JavaScript
 
