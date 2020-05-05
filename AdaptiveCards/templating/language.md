@@ -14,19 +14,27 @@ Templating enables the separation of **data** from **layout** in your Adaptive C
 
 > [!IMPORTANT] 
 > 
-> These features are **in preview and subject to change**. Your feedback is not only welcome, but  critical to ensure we deliver the features **you** need.
+> **Breaking changes** in the **May 2020 Release Candidate**
+>
+> We've been hard at work getting templating released, and we're finally in the home stretch! We had to make some minor breaking changes as we close on the release.
 
-When authoring a template you can specify the data inline with the `AdaptiveCard` payload, or at runtime using the [Templating SDKs](sdk.md).
+## Breaking changes as of May 2020
 
-## Specify data within the card
+1. The binding syntax changed from `{...}` to `${...}`
+    * For Example: `"text": "Hello {name}"` becomes `"text": "Hello ${name}"`
+    
+## Binding to data
 
-To provide data directly within the card payload, simply add a `$data` attribute to your `AdaptiveCard` (seen below).
+When authoring a template you have two options to provide to relevant data.
 
-## Binding to the data
+1. **Option A: Inline with the template payload**. You can provide the data inline with the `AdaptiveCard` template payload. To do so, simply add a `$data` attribute to the root `AdaptiveCard` object.
+2. **Option B: As a separate data object**. with this option you provide two separate objects to the [Templating SDK](sdk.md) at runtime: the template and the data. This will be the more common approach, since typically you will create a template and want to provide dynamic data later.
+
+### Optioan A: Inline data
 
 You can bind to the data within the `body` or `actions` of the card.
 
-* Binding syntax starts with `{` and ends with `}`. E.g., `{myProperty}`
+* Binding syntax starts with `${` and ends with `}`. E.g., `${myProperty}`
 * Dot-notation to access sub-objects
 * Indexer syntax to retrieve properties by key or items in an array
 * Graceful null handling for deep hierarchies
@@ -53,21 +61,21 @@ You can bind to the data within the `body` or `actions` of the card.
     "body": [
         {
             "type": "TextBlock",
-            "text": "Hi {employee.name}! Here's a bit about your org..."
+            "text": "Hi ${employee.name}! Here's a bit about your org..."
         },
         {
             "type": "TextBlock",
-            "text": "Your manager is: {employee.manager.name}"
+            "text": "Your manager is: ${employee.manager.name}"
         },
         {
             "type": "TextBlock",
-            "text": "3 of your peers are: {employee.peers[0].name}, {employee.peers[1].name}, {employee.peers[2].name}"
+            "text": "3 of your peers are: ${employee.peers[0].name}, ${employee.peers[1].name}, ${employee.peers[2].name}"
         }
     ]
 }
 ```
 
-## Separating the template from the data
+### Option B: Separating the template from the data
 
 Alternatively (and more likely), you will create a re-usable card "template" without including the data. This template could be stored as a file and added to source control.
 
@@ -79,15 +87,15 @@ Alternatively (and more likely), you will create a re-usable card "template" wit
     "body": [
         {
             "type": "TextBlock",
-            "text": "Hi {employee.name}! Here's a bit about your org..."
+            "text": "Hi ${employee.name}! Here's a bit about your org..."
         },
         {
             "type": "TextBlock",
-            "text": "Your manager is: {employee.manager.name}"
+            "text": "Your manager is: ${employee.manager.name}"
         },
         {
             "type": "TextBlock",
-            "text": "3 of your peers are: {employee.peers[0].name}, {employee.peers[1].name}, {employee.peers[2].name}"
+            "text": "3 of your peers are: ${employee.peers[0].name}, ${employee.peers[1].name}, ${employee.peers[2].name}"
         }
     ]
 }
@@ -105,24 +113,24 @@ var template = new ACData.Template({
 });
 
 // Specify data at runtime
-var dataContext = new ACData.EvaluationContext();
-dataContext.$root = {
-    "employee": {
-        "name": "Matt",
-        "manager": { "name": "Thomas" },
-        "peers": [{
-            "name": "Andrew" 
-        }, { 
-            "name": "Lei"
-        }, { 
-            "name": "Mary Anne"
-        }, { 
-            "name": "Adam"
-        }]
+var card = template.expand({
+    $root: {
+        "employee": {
+            "name": "Matt",
+            "manager": { "name": "Thomas" },
+            "peers": [{
+                "name": "Andrew" 
+            }, { 
+                "name": "Lei"
+            }, { 
+                "name": "Mary Anne"
+            }, { 
+                "name": "Adam"
+            }]
+        }
     }
-};
+});
 
-var card = template.expand(dataContext);
 // Now you have an AdaptiveCard ready to render!
 ```
 
@@ -135,7 +143,6 @@ The Adaptive Card Designer has been updated to support templating.
 [![image](https://user-images.githubusercontent.com/1432195/53214462-88d46980-3601-11e9-908d-253a1bb940a8.png)](https://adaptivecards.io/designer)
 
 * **Sample Data Editor** - Specify sample data here to view the data-bound card when in "Preview Mode." There is a small button in this pane to populate the Data Structure from the existing sample data.
-* **Data Structure** - This is the structure of your sample data. Fields can be dragged onto the design surface to create a binding to them 
 * **Preview Mode** - Press the toolbar button to toggle between the edit-experience and the sample-data-preview experience
 * **Open Sample** - click this button to open various sample payloads
 
@@ -152,8 +159,7 @@ There are a few reserved keywords to access various binding scopes.
     "{<property>}": "Implicitly binds to `$data.<property>`",
     "$data": "The current data object",
     "$root": "The root data object. Useful when iterating to escape to parent object",
-    "$index": "The current index when iterating",
-    "$host": "Access properties of the host *(not working yet)*"
+    "$index": "The current index when iterating"
 }
 ```
 
@@ -168,11 +174,11 @@ To assign a "data context" to any element add a `$data` attribute to the element
     "items": [
         {
             "type": "TextBlock",
-            "text": "This TextBlock is now scoped directly to 'mySubObject': {mySubObjectProperty}"
+            "text": "This TextBlock is now scoped directly to 'mySubObject': ${mySubObjectProperty}"
         },
         {
             "type": "TextBlock",
-            "text": "To break-out and access the root data, use: {$root}"
+            "text": "To break-out and access the root data, use: ${$root}"
         }
     ]
 }
@@ -183,8 +189,8 @@ To assign a "data context" to any element add a `$data` attribute to the element
 This part is a bit of "dark magic". Feedback welcome.
 
 * If an Adaptive Card element's `$data` property is bound to an **array**, then the **element itself will be repeated for each item in the array.** 
-* Any binding expressions (`{myProperty}`) used in property values will be scoped to the **individual item** within the array.
-* If binding to an array of strings, use `{$data}` to access the individual string element. E.g., `"text": "{$data}"`
+* Any binding expressions (`${myProperty}`) used in property values will be scoped to the **individual item** within the array.
+* If binding to an array of strings, use `${$data}` to access the individual string element. E.g., `"text": "${$data}"`
 
 For example, the `TextBlock` below will be repeated 3 times since it's `$data` is an array. Notice how the `text` property is bound to the `name` property of an individual object within the array. 
 
@@ -199,7 +205,7 @@ For example, the `TextBlock` below will be repeated 3 times since it's `$data` i
                 { "name": "David" }, 
                 { "name": "Thomas" }
             ],
-            "text": "{name}"
+            "text": "${name}"
         }
     ]
 }
@@ -227,27 +233,11 @@ For example, the `TextBlock` below will be repeated 3 times since it's `$data` i
 }
 ```
 
-## Functions
+## Built-in functions
 
-No templating language is complete without some helper functions. We will provide a standard set of functions that work on every SDK. 
+No templating language is complete without a rich suite of helper functions. Adaptive Card Templating is built on top of the [Adaptive Expression Language](https://github.com/microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language) (AEL), which is an open standard for declaraing expressions that can be evaluated on many different platforms. And it's a proper superset of "Logic Apps", so you can use similar syntax as Power Automate, etc.
 
-The syntax here is still up in the air so please check back soon, but here's a start of what we're planning:
-
-### String functions
-
-* substr
-* indexOf *(not working yet)*
-* toUpper *(not working yet)*
-* toLower *(not working yet)*
-
-### Number functions
-
-* Formatting (currency, decimal, etc) *(not working yet)*
-
-### Date functions
-
-* Parsing well-known date string formats *(not working yet)*
-* Formatting for well-known date/time representations *(not working yet)*
+Check out the full list of [Adaptive Expression Language Pre-built functions](https://github.com/microsoft/BotBuilder-Samples/blob/master/experimental/common-expression-language/prebuilt-functions.md).
 
 ### Conditional functions
 
@@ -318,13 +308,13 @@ To drop an entire element if a condition is met, use the `$when` property. If `$
     "body": [
         {
             "type": "TextBlock",
-            "$when": "{price > 30}",
+            "$when": "${price > 30}",
             "text": "This thing is pricy!",
             "color": "attention",
         },
          {
             "type": "TextBlock",
-            "$when": "{price <= 30}",
+            "$when": "${price <= 30}",
             "text": "Dang, this thing is cheap!",
             "color": "good"
         }
