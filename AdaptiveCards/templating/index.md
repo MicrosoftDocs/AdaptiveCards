@@ -12,7 +12,16 @@ We're excited to share a preview of new tools that will help you **create**, **r
 
 > [!IMPORTANT] 
 > 
-> These features are **in preview and subject to change**. Your feedback is not only welcome, but  critical to ensure we deliver the features **you** need.
+> **Breaking changes** in the **May 2020 Release Candidate**
+>
+> We've been hard at work getting templating released, and we're finally in the home stretch! We had to make some minor breaking changes as we close on the release.
+
+## Breaking changes as of May 2020
+
+1. The binding syntax changed from `{...}` to `${...}`. 
+    * For Example: `"text": "Hello {name}"` becomes `"text": "Hello ${name}"`
+2. The JavaScript API no longer contains an `EvaluationContext` object. Simply pass your data to the `expand` function. Please see the [SDK page](sdk.md) for full details.
+3. The .NET API was redesigned to more closely match the JavaScript API. Please see the [SDK page](sdk.md) for full details.
 
 ## How can templating help you?
 
@@ -80,7 +89,7 @@ Paste the example below into the **Card Payload Editor** pane:
                     "items": [
                         {
                             "type": "Image",
-                            "url": "{photo}",
+                            "url": "${photo}",
                             "altText": "Profile picture",
                             "size": "Small",
                             "style": "Person"
@@ -93,7 +102,7 @@ Paste the example below into the **Card Payload Editor** pane:
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "Hi {name}!",
+                            "text": "Hi ${name}!",
                             "size": "Medium"
                         },
                         {
@@ -107,7 +116,7 @@ Paste the example below into the **Card Payload Editor** pane:
         },
         {
             "type": "TextBlock",
-            "text": "Your manager is: **{manager.name}**"
+            "text": "Your manager is: **${manager.name}**"
         },
         {
             "type": "TextBlock",
@@ -117,9 +126,9 @@ Paste the example below into the **Card Payload Editor** pane:
             "type": "FactSet",
             "facts": [
                 {
-                    "$data": "{peers}",
-                    "title": "{name}",
-                    "value": "{title}"
+                    "$data": "${peers}",
+                    "title": "${name}",
+                    "value": "${title}"
                 }
             ]
         }
@@ -170,7 +179,7 @@ The Templating SDKs make it possible to populate a template with real-data.
 
 > [!NOTE]
 >
-> During the initial preview we only have a limited set of SDKs available. When we release there will be templating libraries for every supported Adaptive Cards platform.
+> At this time templating is targeted primarily for "backend" platforms (.NET and NodeJS). Over time we will release templating SDKs for all remaining Adaptive Cards platform, like iOS, Android, UWP, etc.
 
 Platform | Install | Documentation
 --- | --- | ---
@@ -186,12 +195,11 @@ var template = new ACData.Template({
     // EmployeeCardTemplate goes here
 });
 
-var dataContext = new ACData.EvaluationContext();
-dataContext.$root = {
-    // Data goes here
-};
-
-var card = template.expand(dataContext);
+var card = template.expand({
+    $root: {
+        // Your data goes here
+    }
+});
 // Now you have an AdaptiveCard ready to render!
 ```
 
@@ -215,4 +223,3 @@ All templates are flat JSON files stored in a GitHub repo so anyone can contribu
 
 Templating and the separation of presentation from data takes us a whole lot closer toward our mission: "an ecosystem for exchanging card content in a common and consistent way".
 
-We're eager to share more as soon as we can. In the meantime please give feedback here, [GitHub](https://github.com/microsoft/AdaptiveCards), or Twitter **[@MattHidinger](https://twitter.com/matthidinger)**/**#AdaptiveCards**. 
