@@ -91,26 +91,44 @@ Import the library
 using AdaptiveCards.Templating
 ```
 
-Use the templating engine by passing in your template JSON and data JSON.
-
 ```cs
 var templateJson = @"
 {
     ""type"": ""AdaptiveCard"",
-    ""version"": ""1.0"",
+    ""version"": ""1.2"",
     ""body"": [
         {
             ""type"": ""TextBlock"",
-            ""text"": ""Hello {name}""
+            ""text"": ""Hello ${name}!""
         }
     ]
 }";
 
-var dataJson = @"
-{
-    ""name"": ""Mickey Mouse""
+var dataJson = @"{
+    ""person"": { 
+        ""name"": ""Mickey Mouse""
+    }
 }";
 
-var transformer = new AdaptiveTransformer();
-var cardJson = transformer.Transform(templateJson, dataJson);
+// Create a Template instance from the template payload
+AdaptiveCardTemplate template = new AdaptiveCardTemplate(jsonTemplate);
+
+// Create a data binding context, and set its $root property to the
+// data object to bind the template to
+var context = new EvaluationContext
+{
+    Root = dataJson 
+};
+
+
+// "Expand" the template - this generates the final Adaptive Card,
+string cardJson = template.Expand(context);
+
+AdaptiveCardParseResult parseResult = AdaptiveCard.FromJson(cardJson);
+
+// ready to render
+AdaptiveCard card = parseResult.Card;
+
+// Render the card
+RenderedAdaptiveCard renderedCard = Renderer.RenderCard(card);
 ```
