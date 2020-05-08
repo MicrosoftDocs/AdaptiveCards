@@ -85,6 +85,7 @@ dotnet add package AdaptiveCards.Templating --version 0.1.0-alpha1
 >
 > Consider changing the version above to the latest published version
 
+### Usage
 Import the library 
 
 ```cs
@@ -123,7 +124,15 @@ var context = new EvaluationContext
 
 // "Expand" the template - this generates the final Adaptive Card,
 string cardJson = template.Expand(context);
+```
 
+Alternatively, an object or a string in json format can be directly called with Expand method
+```cs
+// without creating the context, expand using dataJson directly
+string cardJson = template.Expand(dataJson);
+```
+
+```cs
 AdaptiveCardParseResult parseResult = AdaptiveCard.FromJson(cardJson);
 
 // ready to render
@@ -131,4 +140,58 @@ AdaptiveCard card = parseResult.Card;
 
 // Render the card
 RenderedAdaptiveCard renderedCard = Renderer.RenderCard(card);
+```
+
+### Custom Function
+Custom functions can be added to Adaptive Expression Library in addition to the prebuilt functions.
+
+In the below example, stringFormat custom function is added, and the funtion is used to format a string.
+```cs
+string jsonTemplate = @"{
+    ""type"": ""AdaptiveCard"",
+    ""version"": ""1.0"",
+    ""body"": [{
+        ""type"": ""TextBlock"",
+        ""text"": ""${stringFormat(strings.myName, person.firstName, person.lastName)}""
+    }]
+}";
+
+string jsonData = @"{
+    ""strings"": {
+        ""myName"": ""My name is {0} {1}""
+    },
+    ""person"": {
+        ""firstName"": ""Andrew"",
+        ""lastName"": ""Leader""
+    }
+}";
+
+AdaptiveCardTemplate template = new AdaptiveCardTemplate(jsonTemplate);
+
+var context = new EvaluationContext
+{
+    Root = jsonData
+};
+
+// a custom function is added
+Expression.Functions.Add("stringFormat", (args) =>
+{
+    string formattedString = "";
+
+    // argument is packed in sequential order as defined in the template
+    // For example, suppose we have "${stringFormat(strings.myName, person.firstName, person.lastName)}"
+    // args will have following entries
+    // args[0]: strings.myName
+    // args[1]: person.firstName
+    // args[2]: strings.lastName
+    if (args[0] != null && args[1] != null && args[2] != null) 
+    {
+        string formatString = args[0];
+        string[] stringArguments = {args[1], args[2] };
+        formattedString = string.Format(formatString, stringArguments);
+    }
+    return formattedString;
+});
+
+string cardJson = template.Expand(context);
 ```
