@@ -36,7 +36,7 @@ There is a great 45-min learn module that covers these steps end-to-end.
 
 ### Learn more
 
-This session at Build 2017 covers User Activities in detial.
+This session at Build 2017 covers User Activities in detail.
 
 <iframe src="https://channel9.msdn.com/Events/Build/2017/B8108/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
