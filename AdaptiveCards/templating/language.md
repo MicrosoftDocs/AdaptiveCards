@@ -254,7 +254,7 @@ Check out the full list of [Adaptive Expression Language Pre-built functions](ht
 
 * json(*jsonString*) - Parse a JSON string
 
-** `json` example**
+**`json` example**
 
 This is an Azure DevOps response where the `message` property is a JSON-serialized string. In order to access values within the string, we need to use the `json` function in our template.
 
