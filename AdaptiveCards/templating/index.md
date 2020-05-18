@@ -6,7 +6,7 @@ ms.date: 05/18/2020
 ms.topic: article
 ---
 
-# Adaptive Cards Templating (Preview)
+# Adaptive Cards Templating
 
 We're excited to share a preview of new tools that will help you **create**, **reuse**, and **share** Adaptive Cards. 
 
