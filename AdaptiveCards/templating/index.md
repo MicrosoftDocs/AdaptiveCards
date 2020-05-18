@@ -55,7 +55,7 @@ It's comprised of 3 major components:
 
 ## Template Language
 
-The template langauge is the syntax used to author an Adaptive Card template. 
+The template language is the syntax used to author an Adaptive Card template. 
 
 > [!NOTE]
 > 
