@@ -2,7 +2,7 @@
 title:  Templating SDKs
 author: matthidinger
 ms.author: mahiding
-ms.date: 08/01/2019
+ms.date: 05/15/2020
 ms.topic: article
 ---
 
@@ -14,7 +14,16 @@ The Adaptive Card Templating SDKs make it easy to populate a [card template](lan
 
 > [!IMPORTANT] 
 > 
-> These features are **in preview and subject to change**. Your feedback is not only welcome, but  critical to ensure we deliver the features **you** need.
+> **Breaking changes** in the **May 2020 Release Candidate**
+>
+> We've been hard at work getting templating released, and we're finally in the home stretch! We had to make some minor breaking changes as we close on the release.
+
+## Breaking changes as of May 2020
+
+1. The binding syntax changed from `{...}` to `${...}`. 
+    * For Example: `"text": "Hello {name}"` becomes `"text": "Hello ${name}"`
+2. The JavaScript API no longer contains an `EvaluationContext` object. Simply pass your data to the `expand` function. Please see the [SDK page](sdk.md) for full details.
+3. The .NET API was redesigned to more closely match the JavaScript API. Please below for full details.
 
 ## JavaScript
 
@@ -77,19 +86,17 @@ var htmlElement = adaptiveCard.render();
 
 ## .NET 
 
+[![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Templating.svg)](https://www.nuget.org/packages/AdaptiveCards.Templating)
+
 ```console
-dotnet add package AdaptiveCards.Templating --version 0.1.0-alpha1
+dotnet add package AdaptiveCards.Templating
 ```
 
-> [!NOTE]
->
-> Consider changing the version above to the latest published version
-
 ### Usage
-Import the library 
 
 ```cs
-using AdaptiveCards.Templating
+// Import the library 
+using AdaptiveCards.Templating;
 ```
 
 ```cs
@@ -105,44 +112,21 @@ var templateJson = @"
     ]
 }";
 
-var dataJson = @"{
-    ""person"": { 
-        ""name"": ""Mickey Mouse""
-    }
-}";
-
 // Create a Template instance from the template payload
-AdaptiveCardTemplate template = new AdaptiveCardTemplate(jsonTemplate);
+AdaptiveCardTemplate template = new AdaptiveCardTemplate(templateJson);
 
-// Create a data binding context, and set its $root property to the
-// data object to bind the template to
-var context = new EvaluationContext
+// You can use any serializable object as your data
+var myData = new
 {
-    Root = dataJson 
+    Name = "Matt Hidinger"
 };
 
-
-// "Expand" the template - this generates the final Adaptive Card,
-string cardJson = template.Expand(context);
+// "Expand" the template - this generates the final Adaptive Card payload
+string cardJson = template.Expand(myData);
 ```
 
-Alternatively, an object or a string in json format can be directly called with Expand method
-```cs
-// without creating the context, expand using dataJson directly
-string cardJson = template.Expand(dataJson);
-```
+### Custom Functions
 
-```cs
-AdaptiveCardParseResult parseResult = AdaptiveCard.FromJson(cardJson);
-
-// ready to render
-AdaptiveCard card = parseResult.Card;
-
-// Render the card
-RenderedAdaptiveCard renderedCard = Renderer.RenderCard(card);
-```
-
-### Custom Function
 Custom functions can be added to Adaptive Expression Library in addition to the prebuilt functions.
 
 In the below example, stringFormat custom function is added, and the funtion is used to format a string.
@@ -174,7 +158,7 @@ var context = new EvaluationContext
 };
 
 // a custom function is added
-Expression.Functions.Add("stringFormat", (args) =>
+AdaptiveExpressions.Expression.Functions.Add("stringFormat", (args) =>
 {
     string formattedString = "";
 
