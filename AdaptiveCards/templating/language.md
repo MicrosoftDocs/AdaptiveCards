@@ -2,7 +2,7 @@
 title:  Adaptive Cards Template Language
 author: matthidinger
 ms.author: mahiding
-ms.date: 08/01/2019
+ms.date: 05/18/2020
 ms.topic: article
 ---
 
@@ -152,8 +152,6 @@ The Adaptive Card Designer has been updated to support templating.
 
 There are a few reserved keywords to access various binding scopes. 
 
-*Note:* not all of these are implemented in the preview.
-
 ```json
 {
     "{<property>}": "Implicitly binds to `$data.<property>`",
@@ -170,7 +168,7 @@ To assign a "data context" to any element add a `$data` attribute to the element
 ```json
 {
     "type": "Container",
-    "$data": "{mySubObject}",
+    "$data": "${mySubObject}",
     "items": [
         {
             "type": "TextBlock",
@@ -185,8 +183,6 @@ To assign a "data context" to any element add a `$data` attribute to the element
 ```
 
 ## Repeating items in an array
-
-This part is a bit of "dark magic". Feedback welcome.
 
 * If an Adaptive Card element's `$data` property is bound to an **array**, then the **element itself will be repeated for each item in the array.** 
 * Any binding expressions (`${myProperty}`) used in property values will be scoped to the **individual item** within the array.
@@ -235,11 +231,13 @@ For example, the `TextBlock` below will be repeated 3 times since it's `$data` i
 
 ## Built-in functions
 
-No templating language is complete without a rich suite of helper functions. Adaptive Card Templating is built on top of the [Adaptive Expression Language](https://github.com/microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language) (AEL), which is an open standard for declaraing expressions that can be evaluated on many different platforms. And it's a proper superset of "Logic Apps", so you can use similar syntax as Power Automate, etc.
+No templating language is complete without a rich suite of helper functions. Adaptive Card Templating is built on top of the [Adaptive Expression Language](https://aka.ms/adaptive-expressions) (AEL), which is an open standard for declaring expressions that can be evaluated on many different platforms. And it's a proper superset of "Logic Apps", so you can use similar syntax as Power Automate, etc.
+
+**This is just a small sampling of the built-in functions.**
 
 Check out the full list of [Adaptive Expression Language Pre-built functions](https://github.com/microsoft/BotBuilder-Samples/blob/master/experimental/common-expression-language/prebuilt-functions.md).
 
-### Conditional functions
+### Conditional evaluation
 
 * if(*expression*, *trueValue*, *falseValue*)
 
@@ -248,17 +246,17 @@ Check out the full list of [Adaptive Expression Language Pre-built functions](ht
 ```json
 {
     "type": "TextBlock",
-    "color": "{if(priceChange >= 0, 'good', 'attention')}"
+    "color": "${if(priceChange >= 0, 'good', 'attention')}"
 }
 ```
 
-### Data manipulation
+### Parsing JSON
 
-* JSON.parse - ability to parse a JSON string 
+* json(*jsonString*) - Parse a JSON string
 
-**`JSON.parse` example**
+** `json` example**
 
-This is an Azure DevOps response where the `message` property is a JSON-serialized string. In order to access values within the string, we need to use the `JSON.parse` function in our template.
+This is an Azure DevOps response where the `message` property is a JSON-serialized string. In order to access values within the string, we need to use the `json` function in our template.
 
 **Data** 
 
@@ -278,7 +276,7 @@ This is an Azure DevOps response where the `message` property is a JSON-serializ
 ```json
 {
     "type": "TextBlock",
-    "text": "{JSON.parse(message).releaseName}"
+    "text": "${json(message).releaseName}"
 }
 ```
 
@@ -293,7 +291,7 @@ This is an Azure DevOps response where the `message` property is a JSON-serializ
 
 ### Custom functions
 
-We want to make sure Hosts can add custom functions, which means we need robust support for fallback support if a function isn't supported. We are still evaluating this.
+Custom functions are supported via APIs in the [Templating SDKs](sdk.md). 
 
 ## Conditional layout
 
@@ -325,7 +323,6 @@ To drop an entire element if a condition is met, use the `$when` property. If `$
 ### Composing templates
 
 Currently there is no support for composing template "parts" together. But we are exploring options and hope to share more soon. Any thoughts here welcome!
-
 
 ## Examples
 
