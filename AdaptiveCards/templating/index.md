@@ -181,10 +181,10 @@ The Templating SDKs make it possible to populate a template with real-data.
 >
 > At this time templating is targeted primarily for "backend" platforms (.NET and NodeJS). Over time we will release templating SDKs for all remaining Adaptive Cards platform, like iOS, Android, UWP, etc.
 
-Platform | Install | Documentation
---- | --- | ---
-JavaScript | `npm install adaptivecards-templating` | [Documentation](https://www.npmjs.com/package/adaptivecards-templating)
-.NET | `nuget install AdaptiveCards.Templating` | [Documentation](https://docs.microsoft.com/adaptive-cards/templating/sdk#net)
+Platform | Package | Install | Documentation
+--- | --- | --- | ---
+JavaScript | [![npm install](https://img.shields.io/npm/v/adaptivecards-templating.svg)](https://www.npmjs.com/package/adaptivecards-templating) | `npm install adaptivecards-templating` | [Documentation](https://www.npmjs.com/package/adaptivecards-templating)
+.NET | [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Templating.svg)](https://www.nuget.org/packages/AdaptiveCards.Templating) | `dotnet add package AdaptiveCards.Templating` | [Documentation](https://docs.microsoft.com/adaptive-cards/templating/sdk#net)
 
 ### JavaScript Example
 
@@ -221,5 +221,4 @@ All templates are flat JSON files stored in a GitHub repo so anyone can contribu
 
 ## What's next and sending feedback
 
-Templating and the separation of presentation from data takes us a whole lot closer toward our mission: "an ecosystem for exchanging card content in a common and consistent way".
-
+Templating and the separation of presentation from data takes us a whole lot closer toward our mission: "an ecosystem standardized content exchange between apps and services". We've got plenty to deliver in this area, so stay tuned and let us know how it's working for you on [GitHub](https://github.com/Microsoft/AdaptiveCards/issues)!
