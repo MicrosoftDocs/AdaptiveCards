@@ -25,20 +25,40 @@ Templating enables the separation of **data** from **layout** in your Adaptive C
     
 ## Binding to data
 
-When authoring a template you have two options to provide to relevant data.
+Writing a template is as simple as replacing the "non-static" content of your card with "binding expressions".
 
-1. **Option A: Inline with the template payload**. You can provide the data inline with the `AdaptiveCard` template payload. To do so, simply add a `$data` attribute to the root `AdaptiveCard` object.
-2. **Option B: As a separate data object**. with this option you provide two separate objects to the [Templating SDK](sdk.md) at runtime: the template and the data. This will be the more common approach, since typically you will create a template and want to provide dynamic data later.
+### Static card payload
 
-### Optioan A: Inline data
+```json
+{
+   "type": "TextBlock",
+   "text": "Matt"
+}
+```
 
-You can bind to the data within the `body` or `actions` of the card.
+### Template payload
 
-* Binding syntax starts with `${` and ends with `}`. E.g., `${myProperty}`
-* Dot-notation to access sub-objects
-* Indexer syntax to retrieve properties by key or items in an array
-* Graceful null handling for deep hierarchies
-* *Escape syntax documentation to come soon*
+```json
+{
+   "type": "TextBlock",
+   "text": "${firstName}"
+}
+```
+
+* Binding expressions can be placed just about anywhere that static content can be
+* The binding syntax starts with `${` and ends with `}`. E.g., `${myProperty}`
+* Use *Dot-notation* to access sub-objects of an object hierarchy. E.g., `${myParent.myChild}`
+* Graceful null handling ensures you won't get exceptions if you access a null property in an object graph
+* Use *Indexer syntax* to retrieve properties by key or items in an array. E.g., `${myArray[0]}`
+
+## Providing the data
+
+Now that you have a template, you'll want to provide the data that makes it complete. You have two options to do this:
+
+1. **Option A: Inline within the template payload**. You can provide the data inline within the `AdaptiveCard` template payload. To do so, simply add a `$data` attribute to the root `AdaptiveCard` object.
+2. **Option B: As a separate data object**. With this option you provide two separate objects to the [Templating SDK](sdk.md) at runtime: the `template` and the `data`. This will be the more common approach, since typically you will create a template and want to provide dynamic data later.
+
+### Option A: Inline data
 
 ```json
 {
@@ -154,7 +174,7 @@ There are a few reserved keywords to access various binding scopes.
 
 ```json
 {
-    "{<property>}": "Implicitly binds to `$data.<property>`",
+    "${<property>}": "Implicitly binds to `$data.<property>`",
     "$data": "The current data object",
     "$root": "The root data object. Useful when iterating to escape to parent object",
     "$index": "The current index when iterating"
@@ -235,7 +255,7 @@ No templating language is complete without a rich suite of helper functions. Ada
 
 **This is just a small sampling of the built-in functions.**
 
-Check out the full list of [Adaptive Expression Language Pre-built functions](https://github.com/microsoft/BotBuilder-Samples/blob/master/experimental/common-expression-language/prebuilt-functions.md).
+Check out the full list of [Adaptive Expression Language Pre-built functions](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-adaptive-expressions?view=azure-bot-service-4.0).
 
 ### Conditional evaluation
 
@@ -293,7 +313,7 @@ This is an Azure DevOps response where the `message` property is a JSON-serializ
 
 Custom functions are supported via APIs in the [Templating SDKs](sdk.md). 
 
-## Conditional layout
+## Conditional layout with `$when`
 
 To drop an entire element if a condition is met, use the `$when` property. If `$when` evaluates to `false` the element will not appear to the user.
 
