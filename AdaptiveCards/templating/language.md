@@ -97,7 +97,7 @@ Now that you have a template, you'll want to provide the data that makes it comp
 
 ### Option B: Separating the template from the data
 
-Alternatively (and more likely), you will create a re-usable card "template" without including the data. This template could be stored as a file and added to source control.
+Alternatively (and more likely), you'll create a re-usable card template without including the data. This template could be stored as a file and added to source control.
 
 **EmployeeCardTemplate.json**
 
