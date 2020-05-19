@@ -16,6 +16,7 @@ We're excited to share a preview of new tools that will help you **create**, **r
 >
 > The templating release candidate includes some minor breaking changes that you should be aware of if you've been using the older packages. See below for details.
 
+
 ## Breaking changes as of May 2020
 
 1. The binding syntax changed from `{...}` to `${...}`. 
