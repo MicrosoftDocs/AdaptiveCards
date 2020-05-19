@@ -181,7 +181,10 @@ string cardJson = template.Expand(context);
 ```
 
 ### Troubleshooting
-When encounterred with following error messages:
-* '${LineItem}' at line, '8' is **malformed for '$data : ' pair**". <p>Please ensure that value provided for "$data" is valid json such as number, boolean, object, and array, or follows correct syntax for Adaptive Template language,  and the entry exists in the data context at the line number.</p> 
+Q. Why am I running into an AdaptiveTemplateException calling ```expand()```?   
+A. If your error message looks like '\<offending item>' at line, '\<line number>' is **malformed for '$data : ' pair**".   
+Please ensure that value provided for "$data" is valid json such as number, boolean, object, and array, or follows correct syntax for Adaptive Template language,  and the entry exists in the data context at the line number. Please note that ${LineItem} and '8' can change.
 
-* "**Check if parent data context is set, or please enter a non-null value for** '${LineItems}' at line, '8'". <p>It indicates that there doesn't exist data context for the requested data binding. Please ensure that root data context is set, if exists, ensure that any data context is available for current binding as indicated by the line number.</p>
+Q. Why am I running into an ArgumentNullException calling ```expand()```?   
+A. If your error message looks like" **Check if parent data context is set, or please enter a non-null value for** '\<offending item>' at line, '\<line number>'".   
+It indicates that there doesn't exist data context for the requested data binding. Please ensure that root data context is set, if exists, ensure that any data context is available for current binding as indicated by the line number.
