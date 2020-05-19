@@ -276,11 +276,11 @@ public class OnlineImageLoader implements IOnlineImageLoader
     @Override
     public HttpRequestResult<Bitmap> loadOnlineImage(String url, GenericImageLoaderAsync loader) throws IOException, URISyntaxException
     {
-        String catImnageUri = "http://adaptivecards.io/content/cats/1.png";
-        byte[] bytes = HttpRequestHelper.get(catImnageUri);
+        String catImageUri = "http://adaptivecards.io/content/cats/1.png";
+        byte[] bytes = HttpRequestHelper.get(catImageUri);
         if (bytes == null)
         {
-            throw new IOException("Failed to retrieve content from " + catImnageUri);
+            throw new IOException("Failed to retrieve content from " + catImageUri);
         }
 
         Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);

@@ -2,19 +2,28 @@
 title:  Templating Overview
 author: matthidinger
 ms.author: mahiding
-ms.date: 07/29/2019
+ms.date: 05/18/2020
 ms.topic: article
 ---
 
-# Adaptive Cards Templating (Preview)
+# Adaptive Cards Templating
 
 We're excited to share a preview of new tools that will help you **create**, **reuse**, and **share** Adaptive Cards. 
 
 > [!IMPORTANT] 
 > 
-> These features are **in preview and subject to change**. Your feedback is not only welcome, but  critical to ensure we deliver the features **you** need.
+> **Breaking changes** in the **May 2020 Release Candidate**
+>
+> The new templating release candidate package includes some minor breaking changes that you should be aware of if you've been using the older packages. Troubleshoot common migration or usage issues in the [Troubleshooting section below](Add link to the section here).
 
-## How can templating help you?
+## Breaking changes as of May 2020
+
+1. The binding syntax changed from `{...}` to `${...}`. 
+    * For Example: `"text": "Hello {name}"` becomes `"text": "Hello ${name}"`
+2. The JavaScript API no longer contains an `EvaluationContext` object. Simply pass your data to the `expand` function. Please see the [SDK page](sdk.md) for full details.
+3. The .NET API was redesigned to more closely match the JavaScript API. Please see the [SDK page](sdk.md) for full details.
+
+## How can templating help you
 
 Templating enables the separation of **data** from the **layout** in an Adaptive Card. 
 
@@ -46,7 +55,7 @@ It's comprised of 3 major components:
 
 ## Template Language
 
-The template langauge is the syntax used to author an Adaptive Card template. 
+The template language is the syntax used to author an Adaptive Card template. 
 
 > [!NOTE]
 > 
@@ -80,7 +89,7 @@ Paste the example below into the **Card Payload Editor** pane:
                     "items": [
                         {
                             "type": "Image",
-                            "url": "{photo}",
+                            "url": "${photo}",
                             "altText": "Profile picture",
                             "size": "Small",
                             "style": "Person"
@@ -93,7 +102,7 @@ Paste the example below into the **Card Payload Editor** pane:
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "Hi {name}!",
+                            "text": "Hi ${name}!",
                             "size": "Medium"
                         },
                         {
@@ -107,7 +116,7 @@ Paste the example below into the **Card Payload Editor** pane:
         },
         {
             "type": "TextBlock",
-            "text": "Your manager is: **{manager.name}**"
+            "text": "Your manager is: **${manager.name}**"
         },
         {
             "type": "TextBlock",
@@ -117,9 +126,9 @@ Paste the example below into the **Card Payload Editor** pane:
             "type": "FactSet",
             "facts": [
                 {
-                    "$data": "{peers}",
-                    "title": "{name}",
-                    "value": "{title}"
+                    "$data": "${peers}",
+                    "title": "${name}",
+                    "value": "${title}"
                 }
             ]
         }
@@ -170,12 +179,12 @@ The Templating SDKs make it possible to populate a template with real-data.
 
 > [!NOTE]
 >
-> During the initial preview we only have a limited set of SDKs available. When we release there will be templating libraries for every supported Adaptive Cards platform.
+> At this time templating SDKs are available for .NET and NodeJS. Over time we will release templating SDKs for all remaining Adaptive Cards platform, like iOS, Android, UWP, etc.
 
-Platform | Install | Documentation
---- | --- | ---
-JavaScript | `npm install adaptivecards-templating` | [Documentation](https://www.npmjs.com/package/adaptivecards-templating)
-.NET | `nuget install AdaptiveCards.Templating` | [Documentation](https://docs.microsoft.com/adaptive-cards/templating/sdk#net)
+Platform | Package | Install | Documentation
+--- | --- | --- | ---
+JavaScript | [![npm install](https://img.shields.io/npm/v/adaptivecards-templating.svg)](https://www.npmjs.com/package/adaptivecards-templating) | `npm install adaptivecards-templating` | [Documentation](https://www.npmjs.com/package/adaptivecards-templating)
+.NET | [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Templating.svg)](https://www.nuget.org/packages/AdaptiveCards.Templating) | `dotnet add package AdaptiveCards.Templating` | [Documentation](https://docs.microsoft.com/adaptive-cards/templating/sdk#net)
 
 ### JavaScript Example
 
@@ -186,12 +195,11 @@ var template = new ACData.Template({
     // EmployeeCardTemplate goes here
 });
 
-var dataContext = new ACData.EvaluationContext();
-dataContext.$root = {
-    // Data goes here
-};
-
-var card = template.expand(dataContext);
+var card = template.expand({
+    $root: {
+        // Your data goes here
+    }
+});
 // Now you have an AdaptiveCard ready to render!
 ```
 
@@ -213,6 +221,4 @@ All templates are flat JSON files stored in a GitHub repo so anyone can contribu
 
 ## What's next and sending feedback
 
-Templating and the separation of presentation from data takes us a whole lot closer toward our mission: "an ecosystem for exchanging card content in a common and consistent way".
-
-We're eager to share more as soon as we can. In the meantime please give feedback here, [GitHub](https://github.com/microsoft/AdaptiveCards), or Twitter **[@MattHidinger](https://twitter.com/matthidinger)**/**#AdaptiveCards**. 
+Templating and the separation of presentation from data takes us a whole lot closer toward our mission: "an ecosystem standardized content exchange between apps and services". We've got plenty to deliver in this area, so stay tuned and let us know how it's working for you on [GitHub](https://github.com/Microsoft/AdaptiveCards/issues)!

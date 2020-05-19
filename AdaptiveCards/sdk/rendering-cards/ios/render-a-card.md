@@ -20,8 +20,8 @@ NSString *jsonStr = @"{ \"type\": \"AdaptiveCard\", \"version\": \"1.0\", \"body
 ACOAdaptiveCardParseResult *cardParseResult = [ACOAdaptiveCard fromJson:jsonStr];
 
 /// access for parse warnings and errors
-NSArray<NSError *> errors = cardParseResult.parseErrors;
-NSArray<ACRParseWarning *> warnings = cardPraseResult.parseWarnings;
+NSArray<NSError *> *errors = cardParseResult.parseErrors;
+NSArray<ACRParseWarning *> *warnings = cardParseResult.parseWarnings;
 ```
 
 ## Render a Card
@@ -31,7 +31,7 @@ Returned UIView uses autolayout. Width will be constraint to the value set by wi
 Height is not bound, and when returned it will have the height of sums of all contents rendered. To bound the view dimension, please use NSLayoutConstraint. The exact dimension is accessible from the context of viewDidLayoutSubview of its superview's viewcontroller or its method with the same name if ACRViewController is used.
 
 ```objective-c
-ACRRenderResult *renderResult;
+ACRRenderResult *renderResult = nil;
 if(cardParseResult.isValid){
     renderResult = [ACRRenderer render:cardParseResult.card config:nil widthConstraint:335];
 }
@@ -55,7 +55,7 @@ ViewController.m
     [super viewDidLoad];
 
     NSString *jsonStr = @"{ \"type\": \"AdaptiveCard\", \"version\": \"1.0\", \"body\": [ { \"type\": \"Image\", \"url\": \"http://adaptivecards.io/content/adaptive-card-50.png\", \"horizontalAlignment\":\"center\" }, { \"type\": \"TextBlock\", \"horizontalAlignment\":\"center\", \"text\": \"Hello **Adaptive Cards!**\" } ], \"actions\": [ { \"type\": \"Action.OpenUrl\", \"title\": \"Learn more\", \"url\": \"http://adaptivecards.io\" }, { \"type\": \"Action.OpenUrl\", \"title\": \"GitHub\", \"url\": \"http://github.com/Microsoft/AdaptiveCards\" } ] }";
-    ACRRenderResult *renderResult;
+    ACRRenderResult *renderResult = nil;
     ACOAdaptiveCardParseResult *cardParseResult = [ACOAdaptiveCard fromJson:jsonStr];
     if(cardParseResult.isValid){
         renderResult = [ACRRenderer render:cardParseResult.card config:nil widthConstraint:335];

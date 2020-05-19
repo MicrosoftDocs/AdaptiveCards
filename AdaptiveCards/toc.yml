@@ -40,7 +40,7 @@
     href: sdk/rendering-cards/toc.yml
   - name: Designer SDK
     href: sdk/designer.md
-- name: Templating (Preview)
+- name: Templating
   items:
   - name: Overview
     href: templating/index.md

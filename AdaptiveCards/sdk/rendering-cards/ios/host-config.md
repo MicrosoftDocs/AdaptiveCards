@@ -22,7 +22,7 @@ ACOHostConfig *defaultConfig = [[ACHostConfig alloc] init];
 
 ## Render a card using host config
 
-Rederer takes adaptive card and host config. HostConfig can be nil, and if nil, default value will be used.
+Renderer takes adaptive card and host config. HostConfig can be nil, and if nil, default value will be used.
 
 ```objective-c
 ACRRenderResult *renderResult;
