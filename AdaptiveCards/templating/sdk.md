@@ -77,7 +77,7 @@ var cardPayload = template.expand({
    }
 });
  
-// Render the card
+// OPTIONAL: Render the card (required the adaptivecards library loaded)
 var adaptiveCard = new AdaptiveCards.AdaptiveCard();
 adaptiveCard.parse(cardPayload);
  
@@ -180,7 +180,7 @@ AdaptiveExpressions.Expression.Functions.Add("stringFormat", (args) =>
 string cardJson = template.Expand(context);
 ```
 
-### Troubleshooting
+## Troubleshooting
 Q. Why am I running into an AdaptiveTemplateException calling ```expand()```?   
 A. If your error message looks like '\<offending item>' at line, '\<line number>' is **malformed for '$data : ' pair**".   
 Please ensure that value provided for "$data" is valid json such as number, boolean, object, and array, or follows correct syntax for Adaptive Template language,  and the entry exists in the data context at the line number. Please note that ${LineItem} and '8' can change.
