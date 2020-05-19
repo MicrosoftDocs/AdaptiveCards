@@ -1,5 +1,5 @@
 ---
-title: Android SDK
+title: Android SDK Extensibility
 author: almedina-ms
 ms.author: almedina
 ms.date: 09/27/2017
