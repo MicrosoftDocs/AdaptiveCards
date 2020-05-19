@@ -179,7 +179,7 @@ The Templating SDKs make it possible to populate a template with real-data.
 
 > [!NOTE]
 >
-> At this time templating is targeted primarily for "backend" platforms (.NET and NodeJS). Over time we will release templating SDKs for all remaining Adaptive Cards platform, like iOS, Android, UWP, etc.
+> At this time templating SDKs are available for .NET and NodeJS. Over time we will release templating SDKs for all remaining Adaptive Cards platform, like iOS, Android, UWP, etc.
 
 Platform | Package | Install | Documentation
 --- | --- | --- | ---
