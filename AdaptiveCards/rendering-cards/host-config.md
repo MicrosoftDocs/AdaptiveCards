@@ -30,7 +30,7 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
    * [`SpacingsConfig`](#schema-spacingsconfig) - Controls how elements are to be laid out
    * [`TextBlockConfig`](#schema-textblockconfig) - Parameters controlling the display of text
 
-# Card Configuration
+## Card Configuration
 
 <a name="schema-adaptivecardconfig"></a>
 ## AdaptiveCardConfig
