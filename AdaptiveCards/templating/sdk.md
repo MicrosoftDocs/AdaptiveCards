@@ -2,7 +2,7 @@
 title:  Templating SDKs
 author: matthidinger
 ms.author: mahiding
-ms.date: 08/01/2019
+ms.date: 05/15/2020
 ms.topic: article
 ---
 
@@ -14,13 +14,24 @@ The Adaptive Card Templating SDKs make it easy to populate a [card template](lan
 
 > [!IMPORTANT] 
 > 
-> These features are **in preview and subject to change**. Your feedback is not only welcome, but  critical to ensure we deliver the features **you** need.
+> **Breaking changes** in the **May 2020 Release Candidate**
+>
+> We've been hard at work getting templating released, and we're finally in the home stretch! We had to make some minor breaking changes as we close on the release.
+
+## Breaking changes as of May 2020
+
+1. The binding syntax changed from `{...}` to `${...}`. 
+    * For Example: `"text": "Hello {name}"` becomes `"text": "Hello ${name}"`
+2. The JavaScript API no longer contains an `EvaluationContext` object. Simply pass your data to the `expand` function. Please see the [SDK page](sdk.md) for full details.
+3. The .NET API was redesigned to more closely match the JavaScript API. Please below for full details.
 
 ## JavaScript
 
 The [adaptivecards-templating](https://www.npmjs.com/package/adaptivecards-templating) library is available on npm and via CDN. See the package link for full documentation.
 
 ### npm
+
+[![npm install](https://img.shields.io/npm/v/adaptivecards-templating.svg)](https://www.npmjs.com/package/adaptivecards-templating)
 
 ```console
 npm install adaptivecards-templating
@@ -31,6 +42,7 @@ npm install adaptivecards-templating
 ```html
 <script src="https://unpkg.com/adaptivecards-templating/dist/adaptivecards-templating.min.js"></script>
 ``` 
+
 
 ### Usage
 
@@ -49,7 +61,7 @@ var templatePayload = {
     "body": [
         {
             "type": "TextBlock",
-            "text": "Hello {name}!"
+            "text": "Hello ${name}!"
         }
     ]
 };
@@ -57,60 +69,122 @@ var templatePayload = {
 // Create a Template instamce from the template payload
 var template = new ACData.Template(templatePayload);
  
-// Create a data binding context, and set its $root property to the
-// data object to bind the template to
-var context = new ACData.EvaluationContext();
-context.$root = {
-    "name": "Mickey Mouse"
-};
+// Expand the template with your `$root` data object.
+// This binds it to the data and produces the final Adaptive Card payload
+var cardPayload = template.expand({
+   $root: {
+      name: "Matt Hidinger"
+   }
+});
  
-// "Expand" the template - this generates the final Adaptive Card,
-// ready to render
-var card = template.expand(context);
- 
-// Render the card
+// OPTIONAL: Render the card (required the adaptivecards library loaded)
 var adaptiveCard = new AdaptiveCards.AdaptiveCard();
-adaptiveCard.parse(card);
+adaptiveCard.parse(cardPayload);
  
 var htmlElement = adaptiveCard.render();
 ```
 
 ## .NET 
 
+[![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Templating.svg)](https://www.nuget.org/packages/AdaptiveCards.Templating)
+
 ```console
-dotnet add package AdaptiveCards.Templating --version 0.1.0-alpha1
+dotnet add package AdaptiveCards.Templating
 ```
 
-> [!NOTE]
->
-> Consider changing the version above to the latest published version
-
-Import the library 
+### Usage
 
 ```cs
-using AdaptiveCards.Templating
+// Import the library 
+using AdaptiveCards.Templating;
 ```
-
-Use the templating engine by passing in your template JSON and data JSON.
 
 ```cs
 var templateJson = @"
 {
     ""type"": ""AdaptiveCard"",
-    ""version"": ""1.0"",
+    ""version"": ""1.2"",
     ""body"": [
         {
             ""type"": ""TextBlock"",
-            ""text"": ""Hello {name}""
+            ""text"": ""Hello ${name}!""
         }
     ]
 }";
 
-var dataJson = @"
+// Create a Template instance from the template payload
+AdaptiveCardTemplate template = new AdaptiveCardTemplate(templateJson);
+
+// You can use any serializable object as your data
+var myData = new
 {
-    ""name"": ""Mickey Mouse""
+    Name = "Matt Hidinger"
+};
+
+// "Expand" the template - this generates the final Adaptive Card payload
+string cardJson = template.Expand(myData);
+```
+
+### Custom Functions
+
+Custom functions can be added to Adaptive Expression Library in addition to the prebuilt functions.
+
+In the below example, stringFormat custom function is added, and the funtion is used to format a string.
+```cs
+string jsonTemplate = @"{
+    ""type"": ""AdaptiveCard"",
+    ""version"": ""1.0"",
+    ""body"": [{
+        ""type"": ""TextBlock"",
+        ""text"": ""${stringFormat(strings.myName, person.firstName, person.lastName)}""
+    }]
 }";
 
-var transformer = new AdaptiveTransformer();
-var cardJson = transformer.Transform(templateJson, dataJson);
+string jsonData = @"{
+    ""strings"": {
+        ""myName"": ""My name is {0} {1}""
+    },
+    ""person"": {
+        ""firstName"": ""Andrew"",
+        ""lastName"": ""Leader""
+    }
+}";
+
+AdaptiveCardTemplate template = new AdaptiveCardTemplate(jsonTemplate);
+
+var context = new EvaluationContext
+{
+    Root = jsonData
+};
+
+// a custom function is added
+AdaptiveExpressions.Expression.Functions.Add("stringFormat", (args) =>
+{
+    string formattedString = "";
+
+    // argument is packed in sequential order as defined in the template
+    // For example, suppose we have "${stringFormat(strings.myName, person.firstName, person.lastName)}"
+    // args will have following entries
+    // args[0]: strings.myName
+    // args[1]: person.firstName
+    // args[2]: strings.lastName
+    if (args[0] != null && args[1] != null && args[2] != null) 
+    {
+        string formatString = args[0];
+        string[] stringArguments = {args[1], args[2] };
+        formattedString = string.Format(formatString, stringArguments);
+    }
+    return formattedString;
+});
+
+string cardJson = template.Expand(context);
 ```
+
+## Troubleshooting
+Q. Why am I running into an AdaptiveTemplateException calling ```expand()```?   
+A. If your error message looks like '\<offending item>' at line, '\<line number>' is **malformed for '$data : ' pair**".   
+Please ensure that value provided for "$data" is valid json such as number, boolean, object, and array, or follows correct syntax for Adaptive Template language,  and the entry exists in the data context at the line number. Please note that ${LineItem} and '8' can change.
+
+Q. Why am I running into an ArgumentNullException calling ```expand()```?   
+A. If your error message looks like" **Check if parent data context is set, or please enter a non-null value for** '\<offending item>' at line, '\<line number>'".   
+It indicates that there doesn't exist data context for the requested data binding. Please ensure that root data context is set, if exists, ensure that any data context is available for current binding as indicated by the line number.
