@@ -14,7 +14,7 @@ We're excited to share a preview of new tools that will help you **create**, **r
 > 
 > **Breaking changes** in the **May 2020 Release Candidate**
 >
-> We've been hard at work getting templating released, and we're finally in the home stretch! We had to make some minor breaking changes as we close on the release.
+> The new templating release candidate package includes some minor breaking changes that you should be aware of if you've been using the older packages. Troubleshoot common migration or usage issues in the [Troubleshooting section below](Add link to the section here).
 
 ## Breaking changes as of May 2020
 
