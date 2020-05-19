@@ -23,7 +23,7 @@ We're excited to share a preview of new tools that will help you **create**, **r
 2. The JavaScript API no longer contains an `EvaluationContext` object. Simply pass your data to the `expand` function. Please see the [SDK page](sdk.md) for full details.
 3. The .NET API was redesigned to more closely match the JavaScript API. Please see the [SDK page](sdk.md) for full details.
 
-## How can templating help you?
+## How can templating help you
 
 Templating enables the separation of **data** from the **layout** in an Adaptive Card. 
 
