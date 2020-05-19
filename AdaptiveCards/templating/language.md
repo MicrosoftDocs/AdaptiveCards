@@ -255,7 +255,7 @@ No templating language is complete without a rich suite of helper functions. Ada
 
 **This is just a small sampling of the built-in functions.**
 
-Check out the full list of [Adaptive Expression Language Pre-built functions](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-adaptive-expressions?view=azure-bot-service-4.0).
+Check out the full list of [Adaptive Expression Language Pre-built functions](https://docs.microsoft.com/azure/bot-service/bot-builder-concept-adaptive-expressions?view=azure-bot-service-4.0).
 
 ### Conditional evaluation
 
