@@ -66,7 +66,7 @@ var templatePayload = {
     ]
 };
  
-// Create a Template instamce from the template payload
+// Create a Template instance from the template payload
 var template = new ACData.Template(templatePayload);
  
 // Expand the template with your `$root` data object.
@@ -77,11 +77,10 @@ var cardPayload = template.expand({
    }
 });
  
-// OPTIONAL: Render the card (required the adaptivecards library loaded)
+// OPTIONAL: Render the card (requires that the adaptivecards library be loaded)
 var adaptiveCard = new AdaptiveCards.AdaptiveCard();
 adaptiveCard.parse(cardPayload);
- 
-var htmlElement = adaptiveCard.render();
+document.getElementById('exampleDiv').appendChild(adaptiveCard.render());
 ```
 
 ## .NET 
