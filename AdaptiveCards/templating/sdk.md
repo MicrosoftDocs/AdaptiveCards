@@ -77,11 +77,10 @@ var cardPayload = template.expand({
    }
 });
  
-// OPTIONAL: Render the card (required the adaptivecards library loaded)
+// OPTIONAL: Render the card (requires that the adaptivecards library be loaded)
 var adaptiveCard = new AdaptiveCards.AdaptiveCard();
 adaptiveCard.parse(cardPayload);
- 
-var htmlElement = adaptiveCard.render();
+document.getElementById('exampleDiv').appendChild(adaptiveCard.render());
 ```
 
 ## .NET 
