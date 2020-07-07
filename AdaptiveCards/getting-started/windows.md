@@ -47,7 +47,7 @@ We don't have anything to share just yet, but we're working on incorporating Ada
 
 We've barely scratched the surface in this tutorial, so check back soon and browse the links below to explore more about Adaptive Cards.
 
-* [Browse Sample cards](http://adaptivecards.io/samples/) for inspiration
-* Use the [Schema Explorer](http://adaptivecards.io/explorer) to learn the available elements
-* Build a card using the [Interactive Visualizer](http://adaptivecards.io/visualizer/index.html?hostApp=Skype)
-* [Get in touch](http://adaptivecards.io/connect) with any feedback you have
+* [Browse Sample cards](https://adaptivecards.io/samples/) for inspiration
+* Use the [Schema Explorer](https://adaptivecards.io/explorer) to learn the available elements
+* Build a card using the [Interactive Visualizer](https://adaptivecards.io/visualizer/index.html?hostApp=Skype)
+* [Get in touch](https://adaptivecards.io/connect) with any feedback you have
