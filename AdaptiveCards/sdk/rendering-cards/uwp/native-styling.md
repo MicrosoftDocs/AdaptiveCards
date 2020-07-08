@@ -36,8 +36,8 @@ This sample XAML Resource dictionary that sets the background of all TextBlocks 
 
 ```xml
 <ResourceDictionary
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    xmlns="https://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="https://schemas.microsoft.com/winfx/2006/xaml">
     <Style x:Key="Adaptive.TextBlock" TargetType="TextBlock">
         <Setter Property="Background" Value="Aqua"></Setter>
     </Style>
