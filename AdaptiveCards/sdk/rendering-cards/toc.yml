@@ -40,8 +40,10 @@
     href: javascript/native-styling.md
   - name: Extensibility
     href: javascript/extensibility.md
-  - name: Fabric UI integration
+  - name: Fabric UI Integration
     href: javascript/fabric.md
+  - name: API Reference
+    href: javascript/api/README.md
 - name: .NET HTML
   items:
   - name: Getting Started
