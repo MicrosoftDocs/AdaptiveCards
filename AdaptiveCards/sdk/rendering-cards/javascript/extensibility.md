@@ -2,7 +2,7 @@
 title: Extensibility - JavaScript SDK
 author: matthidinger
 ms.author: mahiding
-ms.date: 11/28/2017
+ms.date: 07/16/2020
 ms.topic: article
 ---
 
@@ -21,7 +21,7 @@ ms.topic: article
    }
 }
 ```
-Version 2.0 of the JS SDK introduces breaking changes in the way custom elements and actions are implemented and registered. For an example on how to implement and register an element or action using previous versions of the SDK, see [Extensibility with the JS SDK prior to version 2.0](##Extensibility-with-the-JS-SDK-prior-to-version-2.0).
+Version 2.0 of the JS SDK introduces breaking changes in the way custom elements and actions are implemented and registered. For an example on how to implement and register an element or action using previous versions of the SDK, see [Extensibility with the JS SDK prior to version 2.0](#extensibility-with-the-js-sdk-prior-to-version-20).
 
 
 ### Custom elements
