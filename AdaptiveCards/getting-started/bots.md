@@ -102,7 +102,7 @@ You can:
 * Add multiple types of `Actions`
 * Collect `Input` from your users
 * Have one card `show another card`
-* [Check out the full schema explorer](http://adaptivecards.io/explorer/)! 
+* [Check out the full schema explorer](https://adaptivecards.io/explorer/)! 
 
 ## Platform SDKs
 
@@ -123,7 +123,7 @@ The Bot Framework lets you publish your bot to multiple channels. We're working 
 
 We've just scratched the surface in this tutorial, so please take a look at the links below to explore more ways that Adaptive Cards can enhance your bot.
 
-* [Browse Sample cards](http://adaptivecards.io/samples/) for inspiration
-* Use the [Schema Explorer](http://adaptivecards.io/explorer) to learn the available elements
-* Build a card using the [Interactive Visualizer](http://adaptivecards.io/visualizer/index.html?hostApp=Skype)
-* [Get in touch](http://adaptivecards.io/connect) with any feedback you have
+* [Browse Sample cards](https://adaptivecards.io/samples/) for inspiration
+* Use the [Schema Explorer](https://adaptivecards.io/explorer) to learn the available elements
+* Build a card using the [Interactive Visualizer](https://adaptivecards.io/visualizer/index.html?hostApp=Skype)
+* [Get in touch](https://adaptivecards.io/connect) with any feedback you have

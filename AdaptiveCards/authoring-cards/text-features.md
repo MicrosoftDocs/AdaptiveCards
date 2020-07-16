@@ -2,16 +2,21 @@
 title: Text Features
 author: matthidinger
 ms.author: mahiding
-ms.date: 11/09/2017
+ms.date: 06/18/2020
 ms.topic: article
 ---
 
 # Text features
 
-`TextBlock` offers some advanced features for formatting and localizing the text.
+[TextBlock](https://adaptivecards.io/explorer/TextBlock.html) offers advanced features for formatting and localizing the text.
 
-## Markdown
-To support inline markup, Adaptive Cards support a **subset** of Markdown syntax.
+## Markdown (Commonmark subset)
+
+To support inline markup, Adaptive Cards support a **subset** of the [Commonmark](https://commonmark.org/help/) Markdown syntax.
+
+> [!NOTE]
+>
+> [RichTextBlock](https://adaptivecards.io/explorer/RichTextBlock.html) does not support markdown, but offers a wide array of text configuration options directly within the the [TextRun](https://adaptivecards.io/explorer/TextRun.html)
 
 _Supported_
 
@@ -62,7 +67,7 @@ The below payload would render something like this:
         },
         {
             "type": "TextBlock",
-            "text": "Check out [Adaptive Cards](http://adaptivecards.io)"
+            "text": "Check out [Adaptive Cards](https://adaptivecards.io)"
         }
     ]
 }
