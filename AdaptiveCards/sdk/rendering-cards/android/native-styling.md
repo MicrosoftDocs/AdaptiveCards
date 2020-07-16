@@ -30,3 +30,11 @@ Text inputs with an inline action allows styling for the action being rendered. 
 
 > [!IMPORTANT]
 > All item names must be kept as shown here as the renderer looks for those exact names
+
+## Action.ShowCard
+
+Action.ShowCard can be styled by adding styles to your theme in styles.xml.
+
+```styles.xml
+ <item name="adaptiveShowCardAction">@style/adaptiveShowCardAction</item>
+```
