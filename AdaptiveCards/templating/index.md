@@ -193,14 +193,27 @@ The JavaScript below shows the general pattern that will be used to populate a t
 
 ```js
 var template = new ACData.Template({ 
-    // EmployeeCardTemplate goes here
+    // Card Template JSON
 });
 
 var card = template.expand({
     $root: {
-        // Your data goes here
+        // Data Fields
     }
 });
+
+// Now you have an AdaptiveCard ready to render!
+```
+
+### C# Example
+
+The C# below shows the general pattern that will be used to populate a template with data.
+
+```csharp
+var template = new AdaptiveCards.Templating.AdaptiveCardTemplate(cardJson);
+   
+var card = template.Expand(new {Key="Value"});
+
 // Now you have an AdaptiveCard ready to render!
 ```
 
