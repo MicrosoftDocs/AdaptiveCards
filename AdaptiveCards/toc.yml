@@ -18,6 +18,8 @@
     href: authoring-cards/speech.md
   - name: Text Features
     href: authoring-cards/text-features.md
+  - name: Input Validation
+    href: authoring-cards/input-validation.md
 - name: Rendering Cards
   items:
   - name: Getting Started
