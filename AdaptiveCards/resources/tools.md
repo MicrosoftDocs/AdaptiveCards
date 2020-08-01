@@ -43,7 +43,18 @@ In Visual Studio and Visual Studio Code you can get automatic Intellisense by in
 }
 ```
 
-## Visual Studio Code Extension
+## Visual Studio Code Extensions
+
+### **Adaptive Cards Studio**
+
+![marketplace](https://madewithcards.blob.core.windows.net/uploads/29bb3d02-2158-40b8-8420-4dd1f15da34c-acstudio.png)
+
+With AdaptiveCards Studio you can author cards directly in Visual Studio Code. The Extension automatically detects all Adaptive Cards in your working space and lets you easily edit the card template and sample data.
+
+[Read more and install it from the Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=madewithcardsio.adaptivecardsstudiobeta)
+
+
+### **Adaptive Card Viewer**
 
 We have created a Visual Studio code extension which allows you to visualize the card you are editing in real time
 inside the editor itself. 
