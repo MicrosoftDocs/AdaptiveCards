@@ -8,7 +8,7 @@ ms.topic: article
 
 # Input Validation
 
-Versions 1.3 and later of the Adaptive Cards schema support client side input validation of Input types.
+In versions 1.3 and later of the schema, AdaptiveCards supports client side input validation of Input types.
 
 ### Validation Properties
 
