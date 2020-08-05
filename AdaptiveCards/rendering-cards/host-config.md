@@ -164,7 +164,7 @@ Controls `Image` sizes
 |**medium**|`integer`| No, default: `120`|Medium image size value|1.0
 |**large**|`integer`| No, default: `180`|Large image size value|1.0
 
-<a name="schema-inputs"></a>
+<a name="schema-inputsconfig"></a>
 ## InputsConfig
 
 Controls how labels and error messages are displayed 
