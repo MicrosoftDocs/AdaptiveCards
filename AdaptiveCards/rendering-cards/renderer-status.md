@@ -25,7 +25,7 @@ The tables below show the current status of each renderer, based on their public
 |Render actions bar | ✅ | ✅ | ✅ | ✅ | ✅ |
 |Ignore unknown Elements | ✅ | ✅ | ✅ | ✅ | ✅ |
 |Host Config support | ✅ | ✅ | ✅ | ✅ | ✅ |
-|Native platform styling | ✅ | ✅ | ✅ | ✅ | ✅ |
+|Native platform styling | ✅ | ✅ | ✅ | ✅ | ❌ |
 
 ### Element Rendering
 
