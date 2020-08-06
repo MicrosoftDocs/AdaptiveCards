@@ -55,4 +55,3 @@ If those inputs pass validation, the values in their fields will be passed back 
  - It is not recommended to create inputs with validation properties that may not always be visible due to interaction with Action.ToggleVisibility. Error messages and visual indications that the input is invalid will not be shown if the input is not currently visible, which may cause confusion for users as to why their submit is blocked.
 
  - Behavior of input validation for hosts using popup show cards using the 	`"actions":"showCard":"actionMode":"popup"` value in their host config is not well defined. Popup show cards may be deprecated in a future release.
-
