@@ -24,6 +24,10 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
    * [`ForegroundColorsConfig`](#schema-foregroundcolorsconfig) - Controls various font colors
    * [`ImageSetConfig`](#schema-imagesetconfig) - Controls how `ImageSet`s are displayed
    * [`ImageSizesConfig`](#schema-imagesizesconfig) - Controls `Image` sizes
+   * [`InputsConfig`](#schema-inputsconfig) - Controls how labels and error messages are displayed 
+      * [`LabelConfig`](#schema-labelconfig) - Controls how labels are displayed
+         * [`InputLabelConfig`](#schema-inputlabelconfig) - Controls how required or optional labels are displayed
+      * [`ErrorMessageConfig`](#schema-errormessageconfig) - Controls how error messages are displayed
    * [`MediaConfig`](#schema-mediaconfig) - Controls the display and behavior of `Media` elements
    * [`SeparatorConfig`](#schema-separatorconfig) - Controls how separators are displayed
    * [`ShowCardConfig`](#schema-showcardconfig) - Controls behavior and styling of `Action.ShowCard`
