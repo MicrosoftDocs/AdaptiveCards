@@ -195,7 +195,7 @@ Controls how required or optional labels are displayed
 |**color**|`string`|No, default: `"default"`| Font [color](#schema-foregroundcolorsconfig) of the label (the suffix is always rendered in `attention` color) |1.3|
 |**isSubtle**|`bool`| No, default: `false`| Defines whether to use the `subtle` foreground color |1.3|
 |**size**|`string`| No, default: `"default"` | Font [size](#schema-fontsizesconfig) of the label to be displayed |1.3|
-|**suffix**|`string`| No, default: `" *"` | Suffix to be displayed at the end of the label for required inputs. If none is defined, an asterisk `*` is appended to the label |1.3|
+|**suffix**|`string`| No, default: `"*"` | Suffix to be displayed at the end of the label for required inputs. If none is defined, an asterisk `*` is appended to the label |1.3|
 |**weight**|`string`| No, default: `"default"` | Font [weight](#schema-fontweightsconfig) of the label |1.3|
 
 <a name="schema-errormessageconfig"></a>
