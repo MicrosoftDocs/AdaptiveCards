@@ -1,8 +1,8 @@
 ---
 title: HostConfig for Adaptive Cards
-author: paulcam206
-ms.author: paulcam
-ms.date: 09/18/2018
+author: almedina-ms
+ms.author: almedina
+ms.date: 08/05/2020
 ms.topic: reference
 ---
 
