@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.generateUniqueId
+    name: generateUniqueId()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Generate a UUID prepended with "__ac-"
+    syntax:
+      content: function generateUniqueId()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards

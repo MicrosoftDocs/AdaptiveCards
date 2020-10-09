@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ITypeRegistration
+    name: ITypeRegistration
+    fullName: ITypeRegistration<T>
+    children:
+      - adaptivecards.ITypeRegistration.objectType
+      - adaptivecards.ITypeRegistration.schemaVersion
+      - adaptivecards.ITypeRegistration.typeName
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ITypeRegistration.objectType
+    name: objectType
+    fullName: objectType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'objectType: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ITypeRegistration.schemaVersion
+    name: schemaVersion
+    fullName: schemaVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'schemaVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ITypeRegistration.typeName
+    name: typeName
+    fullName: typeName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'typeName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version

@@ -1,0 +1,92 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.Calendar
+    name: Calendar
+    fullName: Calendar
+    children:
+      - adaptivecards-controls.Calendar.attach
+      - adaptivecards-controls.Calendar.constructor
+      - adaptivecards-controls.Calendar.date
+      - adaptivecards-controls.Calendar.focus
+      - adaptivecards-controls.Calendar.onDateChanged
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-controls.InputControl
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Calendar.attach
+    name: attach(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Calendar.constructor
+    name: Calendar()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new Calendar()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Calendar.date
+    name: date
+    fullName: date
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date date
+      return:
+        type:
+          - Date
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Calendar.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Calendar.onDateChanged
+    name: onDateChanged
+    fullName: onDateChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onDateChanged: (calendar: Calendar) => void'
+      return:
+        type:
+          - '(calendar: Calendar) => void'
+        description: ''
+    package: adaptivecards-controls
+references:
+  - uid: adaptivecards-controls.InputControl
+    name: InputControl
+    spec.typeScript:
+      - name: InputControl
+        fullName: InputControl
+        uid: adaptivecards-controls.InputControl

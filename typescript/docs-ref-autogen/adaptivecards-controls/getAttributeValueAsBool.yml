@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.getAttributeValueAsBool
+    name: 'getAttributeValueAsBool(HTMLElement, string, boolean)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getAttributeValueAsBool(element: HTMLElement, attributeName:
+        string, defaultValue: boolean)
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+        - id: attributeName
+          type:
+            - string
+          description: ''
+        - id: defaultValue
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls

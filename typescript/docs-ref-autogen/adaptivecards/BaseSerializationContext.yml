@@ -1,0 +1,328 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    fullName: BaseSerializationContext
+    children:
+      - adaptivecards.BaseSerializationContext.constructor
+      - adaptivecards.BaseSerializationContext.clearEvents
+      - adaptivecards.BaseSerializationContext.eventCount
+      - adaptivecards.BaseSerializationContext.getEventAt
+      - adaptivecards.BaseSerializationContext.logEvent
+      - adaptivecards.BaseSerializationContext.logParseEvent
+      - adaptivecards.BaseSerializationContext.serializeArray
+      - adaptivecards.BaseSerializationContext.serializeEnum
+      - adaptivecards.BaseSerializationContext.serializeNumber
+      - adaptivecards.BaseSerializationContext.serializeValue
+      - adaptivecards.BaseSerializationContext.targetVersion
+      - adaptivecards.BaseSerializationContext.toJSONOriginalParam
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.constructor
+    name: BaseSerializationContext(Version)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseSerializationContext(targetVersion?: Version)'
+      parameters:
+        - id: targetVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.clearEvents
+    name: clearEvents()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearEvents()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.eventCount
+    name: eventCount
+    fullName: eventCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number eventCount
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.getEventAt
+    name: getEventAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getEventAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards.IValidationEvent
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.logEvent
+    name: >-
+      logEvent(SerializableObject | undefined, ValidationPhase, ValidationEvent,
+      string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function logEvent(source: SerializableObject | undefined, phase:
+        ValidationPhase, event: ValidationEvent, message: string)
+      parameters:
+        - id: source
+          type:
+            - adaptivecards.SerializableObject | undefined
+          description: ''
+        - id: phase
+          type:
+            - adaptivecards.ValidationPhase
+          description: ''
+        - id: event
+          type:
+            - adaptivecards.ValidationEvent
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.logParseEvent
+    name: 'logParseEvent(SerializableObject | undefined, ValidationEvent, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function logParseEvent(source: SerializableObject | undefined, event:
+        ValidationEvent, message: string)
+      parameters:
+        - id: source
+          type:
+            - adaptivecards.SerializableObject | undefined
+          description: ''
+        - id: event
+          type:
+            - adaptivecards.ValidationEvent
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.serializeArray
+    name: 'serializeArray([key: string]: any, string, any[] | undefined)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function serializeArray(target: [key: string]: any, propertyName:
+        string, propertyValue: any[] | undefined)
+      parameters:
+        - id: target
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: propertyValue
+          type:
+            - 'any[] | undefined'
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.serializeEnum
+    name: >-
+      serializeEnum([key: number]: string, [key: string]: any, string, number |
+      undefined, number | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function serializeEnum(enumType: [key: number]: string, target: [key:
+        string]: any, propertyName: string, propertyValue: number | undefined,
+        defaultValue?: number | undefined)
+      parameters:
+        - id: enumType
+          type:
+            - '[key: number]: string'
+          description: ''
+        - id: target
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: propertyValue
+          type:
+            - number | undefined
+          description: ''
+        - id: defaultValue
+          type:
+            - number | undefined
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.serializeNumber
+    name: >-
+      serializeNumber([key: string]: any, string, number | undefined, number |
+      undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function serializeNumber(target: [key: string]: any, propertyName:
+        string, propertyValue: number | undefined, defaultValue?: number |
+        undefined)
+      parameters:
+        - id: target
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: propertyValue
+          type:
+            - number | undefined
+          description: ''
+        - id: defaultValue
+          type:
+            - number | undefined
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.serializeValue
+    name: 'serializeValue([key: string]: any, string, any, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function serializeValue(target: [key: string]: any, propertyName:
+        string, propertyValue: any, defaultValue?: any)
+      parameters:
+        - id: target
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: propertyValue
+          type:
+            - any
+          description: ''
+        - id: defaultValue
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseSerializationContext.toJSONOriginalParam
+    name: toJSONOriginalParam
+    fullName: toJSONOriginalParam
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'toJSONOriginalParam: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.IValidationEvent
+    name: IValidationEvent
+    spec.typeScript:
+      - name: IValidationEvent
+        fullName: IValidationEvent
+        uid: adaptivecards.IValidationEvent
+  - uid: adaptivecards.SerializableObject | undefined
+    name: SerializableObject | undefined
+    spec.typeScript:
+      - name: SerializableObject
+        fullName: SerializableObject
+        uid: adaptivecards.SerializableObject
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.ValidationPhase
+    name: ValidationPhase
+    spec.typeScript:
+      - name: ValidationPhase
+        fullName: ValidationPhase
+        uid: adaptivecards.ValidationPhase
+  - uid: adaptivecards.ValidationEvent
+    name: ValidationEvent
+    spec.typeScript:
+      - name: ValidationEvent
+        fullName: ValidationEvent
+        uid: adaptivecards.ValidationEvent

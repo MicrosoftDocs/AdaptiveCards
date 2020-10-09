@@ -1,0 +1,913 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.TypedActionPeer
+    name: TypedActionPeer
+    fullName: TypedActionPeer<TAction>
+    children:
+      - adaptivecards-designer.TypedActionPeer.action
+      - adaptivecards-designer.TypedActionPeer.addElementsToDesignerSurface
+      - adaptivecards-designer.TypedActionPeer.buildPropertySheetCard
+      - adaptivecards-designer.TypedActionPeer.canBeRemoved
+      - adaptivecards-designer.TypedActionPeer.canDrop
+      - adaptivecards-designer.TypedActionPeer.changed
+      - adaptivecards-designer.TypedActionPeer.designerSurface
+      - adaptivecards-designer.TypedActionPeer.dragging
+      - adaptivecards-designer.TypedActionPeer.endDrag
+      - adaptivecards-designer.TypedActionPeer.getBoundingRect
+      - adaptivecards-designer.TypedActionPeer.getCardObject
+      - adaptivecards-designer.TypedActionPeer.getCardObjectBoundingRect
+      - adaptivecards-designer.TypedActionPeer.getChildAt
+      - adaptivecards-designer.TypedActionPeer.getChildCount
+      - adaptivecards-designer.TypedActionPeer.getCommands
+      - adaptivecards-designer.TypedActionPeer.getTreeItemText
+      - adaptivecards-designer.TypedActionPeer.iconUrlProperty
+      - adaptivecards-designer.TypedActionPeer.idProperty
+      - adaptivecards-designer.TypedActionPeer.insertChild
+      - adaptivecards-designer.TypedActionPeer.isDraggable
+      - adaptivecards-designer.TypedActionPeer.isSelected
+      - adaptivecards-designer.TypedActionPeer.onChanged
+      - adaptivecards-designer.TypedActionPeer.onClick
+      - adaptivecards-designer.TypedActionPeer.onDoubleClick
+      - adaptivecards-designer.TypedActionPeer.onEndDrag
+      - adaptivecards-designer.TypedActionPeer.onParentChanged
+      - adaptivecards-designer.TypedActionPeer.onPeerAdded
+      - adaptivecards-designer.TypedActionPeer.onPeerRemoved
+      - adaptivecards-designer.TypedActionPeer.onPopulatePropertySheet
+      - adaptivecards-designer.TypedActionPeer.onSelectedChanged
+      - adaptivecards-designer.TypedActionPeer.onStartDrag
+      - adaptivecards-designer.TypedActionPeer.parent
+      - adaptivecards-designer.TypedActionPeer.populatePropertySheet
+      - adaptivecards-designer.TypedActionPeer.registration
+      - adaptivecards-designer.TypedActionPeer.remove
+      - adaptivecards-designer.TypedActionPeer.removeChild
+      - adaptivecards-designer.TypedActionPeer.removeElementsFromDesignerSurface
+      - adaptivecards-designer.TypedActionPeer.render
+      - adaptivecards-designer.TypedActionPeer.renderedElement
+      - adaptivecards-designer.TypedActionPeer.scrollIntoView
+      - adaptivecards-designer.TypedActionPeer.styleProperty
+      - adaptivecards-designer.TypedActionPeer.titleProperty
+      - adaptivecards-designer.TypedActionPeer.treeItem
+      - adaptivecards-designer.TypedActionPeer.tryAdd
+      - adaptivecards-designer.TypedActionPeer.tryDrop
+      - adaptivecards-designer.TypedActionPeer.constructor
+      - adaptivecards-designer.TypedActionPeer.updateLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.ActionPeer
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.action
+    name: action
+    fullName: action
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: TAction action
+      return:
+        type:
+          - TAction
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.addElementsToDesignerSurface
+    name: 'addElementsToDesignerSurface(HTMLElement, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addElementsToDesignerSurface(designerSurface: HTMLElement,
+        processChildren?: boolean)
+      parameters:
+        - id: designerSurface
+          type:
+            - HTMLElement
+          description: ''
+        - id: processChildren
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.buildPropertySheetCard
+    name: buildPropertySheetCard(DesignContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildPropertySheetCard(context: DesignContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.DesignContext
+          description: ''
+      return:
+        type:
+          - AdaptiveCard
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.canBeRemoved
+    name: canBeRemoved()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function canBeRemoved()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.canDrop
+    name: canDrop(DesignerPeer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function canDrop(peer: DesignerPeer)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.changed
+    name: changed(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function changed(updatePropertySheet: boolean)'
+      parameters:
+        - id: updatePropertySheet
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.designerSurface
+    name: designerSurface
+    fullName: designerSurface
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'designerSurface: CardDesignerSurface'
+      return:
+        type:
+          - adaptivecards-designer.CardDesignerSurface
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.dragging
+    name: dragging
+    fullName: dragging
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean dragging
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.endDrag
+    name: endDrag()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endDrag()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.getBoundingRect
+    name: getBoundingRect()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBoundingRect()
+      parameters: []
+      return:
+        type:
+          - adaptivecards-designer.Rect
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.getCardObject
+    name: getCardObject()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCardObject()
+      parameters: []
+      return:
+        type:
+          - CardObject
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.getCardObjectBoundingRect
+    name: getCardObjectBoundingRect()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCardObjectBoundingRect()
+      parameters: []
+      return:
+        type:
+          - adaptivecards-designer.Rect
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.getChildAt
+    name: getChildAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getChildAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.getChildCount
+    name: getChildCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getChildCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.getCommands
+    name: 'getCommands(DesignContext, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getCommands(context: DesignContext, promoteParentCommands?:
+        boolean)
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.DesignContext
+          description: ''
+        - id: promoteParentCommands
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Array<adaptivecards-designer.PeerCommand>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.getTreeItemText
+    name: getTreeItemText()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getTreeItemText()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.iconUrlProperty
+    name: iconUrlProperty
+    fullName: iconUrlProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static iconUrlProperty: StringPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.StringPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.idProperty
+    name: idProperty
+    fullName: idProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static idProperty: StringPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.StringPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.insertChild
+    name: 'insertChild(DesignerPeer, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function insertChild(peer: DesignerPeer, index?: number)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.isDraggable
+    name: isDraggable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDraggable()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSelected
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onChanged
+    name: onChanged
+    fullName: onChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onChanged: (sender: DesignerPeer, updatePropertySheet: boolean) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer, updatePropertySheet: boolean) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onDoubleClick
+    name: onDoubleClick
+    fullName: onDoubleClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onEndDrag
+    name: onEndDrag
+    fullName: onEndDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onParentChanged
+    name: onParentChanged
+    fullName: onParentChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onParentChanged: (sender: DesignerPeer) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onPeerAdded
+    name: onPeerAdded
+    fullName: onPeerAdded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onPeerAdded: (sender: DesignerPeer, newPeer: DesignerPeer) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer, newPeer: DesignerPeer) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onPeerRemoved
+    name: onPeerRemoved
+    fullName: onPeerRemoved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onPeerRemoved: (sender: DesignerPeer) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onPopulatePropertySheet
+    name: onPopulatePropertySheet
+    fullName: onPopulatePropertySheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        static onPopulatePropertySheet?: (sender: DesignerPeer, propertySheet:
+        PropertySheet) => void
+      return:
+        type:
+          - '(sender: DesignerPeer, propertySheet: PropertySheet) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onSelectedChanged
+    name: onSelectedChanged
+    fullName: onSelectedChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onSelectedChanged: (sender: DesignerPeer) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.onStartDrag
+    name: onStartDrag
+    fullName: onStartDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.parent
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DesignerPeer parent
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.populatePropertySheet
+    name: 'populatePropertySheet(PropertySheet, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function populatePropertySheet(propertySheet: PropertySheet,
+        defaultCategory?: string)
+      parameters:
+        - id: propertySheet
+          type:
+            - adaptivecards-designer.PropertySheet
+          description: ''
+        - id: defaultCategory
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.registration
+    name: registration
+    fullName: registration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'registration: DesignerPeerRegistrationBase'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeerRegistrationBase
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.remove
+    name: 'remove(boolean, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(onlyFromCard: boolean, removeChildren: boolean)'
+      parameters:
+        - id: onlyFromCard
+          type:
+            - boolean
+          description: ''
+        - id: removeChildren
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.removeChild
+    name: removeChild(DesignerPeer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeChild(peer: DesignerPeer)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.removeElementsFromDesignerSurface
+    name: removeElementsFromDesignerSurface(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeElementsFromDesignerSurface(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.scrollIntoView
+    name: scrollIntoView()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function scrollIntoView()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.styleProperty
+    name: styleProperty
+    fullName: styleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static styleProperty: ChoicePropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.ChoicePropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.titleProperty
+    name: titleProperty
+    fullName: titleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static titleProperty: StringPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.StringPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.treeItem
+    name: treeItem
+    fullName: treeItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'treeItem: DesignerPeerTreeItem'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeerTreeItem
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.tryAdd
+    name: tryAdd(DesignerPeer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function tryAdd(peer: DesignerPeer)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.tryDrop
+    name: 'tryDrop(DesignerPeer, IPoint)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function tryDrop(peer: DesignerPeer, insertionPoint: IPoint)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+        - id: insertionPoint
+          type:
+            - adaptivecards-designer.IPoint
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.constructor
+    name: >-
+      TypedActionPeer(DesignerPeer, CardDesignerSurface,
+      DesignerPeerRegistrationBase, TAction)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new TypedActionPeer(parent: DesignerPeer, designerSurface:
+        CardDesignerSurface, registration: DesignerPeerRegistrationBase, action:
+        TAction)
+      parameters:
+        - id: parent
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+        - id: designerSurface
+          type:
+            - adaptivecards-designer.CardDesignerSurface
+          description: ''
+        - id: registration
+          type:
+            - adaptivecards-designer.DesignerPeerRegistrationBase
+          description: ''
+        - id: action
+          type:
+            - TAction
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TypedActionPeer.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.ActionPeer
+    name: ActionPeer
+    spec.typeScript:
+      - name: ActionPeer
+        fullName: ActionPeer
+        uid: adaptivecards-designer.ActionPeer
+  - uid: adaptivecards-designer.DesignerPeer
+    name: DesignerPeer
+    spec.typeScript:
+      - name: DesignerPeer
+        fullName: DesignerPeer
+        uid: adaptivecards-designer.DesignerPeer
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+    spec.typeScript:
+      - name: CardDesignerSurface
+        fullName: CardDesignerSurface
+        uid: adaptivecards-designer.CardDesignerSurface
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+    name: DesignerPeerRegistrationBase
+    spec.typeScript:
+      - name: DesignerPeerRegistrationBase
+        fullName: DesignerPeerRegistrationBase
+        uid: adaptivecards-designer.DesignerPeerRegistrationBase
+  - uid: adaptivecards-designer.DesignerPeerTreeItem
+    name: DesignerPeerTreeItem
+    spec.typeScript:
+      - name: DesignerPeerTreeItem
+        fullName: DesignerPeerTreeItem
+        uid: adaptivecards-designer.DesignerPeerTreeItem
+  - uid: adaptivecards-designer.StringPropertyEditor
+    name: StringPropertyEditor
+    spec.typeScript:
+      - name: StringPropertyEditor
+        fullName: StringPropertyEditor
+        uid: adaptivecards-designer.StringPropertyEditor
+  - uid: adaptivecards-designer.ChoicePropertyEditor
+    name: ChoicePropertyEditor
+    spec.typeScript:
+      - name: ChoicePropertyEditor
+        fullName: ChoicePropertyEditor
+        uid: adaptivecards-designer.ChoicePropertyEditor
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+    spec.typeScript:
+      - name: DesignContext
+        fullName: DesignContext
+        uid: adaptivecards-designer.DesignContext
+  - uid: adaptivecards-designer.Rect
+    name: Rect
+    spec.typeScript:
+      - name: Rect
+        fullName: Rect
+        uid: adaptivecards-designer.Rect
+  - uid: Array<adaptivecards-designer.PeerCommand>
+    name: PeerCommand>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: PeerCommand
+        fullName: PeerCommand
+        uid: adaptivecards-designer.PeerCommand
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-designer.PropertySheet
+    name: PropertySheet
+    spec.typeScript:
+      - name: PropertySheet
+        fullName: PropertySheet
+        uid: adaptivecards-designer.PropertySheet
+  - uid: adaptivecards-designer.IPoint
+    name: IPoint
+    spec.typeScript:
+      - name: IPoint
+        fullName: IPoint
+        uid: adaptivecards-designer.IPoint

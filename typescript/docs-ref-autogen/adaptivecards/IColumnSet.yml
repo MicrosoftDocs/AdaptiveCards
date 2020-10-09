@@ -1,0 +1,174 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IColumnSet
+    name: IColumnSet
+    fullName: IColumnSet
+    children:
+      - adaptivecards.IColumnSet.columns
+      - adaptivecards.IColumnSet.height
+      - adaptivecards.IColumnSet.horizontalAlignment
+      - adaptivecards.IColumnSet.id
+      - adaptivecards.IColumnSet.separator
+      - adaptivecards.IColumnSet.spacing
+      - adaptivecards.IColumnSet.speak
+      - adaptivecards.IColumnSet.type
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: adaptivecards.ICardElement
+    package: adaptivecards
+  - uid: adaptivecards.IColumnSet.columns
+    name: columns
+    fullName: columns
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'columns: IColumn[]'
+      return:
+        type:
+          - 'adaptivecards.IColumn[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumnSet.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        type:
+          - '"auto" | "stretch"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumnSet.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        type:
+          - adaptivecards.HorizontalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumnSet.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumnSet.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumnSet.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumnSet.speak
+    name: speak
+    fullName: speak
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'speak?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumnSet.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: "ColumnSet"'
+      return:
+        type:
+          - '"ColumnSet"'
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ICardElement
+    name: ICardElement
+    spec.typeScript:
+      - name: ICardElement
+        fullName: ICardElement
+        uid: adaptivecards.ICardElement
+  - uid: 'adaptivecards.IColumn[]'
+    name: 'IColumn[]'
+    spec.typeScript:
+      - name: IColumn
+        fullName: IColumn
+        uid: adaptivecards.IColumn
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    spec.typeScript:
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing

@@ -1,0 +1,149 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DesignerPeerRegistry
+    name: DesignerPeerRegistry
+    fullName: DesignerPeerRegistry<TSource>
+    children:
+      - adaptivecards-designer.DesignerPeerRegistry.clear
+      - adaptivecards-designer.DesignerPeerRegistry.defaultRegistration
+      - adaptivecards-designer.DesignerPeerRegistry.constructor
+      - adaptivecards-designer.DesignerPeerRegistry.findTypeRegistration
+      - adaptivecards-designer.DesignerPeerRegistry.registerPeer
+      - adaptivecards-designer.DesignerPeerRegistry.reset
+      - adaptivecards-designer.DesignerPeerRegistry.unregisterPeer
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistry.clear
+    name: clear()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistry.defaultRegistration
+    name: defaultRegistration
+    fullName: defaultRegistration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'defaultRegistration: DesignerPeerRegistrationBase'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeerRegistrationBase
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistry.constructor
+    name: DesignerPeerRegistry()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new DesignerPeerRegistry()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistry.findTypeRegistration
+    name: findTypeRegistration(TSource)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function findTypeRegistration(sourceType: TSource)'
+      parameters:
+        - id: sourceType
+          type:
+            - TSource
+          description: ''
+      return:
+        type:
+          - 'adaptivecards-designer.DesignerPeerRegistration<TSource, TPeer>'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistry.registerPeer
+    name: 'registerPeer(TSource, TPeer, string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function registerPeer(sourceType: TSource, peerType: TPeer, category:
+        string, iconClass?: string)
+      parameters:
+        - id: sourceType
+          type:
+            - TSource
+          description: ''
+        - id: peerType
+          type:
+            - TPeer
+          description: ''
+        - id: category
+          type:
+            - string
+          description: ''
+        - id: iconClass
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistry.reset
+    name: reset()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function reset()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistry.unregisterPeer
+    name: unregisterPeer(TSource)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unregisterPeer(sourceType: TSource)'
+      parameters:
+        - id: sourceType
+          type:
+            - TSource
+          description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+    name: DesignerPeerRegistrationBase
+    spec.typeScript:
+      - name: DesignerPeerRegistrationBase
+        fullName: DesignerPeerRegistrationBase
+        uid: adaptivecards-designer.DesignerPeerRegistrationBase
+  - uid: 'adaptivecards-designer.DesignerPeerRegistration<TSource, TPeer>'
+    name: 'DesignerPeerRegistration<TSource, TPeer>'
+    spec.typeScript:
+      - name: DesignerPeerRegistration
+        fullName: DesignerPeerRegistration
+        uid: adaptivecards-designer.DesignerPeerRegistration
+      - name: '<TSource, TPeer>'
+        fullName: '<TSource, TPeer>'

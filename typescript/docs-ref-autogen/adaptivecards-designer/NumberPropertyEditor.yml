@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.NumberPropertyEditor
+    name: NumberPropertyEditor
+    fullName: NumberPropertyEditor
+    children:
+      - adaptivecards-designer.NumberPropertyEditor.causesPropertySheetRefresh
+      - adaptivecards-designer.NumberPropertyEditor.defaultValue
+      - adaptivecards-designer.NumberPropertyEditor.label
+      - adaptivecards-designer.NumberPropertyEditor.constructor
+      - adaptivecards-designer.NumberPropertyEditor.propertyName
+      - adaptivecards-designer.NumberPropertyEditor.render
+      - adaptivecards-designer.NumberPropertyEditor.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.SingleInputPropertyEditor
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NumberPropertyEditor.causesPropertySheetRefresh
+    name: causesPropertySheetRefresh
+    fullName: causesPropertySheetRefresh
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'causesPropertySheetRefresh: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NumberPropertyEditor.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'defaultValue: number | undefined'
+      return:
+        type:
+          - number | undefined
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NumberPropertyEditor.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NumberPropertyEditor.constructor
+    name: >-
+      NumberPropertyEditor(Adaptive.TargetVersion, string, string, number |
+      undefined, boolean)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new NumberPropertyEditor(targetVersion: Adaptive.TargetVersion,
+        propertyName: string, label: string, defaultValue?: number | undefined,
+        causesPropertySheetRefresh?: boolean)
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: label
+          type:
+            - string
+          description: ''
+        - id: defaultValue
+          type:
+            - number | undefined
+          description: ''
+          optional: true
+        - id: causesPropertySheetRefresh
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NumberPropertyEditor.propertyName
+    name: propertyName
+    fullName: propertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NumberPropertyEditor.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NumberPropertyEditor.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.SingleInputPropertyEditor
+    name: SingleInputPropertyEditor
+    spec.typeScript:
+      - name: SingleInputPropertyEditor
+        fullName: SingleInputPropertyEditor
+        uid: adaptivecards-designer.SingleInputPropertyEditor
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.addDays
+    name: 'addDays(Date, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addDays(date: Date, days: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: days
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Date
+        description: ''
+    package: adaptivecards-controls

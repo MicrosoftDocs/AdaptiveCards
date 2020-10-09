@@ -1,0 +1,300 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.SnippetPaletteItem
+    name: SnippetPaletteItem
+    fullName: SnippetPaletteItem
+    children:
+      - adaptivecards-designer.SnippetPaletteItem.category
+      - adaptivecards-designer.SnippetPaletteItem.createPeer
+      - adaptivecards-designer.SnippetPaletteItem.dragging
+      - adaptivecards-designer.SnippetPaletteItem.endDrag
+      - adaptivecards-designer.SnippetPaletteItem.isDraggable
+      - adaptivecards-designer.SnippetPaletteItem.name
+      - adaptivecards-designer.SnippetPaletteItem.onClick
+      - adaptivecards-designer.SnippetPaletteItem.onDoubleClick
+      - adaptivecards-designer.SnippetPaletteItem.onEndDrag
+      - adaptivecards-designer.SnippetPaletteItem.onStartDrag
+      - adaptivecards-designer.SnippetPaletteItem.render
+      - adaptivecards-designer.SnippetPaletteItem.renderDragVisual
+      - adaptivecards-designer.SnippetPaletteItem.renderedElement
+      - adaptivecards-designer.SnippetPaletteItem.snippet
+      - adaptivecards-designer.SnippetPaletteItem.constructor
+      - adaptivecards-designer.SnippetPaletteItem.updateLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.CustomPaletteItem
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.category
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'category: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.createPeer
+    name: 'createPeer(DesignContext, CardDesignerSurface)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createPeer(context: DesignContext, designer:
+        CardDesignerSurface)
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.DesignContext
+          description: ''
+        - id: designer
+          type:
+            - adaptivecards-designer.CardDesignerSurface
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.CardElementPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.dragging
+    name: dragging
+    fullName: dragging
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean dragging
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.endDrag
+    name: endDrag()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endDrag()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.isDraggable
+    name: isDraggable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDraggable()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.onDoubleClick
+    name: onDoubleClick
+    fullName: onDoubleClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.onEndDrag
+    name: onEndDrag
+    fullName: onEndDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.onStartDrag
+    name: onStartDrag
+    fullName: onStartDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.renderDragVisual
+    name: renderDragVisual()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function renderDragVisual()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.snippet
+    name: snippet
+    fullName: snippet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'snippet: object'
+      return:
+        type:
+          - object
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.constructor
+    name: 'SnippetPaletteItem(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SnippetPaletteItem(category: string, name: string)'
+      parameters:
+        - id: category
+          type:
+            - string
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SnippetPaletteItem.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.CustomPaletteItem
+    name: CustomPaletteItem
+    spec.typeScript:
+      - name: CustomPaletteItem
+        fullName: CustomPaletteItem
+        uid: adaptivecards-designer.CustomPaletteItem
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+    spec.typeScript:
+      - name: DesignContext
+        fullName: DesignContext
+        uid: adaptivecards-designer.DesignContext
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+    spec.typeScript:
+      - name: CardDesignerSurface
+        fullName: CardDesignerSurface
+        uid: adaptivecards-designer.CardDesignerSurface
+  - uid: adaptivecards-designer.CardElementPeer
+    name: CardElementPeer
+    spec.typeScript:
+      - name: CardElementPeer
+        fullName: CardElementPeer
+        uid: adaptivecards-designer.CardElementPeer

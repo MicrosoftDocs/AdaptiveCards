@@ -1,0 +1,236 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ObjectData
+    name: ObjectData
+    fullName: ObjectData
+    children:
+      - adaptivecards-designer.ObjectData.deriveFrom
+      - adaptivecards-designer.ObjectData.fields
+      - adaptivecards-designer.ObjectData.generateSampleData
+      - adaptivecards-designer.ObjectData.getChildFields
+      - adaptivecards-designer.ObjectData.isCollection
+      - adaptivecards-designer.ObjectData.constructor
+      - adaptivecards-designer.ObjectData.owner
+      - adaptivecards-designer.ObjectData.parse
+      - adaptivecards-designer.ObjectData.qualifyFieldName
+      - adaptivecards-designer.ObjectData.valueType
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.DataType
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.deriveFrom
+    name: 'deriveFrom(FieldDefinition, object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function deriveFrom(parent: FieldDefinition, input: object)'
+      parameters:
+        - id: parent
+          type:
+            - adaptivecards-designer.FieldDefinition
+          description: ''
+        - id: input
+          type:
+            - object
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.ObjectData
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.fields
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'fields: FieldDefinition[]'
+      return:
+        type:
+          - 'adaptivecards-designer.FieldDefinition[]'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.generateSampleData
+    name: generateSampleData()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generateSampleData()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.getChildFields
+    name: getChildFields()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getChildFields()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards-designer.FieldDefinition[]'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.isCollection
+    name: isCollection
+    fullName: isCollection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isCollection
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.constructor
+    name: ObjectData(FieldDefinition)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ObjectData(owner: FieldDefinition)'
+      parameters:
+        - id: owner
+          type:
+            - adaptivecards-designer.FieldDefinition
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.owner
+    name: owner
+    fullName: owner
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'owner: FieldDefinition'
+      return:
+        type:
+          - adaptivecards-designer.FieldDefinition
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.parse
+    name: 'parse(FieldDefinition, IObjectData)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function parse(parent: FieldDefinition, data: IObjectData)'
+      parameters:
+        - id: parent
+          type:
+            - adaptivecards-designer.FieldDefinition
+          description: ''
+        - id: data
+          type:
+            - adaptivecards-designer.IObjectData
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.ObjectData
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.qualifyFieldName
+    name: 'qualifyFieldName(string, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function qualifyFieldName(fieldName: string, fieldIsLeaf: boolean)'
+      parameters:
+        - id: fieldName
+          type:
+            - string
+          description: ''
+        - id: fieldIsLeaf
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ObjectData.valueType
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ValueType valueType
+      return:
+        type:
+          - adaptivecards-designer.ValueType
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DataType
+    name: DataType
+    spec.typeScript:
+      - name: DataType
+        fullName: DataType
+        uid: adaptivecards-designer.DataType
+  - uid: adaptivecards-designer.FieldDefinition
+    name: FieldDefinition
+    spec.typeScript:
+      - name: FieldDefinition
+        fullName: FieldDefinition
+        uid: adaptivecards-designer.FieldDefinition
+  - uid: 'adaptivecards-designer.FieldDefinition[]'
+    name: 'FieldDefinition[]'
+    spec.typeScript:
+      - name: FieldDefinition
+        fullName: FieldDefinition
+        uid: adaptivecards-designer.FieldDefinition
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards-designer.ValueType
+    name: ValueType
+    spec.typeScript:
+      - name: ValueType
+        fullName: ValueType
+        uid: adaptivecards-designer.ValueType
+  - uid: adaptivecards-designer.ObjectData
+    name: ObjectData
+    spec.typeScript:
+      - name: ObjectData
+        fullName: ObjectData
+        uid: adaptivecards-designer.ObjectData
+  - uid: adaptivecards-designer.IObjectData
+    name: IObjectData
+    spec.typeScript:
+      - name: IObjectData
+        fullName: IObjectData
+        uid: adaptivecards-designer.IObjectData

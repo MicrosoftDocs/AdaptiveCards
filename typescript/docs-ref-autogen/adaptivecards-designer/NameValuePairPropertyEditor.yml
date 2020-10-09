@@ -1,0 +1,251 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor
+    name: NameValuePairPropertyEditor
+    fullName: NameValuePairPropertyEditor
+    children:
+      - adaptivecards-designer.NameValuePairPropertyEditor.addButtonTitle
+      - >-
+        adaptivecards-designer.NameValuePairPropertyEditor.collectionPropertyName
+      - adaptivecards-designer.NameValuePairPropertyEditor.createCollectionItem
+      - adaptivecards-designer.NameValuePairPropertyEditor.messageIfEmpty
+      - adaptivecards-designer.NameValuePairPropertyEditor.namePropertyLabel
+      - adaptivecards-designer.NameValuePairPropertyEditor.namePropertyName
+      - adaptivecards-designer.NameValuePairPropertyEditor.constructor
+      - adaptivecards-designer.NameValuePairPropertyEditor.render
+      - adaptivecards-designer.NameValuePairPropertyEditor.targetVersion
+      - adaptivecards-designer.NameValuePairPropertyEditor.valuePropertyLabel
+      - adaptivecards-designer.NameValuePairPropertyEditor.valuePropertyName
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.PropertySheetEntry
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.addButtonTitle
+    name: addButtonTitle
+    fullName: addButtonTitle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'addButtonTitle: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.collectionPropertyName
+    name: collectionPropertyName
+    fullName: collectionPropertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'collectionPropertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.createCollectionItem
+    name: createCollectionItem
+    fullName: createCollectionItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'createCollectionItem: (name: string, value: string) => any'
+      return:
+        type:
+          - '(name: string, value: string) => any'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.messageIfEmpty
+    name: messageIfEmpty
+    fullName: messageIfEmpty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'messageIfEmpty: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.namePropertyLabel
+    name: namePropertyLabel
+    fullName: namePropertyLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'namePropertyLabel: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.namePropertyName
+    name: namePropertyName
+    fullName: namePropertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'namePropertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.constructor
+    name: >-
+      NameValuePairPropertyEditor(Adaptive.TargetVersion, string, string,
+      string, (name: string, value: string) => any, string, string, string,
+      string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new NameValuePairPropertyEditor(targetVersion: Adaptive.TargetVersion,
+        collectionPropertyName: string, namePropertyName: string,
+        valuePropertyName: string, createCollectionItem: (name: string, value:
+        string) => any, namePropertyLabel?: string, valuePropertyLabel?: string,
+        addButtonTitle?: string, messageIfEmpty?: string)
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+        - id: collectionPropertyName
+          type:
+            - string
+          description: ''
+        - id: namePropertyName
+          type:
+            - string
+          description: ''
+        - id: valuePropertyName
+          type:
+            - string
+          description: ''
+        - id: createCollectionItem
+          type:
+            - '(name: string, value: string) => any'
+          description: ''
+        - id: namePropertyLabel
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: valuePropertyLabel
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: addButtonTitle
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: messageIfEmpty
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.valuePropertyLabel
+    name: valuePropertyLabel
+    fullName: valuePropertyLabel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valuePropertyLabel: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor.valuePropertyName
+    name: valuePropertyName
+    fullName: valuePropertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valuePropertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.PropertySheetEntry
+    name: PropertySheetEntry
+    spec.typeScript:
+      - name: PropertySheetEntry
+        fullName: PropertySheetEntry
+        uid: adaptivecards-designer.PropertySheetEntry
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

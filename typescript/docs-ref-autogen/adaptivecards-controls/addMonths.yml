@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.addMonths
+    name: 'addMonths(Date, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addMonths(date: Date, months: number)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+        - id: months
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Date
+        description: ''
+    package: adaptivecards-controls

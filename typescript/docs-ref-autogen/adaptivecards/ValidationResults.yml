@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ValidationResults
+    name: ValidationResults
+    fullName: ValidationResults
+    children:
+      - adaptivecards.ValidationResults.addFailure
+      - adaptivecards.ValidationResults.allIds
+      - adaptivecards.ValidationResults.validationEvents
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ValidationResults.addFailure
+    name: 'addFailure(CardObject, ValidationEvent, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addFailure(cardObject: CardObject, event: ValidationEvent,
+        message: string)
+      parameters:
+        - id: cardObject
+          type:
+            - adaptivecards.CardObject
+          description: ''
+        - id: event
+          type:
+            - adaptivecards.ValidationEvent
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ValidationResults.allIds
+    name: allIds
+    fullName: allIds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'allIds: Dictionary<number>'
+      return:
+        type:
+          - adaptivecards.Dictionary<number>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ValidationResults.validationEvents
+    name: validationEvents
+    fullName: validationEvents
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'validationEvents: IValidationEvent[]'
+      return:
+        type:
+          - 'adaptivecards.IValidationEvent[]'
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Dictionary<number>
+    name: Dictionary<number>
+    spec.typeScript:
+      - name: Dictionary
+        fullName: Dictionary
+        uid: adaptivecards.Dictionary
+      - name: <number>
+        fullName: <number>
+  - uid: 'adaptivecards.IValidationEvent[]'
+    name: 'IValidationEvent[]'
+    spec.typeScript:
+      - name: IValidationEvent
+        fullName: IValidationEvent
+        uid: adaptivecards.IValidationEvent
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.CardObject
+    name: CardObject
+    spec.typeScript:
+      - name: CardObject
+        fullName: CardObject
+        uid: adaptivecards.CardObject
+  - uid: adaptivecards.ValidationEvent
+    name: ValidationEvent
+    spec.typeScript:
+      - name: ValidationEvent
+        fullName: ValidationEvent
+        uid: adaptivecards.ValidationEvent

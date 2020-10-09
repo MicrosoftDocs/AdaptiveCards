@@ -1,0 +1,129 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.FontTypeDefinition
+    name: FontTypeDefinition
+    fullName: FontTypeDefinition
+    children:
+      - adaptivecards.FontTypeDefinition.fontFamily
+      - adaptivecards.FontTypeDefinition.fontSizes
+      - adaptivecards.FontTypeDefinition.constructor
+      - adaptivecards.FontTypeDefinition.fontWeights
+      - adaptivecards.FontTypeDefinition.monospace
+      - adaptivecards.FontTypeDefinition.parse
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeDefinition.fontFamily
+    name: fontFamily
+    fullName: fontFamily
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'fontFamily?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeDefinition.fontSizes
+    name: fontSizes
+    fullName: fontSizes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'fontSizes: IFontSizeDefinitions'
+      return:
+        type:
+          - adaptivecards.IFontSizeDefinitions
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeDefinition.constructor
+    name: FontTypeDefinition(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FontTypeDefinition(fontFamily?: string)'
+      parameters:
+        - id: fontFamily
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeDefinition.fontWeights
+    name: fontWeights
+    fullName: fontWeights
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'fontWeights: IFontWeightDefinitions'
+      return:
+        type:
+          - adaptivecards.IFontWeightDefinitions
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeDefinition.monospace
+    name: monospace
+    fullName: monospace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static monospace: FontTypeDefinition'
+      return:
+        type:
+          - adaptivecards.FontTypeDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeDefinition.parse
+    name: parse(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+references:
+  - uid: adaptivecards.IFontSizeDefinitions
+    name: IFontSizeDefinitions
+    spec.typeScript:
+      - name: IFontSizeDefinitions
+        fullName: IFontSizeDefinitions
+        uid: adaptivecards.IFontSizeDefinitions
+  - uid: adaptivecards.IFontWeightDefinitions
+    name: IFontWeightDefinitions
+    spec.typeScript:
+      - name: IFontWeightDefinitions
+        fullName: IFontWeightDefinitions
+        uid: adaptivecards.IFontWeightDefinitions
+  - uid: adaptivecards.FontTypeDefinition
+    name: FontTypeDefinition
+    spec.typeScript:
+      - name: FontTypeDefinition
+        fullName: FontTypeDefinition
+        uid: adaptivecards.FontTypeDefinition

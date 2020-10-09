@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.TextSize
+    name: TextSize
+    fullName: TextSize
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type TextSize = "small" | "default" | "medium" | "large" | "extraLarge"
+    package: adaptivecards

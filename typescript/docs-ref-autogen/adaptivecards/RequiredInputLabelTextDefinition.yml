@@ -1,0 +1,184 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.RequiredInputLabelTextDefinition
+    name: RequiredInputLabelTextDefinition
+    fullName: RequiredInputLabelTextDefinition
+    children:
+      - adaptivecards.RequiredInputLabelTextDefinition.color
+      - adaptivecards.RequiredInputLabelTextDefinition.getDefaultWeight
+      - adaptivecards.RequiredInputLabelTextDefinition.isSubtle
+      - adaptivecards.RequiredInputLabelTextDefinition.constructor
+      - adaptivecards.RequiredInputLabelTextDefinition.size
+      - adaptivecards.RequiredInputLabelTextDefinition.suffix
+      - adaptivecards.RequiredInputLabelTextDefinition.suffixColor
+      - adaptivecards.RequiredInputLabelTextDefinition.toJSON
+      - adaptivecards.RequiredInputLabelTextDefinition.weight
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.BaseTextDefinition
+    package: adaptivecards
+  - uid: adaptivecards.RequiredInputLabelTextDefinition.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'color: TextColor'
+      return:
+        type:
+          - adaptivecards.TextColor
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.RequiredInputLabelTextDefinition.getDefaultWeight
+    name: getDefaultWeight()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getDefaultWeight()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.TextWeight
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.RequiredInputLabelTextDefinition.isSubtle
+    name: isSubtle
+    fullName: isSubtle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isSubtle: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.RequiredInputLabelTextDefinition.constructor
+    name: RequiredInputLabelTextDefinition(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new RequiredInputLabelTextDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.RequiredInputLabelTextDefinition.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size: TextSize'
+      return:
+        type:
+          - adaptivecards.TextSize
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.RequiredInputLabelTextDefinition.suffix
+    name: suffix
+    fullName: suffix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'suffix?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.RequiredInputLabelTextDefinition.suffixColor
+    name: suffixColor
+    fullName: suffixColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'suffixColor: TextColor'
+      return:
+        type:
+          - adaptivecards.TextColor
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.RequiredInputLabelTextDefinition.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.RequiredInputLabelTextDefinition.weight
+    name: weight
+    fullName: weight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'weight: TextWeight'
+      return:
+        type:
+          - adaptivecards.TextWeight
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.BaseTextDefinition
+    name: BaseTextDefinition
+    spec.typeScript:
+      - name: BaseTextDefinition
+        fullName: BaseTextDefinition
+        uid: adaptivecards.BaseTextDefinition
+  - uid: adaptivecards.TextColor
+    name: TextColor
+    spec.typeScript:
+      - name: TextColor
+        fullName: TextColor
+        uid: adaptivecards.TextColor
+  - uid: adaptivecards.TextSize
+    name: TextSize
+    spec.typeScript:
+      - name: TextSize
+        fullName: TextSize
+        uid: adaptivecards.TextSize
+  - uid: adaptivecards.TextWeight
+    name: TextWeight
+    spec.typeScript:
+      - name: TextWeight
+        fullName: TextWeight
+        uid: adaptivecards.TextWeight

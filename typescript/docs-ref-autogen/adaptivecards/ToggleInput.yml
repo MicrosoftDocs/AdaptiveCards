@@ -1,0 +1,1964 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ToggleInput
+    name: ToggleInput
+    fullName: ToggleInput
+    children:
+      - adaptivecards.ToggleInput.asString
+      - adaptivecards.ToggleInput.customCssSelector
+      - adaptivecards.ToggleInput.defaultValue
+      - adaptivecards.ToggleInput.errorMessage
+      - adaptivecards.ToggleInput.errorMessageProperty
+      - adaptivecards.ToggleInput.focus
+      - adaptivecards.ToggleInput.getActionAt
+      - adaptivecards.ToggleInput.getActionById
+      - adaptivecards.ToggleInput.getActionCount
+      - adaptivecards.ToggleInput.getAllInputs
+      - adaptivecards.ToggleInput.getCustomProperty
+      - adaptivecards.ToggleInput.getEffectivePadding
+      - adaptivecards.ToggleInput.getEffectiveStyle
+      - adaptivecards.ToggleInput.getEffectiveStyleDefinition
+      - adaptivecards.ToggleInput.getElementById
+      - adaptivecards.ToggleInput.getForbiddenActionTypes
+      - adaptivecards.ToggleInput.getImmediateSurroundingPadding
+      - adaptivecards.ToggleInput.getJsonTypeName
+      - adaptivecards.ToggleInput.getParentContainer
+      - adaptivecards.ToggleInput.getResourceInformation
+      - adaptivecards.ToggleInput.getRootElement
+      - adaptivecards.ToggleInput.getRootObject
+      - adaptivecards.ToggleInput.getSchema
+      - adaptivecards.ToggleInput.hasAllDefaultValues
+      - adaptivecards.ToggleInput.hasDefaultValue
+      - adaptivecards.ToggleInput.hasVisibleSeparator
+      - adaptivecards.ToggleInput.height
+      - adaptivecards.ToggleInput.heightProperty
+      - adaptivecards.ToggleInput.horizontalAlignment
+      - adaptivecards.ToggleInput.horizontalAlignmentProperty
+      - adaptivecards.ToggleInput.hostConfig
+      - adaptivecards.ToggleInput.id
+      - adaptivecards.ToggleInput.idProperty
+      - adaptivecards.ToggleInput.index
+      - adaptivecards.ToggleInput.indexOf
+      - adaptivecards.ToggleInput.internalValidateProperties
+      - adaptivecards.ToggleInput.isAtTheVeryBottom
+      - adaptivecards.ToggleInput.isAtTheVeryLeft
+      - adaptivecards.ToggleInput.isAtTheVeryRight
+      - adaptivecards.ToggleInput.isAtTheVeryTop
+      - adaptivecards.ToggleInput.isBleeding
+      - adaptivecards.ToggleInput.isBleedingAtBottom
+      - adaptivecards.ToggleInput.isBleedingAtTop
+      - adaptivecards.ToggleInput.isBottomElement
+      - adaptivecards.ToggleInput.isDesignMode
+      - adaptivecards.ToggleInput.isFirstElement
+      - adaptivecards.ToggleInput.isHiddenDueToOverflow
+      - adaptivecards.ToggleInput.isInline
+      - adaptivecards.ToggleInput.isInteractive
+      - adaptivecards.ToggleInput.isLastElement
+      - adaptivecards.ToggleInput.isLeftMostElement
+      - adaptivecards.ToggleInput.isRequired
+      - adaptivecards.ToggleInput.isRequiredProperty
+      - adaptivecards.ToggleInput.isRightMostElement
+      - adaptivecards.ToggleInput.isSet
+      - adaptivecards.ToggleInput.isStandalone
+      - adaptivecards.ToggleInput.isTopElement
+      - adaptivecards.ToggleInput.isValid
+      - adaptivecards.ToggleInput.isVisible
+      - adaptivecards.ToggleInput.isVisibleProperty
+      - adaptivecards.ToggleInput.label
+      - adaptivecards.ToggleInput.labelProperty
+      - adaptivecards.ToggleInput.lang
+      - adaptivecards.ToggleInput.langProperty
+      - adaptivecards.ToggleInput.maxVersion
+      - adaptivecards.ToggleInput.onPreProcessPropertyValue
+      - adaptivecards.ToggleInput.onRegisterCustomProperties
+      - adaptivecards.ToggleInput.onValueChanged
+      - adaptivecards.ToggleInput.parent
+      - adaptivecards.ToggleInput.parse
+      - adaptivecards.ToggleInput.preProcessPropertyValue
+      - adaptivecards.ToggleInput.remove
+      - adaptivecards.ToggleInput.render
+      - adaptivecards.ToggleInput.renderedElement
+      - adaptivecards.ToggleInput.requires
+      - adaptivecards.ToggleInput.requiresProperty
+      - adaptivecards.ToggleInput.resetDefaultValues
+      - adaptivecards.ToggleInput.separator
+      - adaptivecards.ToggleInput.separatorElement
+      - adaptivecards.ToggleInput.separatorProperty
+      - adaptivecards.ToggleInput.setCustomProperty
+      - adaptivecards.ToggleInput.setParent
+      - adaptivecards.ToggleInput.setShouldFallback
+      - adaptivecards.ToggleInput.shouldFallback
+      - adaptivecards.ToggleInput.spacing
+      - adaptivecards.ToggleInput.spacingProperty
+      - adaptivecards.ToggleInput.title
+      - adaptivecards.ToggleInput.titleProperty
+      - adaptivecards.ToggleInput.constructor
+      - adaptivecards.ToggleInput.toJSON
+      - adaptivecards.ToggleInput.typeNameProperty
+      - adaptivecards.ToggleInput.updateLayout
+      - adaptivecards.ToggleInput.validateProperties
+      - adaptivecards.ToggleInput.validateValue
+      - adaptivecards.ToggleInput.value
+      - adaptivecards.ToggleInput.valueOff
+      - adaptivecards.ToggleInput.valueOffProperty
+      - adaptivecards.ToggleInput.valueOn
+      - adaptivecards.ToggleInput.valueOnProperty
+      - adaptivecards.ToggleInput.valueProperty
+      - adaptivecards.ToggleInput.wrap
+      - adaptivecards.ToggleInput.wrapProperty
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.Input
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.asString
+    name: asString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function asString()
+      parameters: []
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.customCssSelector
+    name: customCssSelector
+    fullName: customCssSelector
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'customCssSelector?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.errorMessage
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'errorMessage?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.errorMessageProperty
+    name: errorMessageProperty
+    fullName: errorMessageProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static errorMessageProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getActionAt
+    name: getActionAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getActionAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards.Action | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getActionById
+    name: getActionById(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getActionById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards.Action | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getActionCount
+    name: getActionCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getActionCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getAllInputs
+    name: getAllInputs(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAllInputs(processActions?: boolean)'
+      parameters:
+        - id: processActions
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'adaptivecards.Input[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getCustomProperty
+    name: getCustomProperty(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getCustomProperty(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getEffectivePadding
+    name: getEffectivePadding()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEffectivePadding()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.PaddingDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getEffectiveStyle
+    name: getEffectiveStyle()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEffectiveStyle()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getEffectiveStyleDefinition
+    name: getEffectiveStyleDefinition()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEffectiveStyleDefinition()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.ContainerStyleDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getElementById
+    name: getElementById(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getElementById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getForbiddenActionTypes
+    name: getForbiddenActionTypes()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getForbiddenActionTypes()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards.ActionType[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getImmediateSurroundingPadding
+    name: >-
+      getImmediateSurroundingPadding(PaddingDefinition, boolean, boolean,
+      boolean, boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getImmediateSurroundingPadding(result: PaddingDefinition,
+        processTop?: boolean, processRight?: boolean, processBottom?: boolean,
+        processLeft?: boolean)
+      parameters:
+        - id: result
+          type:
+            - adaptivecards.PaddingDefinition
+          description: ''
+        - id: processTop
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: processRight
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: processBottom
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: processLeft
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getJsonTypeName
+    name: getJsonTypeName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getJsonTypeName()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getParentContainer
+    name: getParentContainer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getParentContainer()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.Container | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getResourceInformation
+    name: getResourceInformation()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getResourceInformation()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards.IResourceInformation[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getRootElement
+    name: getRootElement()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRootElement()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.CardElement
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getRootObject
+    name: getRootObject()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRootObject()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.CardObject
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.getSchema
+    name: getSchema()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSchema()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.SerializableObjectSchema
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.hasAllDefaultValues
+    name: hasAllDefaultValues()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasAllDefaultValues()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.hasDefaultValue
+    name: hasDefaultValue(PropertyDefinition)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function hasDefaultValue(property: PropertyDefinition)'
+      parameters:
+        - id: property
+          type:
+            - adaptivecards.PropertyDefinition
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.hasVisibleSeparator
+    name: hasVisibleSeparator
+    fullName: hasVisibleSeparator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasVisibleSeparator
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'height: CardElementHeight'
+      return:
+        type:
+          - adaptivecards.CardElementHeight
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.heightProperty
+    name: heightProperty
+    fullName: heightProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static heightProperty: ValueSetProperty'
+      return:
+        type:
+          - adaptivecards.ValueSetProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'horizontalAlignment: HorizontalAlignment'
+      return:
+        type:
+          - adaptivecards.HorizontalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.horizontalAlignmentProperty
+    name: horizontalAlignmentProperty
+    fullName: horizontalAlignmentProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumProperty<HorizontalAlignment>'
+      return:
+        type:
+          - adaptivecards.EnumProperty<adaptivecards.HorizontalAlignment>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.hostConfig
+    name: hostConfig
+    fullName: hostConfig
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostConfig hostConfig
+      return:
+        type:
+          - adaptivecards.HostConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.idProperty
+    name: idProperty
+    fullName: idProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static idProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.index
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.indexOf
+    name: indexOf(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function indexOf(cardElement: CardElement)'
+      parameters:
+        - id: cardElement
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.internalValidateProperties
+    name: internalValidateProperties(ValidationResults)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function internalValidateProperties(context: ValidationResults)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards.ValidationResults
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isAtTheVeryBottom
+    name: isAtTheVeryBottom()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryBottom()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isAtTheVeryLeft
+    name: isAtTheVeryLeft()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryLeft()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isAtTheVeryRight
+    name: isAtTheVeryRight()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryRight()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isAtTheVeryTop
+    name: isAtTheVeryTop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryTop()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isBleeding
+    name: isBleeding()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBleeding()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isBleedingAtBottom
+    name: isBleedingAtBottom()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBleedingAtBottom()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isBleedingAtTop
+    name: isBleedingAtTop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBleedingAtTop()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isBottomElement
+    name: isBottomElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isBottomElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isDesignMode
+    name: isDesignMode()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDesignMode()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isFirstElement
+    name: isFirstElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isFirstElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isHiddenDueToOverflow
+    name: isHiddenDueToOverflow()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isHiddenDueToOverflow()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isInline
+    name: isInline
+    fullName: isInline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInline
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isInteractive
+    name: isInteractive
+    fullName: isInteractive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInteractive
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isLastElement
+    name: isLastElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isLastElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isLeftMostElement
+    name: isLeftMostElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isLeftMostElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isRequired
+    name: isRequired
+    fullName: isRequired
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isRequired: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isRequiredProperty
+    name: isRequiredProperty
+    fullName: isRequiredProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static isRequiredProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isRightMostElement
+    name: isRightMostElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isRightMostElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isSet
+    name: isSet()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSet()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isStandalone
+    name: isStandalone
+    fullName: isStandalone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isStandalone
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isTopElement
+    name: isTopElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isTopElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isValid
+    name: isValid()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isValid()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isVisible
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isVisible
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.isVisibleProperty
+    name: isVisibleProperty
+    fullName: isVisibleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static isVisibleProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'label?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.labelProperty
+    name: labelProperty
+    fullName: labelProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static labelProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.lang
+    name: lang
+    fullName: lang
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined lang
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.langProperty
+    name: langProperty
+    fullName: langProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static langProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.maxVersion
+    name: maxVersion
+    fullName: maxVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'maxVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.onPreProcessPropertyValue
+    name: onPreProcessPropertyValue
+    fullName: onPreProcessPropertyValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onPreProcessPropertyValue?: (sender: CardObject, property:
+        PropertyDefinition, value: any) => any
+      return:
+        type:
+          - >-
+            (sender: CardObject, property: PropertyDefinition, value: any) =>
+            any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.onRegisterCustomProperties
+    name: onRegisterCustomProperties
+    fullName: onRegisterCustomProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        static onRegisterCustomProperties?: (sender: SerializableObject, schema:
+        SerializableObjectSchema) => void
+      return:
+        type:
+          - >-
+            (sender: SerializableObject, schema: SerializableObjectSchema) =>
+            void
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.onValueChanged
+    name: onValueChanged
+    fullName: onValueChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onValueChanged: (sender: Input) => void'
+      return:
+        type:
+          - '(sender: Input) => void'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.parent
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardElement | undefined parent
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.parse
+    name: 'parse(any, SerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(source: any, context?: SerializationContext)'
+      parameters:
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.SerializationContext
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.preProcessPropertyValue
+    name: 'preProcessPropertyValue(PropertyDefinition, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function preProcessPropertyValue(property: PropertyDefinition,
+        propertyValue?: any)
+      parameters:
+        - id: property
+          type:
+            - adaptivecards.PropertyDefinition
+          description: ''
+        - id: propertyValue
+          type:
+            - any
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.remove
+    name: remove()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function remove()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement | undefined renderedElement
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.requires
+    name: requires
+    fullName: requires
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostCapabilities requires
+      return:
+        type:
+          - adaptivecards.HostCapabilities
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.requiresProperty
+    name: requiresProperty
+    fullName: requiresProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static requiresProperty: SerializableObjectProperty'
+      return:
+        type:
+          - adaptivecards.SerializableObjectProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.resetDefaultValues
+    name: resetDefaultValues()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resetDefaultValues()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'separator: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.separatorElement
+    name: separatorElement
+    fullName: separatorElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement | undefined separatorElement
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.separatorProperty
+    name: separatorProperty
+    fullName: separatorProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static separatorProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.setCustomProperty
+    name: 'setCustomProperty(string, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setCustomProperty(name: string, value: any)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - any
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.setParent
+    name: setParent(CardObject | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setParent(value: CardObject | undefined)'
+      parameters:
+        - id: value
+          type:
+            - adaptivecards.CardObject | undefined
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.setShouldFallback
+    name: setShouldFallback(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setShouldFallback(value: boolean)'
+      parameters:
+        - id: value
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.shouldFallback
+    name: shouldFallback()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function shouldFallback()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'spacing: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.spacingProperty
+    name: spacingProperty
+    fullName: spacingProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static spacingProperty: EnumProperty<Spacing>'
+      return:
+        type:
+          - adaptivecards.EnumProperty<adaptivecards.Spacing>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'title?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.titleProperty
+    name: titleProperty
+    fullName: titleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static titleProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.constructor
+    name: ToggleInput()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ToggleInput()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.toJSON
+    name: toJSON(BaseSerializationContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toJSON(context?: BaseSerializationContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+          optional: true
+      return:
+        type:
+          - adaptivecards.PropertyBag | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.typeNameProperty
+    name: typeNameProperty
+    fullName: typeNameProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static typeNameProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.updateLayout
+    name: updateLayout(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateLayout(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.validateProperties
+    name: validateProperties()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function validateProperties()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.ValidationResults
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.validateValue
+    name: validateValue()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function validateValue()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined value
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.valueOff
+    name: valueOff
+    fullName: valueOff
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valueOff: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.valueOffProperty
+    name: valueOffProperty
+    fullName: valueOffProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static valueOffProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.valueOn
+    name: valueOn
+    fullName: valueOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valueOn: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.valueOnProperty
+    name: valueOnProperty
+    fullName: valueOnProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static valueOnProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.valueProperty
+    name: valueProperty
+    fullName: valueProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static valueProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.wrap
+    name: wrap
+    fullName: wrap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'wrap: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleInput.wrapProperty
+    name: wrapProperty
+    fullName: wrapProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static wrapProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Input
+    name: Input
+    spec.typeScript:
+      - name: Input
+        fullName: Input
+        uid: adaptivecards.Input
+  - uid: adaptivecards.CardElementHeight
+    name: CardElementHeight
+    spec.typeScript:
+      - name: CardElementHeight
+        fullName: CardElementHeight
+        uid: adaptivecards.CardElementHeight
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    spec.typeScript:
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+  - uid: adaptivecards.StringProperty
+    name: StringProperty
+    spec.typeScript:
+      - name: StringProperty
+        fullName: StringProperty
+        uid: adaptivecards.StringProperty
+  - uid: adaptivecards.ValueSetProperty
+    name: ValueSetProperty
+    spec.typeScript:
+      - name: ValueSetProperty
+        fullName: ValueSetProperty
+        uid: adaptivecards.ValueSetProperty
+  - uid: adaptivecards.EnumProperty<adaptivecards.HorizontalAlignment>
+    name: HorizontalAlignment>
+    spec.typeScript:
+      - name: EnumProperty
+        fullName: EnumProperty
+        uid: adaptivecards.EnumProperty
+      - name: <
+        fullName: <
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.BoolProperty
+    name: BoolProperty
+    spec.typeScript:
+      - name: BoolProperty
+        fullName: BoolProperty
+        uid: adaptivecards.BoolProperty
+  - uid: adaptivecards.SerializableObjectProperty
+    name: SerializableObjectProperty
+    spec.typeScript:
+      - name: SerializableObjectProperty
+        fullName: SerializableObjectProperty
+        uid: adaptivecards.SerializableObjectProperty
+  - uid: adaptivecards.EnumProperty<adaptivecards.Spacing>
+    name: Spacing>
+    spec.typeScript:
+      - name: EnumProperty
+        fullName: EnumProperty
+        uid: adaptivecards.EnumProperty
+      - name: <
+        fullName: <
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.HostConfig
+    name: HostConfig
+    spec.typeScript:
+      - name: HostConfig
+        fullName: HostConfig
+        uid: adaptivecards.HostConfig
+  - uid: adaptivecards.CardElement | undefined
+    name: CardElement | undefined
+    spec.typeScript:
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.HostCapabilities
+    name: HostCapabilities
+    spec.typeScript:
+      - name: HostCapabilities
+        fullName: HostCapabilities
+        uid: adaptivecards.HostCapabilities
+  - uid: adaptivecards.Action | undefined
+    name: Action | undefined
+    spec.typeScript:
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: 'adaptivecards.Input[]'
+    name: 'Input[]'
+    spec.typeScript:
+      - name: Input
+        fullName: Input
+        uid: adaptivecards.Input
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.PaddingDefinition
+    name: PaddingDefinition
+    spec.typeScript:
+      - name: PaddingDefinition
+        fullName: PaddingDefinition
+        uid: adaptivecards.PaddingDefinition
+  - uid: adaptivecards.ContainerStyleDefinition
+    name: ContainerStyleDefinition
+    spec.typeScript:
+      - name: ContainerStyleDefinition
+        fullName: ContainerStyleDefinition
+        uid: adaptivecards.ContainerStyleDefinition
+  - uid: 'adaptivecards.ActionType[]'
+    name: 'ActionType[]'
+    spec.typeScript:
+      - name: ActionType
+        fullName: ActionType
+        uid: adaptivecards.ActionType
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.Container | undefined
+    name: Container | undefined
+    spec.typeScript:
+      - name: Container
+        fullName: Container
+        uid: adaptivecards.Container
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: 'adaptivecards.IResourceInformation[]'
+    name: 'IResourceInformation[]'
+    spec.typeScript:
+      - name: IResourceInformation
+        fullName: IResourceInformation
+        uid: adaptivecards.IResourceInformation
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.CardElement
+    name: CardElement
+    spec.typeScript:
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+  - uid: adaptivecards.CardObject
+    name: CardObject
+    spec.typeScript:
+      - name: CardObject
+        fullName: CardObject
+        uid: adaptivecards.CardObject
+  - uid: adaptivecards.SerializableObjectSchema
+    name: SerializableObjectSchema
+    spec.typeScript:
+      - name: SerializableObjectSchema
+        fullName: SerializableObjectSchema
+        uid: adaptivecards.SerializableObjectSchema
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition
+  - uid: adaptivecards.ValidationResults
+    name: ValidationResults
+    spec.typeScript:
+      - name: ValidationResults
+        fullName: ValidationResults
+        uid: adaptivecards.ValidationResults
+  - uid: adaptivecards.SerializationContext
+    name: SerializationContext
+    spec.typeScript:
+      - name: SerializationContext
+        fullName: SerializationContext
+        uid: adaptivecards.SerializationContext
+  - uid: adaptivecards.CardObject | undefined
+    name: CardObject | undefined
+    spec.typeScript:
+      - name: CardObject
+        fullName: CardObject
+        uid: adaptivecards.CardObject
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext
+  - uid: adaptivecards.PropertyBag | undefined
+    name: PropertyBag | undefined
+    spec.typeScript:
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+      - name: ' | undefined'
+        fullName: ' | undefined'

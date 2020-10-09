@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.InputControl
+    name: InputControl
+    fullName: InputControl
+    children:
+      - adaptivecards-controls.InputControl.attach
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.InputControl.attach
+    name: attach(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls

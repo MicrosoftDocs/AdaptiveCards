@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.Strings
+    name: Strings
+    fullName: Strings
+    children:
+      - adaptivecards.Strings.defaults
+      - adaptivecards.Strings.errors
+      - adaptivecards.Strings.hints
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.Strings.defaults
+    name: defaults
+    fullName: defaults
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaults: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Strings.errors
+    name: errors
+    fullName: errors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static errors: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Strings.hints
+    name: hints
+    fullName: hints
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static hints: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards

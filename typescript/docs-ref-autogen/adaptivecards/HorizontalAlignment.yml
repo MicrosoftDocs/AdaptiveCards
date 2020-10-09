@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    fullName: HorizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type HorizontalAlignment = "left" | "center" | "right"
+    package: adaptivecards

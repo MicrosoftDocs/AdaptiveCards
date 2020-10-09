@@ -1,0 +1,90 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IArrayField
+    name: IArrayField
+    fullName: IArrayField
+    children:
+      - adaptivecards-designer.IArrayField.displayName
+      - adaptivecards-designer.IArrayField.itemType
+      - adaptivecards-designer.IArrayField.name
+      - adaptivecards-designer.IArrayField.valueType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: adaptivecards-designer.IDataField
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IArrayField.displayName
+    name: displayName
+    fullName: displayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'displayName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IArrayField.itemType
+    name: itemType
+    fullName: itemType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'itemType: IData'
+      return:
+        type:
+          - adaptivecards-designer.IData
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IArrayField.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IArrayField.valueType
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valueType: "Array"'
+      return:
+        type:
+          - '"Array"'
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.IDataField
+    name: IDataField
+    spec.typeScript:
+      - name: IDataField
+        fullName: IDataField
+        uid: adaptivecards-designer.IDataField
+  - uid: adaptivecards-designer.IData
+    name: IData
+    spec.typeScript:
+      - name: IData
+        fullName: IData
+        uid: adaptivecards-designer.IData

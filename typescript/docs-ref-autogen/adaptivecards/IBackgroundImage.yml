@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IBackgroundImage
+    name: IBackgroundImage
+    fullName: IBackgroundImage
+    children:
+      - adaptivecards.IBackgroundImage.url
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IBackgroundImage.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards

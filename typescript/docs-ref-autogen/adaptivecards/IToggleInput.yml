@@ -1,0 +1,216 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IToggleInput
+    name: IToggleInput
+    fullName: IToggleInput
+    children:
+      - adaptivecards.IToggleInput.height
+      - adaptivecards.IToggleInput.horizontalAlignment
+      - adaptivecards.IToggleInput.id
+      - adaptivecards.IToggleInput.separator
+      - adaptivecards.IToggleInput.spacing
+      - adaptivecards.IToggleInput.speak
+      - adaptivecards.IToggleInput.title
+      - adaptivecards.IToggleInput.type
+      - adaptivecards.IToggleInput.value
+      - adaptivecards.IToggleInput.valueOff
+      - adaptivecards.IToggleInput.valueOn
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: adaptivecards.IInput
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        type:
+          - '"auto" | "stretch"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        type:
+          - adaptivecards.HorizontalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.speak
+    name: speak
+    fullName: speak
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'speak?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'title: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: "Input.Toggle"'
+      return:
+        type:
+          - '"Input.Toggle"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'value?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.valueOff
+    name: valueOff
+    fullName: valueOff
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'valueOff?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IToggleInput.valueOn
+    name: valueOn
+    fullName: valueOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'valueOn?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.IInput
+    name: IInput
+    spec.typeScript:
+      - name: IInput
+        fullName: IInput
+        uid: adaptivecards.IInput
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    spec.typeScript:
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing

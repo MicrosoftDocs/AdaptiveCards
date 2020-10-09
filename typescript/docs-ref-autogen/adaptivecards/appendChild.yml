@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.appendChild
+    name: 'appendChild(Node, Node | undefined)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function appendChild(node: Node, child: Node | undefined)'
+      parameters:
+        - id: node
+          type:
+            - Node
+          description: ''
+        - id: child
+          type:
+            - Node | undefined
+          description: ''
+    package: adaptivecards

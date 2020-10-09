@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.CardElementHeight
+    name: CardElementHeight
+    fullName: CardElementHeight
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type CardElementHeight = "auto" | "stretch"
+    package: adaptivecards

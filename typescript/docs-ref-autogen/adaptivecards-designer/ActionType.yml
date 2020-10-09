@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ActionType
+    name: ActionType
+    fullName: ActionType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type ActionType = {  }'
+    package: adaptivecards-designer

@@ -1,0 +1,123 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.PopupControl
+    name: PopupControl
+    fullName: PopupControl
+    children:
+      - adaptivecards-controls.PopupControl.closePopup
+      - adaptivecards-controls.PopupControl.focus
+      - adaptivecards-controls.PopupControl.isOpen
+      - adaptivecards-controls.PopupControl.keyDown
+      - adaptivecards-controls.PopupControl.onClose
+      - adaptivecards-controls.PopupControl.popup
+      - adaptivecards-controls.PopupControl.render
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupControl.closePopup
+    name: closePopup(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupControl.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupControl.isOpen
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupControl.keyDown
+    name: keyDown(KeyboardEvent)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function keyDown(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - KeyboardEvent
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupControl.onClose
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClose: (popupControl: PopupControl, wasCancelled: boolean) => void'
+      return:
+        type:
+          - '(popupControl: PopupControl, wasCancelled: boolean) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupControl.popup
+    name: popup(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function popup(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupControl.render
+    name: render(ClientRect)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(rootElementBounds: ClientRect)'
+      parameters:
+        - id: rootElementBounds
+          type:
+            - ClientRect
+          description: ''
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-controls

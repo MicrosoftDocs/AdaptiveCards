@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.InputTextStyle
+    name: InputTextStyle
+    fullName: InputTextStyle
+    children:
+      - adaptivecards.InputTextStyle.Text
+      - adaptivecards.InputTextStyle.Tel
+      - adaptivecards.InputTextStyle.Url
+      - adaptivecards.InputTextStyle.Email
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.InputTextStyle.Text
+    name: Text
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.InputTextStyle.Tel
+    name: Tel
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards
+  - uid: adaptivecards.InputTextStyle.Url
+    name: Url
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards
+  - uid: adaptivecards.InputTextStyle.Email
+    name: Email
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: adaptivecards

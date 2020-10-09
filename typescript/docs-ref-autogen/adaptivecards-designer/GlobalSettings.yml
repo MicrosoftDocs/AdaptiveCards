@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.GlobalSettings
+    name: GlobalSettings
+    fullName: GlobalSettings
+    children:
+      - adaptivecards-designer.GlobalSettings.enableDataBindingSupport
+      - >-
+        adaptivecards-designer.GlobalSettings.selectedHostContainerControlsTargetVersion
+      - adaptivecards-designer.GlobalSettings.showDataStructureToolbox
+      - adaptivecards-designer.GlobalSettings.showSampleDataEditorToolbox
+      - adaptivecards-designer.GlobalSettings.showTargetVersionMismatchWarning
+      - adaptivecards-designer.GlobalSettings.showVersionPicker
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.GlobalSettings.enableDataBindingSupport
+    name: enableDataBindingSupport
+    fullName: enableDataBindingSupport
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static enableDataBindingSupport: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: >-
+      adaptivecards-designer.GlobalSettings.selectedHostContainerControlsTargetVersion
+    name: selectedHostContainerControlsTargetVersion
+    fullName: selectedHostContainerControlsTargetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static selectedHostContainerControlsTargetVersion: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.GlobalSettings.showDataStructureToolbox
+    name: showDataStructureToolbox
+    fullName: showDataStructureToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static showDataStructureToolbox: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.GlobalSettings.showSampleDataEditorToolbox
+    name: showSampleDataEditorToolbox
+    fullName: showSampleDataEditorToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static showSampleDataEditorToolbox: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.GlobalSettings.showTargetVersionMismatchWarning
+    name: showTargetVersionMismatchWarning
+    fullName: showTargetVersionMismatchWarning
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static showTargetVersionMismatchWarning: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.GlobalSettings.showVersionPicker
+    name: showVersionPicker
+    fullName: showVersionPicker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static showVersionPicker: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer

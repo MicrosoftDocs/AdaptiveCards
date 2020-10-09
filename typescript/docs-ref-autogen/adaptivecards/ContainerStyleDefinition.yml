@@ -1,0 +1,134 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ContainerStyleDefinition
+    name: ContainerStyleDefinition
+    fullName: ContainerStyleDefinition
+    children:
+      - adaptivecards.ContainerStyleDefinition.backgroundColor
+      - adaptivecards.ContainerStyleDefinition.constructor
+      - adaptivecards.ContainerStyleDefinition.foregroundColors
+      - adaptivecards.ContainerStyleDefinition.highlightBackgroundColor
+      - adaptivecards.ContainerStyleDefinition.highlightForegroundColor
+      - adaptivecards.ContainerStyleDefinition.isBuiltIn
+      - adaptivecards.ContainerStyleDefinition.parse
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleDefinition.backgroundColor
+    name: backgroundColor
+    fullName: backgroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'backgroundColor?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleDefinition.constructor
+    name: ContainerStyleDefinition(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ContainerStyleDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleDefinition.foregroundColors
+    name: foregroundColors
+    fullName: foregroundColors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'foregroundColors: ColorSetDefinition'
+      return:
+        type:
+          - adaptivecards.ColorSetDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleDefinition.highlightBackgroundColor
+    name: highlightBackgroundColor
+    fullName: highlightBackgroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'highlightBackgroundColor?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleDefinition.highlightForegroundColor
+    name: highlightForegroundColor
+    fullName: highlightForegroundColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'highlightForegroundColor?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleDefinition.isBuiltIn
+    name: isBuiltIn
+    fullName: isBuiltIn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isBuiltIn
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleDefinition.parse
+    name: parse(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(obj: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ColorSetDefinition
+    name: ColorSetDefinition
+    spec.typeScript:
+      - name: ColorSetDefinition
+        fullName: ColorSetDefinition
+        uid: adaptivecards.ColorSetDefinition

@@ -1,0 +1,1826 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.StylableCardElementContainer
+    name: StylableCardElementContainer
+    fullName: StylableCardElementContainer
+    children:
+      - adaptivecards.StylableCardElementContainer.allowVerticalOverflow
+      - adaptivecards.StylableCardElementContainer.asString
+      - adaptivecards.StylableCardElementContainer.bleedProperty
+      - adaptivecards.StylableCardElementContainer.customCssSelector
+      - adaptivecards.StylableCardElementContainer.getActionAt
+      - adaptivecards.StylableCardElementContainer.getActionById
+      - adaptivecards.StylableCardElementContainer.getActionCount
+      - adaptivecards.StylableCardElementContainer.getAllInputs
+      - adaptivecards.StylableCardElementContainer.getCustomProperty
+      - adaptivecards.StylableCardElementContainer.getEffectivePadding
+      - adaptivecards.StylableCardElementContainer.getEffectiveStyle
+      - adaptivecards.StylableCardElementContainer.getEffectiveStyleDefinition
+      - adaptivecards.StylableCardElementContainer.getElementById
+      - adaptivecards.StylableCardElementContainer.getFirstVisibleRenderedItem
+      - adaptivecards.StylableCardElementContainer.getForbiddenActionTypes
+      - >-
+        adaptivecards.StylableCardElementContainer.getImmediateSurroundingPadding
+      - adaptivecards.StylableCardElementContainer.getItemAt
+      - adaptivecards.StylableCardElementContainer.getItemCount
+      - adaptivecards.StylableCardElementContainer.getJsonTypeName
+      - adaptivecards.StylableCardElementContainer.getLastVisibleRenderedItem
+      - adaptivecards.StylableCardElementContainer.getParentContainer
+      - adaptivecards.StylableCardElementContainer.getResourceInformation
+      - adaptivecards.StylableCardElementContainer.getRootElement
+      - adaptivecards.StylableCardElementContainer.getRootObject
+      - adaptivecards.StylableCardElementContainer.getSchema
+      - adaptivecards.StylableCardElementContainer.hasAllDefaultValues
+      - adaptivecards.StylableCardElementContainer.hasDefaultValue
+      - adaptivecards.StylableCardElementContainer.hasVisibleSeparator
+      - adaptivecards.StylableCardElementContainer.height
+      - adaptivecards.StylableCardElementContainer.heightProperty
+      - adaptivecards.StylableCardElementContainer.horizontalAlignment
+      - adaptivecards.StylableCardElementContainer.horizontalAlignmentProperty
+      - adaptivecards.StylableCardElementContainer.hostConfig
+      - adaptivecards.StylableCardElementContainer.id
+      - adaptivecards.StylableCardElementContainer.idProperty
+      - adaptivecards.StylableCardElementContainer.index
+      - adaptivecards.StylableCardElementContainer.indexOf
+      - adaptivecards.StylableCardElementContainer.internalValidateProperties
+      - adaptivecards.StylableCardElementContainer.isAtTheVeryBottom
+      - adaptivecards.StylableCardElementContainer.isAtTheVeryLeft
+      - adaptivecards.StylableCardElementContainer.isAtTheVeryRight
+      - adaptivecards.StylableCardElementContainer.isAtTheVeryTop
+      - adaptivecards.StylableCardElementContainer.isBleeding
+      - adaptivecards.StylableCardElementContainer.isBleedingAtBottom
+      - adaptivecards.StylableCardElementContainer.isBleedingAtTop
+      - adaptivecards.StylableCardElementContainer.isBottomElement
+      - adaptivecards.StylableCardElementContainer.isDesignMode
+      - adaptivecards.StylableCardElementContainer.isFirstElement
+      - adaptivecards.StylableCardElementContainer.isHiddenDueToOverflow
+      - adaptivecards.StylableCardElementContainer.isInline
+      - adaptivecards.StylableCardElementContainer.isInteractive
+      - adaptivecards.StylableCardElementContainer.isLastElement
+      - adaptivecards.StylableCardElementContainer.isLeftMostElement
+      - adaptivecards.StylableCardElementContainer.isRightMostElement
+      - adaptivecards.StylableCardElementContainer.isStandalone
+      - adaptivecards.StylableCardElementContainer.isTopElement
+      - adaptivecards.StylableCardElementContainer.isVisible
+      - adaptivecards.StylableCardElementContainer.isVisibleProperty
+      - adaptivecards.StylableCardElementContainer.lang
+      - adaptivecards.StylableCardElementContainer.langProperty
+      - adaptivecards.StylableCardElementContainer.maxVersion
+      - adaptivecards.StylableCardElementContainer.minHeightProperty
+      - adaptivecards.StylableCardElementContainer.minPixelHeight
+      - adaptivecards.StylableCardElementContainer.onPreProcessPropertyValue
+      - adaptivecards.StylableCardElementContainer.onRegisterCustomProperties
+      - adaptivecards.StylableCardElementContainer.parent
+      - adaptivecards.StylableCardElementContainer.parse
+      - adaptivecards.StylableCardElementContainer.preProcessPropertyValue
+      - adaptivecards.StylableCardElementContainer.remove
+      - adaptivecards.StylableCardElementContainer.removeItem
+      - adaptivecards.StylableCardElementContainer.render
+      - adaptivecards.StylableCardElementContainer.renderedElement
+      - adaptivecards.StylableCardElementContainer.requires
+      - adaptivecards.StylableCardElementContainer.requiresProperty
+      - adaptivecards.StylableCardElementContainer.resetDefaultValues
+      - adaptivecards.StylableCardElementContainer.selectActionProperty
+      - adaptivecards.StylableCardElementContainer.separator
+      - adaptivecards.StylableCardElementContainer.separatorElement
+      - adaptivecards.StylableCardElementContainer.separatorProperty
+      - adaptivecards.StylableCardElementContainer.setCustomProperty
+      - adaptivecards.StylableCardElementContainer.setParent
+      - adaptivecards.StylableCardElementContainer.setShouldFallback
+      - adaptivecards.StylableCardElementContainer.shouldFallback
+      - adaptivecards.StylableCardElementContainer.spacing
+      - adaptivecards.StylableCardElementContainer.spacingProperty
+      - adaptivecards.StylableCardElementContainer.constructor
+      - adaptivecards.StylableCardElementContainer.style
+      - adaptivecards.StylableCardElementContainer.styleProperty
+      - adaptivecards.StylableCardElementContainer.toJSON
+      - adaptivecards.StylableCardElementContainer.typeNameProperty
+      - adaptivecards.StylableCardElementContainer.updateLayout
+      - adaptivecards.StylableCardElementContainer.validateProperties
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.CardElementContainer
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.allowVerticalOverflow
+    name: allowVerticalOverflow
+    fullName: allowVerticalOverflow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'allowVerticalOverflow: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.asString
+    name: asString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function asString()
+      parameters: []
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.bleedProperty
+    name: bleedProperty
+    fullName: bleedProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static bleedProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.customCssSelector
+    name: customCssSelector
+    fullName: customCssSelector
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'customCssSelector?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getActionAt
+    name: getActionAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getActionAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards.Action | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getActionById
+    name: getActionById(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getActionById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards.Action | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getActionCount
+    name: getActionCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getActionCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getAllInputs
+    name: getAllInputs(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAllInputs(processActions?: boolean)'
+      parameters:
+        - id: processActions
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'adaptivecards.Input[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getCustomProperty
+    name: getCustomProperty(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getCustomProperty(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getEffectivePadding
+    name: getEffectivePadding()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEffectivePadding()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.PaddingDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getEffectiveStyle
+    name: getEffectiveStyle()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEffectiveStyle()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getEffectiveStyleDefinition
+    name: getEffectiveStyleDefinition()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEffectiveStyleDefinition()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.ContainerStyleDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getElementById
+    name: getElementById(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getElementById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getFirstVisibleRenderedItem
+    name: getFirstVisibleRenderedItem()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getFirstVisibleRenderedItem()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getForbiddenActionTypes
+    name: getForbiddenActionTypes()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getForbiddenActionTypes()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards.ActionType[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getImmediateSurroundingPadding
+    name: >-
+      getImmediateSurroundingPadding(PaddingDefinition, boolean, boolean,
+      boolean, boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getImmediateSurroundingPadding(result: PaddingDefinition,
+        processTop?: boolean, processRight?: boolean, processBottom?: boolean,
+        processLeft?: boolean)
+      parameters:
+        - id: result
+          type:
+            - adaptivecards.PaddingDefinition
+          description: ''
+        - id: processTop
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: processRight
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: processBottom
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: processLeft
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getItemAt
+    name: getItemAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards.CardElement
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getItemCount
+    name: getItemCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getItemCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getJsonTypeName
+    name: getJsonTypeName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getJsonTypeName()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getLastVisibleRenderedItem
+    name: getLastVisibleRenderedItem()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getLastVisibleRenderedItem()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getParentContainer
+    name: getParentContainer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getParentContainer()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.Container | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getResourceInformation
+    name: getResourceInformation()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getResourceInformation()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards.IResourceInformation[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getRootElement
+    name: getRootElement()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRootElement()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.CardElement
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getRootObject
+    name: getRootObject()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRootObject()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.CardObject
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.getSchema
+    name: getSchema()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSchema()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.SerializableObjectSchema
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.hasAllDefaultValues
+    name: hasAllDefaultValues()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasAllDefaultValues()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.hasDefaultValue
+    name: hasDefaultValue(PropertyDefinition)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function hasDefaultValue(property: PropertyDefinition)'
+      parameters:
+        - id: property
+          type:
+            - adaptivecards.PropertyDefinition
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.hasVisibleSeparator
+    name: hasVisibleSeparator
+    fullName: hasVisibleSeparator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasVisibleSeparator
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'height: CardElementHeight'
+      return:
+        type:
+          - adaptivecards.CardElementHeight
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.heightProperty
+    name: heightProperty
+    fullName: heightProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static heightProperty: ValueSetProperty'
+      return:
+        type:
+          - adaptivecards.ValueSetProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'horizontalAlignment: HorizontalAlignment'
+      return:
+        type:
+          - adaptivecards.HorizontalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.horizontalAlignmentProperty
+    name: horizontalAlignmentProperty
+    fullName: horizontalAlignmentProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumProperty<HorizontalAlignment>'
+      return:
+        type:
+          - adaptivecards.EnumProperty<adaptivecards.HorizontalAlignment>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.hostConfig
+    name: hostConfig
+    fullName: hostConfig
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostConfig hostConfig
+      return:
+        type:
+          - adaptivecards.HostConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.idProperty
+    name: idProperty
+    fullName: idProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static idProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.index
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.indexOf
+    name: indexOf(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function indexOf(cardElement: CardElement)'
+      parameters:
+        - id: cardElement
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.internalValidateProperties
+    name: internalValidateProperties(ValidationResults)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function internalValidateProperties(context: ValidationResults)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards.ValidationResults
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isAtTheVeryBottom
+    name: isAtTheVeryBottom()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryBottom()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isAtTheVeryLeft
+    name: isAtTheVeryLeft()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryLeft()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isAtTheVeryRight
+    name: isAtTheVeryRight()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryRight()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isAtTheVeryTop
+    name: isAtTheVeryTop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryTop()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isBleeding
+    name: isBleeding()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBleeding()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isBleedingAtBottom
+    name: isBleedingAtBottom()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBleedingAtBottom()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isBleedingAtTop
+    name: isBleedingAtTop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBleedingAtTop()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isBottomElement
+    name: isBottomElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isBottomElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isDesignMode
+    name: isDesignMode()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDesignMode()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isFirstElement
+    name: isFirstElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isFirstElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isHiddenDueToOverflow
+    name: isHiddenDueToOverflow()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isHiddenDueToOverflow()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isInline
+    name: isInline
+    fullName: isInline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInline
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isInteractive
+    name: isInteractive
+    fullName: isInteractive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInteractive
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isLastElement
+    name: isLastElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isLastElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isLeftMostElement
+    name: isLeftMostElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isLeftMostElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isRightMostElement
+    name: isRightMostElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isRightMostElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isStandalone
+    name: isStandalone
+    fullName: isStandalone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isStandalone
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isTopElement
+    name: isTopElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isTopElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isVisible
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isVisible
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.isVisibleProperty
+    name: isVisibleProperty
+    fullName: isVisibleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static isVisibleProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.lang
+    name: lang
+    fullName: lang
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined lang
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.langProperty
+    name: langProperty
+    fullName: langProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static langProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.maxVersion
+    name: maxVersion
+    fullName: maxVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'maxVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.minHeightProperty
+    name: minHeightProperty
+    fullName: minHeightProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static minHeightProperty: PixelSizeProperty'
+      return:
+        type:
+          - adaptivecards.PixelSizeProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.minPixelHeight
+    name: minPixelHeight
+    fullName: minPixelHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'minPixelHeight?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.onPreProcessPropertyValue
+    name: onPreProcessPropertyValue
+    fullName: onPreProcessPropertyValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onPreProcessPropertyValue?: (sender: CardObject, property:
+        PropertyDefinition, value: any) => any
+      return:
+        type:
+          - >-
+            (sender: CardObject, property: PropertyDefinition, value: any) =>
+            any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.onRegisterCustomProperties
+    name: onRegisterCustomProperties
+    fullName: onRegisterCustomProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        static onRegisterCustomProperties?: (sender: SerializableObject, schema:
+        SerializableObjectSchema) => void
+      return:
+        type:
+          - >-
+            (sender: SerializableObject, schema: SerializableObjectSchema) =>
+            void
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.parent
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardElement | undefined parent
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.parse
+    name: 'parse(any, SerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(source: any, context?: SerializationContext)'
+      parameters:
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.SerializationContext
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.preProcessPropertyValue
+    name: 'preProcessPropertyValue(PropertyDefinition, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function preProcessPropertyValue(property: PropertyDefinition,
+        propertyValue?: any)
+      parameters:
+        - id: property
+          type:
+            - adaptivecards.PropertyDefinition
+          description: ''
+        - id: propertyValue
+          type:
+            - any
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.remove
+    name: remove()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function remove()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.removeItem
+    name: removeItem(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeItem(item: CardElement)'
+      parameters:
+        - id: item
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement | undefined renderedElement
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.requires
+    name: requires
+    fullName: requires
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostCapabilities requires
+      return:
+        type:
+          - adaptivecards.HostCapabilities
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.requiresProperty
+    name: requiresProperty
+    fullName: requiresProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static requiresProperty: SerializableObjectProperty'
+      return:
+        type:
+          - adaptivecards.SerializableObjectProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.resetDefaultValues
+    name: resetDefaultValues()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resetDefaultValues()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.selectActionProperty
+    name: selectActionProperty
+    fullName: selectActionProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static selectActionProperty: ActionProperty'
+      return:
+        type:
+          - adaptivecards.ActionProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'separator: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.separatorElement
+    name: separatorElement
+    fullName: separatorElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement | undefined separatorElement
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.separatorProperty
+    name: separatorProperty
+    fullName: separatorProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static separatorProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.setCustomProperty
+    name: 'setCustomProperty(string, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setCustomProperty(name: string, value: any)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - any
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.setParent
+    name: setParent(CardObject | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setParent(value: CardObject | undefined)'
+      parameters:
+        - id: value
+          type:
+            - adaptivecards.CardObject | undefined
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.setShouldFallback
+    name: setShouldFallback(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setShouldFallback(value: boolean)'
+      parameters:
+        - id: value
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.shouldFallback
+    name: shouldFallback()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function shouldFallback()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'spacing: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.spacingProperty
+    name: spacingProperty
+    fullName: spacingProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static spacingProperty: EnumProperty<Spacing>'
+      return:
+        type:
+          - adaptivecards.EnumProperty<adaptivecards.Spacing>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.constructor
+    name: StylableCardElementContainer()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new StylableCardElementContainer()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.style
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined style
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.styleProperty
+    name: styleProperty
+    fullName: styleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static styleProperty: ValueSetProperty'
+      return:
+        type:
+          - adaptivecards.ValueSetProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.toJSON
+    name: toJSON(BaseSerializationContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toJSON(context?: BaseSerializationContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+          optional: true
+      return:
+        type:
+          - adaptivecards.PropertyBag | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.typeNameProperty
+    name: typeNameProperty
+    fullName: typeNameProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static typeNameProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.updateLayout
+    name: updateLayout(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateLayout(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.StylableCardElementContainer.validateProperties
+    name: validateProperties()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function validateProperties()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.ValidationResults
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.CardElementContainer
+    name: CardElementContainer
+    spec.typeScript:
+      - name: CardElementContainer
+        fullName: CardElementContainer
+        uid: adaptivecards.CardElementContainer
+  - uid: adaptivecards.CardElementHeight
+    name: CardElementHeight
+    spec.typeScript:
+      - name: CardElementHeight
+        fullName: CardElementHeight
+        uid: adaptivecards.CardElementHeight
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    spec.typeScript:
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+  - uid: adaptivecards.BoolProperty
+    name: BoolProperty
+    spec.typeScript:
+      - name: BoolProperty
+        fullName: BoolProperty
+        uid: adaptivecards.BoolProperty
+  - uid: adaptivecards.ValueSetProperty
+    name: ValueSetProperty
+    spec.typeScript:
+      - name: ValueSetProperty
+        fullName: ValueSetProperty
+        uid: adaptivecards.ValueSetProperty
+  - uid: adaptivecards.EnumProperty<adaptivecards.HorizontalAlignment>
+    name: HorizontalAlignment>
+    spec.typeScript:
+      - name: EnumProperty
+        fullName: EnumProperty
+        uid: adaptivecards.EnumProperty
+      - name: <
+        fullName: <
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.StringProperty
+    name: StringProperty
+    spec.typeScript:
+      - name: StringProperty
+        fullName: StringProperty
+        uid: adaptivecards.StringProperty
+  - uid: adaptivecards.PixelSizeProperty
+    name: PixelSizeProperty
+    spec.typeScript:
+      - name: PixelSizeProperty
+        fullName: PixelSizeProperty
+        uid: adaptivecards.PixelSizeProperty
+  - uid: adaptivecards.SerializableObjectProperty
+    name: SerializableObjectProperty
+    spec.typeScript:
+      - name: SerializableObjectProperty
+        fullName: SerializableObjectProperty
+        uid: adaptivecards.SerializableObjectProperty
+  - uid: adaptivecards.ActionProperty
+    name: ActionProperty
+    spec.typeScript:
+      - name: ActionProperty
+        fullName: ActionProperty
+        uid: adaptivecards.ActionProperty
+  - uid: adaptivecards.EnumProperty<adaptivecards.Spacing>
+    name: Spacing>
+    spec.typeScript:
+      - name: EnumProperty
+        fullName: EnumProperty
+        uid: adaptivecards.EnumProperty
+      - name: <
+        fullName: <
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.HostConfig
+    name: HostConfig
+    spec.typeScript:
+      - name: HostConfig
+        fullName: HostConfig
+        uid: adaptivecards.HostConfig
+  - uid: adaptivecards.CardElement | undefined
+    name: CardElement | undefined
+    spec.typeScript:
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.HostCapabilities
+    name: HostCapabilities
+    spec.typeScript:
+      - name: HostCapabilities
+        fullName: HostCapabilities
+        uid: adaptivecards.HostCapabilities
+  - uid: adaptivecards.Action | undefined
+    name: Action | undefined
+    spec.typeScript:
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: 'adaptivecards.Input[]'
+    name: 'Input[]'
+    spec.typeScript:
+      - name: Input
+        fullName: Input
+        uid: adaptivecards.Input
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.PaddingDefinition
+    name: PaddingDefinition
+    spec.typeScript:
+      - name: PaddingDefinition
+        fullName: PaddingDefinition
+        uid: adaptivecards.PaddingDefinition
+  - uid: adaptivecards.ContainerStyleDefinition
+    name: ContainerStyleDefinition
+    spec.typeScript:
+      - name: ContainerStyleDefinition
+        fullName: ContainerStyleDefinition
+        uid: adaptivecards.ContainerStyleDefinition
+  - uid: 'adaptivecards.ActionType[]'
+    name: 'ActionType[]'
+    spec.typeScript:
+      - name: ActionType
+        fullName: ActionType
+        uid: adaptivecards.ActionType
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.CardElement
+    name: CardElement
+    spec.typeScript:
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+  - uid: adaptivecards.Container | undefined
+    name: Container | undefined
+    spec.typeScript:
+      - name: Container
+        fullName: Container
+        uid: adaptivecards.Container
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: 'adaptivecards.IResourceInformation[]'
+    name: 'IResourceInformation[]'
+    spec.typeScript:
+      - name: IResourceInformation
+        fullName: IResourceInformation
+        uid: adaptivecards.IResourceInformation
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.CardObject
+    name: CardObject
+    spec.typeScript:
+      - name: CardObject
+        fullName: CardObject
+        uid: adaptivecards.CardObject
+  - uid: adaptivecards.SerializableObjectSchema
+    name: SerializableObjectSchema
+    spec.typeScript:
+      - name: SerializableObjectSchema
+        fullName: SerializableObjectSchema
+        uid: adaptivecards.SerializableObjectSchema
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition
+  - uid: adaptivecards.ValidationResults
+    name: ValidationResults
+    spec.typeScript:
+      - name: ValidationResults
+        fullName: ValidationResults
+        uid: adaptivecards.ValidationResults
+  - uid: adaptivecards.SerializationContext
+    name: SerializationContext
+    spec.typeScript:
+      - name: SerializationContext
+        fullName: SerializationContext
+        uid: adaptivecards.SerializationContext
+  - uid: adaptivecards.CardObject | undefined
+    name: CardObject | undefined
+    spec.typeScript:
+      - name: CardObject
+        fullName: CardObject
+        uid: adaptivecards.CardObject
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext
+  - uid: adaptivecards.PropertyBag | undefined
+    name: PropertyBag | undefined
+    spec.typeScript:
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+      - name: ' | undefined'
+        fullName: ' | undefined'

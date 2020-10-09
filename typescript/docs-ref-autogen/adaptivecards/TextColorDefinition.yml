@@ -1,0 +1,107 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.TextColorDefinition
+    name: TextColorDefinition
+    fullName: TextColorDefinition
+    children:
+      - adaptivecards.TextColorDefinition.default
+      - adaptivecards.TextColorDefinition.highlightColors
+      - adaptivecards.TextColorDefinition.parse
+      - adaptivecards.TextColorDefinition.subtle
+      - adaptivecards.TextColorDefinition.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.ColorDefinition
+    package: adaptivecards
+  - uid: adaptivecards.TextColorDefinition.default
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'default: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TextColorDefinition.highlightColors
+    name: highlightColors
+    fullName: highlightColors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'highlightColors: ColorDefinition'
+      return:
+        type:
+          - adaptivecards.ColorDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TextColorDefinition.parse
+    name: parse(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.TextColorDefinition.subtle
+    name: subtle
+    fullName: subtle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'subtle: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TextColorDefinition.constructor
+    name: 'TextColorDefinition(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TextColorDefinition(defaultColor?: string, subtleColor?: string)'
+      parameters:
+        - id: defaultColor
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: subtleColor
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ColorDefinition
+    name: ColorDefinition
+    spec.typeScript:
+      - name: ColorDefinition
+        fullName: ColorDefinition
+        uid: adaptivecards.ColorDefinition

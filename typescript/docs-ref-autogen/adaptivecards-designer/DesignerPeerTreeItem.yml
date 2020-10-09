@@ -1,0 +1,306 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DesignerPeerTreeItem
+    name: DesignerPeerTreeItem
+    fullName: DesignerPeerTreeItem
+    children:
+      - adaptivecards-designer.DesignerPeerTreeItem.constructor
+      - adaptivecards-designer.DesignerPeerTreeItem.dragging
+      - adaptivecards-designer.DesignerPeerTreeItem.endDrag
+      - adaptivecards-designer.DesignerPeerTreeItem.expand
+      - adaptivecards-designer.DesignerPeerTreeItem.getChildAt
+      - adaptivecards-designer.DesignerPeerTreeItem.getChildCount
+      - adaptivecards-designer.DesignerPeerTreeItem.isDraggable
+      - adaptivecards-designer.DesignerPeerTreeItem.isSelected
+      - adaptivecards-designer.DesignerPeerTreeItem.level
+      - adaptivecards-designer.DesignerPeerTreeItem.onClick
+      - adaptivecards-designer.DesignerPeerTreeItem.onDoubleClick
+      - adaptivecards-designer.DesignerPeerTreeItem.onEndDrag
+      - adaptivecards-designer.DesignerPeerTreeItem.onSelectedChange
+      - adaptivecards-designer.DesignerPeerTreeItem.onStartDrag
+      - adaptivecards-designer.DesignerPeerTreeItem.owner
+      - adaptivecards-designer.DesignerPeerTreeItem.render
+      - adaptivecards-designer.DesignerPeerTreeItem.renderedElement
+      - adaptivecards-designer.DesignerPeerTreeItem.updateLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.BaseTreeItem
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.constructor
+    name: DesignerPeerTreeItem(DesignerPeer)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DesignerPeerTreeItem(owner: DesignerPeer)'
+      parameters:
+        - id: owner
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.dragging
+    name: dragging
+    fullName: dragging
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean dragging
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.endDrag
+    name: endDrag()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endDrag()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.expand
+    name: expand()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function expand()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.getChildAt
+    name: getChildAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getChildAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.BaseTreeItem
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.getChildCount
+    name: getChildCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getChildCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.isDraggable
+    name: isDraggable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDraggable()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSelected
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.level
+    name: level
+    fullName: level
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number level
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.onDoubleClick
+    name: onDoubleClick
+    fullName: onDoubleClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.onEndDrag
+    name: onEndDrag
+    fullName: onEndDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.onSelectedChange
+    name: onSelectedChange
+    fullName: onSelectedChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onSelectedChange: (sender: BaseTreeItem) => void'
+      return:
+        type:
+          - '(sender: BaseTreeItem) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.onStartDrag
+    name: onStartDrag
+    fullName: onStartDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.owner
+    name: owner
+    fullName: owner
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'owner: DesignerPeer'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerTreeItem.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.BaseTreeItem
+    name: BaseTreeItem
+    spec.typeScript:
+      - name: BaseTreeItem
+        fullName: BaseTreeItem
+        uid: adaptivecards-designer.BaseTreeItem
+  - uid: adaptivecards-designer.DesignerPeer
+    name: DesignerPeer
+    spec.typeScript:
+      - name: DesignerPeer
+        fullName: DesignerPeer
+        uid: adaptivecards-designer.DesignerPeer

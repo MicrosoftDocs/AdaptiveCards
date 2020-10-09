@@ -1,0 +1,89 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.FactSetConfig
+    name: FactSetConfig
+    fullName: FactSetConfig
+    children:
+      - adaptivecards.FactSetConfig.constructor
+      - adaptivecards.FactSetConfig.spacing
+      - adaptivecards.FactSetConfig.title
+      - adaptivecards.FactSetConfig.value
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactSetConfig.constructor
+    name: FactSetConfig(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FactSetConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.FactSetConfig.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'spacing: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactSetConfig.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'title: FactTitleDefinition'
+      return:
+        type:
+          - adaptivecards.FactTitleDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactSetConfig.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'value: FactTextDefinition'
+      return:
+        type:
+          - adaptivecards.FactTextDefinition
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.FactTitleDefinition
+    name: FactTitleDefinition
+    spec.typeScript:
+      - name: FactTitleDefinition
+        fullName: FactTitleDefinition
+        uid: adaptivecards.FactTitleDefinition
+  - uid: adaptivecards.FactTextDefinition
+    name: FactTextDefinition
+    spec.typeScript:
+      - name: FactTextDefinition
+        fullName: FactTextDefinition
+        uid: adaptivecards.FactTextDefinition

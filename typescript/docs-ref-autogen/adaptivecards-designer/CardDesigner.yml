@@ -1,0 +1,613 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.CardDesigner
+    name: CardDesigner
+    fullName: CardDesigner
+    children:
+      - adaptivecards-designer.CardDesigner.assetPath
+      - adaptivecards-designer.CardDesigner.attachTo
+      - adaptivecards-designer.CardDesigner.bindingPreviewMode
+      - adaptivecards-designer.CardDesigner.canRedo
+      - adaptivecards-designer.CardDesigner.canUndo
+      - adaptivecards-designer.CardDesigner.constructor
+      - adaptivecards-designer.CardDesigner.clearUndoStack
+      - adaptivecards-designer.CardDesigner.customPaletteItems
+      - adaptivecards-designer.CardDesigner.dataStructure
+      - adaptivecards-designer.CardDesigner.dataToolbox
+      - adaptivecards-designer.CardDesigner.designerSurface
+      - adaptivecards-designer.CardDesigner.getBoundCard
+      - adaptivecards-designer.CardDesigner.getCard
+      - adaptivecards-designer.CardDesigner.hostContainer
+      - adaptivecards-designer.CardDesigner.jsonEditorToolbox
+      - adaptivecards-designer.CardDesigner.lockDataStructure
+      - adaptivecards-designer.CardDesigner.monacoModuleLoaded
+      - adaptivecards-designer.CardDesigner.newCard
+      - adaptivecards-designer.CardDesigner.onActiveHostContainerChanged
+      - adaptivecards-designer.CardDesigner.onCardPayloadChanged
+      - adaptivecards-designer.CardDesigner.onCardValidated
+      - adaptivecards-designer.CardDesigner.onProcessMarkdown
+      - adaptivecards-designer.CardDesigner.onTargetVersionChanged
+      - adaptivecards-designer.CardDesigner.propertySheetToolbox
+      - adaptivecards-designer.CardDesigner.redo
+      - adaptivecards-designer.CardDesigner.sampleCatalogueUrl
+      - adaptivecards-designer.CardDesigner.sampleData
+      - adaptivecards-designer.CardDesigner.setCard
+      - adaptivecards-designer.CardDesigner.showHelp
+      - adaptivecards-designer.CardDesigner.targetVersion
+      - adaptivecards-designer.CardDesigner.toolbar
+      - adaptivecards-designer.CardDesigner.ToolbarCommands
+      - adaptivecards-designer.CardDesigner.toolPaletteToolbox
+      - adaptivecards-designer.CardDesigner.treeViewToolbox
+      - adaptivecards-designer.CardDesigner.undo
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.DesignContext
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.assetPath
+    name: assetPath
+    fullName: assetPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string assetPath
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.attachTo
+    name: attachTo(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attachTo(root: HTMLElement)'
+      parameters:
+        - id: root
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.bindingPreviewMode
+    name: bindingPreviewMode
+    fullName: bindingPreviewMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BindingPreviewMode bindingPreviewMode
+      return:
+        type:
+          - adaptivecards-designer.BindingPreviewMode
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.canRedo
+    name: canRedo
+    fullName: canRedo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean canRedo
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.canUndo
+    name: canUndo
+    fullName: canUndo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean canUndo
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.constructor
+    name: CardDesigner(Array<HostContainer>)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CardDesigner(hostContainers?: Array<HostContainer>)'
+      parameters:
+        - id: hostContainers
+          type:
+            - Array<adaptivecards-designer.HostContainer>
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.clearUndoStack
+    name: clearUndoStack()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearUndoStack()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.customPaletteItems
+    name: customPaletteItems
+    fullName: customPaletteItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'CustomPaletteItem[] customPaletteItems'
+      return:
+        type:
+          - 'adaptivecards-designer.CustomPaletteItem[]'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.dataStructure
+    name: dataStructure
+    fullName: dataStructure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FieldDefinition dataStructure
+      return:
+        type:
+          - adaptivecards-designer.FieldDefinition
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.dataToolbox
+    name: dataToolbox
+    fullName: dataToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Toolbox dataToolbox
+      return:
+        type:
+          - adaptivecards-designer.Toolbox
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.designerSurface
+    name: designerSurface
+    fullName: designerSurface
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardDesignerSurface designerSurface
+      return:
+        type:
+          - adaptivecards-designer.CardDesignerSurface
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.getBoundCard
+    name: getBoundCard()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBoundCard()
+      parameters: []
+      return:
+        type:
+          - object
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.getCard
+    name: getCard()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCard()
+      parameters: []
+      return:
+        type:
+          - object
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.hostContainer
+    name: hostContainer
+    fullName: hostContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostContainer hostContainer
+      return:
+        type:
+          - adaptivecards-designer.HostContainer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.jsonEditorToolbox
+    name: jsonEditorToolbox
+    fullName: jsonEditorToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Toolbox jsonEditorToolbox
+      return:
+        type:
+          - adaptivecards-designer.Toolbox
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.lockDataStructure
+    name: lockDataStructure
+    fullName: lockDataStructure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'lockDataStructure: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.monacoModuleLoaded
+    name: monacoModuleLoaded(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function monacoModuleLoaded(monaco?: any)'
+      parameters:
+        - id: monaco
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.newCard
+    name: newCard()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function newCard()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.onActiveHostContainerChanged
+    name: onActiveHostContainerChanged
+    fullName: onActiveHostContainerChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onActiveHostContainerChanged: (designer: CardDesigner) => void'
+      return:
+        type:
+          - '(designer: CardDesigner) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.onCardPayloadChanged
+    name: onCardPayloadChanged
+    fullName: onCardPayloadChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onCardPayloadChanged: (designer: CardDesigner) => void'
+      return:
+        type:
+          - '(designer: CardDesigner) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.onCardValidated
+    name: onCardValidated
+    fullName: onCardValidated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        onCardValidated: (designer: CardDesigner, validationLogEntries:
+        IValidationEvent[]) => void
+      return:
+        type:
+          - >-
+            (designer: CardDesigner, validationLogEntries: IValidationEvent[])
+            => void
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.onProcessMarkdown
+    name: onProcessMarkdown
+    fullName: onProcessMarkdown
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        static onProcessMarkdown: (text: string, result:
+        IMarkdownProcessingResult) => void
+      return:
+        type:
+          - '(text: string, result: IMarkdownProcessingResult) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.onTargetVersionChanged
+    name: onTargetVersionChanged
+    fullName: onTargetVersionChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onTargetVersionChanged: (designer: CardDesigner) => void'
+      return:
+        type:
+          - '(designer: CardDesigner) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.propertySheetToolbox
+    name: propertySheetToolbox
+    fullName: propertySheetToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Toolbox propertySheetToolbox
+      return:
+        type:
+          - adaptivecards-designer.Toolbox
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.redo
+    name: redo()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function redo()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.sampleCatalogueUrl
+    name: sampleCatalogueUrl
+    fullName: sampleCatalogueUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string sampleCatalogueUrl
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.sampleData
+    name: sampleData
+    fullName: sampleData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any sampleData
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.setCard
+    name: setCard(object)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setCard(payload: object)'
+      parameters:
+        - id: payload
+          type:
+            - object
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.showHelp
+    name: showHelp()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function showHelp()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Version targetVersion
+      return:
+        type:
+          - Version
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.toolbar
+    name: toolbar
+    fullName: toolbar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'toolbar: Toolbar'
+      return:
+        type:
+          - adaptivecards-designer.Toolbar
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.toolPaletteToolbox
+    name: toolPaletteToolbox
+    fullName: toolPaletteToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Toolbox toolPaletteToolbox
+      return:
+        type:
+          - adaptivecards-designer.Toolbox
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.treeViewToolbox
+    name: treeViewToolbox
+    fullName: treeViewToolbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Toolbox treeViewToolbox
+      return:
+        type:
+          - adaptivecards-designer.Toolbox
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.undo
+    name: undo()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function undo()
+      parameters: []
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+    spec.typeScript:
+      - name: DesignContext
+        fullName: DesignContext
+        uid: adaptivecards-designer.DesignContext
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands
+    name: ToolbarCommands
+    spec.typeScript:
+      - name: ToolbarCommands
+        fullName: ToolbarCommands
+        uid: adaptivecards-designer.CardDesigner.ToolbarCommands
+  - uid: Array<adaptivecards-designer.HostContainer>
+    name: HostContainer>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: HostContainer
+        fullName: HostContainer
+        uid: adaptivecards-designer.HostContainer
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-designer.Toolbar
+    name: Toolbar
+    spec.typeScript:
+      - name: Toolbar
+        fullName: Toolbar
+        uid: adaptivecards-designer.Toolbar
+  - uid: adaptivecards-designer.BindingPreviewMode
+    name: BindingPreviewMode
+    spec.typeScript:
+      - name: BindingPreviewMode
+        fullName: BindingPreviewMode
+        uid: adaptivecards-designer.BindingPreviewMode
+  - uid: 'adaptivecards-designer.CustomPaletteItem[]'
+    name: 'CustomPaletteItem[]'
+    spec.typeScript:
+      - name: CustomPaletteItem
+        fullName: CustomPaletteItem
+        uid: adaptivecards-designer.CustomPaletteItem
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards-designer.FieldDefinition
+    name: FieldDefinition
+    spec.typeScript:
+      - name: FieldDefinition
+        fullName: FieldDefinition
+        uid: adaptivecards-designer.FieldDefinition
+  - uid: adaptivecards-designer.Toolbox
+    name: Toolbox
+    spec.typeScript:
+      - name: Toolbox
+        fullName: Toolbox
+        uid: adaptivecards-designer.Toolbox
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+    spec.typeScript:
+      - name: CardDesignerSurface
+        fullName: CardDesignerSurface
+        uid: adaptivecards-designer.CardDesignerSurface
+  - uid: adaptivecards-designer.HostContainer
+    name: HostContainer
+    spec.typeScript:
+      - name: HostContainer
+        fullName: HostContainer
+        uid: adaptivecards-designer.HostContainer

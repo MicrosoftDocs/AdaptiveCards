@@ -1,0 +1,1934 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.DateInput
+    name: DateInput
+    fullName: DateInput
+    children:
+      - adaptivecards.DateInput.asString
+      - adaptivecards.DateInput.customCssSelector
+      - adaptivecards.DateInput.constructor
+      - adaptivecards.DateInput.defaultValue
+      - adaptivecards.DateInput.errorMessage
+      - adaptivecards.DateInput.errorMessageProperty
+      - adaptivecards.DateInput.focus
+      - adaptivecards.DateInput.getActionAt
+      - adaptivecards.DateInput.getActionById
+      - adaptivecards.DateInput.getActionCount
+      - adaptivecards.DateInput.getAllInputs
+      - adaptivecards.DateInput.getCustomProperty
+      - adaptivecards.DateInput.getEffectivePadding
+      - adaptivecards.DateInput.getEffectiveStyle
+      - adaptivecards.DateInput.getEffectiveStyleDefinition
+      - adaptivecards.DateInput.getElementById
+      - adaptivecards.DateInput.getForbiddenActionTypes
+      - adaptivecards.DateInput.getImmediateSurroundingPadding
+      - adaptivecards.DateInput.getJsonTypeName
+      - adaptivecards.DateInput.getParentContainer
+      - adaptivecards.DateInput.getResourceInformation
+      - adaptivecards.DateInput.getRootElement
+      - adaptivecards.DateInput.getRootObject
+      - adaptivecards.DateInput.getSchema
+      - adaptivecards.DateInput.hasAllDefaultValues
+      - adaptivecards.DateInput.hasDefaultValue
+      - adaptivecards.DateInput.hasVisibleSeparator
+      - adaptivecards.DateInput.height
+      - adaptivecards.DateInput.heightProperty
+      - adaptivecards.DateInput.horizontalAlignment
+      - adaptivecards.DateInput.horizontalAlignmentProperty
+      - adaptivecards.DateInput.hostConfig
+      - adaptivecards.DateInput.id
+      - adaptivecards.DateInput.idProperty
+      - adaptivecards.DateInput.index
+      - adaptivecards.DateInput.indexOf
+      - adaptivecards.DateInput.internalValidateProperties
+      - adaptivecards.DateInput.isAtTheVeryBottom
+      - adaptivecards.DateInput.isAtTheVeryLeft
+      - adaptivecards.DateInput.isAtTheVeryRight
+      - adaptivecards.DateInput.isAtTheVeryTop
+      - adaptivecards.DateInput.isBleeding
+      - adaptivecards.DateInput.isBleedingAtBottom
+      - adaptivecards.DateInput.isBleedingAtTop
+      - adaptivecards.DateInput.isBottomElement
+      - adaptivecards.DateInput.isDesignMode
+      - adaptivecards.DateInput.isFirstElement
+      - adaptivecards.DateInput.isHiddenDueToOverflow
+      - adaptivecards.DateInput.isInline
+      - adaptivecards.DateInput.isInteractive
+      - adaptivecards.DateInput.isLastElement
+      - adaptivecards.DateInput.isLeftMostElement
+      - adaptivecards.DateInput.isRequired
+      - adaptivecards.DateInput.isRequiredProperty
+      - adaptivecards.DateInput.isRightMostElement
+      - adaptivecards.DateInput.isSet
+      - adaptivecards.DateInput.isStandalone
+      - adaptivecards.DateInput.isTopElement
+      - adaptivecards.DateInput.isValid
+      - adaptivecards.DateInput.isVisible
+      - adaptivecards.DateInput.isVisibleProperty
+      - adaptivecards.DateInput.label
+      - adaptivecards.DateInput.labelProperty
+      - adaptivecards.DateInput.lang
+      - adaptivecards.DateInput.langProperty
+      - adaptivecards.DateInput.max
+      - adaptivecards.DateInput.maxProperty
+      - adaptivecards.DateInput.maxVersion
+      - adaptivecards.DateInput.min
+      - adaptivecards.DateInput.minProperty
+      - adaptivecards.DateInput.onPreProcessPropertyValue
+      - adaptivecards.DateInput.onRegisterCustomProperties
+      - adaptivecards.DateInput.onValueChanged
+      - adaptivecards.DateInput.parent
+      - adaptivecards.DateInput.parse
+      - adaptivecards.DateInput.placeholder
+      - adaptivecards.DateInput.placeholderProperty
+      - adaptivecards.DateInput.preProcessPropertyValue
+      - adaptivecards.DateInput.remove
+      - adaptivecards.DateInput.render
+      - adaptivecards.DateInput.renderedElement
+      - adaptivecards.DateInput.requires
+      - adaptivecards.DateInput.requiresProperty
+      - adaptivecards.DateInput.resetDefaultValues
+      - adaptivecards.DateInput.separator
+      - adaptivecards.DateInput.separatorElement
+      - adaptivecards.DateInput.separatorProperty
+      - adaptivecards.DateInput.setCustomProperty
+      - adaptivecards.DateInput.setParent
+      - adaptivecards.DateInput.setShouldFallback
+      - adaptivecards.DateInput.shouldFallback
+      - adaptivecards.DateInput.spacing
+      - adaptivecards.DateInput.spacingProperty
+      - adaptivecards.DateInput.toJSON
+      - adaptivecards.DateInput.typeNameProperty
+      - adaptivecards.DateInput.updateLayout
+      - adaptivecards.DateInput.validateProperties
+      - adaptivecards.DateInput.validateValue
+      - adaptivecards.DateInput.value
+      - adaptivecards.DateInput.valueProperty
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.Input
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.asString
+    name: asString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function asString()
+      parameters: []
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.customCssSelector
+    name: customCssSelector
+    fullName: customCssSelector
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'customCssSelector?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.constructor
+    name: DateInput()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new DateInput()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.errorMessage
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'errorMessage?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.errorMessageProperty
+    name: errorMessageProperty
+    fullName: errorMessageProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static errorMessageProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getActionAt
+    name: getActionAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getActionAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards.Action | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getActionById
+    name: getActionById(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getActionById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards.Action | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getActionCount
+    name: getActionCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getActionCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getAllInputs
+    name: getAllInputs(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAllInputs(processActions?: boolean)'
+      parameters:
+        - id: processActions
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'adaptivecards.Input[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getCustomProperty
+    name: getCustomProperty(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getCustomProperty(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getEffectivePadding
+    name: getEffectivePadding()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEffectivePadding()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.PaddingDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getEffectiveStyle
+    name: getEffectiveStyle()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEffectiveStyle()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getEffectiveStyleDefinition
+    name: getEffectiveStyleDefinition()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEffectiveStyleDefinition()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.ContainerStyleDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getElementById
+    name: getElementById(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getElementById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getForbiddenActionTypes
+    name: getForbiddenActionTypes()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getForbiddenActionTypes()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards.ActionType[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getImmediateSurroundingPadding
+    name: >-
+      getImmediateSurroundingPadding(PaddingDefinition, boolean, boolean,
+      boolean, boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getImmediateSurroundingPadding(result: PaddingDefinition,
+        processTop?: boolean, processRight?: boolean, processBottom?: boolean,
+        processLeft?: boolean)
+      parameters:
+        - id: result
+          type:
+            - adaptivecards.PaddingDefinition
+          description: ''
+        - id: processTop
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: processRight
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: processBottom
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: processLeft
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getJsonTypeName
+    name: getJsonTypeName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getJsonTypeName()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getParentContainer
+    name: getParentContainer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getParentContainer()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.Container | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getResourceInformation
+    name: getResourceInformation()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getResourceInformation()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards.IResourceInformation[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getRootElement
+    name: getRootElement()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRootElement()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.CardElement
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getRootObject
+    name: getRootObject()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRootObject()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.CardObject
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.getSchema
+    name: getSchema()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSchema()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.SerializableObjectSchema
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.hasAllDefaultValues
+    name: hasAllDefaultValues()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasAllDefaultValues()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.hasDefaultValue
+    name: hasDefaultValue(PropertyDefinition)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function hasDefaultValue(property: PropertyDefinition)'
+      parameters:
+        - id: property
+          type:
+            - adaptivecards.PropertyDefinition
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.hasVisibleSeparator
+    name: hasVisibleSeparator
+    fullName: hasVisibleSeparator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean hasVisibleSeparator
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'height: CardElementHeight'
+      return:
+        type:
+          - adaptivecards.CardElementHeight
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.heightProperty
+    name: heightProperty
+    fullName: heightProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static heightProperty: ValueSetProperty'
+      return:
+        type:
+          - adaptivecards.ValueSetProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'horizontalAlignment: HorizontalAlignment'
+      return:
+        type:
+          - adaptivecards.HorizontalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.horizontalAlignmentProperty
+    name: horizontalAlignmentProperty
+    fullName: horizontalAlignmentProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumProperty<HorizontalAlignment>'
+      return:
+        type:
+          - adaptivecards.EnumProperty<adaptivecards.HorizontalAlignment>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.hostConfig
+    name: hostConfig
+    fullName: hostConfig
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostConfig hostConfig
+      return:
+        type:
+          - adaptivecards.HostConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.idProperty
+    name: idProperty
+    fullName: idProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static idProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.index
+    name: index
+    fullName: index
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number index
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.indexOf
+    name: indexOf(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function indexOf(cardElement: CardElement)'
+      parameters:
+        - id: cardElement
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.internalValidateProperties
+    name: internalValidateProperties(ValidationResults)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function internalValidateProperties(context: ValidationResults)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards.ValidationResults
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isAtTheVeryBottom
+    name: isAtTheVeryBottom()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryBottom()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isAtTheVeryLeft
+    name: isAtTheVeryLeft()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryLeft()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isAtTheVeryRight
+    name: isAtTheVeryRight()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryRight()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isAtTheVeryTop
+    name: isAtTheVeryTop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isAtTheVeryTop()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isBleeding
+    name: isBleeding()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBleeding()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isBleedingAtBottom
+    name: isBleedingAtBottom()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBleedingAtBottom()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isBleedingAtTop
+    name: isBleedingAtTop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBleedingAtTop()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isBottomElement
+    name: isBottomElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isBottomElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isDesignMode
+    name: isDesignMode()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDesignMode()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isFirstElement
+    name: isFirstElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isFirstElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isHiddenDueToOverflow
+    name: isHiddenDueToOverflow()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isHiddenDueToOverflow()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isInline
+    name: isInline
+    fullName: isInline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInline
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isInteractive
+    name: isInteractive
+    fullName: isInteractive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isInteractive
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isLastElement
+    name: isLastElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isLastElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isLeftMostElement
+    name: isLeftMostElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isLeftMostElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isRequired
+    name: isRequired
+    fullName: isRequired
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isRequired: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isRequiredProperty
+    name: isRequiredProperty
+    fullName: isRequiredProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static isRequiredProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isRightMostElement
+    name: isRightMostElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isRightMostElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isSet
+    name: isSet()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSet()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isStandalone
+    name: isStandalone
+    fullName: isStandalone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isStandalone
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isTopElement
+    name: isTopElement(CardElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isTopElement(element: CardElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards.CardElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isValid
+    name: isValid()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isValid()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isVisible
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isVisible
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.isVisibleProperty
+    name: isVisibleProperty
+    fullName: isVisibleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static isVisibleProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'label?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.labelProperty
+    name: labelProperty
+    fullName: labelProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static labelProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.lang
+    name: lang
+    fullName: lang
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined lang
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.langProperty
+    name: langProperty
+    fullName: langProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static langProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.max
+    name: max
+    fullName: max
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'max?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.maxProperty
+    name: maxProperty
+    fullName: maxProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static maxProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.maxVersion
+    name: maxVersion
+    fullName: maxVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'maxVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.min
+    name: min
+    fullName: min
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'min?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.minProperty
+    name: minProperty
+    fullName: minProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static minProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.onPreProcessPropertyValue
+    name: onPreProcessPropertyValue
+    fullName: onPreProcessPropertyValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onPreProcessPropertyValue?: (sender: CardObject, property:
+        PropertyDefinition, value: any) => any
+      return:
+        type:
+          - >-
+            (sender: CardObject, property: PropertyDefinition, value: any) =>
+            any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.onRegisterCustomProperties
+    name: onRegisterCustomProperties
+    fullName: onRegisterCustomProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        static onRegisterCustomProperties?: (sender: SerializableObject, schema:
+        SerializableObjectSchema) => void
+      return:
+        type:
+          - >-
+            (sender: SerializableObject, schema: SerializableObjectSchema) =>
+            void
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.onValueChanged
+    name: onValueChanged
+    fullName: onValueChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onValueChanged: (sender: Input) => void'
+      return:
+        type:
+          - '(sender: Input) => void'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.parent
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardElement | undefined parent
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.parse
+    name: 'parse(any, SerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(source: any, context?: SerializationContext)'
+      parameters:
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.SerializationContext
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.placeholder
+    name: placeholder
+    fullName: placeholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'placeholder?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.placeholderProperty
+    name: placeholderProperty
+    fullName: placeholderProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static placeholderProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.preProcessPropertyValue
+    name: 'preProcessPropertyValue(PropertyDefinition, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function preProcessPropertyValue(property: PropertyDefinition,
+        propertyValue?: any)
+      parameters:
+        - id: property
+          type:
+            - adaptivecards.PropertyDefinition
+          description: ''
+        - id: propertyValue
+          type:
+            - any
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.remove
+    name: remove()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function remove()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement | undefined renderedElement
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.requires
+    name: requires
+    fullName: requires
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostCapabilities requires
+      return:
+        type:
+          - adaptivecards.HostCapabilities
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.requiresProperty
+    name: requiresProperty
+    fullName: requiresProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static requiresProperty: SerializableObjectProperty'
+      return:
+        type:
+          - adaptivecards.SerializableObjectProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.resetDefaultValues
+    name: resetDefaultValues()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resetDefaultValues()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'separator: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.separatorElement
+    name: separatorElement
+    fullName: separatorElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement | undefined separatorElement
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.separatorProperty
+    name: separatorProperty
+    fullName: separatorProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static separatorProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.setCustomProperty
+    name: 'setCustomProperty(string, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setCustomProperty(name: string, value: any)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - any
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.setParent
+    name: setParent(CardObject | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setParent(value: CardObject | undefined)'
+      parameters:
+        - id: value
+          type:
+            - adaptivecards.CardObject | undefined
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.setShouldFallback
+    name: setShouldFallback(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setShouldFallback(value: boolean)'
+      parameters:
+        - id: value
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.shouldFallback
+    name: shouldFallback()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function shouldFallback()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'spacing: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.spacingProperty
+    name: spacingProperty
+    fullName: spacingProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static spacingProperty: EnumProperty<Spacing>'
+      return:
+        type:
+          - adaptivecards.EnumProperty<adaptivecards.Spacing>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.toJSON
+    name: toJSON(BaseSerializationContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toJSON(context?: BaseSerializationContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+          optional: true
+      return:
+        type:
+          - adaptivecards.PropertyBag | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.typeNameProperty
+    name: typeNameProperty
+    fullName: typeNameProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static typeNameProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.updateLayout
+    name: updateLayout(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateLayout(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.validateProperties
+    name: validateProperties()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function validateProperties()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.ValidationResults
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.validateValue
+    name: validateValue()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function validateValue()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined value
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.DateInput.valueProperty
+    name: valueProperty
+    fullName: valueProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static valueProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Input
+    name: Input
+    spec.typeScript:
+      - name: Input
+        fullName: Input
+        uid: adaptivecards.Input
+  - uid: adaptivecards.CardElementHeight
+    name: CardElementHeight
+    spec.typeScript:
+      - name: CardElementHeight
+        fullName: CardElementHeight
+        uid: adaptivecards.CardElementHeight
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    spec.typeScript:
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+  - uid: adaptivecards.StringProperty
+    name: StringProperty
+    spec.typeScript:
+      - name: StringProperty
+        fullName: StringProperty
+        uid: adaptivecards.StringProperty
+  - uid: adaptivecards.ValueSetProperty
+    name: ValueSetProperty
+    spec.typeScript:
+      - name: ValueSetProperty
+        fullName: ValueSetProperty
+        uid: adaptivecards.ValueSetProperty
+  - uid: adaptivecards.EnumProperty<adaptivecards.HorizontalAlignment>
+    name: HorizontalAlignment>
+    spec.typeScript:
+      - name: EnumProperty
+        fullName: EnumProperty
+        uid: adaptivecards.EnumProperty
+      - name: <
+        fullName: <
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.BoolProperty
+    name: BoolProperty
+    spec.typeScript:
+      - name: BoolProperty
+        fullName: BoolProperty
+        uid: adaptivecards.BoolProperty
+  - uid: adaptivecards.SerializableObjectProperty
+    name: SerializableObjectProperty
+    spec.typeScript:
+      - name: SerializableObjectProperty
+        fullName: SerializableObjectProperty
+        uid: adaptivecards.SerializableObjectProperty
+  - uid: adaptivecards.EnumProperty<adaptivecards.Spacing>
+    name: Spacing>
+    spec.typeScript:
+      - name: EnumProperty
+        fullName: EnumProperty
+        uid: adaptivecards.EnumProperty
+      - name: <
+        fullName: <
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.HostConfig
+    name: HostConfig
+    spec.typeScript:
+      - name: HostConfig
+        fullName: HostConfig
+        uid: adaptivecards.HostConfig
+  - uid: adaptivecards.CardElement | undefined
+    name: CardElement | undefined
+    spec.typeScript:
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.HostCapabilities
+    name: HostCapabilities
+    spec.typeScript:
+      - name: HostCapabilities
+        fullName: HostCapabilities
+        uid: adaptivecards.HostCapabilities
+  - uid: adaptivecards.Action | undefined
+    name: Action | undefined
+    spec.typeScript:
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: 'adaptivecards.Input[]'
+    name: 'Input[]'
+    spec.typeScript:
+      - name: Input
+        fullName: Input
+        uid: adaptivecards.Input
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.PaddingDefinition
+    name: PaddingDefinition
+    spec.typeScript:
+      - name: PaddingDefinition
+        fullName: PaddingDefinition
+        uid: adaptivecards.PaddingDefinition
+  - uid: adaptivecards.ContainerStyleDefinition
+    name: ContainerStyleDefinition
+    spec.typeScript:
+      - name: ContainerStyleDefinition
+        fullName: ContainerStyleDefinition
+        uid: adaptivecards.ContainerStyleDefinition
+  - uid: 'adaptivecards.ActionType[]'
+    name: 'ActionType[]'
+    spec.typeScript:
+      - name: ActionType
+        fullName: ActionType
+        uid: adaptivecards.ActionType
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.Container | undefined
+    name: Container | undefined
+    spec.typeScript:
+      - name: Container
+        fullName: Container
+        uid: adaptivecards.Container
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: 'adaptivecards.IResourceInformation[]'
+    name: 'IResourceInformation[]'
+    spec.typeScript:
+      - name: IResourceInformation
+        fullName: IResourceInformation
+        uid: adaptivecards.IResourceInformation
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.CardElement
+    name: CardElement
+    spec.typeScript:
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+  - uid: adaptivecards.CardObject
+    name: CardObject
+    spec.typeScript:
+      - name: CardObject
+        fullName: CardObject
+        uid: adaptivecards.CardObject
+  - uid: adaptivecards.SerializableObjectSchema
+    name: SerializableObjectSchema
+    spec.typeScript:
+      - name: SerializableObjectSchema
+        fullName: SerializableObjectSchema
+        uid: adaptivecards.SerializableObjectSchema
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition
+  - uid: adaptivecards.ValidationResults
+    name: ValidationResults
+    spec.typeScript:
+      - name: ValidationResults
+        fullName: ValidationResults
+        uid: adaptivecards.ValidationResults
+  - uid: adaptivecards.SerializationContext
+    name: SerializationContext
+    spec.typeScript:
+      - name: SerializationContext
+        fullName: SerializationContext
+        uid: adaptivecards.SerializationContext
+  - uid: adaptivecards.CardObject | undefined
+    name: CardObject | undefined
+    spec.typeScript:
+      - name: CardObject
+        fullName: CardObject
+        uid: adaptivecards.CardObject
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext
+  - uid: adaptivecards.PropertyBag | undefined
+    name: PropertyBag | undefined
+    spec.typeScript:
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+      - name: ' | undefined'
+        fullName: ' | undefined'

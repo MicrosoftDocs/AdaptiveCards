@@ -1,0 +1,243 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ActionPeerRegistry
+    name: ActionPeerRegistry
+    fullName: ActionPeerRegistry
+    children:
+      - adaptivecards-designer.ActionPeerRegistry.constructor
+      - adaptivecards-designer.ActionPeerRegistry.clear
+      - adaptivecards-designer.ActionPeerRegistry.createPeerInstance
+      - adaptivecards-designer.ActionPeerRegistry.defaultRegistration
+      - adaptivecards-designer.ActionPeerRegistry.findTypeRegistration
+      - adaptivecards-designer.ActionPeerRegistry.registerPeer
+      - adaptivecards-designer.ActionPeerRegistry.reset
+      - adaptivecards-designer.ActionPeerRegistry.unregisterPeer
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        adaptivecards-designer.DesignerPeerRegistry<adaptivecards-designer.ActionType,
+        adaptivecards-designer.ActionPeerType>
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPeerRegistry.constructor
+    name: ActionPeerRegistry()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ActionPeerRegistry()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPeerRegistry.clear
+    name: clear()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPeerRegistry.createPeerInstance
+    name: 'createPeerInstance(CardDesignerSurface, DesignerPeer, Action)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createPeerInstance(designerSurface: CardDesignerSurface,
+        parent: DesignerPeer, action: Action)
+      parameters:
+        - id: designerSurface
+          type:
+            - adaptivecards-designer.CardDesignerSurface
+          description: ''
+        - id: parent
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+        - id: action
+          type:
+            - Action
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.ActionPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPeerRegistry.defaultRegistration
+    name: defaultRegistration
+    fullName: defaultRegistration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'defaultRegistration: DesignerPeerRegistrationBase'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeerRegistrationBase
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPeerRegistry.findTypeRegistration
+    name: findTypeRegistration(ActionType)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function findTypeRegistration(sourceType: ActionType)'
+      parameters:
+        - id: sourceType
+          type:
+            - adaptivecards-designer.ActionType
+          description: ''
+      return:
+        type:
+          - >-
+            adaptivecards-designer.DesignerPeerRegistration<adaptivecards-designer.ActionType,
+            adaptivecards-designer.ActionPeerType>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPeerRegistry.registerPeer
+    name: 'registerPeer(ActionType, ActionPeerType, string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function registerPeer(sourceType: ActionType, peerType: ActionPeerType,
+        category: string, iconClass?: string)
+      parameters:
+        - id: sourceType
+          type:
+            - adaptivecards-designer.ActionType
+          description: ''
+        - id: peerType
+          type:
+            - adaptivecards-designer.ActionPeerType
+          description: ''
+        - id: category
+          type:
+            - string
+          description: ''
+        - id: iconClass
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPeerRegistry.reset
+    name: reset()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function reset()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPeerRegistry.unregisterPeer
+    name: unregisterPeer(ActionType)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unregisterPeer(sourceType: ActionType)'
+      parameters:
+        - id: sourceType
+          type:
+            - adaptivecards-designer.ActionType
+          description: ''
+    package: adaptivecards-designer
+references:
+  - uid: >-
+      adaptivecards-designer.DesignerPeerRegistry<adaptivecards-designer.ActionType,
+      adaptivecards-designer.ActionPeerType>
+    name: ActionPeerType>
+    spec.typeScript:
+      - name: DesignerPeerRegistry
+        fullName: DesignerPeerRegistry
+        uid: adaptivecards-designer.DesignerPeerRegistry
+      - name: <
+        fullName: <
+      - name: ActionType
+        fullName: ActionType
+        uid: adaptivecards-designer.ActionType
+      - name: ', '
+        fullName: ', '
+      - name: ActionPeerType
+        fullName: ActionPeerType
+        uid: adaptivecards-designer.ActionPeerType
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+    name: DesignerPeerRegistrationBase
+    spec.typeScript:
+      - name: DesignerPeerRegistrationBase
+        fullName: DesignerPeerRegistrationBase
+        uid: adaptivecards-designer.DesignerPeerRegistrationBase
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+    spec.typeScript:
+      - name: CardDesignerSurface
+        fullName: CardDesignerSurface
+        uid: adaptivecards-designer.CardDesignerSurface
+  - uid: adaptivecards-designer.DesignerPeer
+    name: DesignerPeer
+    spec.typeScript:
+      - name: DesignerPeer
+        fullName: DesignerPeer
+        uid: adaptivecards-designer.DesignerPeer
+  - uid: adaptivecards-designer.ActionPeer
+    name: ActionPeer
+    spec.typeScript:
+      - name: ActionPeer
+        fullName: ActionPeer
+        uid: adaptivecards-designer.ActionPeer
+  - uid: adaptivecards-designer.ActionType
+    name: ActionType
+    spec.typeScript:
+      - name: ActionType
+        fullName: ActionType
+        uid: adaptivecards-designer.ActionType
+  - uid: >-
+      adaptivecards-designer.DesignerPeerRegistration<adaptivecards-designer.ActionType,
+      adaptivecards-designer.ActionPeerType>
+    name: ActionPeerType>
+    spec.typeScript:
+      - name: DesignerPeerRegistration
+        fullName: DesignerPeerRegistration
+        uid: adaptivecards-designer.DesignerPeerRegistration
+      - name: <
+        fullName: <
+      - name: ActionType
+        fullName: ActionType
+        uid: adaptivecards-designer.ActionType
+      - name: ', '
+        fullName: ', '
+      - name: ActionPeerType
+        fullName: ActionPeerType
+        uid: adaptivecards-designer.ActionPeerType
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-designer.ActionPeerType
+    name: ActionPeerType
+    spec.typeScript:
+      - name: ActionPeerType
+        fullName: ActionPeerType
+        uid: adaptivecards-designer.ActionPeerType

@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ActionAlignment
+    name: ActionAlignment
+    fullName: ActionAlignment
+    children:
+      - adaptivecards.ActionAlignment.Left
+      - adaptivecards.ActionAlignment.Center
+      - adaptivecards.ActionAlignment.Right
+      - adaptivecards.ActionAlignment.Stretch
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionAlignment.Left
+    name: Left
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.ActionAlignment.Center
+    name: Center
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards
+  - uid: adaptivecards.ActionAlignment.Right
+    name: Right
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards
+  - uid: adaptivecards.ActionAlignment.Stretch
+    name: Stretch
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: adaptivecards

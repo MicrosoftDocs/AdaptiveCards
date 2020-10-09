@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.renderSeparation
+    name: 'renderSeparation(HostConfig, ISeparationDefinition, Orientation)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function renderSeparation(hostConfig: HostConfig, separationDefinition:
+        ISeparationDefinition, orientation: Orientation)
+      parameters:
+        - id: hostConfig
+          type:
+            - adaptivecards.HostConfig
+          description: ''
+        - id: separationDefinition
+          type:
+            - adaptivecards.ISeparationDefinition
+          description: ''
+        - id: orientation
+          type:
+            - adaptivecards.Orientation
+          description: ''
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.HostConfig
+    name: HostConfig
+    spec.typeScript:
+      - name: HostConfig
+        fullName: HostConfig
+        uid: adaptivecards.HostConfig
+  - uid: adaptivecards.ISeparationDefinition
+    name: ISeparationDefinition
+    spec.typeScript:
+      - name: ISeparationDefinition
+        fullName: ISeparationDefinition
+        uid: adaptivecards.ISeparationDefinition
+  - uid: adaptivecards.Orientation
+    name: Orientation
+    spec.typeScript:
+      - name: Orientation
+        fullName: Orientation
+        uid: adaptivecards.Orientation

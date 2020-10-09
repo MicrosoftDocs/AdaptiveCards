@@ -1,0 +1,172 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ChoicePropertyEditor
+    name: ChoicePropertyEditor
+    fullName: ChoicePropertyEditor
+    children:
+      - adaptivecards-designer.ChoicePropertyEditor.causesPropertySheetRefresh
+      - adaptivecards-designer.ChoicePropertyEditor.constructor
+      - adaptivecards-designer.ChoicePropertyEditor.choices
+      - adaptivecards-designer.ChoicePropertyEditor.label
+      - adaptivecards-designer.ChoicePropertyEditor.propertyName
+      - adaptivecards-designer.ChoicePropertyEditor.render
+      - adaptivecards-designer.ChoicePropertyEditor.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.SingleInputPropertyEditor
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ChoicePropertyEditor.causesPropertySheetRefresh
+    name: causesPropertySheetRefresh
+    fullName: causesPropertySheetRefresh
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'causesPropertySheetRefresh: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ChoicePropertyEditor.constructor
+    name: >-
+      ChoicePropertyEditor(Adaptive.TargetVersion, string, string,
+      IVersionedChoice[], boolean)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ChoicePropertyEditor(targetVersion: Adaptive.TargetVersion,
+        propertyName: string, label: string, choices: IVersionedChoice[],
+        causesPropertySheetRefresh?: boolean)
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: label
+          type:
+            - string
+          description: ''
+        - id: choices
+          type:
+            - 'adaptivecards-designer.IVersionedChoice[]'
+          description: ''
+        - id: causesPropertySheetRefresh
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ChoicePropertyEditor.choices
+    name: choices
+    fullName: choices
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'choices: IVersionedChoice[]'
+      return:
+        type:
+          - 'adaptivecards-designer.IVersionedChoice[]'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ChoicePropertyEditor.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ChoicePropertyEditor.propertyName
+    name: propertyName
+    fullName: propertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ChoicePropertyEditor.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ChoicePropertyEditor.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.SingleInputPropertyEditor
+    name: SingleInputPropertyEditor
+    spec.typeScript:
+      - name: SingleInputPropertyEditor
+        fullName: SingleInputPropertyEditor
+        uid: adaptivecards-designer.SingleInputPropertyEditor
+  - uid: 'adaptivecards-designer.IVersionedChoice[]'
+    name: 'IVersionedChoice[]'
+    spec.typeScript:
+      - name: IVersionedChoice
+        fullName: IVersionedChoice
+        uid: adaptivecards-designer.IVersionedChoice
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

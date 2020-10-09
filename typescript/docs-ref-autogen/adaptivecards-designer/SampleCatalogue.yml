@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.SampleCatalogue
+    name: SampleCatalogue
+    fullName: SampleCatalogue
+    children:
+      - adaptivecards-designer.SampleCatalogue.download
+      - adaptivecards-designer.SampleCatalogue.entries
+      - adaptivecards-designer.SampleCatalogue.isDownloaded
+      - adaptivecards-designer.SampleCatalogue.onDownloaded
+      - adaptivecards-designer.SampleCatalogue.constructor
+      - adaptivecards-designer.SampleCatalogue.url
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SampleCatalogue.download
+    name: download()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function download()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SampleCatalogue.entries
+    name: entries
+    fullName: entries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'CatalogueEntry[] entries'
+      return:
+        type:
+          - 'adaptivecards-designer.CatalogueEntry[]'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SampleCatalogue.isDownloaded
+    name: isDownloaded
+    fullName: isDownloaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isDownloaded
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SampleCatalogue.onDownloaded
+    name: onDownloaded
+    fullName: onDownloaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onDownloaded: (sender: SampleCatalogue) => void'
+      return:
+        type:
+          - '(sender: SampleCatalogue) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SampleCatalogue.constructor
+    name: SampleCatalogue(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SampleCatalogue(url?: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SampleCatalogue.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string url
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: 'adaptivecards-designer.CatalogueEntry[]'
+    name: 'CatalogueEntry[]'
+    spec.typeScript:
+      - name: CatalogueEntry
+        fullName: CatalogueEntry
+        uid: adaptivecards-designer.CatalogueEntry
+      - name: '[]'
+        fullName: '[]'

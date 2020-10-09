@@ -1,0 +1,305 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.EnumProperty
+    name: EnumProperty
+    fullName: EnumProperty<TEnum>
+    children:
+      - adaptivecards.EnumProperty.defaultValue
+      - adaptivecards.EnumProperty.constructor
+      - adaptivecards.EnumProperty.enumType
+      - adaptivecards.EnumProperty.getInternalName
+      - adaptivecards.EnumProperty.isSerializationEnabled
+      - adaptivecards.EnumProperty.name
+      - adaptivecards.EnumProperty.onGetInitialValue
+      - adaptivecards.EnumProperty.parse
+      - adaptivecards.EnumProperty.sequentialNumber
+      - adaptivecards.EnumProperty.targetVersion
+      - adaptivecards.EnumProperty.toJSON
+      - adaptivecards.EnumProperty.values
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.PropertyDefinition
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: number | undefined'
+      return:
+        type:
+          - number | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.constructor
+    name: >-
+      EnumProperty(Version, string, TEnum, number | undefined,
+      IVersionedValue<number>[], (sender: SerializableObject) => number |
+      undefined)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new EnumProperty(targetVersion: Version, name: string, enumType: TEnum,
+        defaultValue?: number | undefined, values?: IVersionedValue<number>[],
+        onGetInitialValue?: (sender: SerializableObject) => number | undefined)
+      parameters:
+        - id: targetVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: enumType
+          type:
+            - TEnum
+          description: ''
+        - id: defaultValue
+          type:
+            - number | undefined
+          description: ''
+          optional: true
+        - id: values
+          type:
+            - 'adaptivecards.IVersionedValue<number>[]'
+          description: ''
+          optional: true
+        - id: onGetInitialValue
+          type:
+            - '(sender: SerializableObject) => number | undefined'
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.enumType
+    name: enumType
+    fullName: enumType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'enumType: TEnum'
+      return:
+        type:
+          - TEnum
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.getInternalName
+    name: getInternalName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getInternalName()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.isSerializationEnabled
+    name: isSerializationEnabled
+    fullName: isSerializationEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.onGetInitialValue
+    name: onGetInitialValue
+    fullName: onGetInitialValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => number | undefined'
+      return:
+        type:
+          - '(sender: SerializableObject) => number | undefined'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.parse
+    name: 'parse(SerializableObject, PropertyBag, BaseSerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        BaseSerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: source
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+      return:
+        type:
+          - number | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.sequentialNumber
+    name: sequentialNumber
+    fullName: sequentialNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.toJSON
+    name: >-
+      toJSON(SerializableObject, PropertyBag, number | undefined,
+      BaseSerializationContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        number | undefined, context: BaseSerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: target
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: value
+          type:
+            - number | undefined
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.EnumProperty.values
+    name: values
+    fullName: values
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IVersionedValue<number>[] values'
+      return:
+        type:
+          - 'adaptivecards.IVersionedValue<number>[]'
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: 'adaptivecards.IVersionedValue<number>[]'
+    name: 'IVersionedValue<number>[]'
+    spec.typeScript:
+      - name: IVersionedValue
+        fullName: IVersionedValue
+        uid: adaptivecards.IVersionedValue
+      - name: '<number>[]'
+        fullName: '<number>[]'
+  - uid: adaptivecards.SerializableObject
+    name: SerializableObject
+    spec.typeScript:
+      - name: SerializableObject
+        fullName: SerializableObject
+        uid: adaptivecards.SerializableObject
+  - uid: adaptivecards.PropertyBag
+    name: PropertyBag
+    spec.typeScript:
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext

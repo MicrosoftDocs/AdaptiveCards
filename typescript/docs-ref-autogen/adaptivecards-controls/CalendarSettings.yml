@@ -1,0 +1,246 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.CalendarSettings
+    name: CalendarSettings
+    fullName: CalendarSettings
+    children:
+      - adaptivecards-controls.CalendarSettings.daysInWeek
+      - adaptivecards-controls.CalendarSettings.firstDayOfWeek
+      - adaptivecards-controls.CalendarSettings.getInitialDayName
+      - adaptivecards-controls.CalendarSettings.getLongDayName
+      - adaptivecards-controls.CalendarSettings.getLongMonthName
+      - adaptivecards-controls.CalendarSettings.getShortDayName
+      - adaptivecards-controls.CalendarSettings.getShortMonthName
+      - adaptivecards-controls.CalendarSettings.longDayNames
+      - adaptivecards-controls.CalendarSettings.longMonthNames
+      - adaptivecards-controls.CalendarSettings.minimalDayNames
+      - adaptivecards-controls.CalendarSettings.monthsInYear
+      - adaptivecards-controls.CalendarSettings.shortDayNames
+      - adaptivecards-controls.CalendarSettings.shortMonthNames
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.daysInWeek
+    name: daysInWeek
+    fullName: daysInWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static daysInWeek: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.firstDayOfWeek
+    name: firstDayOfWeek
+    fullName: firstDayOfWeek
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static firstDayOfWeek: DayOfWeek'
+      return:
+        type:
+          - adaptivecards-controls.DayOfWeek
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.getInitialDayName
+    name: getInitialDayName(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getInitialDayName(dayIndex: number)'
+      parameters:
+        - id: dayIndex
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.getLongDayName
+    name: getLongDayName(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getLongDayName(dayIndex: number)'
+      parameters:
+        - id: dayIndex
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.getLongMonthName
+    name: getLongMonthName(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getLongMonthName(monthIndex: number)'
+      parameters:
+        - id: monthIndex
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.getShortDayName
+    name: getShortDayName(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getShortDayName(dayIndex: number)'
+      parameters:
+        - id: dayIndex
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.getShortMonthName
+    name: getShortMonthName(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function getShortMonthName(monthIndex: number)'
+      parameters:
+        - id: monthIndex
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.longDayNames
+    name: longDayNames
+    fullName: longDayNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static longDayNames: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.longMonthNames
+    name: longMonthNames
+    fullName: longMonthNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static longMonthNames: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.minimalDayNames
+    name: minimalDayNames
+    fullName: minimalDayNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static minimalDayNames: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.monthsInYear
+    name: monthsInYear
+    fullName: monthsInYear
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static monthsInYear: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.shortDayNames
+    name: shortDayNames
+    fullName: shortDayNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static shortDayNames: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CalendarSettings.shortMonthNames
+    name: shortMonthNames
+    fullName: shortMonthNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static shortMonthNames: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: adaptivecards-controls
+references:
+  - uid: adaptivecards-controls.DayOfWeek
+    name: DayOfWeek
+    spec.typeScript:
+      - name: DayOfWeek
+        fullName: DayOfWeek
+        uid: adaptivecards-controls.DayOfWeek

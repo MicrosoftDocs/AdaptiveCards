@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ActionPropertyEditor
+    name: ActionPropertyEditor
+    fullName: ActionPropertyEditor
+    children:
+      - adaptivecards-designer.ActionPropertyEditor.constructor
+      - adaptivecards-designer.ActionPropertyEditor.causesPropertySheetRefresh
+      - adaptivecards-designer.ActionPropertyEditor.forbiddenActionTypes
+      - adaptivecards-designer.ActionPropertyEditor.label
+      - adaptivecards-designer.ActionPropertyEditor.propertyName
+      - adaptivecards-designer.ActionPropertyEditor.render
+      - adaptivecards-designer.ActionPropertyEditor.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.SingleInputPropertyEditor
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPropertyEditor.constructor
+    name: >-
+      ActionPropertyEditor(Adaptive.TargetVersion, string, string, string[],
+      boolean)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ActionPropertyEditor(targetVersion: Adaptive.TargetVersion,
+        propertyName: string, label: string, forbiddenActionTypes?: string[],
+        causesPropertySheetRefresh?: boolean)
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: label
+          type:
+            - string
+          description: ''
+        - id: forbiddenActionTypes
+          type:
+            - 'string[]'
+          description: ''
+          optional: true
+        - id: causesPropertySheetRefresh
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPropertyEditor.causesPropertySheetRefresh
+    name: causesPropertySheetRefresh
+    fullName: causesPropertySheetRefresh
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'causesPropertySheetRefresh: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPropertyEditor.forbiddenActionTypes
+    name: forbiddenActionTypes
+    fullName: forbiddenActionTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'forbiddenActionTypes: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPropertyEditor.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPropertyEditor.propertyName
+    name: propertyName
+    fullName: propertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPropertyEditor.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ActionPropertyEditor.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.SingleInputPropertyEditor
+    name: SingleInputPropertyEditor
+    spec.typeScript:
+      - name: SingleInputPropertyEditor
+        fullName: SingleInputPropertyEditor
+        uid: adaptivecards-designer.SingleInputPropertyEditor
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

@@ -1,0 +1,1105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DateInputPeer
+    name: DateInputPeer
+    fullName: DateInputPeer
+    children:
+      - adaptivecards-designer.DateInputPeer.addElementsToDesignerSurface
+      - adaptivecards-designer.DateInputPeer.buildPropertySheetCard
+      - adaptivecards-designer.DateInputPeer.canBeRemoved
+      - adaptivecards-designer.DateInputPeer.canDrop
+      - adaptivecards-designer.DateInputPeer.cardElement
+      - adaptivecards-designer.DateInputPeer.changed
+      - adaptivecards-designer.DateInputPeer.dataContextProperty
+      - adaptivecards-designer.DateInputPeer.constructor
+      - adaptivecards-designer.DateInputPeer.defaultValueProperty
+      - adaptivecards-designer.DateInputPeer.designerSurface
+      - adaptivecards-designer.DateInputPeer.dragging
+      - adaptivecards-designer.DateInputPeer.endDrag
+      - adaptivecards-designer.DateInputPeer.errorMessageProperty
+      - adaptivecards-designer.DateInputPeer.getBoundingRect
+      - adaptivecards-designer.DateInputPeer.getCardObject
+      - adaptivecards-designer.DateInputPeer.getCardObjectBoundingRect
+      - adaptivecards-designer.DateInputPeer.getChildAt
+      - adaptivecards-designer.DateInputPeer.getChildCount
+      - adaptivecards-designer.DateInputPeer.getCommands
+      - adaptivecards-designer.DateInputPeer.getTreeItemText
+      - adaptivecards-designer.DateInputPeer.heightProperty
+      - adaptivecards-designer.DateInputPeer.horizontalAlignmentProperty
+      - adaptivecards-designer.DateInputPeer.idProperty
+      - adaptivecards-designer.DateInputPeer.initializeCardElement
+      - adaptivecards-designer.DateInputPeer.insertChild
+      - adaptivecards-designer.DateInputPeer.isDraggable
+      - adaptivecards-designer.DateInputPeer.isRequiredProperty
+      - adaptivecards-designer.DateInputPeer.isSelected
+      - adaptivecards-designer.DateInputPeer.isVisibleProperty
+      - adaptivecards-designer.DateInputPeer.labelProperty
+      - adaptivecards-designer.DateInputPeer.maxProperty
+      - adaptivecards-designer.DateInputPeer.minProperty
+      - adaptivecards-designer.DateInputPeer.onChanged
+      - adaptivecards-designer.DateInputPeer.onClick
+      - adaptivecards-designer.DateInputPeer.onDoubleClick
+      - adaptivecards-designer.DateInputPeer.onEndDrag
+      - adaptivecards-designer.DateInputPeer.onParentChanged
+      - adaptivecards-designer.DateInputPeer.onPeerAdded
+      - adaptivecards-designer.DateInputPeer.onPeerRemoved
+      - adaptivecards-designer.DateInputPeer.onPopulatePropertySheet
+      - adaptivecards-designer.DateInputPeer.onSelectedChanged
+      - adaptivecards-designer.DateInputPeer.onStartDrag
+      - adaptivecards-designer.DateInputPeer.parent
+      - adaptivecards-designer.DateInputPeer.populatePropertySheet
+      - adaptivecards-designer.DateInputPeer.registration
+      - adaptivecards-designer.DateInputPeer.remove
+      - adaptivecards-designer.DateInputPeer.removeChild
+      - adaptivecards-designer.DateInputPeer.removeElementsFromDesignerSurface
+      - adaptivecards-designer.DateInputPeer.render
+      - adaptivecards-designer.DateInputPeer.renderedElement
+      - adaptivecards-designer.DateInputPeer.scrollIntoView
+      - adaptivecards-designer.DateInputPeer.separatorProperty
+      - adaptivecards-designer.DateInputPeer.spacingProperty
+      - adaptivecards-designer.DateInputPeer.treeItem
+      - adaptivecards-designer.DateInputPeer.tryAdd
+      - adaptivecards-designer.DateInputPeer.tryDrop
+      - adaptivecards-designer.DateInputPeer.updateLayout
+      - adaptivecards-designer.DateInputPeer.whenProperty
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.InputPeer<DateInput>
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.addElementsToDesignerSurface
+    name: 'addElementsToDesignerSurface(HTMLElement, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addElementsToDesignerSurface(designerSurface: HTMLElement,
+        processChildren?: boolean)
+      parameters:
+        - id: designerSurface
+          type:
+            - HTMLElement
+          description: ''
+        - id: processChildren
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.buildPropertySheetCard
+    name: buildPropertySheetCard(DesignContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildPropertySheetCard(context: DesignContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.DesignContext
+          description: ''
+      return:
+        type:
+          - AdaptiveCard
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.canBeRemoved
+    name: canBeRemoved()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function canBeRemoved()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.canDrop
+    name: canDrop(DesignerPeer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function canDrop(peer: DesignerPeer)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.cardElement
+    name: cardElement
+    fullName: cardElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DateInput cardElement
+      return:
+        type:
+          - DateInput
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.changed
+    name: changed(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function changed(updatePropertySheet: boolean)'
+      parameters:
+        - id: updatePropertySheet
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.dataContextProperty
+    name: dataContextProperty
+    fullName: dataContextProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static dataContextProperty: CustomCardObjectPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.CustomCardObjectPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.constructor
+    name: >-
+      DateInputPeer(DesignerPeer, CardDesignerSurface,
+      DesignerPeerRegistrationBase, DateInput)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new DateInputPeer(parent: DesignerPeer, designerSurface:
+        CardDesignerSurface, registration: DesignerPeerRegistrationBase,
+        cardElement: DateInput)
+      parameters:
+        - id: parent
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+        - id: designerSurface
+          type:
+            - adaptivecards-designer.CardDesignerSurface
+          description: ''
+        - id: registration
+          type:
+            - adaptivecards-designer.DesignerPeerRegistrationBase
+          description: ''
+        - id: cardElement
+          type:
+            - DateInput
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.defaultValueProperty
+    name: defaultValueProperty
+    fullName: defaultValueProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultValueProperty: StringPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.StringPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.designerSurface
+    name: designerSurface
+    fullName: designerSurface
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'designerSurface: CardDesignerSurface'
+      return:
+        type:
+          - adaptivecards-designer.CardDesignerSurface
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.dragging
+    name: dragging
+    fullName: dragging
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean dragging
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.endDrag
+    name: endDrag()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endDrag()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.errorMessageProperty
+    name: errorMessageProperty
+    fullName: errorMessageProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static errorMessageProperty: StringPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.StringPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.getBoundingRect
+    name: getBoundingRect()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBoundingRect()
+      parameters: []
+      return:
+        type:
+          - adaptivecards-designer.Rect
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.getCardObject
+    name: getCardObject()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCardObject()
+      parameters: []
+      return:
+        type:
+          - CardObject
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.getCardObjectBoundingRect
+    name: getCardObjectBoundingRect()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCardObjectBoundingRect()
+      parameters: []
+      return:
+        type:
+          - adaptivecards-designer.Rect
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.getChildAt
+    name: getChildAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getChildAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.getChildCount
+    name: getChildCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getChildCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.getCommands
+    name: 'getCommands(DesignContext, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getCommands(context: DesignContext, promoteParentCommands?:
+        boolean)
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.DesignContext
+          description: ''
+        - id: promoteParentCommands
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - Array<adaptivecards-designer.PeerCommand>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.getTreeItemText
+    name: getTreeItemText()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getTreeItemText()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.heightProperty
+    name: heightProperty
+    fullName: heightProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static heightProperty: HeightPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.HeightPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.horizontalAlignmentProperty
+    name: horizontalAlignmentProperty
+    fullName: horizontalAlignmentProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.EnumPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.idProperty
+    name: idProperty
+    fullName: idProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static idProperty: StringPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.StringPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.initializeCardElement
+    name: initializeCardElement()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initializeCardElement()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.insertChild
+    name: 'insertChild(DesignerPeer, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function insertChild(peer: DesignerPeer, index?: number)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+        - id: index
+          type:
+            - number
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.isDraggable
+    name: isDraggable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDraggable()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.isRequiredProperty
+    name: isRequiredProperty
+    fullName: isRequiredProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static isRequiredProperty: BooleanPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.BooleanPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSelected
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.isVisibleProperty
+    name: isVisibleProperty
+    fullName: isVisibleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static isVisibleProperty: BooleanPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.BooleanPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.labelProperty
+    name: labelProperty
+    fullName: labelProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static labelProperty: StringPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.StringPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.maxProperty
+    name: maxProperty
+    fullName: maxProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static maxProperty: StringPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.StringPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.minProperty
+    name: minProperty
+    fullName: minProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static minProperty: StringPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.StringPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onChanged
+    name: onChanged
+    fullName: onChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onChanged: (sender: DesignerPeer, updatePropertySheet: boolean) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer, updatePropertySheet: boolean) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onDoubleClick
+    name: onDoubleClick
+    fullName: onDoubleClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onEndDrag
+    name: onEndDrag
+    fullName: onEndDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onParentChanged
+    name: onParentChanged
+    fullName: onParentChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onParentChanged: (sender: DesignerPeer) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onPeerAdded
+    name: onPeerAdded
+    fullName: onPeerAdded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onPeerAdded: (sender: DesignerPeer, newPeer: DesignerPeer) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer, newPeer: DesignerPeer) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onPeerRemoved
+    name: onPeerRemoved
+    fullName: onPeerRemoved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onPeerRemoved: (sender: DesignerPeer) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onPopulatePropertySheet
+    name: onPopulatePropertySheet
+    fullName: onPopulatePropertySheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        static onPopulatePropertySheet?: (sender: DesignerPeer, propertySheet:
+        PropertySheet) => void
+      return:
+        type:
+          - '(sender: DesignerPeer, propertySheet: PropertySheet) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onSelectedChanged
+    name: onSelectedChanged
+    fullName: onSelectedChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onSelectedChanged: (sender: DesignerPeer) => void'
+      return:
+        type:
+          - '(sender: DesignerPeer) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.onStartDrag
+    name: onStartDrag
+    fullName: onStartDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.parent
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DesignerPeer parent
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.populatePropertySheet
+    name: 'populatePropertySheet(PropertySheet, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function populatePropertySheet(propertySheet: PropertySheet,
+        defaultCategory?: string)
+      parameters:
+        - id: propertySheet
+          type:
+            - adaptivecards-designer.PropertySheet
+          description: ''
+        - id: defaultCategory
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.registration
+    name: registration
+    fullName: registration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'registration: DesignerPeerRegistrationBase'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeerRegistrationBase
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.remove
+    name: 'remove(boolean, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(onlyFromCard: boolean, removeChildren: boolean)'
+      parameters:
+        - id: onlyFromCard
+          type:
+            - boolean
+          description: ''
+        - id: removeChildren
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.removeChild
+    name: removeChild(DesignerPeer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeChild(peer: DesignerPeer)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.removeElementsFromDesignerSurface
+    name: removeElementsFromDesignerSurface(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeElementsFromDesignerSurface(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.scrollIntoView
+    name: scrollIntoView()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function scrollIntoView()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.separatorProperty
+    name: separatorProperty
+    fullName: separatorProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static separatorProperty: BooleanPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.BooleanPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.spacingProperty
+    name: spacingProperty
+    fullName: spacingProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static spacingProperty: EnumPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.EnumPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.treeItem
+    name: treeItem
+    fullName: treeItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'treeItem: DesignerPeerTreeItem'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeerTreeItem
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.tryAdd
+    name: tryAdd(DesignerPeer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function tryAdd(peer: DesignerPeer)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.tryDrop
+    name: 'tryDrop(DesignerPeer, IPoint)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function tryDrop(peer: DesignerPeer, insertionPoint: IPoint)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+        - id: insertionPoint
+          type:
+            - adaptivecards-designer.IPoint
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DateInputPeer.whenProperty
+    name: whenProperty
+    fullName: whenProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static whenProperty: CustomCardObjectPropertyEditor'
+      return:
+        type:
+          - adaptivecards-designer.CustomCardObjectPropertyEditor
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.InputPeer<DateInput>
+    name: InputPeer<DateInput>
+    spec.typeScript:
+      - name: InputPeer
+        fullName: InputPeer
+        uid: adaptivecards-designer.InputPeer
+      - name: <DateInput>
+        fullName: <DateInput>
+  - uid: adaptivecards-designer.DesignerPeer
+    name: DesignerPeer
+    spec.typeScript:
+      - name: DesignerPeer
+        fullName: DesignerPeer
+        uid: adaptivecards-designer.DesignerPeer
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+    spec.typeScript:
+      - name: CardDesignerSurface
+        fullName: CardDesignerSurface
+        uid: adaptivecards-designer.CardDesignerSurface
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+    name: DesignerPeerRegistrationBase
+    spec.typeScript:
+      - name: DesignerPeerRegistrationBase
+        fullName: DesignerPeerRegistrationBase
+        uid: adaptivecards-designer.DesignerPeerRegistrationBase
+  - uid: adaptivecards-designer.DesignerPeerTreeItem
+    name: DesignerPeerTreeItem
+    spec.typeScript:
+      - name: DesignerPeerTreeItem
+        fullName: DesignerPeerTreeItem
+        uid: adaptivecards-designer.DesignerPeerTreeItem
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor
+    name: CustomCardObjectPropertyEditor
+    spec.typeScript:
+      - name: CustomCardObjectPropertyEditor
+        fullName: CustomCardObjectPropertyEditor
+        uid: adaptivecards-designer.CustomCardObjectPropertyEditor
+  - uid: adaptivecards-designer.StringPropertyEditor
+    name: StringPropertyEditor
+    spec.typeScript:
+      - name: StringPropertyEditor
+        fullName: StringPropertyEditor
+        uid: adaptivecards-designer.StringPropertyEditor
+  - uid: adaptivecards-designer.HeightPropertyEditor
+    name: HeightPropertyEditor
+    spec.typeScript:
+      - name: HeightPropertyEditor
+        fullName: HeightPropertyEditor
+        uid: adaptivecards-designer.HeightPropertyEditor
+  - uid: adaptivecards-designer.EnumPropertyEditor
+    name: EnumPropertyEditor
+    spec.typeScript:
+      - name: EnumPropertyEditor
+        fullName: EnumPropertyEditor
+        uid: adaptivecards-designer.EnumPropertyEditor
+  - uid: adaptivecards-designer.BooleanPropertyEditor
+    name: BooleanPropertyEditor
+    spec.typeScript:
+      - name: BooleanPropertyEditor
+        fullName: BooleanPropertyEditor
+        uid: adaptivecards-designer.BooleanPropertyEditor
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+    spec.typeScript:
+      - name: DesignContext
+        fullName: DesignContext
+        uid: adaptivecards-designer.DesignContext
+  - uid: adaptivecards-designer.Rect
+    name: Rect
+    spec.typeScript:
+      - name: Rect
+        fullName: Rect
+        uid: adaptivecards-designer.Rect
+  - uid: Array<adaptivecards-designer.PeerCommand>
+    name: PeerCommand>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: PeerCommand
+        fullName: PeerCommand
+        uid: adaptivecards-designer.PeerCommand
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-designer.PropertySheet
+    name: PropertySheet
+    spec.typeScript:
+      - name: PropertySheet
+        fullName: PropertySheet
+        uid: adaptivecards-designer.PropertySheet
+  - uid: adaptivecards-designer.IPoint
+    name: IPoint
+    spec.typeScript:
+      - name: IPoint
+        fullName: IPoint
+        uid: adaptivecards-designer.IPoint

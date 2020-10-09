@@ -1,0 +1,271 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ActionProperty
+    name: ActionProperty
+    fullName: ActionProperty
+    children:
+      - adaptivecards.ActionProperty.constructor
+      - adaptivecards.ActionProperty.defaultValue
+      - adaptivecards.ActionProperty.forbiddenActionTypes
+      - adaptivecards.ActionProperty.getInternalName
+      - adaptivecards.ActionProperty.isSerializationEnabled
+      - adaptivecards.ActionProperty.name
+      - adaptivecards.ActionProperty.onGetInitialValue
+      - adaptivecards.ActionProperty.parse
+      - adaptivecards.ActionProperty.sequentialNumber
+      - adaptivecards.ActionProperty.targetVersion
+      - adaptivecards.ActionProperty.toJSON
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.PropertyDefinition
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.constructor
+    name: 'ActionProperty(Version, string, string[])'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ActionProperty(targetVersion: Version, name: string,
+        forbiddenActionTypes?: string[])
+      parameters:
+        - id: targetVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: forbiddenActionTypes
+          type:
+            - 'string[]'
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.forbiddenActionTypes
+    name: forbiddenActionTypes
+    fullName: forbiddenActionTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'forbiddenActionTypes: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.getInternalName
+    name: getInternalName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getInternalName()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.isSerializationEnabled
+    name: isSerializationEnabled
+    fullName: isSerializationEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.onGetInitialValue
+    name: onGetInitialValue
+    fullName: onGetInitialValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => any | undefined'
+      return:
+        type:
+          - '(sender: SerializableObject) => any | undefined'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.parse
+    name: 'parse(SerializableObject, PropertyBag, SerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        SerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: source
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.SerializationContext
+          description: ''
+      return:
+        type:
+          - adaptivecards.Action | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.sequentialNumber
+    name: sequentialNumber
+    fullName: sequentialNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionProperty.toJSON
+    name: >-
+      toJSON(SerializableObject, PropertyBag, Action | undefined,
+      SerializationContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        Action | undefined, context: SerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: target
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: value
+          type:
+            - adaptivecards.Action | undefined
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.SerializationContext
+          description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.SerializableObject
+    name: SerializableObject
+    spec.typeScript:
+      - name: SerializableObject
+        fullName: SerializableObject
+        uid: adaptivecards.SerializableObject
+  - uid: adaptivecards.PropertyBag
+    name: PropertyBag
+    spec.typeScript:
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+  - uid: adaptivecards.SerializationContext
+    name: SerializationContext
+    spec.typeScript:
+      - name: SerializationContext
+        fullName: SerializationContext
+        uid: adaptivecards.SerializationContext
+  - uid: adaptivecards.Action | undefined
+    name: Action | undefined
+    spec.typeScript:
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+      - name: ' | undefined'
+        fullName: ' | undefined'

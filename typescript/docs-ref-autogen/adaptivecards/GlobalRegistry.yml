@@ -1,0 +1,118 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.GlobalRegistry
+    name: GlobalRegistry
+    fullName: GlobalRegistry
+    children:
+      - adaptivecards.GlobalRegistry.actions
+      - adaptivecards.GlobalRegistry.elements
+      - adaptivecards.GlobalRegistry.populateWithDefaultActions
+      - adaptivecards.GlobalRegistry.populateWithDefaultElements
+      - adaptivecards.GlobalRegistry.reset
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalRegistry.actions
+    name: actions
+    fullName: actions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static actions: CardObjectRegistry<Action>'
+      return:
+        type:
+          - adaptivecards.CardObjectRegistry<adaptivecards.Action>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalRegistry.elements
+    name: elements
+    fullName: elements
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static elements: CardObjectRegistry<CardElement>'
+      return:
+        type:
+          - adaptivecards.CardObjectRegistry<adaptivecards.CardElement>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalRegistry.populateWithDefaultActions
+    name: populateWithDefaultActions(CardObjectRegistry<Action>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function populateWithDefaultActions(registry:
+        CardObjectRegistry<Action>)
+      parameters:
+        - id: registry
+          type:
+            - adaptivecards.CardObjectRegistry<adaptivecards.Action>
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalRegistry.populateWithDefaultElements
+    name: populateWithDefaultElements(CardObjectRegistry<CardElement>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function populateWithDefaultElements(registry:
+        CardObjectRegistry<CardElement>)
+      parameters:
+        - id: registry
+          type:
+            - adaptivecards.CardObjectRegistry<adaptivecards.CardElement>
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalRegistry.reset
+    name: reset()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function reset()
+      parameters: []
+    package: adaptivecards
+references:
+  - uid: adaptivecards.CardObjectRegistry<adaptivecards.Action>
+    name: Action>
+    spec.typeScript:
+      - name: CardObjectRegistry
+        fullName: CardObjectRegistry
+        uid: adaptivecards.CardObjectRegistry
+      - name: <
+        fullName: <
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.CardObjectRegistry<adaptivecards.CardElement>
+    name: CardElement>
+    spec.typeScript:
+      - name: CardObjectRegistry
+        fullName: CardObjectRegistry
+        uid: adaptivecards.CardObjectRegistry
+      - name: <
+        fullName: <
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+      - name: '>'
+        fullName: '>'

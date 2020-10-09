@@ -1,0 +1,254 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.PropertySheetCategory
+    name: PropertySheetCategory
+    fullName: PropertySheetCategory
+    children:
+      - adaptivecards-designer.PropertySheetCategory.add
+      - adaptivecards-designer.PropertySheetCategory.DefaultCategory
+      - adaptivecards-designer.PropertySheetCategory.getEntryAt
+      - adaptivecards-designer.PropertySheetCategory.InlineAction
+      - adaptivecards-designer.PropertySheetCategory.LayoutCategory
+      - adaptivecards-designer.PropertySheetCategory.length
+      - adaptivecards-designer.PropertySheetCategory.name
+      - adaptivecards-designer.PropertySheetCategory.constructor
+      - adaptivecards-designer.PropertySheetCategory.remove
+      - adaptivecards-designer.PropertySheetCategory.render
+      - adaptivecards-designer.PropertySheetCategory.SelectionAction
+      - adaptivecards-designer.PropertySheetCategory.StyleCategory
+      - adaptivecards-designer.PropertySheetCategory.Validation
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.add
+    name: 'add(PropertySheetEntry[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add(entries: PropertySheetEntry[])'
+      parameters:
+        - id: entries
+          type:
+            - 'adaptivecards-designer.PropertySheetEntry[]'
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.DefaultCategory
+    name: DefaultCategory
+    fullName: DefaultCategory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static DefaultCategory: "__defaultCategory" = "__defaultCategory"'
+      return:
+        type:
+          - '"__defaultCategory"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.getEntryAt
+    name: getEntryAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getEntryAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.PropertySheetEntry
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.InlineAction
+    name: InlineAction
+    fullName: InlineAction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static InlineAction: "Inline action" = "Inline action"'
+      return:
+        type:
+          - '"Inline action"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.LayoutCategory
+    name: LayoutCategory
+    fullName: LayoutCategory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static LayoutCategory: "Layout" = "Layout"'
+      return:
+        type:
+          - '"Layout"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.length
+    name: length
+    fullName: length
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number length
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.constructor
+    name: PropertySheetCategory(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PropertySheetCategory(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.remove
+    name: 'remove(PropertySheetEntry[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(entries: PropertySheetEntry[])'
+      parameters:
+        - id: entries
+          type:
+            - 'adaptivecards-designer.PropertySheetEntry[]'
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.render
+    name: 'render(Container, PropertySheetContext, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function render(container: Container, context: PropertySheetContext,
+        displayCategoryName: boolean)
+      parameters:
+        - id: container
+          type:
+            - Container
+          description: ''
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+        - id: displayCategoryName
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.SelectionAction
+    name: SelectionAction
+    fullName: SelectionAction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static SelectionAction: "Selection action" = "Selection action"'
+      return:
+        type:
+          - '"Selection action"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.StyleCategory
+    name: StyleCategory
+    fullName: StyleCategory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static StyleCategory: "Style" = "Style"'
+      return:
+        type:
+          - '"Style"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetCategory.Validation
+    name: Validation
+    fullName: Validation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Validation: "Validation" = "Validation"'
+      return:
+        type:
+          - '"Validation"'
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: 'adaptivecards-designer.PropertySheetEntry[]'
+    name: 'PropertySheetEntry[]'
+    spec.typeScript:
+      - name: PropertySheetEntry
+        fullName: PropertySheetEntry
+        uid: adaptivecards-designer.PropertySheetEntry
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards-designer.PropertySheetEntry
+    name: PropertySheetEntry
+    spec.typeScript:
+      - name: PropertySheetEntry
+        fullName: PropertySheetEntry
+        uid: adaptivecards-designer.PropertySheetEntry
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

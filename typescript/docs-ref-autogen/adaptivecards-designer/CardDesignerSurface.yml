@@ -1,0 +1,563 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+    fullName: CardDesignerSurface
+    children:
+      - adaptivecards-designer.CardDesignerSurface.actionPeerRegistry
+      - adaptivecards-designer.CardDesignerSurface.beginUpdate
+      - adaptivecards-designer.CardDesignerSurface.constructor
+      - adaptivecards-designer.CardDesignerSurface.cardElementPeerRegistry
+      - adaptivecards-designer.CardDesignerSurface.context
+      - adaptivecards-designer.CardDesignerSurface.draggedPeer
+      - adaptivecards-designer.CardDesignerSurface.endDrag
+      - adaptivecards-designer.CardDesignerSurface.endUpdate
+      - adaptivecards-designer.CardDesignerSurface.findDropTarget
+      - adaptivecards-designer.CardDesignerSurface.findPeer
+      - adaptivecards-designer.CardDesignerSurface.fixedHeightCard
+      - adaptivecards-designer.CardDesignerSurface.getBoundCardPayloadAsObject
+      - adaptivecards-designer.CardDesignerSurface.getCardPayloadAsObject
+      - adaptivecards-designer.CardDesignerSurface.getDesignerSurfaceOffset
+      - adaptivecards-designer.CardDesignerSurface.isPointerOver
+      - adaptivecards-designer.CardDesignerSurface.isPreviewMode
+      - adaptivecards-designer.CardDesignerSurface.onCardValidated
+      - adaptivecards-designer.CardDesignerSurface.onEndDrag
+      - adaptivecards-designer.CardDesignerSurface.onLayoutUpdated
+      - adaptivecards-designer.CardDesignerSurface.onSelectedPeerChanged
+      - adaptivecards-designer.CardDesignerSurface.onStartDrag
+      - adaptivecards-designer.CardDesignerSurface.pageToClientCoordinates
+      - adaptivecards-designer.CardDesignerSurface.removeSelected
+      - adaptivecards-designer.CardDesignerSurface.render
+      - adaptivecards-designer.CardDesignerSurface.rootPeer
+      - adaptivecards-designer.CardDesignerSurface.selectedPeer
+      - adaptivecards-designer.CardDesignerSurface.setCardPayloadAsObject
+      - adaptivecards-designer.CardDesignerSurface.setCardPayloadAsString
+      - adaptivecards-designer.CardDesignerSurface.startDrag
+      - adaptivecards-designer.CardDesignerSurface.tryDrop
+      - adaptivecards-designer.CardDesignerSurface.updateLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.actionPeerRegistry
+    name: actionPeerRegistry
+    fullName: actionPeerRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static actionPeerRegistry: ActionPeerRegistry'
+      return:
+        type:
+          - adaptivecards-designer.ActionPeerRegistry
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.beginUpdate
+    name: beginUpdate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function beginUpdate()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.constructor
+    name: CardDesignerSurface(DesignContext)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CardDesignerSurface(context: DesignContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.DesignContext
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.cardElementPeerRegistry
+    name: cardElementPeerRegistry
+    fullName: cardElementPeerRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static cardElementPeerRegistry: CardElementPeerRegistry'
+      return:
+        type:
+          - adaptivecards-designer.CardElementPeerRegistry
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.context
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'context: DesignContext'
+      return:
+        type:
+          - adaptivecards-designer.DesignContext
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.draggedPeer
+    name: draggedPeer
+    fullName: draggedPeer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DesignerPeer draggedPeer
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.endDrag
+    name: endDrag(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function endDrag(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.endUpdate
+    name: endUpdate(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function endUpdate(renderCard: boolean)'
+      parameters:
+        - id: renderCard
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.findDropTarget
+    name: 'findDropTarget(IPoint, DesignerPeer)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function findDropTarget(pointerPosition: IPoint, peer: DesignerPeer)'
+      parameters:
+        - id: pointerPosition
+          type:
+            - adaptivecards-designer.IPoint
+          description: ''
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.findPeer
+    name: findPeer(CardObject)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function findPeer(cardObject: CardObject)'
+      parameters:
+        - id: cardObject
+          type:
+            - CardObject
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.fixedHeightCard
+    name: fixedHeightCard
+    fullName: fixedHeightCard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'fixedHeightCard: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.getBoundCardPayloadAsObject
+    name: getBoundCardPayloadAsObject()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBoundCardPayloadAsObject()
+      parameters: []
+      return:
+        type:
+          - object
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.getCardPayloadAsObject
+    name: getCardPayloadAsObject()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCardPayloadAsObject()
+      parameters: []
+      return:
+        type:
+          - object
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.getDesignerSurfaceOffset
+    name: getDesignerSurfaceOffset()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getDesignerSurfaceOffset()
+      parameters: []
+      return:
+        type:
+          - adaptivecards-designer.IPoint
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.isPointerOver
+    name: 'isPointerOver(number, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isPointerOver(x: number, y: number)'
+      parameters:
+        - id: x
+          type:
+            - number
+          description: ''
+        - id: 'y'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.isPreviewMode
+    name: isPreviewMode
+    fullName: isPreviewMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isPreviewMode
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.onCardValidated
+    name: onCardValidated
+    fullName: onCardValidated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onCardValidated: (logEntries: IValidationEvent[]) => void'
+      return:
+        type:
+          - '(logEntries: IValidationEvent[]) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.onEndDrag
+    name: onEndDrag
+    fullName: onEndDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onEndDrag: (sender: CardDesignerSurface, wasCancelled: boolean) => void'
+      return:
+        type:
+          - '(sender: CardDesignerSurface, wasCancelled: boolean) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.onLayoutUpdated
+    name: onLayoutUpdated
+    fullName: onLayoutUpdated
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onLayoutUpdated: (isFullRefresh: boolean) => void'
+      return:
+        type:
+          - '(isFullRefresh: boolean) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.onSelectedPeerChanged
+    name: onSelectedPeerChanged
+    fullName: onSelectedPeerChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onSelectedPeerChanged: (peer: DesignerPeer) => void'
+      return:
+        type:
+          - '(peer: DesignerPeer) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.onStartDrag
+    name: onStartDrag
+    fullName: onStartDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onStartDrag: (sender: CardDesignerSurface) => void'
+      return:
+        type:
+          - '(sender: CardDesignerSurface) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.pageToClientCoordinates
+    name: 'pageToClientCoordinates(number, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pageToClientCoordinates(x: number, y: number)'
+      parameters:
+        - id: x
+          type:
+            - number
+          description: ''
+        - id: 'y'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.IPoint
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.removeSelected
+    name: removeSelected()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function removeSelected()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.rootPeer
+    name: rootPeer
+    fullName: rootPeer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DesignerPeer rootPeer
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.selectedPeer
+    name: selectedPeer
+    fullName: selectedPeer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DesignerPeer selectedPeer
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.setCardPayloadAsObject
+    name: setCardPayloadAsObject(object)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setCardPayloadAsObject(payload: object)'
+      parameters:
+        - id: payload
+          type:
+            - object
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.setCardPayloadAsString
+    name: setCardPayloadAsString(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setCardPayloadAsString(payload: string)'
+      parameters:
+        - id: payload
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.startDrag
+    name: startDrag(DesignerPeer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function startDrag(peer: DesignerPeer)'
+      parameters:
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.tryDrop
+    name: 'tryDrop(IPoint, DesignerPeer)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function tryDrop(pointerPosition: IPoint, peer: DesignerPeer)'
+      parameters:
+        - id: pointerPosition
+          type:
+            - adaptivecards-designer.IPoint
+          description: ''
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesignerSurface.updateLayout
+    name: updateLayout(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function updateLayout(isFullRefresh?: boolean)'
+      parameters:
+        - id: isFullRefresh
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+    spec.typeScript:
+      - name: DesignContext
+        fullName: DesignContext
+        uid: adaptivecards-designer.DesignContext
+  - uid: adaptivecards-designer.ActionPeerRegistry
+    name: ActionPeerRegistry
+    spec.typeScript:
+      - name: ActionPeerRegistry
+        fullName: ActionPeerRegistry
+        uid: adaptivecards-designer.ActionPeerRegistry
+  - uid: adaptivecards-designer.CardElementPeerRegistry
+    name: CardElementPeerRegistry
+    spec.typeScript:
+      - name: CardElementPeerRegistry
+        fullName: CardElementPeerRegistry
+        uid: adaptivecards-designer.CardElementPeerRegistry
+  - uid: adaptivecards-designer.DesignerPeer
+    name: DesignerPeer
+    spec.typeScript:
+      - name: DesignerPeer
+        fullName: DesignerPeer
+        uid: adaptivecards-designer.DesignerPeer
+  - uid: adaptivecards-designer.IPoint
+    name: IPoint
+    spec.typeScript:
+      - name: IPoint
+        fullName: IPoint
+        uid: adaptivecards-designer.IPoint

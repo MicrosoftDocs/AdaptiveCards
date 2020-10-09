@@ -1,0 +1,114 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.Toolbar
+    name: Toolbar
+    fullName: Toolbar
+    children:
+      - adaptivecards-designer.Toolbar.addElement
+      - adaptivecards-designer.Toolbar.attachTo
+      - adaptivecards-designer.Toolbar.getElementById
+      - adaptivecards-designer.Toolbar.insertElementAfter
+      - adaptivecards-designer.Toolbar.insertElementBefore
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbar.addElement
+    name: addElement(ToolbarElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addElement(element: ToolbarElement)'
+      parameters:
+        - id: element
+          type:
+            - adaptivecards-designer.ToolbarElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbar.attachTo
+    name: attachTo(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attachTo(element: HTMLElement)'
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbar.getElementById
+    name: getElementById(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getElementById(elementId: string)'
+      parameters:
+        - id: elementId
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.ToolbarElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbar.insertElementAfter
+    name: 'insertElementAfter(ToolbarElement, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function insertElementAfter(element: ToolbarElement, afterElementId:
+        string)
+      parameters:
+        - id: element
+          type:
+            - adaptivecards-designer.ToolbarElement
+          description: ''
+        - id: afterElementId
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbar.insertElementBefore
+    name: 'insertElementBefore(ToolbarElement, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function insertElementBefore(element: ToolbarElement, beforeElementId:
+        string)
+      parameters:
+        - id: element
+          type:
+            - adaptivecards-designer.ToolbarElement
+          description: ''
+        - id: beforeElementId
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.ToolbarElement
+    name: ToolbarElement
+    spec.typeScript:
+      - name: ToolbarElement
+        fullName: ToolbarElement
+        uid: adaptivecards-designer.ToolbarElement

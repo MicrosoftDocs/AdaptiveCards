@@ -1,0 +1,119 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.DayCell
+    name: DayCell
+    fullName: DayCell
+    children:
+      - adaptivecards-controls.DayCell.date
+      - adaptivecards-controls.DayCell.constructor
+      - adaptivecards-controls.DayCell.focus
+      - adaptivecards-controls.DayCell.isSelected
+      - adaptivecards-controls.DayCell.isSubdued
+      - adaptivecards-controls.DayCell.onSelected
+      - adaptivecards-controls.DayCell.render
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayCell.date
+    name: date
+    fullName: date
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'date: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayCell.constructor
+    name: DayCell(Date)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DayCell(date: Date)'
+      parameters:
+        - id: date
+          type:
+            - Date
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayCell.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayCell.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSelected
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayCell.isSubdued
+    name: isSubdued
+    fullName: isSubdued
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSubdued
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayCell.onSelected
+    name: onSelected
+    fullName: onSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onSelected: (cell: DayCell) => void'
+      return:
+        type:
+          - '(cell: DayCell) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayCell.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-controls

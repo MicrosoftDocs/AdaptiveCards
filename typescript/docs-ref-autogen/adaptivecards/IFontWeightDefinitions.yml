@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IFontWeightDefinitions
+    name: IFontWeightDefinitions
+    fullName: IFontWeightDefinitions
+    children:
+      - adaptivecards.IFontWeightDefinitions.bolder
+      - adaptivecards.IFontWeightDefinitions.default
+      - adaptivecards.IFontWeightDefinitions.lighter
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IFontWeightDefinitions.bolder
+    name: bolder
+    fullName: bolder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bolder: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IFontWeightDefinitions.default
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'default: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IFontWeightDefinitions.lighter
+    name: lighter
+    fullName: lighter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'lighter: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards

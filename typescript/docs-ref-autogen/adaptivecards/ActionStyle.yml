@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ActionStyle
+    name: ActionStyle
+    fullName: ActionStyle
+    children:
+      - adaptivecards.ActionStyle.Default
+      - adaptivecards.ActionStyle.Destructive
+      - adaptivecards.ActionStyle.Positive
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionStyle.Default
+    name: Default
+    fullName: Default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Default: "default"'
+      return:
+        type:
+          - '"default"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionStyle.Destructive
+    name: Destructive
+    fullName: Destructive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Destructive: "destructive"'
+      return:
+        type:
+          - '"destructive"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionStyle.Positive
+    name: Positive
+    fullName: Positive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Positive: "positive"'
+      return:
+        type:
+          - '"positive"'
+        description: ''
+    package: adaptivecards

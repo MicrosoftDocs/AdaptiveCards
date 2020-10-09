@@ -1,0 +1,298 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DarkTeamsContainer
+    name: DarkTeamsContainer
+    fullName: DarkTeamsContainer
+    children:
+      - adaptivecards-designer.DarkTeamsContainer.actionsRegistry
+      - adaptivecards-designer.DarkTeamsContainer.anchorClicked
+      - adaptivecards-designer.DarkTeamsContainer.cardHost
+      - adaptivecards-designer.DarkTeamsContainer.createSerializationContext
+      - adaptivecards-designer.DarkTeamsContainer.constructor
+      - adaptivecards-designer.DarkTeamsContainer.elementsRegistry
+      - adaptivecards-designer.DarkTeamsContainer.getBackgroundColor
+      - adaptivecards-designer.DarkTeamsContainer.getHostConfig
+      - adaptivecards-designer.DarkTeamsContainer.initialize
+      - adaptivecards-designer.DarkTeamsContainer.isFixedHeight
+      - adaptivecards-designer.DarkTeamsContainer.name
+      - adaptivecards-designer.DarkTeamsContainer.parseElement
+      - adaptivecards-designer.DarkTeamsContainer.renderTo
+      - adaptivecards-designer.DarkTeamsContainer.styleSheet
+      - adaptivecards-designer.DarkTeamsContainer.supportsActionBar
+      - adaptivecards-designer.DarkTeamsContainer.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.BaseTeamsContainer
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.actionsRegistry
+    name: actionsRegistry
+    fullName: actionsRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<Action> actionsRegistry
+      return:
+        type:
+          - CardObjectRegistry<Action>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.anchorClicked
+    name: 'anchorClicked(CardElement, HTMLAnchorElement)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function anchorClicked(element: CardElement, anchor: HTMLAnchorElement)'
+      parameters:
+        - id: element
+          type:
+            - CardElement
+          description: ''
+        - id: anchor
+          type:
+            - HTMLAnchorElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.cardHost
+    name: cardHost
+    fullName: cardHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement cardHost
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.createSerializationContext
+    name: createSerializationContext(Version)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createSerializationContext(targetVersion: Version)'
+      parameters:
+        - id: targetVersion
+          type:
+            - Version
+          description: ''
+      return:
+        type:
+          - SerializationContext
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.constructor
+    name: 'DarkTeamsContainer(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DarkTeamsContainer(name: string, styleSheet: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: styleSheet
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.elementsRegistry
+    name: elementsRegistry
+    fullName: elementsRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<CardElement> elementsRegistry
+      return:
+        type:
+          - CardObjectRegistry<CardElement>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.getBackgroundColor
+    name: getBackgroundColor()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBackgroundColor()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.getHostConfig
+    name: getHostConfig()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHostConfig()
+      parameters: []
+      return:
+        type:
+          - HostConfig
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.initialize
+    name: initialize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initialize()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.isFixedHeight
+    name: isFixedHeight
+    fullName: isFixedHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFixedHeight
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.parseElement
+    name: 'parseElement(CardElement, any, SerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parseElement(element: CardElement, source: any, context:
+        SerializationContext)
+      parameters:
+        - id: element
+          type:
+            - CardElement
+          description: ''
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: context
+          type:
+            - SerializationContext
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.renderTo
+    name: renderTo(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderTo(hostElement: HTMLElement)'
+      parameters:
+        - id: hostElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.styleSheet
+    name: styleSheet
+    fullName: styleSheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'styleSheet: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.supportsActionBar
+    name: supportsActionBar
+    fullName: supportsActionBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'supportsActionBar: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DarkTeamsContainer.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Version targetVersion
+      return:
+        type:
+          - Version
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.BaseTeamsContainer
+    name: BaseTeamsContainer
+    spec.typeScript:
+      - name: BaseTeamsContainer
+        fullName: BaseTeamsContainer
+        uid: adaptivecards-designer.BaseTeamsContainer

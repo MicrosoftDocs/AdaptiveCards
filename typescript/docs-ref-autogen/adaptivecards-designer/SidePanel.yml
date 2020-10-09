@@ -1,0 +1,221 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.SidePanel
+    name: SidePanel
+    fullName: SidePanel
+    children:
+      - adaptivecards-designer.SidePanel.addToolbox
+      - adaptivecards-designer.SidePanel.attachTo
+      - adaptivecards-designer.SidePanel.contentHost
+      - adaptivecards-designer.SidePanel.id
+      - adaptivecards-designer.SidePanel.isResizable
+      - adaptivecards-designer.SidePanel.onResized
+      - adaptivecards-designer.SidePanel.onToolboxExpandedOrCollapsed
+      - adaptivecards-designer.SidePanel.onToolboxResized
+      - adaptivecards-designer.SidePanel.restoreState
+      - adaptivecards-designer.SidePanel.saveState
+      - adaptivecards-designer.SidePanel.constructor
+      - adaptivecards-designer.SidePanel.size
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.addToolbox
+    name: addToolbox(Toolbox)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addToolbox(toolbox: Toolbox)'
+      parameters:
+        - id: toolbox
+          type:
+            - adaptivecards-designer.Toolbox
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.attachTo
+    name: attachTo(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attachTo(attachTo: HTMLElement)'
+      parameters:
+        - id: attachTo
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.contentHost
+    name: contentHost
+    fullName: contentHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement contentHost
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.isResizable
+    name: isResizable
+    fullName: isResizable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isResizable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.onResized
+    name: onResized
+    fullName: onResized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onResized: (sender: SidePanel) => void'
+      return:
+        type:
+          - '(sender: SidePanel) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.onToolboxExpandedOrCollapsed
+    name: onToolboxExpandedOrCollapsed
+    fullName: onToolboxExpandedOrCollapsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        onToolboxExpandedOrCollapsed: (sender: SidePanel, toolbox: Toolbox) =>
+        void
+      return:
+        type:
+          - '(sender: SidePanel, toolbox: Toolbox) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.onToolboxResized
+    name: onToolboxResized
+    fullName: onToolboxResized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onToolboxResized: (sender: SidePanel, toolbox: Toolbox) => void'
+      return:
+        type:
+          - '(sender: SidePanel, toolbox: Toolbox) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.restoreState
+    name: restoreState()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function restoreState()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.saveState
+    name: saveState()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function saveState()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.constructor
+    name: 'SidePanel(string, SidePanelAlignment, HTMLElement)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new SidePanel(id: string, alignment: SidePanelAlignment,
+        collapsedTabContainer: HTMLElement)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: alignment
+          type:
+            - adaptivecards-designer.SidePanelAlignment
+          description: ''
+        - id: collapsedTabContainer
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanel.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'size?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.SidePanelAlignment
+    name: SidePanelAlignment
+    spec.typeScript:
+      - name: SidePanelAlignment
+        fullName: SidePanelAlignment
+        uid: adaptivecards-designer.SidePanelAlignment
+  - uid: adaptivecards-designer.Toolbox
+    name: Toolbox
+    spec.typeScript:
+      - name: Toolbox
+        fullName: Toolbox
+        uid: adaptivecards-designer.Toolbox

@@ -1,0 +1,184 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.FactTitleDefinition
+    name: FactTitleDefinition
+    fullName: FactTitleDefinition
+    children:
+      - adaptivecards.FactTitleDefinition.color
+      - adaptivecards.FactTitleDefinition.constructor
+      - adaptivecards.FactTitleDefinition.getDefaultWeight
+      - adaptivecards.FactTitleDefinition.isSubtle
+      - adaptivecards.FactTitleDefinition.maxWidth
+      - adaptivecards.FactTitleDefinition.size
+      - adaptivecards.FactTitleDefinition.toJSON
+      - adaptivecards.FactTitleDefinition.weight
+      - adaptivecards.FactTitleDefinition.wrap
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.FactTextDefinition
+    package: adaptivecards
+  - uid: adaptivecards.FactTitleDefinition.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'color: TextColor'
+      return:
+        type:
+          - adaptivecards.TextColor
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactTitleDefinition.constructor
+    name: FactTitleDefinition(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FactTitleDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.FactTitleDefinition.getDefaultWeight
+    name: getDefaultWeight()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getDefaultWeight()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.TextWeight
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactTitleDefinition.isSubtle
+    name: isSubtle
+    fullName: isSubtle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isSubtle: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactTitleDefinition.maxWidth
+    name: maxWidth
+    fullName: maxWidth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxWidth?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactTitleDefinition.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size: TextSize'
+      return:
+        type:
+          - adaptivecards.TextSize
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactTitleDefinition.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactTitleDefinition.weight
+    name: weight
+    fullName: weight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'weight: TextWeight'
+      return:
+        type:
+          - adaptivecards.TextWeight
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FactTitleDefinition.wrap
+    name: wrap
+    fullName: wrap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'wrap: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.FactTextDefinition
+    name: FactTextDefinition
+    spec.typeScript:
+      - name: FactTextDefinition
+        fullName: FactTextDefinition
+        uid: adaptivecards.FactTextDefinition
+  - uid: adaptivecards.TextColor
+    name: TextColor
+    spec.typeScript:
+      - name: TextColor
+        fullName: TextColor
+        uid: adaptivecards.TextColor
+  - uid: adaptivecards.TextSize
+    name: TextSize
+    spec.typeScript:
+      - name: TextSize
+        fullName: TextSize
+        uid: adaptivecards.TextSize
+  - uid: adaptivecards.TextWeight
+    name: TextWeight
+    spec.typeScript:
+      - name: TextWeight
+        fullName: TextWeight
+        uid: adaptivecards.TextWeight

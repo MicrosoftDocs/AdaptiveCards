@@ -1,0 +1,52 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IObjectData
+    name: IObjectData
+    fullName: IObjectData
+    children:
+      - adaptivecards-designer.IObjectData.fields
+      - adaptivecards-designer.IObjectData.valueType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IObjectData.fields
+    name: fields
+    fullName: fields
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'fields: IField[]'
+      return:
+        type:
+          - 'adaptivecards-designer.IField[]'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IObjectData.valueType
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valueType: "Object"'
+      return:
+        type:
+          - '"Object"'
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: 'adaptivecards-designer.IField[]'
+    name: 'IField[]'
+    spec.typeScript:
+      - name: IField
+        fullName: IField
+        uid: adaptivecards-designer.IField
+      - name: '[]'
+        fullName: '[]'

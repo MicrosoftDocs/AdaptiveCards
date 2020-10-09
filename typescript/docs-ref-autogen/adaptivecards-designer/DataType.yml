@@ -1,0 +1,212 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DataType
+    name: DataType
+    fullName: DataType
+    children:
+      - adaptivecards-designer.DataType.constructor
+      - adaptivecards-designer.DataType.deriveFrom
+      - adaptivecards-designer.DataType.generateSampleData
+      - adaptivecards-designer.DataType.getChildFields
+      - adaptivecards-designer.DataType.isCollection
+      - adaptivecards-designer.DataType.owner
+      - adaptivecards-designer.DataType.parse
+      - adaptivecards-designer.DataType.qualifyFieldName
+      - adaptivecards-designer.DataType.valueType
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataType.constructor
+    name: DataType(FieldDefinition)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DataType(owner: FieldDefinition)'
+      parameters:
+        - id: owner
+          type:
+            - adaptivecards-designer.FieldDefinition
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataType.deriveFrom
+    name: 'deriveFrom(FieldDefinition, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function deriveFrom(parent: FieldDefinition, value: any)'
+      parameters:
+        - id: parent
+          type:
+            - adaptivecards-designer.FieldDefinition
+          description: ''
+        - id: value
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.DataType
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataType.generateSampleData
+    name: generateSampleData()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generateSampleData()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataType.getChildFields
+    name: getChildFields()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getChildFields()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards-designer.FieldDefinition[]'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataType.isCollection
+    name: isCollection
+    fullName: isCollection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isCollection
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataType.owner
+    name: owner
+    fullName: owner
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'owner: FieldDefinition'
+      return:
+        type:
+          - adaptivecards-designer.FieldDefinition
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataType.parse
+    name: 'parse(FieldDefinition, IData)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function parse(parent: FieldDefinition, data: IData)'
+      parameters:
+        - id: parent
+          type:
+            - adaptivecards-designer.FieldDefinition
+          description: ''
+        - id: data
+          type:
+            - adaptivecards-designer.IData
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.DataType
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataType.qualifyFieldName
+    name: 'qualifyFieldName(string, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function qualifyFieldName(fieldName: string, fieldIsLeaf: boolean)'
+      parameters:
+        - id: fieldName
+          type:
+            - string
+          description: ''
+        - id: fieldIsLeaf
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataType.valueType
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ValueType valueType
+      return:
+        type:
+          - adaptivecards-designer.ValueType
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.FieldDefinition
+    name: FieldDefinition
+    spec.typeScript:
+      - name: FieldDefinition
+        fullName: FieldDefinition
+        uid: adaptivecards-designer.FieldDefinition
+  - uid: adaptivecards-designer.ValueType
+    name: ValueType
+    spec.typeScript:
+      - name: ValueType
+        fullName: ValueType
+        uid: adaptivecards-designer.ValueType
+  - uid: 'adaptivecards-designer.FieldDefinition[]'
+    name: 'FieldDefinition[]'
+    spec.typeScript:
+      - name: FieldDefinition
+        fullName: FieldDefinition
+        uid: adaptivecards-designer.FieldDefinition
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards-designer.DataType
+    name: DataType
+    spec.typeScript:
+      - name: DataType
+        fullName: DataType
+        uid: adaptivecards-designer.DataType
+  - uid: adaptivecards-designer.IData
+    name: IData
+    spec.typeScript:
+      - name: IData
+        fullName: IData
+        uid: adaptivecards-designer.IData

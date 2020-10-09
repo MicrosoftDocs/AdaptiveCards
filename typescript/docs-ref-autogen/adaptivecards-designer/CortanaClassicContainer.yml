@@ -1,0 +1,299 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.CortanaClassicContainer
+    name: CortanaClassicContainer
+    fullName: CortanaClassicContainer
+    children:
+      - adaptivecards-designer.CortanaClassicContainer.actionsRegistry
+      - adaptivecards-designer.CortanaClassicContainer.anchorClicked
+      - adaptivecards-designer.CortanaClassicContainer.cardHost
+      - adaptivecards-designer.CortanaClassicContainer.constructor
+      - >-
+        adaptivecards-designer.CortanaClassicContainer.createSerializationContext
+      - adaptivecards-designer.CortanaClassicContainer.elementsRegistry
+      - adaptivecards-designer.CortanaClassicContainer.getBackgroundColor
+      - adaptivecards-designer.CortanaClassicContainer.getHostConfig
+      - adaptivecards-designer.CortanaClassicContainer.initialize
+      - adaptivecards-designer.CortanaClassicContainer.isFixedHeight
+      - adaptivecards-designer.CortanaClassicContainer.name
+      - adaptivecards-designer.CortanaClassicContainer.parseElement
+      - adaptivecards-designer.CortanaClassicContainer.renderTo
+      - adaptivecards-designer.CortanaClassicContainer.styleSheet
+      - adaptivecards-designer.CortanaClassicContainer.supportsActionBar
+      - adaptivecards-designer.CortanaClassicContainer.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.HostContainer
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.actionsRegistry
+    name: actionsRegistry
+    fullName: actionsRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<Action> actionsRegistry
+      return:
+        type:
+          - CardObjectRegistry<Action>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.anchorClicked
+    name: 'anchorClicked(CardElement, HTMLAnchorElement)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function anchorClicked(element: CardElement, anchor: HTMLAnchorElement)'
+      parameters:
+        - id: element
+          type:
+            - CardElement
+          description: ''
+        - id: anchor
+          type:
+            - HTMLAnchorElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.cardHost
+    name: cardHost
+    fullName: cardHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement cardHost
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.constructor
+    name: 'CortanaClassicContainer(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CortanaClassicContainer(name: string, styleSheet: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: styleSheet
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.createSerializationContext
+    name: createSerializationContext(Version)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createSerializationContext(targetVersion: Version)'
+      parameters:
+        - id: targetVersion
+          type:
+            - Version
+          description: ''
+      return:
+        type:
+          - SerializationContext
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.elementsRegistry
+    name: elementsRegistry
+    fullName: elementsRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<CardElement> elementsRegistry
+      return:
+        type:
+          - CardObjectRegistry<CardElement>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.getBackgroundColor
+    name: getBackgroundColor()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBackgroundColor()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.getHostConfig
+    name: getHostConfig()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHostConfig()
+      parameters: []
+      return:
+        type:
+          - HostConfig
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.initialize
+    name: initialize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initialize()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.isFixedHeight
+    name: isFixedHeight
+    fullName: isFixedHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFixedHeight
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.parseElement
+    name: 'parseElement(CardElement, any, SerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parseElement(element: CardElement, source: any, context:
+        SerializationContext)
+      parameters:
+        - id: element
+          type:
+            - CardElement
+          description: ''
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: context
+          type:
+            - SerializationContext
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.renderTo
+    name: renderTo(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderTo(hostElement: HTMLElement)'
+      parameters:
+        - id: hostElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.styleSheet
+    name: styleSheet
+    fullName: styleSheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'styleSheet: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.supportsActionBar
+    name: supportsActionBar
+    fullName: supportsActionBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'supportsActionBar: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CortanaClassicContainer.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Version targetVersion
+      return:
+        type:
+          - Version
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.HostContainer
+    name: HostContainer
+    spec.typeScript:
+      - name: HostContainer
+        fullName: HostContainer
+        uid: adaptivecards-designer.HostContainer

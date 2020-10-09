@@ -1,0 +1,143 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.BaseTextDefinition
+    name: BaseTextDefinition
+    fullName: BaseTextDefinition
+    children:
+      - adaptivecards.BaseTextDefinition.constructor
+      - adaptivecards.BaseTextDefinition.color
+      - adaptivecards.BaseTextDefinition.getDefaultWeight
+      - adaptivecards.BaseTextDefinition.isSubtle
+      - adaptivecards.BaseTextDefinition.size
+      - adaptivecards.BaseTextDefinition.toJSON
+      - adaptivecards.BaseTextDefinition.weight
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseTextDefinition.constructor
+    name: BaseTextDefinition(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BaseTextDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.BaseTextDefinition.color
+    name: color
+    fullName: color
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'color: TextColor'
+      return:
+        type:
+          - adaptivecards.TextColor
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseTextDefinition.getDefaultWeight
+    name: getDefaultWeight()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getDefaultWeight()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.TextWeight
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseTextDefinition.isSubtle
+    name: isSubtle
+    fullName: isSubtle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isSubtle: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseTextDefinition.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size: TextSize'
+      return:
+        type:
+          - adaptivecards.TextSize
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseTextDefinition.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.BaseTextDefinition.weight
+    name: weight
+    fullName: weight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'weight: TextWeight'
+      return:
+        type:
+          - adaptivecards.TextWeight
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.TextColor
+    name: TextColor
+    spec.typeScript:
+      - name: TextColor
+        fullName: TextColor
+        uid: adaptivecards.TextColor
+  - uid: adaptivecards.TextSize
+    name: TextSize
+    spec.typeScript:
+      - name: TextSize
+        fullName: TextSize
+        uid: adaptivecards.TextSize
+  - uid: adaptivecards.TextWeight
+    name: TextWeight
+    spec.typeScript:
+      - name: TextWeight
+        fullName: TextWeight
+        uid: adaptivecards.TextWeight

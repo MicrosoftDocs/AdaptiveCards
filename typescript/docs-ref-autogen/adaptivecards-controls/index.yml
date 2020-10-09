@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls
+    name: adaptivecards-controls
+    summary: ''
+    children:
+      - adaptivecards-controls.Calendar
+      - adaptivecards-controls.DayCell
+      - adaptivecards-controls.CheckBox
+      - adaptivecards-controls.Collection
+      - adaptivecards-controls.Constants
+      - adaptivecards-controls.CalendarPopupControl
+      - adaptivecards-controls.DatePicker
+      - adaptivecards-controls.DropDown
+      - adaptivecards-controls.DropDownItem
+      - adaptivecards-controls.DropDownPopupControl
+      - adaptivecards-controls.DayOfWeek
+      - adaptivecards-controls.InputControl
+      - adaptivecards-controls.InputWithPopup
+      - adaptivecards-controls.PopupControl
+      - adaptivecards-controls.PopupMenu
+      - adaptivecards-controls.RadioButton
+      - adaptivecards-controls.TextBox
+      - adaptivecards-controls.CalendarSettings
+      - adaptivecards-controls.addDays
+      - adaptivecards-controls.addMonths
+      - adaptivecards-controls.areDatesEqual
+      - adaptivecards-controls.daysInMonth
+      - adaptivecards-controls.getAttributeValueAsBool
+      - adaptivecards-controls.getAttributeValueAsInt
+      - adaptivecards-controls.getAttributeValueAsString
+      - adaptivecards-controls.getScrollX
+      - adaptivecards-controls.getScrollY
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: adaptivecards-controls.Calendar
+    name: Calendar
+  - uid: adaptivecards-controls.DayCell
+    name: DayCell
+  - uid: adaptivecards-controls.CheckBox
+    name: CheckBox
+  - uid: adaptivecards-controls.Collection
+    name: Collection
+  - uid: adaptivecards-controls.Constants
+    name: Constants
+  - uid: adaptivecards-controls.CalendarPopupControl
+    name: CalendarPopupControl
+  - uid: adaptivecards-controls.DatePicker
+    name: DatePicker
+  - uid: adaptivecards-controls.DropDown
+    name: DropDown
+  - uid: adaptivecards-controls.DropDownItem
+    name: DropDownItem
+  - uid: adaptivecards-controls.DropDownPopupControl
+    name: DropDownPopupControl
+  - uid: adaptivecards-controls.DayOfWeek
+    name: DayOfWeek
+  - uid: adaptivecards-controls.InputControl
+    name: InputControl
+  - uid: adaptivecards-controls.InputWithPopup
+    name: InputWithPopup
+  - uid: adaptivecards-controls.PopupControl
+    name: PopupControl
+  - uid: adaptivecards-controls.PopupMenu
+    name: PopupMenu
+  - uid: adaptivecards-controls.RadioButton
+    name: RadioButton
+  - uid: adaptivecards-controls.TextBox
+    name: TextBox
+  - uid: adaptivecards-controls.CalendarSettings
+    name: CalendarSettings
+  - uid: adaptivecards-controls.addDays
+    name: 'addDays(Date, number)'
+  - uid: adaptivecards-controls.addMonths
+    name: 'addMonths(Date, number)'
+  - uid: adaptivecards-controls.areDatesEqual
+    name: 'areDatesEqual(Date, Date)'
+  - uid: adaptivecards-controls.daysInMonth
+    name: 'daysInMonth(number, number)'
+  - uid: adaptivecards-controls.getAttributeValueAsBool
+    name: 'getAttributeValueAsBool(HTMLElement, string, boolean)'
+  - uid: adaptivecards-controls.getAttributeValueAsInt
+    name: 'getAttributeValueAsInt(HTMLElement, string, number)'
+  - uid: adaptivecards-controls.getAttributeValueAsString
+    name: 'getAttributeValueAsString(HTMLElement, string, string)'
+  - uid: adaptivecards-controls.getScrollX
+    name: getScrollX()
+  - uid: adaptivecards-controls.getScrollY
+    name: getScrollY()

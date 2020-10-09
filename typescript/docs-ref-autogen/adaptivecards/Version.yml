@@ -1,0 +1,201 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.Version
+    name: Version
+    fullName: Version
+    children:
+      - adaptivecards.Version.compareTo
+      - adaptivecards.Version.isValid
+      - adaptivecards.Version.label
+      - adaptivecards.Version.major
+      - adaptivecards.Version.minor
+      - adaptivecards.Version.parse
+      - adaptivecards.Version.toJSON
+      - adaptivecards.Version.toString
+      - adaptivecards.Version.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.Version.compareTo
+    name: compareTo(Version)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function compareTo(otherVersion: Version)'
+      parameters:
+        - id: otherVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Version.isValid
+    name: isValid
+    fullName: isValid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isValid
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Version.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Version.major
+    name: major
+    fullName: major
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number major
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Version.minor
+    name: minor
+    fullName: minor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number minor
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Version.parse
+    name: 'parse(string, BaseSerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function parse(versionString: string, context:
+        BaseSerializationContext)
+      parameters:
+        - id: versionString
+          type:
+            - string
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+      return:
+        type:
+          - adaptivecards.Version | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Version.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Version.toString
+    name: toString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.Version.constructor
+    name: 'Version(number, number, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Version(major?: number, minor?: number, label?: string)'
+      parameters:
+        - id: major
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: minor
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: label
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext
+  - uid: adaptivecards.Version | undefined
+    name: Version | undefined
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+      - name: ' | undefined'
+        fullName: ' | undefined'

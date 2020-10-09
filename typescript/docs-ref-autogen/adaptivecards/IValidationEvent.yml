@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IValidationEvent
+    name: IValidationEvent
+    fullName: IValidationEvent
+    children:
+      - adaptivecards.IValidationEvent.event
+      - adaptivecards.IValidationEvent.message
+      - adaptivecards.IValidationEvent.phase
+      - adaptivecards.IValidationEvent.source
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IValidationEvent.event
+    name: event
+    fullName: event
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'event: ValidationEvent'
+      return:
+        type:
+          - adaptivecards.ValidationEvent
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IValidationEvent.message
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'message: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IValidationEvent.phase
+    name: phase
+    fullName: phase
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'phase: ValidationPhase'
+      return:
+        type:
+          - adaptivecards.ValidationPhase
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IValidationEvent.source
+    name: source
+    fullName: source
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'source?: SerializableObject'
+      return:
+        type:
+          - adaptivecards.SerializableObject
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ValidationEvent
+    name: ValidationEvent
+    spec.typeScript:
+      - name: ValidationEvent
+        fullName: ValidationEvent
+        uid: adaptivecards.ValidationEvent
+  - uid: adaptivecards.ValidationPhase
+    name: ValidationPhase
+    spec.typeScript:
+      - name: ValidationPhase
+        fullName: ValidationPhase
+        uid: adaptivecards.ValidationPhase
+  - uid: adaptivecards.SerializableObject
+    name: SerializableObject
+    spec.typeScript:
+      - name: SerializableObject
+        fullName: SerializableObject
+        uid: adaptivecards.SerializableObject

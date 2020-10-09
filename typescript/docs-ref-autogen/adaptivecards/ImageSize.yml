@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ImageSize
+    name: ImageSize
+    fullName: ImageSize
+    children:
+      - adaptivecards.ImageSize.Small
+      - adaptivecards.ImageSize.Medium
+      - adaptivecards.ImageSize.Large
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageSize.Small
+    name: Small
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.ImageSize.Medium
+    name: Medium
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards
+  - uid: adaptivecards.ImageSize.Large
+    name: Large
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards

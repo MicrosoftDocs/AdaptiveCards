@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IVersion
+    name: IVersion
+    fullName: IVersion
+    children:
+      - adaptivecards.IVersion.major
+      - adaptivecards.IVersion.minor
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IVersion.major
+    name: major
+    fullName: major
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'major: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IVersion.minor
+    name: minor
+    fullName: minor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'minor: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards

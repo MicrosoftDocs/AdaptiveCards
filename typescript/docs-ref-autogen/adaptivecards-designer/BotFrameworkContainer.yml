@@ -1,0 +1,298 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.BotFrameworkContainer
+    name: BotFrameworkContainer
+    fullName: BotFrameworkContainer
+    children:
+      - adaptivecards-designer.BotFrameworkContainer.actionsRegistry
+      - adaptivecards-designer.BotFrameworkContainer.anchorClicked
+      - adaptivecards-designer.BotFrameworkContainer.constructor
+      - adaptivecards-designer.BotFrameworkContainer.cardHost
+      - adaptivecards-designer.BotFrameworkContainer.createSerializationContext
+      - adaptivecards-designer.BotFrameworkContainer.elementsRegistry
+      - adaptivecards-designer.BotFrameworkContainer.getBackgroundColor
+      - adaptivecards-designer.BotFrameworkContainer.getHostConfig
+      - adaptivecards-designer.BotFrameworkContainer.initialize
+      - adaptivecards-designer.BotFrameworkContainer.isFixedHeight
+      - adaptivecards-designer.BotFrameworkContainer.name
+      - adaptivecards-designer.BotFrameworkContainer.parseElement
+      - adaptivecards-designer.BotFrameworkContainer.renderTo
+      - adaptivecards-designer.BotFrameworkContainer.styleSheet
+      - adaptivecards-designer.BotFrameworkContainer.supportsActionBar
+      - adaptivecards-designer.BotFrameworkContainer.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.HostContainer
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.actionsRegistry
+    name: actionsRegistry
+    fullName: actionsRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<Action> actionsRegistry
+      return:
+        type:
+          - CardObjectRegistry<Action>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.anchorClicked
+    name: 'anchorClicked(CardElement, HTMLAnchorElement)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function anchorClicked(element: CardElement, anchor: HTMLAnchorElement)'
+      parameters:
+        - id: element
+          type:
+            - CardElement
+          description: ''
+        - id: anchor
+          type:
+            - HTMLAnchorElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.constructor
+    name: 'BotFrameworkContainer(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new BotFrameworkContainer(name: string, styleSheet: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: styleSheet
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.cardHost
+    name: cardHost
+    fullName: cardHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement cardHost
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.createSerializationContext
+    name: createSerializationContext(Version)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createSerializationContext(targetVersion: Version)'
+      parameters:
+        - id: targetVersion
+          type:
+            - Version
+          description: ''
+      return:
+        type:
+          - SerializationContext
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.elementsRegistry
+    name: elementsRegistry
+    fullName: elementsRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<CardElement> elementsRegistry
+      return:
+        type:
+          - CardObjectRegistry<CardElement>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.getBackgroundColor
+    name: getBackgroundColor()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBackgroundColor()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.getHostConfig
+    name: getHostConfig()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHostConfig()
+      parameters: []
+      return:
+        type:
+          - HostConfig
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.initialize
+    name: initialize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initialize()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.isFixedHeight
+    name: isFixedHeight
+    fullName: isFixedHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFixedHeight
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.parseElement
+    name: 'parseElement(CardElement, any, SerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parseElement(element: CardElement, source: any, context:
+        SerializationContext)
+      parameters:
+        - id: element
+          type:
+            - CardElement
+          description: ''
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: context
+          type:
+            - SerializationContext
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.renderTo
+    name: renderTo(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderTo(hostElement: HTMLElement)'
+      parameters:
+        - id: hostElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.styleSheet
+    name: styleSheet
+    fullName: styleSheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'styleSheet: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.supportsActionBar
+    name: supportsActionBar
+    fullName: supportsActionBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'supportsActionBar: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BotFrameworkContainer.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Version targetVersion
+      return:
+        type:
+          - Version
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.HostContainer
+    name: HostContainer
+    spec.typeScript:
+      - name: HostContainer
+        fullName: HostContainer
+        uid: adaptivecards-designer.HostContainer

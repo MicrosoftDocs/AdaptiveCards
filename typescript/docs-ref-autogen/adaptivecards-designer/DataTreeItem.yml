@@ -1,0 +1,312 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DataTreeItem
+    name: DataTreeItem
+    fullName: DataTreeItem
+    children:
+      - adaptivecards-designer.DataTreeItem.constructor
+      - adaptivecards-designer.DataTreeItem.dragging
+      - adaptivecards-designer.DataTreeItem.endDrag
+      - adaptivecards-designer.DataTreeItem.expand
+      - adaptivecards-designer.DataTreeItem.field
+      - adaptivecards-designer.DataTreeItem.getChildAt
+      - adaptivecards-designer.DataTreeItem.getChildCount
+      - adaptivecards-designer.DataTreeItem.isDraggable
+      - adaptivecards-designer.DataTreeItem.isSelected
+      - adaptivecards-designer.DataTreeItem.level
+      - adaptivecards-designer.DataTreeItem.onClick
+      - adaptivecards-designer.DataTreeItem.onDoubleClick
+      - adaptivecards-designer.DataTreeItem.onEndDrag
+      - adaptivecards-designer.DataTreeItem.onSelectedChange
+      - adaptivecards-designer.DataTreeItem.onStartDrag
+      - adaptivecards-designer.DataTreeItem.render
+      - adaptivecards-designer.DataTreeItem.renderedElement
+      - adaptivecards-designer.DataTreeItem.updateLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.BaseTreeItem
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.constructor
+    name: DataTreeItem(FieldDefinition)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DataTreeItem(field: FieldDefinition)'
+      parameters:
+        - id: field
+          type:
+            - adaptivecards-designer.FieldDefinition
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.dragging
+    name: dragging
+    fullName: dragging
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean dragging
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.endDrag
+    name: endDrag()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endDrag()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.expand
+    name: expand()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function expand()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.field
+    name: field
+    fullName: field
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'field: FieldDefinition'
+      return:
+        type:
+          - adaptivecards-designer.FieldDefinition
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.getChildAt
+    name: getChildAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getChildAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.DataTreeItem
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.getChildCount
+    name: getChildCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getChildCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.isDraggable
+    name: isDraggable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDraggable()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSelected
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.level
+    name: level
+    fullName: level
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number level
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.onDoubleClick
+    name: onDoubleClick
+    fullName: onDoubleClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.onEndDrag
+    name: onEndDrag
+    fullName: onEndDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.onSelectedChange
+    name: onSelectedChange
+    fullName: onSelectedChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onSelectedChange: (sender: BaseTreeItem) => void'
+      return:
+        type:
+          - '(sender: BaseTreeItem) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.onStartDrag
+    name: onStartDrag
+    fullName: onStartDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DataTreeItem.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.BaseTreeItem
+    name: BaseTreeItem
+    spec.typeScript:
+      - name: BaseTreeItem
+        fullName: BaseTreeItem
+        uid: adaptivecards-designer.BaseTreeItem
+  - uid: adaptivecards-designer.FieldDefinition
+    name: FieldDefinition
+    spec.typeScript:
+      - name: FieldDefinition
+        fullName: FieldDefinition
+        uid: adaptivecards-designer.FieldDefinition
+  - uid: adaptivecards-designer.DataTreeItem
+    name: DataTreeItem
+    spec.typeScript:
+      - name: DataTreeItem
+        fullName: DataTreeItem
+        uid: adaptivecards-designer.DataTreeItem

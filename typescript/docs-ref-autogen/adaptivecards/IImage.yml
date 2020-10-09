@@ -1,0 +1,252 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IImage
+    name: IImage
+    fullName: IImage
+    children:
+      - adaptivecards.IImage.altText
+      - adaptivecards.IImage.height
+      - adaptivecards.IImage.horizontalAlignment
+      - adaptivecards.IImage.id
+      - adaptivecards.IImage.selectAction
+      - adaptivecards.IImage.separator
+      - adaptivecards.IImage.size
+      - adaptivecards.IImage.spacing
+      - adaptivecards.IImage.speak
+      - adaptivecards.IImage.style
+      - adaptivecards.IImage.type
+      - adaptivecards.IImage.url
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: adaptivecards.ICardElement
+    package: adaptivecards
+  - uid: adaptivecards.IImage.altText
+    name: altText
+    fullName: altText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'altText?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        type:
+          - '"auto" | "stretch"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        type:
+          - adaptivecards.HorizontalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.selectAction
+    name: selectAction
+    fullName: selectAction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectAction?: IAction'
+      return:
+        type:
+          - adaptivecards.IAction
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'size?: Size'
+      return:
+        type:
+          - adaptivecards.Size
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.speak
+    name: speak
+    fullName: speak
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'speak?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.style
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'style?: ImageStyle'
+      return:
+        type:
+          - adaptivecards.ImageStyle
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: "Image"'
+      return:
+        type:
+          - '"Image"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImage.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ICardElement
+    name: ICardElement
+    spec.typeScript:
+      - name: ICardElement
+        fullName: ICardElement
+        uid: adaptivecards.ICardElement
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    spec.typeScript:
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+  - uid: adaptivecards.IAction
+    name: IAction
+    spec.typeScript:
+      - name: IAction
+        fullName: IAction
+        uid: adaptivecards.IAction
+  - uid: adaptivecards.Size
+    name: Size
+    spec.typeScript:
+      - name: Size
+        fullName: Size
+        uid: adaptivecards.Size
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+  - uid: adaptivecards.ImageStyle
+    name: ImageStyle
+    spec.typeScript:
+      - name: ImageStyle
+        fullName: ImageStyle
+        uid: adaptivecards.ImageStyle

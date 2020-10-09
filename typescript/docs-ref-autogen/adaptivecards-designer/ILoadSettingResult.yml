@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ILoadSettingResult
+    name: ILoadSettingResult
+    fullName: ILoadSettingResult<T>
+    children:
+      - adaptivecards-designer.ILoadSettingResult.succeeded
+      - adaptivecards-designer.ILoadSettingResult.value
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ILoadSettingResult.succeeded
+    name: succeeded
+    fullName: succeeded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'succeeded: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ILoadSettingResult.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'value?: T'
+      return:
+        type:
+          - T
+        description: ''
+    package: adaptivecards-designer

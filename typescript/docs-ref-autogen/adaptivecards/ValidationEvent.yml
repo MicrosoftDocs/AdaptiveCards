@@ -1,0 +1,191 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ValidationEvent
+    name: ValidationEvent
+    fullName: ValidationEvent
+    children:
+      - adaptivecards.ValidationEvent.Hint
+      - adaptivecards.ValidationEvent.ActionTypeNotAllowed
+      - adaptivecards.ValidationEvent.CollectionCantBeEmpty
+      - adaptivecards.ValidationEvent.Deprecated
+      - adaptivecards.ValidationEvent.ElementTypeNotAllowed
+      - adaptivecards.ValidationEvent.InteractivityNotAllowed
+      - adaptivecards.ValidationEvent.InvalidPropertyValue
+      - adaptivecards.ValidationEvent.MissingCardType
+      - adaptivecards.ValidationEvent.PropertyCantBeNull
+      - adaptivecards.ValidationEvent.TooManyActions
+      - adaptivecards.ValidationEvent.UnknownActionType
+      - adaptivecards.ValidationEvent.UnknownElementType
+      - adaptivecards.ValidationEvent.UnsupportedCardVersion
+      - adaptivecards.ValidationEvent.DuplicateId
+      - adaptivecards.ValidationEvent.UnsupportedProperty
+      - adaptivecards.ValidationEvent.RequiredInputsShouldHaveLabel
+      - adaptivecards.ValidationEvent.RequiredInputsShouldHaveErrorMessage
+      - adaptivecards.ValidationEvent.Other
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.Hint
+    name: Hint
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.ActionTypeNotAllowed
+    name: ActionTypeNotAllowed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.CollectionCantBeEmpty
+    name: CollectionCantBeEmpty
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.Deprecated
+    name: Deprecated
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.ElementTypeNotAllowed
+    name: ElementTypeNotAllowed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.InteractivityNotAllowed
+    name: InteractivityNotAllowed
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.InvalidPropertyValue
+    name: InvalidPropertyValue
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.MissingCardType
+    name: MissingCardType
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.PropertyCantBeNull
+    name: PropertyCantBeNull
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 8
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.TooManyActions
+    name: TooManyActions
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 9
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.UnknownActionType
+    name: UnknownActionType
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 10
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.UnknownElementType
+    name: UnknownElementType
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 11
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.UnsupportedCardVersion
+    name: UnsupportedCardVersion
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 12
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.DuplicateId
+    name: DuplicateId
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 13
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.UnsupportedProperty
+    name: UnsupportedProperty
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 14
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.RequiredInputsShouldHaveLabel
+    name: RequiredInputsShouldHaveLabel
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 15
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.RequiredInputsShouldHaveErrorMessage
+    name: RequiredInputsShouldHaveErrorMessage
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 16
+    package: adaptivecards
+  - uid: adaptivecards.ValidationEvent.Other
+    name: Other
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 17
+    package: adaptivecards

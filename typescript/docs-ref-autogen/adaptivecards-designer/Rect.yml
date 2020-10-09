@@ -1,0 +1,188 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.Rect
+    name: Rect
+    fullName: Rect
+    children:
+      - adaptivecards-designer.Rect.bottom
+      - adaptivecards-designer.Rect.height
+      - adaptivecards-designer.Rect.isInside
+      - adaptivecards-designer.Rect.left
+      - adaptivecards-designer.Rect.constructor
+      - adaptivecards-designer.Rect.right
+      - adaptivecards-designer.Rect.top
+      - adaptivecards-designer.Rect.union
+      - adaptivecards-designer.Rect.width
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Rect.bottom
+    name: bottom
+    fullName: bottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bottom: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Rect.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number height
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Rect.isInside
+    name: isInside(IPoint)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isInside(point: IPoint)'
+      parameters:
+        - id: point
+          type:
+            - adaptivecards-designer.IPoint
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Rect.left
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'left: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Rect.constructor
+    name: 'Rect(number, number, number, number)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Rect(top?: number, right?: number, bottom?: number, left?: number)'
+      parameters:
+        - id: top
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: right
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: bottom
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: left
+          type:
+            - number
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Rect.right
+    name: right
+    fullName: right
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'right: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Rect.top
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'top: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Rect.union
+    name: union(Rect)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function union(otherRect: Rect)'
+      parameters:
+        - id: otherRect
+          type:
+            - adaptivecards-designer.Rect
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Rect.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number width
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.IPoint
+    name: IPoint
+    spec.typeScript:
+      - name: IPoint
+        fullName: IPoint
+        uid: adaptivecards-designer.IPoint
+  - uid: adaptivecards-designer.Rect
+    name: Rect
+    spec.typeScript:
+      - name: Rect
+        fullName: Rect
+        uid: adaptivecards-designer.Rect

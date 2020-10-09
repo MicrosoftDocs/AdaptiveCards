@@ -1,0 +1,557 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.HostConfig
+    name: HostConfig
+    fullName: HostConfig
+    children:
+      - adaptivecards.HostConfig.actions
+      - adaptivecards.HostConfig.adaptiveCard
+      - adaptivecards.HostConfig.alwaysAllowBleed
+      - adaptivecards.HostConfig.choiceSetInputValueSeparator
+      - adaptivecards.HostConfig.containerStyles
+      - adaptivecards.HostConfig.cssClassNamePrefix
+      - adaptivecards.HostConfig.factSet
+      - adaptivecards.HostConfig.fontFamily
+      - adaptivecards.HostConfig.fontSizes
+      - adaptivecards.HostConfig.fontTypes
+      - adaptivecards.HostConfig.fontWeights
+      - adaptivecards.HostConfig.getEffectiveSpacing
+      - adaptivecards.HostConfig.getFontTypeDefinition
+      - adaptivecards.HostConfig.hostCapabilities
+      - adaptivecards.HostConfig.constructor
+      - adaptivecards.HostConfig.imageSet
+      - adaptivecards.HostConfig.imageSizes
+      - adaptivecards.HostConfig.inputs
+      - adaptivecards.HostConfig.lineHeights
+      - adaptivecards.HostConfig.makeCssClassName
+      - adaptivecards.HostConfig.makeCssClassNames
+      - adaptivecards.HostConfig.media
+      - adaptivecards.HostConfig.paddingDefinitionToSpacingDefinition
+      - adaptivecards.HostConfig.separator
+      - adaptivecards.HostConfig.spacing
+      - adaptivecards.HostConfig.supportsInteractivity
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.actions
+    name: actions
+    fullName: actions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'actions: ActionsConfig'
+      return:
+        type:
+          - adaptivecards.ActionsConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.adaptiveCard
+    name: adaptiveCard
+    fullName: adaptiveCard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'adaptiveCard: AdaptiveCardConfig'
+      return:
+        type:
+          - adaptivecards.AdaptiveCardConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.alwaysAllowBleed
+    name: alwaysAllowBleed
+    fullName: alwaysAllowBleed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'alwaysAllowBleed: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.choiceSetInputValueSeparator
+    name: choiceSetInputValueSeparator
+    fullName: choiceSetInputValueSeparator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'choiceSetInputValueSeparator: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.containerStyles
+    name: containerStyles
+    fullName: containerStyles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'containerStyles: ContainerStyleSet'
+      return:
+        type:
+          - adaptivecards.ContainerStyleSet
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.cssClassNamePrefix
+    name: cssClassNamePrefix
+    fullName: cssClassNamePrefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cssClassNamePrefix?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.factSet
+    name: factSet
+    fullName: factSet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'factSet: FactSetConfig'
+      return:
+        type:
+          - adaptivecards.FactSetConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.fontFamily
+    name: fontFamily
+    fullName: fontFamily
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string | undefined fontFamily
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.fontSizes
+    name: fontSizes
+    fullName: fontSizes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IFontSizeDefinitions fontSizes
+      return:
+        type:
+          - adaptivecards.IFontSizeDefinitions
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.fontTypes
+    name: fontTypes
+    fullName: fontTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'fontTypes?: FontTypeSet'
+      return:
+        type:
+          - adaptivecards.FontTypeSet
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.fontWeights
+    name: fontWeights
+    fullName: fontWeights
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: IFontWeightDefinitions fontWeights
+      return:
+        type:
+          - adaptivecards.IFontWeightDefinitions
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.getEffectiveSpacing
+    name: getEffectiveSpacing(Spacing)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getEffectiveSpacing(spacing: Spacing)'
+      parameters:
+        - id: spacing
+          type:
+            - adaptivecards.Spacing
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.getFontTypeDefinition
+    name: getFontTypeDefinition(FontType)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFontTypeDefinition(style?: FontType)'
+      parameters:
+        - id: style
+          type:
+            - adaptivecards.FontType
+          description: ''
+          optional: true
+      return:
+        type:
+          - adaptivecards.FontTypeDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.hostCapabilities
+    name: hostCapabilities
+    fullName: hostCapabilities
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'hostCapabilities: HostCapabilities'
+      return:
+        type:
+          - adaptivecards.HostCapabilities
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.constructor
+    name: HostConfig(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HostConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.imageSet
+    name: imageSet
+    fullName: imageSet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'imageSet: ImageSetConfig'
+      return:
+        type:
+          - adaptivecards.ImageSetConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.imageSizes
+    name: imageSizes
+    fullName: imageSizes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'imageSizes: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.inputs
+    name: inputs
+    fullName: inputs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'inputs: InputConfig'
+      return:
+        type:
+          - adaptivecards.InputConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.lineHeights
+    name: lineHeights
+    fullName: lineHeights
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'lineHeights?: ILineHeightDefinitions'
+      return:
+        type:
+          - adaptivecards.ILineHeightDefinitions
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.makeCssClassName
+    name: 'makeCssClassName(string[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function makeCssClassName(classNames: string[])'
+      parameters:
+        - id: classNames
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.makeCssClassNames
+    name: 'makeCssClassNames(string[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function makeCssClassNames(classNames: string[])'
+      parameters:
+        - id: classNames
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.media
+    name: media
+    fullName: media
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'media: MediaConfig'
+      return:
+        type:
+          - adaptivecards.MediaConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.paddingDefinitionToSpacingDefinition
+    name: paddingDefinitionToSpacingDefinition(PaddingDefinition)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function paddingDefinitionToSpacingDefinition(paddingDefinition:
+        PaddingDefinition)
+      parameters:
+        - id: paddingDefinition
+          type:
+            - adaptivecards.PaddingDefinition
+          description: ''
+      return:
+        type:
+          - adaptivecards.SpacingDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'separator: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'spacing: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.HostConfig.supportsInteractivity
+    name: supportsInteractivity
+    fullName: supportsInteractivity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'supportsInteractivity: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ActionsConfig
+    name: ActionsConfig
+    spec.typeScript:
+      - name: ActionsConfig
+        fullName: ActionsConfig
+        uid: adaptivecards.ActionsConfig
+  - uid: adaptivecards.AdaptiveCardConfig
+    name: AdaptiveCardConfig
+    spec.typeScript:
+      - name: AdaptiveCardConfig
+        fullName: AdaptiveCardConfig
+        uid: adaptivecards.AdaptiveCardConfig
+  - uid: adaptivecards.ContainerStyleSet
+    name: ContainerStyleSet
+    spec.typeScript:
+      - name: ContainerStyleSet
+        fullName: ContainerStyleSet
+        uid: adaptivecards.ContainerStyleSet
+  - uid: adaptivecards.FactSetConfig
+    name: FactSetConfig
+    spec.typeScript:
+      - name: FactSetConfig
+        fullName: FactSetConfig
+        uid: adaptivecards.FactSetConfig
+  - uid: adaptivecards.FontTypeSet
+    name: FontTypeSet
+    spec.typeScript:
+      - name: FontTypeSet
+        fullName: FontTypeSet
+        uid: adaptivecards.FontTypeSet
+  - uid: adaptivecards.HostCapabilities
+    name: HostCapabilities
+    spec.typeScript:
+      - name: HostCapabilities
+        fullName: HostCapabilities
+        uid: adaptivecards.HostCapabilities
+  - uid: adaptivecards.ImageSetConfig
+    name: ImageSetConfig
+    spec.typeScript:
+      - name: ImageSetConfig
+        fullName: ImageSetConfig
+        uid: adaptivecards.ImageSetConfig
+  - uid: adaptivecards.InputConfig
+    name: InputConfig
+    spec.typeScript:
+      - name: InputConfig
+        fullName: InputConfig
+        uid: adaptivecards.InputConfig
+  - uid: adaptivecards.ILineHeightDefinitions
+    name: ILineHeightDefinitions
+    spec.typeScript:
+      - name: ILineHeightDefinitions
+        fullName: ILineHeightDefinitions
+        uid: adaptivecards.ILineHeightDefinitions
+  - uid: adaptivecards.MediaConfig
+    name: MediaConfig
+    spec.typeScript:
+      - name: MediaConfig
+        fullName: MediaConfig
+        uid: adaptivecards.MediaConfig
+  - uid: adaptivecards.IFontSizeDefinitions
+    name: IFontSizeDefinitions
+    spec.typeScript:
+      - name: IFontSizeDefinitions
+        fullName: IFontSizeDefinitions
+        uid: adaptivecards.IFontSizeDefinitions
+  - uid: adaptivecards.IFontWeightDefinitions
+    name: IFontWeightDefinitions
+    spec.typeScript:
+      - name: IFontWeightDefinitions
+        fullName: IFontWeightDefinitions
+        uid: adaptivecards.IFontWeightDefinitions
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+  - uid: adaptivecards.FontType
+    name: FontType
+    spec.typeScript:
+      - name: FontType
+        fullName: FontType
+        uid: adaptivecards.FontType
+  - uid: adaptivecards.FontTypeDefinition
+    name: FontTypeDefinition
+    spec.typeScript:
+      - name: FontTypeDefinition
+        fullName: FontTypeDefinition
+        uid: adaptivecards.FontTypeDefinition
+  - uid: adaptivecards.PaddingDefinition
+    name: PaddingDefinition
+    spec.typeScript:
+      - name: PaddingDefinition
+        fullName: PaddingDefinition
+        uid: adaptivecards.PaddingDefinition
+  - uid: adaptivecards.SpacingDefinition
+    name: SpacingDefinition
+    spec.typeScript:
+      - name: SpacingDefinition
+        fullName: SpacingDefinition
+        uid: adaptivecards.SpacingDefinition

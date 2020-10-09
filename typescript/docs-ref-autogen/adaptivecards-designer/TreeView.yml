@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.TreeView
+    name: TreeView
+    fullName: TreeView
+    children:
+      - adaptivecards-designer.TreeView.onSelectedItemChanged
+      - adaptivecards-designer.TreeView.render
+      - adaptivecards-designer.TreeView.rootItem
+      - adaptivecards-designer.TreeView.selectedItem
+      - adaptivecards-designer.TreeView.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TreeView.onSelectedItemChanged
+    name: onSelectedItemChanged
+    fullName: onSelectedItemChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onSelectedItemChanged: (sender: TreeView) => void'
+      return:
+        type:
+          - '(sender: TreeView) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TreeView.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TreeView.rootItem
+    name: rootItem
+    fullName: rootItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rootItem: BaseTreeItem'
+      return:
+        type:
+          - adaptivecards-designer.BaseTreeItem
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TreeView.selectedItem
+    name: selectedItem
+    fullName: selectedItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BaseTreeItem selectedItem
+      return:
+        type:
+          - adaptivecards-designer.BaseTreeItem
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.TreeView.constructor
+    name: TreeView(BaseTreeItem)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TreeView(rootItem: BaseTreeItem)'
+      parameters:
+        - id: rootItem
+          type:
+            - adaptivecards-designer.BaseTreeItem
+          description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.BaseTreeItem
+    name: BaseTreeItem
+    spec.typeScript:
+      - name: BaseTreeItem
+        fullName: BaseTreeItem
+        uid: adaptivecards-designer.BaseTreeItem

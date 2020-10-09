@@ -1,0 +1,255 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.NumProperty
+    name: NumProperty
+    fullName: NumProperty
+    children:
+      - adaptivecards.NumProperty.defaultValue
+      - adaptivecards.NumProperty.getInternalName
+      - adaptivecards.NumProperty.isSerializationEnabled
+      - adaptivecards.NumProperty.name
+      - adaptivecards.NumProperty.constructor
+      - adaptivecards.NumProperty.onGetInitialValue
+      - adaptivecards.NumProperty.parse
+      - adaptivecards.NumProperty.sequentialNumber
+      - adaptivecards.NumProperty.targetVersion
+      - adaptivecards.NumProperty.toJSON
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.PropertyDefinition
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.getInternalName
+    name: getInternalName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getInternalName()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.isSerializationEnabled
+    name: isSerializationEnabled
+    fullName: isSerializationEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.constructor
+    name: >-
+      NumProperty(Version, string, any, (sender: SerializableObject) => any |
+      undefined)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new NumProperty(targetVersion: Version, name: string, defaultValue?:
+        any, onGetInitialValue?: (sender: SerializableObject) => any |
+        undefined)
+      parameters:
+        - id: targetVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: defaultValue
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: onGetInitialValue
+          type:
+            - '(sender: SerializableObject) => any | undefined'
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.onGetInitialValue
+    name: onGetInitialValue
+    fullName: onGetInitialValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => any | undefined'
+      return:
+        type:
+          - '(sender: SerializableObject) => any | undefined'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.parse
+    name: 'parse(SerializableObject, PropertyBag, BaseSerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        BaseSerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: source
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+      return:
+        type:
+          - number | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.sequentialNumber
+    name: sequentialNumber
+    fullName: sequentialNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.NumProperty.toJSON
+    name: >-
+      toJSON(SerializableObject, PropertyBag, number | undefined,
+      BaseSerializationContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        number | undefined, context: BaseSerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: target
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: value
+          type:
+            - number | undefined
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.SerializableObject
+    name: SerializableObject
+    spec.typeScript:
+      - name: SerializableObject
+        fullName: SerializableObject
+        uid: adaptivecards.SerializableObject
+  - uid: adaptivecards.PropertyBag
+    name: PropertyBag
+    spec.typeScript:
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext

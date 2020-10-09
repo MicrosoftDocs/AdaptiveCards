@@ -1,0 +1,270 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IColumn
+    name: IColumn
+    fullName: IColumn
+    children:
+      - adaptivecards.IColumn.backgroundImage
+      - adaptivecards.IColumn.height
+      - adaptivecards.IColumn.horizontalAlignment
+      - adaptivecards.IColumn.id
+      - adaptivecards.IColumn.items
+      - adaptivecards.IColumn.selectAction
+      - adaptivecards.IColumn.separator
+      - adaptivecards.IColumn.spacing
+      - adaptivecards.IColumn.speak
+      - adaptivecards.IColumn.style
+      - adaptivecards.IColumn.verticalContentAlignment
+      - adaptivecards.IColumn.width
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: adaptivecards.ICardElement
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.backgroundImage
+    name: backgroundImage
+    fullName: backgroundImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'backgroundImage?: IBackgroundImage | string'
+      return:
+        type:
+          - adaptivecards.IBackgroundImage | string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        type:
+          - '"auto" | "stretch"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        type:
+          - adaptivecards.HorizontalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'items?: ICardElement[]'
+      return:
+        type:
+          - 'adaptivecards.ICardElement[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.selectAction
+    name: selectAction
+    fullName: selectAction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'selectAction?: IAction'
+      return:
+        type:
+          - adaptivecards.IAction
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.speak
+    name: speak
+    fullName: speak
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'speak?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.style
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'style?: ContainerStyle'
+      return:
+        type:
+          - adaptivecards.ContainerStyle
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.verticalContentAlignment
+    name: verticalContentAlignment
+    fullName: verticalContentAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'verticalContentAlignment?: VerticalAlignment'
+      return:
+        type:
+          - adaptivecards.VerticalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IColumn.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'width?: number | "auto" | "stretch" | "auto"'
+      return:
+        type:
+          - number | "auto" | "stretch" | "auto"
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ICardElement
+    name: ICardElement
+    spec.typeScript:
+      - name: ICardElement
+        fullName: ICardElement
+        uid: adaptivecards.ICardElement
+  - uid: adaptivecards.IBackgroundImage | string
+    name: IBackgroundImage | string
+    spec.typeScript:
+      - name: IBackgroundImage
+        fullName: IBackgroundImage
+        uid: adaptivecards.IBackgroundImage
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    spec.typeScript:
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+  - uid: 'adaptivecards.ICardElement[]'
+    name: 'ICardElement[]'
+    spec.typeScript:
+      - name: ICardElement
+        fullName: ICardElement
+        uid: adaptivecards.ICardElement
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.IAction
+    name: IAction
+    spec.typeScript:
+      - name: IAction
+        fullName: IAction
+        uid: adaptivecards.IAction
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+  - uid: adaptivecards.ContainerStyle
+    name: ContainerStyle
+    spec.typeScript:
+      - name: ContainerStyle
+        fullName: ContainerStyle
+        uid: adaptivecards.ContainerStyle
+  - uid: adaptivecards.VerticalAlignment
+    name: VerticalAlignment
+    spec.typeScript:
+      - name: VerticalAlignment
+        fullName: VerticalAlignment
+        uid: adaptivecards.VerticalAlignment

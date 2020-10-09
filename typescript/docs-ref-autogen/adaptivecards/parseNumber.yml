@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.parseNumber
+    name: 'parseNumber(any, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parseNumber(obj: any, defaultValue?: number)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+        - id: defaultValue
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - number | undefined
+        description: ''
+    package: adaptivecards

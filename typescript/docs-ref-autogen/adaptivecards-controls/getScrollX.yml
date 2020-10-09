@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.getScrollX
+    name: getScrollX()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getScrollX()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls

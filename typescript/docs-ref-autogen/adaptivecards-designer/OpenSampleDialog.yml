@@ -1,0 +1,190 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.OpenSampleDialog
+    name: OpenSampleDialog
+    fullName: OpenSampleDialog
+    children:
+      - adaptivecards-designer.OpenSampleDialog.catalogue
+      - adaptivecards-designer.OpenSampleDialog.close
+      - adaptivecards-designer.OpenSampleDialog.closeButton
+      - adaptivecards-designer.OpenSampleDialog.height
+      - adaptivecards-designer.OpenSampleDialog.onClose
+      - adaptivecards-designer.OpenSampleDialog.open
+      - adaptivecards-designer.OpenSampleDialog.constructor
+      - adaptivecards-designer.OpenSampleDialog.selectedSample
+      - adaptivecards-designer.OpenSampleDialog.title
+      - adaptivecards-designer.OpenSampleDialog.width
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.Dialog
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.catalogue
+    name: catalogue
+    fullName: catalogue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'catalogue: SampleCatalogue'
+      return:
+        type:
+          - adaptivecards-designer.SampleCatalogue
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.close
+    name: close()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.closeButton
+    name: closeButton
+    fullName: closeButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'closeButton: DialogButton'
+      return:
+        type:
+          - adaptivecards-designer.DialogButton
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'height: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.onClose
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClose: (sender: Dialog) => void'
+      return:
+        type:
+          - '(sender: Dialog) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.open
+    name: open()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function open()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.constructor
+    name: OpenSampleDialog(SampleCatalogue)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new OpenSampleDialog(catalogue: SampleCatalogue)'
+      parameters:
+        - id: catalogue
+          type:
+            - adaptivecards-designer.SampleCatalogue
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.selectedSample
+    name: selectedSample
+    fullName: selectedSample
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CatalogueEntry selectedSample
+      return:
+        type:
+          - adaptivecards-designer.CatalogueEntry
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'title: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.OpenSampleDialog.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'width: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.Dialog
+    name: Dialog
+    spec.typeScript:
+      - name: Dialog
+        fullName: Dialog
+        uid: adaptivecards-designer.Dialog
+  - uid: adaptivecards-designer.SampleCatalogue
+    name: SampleCatalogue
+    spec.typeScript:
+      - name: SampleCatalogue
+        fullName: SampleCatalogue
+        uid: adaptivecards-designer.SampleCatalogue
+  - uid: adaptivecards-designer.DialogButton
+    name: DialogButton
+    spec.typeScript:
+      - name: DialogButton
+        fullName: DialogButton
+        uid: adaptivecards-designer.DialogButton
+  - uid: adaptivecards-designer.CatalogueEntry
+    name: CatalogueEntry
+    spec.typeScript:
+      - name: CatalogueEntry
+        fullName: CatalogueEntry
+        uid: adaptivecards-designer.CatalogueEntry

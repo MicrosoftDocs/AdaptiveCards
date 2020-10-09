@@ -1,0 +1,158 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ToolbarElement
+    name: ToolbarElement
+    fullName: ToolbarElement
+    children:
+      - adaptivecards-designer.ToolbarElement.alignment
+      - adaptivecards-designer.ToolbarElement.id
+      - adaptivecards-designer.ToolbarElement.isVisible
+      - adaptivecards-designer.ToolbarElement.label
+      - adaptivecards-designer.ToolbarElement.render
+      - adaptivecards-designer.ToolbarElement.renderedElement
+      - adaptivecards-designer.ToolbarElement.separator
+      - adaptivecards-designer.ToolbarElement.constructor
+      - adaptivecards-designer.ToolbarElement.updateLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElement.alignment
+    name: alignment
+    fullName: alignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'alignment: ToolbarElementAlignment'
+      return:
+        type:
+          - adaptivecards-designer.ToolbarElementAlignment
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElement.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElement.isVisible
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isVisible: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElement.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElement.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElement.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElement.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'separator: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElement.constructor
+    name: ToolbarElement(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ToolbarElement(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElement.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.ToolbarElementAlignment
+    name: ToolbarElementAlignment
+    spec.typeScript:
+      - name: ToolbarElementAlignment
+        fullName: ToolbarElementAlignment
+        uid: adaptivecards-designer.ToolbarElementAlignment

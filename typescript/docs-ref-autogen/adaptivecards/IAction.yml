@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IAction
+    name: IAction
+    fullName: IAction
+    children:
+      - adaptivecards.IAction.id
+      - adaptivecards.IAction.title
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAction.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAction.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'title?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards

@@ -1,0 +1,109 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.SpacingDefinition
+    name: SpacingDefinition
+    fullName: SpacingDefinition
+    children:
+      - adaptivecards.SpacingDefinition.bottom
+      - adaptivecards.SpacingDefinition.left
+      - adaptivecards.SpacingDefinition.right
+      - adaptivecards.SpacingDefinition.constructor
+      - adaptivecards.SpacingDefinition.top
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.SpacingDefinition.bottom
+    name: bottom
+    fullName: bottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bottom: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SpacingDefinition.left
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'left: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SpacingDefinition.right
+    name: right
+    fullName: right
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'right: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SpacingDefinition.constructor
+    name: 'SpacingDefinition(number, number, number, number)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new SpacingDefinition(top?: number, right?: number, bottom?: number,
+        left?: number)
+      parameters:
+        - id: top
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: right
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: bottom
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: left
+          type:
+            - number
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.SpacingDefinition.top
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'top: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards

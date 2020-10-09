@@ -1,0 +1,116 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.PaddingDefinition
+    name: PaddingDefinition
+    fullName: PaddingDefinition
+    children:
+      - adaptivecards.PaddingDefinition.bottom
+      - adaptivecards.PaddingDefinition.left
+      - adaptivecards.PaddingDefinition.constructor
+      - adaptivecards.PaddingDefinition.right
+      - adaptivecards.PaddingDefinition.top
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.PaddingDefinition.bottom
+    name: bottom
+    fullName: bottom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bottom: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.PaddingDefinition.left
+    name: left
+    fullName: left
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'left: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.PaddingDefinition.constructor
+    name: 'PaddingDefinition(Spacing, Spacing, Spacing, Spacing)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new PaddingDefinition(top?: Spacing, right?: Spacing, bottom?: Spacing,
+        left?: Spacing)
+      parameters:
+        - id: top
+          type:
+            - adaptivecards.Spacing
+          description: ''
+          optional: true
+        - id: right
+          type:
+            - adaptivecards.Spacing
+          description: ''
+          optional: true
+        - id: bottom
+          type:
+            - adaptivecards.Spacing
+          description: ''
+          optional: true
+        - id: left
+          type:
+            - adaptivecards.Spacing
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.PaddingDefinition.right
+    name: right
+    fullName: right
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'right: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.PaddingDefinition.top
+    name: top
+    fullName: top
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'top: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing

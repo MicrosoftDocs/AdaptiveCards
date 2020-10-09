@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IField
+    name: IField
+    fullName: IField
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type IField = IStringField | INumberField | IBooleanField | IObjectField
+        | IArrayField
+    package: adaptivecards-designer

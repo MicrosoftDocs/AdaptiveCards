@@ -1,0 +1,101 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.SizeAndUnit
+    name: SizeAndUnit
+    fullName: SizeAndUnit
+    children:
+      - adaptivecards.SizeAndUnit.parse
+      - adaptivecards.SizeAndUnit.physicalSize
+      - adaptivecards.SizeAndUnit.constructor
+      - adaptivecards.SizeAndUnit.unit
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.SizeAndUnit.parse
+    name: 'parse(string, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function parse(input: string, requireUnitSpecifier?: boolean)'
+      parameters:
+        - id: input
+          type:
+            - string
+          description: ''
+        - id: requireUnitSpecifier
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - adaptivecards.SizeAndUnit
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SizeAndUnit.physicalSize
+    name: physicalSize
+    fullName: physicalSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'physicalSize: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SizeAndUnit.constructor
+    name: 'SizeAndUnit(number, SizeUnit)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SizeAndUnit(physicalSize: number, unit: SizeUnit)'
+      parameters:
+        - id: physicalSize
+          type:
+            - number
+          description: ''
+        - id: unit
+          type:
+            - adaptivecards.SizeUnit
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SizeAndUnit.unit
+    name: unit
+    fullName: unit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'unit: SizeUnit'
+      return:
+        type:
+          - adaptivecards.SizeUnit
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.SizeUnit
+    name: SizeUnit
+    spec.typeScript:
+      - name: SizeUnit
+        fullName: SizeUnit
+        uid: adaptivecards.SizeUnit
+  - uid: adaptivecards.SizeAndUnit
+    name: SizeAndUnit
+    spec.typeScript:
+      - name: SizeAndUnit
+        fullName: SizeAndUnit
+        uid: adaptivecards.SizeAndUnit

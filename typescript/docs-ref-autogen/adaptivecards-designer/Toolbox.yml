@@ -1,0 +1,290 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.Toolbox
+    name: Toolbox
+    fullName: Toolbox
+    children:
+      - adaptivecards-designer.Toolbox.collapse
+      - adaptivecards-designer.Toolbox.commands
+      - adaptivecards-designer.Toolbox.content
+      - adaptivecards-designer.Toolbox.expand
+      - adaptivecards-designer.Toolbox.getHeaderBoundingRect
+      - adaptivecards-designer.Toolbox.id
+      - adaptivecards-designer.Toolbox.isExpanded
+      - adaptivecards-designer.Toolbox.onToggled
+      - adaptivecards-designer.Toolbox.orientation
+      - adaptivecards-designer.Toolbox.render
+      - adaptivecards-designer.Toolbox.renderedElement
+      - adaptivecards-designer.Toolbox.restoreState
+      - adaptivecards-designer.Toolbox.saveState
+      - adaptivecards-designer.Toolbox.stretch
+      - adaptivecards-designer.Toolbox.title
+      - adaptivecards-designer.Toolbox.toggle
+      - adaptivecards-designer.Toolbox.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.collapse
+    name: collapse()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function collapse()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.commands
+    name: commands
+    fullName: commands
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'commands: Array<IToolboxCommand>'
+      return:
+        type:
+          - Array<adaptivecards-designer.IToolboxCommand>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.content
+    name: content
+    fullName: content
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement content
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.expand
+    name: expand()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function expand()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.getHeaderBoundingRect
+    name: getHeaderBoundingRect()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHeaderBoundingRect()
+      parameters: []
+      return:
+        type:
+          - ClientRect
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.isExpanded
+    name: isExpanded
+    fullName: isExpanded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isExpanded
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.onToggled
+    name: onToggled
+    fullName: onToggled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onToggled: (sender: Toolbox) => void'
+      return:
+        type:
+          - '(sender: Toolbox) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.orientation
+    name: orientation
+    fullName: orientation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ToolboxOrientation orientation
+      return:
+        type:
+          - adaptivecards-designer.ToolboxOrientation
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.render
+    name: 'render(ToolboxOrientation, HTMLElement)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function render(orientation: ToolboxOrientation, collapsedTabContainer:
+        HTMLElement)
+      parameters:
+        - id: orientation
+          type:
+            - adaptivecards-designer.ToolboxOrientation
+          description: ''
+        - id: collapsedTabContainer
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.restoreState
+    name: restoreState()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function restoreState()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.saveState
+    name: saveState()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function saveState()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.stretch
+    name: stretch
+    fullName: stretch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean stretch
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'title: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.toggle
+    name: toggle()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toggle()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Toolbox.constructor
+    name: 'Toolbox(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Toolbox(id: string, title: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: title
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+references:
+  - uid: Array<adaptivecards-designer.IToolboxCommand>
+    name: IToolboxCommand>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: IToolboxCommand
+        fullName: IToolboxCommand
+        uid: adaptivecards-designer.IToolboxCommand
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-designer.ToolboxOrientation
+    name: ToolboxOrientation
+    spec.typeScript:
+      - name: ToolboxOrientation
+        fullName: ToolboxOrientation
+        uid: adaptivecards-designer.ToolboxOrientation

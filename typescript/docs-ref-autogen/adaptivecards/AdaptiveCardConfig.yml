@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.AdaptiveCardConfig
+    name: AdaptiveCardConfig
+    fullName: AdaptiveCardConfig
+    children:
+      - adaptivecards.AdaptiveCardConfig.constructor
+      - adaptivecards.AdaptiveCardConfig.allowCustomStyle
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.AdaptiveCardConfig.constructor
+    name: AdaptiveCardConfig(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AdaptiveCardConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.AdaptiveCardConfig.allowCustomStyle
+    name: allowCustomStyle
+    fullName: allowCustomStyle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'allowCustomStyle: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards

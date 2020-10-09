@@ -1,0 +1,134 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.Dialog
+    name: Dialog
+    fullName: Dialog
+    children:
+      - adaptivecards-designer.Dialog.close
+      - adaptivecards-designer.Dialog.closeButton
+      - adaptivecards-designer.Dialog.constructor
+      - adaptivecards-designer.Dialog.height
+      - adaptivecards-designer.Dialog.onClose
+      - adaptivecards-designer.Dialog.open
+      - adaptivecards-designer.Dialog.title
+      - adaptivecards-designer.Dialog.width
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Dialog.close
+    name: close()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Dialog.closeButton
+    name: closeButton
+    fullName: closeButton
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'closeButton: DialogButton'
+      return:
+        type:
+          - adaptivecards-designer.DialogButton
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Dialog.constructor
+    name: Dialog()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new Dialog()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Dialog.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'height: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Dialog.onClose
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClose: (sender: Dialog) => void'
+      return:
+        type:
+          - '(sender: Dialog) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Dialog.open
+    name: open()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function open()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Dialog.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'title: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Dialog.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'width: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DialogButton
+    name: DialogButton
+    spec.typeScript:
+      - name: DialogButton
+        fullName: DialogButton
+        uid: adaptivecards-designer.DialogButton

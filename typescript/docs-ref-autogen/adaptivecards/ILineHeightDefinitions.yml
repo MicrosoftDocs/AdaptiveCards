@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ILineHeightDefinitions
+    name: ILineHeightDefinitions
+    fullName: ILineHeightDefinitions
+    children:
+      - adaptivecards.ILineHeightDefinitions.default
+      - adaptivecards.ILineHeightDefinitions.extraLarge
+      - adaptivecards.ILineHeightDefinitions.large
+      - adaptivecards.ILineHeightDefinitions.medium
+      - adaptivecards.ILineHeightDefinitions.small
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ILineHeightDefinitions.default
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'default: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ILineHeightDefinitions.extraLarge
+    name: extraLarge
+    fullName: extraLarge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'extraLarge: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ILineHeightDefinitions.large
+    name: large
+    fullName: large
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'large: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ILineHeightDefinitions.medium
+    name: medium
+    fullName: medium
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'medium: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ILineHeightDefinitions.small
+    name: small
+    fullName: small
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'small: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards

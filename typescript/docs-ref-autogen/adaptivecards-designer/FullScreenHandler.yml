@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.FullScreenHandler
+    name: FullScreenHandler
+    fullName: FullScreenHandler
+    children:
+      - adaptivecards-designer.FullScreenHandler.enterFullScreen
+      - adaptivecards-designer.FullScreenHandler.exitFullScreen
+      - adaptivecards-designer.FullScreenHandler.constructor
+      - adaptivecards-designer.FullScreenHandler.isFullScreen
+      - adaptivecards-designer.FullScreenHandler.onFullScreenChanged
+      - adaptivecards-designer.FullScreenHandler.toggleFullScreen
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FullScreenHandler.enterFullScreen
+    name: enterFullScreen()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function enterFullScreen()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FullScreenHandler.exitFullScreen
+    name: exitFullScreen()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function exitFullScreen()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FullScreenHandler.constructor
+    name: FullScreenHandler()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new FullScreenHandler()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FullScreenHandler.isFullScreen
+    name: isFullScreen
+    fullName: isFullScreen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFullScreen
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FullScreenHandler.onFullScreenChanged
+    name: onFullScreenChanged
+    fullName: onFullScreenChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onFullScreenChanged: (isFullScreen: boolean) => void'
+      return:
+        type:
+          - '(isFullScreen: boolean) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FullScreenHandler.toggleFullScreen
+    name: toggleFullScreen()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toggleFullScreen()
+      parameters: []
+    package: adaptivecards-designer

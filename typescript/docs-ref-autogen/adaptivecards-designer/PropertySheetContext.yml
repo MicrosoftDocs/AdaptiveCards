@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    fullName: PropertySheetContext
+    children:
+      - adaptivecards-designer.PropertySheetContext.designContext
+      - adaptivecards-designer.PropertySheetContext.peer
+      - adaptivecards-designer.PropertySheetContext.constructor
+      - adaptivecards-designer.PropertySheetContext.target
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetContext.designContext
+    name: designContext
+    fullName: designContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'designContext: DesignContext'
+      return:
+        type:
+          - adaptivecards-designer.DesignContext
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetContext.peer
+    name: peer
+    fullName: peer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'peer: DesignerPeer'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetContext.constructor
+    name: 'PropertySheetContext(DesignContext, DesignerPeer, object)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new PropertySheetContext(designContext: DesignContext, peer:
+        DesignerPeer, target?: object)
+      parameters:
+        - id: designContext
+          type:
+            - adaptivecards-designer.DesignContext
+          description: ''
+        - id: peer
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+        - id: target
+          type:
+            - object
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetContext.target
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: object target
+      return:
+        type:
+          - object
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+    spec.typeScript:
+      - name: DesignContext
+        fullName: DesignContext
+        uid: adaptivecards-designer.DesignContext
+  - uid: adaptivecards-designer.DesignerPeer
+    name: DesignerPeer
+    spec.typeScript:
+      - name: DesignerPeer
+        fullName: DesignerPeer
+        uid: adaptivecards-designer.DesignerPeer

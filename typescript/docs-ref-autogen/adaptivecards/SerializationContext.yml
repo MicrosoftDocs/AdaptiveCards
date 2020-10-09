@@ -1,0 +1,631 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.SerializationContext
+    name: SerializationContext
+    fullName: SerializationContext
+    children:
+      - adaptivecards.SerializationContext.actionRegistry
+      - adaptivecards.SerializationContext.clearEvents
+      - adaptivecards.SerializationContext.elementRegistry
+      - adaptivecards.SerializationContext.eventCount
+      - adaptivecards.SerializationContext.getEventAt
+      - adaptivecards.SerializationContext.logEvent
+      - adaptivecards.SerializationContext.logParseEvent
+      - adaptivecards.SerializationContext.onParseAction
+      - adaptivecards.SerializationContext.onParseElement
+      - adaptivecards.SerializationContext.parseAction
+      - adaptivecards.SerializationContext.parseCardObject
+      - adaptivecards.SerializationContext.parseElement
+      - adaptivecards.SerializationContext.constructor
+      - adaptivecards.SerializationContext.serializeArray
+      - adaptivecards.SerializationContext.serializeEnum
+      - adaptivecards.SerializationContext.serializeNumber
+      - adaptivecards.SerializationContext.serializeValue
+      - adaptivecards.SerializationContext.setActionRegistry
+      - adaptivecards.SerializationContext.setElementRegistry
+      - adaptivecards.SerializationContext.targetVersion
+      - adaptivecards.SerializationContext.toJSONOriginalParam
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.BaseSerializationContext
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.actionRegistry
+    name: actionRegistry
+    fullName: actionRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<Action> actionRegistry
+      return:
+        type:
+          - adaptivecards.CardObjectRegistry<adaptivecards.Action>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.clearEvents
+    name: clearEvents()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clearEvents()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.elementRegistry
+    name: elementRegistry
+    fullName: elementRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<CardElement> elementRegistry
+      return:
+        type:
+          - adaptivecards.CardObjectRegistry<adaptivecards.CardElement>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.eventCount
+    name: eventCount
+    fullName: eventCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number eventCount
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.getEventAt
+    name: getEventAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getEventAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards.IValidationEvent
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.logEvent
+    name: >-
+      logEvent(SerializableObject | undefined, ValidationPhase, ValidationEvent,
+      string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function logEvent(source: SerializableObject | undefined, phase:
+        ValidationPhase, event: ValidationEvent, message: string)
+      parameters:
+        - id: source
+          type:
+            - adaptivecards.SerializableObject | undefined
+          description: ''
+        - id: phase
+          type:
+            - adaptivecards.ValidationPhase
+          description: ''
+        - id: event
+          type:
+            - adaptivecards.ValidationEvent
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.logParseEvent
+    name: 'logParseEvent(SerializableObject | undefined, ValidationEvent, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function logParseEvent(source: SerializableObject | undefined, event:
+        ValidationEvent, message: string)
+      parameters:
+        - id: source
+          type:
+            - adaptivecards.SerializableObject | undefined
+          description: ''
+        - id: event
+          type:
+            - adaptivecards.ValidationEvent
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.onParseAction
+    name: onParseAction
+    fullName: onParseAction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onParseAction?: (action: Action, source: any, context:
+        SerializationContext) => void
+      return:
+        type:
+          - '(action: Action, source: any, context: SerializationContext) => void'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.onParseElement
+    name: onParseElement
+    fullName: onParseElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onParseElement?: (element: CardElement, source: any, context:
+        SerializationContext) => void
+      return:
+        type:
+          - >-
+            (element: CardElement, source: any, context: SerializationContext)
+            => void
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.parseAction
+    name: 'parseAction(CardElement, any, string[], boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parseAction(parent: CardElement, source: any,
+        forbiddenActionTypes: string[], allowFallback: boolean)
+      parameters:
+        - id: parent
+          type:
+            - adaptivecards.CardElement
+          description: ''
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: forbiddenActionTypes
+          type:
+            - 'string[]'
+          description: ''
+        - id: allowFallback
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - adaptivecards.Action | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.parseCardObject
+    name: >-
+      parseCardObject(CardElement | undefined, any, string[], boolean,
+      (typeName: string) => T | undefined, (typeName: string, errorType:
+      TypeErrorType) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parseCardObject<T>(parent: CardElement | undefined, source:
+        any, forbiddenTypeNames: string[], allowFallback: boolean,
+        createInstanceCallback: (typeName: string) => T | undefined,
+        logParseEvent: (typeName: string, errorType: TypeErrorType) => void)
+      parameters:
+        - id: parent
+          type:
+            - adaptivecards.CardElement | undefined
+          description: ''
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: forbiddenTypeNames
+          type:
+            - 'string[]'
+          description: ''
+        - id: allowFallback
+          type:
+            - boolean
+          description: ''
+        - id: createInstanceCallback
+          type:
+            - '(typeName: string) => T | undefined'
+          description: ''
+        - id: logParseEvent
+          type:
+            - '(typeName: string, errorType: TypeErrorType) => void'
+          description: ''
+      return:
+        type:
+          - T | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.parseElement
+    name: 'parseElement(CardElement | undefined, any, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parseElement(parent: CardElement | undefined, source: any,
+        allowFallback: boolean)
+      parameters:
+        - id: parent
+          type:
+            - adaptivecards.CardElement | undefined
+          description: ''
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: allowFallback
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.constructor
+    name: SerializationContext(Version)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SerializationContext(targetVersion?: Version)'
+      parameters:
+        - id: targetVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.serializeArray
+    name: 'serializeArray([key: string]: any, string, any[] | undefined)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function serializeArray(target: [key: string]: any, propertyName:
+        string, propertyValue: any[] | undefined)
+      parameters:
+        - id: target
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: propertyValue
+          type:
+            - 'any[] | undefined'
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.serializeEnum
+    name: >-
+      serializeEnum([key: number]: string, [key: string]: any, string, number |
+      undefined, number | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function serializeEnum(enumType: [key: number]: string, target: [key:
+        string]: any, propertyName: string, propertyValue: number | undefined,
+        defaultValue?: number | undefined)
+      parameters:
+        - id: enumType
+          type:
+            - '[key: number]: string'
+          description: ''
+        - id: target
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: propertyValue
+          type:
+            - number | undefined
+          description: ''
+        - id: defaultValue
+          type:
+            - number | undefined
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.serializeNumber
+    name: >-
+      serializeNumber([key: string]: any, string, number | undefined, number |
+      undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function serializeNumber(target: [key: string]: any, propertyName:
+        string, propertyValue: number | undefined, defaultValue?: number |
+        undefined)
+      parameters:
+        - id: target
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: propertyValue
+          type:
+            - number | undefined
+          description: ''
+        - id: defaultValue
+          type:
+            - number | undefined
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.serializeValue
+    name: 'serializeValue([key: string]: any, string, any, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function serializeValue(target: [key: string]: any, propertyName:
+        string, propertyValue: any, defaultValue?: any)
+      parameters:
+        - id: target
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: propertyValue
+          type:
+            - any
+          description: ''
+        - id: defaultValue
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.setActionRegistry
+    name: setActionRegistry(CardObjectRegistry<Action> | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setActionRegistry(value: CardObjectRegistry<Action> |
+        undefined)
+      parameters:
+        - id: value
+          type:
+            - adaptivecards.CardObjectRegistry<adaptivecards.Action> | undefined
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.setElementRegistry
+    name: setElementRegistry(CardObjectRegistry<CardElement> | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setElementRegistry(value: CardObjectRegistry<CardElement> |
+        undefined)
+      parameters:
+        - id: value
+          type:
+            - >-
+              adaptivecards.CardObjectRegistry<adaptivecards.CardElement> |
+              undefined
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializationContext.toJSONOriginalParam
+    name: toJSONOriginalParam
+    fullName: toJSONOriginalParam
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'toJSONOriginalParam: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.CardObjectRegistry<adaptivecards.Action>
+    name: Action>
+    spec.typeScript:
+      - name: CardObjectRegistry
+        fullName: CardObjectRegistry
+        uid: adaptivecards.CardObjectRegistry
+      - name: <
+        fullName: <
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.CardObjectRegistry<adaptivecards.CardElement>
+    name: CardElement>
+    spec.typeScript:
+      - name: CardObjectRegistry
+        fullName: CardObjectRegistry
+        uid: adaptivecards.CardObjectRegistry
+      - name: <
+        fullName: <
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.IValidationEvent
+    name: IValidationEvent
+    spec.typeScript:
+      - name: IValidationEvent
+        fullName: IValidationEvent
+        uid: adaptivecards.IValidationEvent
+  - uid: adaptivecards.SerializableObject | undefined
+    name: SerializableObject | undefined
+    spec.typeScript:
+      - name: SerializableObject
+        fullName: SerializableObject
+        uid: adaptivecards.SerializableObject
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.ValidationPhase
+    name: ValidationPhase
+    spec.typeScript:
+      - name: ValidationPhase
+        fullName: ValidationPhase
+        uid: adaptivecards.ValidationPhase
+  - uid: adaptivecards.ValidationEvent
+    name: ValidationEvent
+    spec.typeScript:
+      - name: ValidationEvent
+        fullName: ValidationEvent
+        uid: adaptivecards.ValidationEvent
+  - uid: adaptivecards.CardElement
+    name: CardElement
+    spec.typeScript:
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+  - uid: adaptivecards.Action | undefined
+    name: Action | undefined
+    spec.typeScript:
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.CardElement | undefined
+    name: CardElement | undefined
+    spec.typeScript:
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.CardObjectRegistry<adaptivecards.Action> | undefined
+    name: Action> | undefined
+    spec.typeScript:
+      - name: CardObjectRegistry
+        fullName: CardObjectRegistry
+        uid: adaptivecards.CardObjectRegistry
+      - name: <
+        fullName: <
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+      - name: '> | undefined'
+        fullName: '> | undefined'
+  - uid: adaptivecards.CardObjectRegistry<adaptivecards.CardElement> | undefined
+    name: CardElement> | undefined
+    spec.typeScript:
+      - name: CardObjectRegistry
+        fullName: CardObjectRegistry
+        uid: adaptivecards.CardObjectRegistry
+      - name: <
+        fullName: <
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+      - name: '> | undefined'
+        fullName: '> | undefined'

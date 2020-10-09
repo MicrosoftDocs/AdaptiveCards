@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.RadioButton
+    name: RadioButton
+    fullName: RadioButton
+    children:
+      - adaptivecards-controls.RadioButton.attach
+      - adaptivecards-controls.RadioButton.isChecked
+      - adaptivecards-controls.RadioButton.label
+      - adaptivecards-controls.RadioButton.onChange
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-controls.InputControl
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.RadioButton.attach
+    name: attach(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.RadioButton.isChecked
+    name: isChecked
+    fullName: isChecked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isChecked
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.RadioButton.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.RadioButton.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onChange: (sender: RadioButton) => void'
+      return:
+        type:
+          - '(sender: RadioButton) => void'
+        description: ''
+    package: adaptivecards-controls
+references:
+  - uid: adaptivecards-controls.InputControl
+    name: InputControl
+    spec.typeScript:
+      - name: InputControl
+        fullName: InputControl
+        uid: adaptivecards-controls.InputControl

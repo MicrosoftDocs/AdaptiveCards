@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ActionPeerType
+    name: ActionPeerType
+    fullName: ActionPeerType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type ActionPeerType = {  }'
+    package: adaptivecards-designer

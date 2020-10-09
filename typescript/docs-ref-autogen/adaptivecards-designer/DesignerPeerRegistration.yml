@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DesignerPeerRegistration
+    name: DesignerPeerRegistration
+    fullName: DesignerPeerRegistration<TSource>
+    children:
+      - adaptivecards-designer.DesignerPeerRegistration.category
+      - adaptivecards-designer.DesignerPeerRegistration.constructor
+      - adaptivecards-designer.DesignerPeerRegistration.iconClass
+      - adaptivecards-designer.DesignerPeerRegistration.peerType
+      - adaptivecards-designer.DesignerPeerRegistration.sourceType
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.DesignerPeerRegistrationBase
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistration.category
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'category: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistration.constructor
+    name: 'DesignerPeerRegistration(TSource, TPeer, string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new DesignerPeerRegistration(sourceType: TSource, peerType: TPeer,
+        category: string, iconClass?: string)
+      parameters:
+        - id: sourceType
+          type:
+            - TSource
+          description: ''
+        - id: peerType
+          type:
+            - TPeer
+          description: ''
+        - id: category
+          type:
+            - string
+          description: ''
+        - id: iconClass
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistration.iconClass
+    name: iconClass
+    fullName: iconClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'iconClass: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistration.peerType
+    name: peerType
+    fullName: peerType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'peerType: TPeer'
+      return:
+        type:
+          - TPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistration.sourceType
+    name: sourceType
+    fullName: sourceType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sourceType: TSource'
+      return:
+        type:
+          - TSource
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+    name: DesignerPeerRegistrationBase
+    spec.typeScript:
+      - name: DesignerPeerRegistrationBase
+        fullName: DesignerPeerRegistrationBase
+        uid: adaptivecards-designer.DesignerPeerRegistrationBase

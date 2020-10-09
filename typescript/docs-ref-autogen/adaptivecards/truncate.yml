@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.truncate
+    name: 'truncate(HTMLElement, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function truncate(element: HTMLElement, maxHeight: number, lineHeight?:
+        number)
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+        - id: maxHeight
+          type:
+            - number
+          description: ''
+        - id: lineHeight
+          type:
+            - number
+          description: ''
+          optional: true
+    package: adaptivecards

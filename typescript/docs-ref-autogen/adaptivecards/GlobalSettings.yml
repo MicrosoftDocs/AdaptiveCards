@@ -1,0 +1,171 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.GlobalSettings
+    name: GlobalSettings
+    fullName: GlobalSettings
+    children:
+      - adaptivecards.GlobalSettings.allowMarkForTextHighlighting
+      - adaptivecards.GlobalSettings.allowPreProcessingPropertyValues
+      - adaptivecards.GlobalSettings.alwaysBleedSeparators
+      - adaptivecards.GlobalSettings.displayInputValidationErrors
+      - adaptivecards.GlobalSettings.enableFallback
+      - adaptivecards.GlobalSettings.enableFullJsonRoundTrip
+      - adaptivecards.GlobalSettings.setTabIndexAtCardRoot
+      - adaptivecards.GlobalSettings.useAdvancedCardBottomTruncation
+      - adaptivecards.GlobalSettings.useAdvancedTextBlockTruncation
+      - adaptivecards.GlobalSettings.useMarkdownInRadioButtonAndCheckbox
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.allowMarkForTextHighlighting
+    name: allowMarkForTextHighlighting
+    fullName: allowMarkForTextHighlighting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static allowMarkForTextHighlighting: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.allowPreProcessingPropertyValues
+    name: allowPreProcessingPropertyValues
+    fullName: allowPreProcessingPropertyValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static allowPreProcessingPropertyValues: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.alwaysBleedSeparators
+    name: alwaysBleedSeparators
+    fullName: alwaysBleedSeparators
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static alwaysBleedSeparators: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.displayInputValidationErrors
+    name: displayInputValidationErrors
+    fullName: displayInputValidationErrors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static displayInputValidationErrors: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.enableFallback
+    name: enableFallback
+    fullName: enableFallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static enableFallback: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.enableFullJsonRoundTrip
+    name: enableFullJsonRoundTrip
+    fullName: enableFullJsonRoundTrip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static enableFullJsonRoundTrip: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.setTabIndexAtCardRoot
+    name: setTabIndexAtCardRoot
+    fullName: setTabIndexAtCardRoot
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static setTabIndexAtCardRoot: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.useAdvancedCardBottomTruncation
+    name: useAdvancedCardBottomTruncation
+    fullName: useAdvancedCardBottomTruncation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static useAdvancedCardBottomTruncation: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.useAdvancedTextBlockTruncation
+    name: useAdvancedTextBlockTruncation
+    fullName: useAdvancedTextBlockTruncation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static useAdvancedTextBlockTruncation: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.GlobalSettings.useMarkdownInRadioButtonAndCheckbox
+    name: useMarkdownInRadioButtonAndCheckbox
+    fullName: useMarkdownInRadioButtonAndCheckbox
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static useMarkdownInRadioButtonAndCheckbox: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards

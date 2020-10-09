@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DesignerPeerInplaceEditor
+    name: DesignerPeerInplaceEditor
+    fullName: DesignerPeerInplaceEditor
+    children:
+      - adaptivecards-designer.DesignerPeerInplaceEditor.applyChanges
+      - adaptivecards-designer.DesignerPeerInplaceEditor.initialize
+      - adaptivecards-designer.DesignerPeerInplaceEditor.onClose
+      - adaptivecards-designer.DesignerPeerInplaceEditor.render
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerInplaceEditor.applyChanges
+    name: applyChanges()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function applyChanges()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerInplaceEditor.initialize
+    name: initialize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initialize()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerInplaceEditor.onClose
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClose: (applyChanges: boolean) => void'
+      return:
+        type:
+          - '(applyChanges: boolean) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerInplaceEditor.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer

@@ -1,0 +1,298 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.SkypeContainer
+    name: SkypeContainer
+    fullName: SkypeContainer
+    children:
+      - adaptivecards-designer.SkypeContainer.actionsRegistry
+      - adaptivecards-designer.SkypeContainer.anchorClicked
+      - adaptivecards-designer.SkypeContainer.cardHost
+      - adaptivecards-designer.SkypeContainer.createSerializationContext
+      - adaptivecards-designer.SkypeContainer.elementsRegistry
+      - adaptivecards-designer.SkypeContainer.getBackgroundColor
+      - adaptivecards-designer.SkypeContainer.getHostConfig
+      - adaptivecards-designer.SkypeContainer.initialize
+      - adaptivecards-designer.SkypeContainer.isFixedHeight
+      - adaptivecards-designer.SkypeContainer.name
+      - adaptivecards-designer.SkypeContainer.parseElement
+      - adaptivecards-designer.SkypeContainer.renderTo
+      - adaptivecards-designer.SkypeContainer.constructor
+      - adaptivecards-designer.SkypeContainer.styleSheet
+      - adaptivecards-designer.SkypeContainer.supportsActionBar
+      - adaptivecards-designer.SkypeContainer.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.HostContainer
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.actionsRegistry
+    name: actionsRegistry
+    fullName: actionsRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<Action> actionsRegistry
+      return:
+        type:
+          - CardObjectRegistry<Action>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.anchorClicked
+    name: 'anchorClicked(CardElement, HTMLAnchorElement)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function anchorClicked(element: CardElement, anchor: HTMLAnchorElement)'
+      parameters:
+        - id: element
+          type:
+            - CardElement
+          description: ''
+        - id: anchor
+          type:
+            - HTMLAnchorElement
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.cardHost
+    name: cardHost
+    fullName: cardHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement cardHost
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.createSerializationContext
+    name: createSerializationContext(Version)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createSerializationContext(targetVersion: Version)'
+      parameters:
+        - id: targetVersion
+          type:
+            - Version
+          description: ''
+      return:
+        type:
+          - SerializationContext
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.elementsRegistry
+    name: elementsRegistry
+    fullName: elementsRegistry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardObjectRegistry<CardElement> elementsRegistry
+      return:
+        type:
+          - CardObjectRegistry<CardElement>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.getBackgroundColor
+    name: getBackgroundColor()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getBackgroundColor()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.getHostConfig
+    name: getHostConfig()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHostConfig()
+      parameters: []
+      return:
+        type:
+          - HostConfig
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.initialize
+    name: initialize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initialize()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.isFixedHeight
+    name: isFixedHeight
+    fullName: isFixedHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isFixedHeight
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.parseElement
+    name: 'parseElement(CardElement, any, SerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parseElement(element: CardElement, source: any, context:
+        SerializationContext)
+      parameters:
+        - id: element
+          type:
+            - CardElement
+          description: ''
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: context
+          type:
+            - SerializationContext
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.renderTo
+    name: renderTo(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function renderTo(hostElement: HTMLElement)'
+      parameters:
+        - id: hostElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.constructor
+    name: 'SkypeContainer(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SkypeContainer(name: string, styleSheet: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: styleSheet
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.styleSheet
+    name: styleSheet
+    fullName: styleSheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'styleSheet: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.supportsActionBar
+    name: supportsActionBar
+    fullName: supportsActionBar
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'supportsActionBar: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SkypeContainer.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Version targetVersion
+      return:
+        type:
+          - Version
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.HostContainer
+    name: HostContainer
+    spec.typeScript:
+      - name: HostContainer
+        fullName: HostContainer
+        uid: adaptivecards-designer.HostContainer

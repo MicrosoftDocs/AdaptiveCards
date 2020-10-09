@@ -1,0 +1,197 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IImageSet
+    name: IImageSet
+    fullName: IImageSet
+    children:
+      - adaptivecards.IImageSet.height
+      - adaptivecards.IImageSet.horizontalAlignment
+      - adaptivecards.IImageSet.id
+      - adaptivecards.IImageSet.images
+      - adaptivecards.IImageSet.separator
+      - adaptivecards.IImageSet.size
+      - adaptivecards.IImageSet.spacing
+      - adaptivecards.IImageSet.speak
+      - adaptivecards.IImageSet.type
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: adaptivecards.ICardElement
+    package: adaptivecards
+  - uid: adaptivecards.IImageSet.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        type:
+          - '"auto" | "stretch"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImageSet.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        type:
+          - adaptivecards.HorizontalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImageSet.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImageSet.images
+    name: images
+    fullName: images
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'images: IImage[]'
+      return:
+        type:
+          - 'adaptivecards.IImage[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImageSet.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImageSet.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'size?: Size'
+      return:
+        type:
+          - adaptivecards.Size
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImageSet.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImageSet.speak
+    name: speak
+    fullName: speak
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'speak?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IImageSet.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: "ImageSet"'
+      return:
+        type:
+          - '"ImageSet"'
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ICardElement
+    name: ICardElement
+    spec.typeScript:
+      - name: ICardElement
+        fullName: ICardElement
+        uid: adaptivecards.ICardElement
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    spec.typeScript:
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+  - uid: 'adaptivecards.IImage[]'
+    name: 'IImage[]'
+    spec.typeScript:
+      - name: IImage
+        fullName: IImage
+        uid: adaptivecards.IImage
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.Size
+    name: Size
+    spec.typeScript:
+      - name: Size
+        fullName: Size
+        uid: adaptivecards.Size
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing

@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.MediaConfig
+    name: MediaConfig
+    fullName: MediaConfig
+    children:
+      - adaptivecards.MediaConfig.allowInlinePlayback
+      - adaptivecards.MediaConfig.defaultPoster
+      - adaptivecards.MediaConfig.constructor
+      - adaptivecards.MediaConfig.toJSON
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.MediaConfig.allowInlinePlayback
+    name: allowInlinePlayback
+    fullName: allowInlinePlayback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'allowInlinePlayback: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.MediaConfig.defaultPoster
+    name: defaultPoster
+    fullName: defaultPoster
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultPoster?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.MediaConfig.constructor
+    name: MediaConfig(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new MediaConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.MediaConfig.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards

@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IBooleanData
+    name: IBooleanData
+    fullName: IBooleanData
+    children:
+      - adaptivecards-designer.IBooleanData.sampleValue
+      - adaptivecards-designer.IBooleanData.valueType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IBooleanData.sampleValue
+    name: sampleValue
+    fullName: sampleValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sampleValue?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IBooleanData.valueType
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valueType: "Boolean"'
+      return:
+        type:
+          - '"Boolean"'
+        description: ''
+    package: adaptivecards-designer

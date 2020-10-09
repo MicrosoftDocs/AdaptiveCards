@@ -1,0 +1,163 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ColorSetDefinition
+    name: ColorSetDefinition
+    fullName: ColorSetDefinition
+    children:
+      - adaptivecards.ColorSetDefinition.accent
+      - adaptivecards.ColorSetDefinition.attention
+      - adaptivecards.ColorSetDefinition.constructor
+      - adaptivecards.ColorSetDefinition.dark
+      - adaptivecards.ColorSetDefinition.default
+      - adaptivecards.ColorSetDefinition.good
+      - adaptivecards.ColorSetDefinition.light
+      - adaptivecards.ColorSetDefinition.parse
+      - adaptivecards.ColorSetDefinition.warning
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorSetDefinition.accent
+    name: accent
+    fullName: accent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'accent: TextColorDefinition'
+      return:
+        type:
+          - adaptivecards.TextColorDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorSetDefinition.attention
+    name: attention
+    fullName: attention
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'attention: TextColorDefinition'
+      return:
+        type:
+          - adaptivecards.TextColorDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorSetDefinition.constructor
+    name: ColorSetDefinition(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ColorSetDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ColorSetDefinition.dark
+    name: dark
+    fullName: dark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dark: TextColorDefinition'
+      return:
+        type:
+          - adaptivecards.TextColorDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorSetDefinition.default
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'default: TextColorDefinition'
+      return:
+        type:
+          - adaptivecards.TextColorDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorSetDefinition.good
+    name: good
+    fullName: good
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'good: TextColorDefinition'
+      return:
+        type:
+          - adaptivecards.TextColorDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorSetDefinition.light
+    name: light
+    fullName: light
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'light: TextColorDefinition'
+      return:
+        type:
+          - adaptivecards.TextColorDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorSetDefinition.parse
+    name: parse(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(obj: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorSetDefinition.warning
+    name: warning
+    fullName: warning
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'warning: TextColorDefinition'
+      return:
+        type:
+          - adaptivecards.TextColorDefinition
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.TextColorDefinition
+    name: TextColorDefinition
+    spec.typeScript:
+      - name: TextColorDefinition
+        fullName: TextColorDefinition
+        uid: adaptivecards.TextColorDefinition

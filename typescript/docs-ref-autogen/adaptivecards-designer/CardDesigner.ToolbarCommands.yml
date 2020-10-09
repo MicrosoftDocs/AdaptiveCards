@@ -1,0 +1,206 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands
+    name: ToolbarCommands
+    fullName: ToolbarCommands
+    children:
+      - adaptivecards-designer.CardDesigner.ToolbarCommands.CopyJSON
+      - adaptivecards-designer.CardDesigner.ToolbarCommands.Help
+      - adaptivecards-designer.CardDesigner.ToolbarCommands.HostAppPicker
+      - adaptivecards-designer.CardDesigner.ToolbarCommands.NewCard
+      - adaptivecards-designer.CardDesigner.ToolbarCommands.Redo
+      - adaptivecards-designer.CardDesigner.ToolbarCommands.TogglePreview
+      - adaptivecards-designer.CardDesigner.ToolbarCommands.Undo
+      - adaptivecards-designer.CardDesigner.ToolbarCommands.VersionPicker
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands.CopyJSON
+    name: CopyJSON
+    fullName: CopyJSON
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static CopyJSON: "__copyJsonButton" = "__copyJsonButton"'
+      return:
+        type:
+          - '"__copyJsonButton"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands.Help
+    name: Help
+    fullName: Help
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Help: "__helpButton" = "__helpButton"'
+      return:
+        type:
+          - '"__helpButton"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands.HostAppPicker
+    name: HostAppPicker
+    fullName: HostAppPicker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static HostAppPicker: "__hostAppPicker" = "__hostAppPicker"'
+      return:
+        type:
+          - '"__hostAppPicker"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands.NewCard
+    name: NewCard
+    fullName: NewCard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static NewCard: "__newCardButton" = "__newCardButton"'
+      return:
+        type:
+          - '"__newCardButton"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands.Redo
+    name: Redo
+    fullName: Redo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Redo: "__redoButton" = "__redoButton"'
+      return:
+        type:
+          - '"__redoButton"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands.TogglePreview
+    name: TogglePreview
+    fullName: TogglePreview
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static TogglePreview: "__togglePreviewButton" = "__togglePreviewButton"'
+      return:
+        type:
+          - '"__togglePreviewButton"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands.Undo
+    name: Undo
+    fullName: Undo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Undo: "__undoButton" = "__undoButton"'
+      return:
+        type:
+          - '"__undoButton"'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands.VersionPicker
+    name: VersionPicker
+    fullName: VersionPicker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static VersionPicker: "__versionPicker" = "__versionPicker"'
+      return:
+        type:
+          - '"__versionPicker"'
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+    spec.typeScript:
+      - name: DesignContext
+        fullName: DesignContext
+        uid: adaptivecards-designer.DesignContext
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands
+    name: ToolbarCommands
+    spec.typeScript:
+      - name: ToolbarCommands
+        fullName: ToolbarCommands
+        uid: adaptivecards-designer.CardDesigner.ToolbarCommands
+  - uid: Array<adaptivecards-designer.HostContainer>
+    name: HostContainer>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: HostContainer
+        fullName: HostContainer
+        uid: adaptivecards-designer.HostContainer
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-designer.Toolbar
+    name: Toolbar
+    spec.typeScript:
+      - name: Toolbar
+        fullName: Toolbar
+        uid: adaptivecards-designer.Toolbar
+  - uid: adaptivecards-designer.BindingPreviewMode
+    name: BindingPreviewMode
+    spec.typeScript:
+      - name: BindingPreviewMode
+        fullName: BindingPreviewMode
+        uid: adaptivecards-designer.BindingPreviewMode
+  - uid: 'adaptivecards-designer.CustomPaletteItem[]'
+    name: 'CustomPaletteItem[]'
+    spec.typeScript:
+      - name: CustomPaletteItem
+        fullName: CustomPaletteItem
+        uid: adaptivecards-designer.CustomPaletteItem
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards-designer.FieldDefinition
+    name: FieldDefinition
+    spec.typeScript:
+      - name: FieldDefinition
+        fullName: FieldDefinition
+        uid: adaptivecards-designer.FieldDefinition
+  - uid: adaptivecards-designer.Toolbox
+    name: Toolbox
+    spec.typeScript:
+      - name: Toolbox
+        fullName: Toolbox
+        uid: adaptivecards-designer.Toolbox
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+    spec.typeScript:
+      - name: CardDesignerSurface
+        fullName: CardDesignerSurface
+        uid: adaptivecards-designer.CardDesignerSurface
+  - uid: adaptivecards-designer.HostContainer
+    name: HostContainer
+    spec.typeScript:
+      - name: HostContainer
+        fullName: HostContainer
+        uid: adaptivecards-designer.HostContainer

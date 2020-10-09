@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.PropertySheet
+    name: PropertySheet
+    fullName: PropertySheet
+    children:
+      - adaptivecards-designer.PropertySheet.add
+      - adaptivecards-designer.PropertySheet.displayCategoryNames
+      - adaptivecards-designer.PropertySheet.constructor
+      - adaptivecards-designer.PropertySheet.remove
+      - adaptivecards-designer.PropertySheet.render
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheet.add
+    name: 'add(string, PropertySheetEntry[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add(categoryName: string, entries: PropertySheetEntry[])'
+      parameters:
+        - id: categoryName
+          type:
+            - string
+          description: ''
+        - id: entries
+          type:
+            - 'adaptivecards-designer.PropertySheetEntry[]'
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheet.displayCategoryNames
+    name: displayCategoryNames
+    fullName: displayCategoryNames
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'displayCategoryNames: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheet.constructor
+    name: PropertySheet(boolean)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PropertySheet(displayCategoryNames?: boolean)'
+      parameters:
+        - id: displayCategoryNames
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheet.remove
+    name: 'remove(PropertySheetEntry[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(entries: PropertySheetEntry[])'
+      parameters:
+        - id: entries
+          type:
+            - 'adaptivecards-designer.PropertySheetEntry[]'
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheet.render
+    name: 'render(Container, PropertySheetContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(container: Container, context: PropertySheetContext)'
+      parameters:
+        - id: container
+          type:
+            - Container
+          description: ''
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+    package: adaptivecards-designer
+references:
+  - uid: 'adaptivecards-designer.PropertySheetEntry[]'
+    name: 'PropertySheetEntry[]'
+    spec.typeScript:
+      - name: PropertySheetEntry
+        fullName: PropertySheetEntry
+        uid: adaptivecards-designer.PropertySheetEntry
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.TextColor
+    name: TextColor
+    fullName: TextColor
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type TextColor = "default" | "dark" | "light" | "accent" | "good" |
+        "warning" | "attention"
+    package: adaptivecards

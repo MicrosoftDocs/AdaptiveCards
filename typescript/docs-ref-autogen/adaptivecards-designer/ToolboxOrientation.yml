@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ToolboxOrientation
+    name: ToolboxOrientation
+    fullName: ToolboxOrientation
+    children:
+      - adaptivecards-designer.ToolboxOrientation.Horizontal
+      - adaptivecards-designer.ToolboxOrientation.Vertical
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolboxOrientation.Horizontal
+    name: Horizontal
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolboxOrientation.Vertical
+    name: Vertical
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards-designer

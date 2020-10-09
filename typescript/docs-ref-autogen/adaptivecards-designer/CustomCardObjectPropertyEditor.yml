@@ -1,0 +1,189 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor
+    name: CustomCardObjectPropertyEditor
+    fullName: CustomCardObjectPropertyEditor
+    children:
+      - adaptivecards-designer.CustomCardObjectPropertyEditor.allowBinding
+      - >-
+        adaptivecards-designer.CustomCardObjectPropertyEditor.causesPropertySheetRefresh
+      - adaptivecards-designer.CustomCardObjectPropertyEditor.constructor
+      - adaptivecards-designer.CustomCardObjectPropertyEditor.isMultiline
+      - adaptivecards-designer.CustomCardObjectPropertyEditor.label
+      - adaptivecards-designer.CustomCardObjectPropertyEditor.propertyName
+      - adaptivecards-designer.CustomCardObjectPropertyEditor.render
+      - adaptivecards-designer.CustomCardObjectPropertyEditor.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.StringPropertyEditor
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor.allowBinding
+    name: allowBinding
+    fullName: allowBinding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'allowBinding: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: >-
+      adaptivecards-designer.CustomCardObjectPropertyEditor.causesPropertySheetRefresh
+    name: causesPropertySheetRefresh
+    fullName: causesPropertySheetRefresh
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'causesPropertySheetRefresh: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor.constructor
+    name: >-
+      CustomCardObjectPropertyEditor(Adaptive.TargetVersion, string, string,
+      boolean, boolean, boolean)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CustomCardObjectPropertyEditor(targetVersion:
+        Adaptive.TargetVersion, propertyName: string, label: string,
+        allowBinding?: boolean, isMultiline?: boolean,
+        causesPropertySheetRefresh?: boolean)
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: label
+          type:
+            - string
+          description: ''
+        - id: allowBinding
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: isMultiline
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: causesPropertySheetRefresh
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor.isMultiline
+    name: isMultiline
+    fullName: isMultiline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isMultiline: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor.propertyName
+    name: propertyName
+    fullName: propertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.StringPropertyEditor
+    name: StringPropertyEditor
+    spec.typeScript:
+      - name: StringPropertyEditor
+        fullName: StringPropertyEditor
+        uid: adaptivecards-designer.StringPropertyEditor
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ShowCardActionMode
+    name: ShowCardActionMode
+    fullName: ShowCardActionMode
+    children:
+      - adaptivecards.ShowCardActionMode.Inline
+      - adaptivecards.ShowCardActionMode.Popup
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ShowCardActionMode.Inline
+    name: Inline
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.ShowCardActionMode.Popup
+    name: Popup
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards

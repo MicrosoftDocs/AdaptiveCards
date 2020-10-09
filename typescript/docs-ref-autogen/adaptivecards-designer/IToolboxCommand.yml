@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IToolboxCommand
+    name: IToolboxCommand
+    fullName: IToolboxCommand
+    children:
+      - adaptivecards-designer.IToolboxCommand.execute
+      - adaptivecards-designer.IToolboxCommand.iconClass
+      - adaptivecards-designer.IToolboxCommand.title
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IToolboxCommand.execute
+    name: execute
+    fullName: execute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'execute: (sender: IToolboxCommand) => void'
+      return:
+        type:
+          - '(sender: IToolboxCommand) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IToolboxCommand.iconClass
+    name: iconClass
+    fullName: iconClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'iconClass: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IToolboxCommand.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'title: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer

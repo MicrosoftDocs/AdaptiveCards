@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ActionIconPlacement
+    name: ActionIconPlacement
+    fullName: ActionIconPlacement
+    children:
+      - adaptivecards.ActionIconPlacement.LeftOfTitle
+      - adaptivecards.ActionIconPlacement.AboveTitle
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionIconPlacement.LeftOfTitle
+    name: LeftOfTitle
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.ActionIconPlacement.AboveTitle
+    name: AboveTitle
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.CardElementType
+    name: CardElementType
+    fullName: CardElementType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type CardElementType = {  }'
+    package: adaptivecards-designer

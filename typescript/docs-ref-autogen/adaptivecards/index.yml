@@ -1,0 +1,541 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards
+    name: adaptivecards
+    summary: ''
+    children:
+      - adaptivecards.ActionButtonState
+      - adaptivecards.TypeErrorType
+      - adaptivecards.Action
+      - adaptivecards.ActionProperty
+      - adaptivecards.ActionSet
+      - adaptivecards.AdaptiveCard
+      - adaptivecards.BackgroundImage
+      - adaptivecards.BaseTextBlock
+      - adaptivecards.CardElement
+      - adaptivecards.CardElementContainer
+      - adaptivecards.Choice
+      - adaptivecards.ChoiceSetInput
+      - adaptivecards.Column
+      - adaptivecards.ColumnSet
+      - adaptivecards.Container
+      - adaptivecards.ContainerWithActions
+      - adaptivecards.DateInput
+      - adaptivecards.Fact
+      - adaptivecards.FactSet
+      - adaptivecards.GlobalRegistry
+      - adaptivecards.HttpAction
+      - adaptivecards.HttpHeader
+      - adaptivecards.Image
+      - adaptivecards.ImageDimensionProperty
+      - adaptivecards.ImageSet
+      - adaptivecards.Input
+      - adaptivecards.Media
+      - adaptivecards.MediaSource
+      - adaptivecards.NumberInput
+      - adaptivecards.OpenUrlAction
+      - adaptivecards.RichTextBlock
+      - adaptivecards.SerializationContext
+      - adaptivecards.ShowCardAction
+      - adaptivecards.StringWithSubstitutionProperty
+      - adaptivecards.StylableCardElementContainer
+      - adaptivecards.SubmitAction
+      - adaptivecards.TextBlock
+      - adaptivecards.TextInput
+      - adaptivecards.TextRun
+      - adaptivecards.TimeInput
+      - adaptivecards.TimeProperty
+      - adaptivecards.ToggleInput
+      - adaptivecards.ToggleVisibilityAction
+      - adaptivecards.IMarkdownProcessingResult
+      - adaptivecards.ActionType
+      - adaptivecards.CardElementHeight
+      - adaptivecards.ColumnWidth
+      - adaptivecards.CardObject
+      - adaptivecards.ValidationResults
+      - adaptivecards.CardObjectType
+      - adaptivecards.ActionAlignment
+      - adaptivecards.ActionIconPlacement
+      - adaptivecards.ContainerFitStatus
+      - adaptivecards.FillMode
+      - adaptivecards.FontType
+      - adaptivecards.HorizontalAlignment
+      - adaptivecards.ImageSize
+      - adaptivecards.ImageStyle
+      - adaptivecards.InputTextStyle
+      - adaptivecards.Orientation
+      - adaptivecards.ShowCardActionMode
+      - adaptivecards.Size
+      - adaptivecards.SizeUnit
+      - adaptivecards.Spacing
+      - adaptivecards.TextColor
+      - adaptivecards.TextSize
+      - adaptivecards.TextWeight
+      - adaptivecards.ValidationEvent
+      - adaptivecards.ValidationPhase
+      - adaptivecards.VerticalAlignment
+      - adaptivecards.ActionStyle
+      - adaptivecards.ContainerStyle
+      - adaptivecards.HostCapabilities
+      - adaptivecards.ActionsConfig
+      - adaptivecards.AdaptiveCardConfig
+      - adaptivecards.BaseTextDefinition
+      - adaptivecards.ColorDefinition
+      - adaptivecards.ColorSetDefinition
+      - adaptivecards.ContainerStyleDefinition
+      - adaptivecards.ContainerStyleSet
+      - adaptivecards.FactSetConfig
+      - adaptivecards.FactTextDefinition
+      - adaptivecards.FactTitleDefinition
+      - adaptivecards.FontTypeDefinition
+      - adaptivecards.FontTypeSet
+      - adaptivecards.HostConfig
+      - adaptivecards.ImageSetConfig
+      - adaptivecards.InputConfig
+      - adaptivecards.InputLabelConfig
+      - adaptivecards.MediaConfig
+      - adaptivecards.RequiredInputLabelTextDefinition
+      - adaptivecards.ShowCardActionConfig
+      - adaptivecards.TextColorDefinition
+      - adaptivecards.IFontSizeDefinitions
+      - adaptivecards.IFontWeightDefinitions
+      - adaptivecards.ILineHeightDefinitions
+      - adaptivecards.CardObjectRegistry
+      - adaptivecards.ITypeRegistration
+      - adaptivecards.IAction
+      - adaptivecards.IAdaptiveCard
+      - adaptivecards.IBackgroundImage
+      - adaptivecards.ICardElement
+      - adaptivecards.IChoice
+      - adaptivecards.IChoiceSetInput
+      - adaptivecards.IColumn
+      - adaptivecards.IColumnSet
+      - adaptivecards.IContainer
+      - adaptivecards.IDateInput
+      - adaptivecards.IFact
+      - adaptivecards.IFactSet
+      - adaptivecards.IImage
+      - adaptivecards.IImageSet
+      - adaptivecards.IInput
+      - adaptivecards.INumberInput
+      - adaptivecards.IOpenUrlAction
+      - adaptivecards.IShowCardAction
+      - adaptivecards.ISubmitAction
+      - adaptivecards.ITextBlock
+      - adaptivecards.ITextInput
+      - adaptivecards.ITimeInput
+      - adaptivecards.IToggleInput
+      - adaptivecards.IVersion
+      - adaptivecards.ContainerStyle
+      - adaptivecards.HorizontalAlignment
+      - adaptivecards.ImageStyle
+      - adaptivecards.Size
+      - adaptivecards.Spacing
+      - adaptivecards.TextColor
+      - adaptivecards.TextSize
+      - adaptivecards.TextWeight
+      - adaptivecards.VerticalAlignment
+      - adaptivecards.BaseSerializationContext
+      - adaptivecards.BoolProperty
+      - adaptivecards.CustomProperty
+      - adaptivecards.EnumProperty
+      - adaptivecards.NumProperty
+      - adaptivecards.PixelSizeProperty
+      - adaptivecards.PropertyDefinition
+      - adaptivecards.SerializableObject
+      - adaptivecards.SerializableObjectCollectionProperty
+      - adaptivecards.SerializableObjectProperty
+      - adaptivecards.SerializableObjectSchema
+      - adaptivecards.StringProperty
+      - adaptivecards.ValueSetProperty
+      - adaptivecards.Version
+      - adaptivecards.Versions
+      - adaptivecards.IValidationEvent
+      - adaptivecards.IVersionedValue
+      - adaptivecards.PropertyBag
+      - adaptivecards.SerializableObjectType
+      - adaptivecards.TargetVersion
+      - adaptivecards.isVersionLessOrEqual
+      - adaptivecards.property
+      - adaptivecards.GlobalSettings
+      - adaptivecards.PaddingDefinition
+      - adaptivecards.SizeAndUnit
+      - adaptivecards.SpacingDefinition
+      - adaptivecards.StringWithSubstitutions
+      - adaptivecards.UUID
+      - adaptivecards.IInput
+      - adaptivecards.IResourceInformation
+      - adaptivecards.ISeparationDefinition
+      - adaptivecards.Dictionary
+      - adaptivecards.Strings
+      - adaptivecards.formatText
+      - adaptivecards.appendChild
+      - adaptivecards.generateUniqueId
+      - adaptivecards.getEnumValueByName
+      - adaptivecards.getFitStatus
+      - adaptivecards.isMobileOS
+      - adaptivecards.parseBool
+      - adaptivecards.parseEnum
+      - adaptivecards.parseNumber
+      - adaptivecards.parseString
+      - adaptivecards.renderSeparation
+      - adaptivecards.stringToCssColor
+      - adaptivecards.truncate
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: adaptivecards.ActionButtonState
+    name: ActionButtonState
+  - uid: adaptivecards.TypeErrorType
+    name: TypeErrorType
+  - uid: adaptivecards.Action
+    name: Action
+  - uid: adaptivecards.ActionProperty
+    name: ActionProperty
+  - uid: adaptivecards.ActionSet
+    name: ActionSet
+  - uid: adaptivecards.AdaptiveCard
+    name: AdaptiveCard
+  - uid: adaptivecards.BackgroundImage
+    name: BackgroundImage
+  - uid: adaptivecards.BaseTextBlock
+    name: BaseTextBlock
+  - uid: adaptivecards.CardElement
+    name: CardElement
+  - uid: adaptivecards.CardElementContainer
+    name: CardElementContainer
+  - uid: adaptivecards.Choice
+    name: Choice
+  - uid: adaptivecards.ChoiceSetInput
+    name: ChoiceSetInput
+  - uid: adaptivecards.Column
+    name: Column
+  - uid: adaptivecards.ColumnSet
+    name: ColumnSet
+  - uid: adaptivecards.Container
+    name: Container
+  - uid: adaptivecards.ContainerWithActions
+    name: ContainerWithActions
+  - uid: adaptivecards.DateInput
+    name: DateInput
+  - uid: adaptivecards.Fact
+    name: Fact
+  - uid: adaptivecards.FactSet
+    name: FactSet
+  - uid: adaptivecards.GlobalRegistry
+    name: GlobalRegistry
+  - uid: adaptivecards.HttpAction
+    name: HttpAction
+  - uid: adaptivecards.HttpHeader
+    name: HttpHeader
+  - uid: adaptivecards.Image
+    name: Image
+  - uid: adaptivecards.ImageDimensionProperty
+    name: ImageDimensionProperty
+  - uid: adaptivecards.ImageSet
+    name: ImageSet
+  - uid: adaptivecards.Input
+    name: Input
+  - uid: adaptivecards.Media
+    name: Media
+  - uid: adaptivecards.MediaSource
+    name: MediaSource
+  - uid: adaptivecards.NumberInput
+    name: NumberInput
+  - uid: adaptivecards.OpenUrlAction
+    name: OpenUrlAction
+  - uid: adaptivecards.RichTextBlock
+    name: RichTextBlock
+  - uid: adaptivecards.SerializationContext
+    name: SerializationContext
+  - uid: adaptivecards.ShowCardAction
+    name: ShowCardAction
+  - uid: adaptivecards.StringWithSubstitutionProperty
+    name: StringWithSubstitutionProperty
+  - uid: adaptivecards.StylableCardElementContainer
+    name: StylableCardElementContainer
+  - uid: adaptivecards.SubmitAction
+    name: SubmitAction
+  - uid: adaptivecards.TextBlock
+    name: TextBlock
+  - uid: adaptivecards.TextInput
+    name: TextInput
+  - uid: adaptivecards.TextRun
+    name: TextRun
+  - uid: adaptivecards.TimeInput
+    name: TimeInput
+  - uid: adaptivecards.TimeProperty
+    name: TimeProperty
+  - uid: adaptivecards.ToggleInput
+    name: ToggleInput
+  - uid: adaptivecards.ToggleVisibilityAction
+    name: ToggleVisibilityAction
+  - uid: adaptivecards.IMarkdownProcessingResult
+    name: IMarkdownProcessingResult
+  - uid: adaptivecards.ActionType
+    name: ActionType
+  - uid: adaptivecards.CardElementHeight
+    name: CardElementHeight
+  - uid: adaptivecards.ColumnWidth
+    name: ColumnWidth
+  - uid: adaptivecards.CardObject
+    name: CardObject
+  - uid: adaptivecards.ValidationResults
+    name: ValidationResults
+  - uid: adaptivecards.CardObjectType
+    name: CardObjectType
+  - uid: adaptivecards.ActionAlignment
+    name: ActionAlignment
+  - uid: adaptivecards.ActionIconPlacement
+    name: ActionIconPlacement
+  - uid: adaptivecards.ContainerFitStatus
+    name: ContainerFitStatus
+  - uid: adaptivecards.FillMode
+    name: FillMode
+  - uid: adaptivecards.FontType
+    name: FontType
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+  - uid: adaptivecards.ImageSize
+    name: ImageSize
+  - uid: adaptivecards.ImageStyle
+    name: ImageStyle
+  - uid: adaptivecards.InputTextStyle
+    name: InputTextStyle
+  - uid: adaptivecards.Orientation
+    name: Orientation
+  - uid: adaptivecards.ShowCardActionMode
+    name: ShowCardActionMode
+  - uid: adaptivecards.Size
+    name: Size
+  - uid: adaptivecards.SizeUnit
+    name: SizeUnit
+  - uid: adaptivecards.Spacing
+    name: Spacing
+  - uid: adaptivecards.TextColor
+    name: TextColor
+  - uid: adaptivecards.TextSize
+    name: TextSize
+  - uid: adaptivecards.TextWeight
+    name: TextWeight
+  - uid: adaptivecards.ValidationEvent
+    name: ValidationEvent
+  - uid: adaptivecards.ValidationPhase
+    name: ValidationPhase
+  - uid: adaptivecards.VerticalAlignment
+    name: VerticalAlignment
+  - uid: adaptivecards.ActionStyle
+    name: ActionStyle
+  - uid: adaptivecards.ContainerStyle
+    name: ContainerStyle
+  - uid: adaptivecards.HostCapabilities
+    name: HostCapabilities
+  - uid: adaptivecards.ActionsConfig
+    name: ActionsConfig
+  - uid: adaptivecards.AdaptiveCardConfig
+    name: AdaptiveCardConfig
+  - uid: adaptivecards.BaseTextDefinition
+    name: BaseTextDefinition
+  - uid: adaptivecards.ColorDefinition
+    name: ColorDefinition
+  - uid: adaptivecards.ColorSetDefinition
+    name: ColorSetDefinition
+  - uid: adaptivecards.ContainerStyleDefinition
+    name: ContainerStyleDefinition
+  - uid: adaptivecards.ContainerStyleSet
+    name: ContainerStyleSet
+  - uid: adaptivecards.FactSetConfig
+    name: FactSetConfig
+  - uid: adaptivecards.FactTextDefinition
+    name: FactTextDefinition
+  - uid: adaptivecards.FactTitleDefinition
+    name: FactTitleDefinition
+  - uid: adaptivecards.FontTypeDefinition
+    name: FontTypeDefinition
+  - uid: adaptivecards.FontTypeSet
+    name: FontTypeSet
+  - uid: adaptivecards.HostConfig
+    name: HostConfig
+  - uid: adaptivecards.ImageSetConfig
+    name: ImageSetConfig
+  - uid: adaptivecards.InputConfig
+    name: InputConfig
+  - uid: adaptivecards.InputLabelConfig
+    name: InputLabelConfig
+  - uid: adaptivecards.MediaConfig
+    name: MediaConfig
+  - uid: adaptivecards.RequiredInputLabelTextDefinition
+    name: RequiredInputLabelTextDefinition
+  - uid: adaptivecards.ShowCardActionConfig
+    name: ShowCardActionConfig
+  - uid: adaptivecards.TextColorDefinition
+    name: TextColorDefinition
+  - uid: adaptivecards.IFontSizeDefinitions
+    name: IFontSizeDefinitions
+  - uid: adaptivecards.IFontWeightDefinitions
+    name: IFontWeightDefinitions
+  - uid: adaptivecards.ILineHeightDefinitions
+    name: ILineHeightDefinitions
+  - uid: adaptivecards.CardObjectRegistry
+    name: CardObjectRegistry
+  - uid: adaptivecards.ITypeRegistration
+    name: ITypeRegistration
+  - uid: adaptivecards.IAction
+    name: IAction
+  - uid: adaptivecards.IAdaptiveCard
+    name: IAdaptiveCard
+  - uid: adaptivecards.IBackgroundImage
+    name: IBackgroundImage
+  - uid: adaptivecards.ICardElement
+    name: ICardElement
+  - uid: adaptivecards.IChoice
+    name: IChoice
+  - uid: adaptivecards.IChoiceSetInput
+    name: IChoiceSetInput
+  - uid: adaptivecards.IColumn
+    name: IColumn
+  - uid: adaptivecards.IColumnSet
+    name: IColumnSet
+  - uid: adaptivecards.IContainer
+    name: IContainer
+  - uid: adaptivecards.IDateInput
+    name: IDateInput
+  - uid: adaptivecards.IFact
+    name: IFact
+  - uid: adaptivecards.IFactSet
+    name: IFactSet
+  - uid: adaptivecards.IImage
+    name: IImage
+  - uid: adaptivecards.IImageSet
+    name: IImageSet
+  - uid: adaptivecards.IInput
+    name: IInput
+  - uid: adaptivecards.INumberInput
+    name: INumberInput
+  - uid: adaptivecards.IOpenUrlAction
+    name: IOpenUrlAction
+  - uid: adaptivecards.IShowCardAction
+    name: IShowCardAction
+  - uid: adaptivecards.ISubmitAction
+    name: ISubmitAction
+  - uid: adaptivecards.ITextBlock
+    name: ITextBlock
+  - uid: adaptivecards.ITextInput
+    name: ITextInput
+  - uid: adaptivecards.ITimeInput
+    name: ITimeInput
+  - uid: adaptivecards.IToggleInput
+    name: IToggleInput
+  - uid: adaptivecards.IVersion
+    name: IVersion
+  - uid: adaptivecards.ContainerStyle
+    name: ContainerStyle
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+  - uid: adaptivecards.ImageStyle
+    name: ImageStyle
+  - uid: adaptivecards.Size
+    name: Size
+  - uid: adaptivecards.Spacing
+    name: Spacing
+  - uid: adaptivecards.TextColor
+    name: TextColor
+  - uid: adaptivecards.TextSize
+    name: TextSize
+  - uid: adaptivecards.TextWeight
+    name: TextWeight
+  - uid: adaptivecards.VerticalAlignment
+    name: VerticalAlignment
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+  - uid: adaptivecards.BoolProperty
+    name: BoolProperty
+  - uid: adaptivecards.CustomProperty
+    name: CustomProperty
+  - uid: adaptivecards.EnumProperty
+    name: EnumProperty
+  - uid: adaptivecards.NumProperty
+    name: NumProperty
+  - uid: adaptivecards.PixelSizeProperty
+    name: PixelSizeProperty
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+  - uid: adaptivecards.SerializableObject
+    name: SerializableObject
+  - uid: adaptivecards.SerializableObjectCollectionProperty
+    name: SerializableObjectCollectionProperty
+  - uid: adaptivecards.SerializableObjectProperty
+    name: SerializableObjectProperty
+  - uid: adaptivecards.SerializableObjectSchema
+    name: SerializableObjectSchema
+  - uid: adaptivecards.StringProperty
+    name: StringProperty
+  - uid: adaptivecards.ValueSetProperty
+    name: ValueSetProperty
+  - uid: adaptivecards.Version
+    name: Version
+  - uid: adaptivecards.Versions
+    name: Versions
+  - uid: adaptivecards.IValidationEvent
+    name: IValidationEvent
+  - uid: adaptivecards.IVersionedValue
+    name: IVersionedValue
+  - uid: adaptivecards.PropertyBag
+    name: PropertyBag
+  - uid: adaptivecards.SerializableObjectType
+    name: SerializableObjectType
+  - uid: adaptivecards.TargetVersion
+    name: TargetVersion
+  - uid: adaptivecards.isVersionLessOrEqual
+    name: 'isVersionLessOrEqual(TargetVersion, TargetVersion)'
+  - uid: adaptivecards.property
+    name: property(PropertyDefinition)
+  - uid: adaptivecards.GlobalSettings
+    name: GlobalSettings
+  - uid: adaptivecards.PaddingDefinition
+    name: PaddingDefinition
+  - uid: adaptivecards.SizeAndUnit
+    name: SizeAndUnit
+  - uid: adaptivecards.SpacingDefinition
+    name: SpacingDefinition
+  - uid: adaptivecards.StringWithSubstitutions
+    name: StringWithSubstitutions
+  - uid: adaptivecards.UUID
+    name: UUID
+  - uid: adaptivecards.IInput
+    name: IInput
+  - uid: adaptivecards.IResourceInformation
+    name: IResourceInformation
+  - uid: adaptivecards.ISeparationDefinition
+    name: ISeparationDefinition
+  - uid: adaptivecards.Dictionary
+    name: Dictionary
+  - uid: adaptivecards.Strings
+    name: Strings
+  - uid: adaptivecards.formatText
+    name: 'formatText(string | undefined, string | undefined)'
+  - uid: adaptivecards.appendChild
+    name: 'appendChild(Node, Node | undefined)'
+  - uid: adaptivecards.generateUniqueId
+    name: generateUniqueId()
+  - uid: adaptivecards.getEnumValueByName
+    name: 'getEnumValueByName([key: number]: string, string)'
+  - uid: adaptivecards.getFitStatus
+    name: 'getFitStatus(HTMLElement, number)'
+  - uid: adaptivecards.isMobileOS
+    name: isMobileOS()
+  - uid: adaptivecards.parseBool
+    name: 'parseBool(any, boolean)'
+  - uid: adaptivecards.parseEnum
+    name: 'parseEnum([key: number]: string, string, number)'
+  - uid: adaptivecards.parseNumber
+    name: 'parseNumber(any, number)'
+  - uid: adaptivecards.parseString
+    name: 'parseString(any, string)'
+  - uid: adaptivecards.renderSeparation
+    name: 'renderSeparation(HostConfig, ISeparationDefinition, Orientation)'
+  - uid: adaptivecards.stringToCssColor
+    name: stringToCssColor(string | undefined)
+  - uid: adaptivecards.truncate
+    name: 'truncate(HTMLElement, number, number)'

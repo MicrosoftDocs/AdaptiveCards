@@ -1,0 +1,256 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.DropDown
+    name: DropDown
+    fullName: DropDown
+    children:
+      - adaptivecards-controls.DropDown.attach
+      - adaptivecards-controls.DropDown.closePopup
+      - adaptivecards-controls.DropDown.constructor
+      - adaptivecards-controls.DropDown.isOpen
+      - adaptivecards-controls.DropDown.items
+      - adaptivecards-controls.DropDown.labelId
+      - adaptivecards-controls.DropDown.onValueChanged
+      - adaptivecards-controls.DropDown.parentLabelId
+      - adaptivecards-controls.DropDown.placeholderText
+      - adaptivecards-controls.DropDown.popup
+      - adaptivecards-controls.DropDown.selectedIndex
+      - adaptivecards-controls.DropDown.selectedItem
+      - adaptivecards-controls.DropDown.value
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        adaptivecards-controls.InputWithPopup<adaptivecards-controls.DropDownPopupControl,
+        adaptivecards-controls.DropDownItem>
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.attach
+    name: attach(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.closePopup
+    name: closePopup(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.constructor
+    name: DropDown()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new DropDown()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.isOpen
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Collection<DropDownItem> items
+      return:
+        type:
+          - >-
+            adaptivecards-controls.Collection<adaptivecards-controls.DropDownItem>
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.labelId
+    name: labelId
+    fullName: labelId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string labelId
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.onValueChanged
+    name: onValueChanged
+    fullName: onValueChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onValueChanged: (sender: InputControl) => void'
+      return:
+        type:
+          - '(sender: InputControl) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.parentLabelId
+    name: parentLabelId
+    fullName: parentLabelId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string parentLabelId
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.placeholderText
+    name: placeholderText
+    fullName: placeholderText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string placeholderText
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.popup
+    name: popup()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function popup()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.selectedIndex
+    name: selectedIndex
+    fullName: selectedIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number selectedIndex
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.selectedItem
+    name: selectedItem
+    fullName: selectedItem
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DropDownItem selectedItem
+      return:
+        type:
+          - adaptivecards-controls.DropDownItem
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDown.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: DropDownItem value
+      return:
+        type:
+          - adaptivecards-controls.DropDownItem
+        description: ''
+    package: adaptivecards-controls
+references:
+  - uid: >-
+      adaptivecards-controls.InputWithPopup<adaptivecards-controls.DropDownPopupControl,
+      adaptivecards-controls.DropDownItem>
+    name: DropDownItem>
+    spec.typeScript:
+      - name: InputWithPopup
+        fullName: InputWithPopup
+        uid: adaptivecards-controls.InputWithPopup
+      - name: <
+        fullName: <
+      - name: DropDownPopupControl
+        fullName: DropDownPopupControl
+        uid: adaptivecards-controls.DropDownPopupControl
+      - name: ', '
+        fullName: ', '
+      - name: DropDownItem
+        fullName: DropDownItem
+        uid: adaptivecards-controls.DropDownItem
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-controls.Collection<adaptivecards-controls.DropDownItem>
+    name: DropDownItem>
+    spec.typeScript:
+      - name: Collection
+        fullName: Collection
+        uid: adaptivecards-controls.Collection
+      - name: <
+        fullName: <
+      - name: DropDownItem
+        fullName: DropDownItem
+        uid: adaptivecards-controls.DropDownItem
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-controls.DropDownItem
+    name: DropDownItem
+    spec.typeScript:
+      - name: DropDownItem
+        fullName: DropDownItem
+        uid: adaptivecards-controls.DropDownItem

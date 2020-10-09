@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.FillMode
+    name: FillMode
+    fullName: FillMode
+    children:
+      - adaptivecards.FillMode.Cover
+      - adaptivecards.FillMode.RepeatHorizontally
+      - adaptivecards.FillMode.RepeatVertically
+      - adaptivecards.FillMode.Repeat
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.FillMode.Cover
+    name: Cover
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.FillMode.RepeatHorizontally
+    name: RepeatHorizontally
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards
+  - uid: adaptivecards.FillMode.RepeatVertically
+    name: RepeatVertically
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards
+  - uid: adaptivecards.FillMode.Repeat
+    name: Repeat
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: adaptivecards

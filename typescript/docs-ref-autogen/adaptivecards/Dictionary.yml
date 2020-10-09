@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.Dictionary
+    name: Dictionary
+    fullName: Dictionary<T>
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type Dictionary<T> = Object
+    package: adaptivecards

@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IPropertySheetEditorCommand
+    name: IPropertySheetEditorCommand
+    fullName: IPropertySheetEditorCommand
+    children:
+      - adaptivecards-designer.IPropertySheetEditorCommand.caption
+      - adaptivecards-designer.IPropertySheetEditorCommand.onExecute
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IPropertySheetEditorCommand.caption
+    name: caption
+    fullName: caption
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'caption: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IPropertySheetEditorCommand.onExecute
+    name: onExecute
+    fullName: onExecute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        onExecute: (sender: SingleInputPropertyEditor, clickedElement:
+        HTMLElement) => void
+      return:
+        type:
+          - >-
+            (sender: SingleInputPropertyEditor, clickedElement: HTMLElement) =>
+            void
+        description: ''
+    package: adaptivecards-designer

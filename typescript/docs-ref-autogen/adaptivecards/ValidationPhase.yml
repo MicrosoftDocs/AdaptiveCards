@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ValidationPhase
+    name: ValidationPhase
+    fullName: ValidationPhase
+    children:
+      - adaptivecards.ValidationPhase.Parse
+      - adaptivecards.ValidationPhase.ToJSON
+      - adaptivecards.ValidationPhase.Validation
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ValidationPhase.Parse
+    name: Parse
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.ValidationPhase.ToJSON
+    name: ToJSON
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards
+  - uid: adaptivecards.ValidationPhase.Validation
+    name: Validation
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards

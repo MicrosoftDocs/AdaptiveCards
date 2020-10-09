@@ -1,0 +1,257 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ToolbarChoicePicker
+    name: ToolbarChoicePicker
+    fullName: ToolbarChoicePicker
+    children:
+      - adaptivecards-designer.ToolbarChoicePicker.alignment
+      - adaptivecards-designer.ToolbarChoicePicker.choices
+      - adaptivecards-designer.ToolbarChoicePicker.id
+      - adaptivecards-designer.ToolbarChoicePicker.isVisible
+      - adaptivecards-designer.ToolbarChoicePicker.label
+      - adaptivecards-designer.ToolbarChoicePicker.onChanged
+      - adaptivecards-designer.ToolbarChoicePicker.render
+      - adaptivecards-designer.ToolbarChoicePicker.renderedElement
+      - adaptivecards-designer.ToolbarChoicePicker.selectedIndex
+      - adaptivecards-designer.ToolbarChoicePicker.separator
+      - adaptivecards-designer.ToolbarChoicePicker.constructor
+      - adaptivecards-designer.ToolbarChoicePicker.updateLayout
+      - adaptivecards-designer.ToolbarChoicePicker.value
+      - adaptivecards-designer.ToolbarChoicePicker.width
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.ToolbarElement
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.alignment
+    name: alignment
+    fullName: alignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'alignment: ToolbarElementAlignment'
+      return:
+        type:
+          - adaptivecards-designer.ToolbarElementAlignment
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.choices
+    name: choices
+    fullName: choices
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'choices: Array<IChoicePickerItem>'
+      return:
+        type:
+          - Array<adaptivecards-designer.IChoicePickerItem>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.isVisible
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isVisible: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.onChanged
+    name: onChanged
+    fullName: onChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onChanged: (sender: ToolbarChoicePicker) => void'
+      return:
+        type:
+          - '(sender: ToolbarChoicePicker) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.selectedIndex
+    name: selectedIndex
+    fullName: selectedIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number selectedIndex
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'separator: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.constructor
+    name: ToolbarChoicePicker(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ToolbarChoicePicker(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string value
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarChoicePicker.width
+    name: width
+    fullName: width
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'width?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.ToolbarElement
+    name: ToolbarElement
+    spec.typeScript:
+      - name: ToolbarElement
+        fullName: ToolbarElement
+        uid: adaptivecards-designer.ToolbarElement
+  - uid: adaptivecards-designer.ToolbarElementAlignment
+    name: ToolbarElementAlignment
+    spec.typeScript:
+      - name: ToolbarElementAlignment
+        fullName: ToolbarElementAlignment
+        uid: adaptivecards-designer.ToolbarElementAlignment
+  - uid: Array<adaptivecards-designer.IChoicePickerItem>
+    name: IChoicePickerItem>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: IChoicePickerItem
+        fullName: IChoicePickerItem
+        uid: adaptivecards-designer.IChoicePickerItem
+      - name: '>'
+        fullName: '>'

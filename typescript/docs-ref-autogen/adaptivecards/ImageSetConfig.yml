@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ImageSetConfig
+    name: ImageSetConfig
+    fullName: ImageSetConfig
+    children:
+      - adaptivecards.ImageSetConfig.constructor
+      - adaptivecards.ImageSetConfig.imageSize
+      - adaptivecards.ImageSetConfig.maxImageHeight
+      - adaptivecards.ImageSetConfig.toJSON
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageSetConfig.constructor
+    name: ImageSetConfig(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ImageSetConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ImageSetConfig.imageSize
+    name: imageSize
+    fullName: imageSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'imageSize: Size'
+      return:
+        type:
+          - adaptivecards.Size
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageSetConfig.maxImageHeight
+    name: maxImageHeight
+    fullName: maxImageHeight
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'maxImageHeight: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageSetConfig.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Size
+    name: Size
+    spec.typeScript:
+      - name: Size
+        fullName: Size
+        uid: adaptivecards.Size

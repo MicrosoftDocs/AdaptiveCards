@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.FontTypeSet
+    name: FontTypeSet
+    fullName: FontTypeSet
+    children:
+      - adaptivecards.FontTypeSet.default
+      - adaptivecards.FontTypeSet.constructor
+      - adaptivecards.FontTypeSet.getStyleDefinition
+      - adaptivecards.FontTypeSet.monospace
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeSet.default
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'default: FontTypeDefinition'
+      return:
+        type:
+          - adaptivecards.FontTypeDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeSet.constructor
+    name: FontTypeSet(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FontTypeSet(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeSet.getStyleDefinition
+    name: getStyleDefinition(FontType | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getStyleDefinition(style: FontType | undefined)'
+      parameters:
+        - id: style
+          type:
+            - adaptivecards.FontType | undefined
+          description: ''
+      return:
+        type:
+          - adaptivecards.FontTypeDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.FontTypeSet.monospace
+    name: monospace
+    fullName: monospace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'monospace: FontTypeDefinition'
+      return:
+        type:
+          - adaptivecards.FontTypeDefinition
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.FontTypeDefinition
+    name: FontTypeDefinition
+    spec.typeScript:
+      - name: FontTypeDefinition
+        fullName: FontTypeDefinition
+        uid: adaptivecards.FontTypeDefinition
+  - uid: adaptivecards.FontType | undefined
+    name: FontType | undefined
+    spec.typeScript:
+      - name: FontType
+        fullName: FontType
+        uid: adaptivecards.FontType
+      - name: ' | undefined'
+        fullName: ' | undefined'

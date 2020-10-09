@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.TextWeight
+    name: TextWeight
+    fullName: TextWeight
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type TextWeight = "lighter" | "default" | "bolder"
+    package: adaptivecards

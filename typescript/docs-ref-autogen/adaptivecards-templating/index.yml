@@ -1,0 +1,19 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-templating
+    name: adaptivecards-templating
+    summary: ''
+    children:
+      - adaptivecards-templating.GlobalSettings
+      - adaptivecards-templating.Template
+      - adaptivecards-templating.IEvaluationContext
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: adaptivecards-templating.GlobalSettings
+    name: GlobalSettings
+  - uid: adaptivecards-templating.Template
+    name: Template
+  - uid: adaptivecards-templating.IEvaluationContext
+    name: IEvaluationContext

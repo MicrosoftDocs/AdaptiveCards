@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IChoice
+    name: IChoice
+    fullName: IChoice
+    children:
+      - adaptivecards.IChoice.title
+      - adaptivecards.IChoice.value
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IChoice.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'title: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IChoice.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'value: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards

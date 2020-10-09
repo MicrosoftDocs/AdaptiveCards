@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IResourceInformation
+    name: IResourceInformation
+    fullName: IResourceInformation
+    children:
+      - adaptivecards.IResourceInformation.mimeType
+      - adaptivecards.IResourceInformation.url
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IResourceInformation.mimeType
+    name: mimeType
+    fullName: mimeType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mimeType: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IResourceInformation.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards

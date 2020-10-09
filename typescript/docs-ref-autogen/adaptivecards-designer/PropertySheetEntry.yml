@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.PropertySheetEntry
+    name: PropertySheetEntry
+    fullName: PropertySheetEntry
+    children:
+      - adaptivecards-designer.PropertySheetEntry.constructor
+      - adaptivecards-designer.PropertySheetEntry.render
+      - adaptivecards-designer.PropertySheetEntry.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetEntry.constructor
+    name: PropertySheetEntry(Adaptive.TargetVersion)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PropertySheetEntry(targetVersion: Adaptive.TargetVersion)'
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetEntry.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PropertySheetEntry.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

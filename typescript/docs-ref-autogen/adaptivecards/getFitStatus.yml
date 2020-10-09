@@ -1,0 +1,32 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.getFitStatus
+    name: 'getFitStatus(HTMLElement, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getFitStatus(element: HTMLElement, containerEnd: number)'
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+        - id: containerEnd
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards.ContainerFitStatus
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ContainerFitStatus
+    name: ContainerFitStatus
+    spec.typeScript:
+      - name: ContainerFitStatus
+        fullName: ContainerFitStatus
+        uid: adaptivecards.ContainerFitStatus

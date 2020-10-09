@@ -1,0 +1,87 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DialogButton
+    name: DialogButton
+    fullName: DialogButton
+    children:
+      - adaptivecards-designer.DialogButton.caption
+      - adaptivecards-designer.DialogButton.clicked
+      - adaptivecards-designer.DialogButton.constructor
+      - adaptivecards-designer.DialogButton.onClick
+      - adaptivecards-designer.DialogButton.render
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DialogButton.caption
+    name: caption
+    fullName: caption
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'caption: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DialogButton.clicked
+    name: clicked()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clicked()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DialogButton.constructor
+    name: DialogButton(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DialogButton(caption: string)'
+      parameters:
+        - id: caption
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DialogButton.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (sender: DialogButton) => void'
+      return:
+        type:
+          - '(sender: DialogButton) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DialogButton.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer

@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+    name: DesignerPeerRegistrationBase
+    fullName: DesignerPeerRegistrationBase
+    children:
+      - adaptivecards-designer.DesignerPeerRegistrationBase.category
+      - adaptivecards-designer.DesignerPeerRegistrationBase.constructor
+      - adaptivecards-designer.DesignerPeerRegistrationBase.iconClass
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase.category
+    name: category
+    fullName: category
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'category: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase.constructor
+    name: 'DesignerPeerRegistrationBase(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DesignerPeerRegistrationBase(category: string, iconClass?: string)'
+      parameters:
+        - id: category
+          type:
+            - string
+          description: ''
+        - id: iconClass
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase.iconClass
+    name: iconClass
+    fullName: iconClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'iconClass: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer

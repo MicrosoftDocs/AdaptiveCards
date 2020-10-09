@@ -1,0 +1,116 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.CardElementPeerInplaceEditor
+    name: CardElementPeerInplaceEditor
+    fullName: CardElementPeerInplaceEditor<TCardElement>
+    children:
+      - adaptivecards-designer.CardElementPeerInplaceEditor.applyChanges
+      - adaptivecards-designer.CardElementPeerInplaceEditor.cardElement
+      - adaptivecards-designer.CardElementPeerInplaceEditor.constructor
+      - adaptivecards-designer.CardElementPeerInplaceEditor.initialize
+      - adaptivecards-designer.CardElementPeerInplaceEditor.onClose
+      - adaptivecards-designer.CardElementPeerInplaceEditor.render
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.DesignerPeerInplaceEditor
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerInplaceEditor.applyChanges
+    name: applyChanges()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function applyChanges()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerInplaceEditor.cardElement
+    name: cardElement
+    fullName: cardElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cardElement: TCardElement'
+      return:
+        type:
+          - TCardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerInplaceEditor.constructor
+    name: CardElementPeerInplaceEditor(TCardElement)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CardElementPeerInplaceEditor(cardElement: TCardElement)'
+      parameters:
+        - id: cardElement
+          type:
+            - TCardElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerInplaceEditor.initialize
+    name: initialize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function initialize()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerInplaceEditor.onClose
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClose: (applyChanges: boolean) => void'
+      return:
+        type:
+          - '(applyChanges: boolean) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerInplaceEditor.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DesignerPeerInplaceEditor
+    name: DesignerPeerInplaceEditor
+    spec.typeScript:
+      - name: DesignerPeerInplaceEditor
+        fullName: DesignerPeerInplaceEditor
+        uid: adaptivecards-designer.DesignerPeerInplaceEditor

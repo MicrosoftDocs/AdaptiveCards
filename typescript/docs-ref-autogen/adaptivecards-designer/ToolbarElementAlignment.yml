@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ToolbarElementAlignment
+    name: ToolbarElementAlignment
+    fullName: ToolbarElementAlignment
+    children:
+      - adaptivecards-designer.ToolbarElementAlignment.Left
+      - adaptivecards-designer.ToolbarElementAlignment.Right
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElementAlignment.Left
+    name: Left
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarElementAlignment.Right
+    name: Right
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards-designer

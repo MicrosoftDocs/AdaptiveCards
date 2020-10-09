@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IStringData
+    name: IStringData
+    fullName: IStringData
+    children:
+      - adaptivecards-designer.IStringData.sampleValue
+      - adaptivecards-designer.IStringData.valueType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IStringData.sampleValue
+    name: sampleValue
+    fullName: sampleValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sampleValue?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IStringData.valueType
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valueType: "String"'
+      return:
+        type:
+          - '"String"'
+        description: ''
+    package: adaptivecards-designer

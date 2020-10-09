@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.StringWithSubstitutions
+    name: StringWithSubstitutions
+    fullName: StringWithSubstitutions
+    children:
+      - adaptivecards.StringWithSubstitutions.get
+      - adaptivecards.StringWithSubstitutions.getOriginal
+      - adaptivecards.StringWithSubstitutions.getReferencedInputs
+      - adaptivecards.StringWithSubstitutions.set
+      - adaptivecards.StringWithSubstitutions.substituteInputValues
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.StringWithSubstitutions.get
+    name: get()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function get()
+      parameters: []
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StringWithSubstitutions.getOriginal
+    name: getOriginal()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getOriginal()
+      parameters: []
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StringWithSubstitutions.getReferencedInputs
+    name: 'getReferencedInputs(IInput[], Dictionary<IInput>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getReferencedInputs(inputs: IInput[], referencedInputs:
+        Dictionary<IInput>)
+      parameters:
+        - id: inputs
+          type:
+            - 'adaptivecards.IInput[]'
+          description: ''
+        - id: referencedInputs
+          type:
+            - adaptivecards.Dictionary<adaptivecards.IInput>
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StringWithSubstitutions.set
+    name: set(string | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function set(value: string | undefined)'
+      parameters:
+        - id: value
+          type:
+            - string | undefined
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.StringWithSubstitutions.substituteInputValues
+    name: 'substituteInputValues(Dictionary<IInput>, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function substituteInputValues(inputs: Dictionary<IInput>, contentType:
+        string)
+      parameters:
+        - id: inputs
+          type:
+            - adaptivecards.Dictionary<adaptivecards.IInput>
+          description: ''
+        - id: contentType
+          type:
+            - string
+          description: ''
+    package: adaptivecards
+references:
+  - uid: 'adaptivecards.IInput[]'
+    name: 'IInput[]'
+    spec.typeScript:
+      - name: IInput
+        fullName: IInput
+        uid: adaptivecards.IInput
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.Dictionary<adaptivecards.IInput>
+    name: IInput>
+    spec.typeScript:
+      - name: Dictionary
+        fullName: Dictionary
+        uid: adaptivecards.Dictionary
+      - name: <
+        fullName: <
+      - name: IInput
+        fullName: IInput
+        uid: adaptivecards.IInput
+      - name: '>'
+        fullName: '>'

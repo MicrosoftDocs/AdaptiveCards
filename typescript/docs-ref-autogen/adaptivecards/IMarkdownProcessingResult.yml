@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IMarkdownProcessingResult
+    name: IMarkdownProcessingResult
+    fullName: IMarkdownProcessingResult
+    children:
+      - adaptivecards.IMarkdownProcessingResult.didProcess
+      - adaptivecards.IMarkdownProcessingResult.outputHtml
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IMarkdownProcessingResult.didProcess
+    name: didProcess
+    fullName: didProcess
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'didProcess: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IMarkdownProcessingResult.outputHtml
+    name: outputHtml
+    fullName: outputHtml
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'outputHtml?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards

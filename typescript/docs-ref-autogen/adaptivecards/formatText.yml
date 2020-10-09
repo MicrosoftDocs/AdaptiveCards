@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.formatText
+    name: 'formatText(string | undefined, string | undefined)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function formatText(lang: string | undefined, text: string | undefined)'
+      parameters:
+        - id: lang
+          type:
+            - string | undefined
+          description: ''
+        - id: text
+          type:
+            - string | undefined
+          description: ''
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards

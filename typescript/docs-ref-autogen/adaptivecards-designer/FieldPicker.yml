@@ -1,0 +1,180 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.FieldPicker
+    name: FieldPicker
+    fullName: FieldPicker
+    children:
+      - adaptivecards-designer.FieldPicker.closePopup
+      - adaptivecards-designer.FieldPicker.dataStructure
+      - adaptivecards-designer.FieldPicker.constructor
+      - adaptivecards-designer.FieldPicker.focus
+      - adaptivecards-designer.FieldPicker.isOpen
+      - adaptivecards-designer.FieldPicker.keyDown
+      - adaptivecards-designer.FieldPicker.onClose
+      - adaptivecards-designer.FieldPicker.popup
+      - adaptivecards-designer.FieldPicker.render
+      - adaptivecards-designer.FieldPicker.selectedField
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: PopupControl
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.closePopup
+    name: closePopup(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.dataStructure
+    name: dataStructure
+    fullName: dataStructure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dataStructure: FieldDefinition'
+      return:
+        type:
+          - adaptivecards-designer.FieldDefinition
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.constructor
+    name: FieldPicker(FieldDefinition)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new FieldPicker(dataStructure: FieldDefinition)'
+      parameters:
+        - id: dataStructure
+          type:
+            - adaptivecards-designer.FieldDefinition
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.isOpen
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.keyDown
+    name: keyDown(KeyboardEvent)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function keyDown(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - KeyboardEvent
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.onClose
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClose: (popupControl: PopupControl, wasCancelled: boolean) => void'
+      return:
+        type:
+          - '(popupControl: PopupControl, wasCancelled: boolean) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.popup
+    name: popup(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function popup(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.render
+    name: render(ClientRect)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(rootElementBounds: ClientRect)'
+      parameters:
+        - id: rootElementBounds
+          type:
+            - ClientRect
+          description: ''
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.FieldPicker.selectedField
+    name: selectedField
+    fullName: selectedField
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FieldDefinition selectedField
+      return:
+        type:
+          - adaptivecards-designer.FieldDefinition
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.FieldDefinition
+    name: FieldDefinition
+    spec.typeScript:
+      - name: FieldDefinition
+        fullName: FieldDefinition
+        uid: adaptivecards-designer.FieldDefinition

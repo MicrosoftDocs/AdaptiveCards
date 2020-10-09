@@ -1,0 +1,100 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ShowCardActionConfig
+    name: ShowCardActionConfig
+    fullName: ShowCardActionConfig
+    children:
+      - adaptivecards.ShowCardActionConfig.actionMode
+      - adaptivecards.ShowCardActionConfig.inlineTopMargin
+      - adaptivecards.ShowCardActionConfig.constructor
+      - adaptivecards.ShowCardActionConfig.style
+      - adaptivecards.ShowCardActionConfig.toJSON
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ShowCardActionConfig.actionMode
+    name: actionMode
+    fullName: actionMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'actionMode: ShowCardActionMode'
+      return:
+        type:
+          - adaptivecards.ShowCardActionMode
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ShowCardActionConfig.inlineTopMargin
+    name: inlineTopMargin
+    fullName: inlineTopMargin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'inlineTopMargin: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ShowCardActionConfig.constructor
+    name: ShowCardActionConfig(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ShowCardActionConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ShowCardActionConfig.style
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'style?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ShowCardActionConfig.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ShowCardActionMode
+    name: ShowCardActionMode
+    spec.typeScript:
+      - name: ShowCardActionMode
+        fullName: ShowCardActionMode
+        uid: adaptivecards.ShowCardActionMode

@@ -1,0 +1,144 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.InputWithPopup
+    name: InputWithPopup
+    fullName: InputWithPopup<TPopupControl>
+    children:
+      - adaptivecards-controls.InputWithPopup.attach
+      - adaptivecards-controls.InputWithPopup.closePopup
+      - adaptivecards-controls.InputWithPopup.isOpen
+      - adaptivecards-controls.InputWithPopup.labelId
+      - adaptivecards-controls.InputWithPopup.onValueChanged
+      - adaptivecards-controls.InputWithPopup.placeholderText
+      - adaptivecards-controls.InputWithPopup.popup
+      - adaptivecards-controls.InputWithPopup.value
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-controls.InputControl
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.InputWithPopup.attach
+    name: attach(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.InputWithPopup.closePopup
+    name: closePopup(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.InputWithPopup.isOpen
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.InputWithPopup.labelId
+    name: labelId
+    fullName: labelId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string labelId
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.InputWithPopup.onValueChanged
+    name: onValueChanged
+    fullName: onValueChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onValueChanged: (sender: InputControl) => void'
+      return:
+        type:
+          - '(sender: InputControl) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.InputWithPopup.placeholderText
+    name: placeholderText
+    fullName: placeholderText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string placeholderText
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.InputWithPopup.popup
+    name: popup()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function popup()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.InputWithPopup.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: TValue value
+      return:
+        type:
+          - TValue
+        description: ''
+    package: adaptivecards-controls
+references:
+  - uid: adaptivecards-controls.InputControl
+    name: InputControl
+    spec.typeScript:
+      - name: InputControl
+        fullName: InputControl
+        uid: adaptivecards-controls.InputControl

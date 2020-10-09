@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.isVersionLessOrEqual
+    name: 'isVersionLessOrEqual(TargetVersion, TargetVersion)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function isVersionLessOrEqual(version: TargetVersion, targetVersion:
+        TargetVersion)
+      parameters:
+        - id: version
+          type:
+            - adaptivecards.TargetVersion
+          description: ''
+        - id: targetVersion
+          type:
+            - adaptivecards.TargetVersion
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.TargetVersion
+    name: TargetVersion
+    spec.typeScript:
+      - name: TargetVersion
+        fullName: TargetVersion
+        uid: adaptivecards.TargetVersion

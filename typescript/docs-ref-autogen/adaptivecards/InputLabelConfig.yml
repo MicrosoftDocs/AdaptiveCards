@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.InputLabelConfig
+    name: InputLabelConfig
+    fullName: InputLabelConfig
+    children:
+      - adaptivecards.InputLabelConfig.constructor
+      - adaptivecards.InputLabelConfig.inputSpacing
+      - adaptivecards.InputLabelConfig.optionalInputs
+      - adaptivecards.InputLabelConfig.requiredInputs
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.InputLabelConfig.constructor
+    name: InputLabelConfig(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new InputLabelConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.InputLabelConfig.inputSpacing
+    name: inputSpacing
+    fullName: inputSpacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'inputSpacing: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.InputLabelConfig.optionalInputs
+    name: optionalInputs
+    fullName: optionalInputs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'optionalInputs: BaseTextDefinition'
+      return:
+        type:
+          - adaptivecards.BaseTextDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.InputLabelConfig.requiredInputs
+    name: requiredInputs
+    fullName: requiredInputs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'requiredInputs: RequiredInputLabelTextDefinition'
+      return:
+        type:
+          - adaptivecards.RequiredInputLabelTextDefinition
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+  - uid: adaptivecards.BaseTextDefinition
+    name: BaseTextDefinition
+    spec.typeScript:
+      - name: BaseTextDefinition
+        fullName: BaseTextDefinition
+        uid: adaptivecards.BaseTextDefinition
+  - uid: adaptivecards.RequiredInputLabelTextDefinition
+    name: RequiredInputLabelTextDefinition
+    spec.typeScript:
+      - name: RequiredInputLabelTextDefinition
+        fullName: RequiredInputLabelTextDefinition
+        uid: adaptivecards.RequiredInputLabelTextDefinition

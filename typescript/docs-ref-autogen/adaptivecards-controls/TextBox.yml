@@ -1,0 +1,132 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.TextBox
+    name: TextBox
+    fullName: TextBox
+    children:
+      - adaptivecards-controls.TextBox.attach
+      - adaptivecards-controls.TextBox.isMultiline
+      - adaptivecards-controls.TextBox.lineCount
+      - adaptivecards-controls.TextBox.maxLength
+      - adaptivecards-controls.TextBox.onChange
+      - adaptivecards-controls.TextBox.placeholder
+      - adaptivecards-controls.TextBox.value
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-controls.InputControl
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.TextBox.attach
+    name: attach(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.TextBox.isMultiline
+    name: isMultiline
+    fullName: isMultiline
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isMultiline
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.TextBox.lineCount
+    name: lineCount
+    fullName: lineCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number lineCount
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.TextBox.maxLength
+    name: maxLength
+    fullName: maxLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number maxLength
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.TextBox.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onChange: (sender: TextBox) => void'
+      return:
+        type:
+          - '(sender: TextBox) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.TextBox.placeholder
+    name: placeholder
+    fullName: placeholder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string placeholder
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.TextBox.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string value
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+references:
+  - uid: adaptivecards-controls.InputControl
+    name: InputControl
+    spec.typeScript:
+      - name: InputControl
+        fullName: InputControl
+        uid: adaptivecards-controls.InputControl

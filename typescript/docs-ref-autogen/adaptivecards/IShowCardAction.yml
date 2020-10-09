@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IShowCardAction
+    name: IShowCardAction
+    fullName: IShowCardAction
+    children:
+      - adaptivecards.IShowCardAction.card
+      - adaptivecards.IShowCardAction.id
+      - adaptivecards.IShowCardAction.title
+      - adaptivecards.IShowCardAction.type
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: adaptivecards.IAction
+    package: adaptivecards
+  - uid: adaptivecards.IShowCardAction.card
+    name: card
+    fullName: card
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'card: IAdaptiveCard'
+      return:
+        type:
+          - adaptivecards.IAdaptiveCard
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IShowCardAction.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IShowCardAction.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'title?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IShowCardAction.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: "Action.ShowCard"'
+      return:
+        type:
+          - '"Action.ShowCard"'
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.IAction
+    name: IAction
+    spec.typeScript:
+      - name: IAction
+        fullName: IAction
+        uid: adaptivecards.IAction
+  - uid: adaptivecards.IAdaptiveCard
+    name: IAdaptiveCard
+    spec.typeScript:
+      - name: IAdaptiveCard
+        fullName: IAdaptiveCard
+        uid: adaptivecards.IAdaptiveCard

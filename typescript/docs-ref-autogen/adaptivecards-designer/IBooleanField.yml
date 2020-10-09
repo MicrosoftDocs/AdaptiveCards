@@ -1,0 +1,85 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IBooleanField
+    name: IBooleanField
+    fullName: IBooleanField
+    children:
+      - adaptivecards-designer.IBooleanField.displayName
+      - adaptivecards-designer.IBooleanField.name
+      - adaptivecards-designer.IBooleanField.sampleValue
+      - adaptivecards-designer.IBooleanField.valueType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: adaptivecards-designer.IDataField
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IBooleanField.displayName
+    name: displayName
+    fullName: displayName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'displayName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IBooleanField.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IBooleanField.sampleValue
+    name: sampleValue
+    fullName: sampleValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sampleValue?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IBooleanField.valueType
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valueType: "Boolean"'
+      return:
+        type:
+          - '"Boolean"'
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.IDataField
+    name: IDataField
+    spec.typeScript:
+      - name: IDataField
+        fullName: IDataField
+        uid: adaptivecards-designer.IDataField

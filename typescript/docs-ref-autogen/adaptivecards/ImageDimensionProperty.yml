@@ -1,0 +1,294 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ImageDimensionProperty
+    name: ImageDimensionProperty
+    fullName: ImageDimensionProperty
+    children:
+      - adaptivecards.ImageDimensionProperty.defaultValue
+      - adaptivecards.ImageDimensionProperty.fallbackProperty
+      - adaptivecards.ImageDimensionProperty.getInternalName
+      - adaptivecards.ImageDimensionProperty.constructor
+      - adaptivecards.ImageDimensionProperty.internalName
+      - adaptivecards.ImageDimensionProperty.isSerializationEnabled
+      - adaptivecards.ImageDimensionProperty.name
+      - adaptivecards.ImageDimensionProperty.onGetInitialValue
+      - adaptivecards.ImageDimensionProperty.parse
+      - adaptivecards.ImageDimensionProperty.sequentialNumber
+      - adaptivecards.ImageDimensionProperty.targetVersion
+      - adaptivecards.ImageDimensionProperty.toJSON
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.PropertyDefinition
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.fallbackProperty
+    name: fallbackProperty
+    fullName: fallbackProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'fallbackProperty?: ValueSetProperty | undefined'
+      return:
+        type:
+          - adaptivecards.ValueSetProperty | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.getInternalName
+    name: getInternalName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getInternalName()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.constructor
+    name: >-
+      ImageDimensionProperty(Version, string, string, ValueSetProperty |
+      undefined)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ImageDimensionProperty(targetVersion: Version, name: string,
+        internalName: string, fallbackProperty?: ValueSetProperty | undefined)
+      parameters:
+        - id: targetVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: internalName
+          type:
+            - string
+          description: ''
+        - id: fallbackProperty
+          type:
+            - adaptivecards.ValueSetProperty | undefined
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.internalName
+    name: internalName
+    fullName: internalName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'internalName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.isSerializationEnabled
+    name: isSerializationEnabled
+    fullName: isSerializationEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.onGetInitialValue
+    name: onGetInitialValue
+    fullName: onGetInitialValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => any | undefined'
+      return:
+        type:
+          - '(sender: SerializableObject) => any | undefined'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.parse
+    name: 'parse(SerializableObject, PropertyBag, BaseSerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        BaseSerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: source
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+      return:
+        type:
+          - number | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.sequentialNumber
+    name: sequentialNumber
+    fullName: sequentialNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ImageDimensionProperty.toJSON
+    name: >-
+      toJSON(SerializableObject, PropertyBag, number | undefined,
+      BaseSerializationContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        number | undefined, context: BaseSerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: target
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: value
+          type:
+            - number | undefined
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.ValueSetProperty | undefined
+    name: ValueSetProperty | undefined
+    spec.typeScript:
+      - name: ValueSetProperty
+        fullName: ValueSetProperty
+        uid: adaptivecards.ValueSetProperty
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.SerializableObject
+    name: SerializableObject
+    spec.typeScript:
+      - name: SerializableObject
+        fullName: SerializableObject
+        uid: adaptivecards.SerializableObject
+  - uid: adaptivecards.PropertyBag
+    name: PropertyBag
+    spec.typeScript:
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext

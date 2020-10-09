@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.getScrollY
+    name: getScrollY()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getScrollY()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls

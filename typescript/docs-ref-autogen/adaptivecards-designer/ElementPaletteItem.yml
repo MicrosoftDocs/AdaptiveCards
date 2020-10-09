@@ -1,0 +1,294 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ElementPaletteItem
+    name: ElementPaletteItem
+    fullName: ElementPaletteItem
+    children:
+      - adaptivecards-designer.ElementPaletteItem.createPeer
+      - adaptivecards-designer.ElementPaletteItem.dragging
+      - adaptivecards-designer.ElementPaletteItem.constructor
+      - adaptivecards-designer.ElementPaletteItem.endDrag
+      - adaptivecards-designer.ElementPaletteItem.isDraggable
+      - adaptivecards-designer.ElementPaletteItem.onClick
+      - adaptivecards-designer.ElementPaletteItem.onDoubleClick
+      - adaptivecards-designer.ElementPaletteItem.onEndDrag
+      - adaptivecards-designer.ElementPaletteItem.onStartDrag
+      - adaptivecards-designer.ElementPaletteItem.peerRegistration
+      - adaptivecards-designer.ElementPaletteItem.render
+      - adaptivecards-designer.ElementPaletteItem.renderDragVisual
+      - adaptivecards-designer.ElementPaletteItem.renderedElement
+      - adaptivecards-designer.ElementPaletteItem.typeRegistration
+      - adaptivecards-designer.ElementPaletteItem.updateLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.BasePaletteItem
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.createPeer
+    name: 'createPeer(DesignContext, CardDesignerSurface)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createPeer(context: DesignContext, designer:
+        CardDesignerSurface)
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.DesignContext
+          description: ''
+        - id: designer
+          type:
+            - adaptivecards-designer.CardDesignerSurface
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.CardElementPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.dragging
+    name: dragging
+    fullName: dragging
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean dragging
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.constructor
+    name: >-
+      ElementPaletteItem(ITypeRegistration<CardElement>,
+      DesignerPeerRegistrationBase)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ElementPaletteItem(typeRegistration: ITypeRegistration<CardElement>,
+        peerRegistration: DesignerPeerRegistrationBase)
+      parameters:
+        - id: typeRegistration
+          type:
+            - ITypeRegistration<CardElement>
+          description: ''
+        - id: peerRegistration
+          type:
+            - adaptivecards-designer.DesignerPeerRegistrationBase
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.endDrag
+    name: endDrag()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endDrag()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.isDraggable
+    name: isDraggable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDraggable()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.onDoubleClick
+    name: onDoubleClick
+    fullName: onDoubleClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.onEndDrag
+    name: onEndDrag
+    fullName: onEndDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.onStartDrag
+    name: onStartDrag
+    fullName: onStartDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.peerRegistration
+    name: peerRegistration
+    fullName: peerRegistration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'peerRegistration: DesignerPeerRegistrationBase'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeerRegistrationBase
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.renderDragVisual
+    name: renderDragVisual()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function renderDragVisual()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.typeRegistration
+    name: typeRegistration
+    fullName: typeRegistration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'typeRegistration: ITypeRegistration<CardElement>'
+      return:
+        type:
+          - ITypeRegistration<CardElement>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ElementPaletteItem.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.BasePaletteItem
+    name: BasePaletteItem
+    spec.typeScript:
+      - name: BasePaletteItem
+        fullName: BasePaletteItem
+        uid: adaptivecards-designer.BasePaletteItem
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+    name: DesignerPeerRegistrationBase
+    spec.typeScript:
+      - name: DesignerPeerRegistrationBase
+        fullName: DesignerPeerRegistrationBase
+        uid: adaptivecards-designer.DesignerPeerRegistrationBase
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+    spec.typeScript:
+      - name: DesignContext
+        fullName: DesignContext
+        uid: adaptivecards-designer.DesignContext
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+    spec.typeScript:
+      - name: CardDesignerSurface
+        fullName: CardDesignerSurface
+        uid: adaptivecards-designer.CardDesignerSurface
+  - uid: adaptivecards-designer.CardElementPeer
+    name: CardElementPeer
+    spec.typeScript:
+      - name: CardElementPeer
+        fullName: CardElementPeer
+        uid: adaptivecards-designer.CardElementPeer

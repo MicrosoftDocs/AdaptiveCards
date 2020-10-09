@@ -1,0 +1,1118 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ToggleVisibilityAction
+    name: ToggleVisibilityAction
+    fullName: ToggleVisibilityAction
+    children:
+      - adaptivecards.ToggleVisibilityAction.addTargetElement
+      - adaptivecards.ToggleVisibilityAction.execute
+      - adaptivecards.ToggleVisibilityAction.getActionById
+      - adaptivecards.ToggleVisibilityAction.getAllInputs
+      - adaptivecards.ToggleVisibilityAction.getAriaRole
+      - adaptivecards.ToggleVisibilityAction.getCustomProperty
+      - adaptivecards.ToggleVisibilityAction.getHref
+      - adaptivecards.ToggleVisibilityAction.getJsonTypeName
+      - adaptivecards.ToggleVisibilityAction.getReferencedInputs
+      - adaptivecards.ToggleVisibilityAction.getResourceInformation
+      - adaptivecards.ToggleVisibilityAction.getRootObject
+      - adaptivecards.ToggleVisibilityAction.getSchema
+      - adaptivecards.ToggleVisibilityAction.hasAllDefaultValues
+      - adaptivecards.ToggleVisibilityAction.hasDefaultValue
+      - adaptivecards.ToggleVisibilityAction.hostConfig
+      - adaptivecards.ToggleVisibilityAction.iconUrl
+      - adaptivecards.ToggleVisibilityAction.iconUrlProperty
+      - adaptivecards.ToggleVisibilityAction.id
+      - adaptivecards.ToggleVisibilityAction.idProperty
+      - adaptivecards.ToggleVisibilityAction.ignoreInputValidation
+      - adaptivecards.ToggleVisibilityAction.ignoreInputValidationProperty
+      - adaptivecards.ToggleVisibilityAction.internalValidateProperties
+      - adaptivecards.ToggleVisibilityAction.isPrimary
+      - adaptivecards.ToggleVisibilityAction.JsonTypeName
+      - adaptivecards.ToggleVisibilityAction.maxVersion
+      - adaptivecards.ToggleVisibilityAction.onExecute
+      - adaptivecards.ToggleVisibilityAction.onPreProcessPropertyValue
+      - adaptivecards.ToggleVisibilityAction.onRegisterCustomProperties
+      - adaptivecards.ToggleVisibilityAction.parent
+      - adaptivecards.ToggleVisibilityAction.parse
+      - adaptivecards.ToggleVisibilityAction.prepareForExecution
+      - adaptivecards.ToggleVisibilityAction.preProcessPropertyValue
+      - adaptivecards.ToggleVisibilityAction.remove
+      - adaptivecards.ToggleVisibilityAction.removeTargetElement
+      - adaptivecards.ToggleVisibilityAction.render
+      - adaptivecards.ToggleVisibilityAction.renderedElement
+      - adaptivecards.ToggleVisibilityAction.requires
+      - adaptivecards.ToggleVisibilityAction.requiresProperty
+      - adaptivecards.ToggleVisibilityAction.resetDefaultValues
+      - adaptivecards.ToggleVisibilityAction.setCustomProperty
+      - adaptivecards.ToggleVisibilityAction.setParent
+      - adaptivecards.ToggleVisibilityAction.setShouldFallback
+      - adaptivecards.ToggleVisibilityAction.shouldFallback
+      - adaptivecards.ToggleVisibilityAction.style
+      - adaptivecards.ToggleVisibilityAction.styleProperty
+      - adaptivecards.ToggleVisibilityAction.targetElements
+      - adaptivecards.ToggleVisibilityAction.targetElementsProperty
+      - adaptivecards.ToggleVisibilityAction.title
+      - adaptivecards.ToggleVisibilityAction.titleProperty
+      - adaptivecards.ToggleVisibilityAction.constructor
+      - adaptivecards.ToggleVisibilityAction.toJSON
+      - adaptivecards.ToggleVisibilityAction.typeNameProperty
+      - adaptivecards.ToggleVisibilityAction.updateActionButtonCssStyle
+      - adaptivecards.ToggleVisibilityAction.validateInputs
+      - adaptivecards.ToggleVisibilityAction.validateProperties
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.Action
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.addTargetElement
+    name: 'addTargetElement(string, boolean | undefined)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addTargetElement(elementId: string, isVisible?: boolean |
+        undefined)
+      parameters:
+        - id: elementId
+          type:
+            - string
+          description: ''
+        - id: isVisible
+          type:
+            - boolean | undefined
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.execute
+    name: execute()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function execute()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getActionById
+    name: getActionById(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getActionById(id: string)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards.Action | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getAllInputs
+    name: getAllInputs(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAllInputs(processActions?: boolean)'
+      parameters:
+        - id: processActions
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'adaptivecards.Input[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getAriaRole
+    name: getAriaRole()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getAriaRole()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getCustomProperty
+    name: getCustomProperty(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getCustomProperty(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getHref
+    name: getHref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHref()
+      parameters: []
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getJsonTypeName
+    name: getJsonTypeName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getJsonTypeName()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getReferencedInputs
+    name: getReferencedInputs()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getReferencedInputs()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.Dictionary<adaptivecards.Input> | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getResourceInformation
+    name: getResourceInformation()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getResourceInformation()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards.IResourceInformation[]'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getRootObject
+    name: getRootObject()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRootObject()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.CardObject
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.getSchema
+    name: getSchema()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSchema()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.SerializableObjectSchema
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.hasAllDefaultValues
+    name: hasAllDefaultValues()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasAllDefaultValues()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.hasDefaultValue
+    name: hasDefaultValue(PropertyDefinition)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function hasDefaultValue(property: PropertyDefinition)'
+      parameters:
+        - id: property
+          type:
+            - adaptivecards.PropertyDefinition
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.hostConfig
+    name: hostConfig
+    fullName: hostConfig
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostConfig hostConfig
+      return:
+        type:
+          - adaptivecards.HostConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.iconUrl
+    name: iconUrl
+    fullName: iconUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'iconUrl?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.iconUrlProperty
+    name: iconUrlProperty
+    fullName: iconUrlProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static iconUrlProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.idProperty
+    name: idProperty
+    fullName: idProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static idProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.ignoreInputValidation
+    name: ignoreInputValidation
+    fullName: ignoreInputValidation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean ignoreInputValidation
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.ignoreInputValidationProperty
+    name: ignoreInputValidationProperty
+    fullName: ignoreInputValidationProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static ignoreInputValidationProperty: BoolProperty'
+      return:
+        type:
+          - adaptivecards.BoolProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.internalValidateProperties
+    name: internalValidateProperties(ValidationResults)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function internalValidateProperties(context: ValidationResults)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards.ValidationResults
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.isPrimary
+    name: isPrimary
+    fullName: isPrimary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isPrimary
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.JsonTypeName
+    name: JsonTypeName
+    fullName: JsonTypeName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static JsonTypeName: "Action.ToggleVisibility"'
+      return:
+        type:
+          - '"Action.ToggleVisibility"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.maxVersion
+    name: maxVersion
+    fullName: maxVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'maxVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.onExecute
+    name: onExecute
+    fullName: onExecute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onExecute: (sender: Action) => void'
+      return:
+        type:
+          - '(sender: Action) => void'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.onPreProcessPropertyValue
+    name: onPreProcessPropertyValue
+    fullName: onPreProcessPropertyValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onPreProcessPropertyValue?: (sender: CardObject, property:
+        PropertyDefinition, value: any) => any
+      return:
+        type:
+          - >-
+            (sender: CardObject, property: PropertyDefinition, value: any) =>
+            any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.onRegisterCustomProperties
+    name: onRegisterCustomProperties
+    fullName: onRegisterCustomProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        static onRegisterCustomProperties?: (sender: SerializableObject, schema:
+        SerializableObjectSchema) => void
+      return:
+        type:
+          - >-
+            (sender: SerializableObject, schema: SerializableObjectSchema) =>
+            void
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.parent
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: CardElement | undefined parent
+      return:
+        type:
+          - adaptivecards.CardElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.parse
+    name: 'parse(any, SerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(source: any, context?: SerializationContext)'
+      parameters:
+        - id: source
+          type:
+            - any
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.SerializationContext
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.prepareForExecution
+    name: prepareForExecution()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function prepareForExecution()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.preProcessPropertyValue
+    name: 'preProcessPropertyValue(PropertyDefinition, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function preProcessPropertyValue(property: PropertyDefinition,
+        propertyValue?: any)
+      parameters:
+        - id: property
+          type:
+            - adaptivecards.PropertyDefinition
+          description: ''
+        - id: propertyValue
+          type:
+            - any
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.remove
+    name: remove()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function remove()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.removeTargetElement
+    name: removeTargetElement(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeTargetElement(elementId: string)'
+      parameters:
+        - id: elementId
+          type:
+            - string
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.render
+    name: render(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(baseCssClass?: string)'
+      parameters:
+        - id: baseCssClass
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement | undefined renderedElement
+      return:
+        type:
+          - HTMLElement | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.requires
+    name: requires
+    fullName: requires
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostCapabilities requires
+      return:
+        type:
+          - adaptivecards.HostCapabilities
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.requiresProperty
+    name: requiresProperty
+    fullName: requiresProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static requiresProperty: SerializableObjectProperty'
+      return:
+        type:
+          - adaptivecards.SerializableObjectProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.resetDefaultValues
+    name: resetDefaultValues()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resetDefaultValues()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.setCustomProperty
+    name: 'setCustomProperty(string, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setCustomProperty(name: string, value: any)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - any
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.setParent
+    name: setParent(CardObject | undefined)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setParent(value: CardObject | undefined)'
+      parameters:
+        - id: value
+          type:
+            - adaptivecards.CardObject | undefined
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.setShouldFallback
+    name: setShouldFallback(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setShouldFallback(value: boolean)'
+      parameters:
+        - id: value
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.shouldFallback
+    name: shouldFallback()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function shouldFallback()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.style
+    name: style
+    fullName: style
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'style: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.styleProperty
+    name: styleProperty
+    fullName: styleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static styleProperty: ValueSetProperty'
+      return:
+        type:
+          - adaptivecards.ValueSetProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.targetElements
+    name: targetElements
+    fullName: targetElements
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetElements: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.targetElementsProperty
+    name: targetElementsProperty
+    fullName: targetElementsProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static targetElementsProperty: CustomProperty<PropertyBag>'
+      return:
+        type:
+          - adaptivecards.CustomProperty<adaptivecards.PropertyBag>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.title
+    name: title
+    fullName: title
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'title?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.titleProperty
+    name: titleProperty
+    fullName: titleProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static titleProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.constructor
+    name: ToggleVisibilityAction()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new ToggleVisibilityAction()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.toJSON
+    name: toJSON(BaseSerializationContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toJSON(context?: BaseSerializationContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+          optional: true
+      return:
+        type:
+          - adaptivecards.PropertyBag | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.typeNameProperty
+    name: typeNameProperty
+    fullName: typeNameProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static typeNameProperty: StringProperty'
+      return:
+        type:
+          - adaptivecards.StringProperty
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.updateActionButtonCssStyle
+    name: 'updateActionButtonCssStyle(HTMLElement, ActionButtonState)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function updateActionButtonCssStyle(actionButtonElement: HTMLElement,
+        buttonState?: ActionButtonState)
+      parameters:
+        - id: actionButtonElement
+          type:
+            - HTMLElement
+          description: ''
+        - id: buttonState
+          type:
+            - adaptivecards.ActionButtonState
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.validateInputs
+    name: validateInputs()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Validates the inputs associated with this action.
+    syntax:
+      content: function validateInputs()
+      parameters: []
+      return:
+        type:
+          - 'adaptivecards.Input[]'
+        description: >-
+          A list of inputs that failed validation, or an empty array if no input
+          failed validation.
+    package: adaptivecards
+  - uid: adaptivecards.ToggleVisibilityAction.validateProperties
+    name: validateProperties()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function validateProperties()
+      parameters: []
+      return:
+        type:
+          - adaptivecards.ValidationResults
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Action
+    name: Action
+    spec.typeScript:
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.StringProperty
+    name: StringProperty
+    spec.typeScript:
+      - name: StringProperty
+        fullName: StringProperty
+        uid: adaptivecards.StringProperty
+  - uid: adaptivecards.BoolProperty
+    name: BoolProperty
+    spec.typeScript:
+      - name: BoolProperty
+        fullName: BoolProperty
+        uid: adaptivecards.BoolProperty
+  - uid: adaptivecards.SerializableObjectProperty
+    name: SerializableObjectProperty
+    spec.typeScript:
+      - name: SerializableObjectProperty
+        fullName: SerializableObjectProperty
+        uid: adaptivecards.SerializableObjectProperty
+  - uid: adaptivecards.ValueSetProperty
+    name: ValueSetProperty
+    spec.typeScript:
+      - name: ValueSetProperty
+        fullName: ValueSetProperty
+        uid: adaptivecards.ValueSetProperty
+  - uid: adaptivecards.CustomProperty<adaptivecards.PropertyBag>
+    name: PropertyBag>
+    spec.typeScript:
+      - name: CustomProperty
+        fullName: CustomProperty
+        uid: adaptivecards.CustomProperty
+      - name: <
+        fullName: <
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards.HostConfig
+    name: HostConfig
+    spec.typeScript:
+      - name: HostConfig
+        fullName: HostConfig
+        uid: adaptivecards.HostConfig
+  - uid: adaptivecards.CardElement | undefined
+    name: CardElement | undefined
+    spec.typeScript:
+      - name: CardElement
+        fullName: CardElement
+        uid: adaptivecards.CardElement
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.HostCapabilities
+    name: HostCapabilities
+    spec.typeScript:
+      - name: HostCapabilities
+        fullName: HostCapabilities
+        uid: adaptivecards.HostCapabilities
+  - uid: adaptivecards.Action | undefined
+    name: Action | undefined
+    spec.typeScript:
+      - name: Action
+        fullName: Action
+        uid: adaptivecards.Action
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: 'adaptivecards.Input[]'
+    name: 'Input[]'
+    spec.typeScript:
+      - name: Input
+        fullName: Input
+        uid: adaptivecards.Input
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.Dictionary<adaptivecards.Input> | undefined
+    name: Input> | undefined
+    spec.typeScript:
+      - name: Dictionary
+        fullName: Dictionary
+        uid: adaptivecards.Dictionary
+      - name: <
+        fullName: <
+      - name: Input
+        fullName: Input
+        uid: adaptivecards.Input
+      - name: '> | undefined'
+        fullName: '> | undefined'
+  - uid: 'adaptivecards.IResourceInformation[]'
+    name: 'IResourceInformation[]'
+    spec.typeScript:
+      - name: IResourceInformation
+        fullName: IResourceInformation
+        uid: adaptivecards.IResourceInformation
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.CardObject
+    name: CardObject
+    spec.typeScript:
+      - name: CardObject
+        fullName: CardObject
+        uid: adaptivecards.CardObject
+  - uid: adaptivecards.SerializableObjectSchema
+    name: SerializableObjectSchema
+    spec.typeScript:
+      - name: SerializableObjectSchema
+        fullName: SerializableObjectSchema
+        uid: adaptivecards.SerializableObjectSchema
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition
+  - uid: adaptivecards.ValidationResults
+    name: ValidationResults
+    spec.typeScript:
+      - name: ValidationResults
+        fullName: ValidationResults
+        uid: adaptivecards.ValidationResults
+  - uid: adaptivecards.SerializationContext
+    name: SerializationContext
+    spec.typeScript:
+      - name: SerializationContext
+        fullName: SerializationContext
+        uid: adaptivecards.SerializationContext
+  - uid: adaptivecards.CardObject | undefined
+    name: CardObject | undefined
+    spec.typeScript:
+      - name: CardObject
+        fullName: CardObject
+        uid: adaptivecards.CardObject
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext
+  - uid: adaptivecards.PropertyBag | undefined
+    name: PropertyBag | undefined
+    spec.typeScript:
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: adaptivecards.ActionButtonState
+    name: ActionButtonState
+    spec.typeScript:
+      - name: ActionButtonState
+        fullName: ActionButtonState
+        uid: adaptivecards.ActionButtonState

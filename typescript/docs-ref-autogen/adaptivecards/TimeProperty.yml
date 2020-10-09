@@ -1,0 +1,288 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.TimeProperty
+    name: TimeProperty
+    fullName: TimeProperty
+    children:
+      - adaptivecards.TimeProperty.defaultValue
+      - adaptivecards.TimeProperty.getInternalName
+      - adaptivecards.TimeProperty.isSerializationEnabled
+      - adaptivecards.TimeProperty.name
+      - adaptivecards.TimeProperty.onGetInitialValue
+      - adaptivecards.TimeProperty.onParse
+      - adaptivecards.TimeProperty.onToJSON
+      - adaptivecards.TimeProperty.parse
+      - adaptivecards.TimeProperty.sequentialNumber
+      - adaptivecards.TimeProperty.targetVersion
+      - adaptivecards.TimeProperty.constructor
+      - adaptivecards.TimeProperty.toJSON
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards.CustomProperty<string | undefined>
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: string | undefined | undefined'
+      return:
+        type:
+          - string | undefined | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.getInternalName
+    name: getInternalName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getInternalName()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.isSerializationEnabled
+    name: isSerializationEnabled
+    fullName: isSerializationEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.onGetInitialValue
+    name: onGetInitialValue
+    fullName: onGetInitialValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        onGetInitialValue?: (sender: SerializableObject) => string | undefined |
+        undefined
+      return:
+        type:
+          - '(sender: SerializableObject) => string | undefined | undefined'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.onParse
+    name: onParse
+    fullName: onParse
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        onParse: (sender: SerializableObject, property: PropertyDefinition,
+        source: PropertyBag, context: BaseSerializationContext) => string |
+        undefined
+      return:
+        type:
+          - >-
+            (sender: SerializableObject, property: PropertyDefinition, source:
+            PropertyBag, context: BaseSerializationContext) => string |
+            undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.onToJSON
+    name: onToJSON
+    fullName: onToJSON
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        onToJSON: (sender: SerializableObject, property: PropertyDefinition,
+        target: PropertyBag, value: string | undefined, context:
+        BaseSerializationContext) => void
+      return:
+        type:
+          - >-
+            (sender: SerializableObject, property: PropertyDefinition, target:
+            PropertyBag, value: string | undefined, context:
+            BaseSerializationContext) => void
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.parse
+    name: 'parse(SerializableObject, PropertyBag, BaseSerializationContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        BaseSerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: source
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.sequentialNumber
+    name: sequentialNumber
+    fullName: sequentialNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        type:
+          - adaptivecards.Version
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.constructor
+    name: 'TimeProperty(Version, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new TimeProperty(targetVersion: Version, name: string)'
+      parameters:
+        - id: targetVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.TimeProperty.toJSON
+    name: >-
+      toJSON(SerializableObject, PropertyBag, string | undefined,
+      BaseSerializationContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        string | undefined, context: BaseSerializationContext)
+      parameters:
+        - id: sender
+          type:
+            - adaptivecards.SerializableObject
+          description: ''
+        - id: target
+          type:
+            - adaptivecards.PropertyBag
+          description: ''
+        - id: value
+          type:
+            - string | undefined
+          description: ''
+        - id: context
+          type:
+            - adaptivecards.BaseSerializationContext
+          description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.CustomProperty<string | undefined>
+    name: CustomProperty<string | undefined>
+    spec.typeScript:
+      - name: CustomProperty
+        fullName: CustomProperty
+        uid: adaptivecards.CustomProperty
+      - name: <string | undefined>
+        fullName: <string | undefined>
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.SerializableObject
+    name: SerializableObject
+    spec.typeScript:
+      - name: SerializableObject
+        fullName: SerializableObject
+        uid: adaptivecards.SerializableObject
+  - uid: adaptivecards.PropertyBag
+    name: PropertyBag
+    spec.typeScript:
+      - name: PropertyBag
+        fullName: PropertyBag
+        uid: adaptivecards.PropertyBag
+  - uid: adaptivecards.BaseSerializationContext
+    name: BaseSerializationContext
+    spec.typeScript:
+      - name: BaseSerializationContext
+        fullName: BaseSerializationContext
+        uid: adaptivecards.BaseSerializationContext

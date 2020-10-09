@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.Size
+    name: Size
+    fullName: Size
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type Size = "auto" | "stretch" | "small" | "medium" | "large"
+    package: adaptivecards

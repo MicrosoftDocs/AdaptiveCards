@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ActionButtonState
+    name: ActionButtonState
+    fullName: ActionButtonState
+    children:
+      - adaptivecards.ActionButtonState.Normal
+      - adaptivecards.ActionButtonState.Expanded
+      - adaptivecards.ActionButtonState.Subdued
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionButtonState.Normal
+    name: Normal
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.ActionButtonState.Expanded
+    name: Expanded
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards
+  - uid: adaptivecards.ActionButtonState.Subdued
+    name: Subdued
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards

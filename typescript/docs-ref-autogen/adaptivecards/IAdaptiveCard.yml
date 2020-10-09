@@ -1,0 +1,297 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IAdaptiveCard
+    name: IAdaptiveCard
+    fullName: IAdaptiveCard
+    children:
+      - adaptivecards.IAdaptiveCard.actions
+      - adaptivecards.IAdaptiveCard.backgroundImage
+      - adaptivecards.IAdaptiveCard.body
+      - adaptivecards.IAdaptiveCard.height
+      - adaptivecards.IAdaptiveCard.horizontalAlignment
+      - adaptivecards.IAdaptiveCard.id
+      - adaptivecards.IAdaptiveCard.separator
+      - adaptivecards.IAdaptiveCard.spacing
+      - adaptivecards.IAdaptiveCard.speak
+      - adaptivecards.IAdaptiveCard.type
+      - adaptivecards.IAdaptiveCard.version
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: adaptivecards.ICardElement
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.actions
+    name: actions
+    fullName: actions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'actions?: ISubmitAction | IOpenUrlAction | IShowCardAction[]'
+      return:
+        type:
+          - >-
+            adaptivecards.ISubmitAction | adaptivecards.IOpenUrlAction |
+            adaptivecards.IShowCardAction[]
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.backgroundImage
+    name: backgroundImage
+    fullName: backgroundImage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'backgroundImage?: IBackgroundImage | string'
+      return:
+        type:
+          - adaptivecards.IBackgroundImage | string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.body
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        body?: IImage | ITextBlock | IImageSet | IFactSet | IColumnSet |
+        IContainer[]
+      return:
+        type:
+          - >-
+            adaptivecards.IImage | adaptivecards.ITextBlock |
+            adaptivecards.IImageSet | adaptivecards.IFactSet |
+            adaptivecards.IColumnSet | adaptivecards.IContainer[]
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.height
+    name: height
+    fullName: height
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        type:
+          - '"auto" | "stretch"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.horizontalAlignment
+    name: horizontalAlignment
+    fullName: horizontalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        type:
+          - adaptivecards.HorizontalAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.speak
+    name: speak
+    fullName: speak
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'speak?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: "AdaptiveCard"'
+      return:
+        type:
+          - '"AdaptiveCard"'
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IAdaptiveCard.version
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'version?: IVersion | string'
+      return:
+        type:
+          - adaptivecards.IVersion | string
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ICardElement
+    name: ICardElement
+    spec.typeScript:
+      - name: ICardElement
+        fullName: ICardElement
+        uid: adaptivecards.ICardElement
+  - uid: >-
+      adaptivecards.ISubmitAction | adaptivecards.IOpenUrlAction |
+      adaptivecards.IShowCardAction[]
+    name: 'IShowCardAction[]'
+    spec.typeScript:
+      - name: ISubmitAction
+        fullName: ISubmitAction
+        uid: adaptivecards.ISubmitAction
+      - name: ' | '
+        fullName: ' | '
+      - name: IOpenUrlAction
+        fullName: IOpenUrlAction
+        uid: adaptivecards.IOpenUrlAction
+      - name: ' | '
+        fullName: ' | '
+      - name: IShowCardAction
+        fullName: IShowCardAction
+        uid: adaptivecards.IShowCardAction
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.IBackgroundImage | string
+    name: IBackgroundImage | string
+    spec.typeScript:
+      - name: IBackgroundImage
+        fullName: IBackgroundImage
+        uid: adaptivecards.IBackgroundImage
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: >-
+      adaptivecards.IImage | adaptivecards.ITextBlock | adaptivecards.IImageSet
+      | adaptivecards.IFactSet | adaptivecards.IColumnSet |
+      adaptivecards.IContainer[]
+    name: 'IContainer[]'
+    spec.typeScript:
+      - name: IImage
+        fullName: IImage
+        uid: adaptivecards.IImage
+      - name: ' | '
+        fullName: ' | '
+      - name: ITextBlock
+        fullName: ITextBlock
+        uid: adaptivecards.ITextBlock
+      - name: ' | '
+        fullName: ' | '
+      - name: IImageSet
+        fullName: IImageSet
+        uid: adaptivecards.IImageSet
+      - name: ' | '
+        fullName: ' | '
+      - name: IFactSet
+        fullName: IFactSet
+        uid: adaptivecards.IFactSet
+      - name: ' | '
+        fullName: ' | '
+      - name: IColumnSet
+        fullName: IColumnSet
+        uid: adaptivecards.IColumnSet
+      - name: ' | '
+        fullName: ' | '
+      - name: IContainer
+        fullName: IContainer
+        uid: adaptivecards.IContainer
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.HorizontalAlignment
+    name: HorizontalAlignment
+    spec.typeScript:
+      - name: HorizontalAlignment
+        fullName: HorizontalAlignment
+        uid: adaptivecards.HorizontalAlignment
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing
+  - uid: adaptivecards.IVersion | string
+    name: IVersion | string
+    spec.typeScript:
+      - name: IVersion
+        fullName: IVersion
+        uid: adaptivecards.IVersion
+      - name: ' | string'
+        fullName: ' | string'

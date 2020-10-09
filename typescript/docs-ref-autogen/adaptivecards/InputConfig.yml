@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.InputConfig
+    name: InputConfig
+    fullName: InputConfig
+    children:
+      - adaptivecards.InputConfig.errorMessage
+      - adaptivecards.InputConfig.constructor
+      - adaptivecards.InputConfig.label
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.InputConfig.errorMessage
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'errorMessage: BaseTextDefinition'
+      return:
+        type:
+          - adaptivecards.BaseTextDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.InputConfig.constructor
+    name: InputConfig(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new InputConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.InputConfig.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: InputLabelConfig'
+      return:
+        type:
+          - adaptivecards.InputLabelConfig
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.BaseTextDefinition
+    name: BaseTextDefinition
+    spec.typeScript:
+      - name: BaseTextDefinition
+        fullName: BaseTextDefinition
+        uid: adaptivecards.BaseTextDefinition
+  - uid: adaptivecards.InputLabelConfig
+    name: InputLabelConfig
+    spec.typeScript:
+      - name: InputLabelConfig
+        fullName: InputLabelConfig
+        uid: adaptivecards.InputLabelConfig

@@ -1,0 +1,286 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.BaseTreeItem
+    name: BaseTreeItem
+    fullName: BaseTreeItem
+    children:
+      - adaptivecards-designer.BaseTreeItem.constructor
+      - adaptivecards-designer.BaseTreeItem.dragging
+      - adaptivecards-designer.BaseTreeItem.endDrag
+      - adaptivecards-designer.BaseTreeItem.expand
+      - adaptivecards-designer.BaseTreeItem.getChildAt
+      - adaptivecards-designer.BaseTreeItem.getChildCount
+      - adaptivecards-designer.BaseTreeItem.isDraggable
+      - adaptivecards-designer.BaseTreeItem.isSelected
+      - adaptivecards-designer.BaseTreeItem.level
+      - adaptivecards-designer.BaseTreeItem.onClick
+      - adaptivecards-designer.BaseTreeItem.onDoubleClick
+      - adaptivecards-designer.BaseTreeItem.onEndDrag
+      - adaptivecards-designer.BaseTreeItem.onSelectedChange
+      - adaptivecards-designer.BaseTreeItem.onStartDrag
+      - adaptivecards-designer.BaseTreeItem.render
+      - adaptivecards-designer.BaseTreeItem.renderedElement
+      - adaptivecards-designer.BaseTreeItem.updateLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.DraggableElement
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.constructor
+    name: BaseTreeItem()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new BaseTreeItem()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.dragging
+    name: dragging
+    fullName: dragging
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean dragging
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.endDrag
+    name: endDrag()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endDrag()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.expand
+    name: expand()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function expand()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.getChildAt
+    name: getChildAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getChildAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.BaseTreeItem
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.getChildCount
+    name: getChildCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getChildCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.isDraggable
+    name: isDraggable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDraggable()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.isSelected
+    name: isSelected
+    fullName: isSelected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isSelected
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.level
+    name: level
+    fullName: level
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number level
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.onDoubleClick
+    name: onDoubleClick
+    fullName: onDoubleClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.onEndDrag
+    name: onEndDrag
+    fullName: onEndDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.onSelectedChange
+    name: onSelectedChange
+    fullName: onSelectedChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onSelectedChange: (sender: BaseTreeItem) => void'
+      return:
+        type:
+          - '(sender: BaseTreeItem) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.onStartDrag
+    name: onStartDrag
+    fullName: onStartDrag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        type:
+          - '(sender: DraggableElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BaseTreeItem.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.DraggableElement
+    name: DraggableElement
+    spec.typeScript:
+      - name: DraggableElement
+        fullName: DraggableElement
+        uid: adaptivecards-designer.DraggableElement
+  - uid: adaptivecards-designer.BaseTreeItem
+    name: BaseTreeItem
+    spec.typeScript:
+      - name: BaseTreeItem
+        fullName: BaseTreeItem
+        uid: adaptivecards-designer.BaseTreeItem

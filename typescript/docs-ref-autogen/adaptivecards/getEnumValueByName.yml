@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.getEnumValueByName
+    name: 'getEnumValueByName([key: number]: string, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getEnumValueByName(enumType: [key: number]: string, name:
+        string)
+      parameters:
+        - id: enumType
+          type:
+            - '[key: number]: string'
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - number | undefined
+        description: ''
+    package: adaptivecards

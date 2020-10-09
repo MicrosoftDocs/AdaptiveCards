@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.SerializableObjectType
+    name: SerializableObjectType
+    fullName: SerializableObjectType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type SerializableObjectType = {  }'
+    package: adaptivecards

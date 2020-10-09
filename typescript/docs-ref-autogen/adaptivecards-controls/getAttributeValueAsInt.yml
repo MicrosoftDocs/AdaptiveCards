@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.getAttributeValueAsInt
+    name: 'getAttributeValueAsInt(HTMLElement, string, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getAttributeValueAsInt(element: HTMLElement, attributeName:
+        string, defaultValue: number)
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+        - id: attributeName
+          type:
+            - string
+          description: ''
+        - id: defaultValue
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls

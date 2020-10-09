@@ -1,0 +1,430 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer
+    name: adaptivecards-designer
+    summary: ''
+    children:
+      - adaptivecards-designer.BaseTreeItem
+      - adaptivecards-designer.BindingPreviewMode
+      - adaptivecards-designer.ActionPeerRegistry
+      - adaptivecards-designer.CardDesignerSurface
+      - adaptivecards-designer.CardElementPeerRegistry
+      - adaptivecards-designer.DesignContext
+      - adaptivecards-designer.DesignerPeerRegistry
+      - adaptivecards-designer.ActionPeerType
+      - adaptivecards-designer.ActionType
+      - adaptivecards-designer.CardElementPeerType
+      - adaptivecards-designer.CardElementType
+      - adaptivecards-designer.CardDesigner
+      - adaptivecards-designer.CardDesigner.ToolbarCommands
+      - adaptivecards-designer.CatalogueEntry
+      - adaptivecards-designer.SampleCatalogue
+      - adaptivecards-designer.BotFrameworkContainer
+      - adaptivecards-designer.CortanaClassicContainer
+      - adaptivecards-designer.BaseCortanaContainer
+      - adaptivecards-designer.DarkCortanaContainer
+      - adaptivecards-designer.LightCortanaContainer
+      - adaptivecards-designer.DefaultContainer
+      - adaptivecards-designer.HostContainer
+      - adaptivecards-designer.ToastContainer
+      - adaptivecards-designer.OutlookContainer
+      - adaptivecards-designer.SkypeContainer
+      - adaptivecards-designer.BaseTeamsContainer
+      - adaptivecards-designer.DarkTeamsContainer
+      - adaptivecards-designer.LightTeamsContainer
+      - adaptivecards-designer.TimelineContainer
+      - adaptivecards-designer.WebChatContainer
+      - adaptivecards-designer.DataTreeItem
+      - adaptivecards-designer.ArrayData
+      - adaptivecards-designer.DataType
+      - adaptivecards-designer.FieldDefinition
+      - adaptivecards-designer.ObjectData
+      - adaptivecards-designer.ValueTypeData
+      - adaptivecards-designer.IArrayData
+      - adaptivecards-designer.IArrayField
+      - adaptivecards-designer.IBooleanData
+      - adaptivecards-designer.IBooleanField
+      - adaptivecards-designer.IDataField
+      - adaptivecards-designer.INumberData
+      - adaptivecards-designer.INumberField
+      - adaptivecards-designer.IObjectData
+      - adaptivecards-designer.IObjectField
+      - adaptivecards-designer.IStringData
+      - adaptivecards-designer.IStringField
+      - adaptivecards-designer.IData
+      - adaptivecards-designer.IField
+      - adaptivecards-designer.ValueType
+      - adaptivecards-designer.DesignerPeerTreeItem
+      - adaptivecards-designer.ActionPeer
+      - adaptivecards-designer.ActionPropertyEditor
+      - adaptivecards-designer.ActionSetPeer
+      - adaptivecards-designer.AdaptiveCardPeer
+      - adaptivecards-designer.BooleanPropertyEditor
+      - adaptivecards-designer.CardElementPeer
+      - adaptivecards-designer.CardElementPeerInplaceEditor
+      - adaptivecards-designer.ChoicePropertyEditor
+      - adaptivecards-designer.ChoiceSetInputPeer
+      - adaptivecards-designer.ColumnPeer
+      - adaptivecards-designer.ColumnSetPeer
+      - adaptivecards-designer.ColumnWidthPropertyEditor
+      - adaptivecards-designer.CompoundPropertyEditor
+      - adaptivecards-designer.ContainerPeer
+      - adaptivecards-designer.ContainerStylePropertyEditor
+      - adaptivecards-designer.CustomCardObjectPropertyEditor
+      - adaptivecards-designer.CustomPropertySheetEntry
+      - adaptivecards-designer.DateInputPeer
+      - adaptivecards-designer.DesignerPeer
+      - adaptivecards-designer.DesignerPeerInplaceEditor
+      - adaptivecards-designer.DesignerPeerRegistration
+      - adaptivecards-designer.DesignerPeerRegistrationBase
+      - adaptivecards-designer.EnumPropertyEditor
+      - adaptivecards-designer.FactSetPeer
+      - adaptivecards-designer.HeightPropertyEditor
+      - adaptivecards-designer.HttpActionPeer
+      - adaptivecards-designer.ImagePeer
+      - adaptivecards-designer.ImageSetPeer
+      - adaptivecards-designer.InputPeer
+      - adaptivecards-designer.MediaPeer
+      - adaptivecards-designer.NameValuePairPropertyEditor
+      - adaptivecards-designer.NumberInputPeer
+      - adaptivecards-designer.NumberPropertyEditor
+      - adaptivecards-designer.ObjectPropertyEditor
+      - adaptivecards-designer.OpenUrlActionPeer
+      - adaptivecards-designer.PropertySheet
+      - adaptivecards-designer.PropertySheetCategory
+      - adaptivecards-designer.PropertySheetContext
+      - adaptivecards-designer.PropertySheetEntry
+      - adaptivecards-designer.RichTextBlockPeer
+      - adaptivecards-designer.ShowCardActionPeer
+      - adaptivecards-designer.SingleInputPropertyEditor
+      - adaptivecards-designer.SizeAndUnitPropertyEditor
+      - adaptivecards-designer.StringPropertyEditor
+      - adaptivecards-designer.SubPropertySheetEntry
+      - adaptivecards-designer.SubmitActionPeer
+      - adaptivecards-designer.TextBlockPeer
+      - adaptivecards-designer.TextInputPeer
+      - adaptivecards-designer.TimeInputPeer
+      - adaptivecards-designer.ToggleInputPeer
+      - adaptivecards-designer.ToggleVisibilityActionPeer
+      - adaptivecards-designer.TypedActionPeer
+      - adaptivecards-designer.TypedCardElementPeer
+      - adaptivecards-designer.IPropertySheetEditorCommand
+      - adaptivecards-designer.IVersionedChoice
+      - adaptivecards-designer.Dialog
+      - adaptivecards-designer.DialogButton
+      - adaptivecards-designer.Downloader
+      - adaptivecards-designer.DraggableElement
+      - adaptivecards-designer.FieldPicker
+      - adaptivecards-designer.FullScreenHandler
+      - adaptivecards-designer.HelpDialog
+      - adaptivecards-designer.Rect
+      - adaptivecards-designer.Utils
+      - adaptivecards-designer.IPoint
+      - adaptivecards-designer.OpenSampleDialog
+      - adaptivecards-designer.PeerCommand
+      - adaptivecards-designer.SettingsManager
+      - adaptivecards-designer.ILoadSettingResult
+      - adaptivecards-designer.GlobalSettings
+      - adaptivecards-designer.SidePanelAlignment
+      - adaptivecards-designer.SidePanel
+      - adaptivecards-designer.Splitter
+      - adaptivecards-designer.Strings
+      - adaptivecards-designer.ToolboxOrientation
+      - adaptivecards-designer.Toolbox
+      - adaptivecards-designer.IToolboxCommand
+      - adaptivecards-designer.BasePaletteItem
+      - adaptivecards-designer.CustomPaletteItem
+      - adaptivecards-designer.DataPaletteItem
+      - adaptivecards-designer.ElementPaletteItem
+      - adaptivecards-designer.SnippetPaletteItem
+      - adaptivecards-designer.ToolbarElementAlignment
+      - adaptivecards-designer.Toolbar
+      - adaptivecards-designer.ToolbarButton
+      - adaptivecards-designer.ToolbarChoicePicker
+      - adaptivecards-designer.ToolbarElement
+      - adaptivecards-designer.IChoicePickerItem
+      - adaptivecards-designer.TreeView
+    type: package
+    langs:
+      - typeScript
+references:
+  - uid: adaptivecards-designer.BaseTreeItem
+    name: BaseTreeItem
+  - uid: adaptivecards-designer.BindingPreviewMode
+    name: BindingPreviewMode
+  - uid: adaptivecards-designer.ActionPeerRegistry
+    name: ActionPeerRegistry
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+  - uid: adaptivecards-designer.CardElementPeerRegistry
+    name: CardElementPeerRegistry
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+  - uid: adaptivecards-designer.DesignerPeerRegistry
+    name: DesignerPeerRegistry
+  - uid: adaptivecards-designer.ActionPeerType
+    name: ActionPeerType
+  - uid: adaptivecards-designer.ActionType
+    name: ActionType
+  - uid: adaptivecards-designer.CardElementPeerType
+    name: CardElementPeerType
+  - uid: adaptivecards-designer.CardElementType
+    name: CardElementType
+  - uid: adaptivecards-designer.CardDesigner
+    name: CardDesigner
+  - uid: adaptivecards-designer.CardDesigner.ToolbarCommands
+    name: ToolbarCommands
+  - uid: adaptivecards-designer.CatalogueEntry
+    name: CatalogueEntry
+  - uid: adaptivecards-designer.SampleCatalogue
+    name: SampleCatalogue
+  - uid: adaptivecards-designer.BotFrameworkContainer
+    name: BotFrameworkContainer
+  - uid: adaptivecards-designer.CortanaClassicContainer
+    name: CortanaClassicContainer
+  - uid: adaptivecards-designer.BaseCortanaContainer
+    name: BaseCortanaContainer
+  - uid: adaptivecards-designer.DarkCortanaContainer
+    name: DarkCortanaContainer
+  - uid: adaptivecards-designer.LightCortanaContainer
+    name: LightCortanaContainer
+  - uid: adaptivecards-designer.DefaultContainer
+    name: DefaultContainer
+  - uid: adaptivecards-designer.HostContainer
+    name: HostContainer
+  - uid: adaptivecards-designer.ToastContainer
+    name: ToastContainer
+  - uid: adaptivecards-designer.OutlookContainer
+    name: OutlookContainer
+  - uid: adaptivecards-designer.SkypeContainer
+    name: SkypeContainer
+  - uid: adaptivecards-designer.BaseTeamsContainer
+    name: BaseTeamsContainer
+  - uid: adaptivecards-designer.DarkTeamsContainer
+    name: DarkTeamsContainer
+  - uid: adaptivecards-designer.LightTeamsContainer
+    name: LightTeamsContainer
+  - uid: adaptivecards-designer.TimelineContainer
+    name: TimelineContainer
+  - uid: adaptivecards-designer.WebChatContainer
+    name: WebChatContainer
+  - uid: adaptivecards-designer.DataTreeItem
+    name: DataTreeItem
+  - uid: adaptivecards-designer.ArrayData
+    name: ArrayData
+  - uid: adaptivecards-designer.DataType
+    name: DataType
+  - uid: adaptivecards-designer.FieldDefinition
+    name: FieldDefinition
+  - uid: adaptivecards-designer.ObjectData
+    name: ObjectData
+  - uid: adaptivecards-designer.ValueTypeData
+    name: ValueTypeData
+  - uid: adaptivecards-designer.IArrayData
+    name: IArrayData
+  - uid: adaptivecards-designer.IArrayField
+    name: IArrayField
+  - uid: adaptivecards-designer.IBooleanData
+    name: IBooleanData
+  - uid: adaptivecards-designer.IBooleanField
+    name: IBooleanField
+  - uid: adaptivecards-designer.IDataField
+    name: IDataField
+  - uid: adaptivecards-designer.INumberData
+    name: INumberData
+  - uid: adaptivecards-designer.INumberField
+    name: INumberField
+  - uid: adaptivecards-designer.IObjectData
+    name: IObjectData
+  - uid: adaptivecards-designer.IObjectField
+    name: IObjectField
+  - uid: adaptivecards-designer.IStringData
+    name: IStringData
+  - uid: adaptivecards-designer.IStringField
+    name: IStringField
+  - uid: adaptivecards-designer.IData
+    name: IData
+  - uid: adaptivecards-designer.IField
+    name: IField
+  - uid: adaptivecards-designer.ValueType
+    name: ValueType
+  - uid: adaptivecards-designer.DesignerPeerTreeItem
+    name: DesignerPeerTreeItem
+  - uid: adaptivecards-designer.ActionPeer
+    name: ActionPeer
+  - uid: adaptivecards-designer.ActionPropertyEditor
+    name: ActionPropertyEditor
+  - uid: adaptivecards-designer.ActionSetPeer
+    name: ActionSetPeer
+  - uid: adaptivecards-designer.AdaptiveCardPeer
+    name: AdaptiveCardPeer
+  - uid: adaptivecards-designer.BooleanPropertyEditor
+    name: BooleanPropertyEditor
+  - uid: adaptivecards-designer.CardElementPeer
+    name: CardElementPeer
+  - uid: adaptivecards-designer.CardElementPeerInplaceEditor
+    name: CardElementPeerInplaceEditor
+  - uid: adaptivecards-designer.ChoicePropertyEditor
+    name: ChoicePropertyEditor
+  - uid: adaptivecards-designer.ChoiceSetInputPeer
+    name: ChoiceSetInputPeer
+  - uid: adaptivecards-designer.ColumnPeer
+    name: ColumnPeer
+  - uid: adaptivecards-designer.ColumnSetPeer
+    name: ColumnSetPeer
+  - uid: adaptivecards-designer.ColumnWidthPropertyEditor
+    name: ColumnWidthPropertyEditor
+  - uid: adaptivecards-designer.CompoundPropertyEditor
+    name: CompoundPropertyEditor
+  - uid: adaptivecards-designer.ContainerPeer
+    name: ContainerPeer
+  - uid: adaptivecards-designer.ContainerStylePropertyEditor
+    name: ContainerStylePropertyEditor
+  - uid: adaptivecards-designer.CustomCardObjectPropertyEditor
+    name: CustomCardObjectPropertyEditor
+  - uid: adaptivecards-designer.CustomPropertySheetEntry
+    name: CustomPropertySheetEntry
+  - uid: adaptivecards-designer.DateInputPeer
+    name: DateInputPeer
+  - uid: adaptivecards-designer.DesignerPeer
+    name: DesignerPeer
+  - uid: adaptivecards-designer.DesignerPeerInplaceEditor
+    name: DesignerPeerInplaceEditor
+  - uid: adaptivecards-designer.DesignerPeerRegistration
+    name: DesignerPeerRegistration
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+    name: DesignerPeerRegistrationBase
+  - uid: adaptivecards-designer.EnumPropertyEditor
+    name: EnumPropertyEditor
+  - uid: adaptivecards-designer.FactSetPeer
+    name: FactSetPeer
+  - uid: adaptivecards-designer.HeightPropertyEditor
+    name: HeightPropertyEditor
+  - uid: adaptivecards-designer.HttpActionPeer
+    name: HttpActionPeer
+  - uid: adaptivecards-designer.ImagePeer
+    name: ImagePeer
+  - uid: adaptivecards-designer.ImageSetPeer
+    name: ImageSetPeer
+  - uid: adaptivecards-designer.InputPeer
+    name: InputPeer
+  - uid: adaptivecards-designer.MediaPeer
+    name: MediaPeer
+  - uid: adaptivecards-designer.NameValuePairPropertyEditor
+    name: NameValuePairPropertyEditor
+  - uid: adaptivecards-designer.NumberInputPeer
+    name: NumberInputPeer
+  - uid: adaptivecards-designer.NumberPropertyEditor
+    name: NumberPropertyEditor
+  - uid: adaptivecards-designer.ObjectPropertyEditor
+    name: ObjectPropertyEditor
+  - uid: adaptivecards-designer.OpenUrlActionPeer
+    name: OpenUrlActionPeer
+  - uid: adaptivecards-designer.PropertySheet
+    name: PropertySheet
+  - uid: adaptivecards-designer.PropertySheetCategory
+    name: PropertySheetCategory
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+  - uid: adaptivecards-designer.PropertySheetEntry
+    name: PropertySheetEntry
+  - uid: adaptivecards-designer.RichTextBlockPeer
+    name: RichTextBlockPeer
+  - uid: adaptivecards-designer.ShowCardActionPeer
+    name: ShowCardActionPeer
+  - uid: adaptivecards-designer.SingleInputPropertyEditor
+    name: SingleInputPropertyEditor
+  - uid: adaptivecards-designer.SizeAndUnitPropertyEditor
+    name: SizeAndUnitPropertyEditor
+  - uid: adaptivecards-designer.StringPropertyEditor
+    name: StringPropertyEditor
+  - uid: adaptivecards-designer.SubPropertySheetEntry
+    name: SubPropertySheetEntry
+  - uid: adaptivecards-designer.SubmitActionPeer
+    name: SubmitActionPeer
+  - uid: adaptivecards-designer.TextBlockPeer
+    name: TextBlockPeer
+  - uid: adaptivecards-designer.TextInputPeer
+    name: TextInputPeer
+  - uid: adaptivecards-designer.TimeInputPeer
+    name: TimeInputPeer
+  - uid: adaptivecards-designer.ToggleInputPeer
+    name: ToggleInputPeer
+  - uid: adaptivecards-designer.ToggleVisibilityActionPeer
+    name: ToggleVisibilityActionPeer
+  - uid: adaptivecards-designer.TypedActionPeer
+    name: TypedActionPeer
+  - uid: adaptivecards-designer.TypedCardElementPeer
+    name: TypedCardElementPeer
+  - uid: adaptivecards-designer.IPropertySheetEditorCommand
+    name: IPropertySheetEditorCommand
+  - uid: adaptivecards-designer.IVersionedChoice
+    name: IVersionedChoice
+  - uid: adaptivecards-designer.Dialog
+    name: Dialog
+  - uid: adaptivecards-designer.DialogButton
+    name: DialogButton
+  - uid: adaptivecards-designer.Downloader
+    name: Downloader
+  - uid: adaptivecards-designer.DraggableElement
+    name: DraggableElement
+  - uid: adaptivecards-designer.FieldPicker
+    name: FieldPicker
+  - uid: adaptivecards-designer.FullScreenHandler
+    name: FullScreenHandler
+  - uid: adaptivecards-designer.HelpDialog
+    name: HelpDialog
+  - uid: adaptivecards-designer.Rect
+    name: Rect
+  - uid: adaptivecards-designer.Utils
+    name: Utils
+  - uid: adaptivecards-designer.IPoint
+    name: IPoint
+  - uid: adaptivecards-designer.OpenSampleDialog
+    name: OpenSampleDialog
+  - uid: adaptivecards-designer.PeerCommand
+    name: PeerCommand
+  - uid: adaptivecards-designer.SettingsManager
+    name: SettingsManager
+  - uid: adaptivecards-designer.ILoadSettingResult
+    name: ILoadSettingResult
+  - uid: adaptivecards-designer.GlobalSettings
+    name: GlobalSettings
+  - uid: adaptivecards-designer.SidePanelAlignment
+    name: SidePanelAlignment
+  - uid: adaptivecards-designer.SidePanel
+    name: SidePanel
+  - uid: adaptivecards-designer.Splitter
+    name: Splitter
+  - uid: adaptivecards-designer.Strings
+    name: Strings
+  - uid: adaptivecards-designer.ToolboxOrientation
+    name: ToolboxOrientation
+  - uid: adaptivecards-designer.Toolbox
+    name: Toolbox
+  - uid: adaptivecards-designer.IToolboxCommand
+    name: IToolboxCommand
+  - uid: adaptivecards-designer.BasePaletteItem
+    name: BasePaletteItem
+  - uid: adaptivecards-designer.CustomPaletteItem
+    name: CustomPaletteItem
+  - uid: adaptivecards-designer.DataPaletteItem
+    name: DataPaletteItem
+  - uid: adaptivecards-designer.ElementPaletteItem
+    name: ElementPaletteItem
+  - uid: adaptivecards-designer.SnippetPaletteItem
+    name: SnippetPaletteItem
+  - uid: adaptivecards-designer.ToolbarElementAlignment
+    name: ToolbarElementAlignment
+  - uid: adaptivecards-designer.Toolbar
+    name: Toolbar
+  - uid: adaptivecards-designer.ToolbarButton
+    name: ToolbarButton
+  - uid: adaptivecards-designer.ToolbarChoicePicker
+    name: ToolbarChoicePicker
+  - uid: adaptivecards-designer.ToolbarElement
+    name: ToolbarElement
+  - uid: adaptivecards-designer.IChoicePickerItem
+    name: IChoicePickerItem
+  - uid: adaptivecards-designer.TreeView
+    name: TreeView

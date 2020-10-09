@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.stringToCssColor
+    name: stringToCssColor(string | undefined)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function stringToCssColor(color: string | undefined)'
+      parameters:
+        - id: color
+          type:
+            - string | undefined
+          description: ''
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: adaptivecards

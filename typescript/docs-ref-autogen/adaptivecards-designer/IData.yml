@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IData
+    name: IData
+    fullName: IData
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type IData = IStringData | IBooleanData | INumberData | IArrayData |
+        IObjectData
+    package: adaptivecards-designer

@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ColorDefinition
+    name: ColorDefinition
+    fullName: ColorDefinition
+    children:
+      - adaptivecards.ColorDefinition.constructor
+      - adaptivecards.ColorDefinition.default
+      - adaptivecards.ColorDefinition.parse
+      - adaptivecards.ColorDefinition.subtle
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorDefinition.constructor
+    name: 'ColorDefinition(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ColorDefinition(defaultColor?: string, subtleColor?: string)'
+      parameters:
+        - id: defaultColor
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: subtleColor
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ColorDefinition.default
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'default: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ColorDefinition.parse
+    name: parse(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ColorDefinition.subtle
+    name: subtle
+    fullName: subtle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'subtle: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards

@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.INumberData
+    name: INumberData
+    fullName: INumberData
+    children:
+      - adaptivecards-designer.INumberData.sampleValue
+      - adaptivecards-designer.INumberData.valueType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.INumberData.sampleValue
+    name: sampleValue
+    fullName: sampleValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sampleValue?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.INumberData.valueType
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'valueType: "Number"'
+      return:
+        type:
+          - '"Number"'
+        description: ''
+    package: adaptivecards-designer

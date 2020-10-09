@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.Downloader
+    name: Downloader
+    fullName: Downloader
+    children:
+      - adaptivecards-designer.Downloader.data
+      - adaptivecards-designer.Downloader.download
+      - adaptivecards-designer.Downloader.constructor
+      - adaptivecards-designer.Downloader.onError
+      - adaptivecards-designer.Downloader.onSuccess
+      - adaptivecards-designer.Downloader.url
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Downloader.data
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string data
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Downloader.download
+    name: download()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function download()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Downloader.constructor
+    name: Downloader(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Downloader(url: string)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Downloader.onError
+    name: onError
+    fullName: onError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onError: (sender: Downloader) => void'
+      return:
+        type:
+          - '(sender: Downloader) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Downloader.onSuccess
+    name: onSuccess
+    fullName: onSuccess
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onSuccess: (sender: Downloader) => void'
+      return:
+        type:
+          - '(sender: Downloader) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Downloader.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer

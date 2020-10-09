@@ -1,0 +1,169 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.CardObjectRegistry
+    name: CardObjectRegistry
+    fullName: CardObjectRegistry<T>
+    children:
+      - adaptivecards.CardObjectRegistry.clear
+      - adaptivecards.CardObjectRegistry.createInstance
+      - adaptivecards.CardObjectRegistry.findByName
+      - adaptivecards.CardObjectRegistry.getItemAt
+      - adaptivecards.CardObjectRegistry.getItemCount
+      - adaptivecards.CardObjectRegistry.register
+      - adaptivecards.CardObjectRegistry.unregister
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.CardObjectRegistry.clear
+    name: clear()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+    package: adaptivecards
+  - uid: adaptivecards.CardObjectRegistry.createInstance
+    name: 'createInstance(string, Version)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createInstance(typeName: string, targetVersion: Version)'
+      parameters:
+        - id: typeName
+          type:
+            - string
+          description: ''
+        - id: targetVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+      return:
+        type:
+          - T | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.CardObjectRegistry.findByName
+    name: findByName(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function findByName(typeName: string)'
+      parameters:
+        - id: typeName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards.ITypeRegistration<T> | undefined
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.CardObjectRegistry.getItemAt
+    name: getItemAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards.ITypeRegistration<T>
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.CardObjectRegistry.getItemCount
+    name: getItemCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getItemCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.CardObjectRegistry.register
+    name: 'register(string, Object, Version)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function register(typeName: string, objectType: Object, schemaVersion?:
+        Version)
+      parameters:
+        - id: typeName
+          type:
+            - string
+          description: ''
+        - id: objectType
+          type:
+            - Object
+          description: ''
+        - id: schemaVersion
+          type:
+            - adaptivecards.Version
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.CardObjectRegistry.unregister
+    name: unregister(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unregister(typeName: string)'
+      parameters:
+        - id: typeName
+          type:
+            - string
+          description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.Version
+    name: Version
+    spec.typeScript:
+      - name: Version
+        fullName: Version
+        uid: adaptivecards.Version
+  - uid: adaptivecards.ITypeRegistration<T> | undefined
+    name: ITypeRegistration<T> | undefined
+    spec.typeScript:
+      - name: ITypeRegistration
+        fullName: ITypeRegistration
+        uid: adaptivecards.ITypeRegistration
+      - name: <T> | undefined
+        fullName: <T> | undefined
+  - uid: adaptivecards.ITypeRegistration<T>
+    name: ITypeRegistration<T>
+    spec.typeScript:
+      - name: ITypeRegistration
+        fullName: ITypeRegistration
+        uid: adaptivecards.ITypeRegistration
+      - name: <T>
+        fullName: <T>

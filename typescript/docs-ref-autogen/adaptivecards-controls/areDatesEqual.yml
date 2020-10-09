@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.areDatesEqual
+    name: 'areDatesEqual(Date, Date)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function areDatesEqual(date1: Date, date2: Date)'
+      parameters:
+        - id: date1
+          type:
+            - Date
+          description: ''
+        - id: date2
+          type:
+            - Date
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls

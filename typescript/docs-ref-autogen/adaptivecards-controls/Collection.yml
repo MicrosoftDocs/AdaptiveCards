@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.Collection
+    name: Collection
+    fullName: Collection<TItem>
+    children:
+      - adaptivecards-controls.Collection.add
+      - adaptivecards-controls.Collection.get
+      - adaptivecards-controls.Collection.indexOf
+      - adaptivecards-controls.Collection.length
+      - adaptivecards-controls.Collection.onItemAdded
+      - adaptivecards-controls.Collection.onItemRemoved
+      - adaptivecards-controls.Collection.remove
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Collection.add
+    name: add(TItem)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add(item: TItem)'
+      parameters:
+        - id: item
+          type:
+            - TItem
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Collection.get
+    name: get(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - TItem
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Collection.indexOf
+    name: indexOf(TItem)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function indexOf(item: TItem)'
+      parameters:
+        - id: item
+          type:
+            - TItem
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Collection.length
+    name: length
+    fullName: length
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number length
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Collection.onItemAdded
+    name: onItemAdded
+    fullName: onItemAdded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onItemAdded: (item: TItem) => void'
+      return:
+        type:
+          - '(item: TItem) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Collection.onItemRemoved
+    name: onItemRemoved
+    fullName: onItemRemoved
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onItemRemoved: (item: TItem) => void'
+      return:
+        type:
+          - '(item: TItem) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Collection.remove
+    name: remove(TItem)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(item: TItem)'
+      parameters:
+        - id: item
+          type:
+            - TItem
+          description: ''
+    package: adaptivecards-controls

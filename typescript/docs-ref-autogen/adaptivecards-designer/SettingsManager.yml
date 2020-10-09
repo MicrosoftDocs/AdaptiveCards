@@ -1,0 +1,138 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.SettingsManager
+    name: SettingsManager
+    fullName: SettingsManager
+    children:
+      - adaptivecards-designer.SettingsManager.isLocalStorageAvailable
+      - adaptivecards-designer.SettingsManager.tryLoadBooleanSetting
+      - adaptivecards-designer.SettingsManager.tryLoadNumberSetting
+      - adaptivecards-designer.SettingsManager.tryLoadStringSetting
+      - adaptivecards-designer.SettingsManager.trySaveSetting
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SettingsManager.isLocalStorageAvailable
+    name: isLocalStorageAvailable
+    fullName: isLocalStorageAvailable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: static boolean isLocalStorageAvailable
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SettingsManager.tryLoadBooleanSetting
+    name: 'tryLoadBooleanSetting(string, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function tryLoadBooleanSetting(name: string, defaultValue:
+        boolean)
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: defaultValue
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.ILoadSettingResult<boolean>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SettingsManager.tryLoadNumberSetting
+    name: tryLoadNumberSetting(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function tryLoadNumberSetting(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.ILoadSettingResult<number>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SettingsManager.tryLoadStringSetting
+    name: tryLoadStringSetting(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function tryLoadStringSetting(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.ILoadSettingResult<string>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SettingsManager.trySaveSetting
+    name: 'trySaveSetting(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function trySaveSetting(name: string, value: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.ILoadSettingResult<boolean>
+    name: ILoadSettingResult<boolean>
+    spec.typeScript:
+      - name: ILoadSettingResult
+        fullName: ILoadSettingResult
+        uid: adaptivecards-designer.ILoadSettingResult
+      - name: <boolean>
+        fullName: <boolean>
+  - uid: adaptivecards-designer.ILoadSettingResult<number>
+    name: ILoadSettingResult<number>
+    spec.typeScript:
+      - name: ILoadSettingResult
+        fullName: ILoadSettingResult
+        uid: adaptivecards-designer.ILoadSettingResult
+      - name: <number>
+        fullName: <number>
+  - uid: adaptivecards-designer.ILoadSettingResult<string>
+    name: ILoadSettingResult<string>
+    spec.typeScript:
+      - name: ILoadSettingResult
+        fullName: ILoadSettingResult
+        uid: adaptivecards-designer.ILoadSettingResult
+      - name: <string>
+        fullName: <string>

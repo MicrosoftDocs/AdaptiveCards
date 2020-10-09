@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.DayOfWeek
+    name: DayOfWeek
+    fullName: DayOfWeek
+    children:
+      - adaptivecards-controls.DayOfWeek.Sunday
+      - adaptivecards-controls.DayOfWeek.Monday
+      - adaptivecards-controls.DayOfWeek.Tuesday
+      - adaptivecards-controls.DayOfWeek.Wednesday
+      - adaptivecards-controls.DayOfWeek.Thursday
+      - adaptivecards-controls.DayOfWeek.Friday
+      - adaptivecards-controls.DayOfWeek.Saturday
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayOfWeek.Sunday
+    name: Sunday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayOfWeek.Monday
+    name: Monday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayOfWeek.Tuesday
+    name: Tuesday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayOfWeek.Wednesday
+    name: Wednesday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayOfWeek.Thursday
+    name: Thursday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 4
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayOfWeek.Friday
+    name: Friday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DayOfWeek.Saturday
+    name: Saturday
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+    package: adaptivecards-controls

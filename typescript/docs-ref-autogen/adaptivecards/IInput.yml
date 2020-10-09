@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IInput
+    name: IInput
+    fullName: IInput
+    children:
+      - adaptivecards.IInput.id
+      - adaptivecards.IInput.validateValue
+      - adaptivecards.IInput.value
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IInput.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'id?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IInput.validateValue
+    name: validateValue()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function validateValue()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IInput.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'value?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards

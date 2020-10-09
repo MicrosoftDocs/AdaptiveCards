@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    fullName: Spacing
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type Spacing = "none" | "small" | "default" | "medium" | "large" |
+        "extraLarge" | "padding"
+    package: adaptivecards

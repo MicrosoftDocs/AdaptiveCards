@@ -1,0 +1,187 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.SizeAndUnitPropertyEditor
+    name: SizeAndUnitPropertyEditor
+    fullName: SizeAndUnitPropertyEditor
+    children:
+      - >-
+        adaptivecards-designer.SizeAndUnitPropertyEditor.causesPropertySheetRefresh
+      - adaptivecards-designer.SizeAndUnitPropertyEditor.defaultValue
+      - adaptivecards-designer.SizeAndUnitPropertyEditor.label
+      - adaptivecards-designer.SizeAndUnitPropertyEditor.propertyName
+      - adaptivecards-designer.SizeAndUnitPropertyEditor.render
+      - adaptivecards-designer.SizeAndUnitPropertyEditor.constructor
+      - adaptivecards-designer.SizeAndUnitPropertyEditor.sizeUnit
+      - adaptivecards-designer.SizeAndUnitPropertyEditor.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.NumberPropertyEditor
+    package: adaptivecards-designer
+  - uid: >-
+      adaptivecards-designer.SizeAndUnitPropertyEditor.causesPropertySheetRefresh
+    name: causesPropertySheetRefresh
+    fullName: causesPropertySheetRefresh
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'causesPropertySheetRefresh: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SizeAndUnitPropertyEditor.defaultValue
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'defaultValue: number | undefined'
+      return:
+        type:
+          - number | undefined
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SizeAndUnitPropertyEditor.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SizeAndUnitPropertyEditor.propertyName
+    name: propertyName
+    fullName: propertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SizeAndUnitPropertyEditor.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SizeAndUnitPropertyEditor.constructor
+    name: >-
+      SizeAndUnitPropertyEditor(Adaptive.TargetVersion, string, string,
+      SizeUnit, number | undefined, boolean)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new SizeAndUnitPropertyEditor(targetVersion: Adaptive.TargetVersion,
+        propertyName: string, label: string, sizeUnit: SizeUnit, defaultValue?:
+        number | undefined, causesPropertySheetRefresh?: boolean)
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: label
+          type:
+            - string
+          description: ''
+        - id: sizeUnit
+          type:
+            - SizeUnit
+          description: ''
+        - id: defaultValue
+          type:
+            - number | undefined
+          description: ''
+          optional: true
+        - id: causesPropertySheetRefresh
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SizeAndUnitPropertyEditor.sizeUnit
+    name: sizeUnit
+    fullName: sizeUnit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sizeUnit: SizeUnit'
+      return:
+        type:
+          - SizeUnit
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SizeAndUnitPropertyEditor.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.NumberPropertyEditor
+    name: NumberPropertyEditor
+    spec.typeScript:
+      - name: NumberPropertyEditor
+        fullName: NumberPropertyEditor
+        uid: adaptivecards-designer.NumberPropertyEditor
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

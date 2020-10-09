@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.DesignContext
+    name: DesignContext
+    fullName: DesignContext
+    children:
+      - adaptivecards-designer.DesignContext.bindingPreviewMode
+      - adaptivecards-designer.DesignContext.dataStructure
+      - adaptivecards-designer.DesignContext.hostContainer
+      - adaptivecards-designer.DesignContext.sampleData
+      - adaptivecards-designer.DesignContext.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignContext.bindingPreviewMode
+    name: bindingPreviewMode
+    fullName: bindingPreviewMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: BindingPreviewMode bindingPreviewMode
+      return:
+        type:
+          - adaptivecards-designer.BindingPreviewMode
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignContext.dataStructure
+    name: dataStructure
+    fullName: dataStructure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: FieldDefinition dataStructure
+      return:
+        type:
+          - adaptivecards-designer.FieldDefinition
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignContext.hostContainer
+    name: hostContainer
+    fullName: hostContainer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HostContainer hostContainer
+      return:
+        type:
+          - adaptivecards-designer.HostContainer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignContext.sampleData
+    name: sampleData
+    fullName: sampleData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: any sampleData
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.DesignContext.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Version targetVersion
+      return:
+        type:
+          - Version
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.BindingPreviewMode
+    name: BindingPreviewMode
+    spec.typeScript:
+      - name: BindingPreviewMode
+        fullName: BindingPreviewMode
+        uid: adaptivecards-designer.BindingPreviewMode
+  - uid: adaptivecards-designer.FieldDefinition
+    name: FieldDefinition
+    spec.typeScript:
+      - name: FieldDefinition
+        fullName: FieldDefinition
+        uid: adaptivecards-designer.FieldDefinition
+  - uid: adaptivecards-designer.HostContainer
+    name: HostContainer
+    spec.typeScript:
+      - name: HostContainer
+        fullName: HostContainer
+        uid: adaptivecards-designer.HostContainer

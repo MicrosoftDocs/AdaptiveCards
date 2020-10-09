@@ -1,0 +1,190 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.PopupMenu
+    name: PopupMenu
+    fullName: PopupMenu
+    children:
+      - adaptivecards-controls.PopupMenu.closePopup
+      - adaptivecards-controls.PopupMenu.focus
+      - adaptivecards-controls.PopupMenu.isOpen
+      - adaptivecards-controls.PopupMenu.items
+      - adaptivecards-controls.PopupMenu.keyDown
+      - adaptivecards-controls.PopupMenu.onClose
+      - adaptivecards-controls.PopupMenu.popup
+      - adaptivecards-controls.PopupMenu.constructor
+      - adaptivecards-controls.PopupMenu.render
+      - adaptivecards-controls.PopupMenu.selectedIndex
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-controls.PopupControl
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.closePopup
+    name: closePopup(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.focus
+    name: focus()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function focus()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.isOpen
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.items
+    name: items
+    fullName: items
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Collection<DropDownItem> items
+      return:
+        type:
+          - >-
+            adaptivecards-controls.Collection<adaptivecards-controls.DropDownItem>
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.keyDown
+    name: keyDown(KeyboardEvent)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function keyDown(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type:
+            - KeyboardEvent
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.onClose
+    name: onClose
+    fullName: onClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClose: (popupControl: PopupControl, wasCancelled: boolean) => void'
+      return:
+        type:
+          - '(popupControl: PopupControl, wasCancelled: boolean) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.popup
+    name: popup(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function popup(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.constructor
+    name: PopupMenu()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new PopupMenu()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.render
+    name: render(ClientRect)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(rootElementBounds: ClientRect)'
+      parameters:
+        - id: rootElementBounds
+          type:
+            - ClientRect
+          description: ''
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.PopupMenu.selectedIndex
+    name: selectedIndex
+    fullName: selectedIndex
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: number selectedIndex
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-controls
+references:
+  - uid: adaptivecards-controls.PopupControl
+    name: PopupControl
+    spec.typeScript:
+      - name: PopupControl
+        fullName: PopupControl
+        uid: adaptivecards-controls.PopupControl
+  - uid: adaptivecards-controls.Collection<adaptivecards-controls.DropDownItem>
+    name: DropDownItem>
+    spec.typeScript:
+      - name: Collection
+        fullName: Collection
+        uid: adaptivecards-controls.Collection
+      - name: <
+        fullName: <
+      - name: DropDownItem
+        fullName: DropDownItem
+        uid: adaptivecards-controls.DropDownItem
+      - name: '>'
+        fullName: '>'

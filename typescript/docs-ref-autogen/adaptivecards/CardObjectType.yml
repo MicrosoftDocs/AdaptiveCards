@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.CardObjectType
+    name: CardObjectType
+    fullName: CardObjectType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type CardObjectType = {  }'
+    package: adaptivecards

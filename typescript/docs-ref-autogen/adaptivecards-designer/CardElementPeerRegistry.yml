@@ -1,0 +1,243 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.CardElementPeerRegistry
+    name: CardElementPeerRegistry
+    fullName: CardElementPeerRegistry
+    children:
+      - adaptivecards-designer.CardElementPeerRegistry.constructor
+      - adaptivecards-designer.CardElementPeerRegistry.clear
+      - adaptivecards-designer.CardElementPeerRegistry.createPeerInstance
+      - adaptivecards-designer.CardElementPeerRegistry.defaultRegistration
+      - adaptivecards-designer.CardElementPeerRegistry.findTypeRegistration
+      - adaptivecards-designer.CardElementPeerRegistry.registerPeer
+      - adaptivecards-designer.CardElementPeerRegistry.reset
+      - adaptivecards-designer.CardElementPeerRegistry.unregisterPeer
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        adaptivecards-designer.DesignerPeerRegistry<adaptivecards-designer.CardElementType,
+        adaptivecards-designer.CardElementPeerType>
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerRegistry.constructor
+    name: CardElementPeerRegistry()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new CardElementPeerRegistry()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerRegistry.clear
+    name: clear()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerRegistry.createPeerInstance
+    name: 'createPeerInstance(CardDesignerSurface, DesignerPeer, CardElement)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createPeerInstance(designerSurface: CardDesignerSurface,
+        parent: DesignerPeer, cardElement: CardElement)
+      parameters:
+        - id: designerSurface
+          type:
+            - adaptivecards-designer.CardDesignerSurface
+          description: ''
+        - id: parent
+          type:
+            - adaptivecards-designer.DesignerPeer
+          description: ''
+        - id: cardElement
+          type:
+            - CardElement
+          description: ''
+      return:
+        type:
+          - adaptivecards-designer.CardElementPeer
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerRegistry.defaultRegistration
+    name: defaultRegistration
+    fullName: defaultRegistration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'defaultRegistration: DesignerPeerRegistrationBase'
+      return:
+        type:
+          - adaptivecards-designer.DesignerPeerRegistrationBase
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerRegistry.findTypeRegistration
+    name: findTypeRegistration(CardElementType)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function findTypeRegistration(sourceType: CardElementType)'
+      parameters:
+        - id: sourceType
+          type:
+            - adaptivecards-designer.CardElementType
+          description: ''
+      return:
+        type:
+          - >-
+            adaptivecards-designer.DesignerPeerRegistration<adaptivecards-designer.CardElementType,
+            adaptivecards-designer.CardElementPeerType>
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerRegistry.registerPeer
+    name: 'registerPeer(CardElementType, CardElementPeerType, string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function registerPeer(sourceType: CardElementType, peerType:
+        CardElementPeerType, category: string, iconClass?: string)
+      parameters:
+        - id: sourceType
+          type:
+            - adaptivecards-designer.CardElementType
+          description: ''
+        - id: peerType
+          type:
+            - adaptivecards-designer.CardElementPeerType
+          description: ''
+        - id: category
+          type:
+            - string
+          description: ''
+        - id: iconClass
+          type:
+            - string
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerRegistry.reset
+    name: reset()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function reset()
+      parameters: []
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CardElementPeerRegistry.unregisterPeer
+    name: unregisterPeer(CardElementType)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unregisterPeer(sourceType: CardElementType)'
+      parameters:
+        - id: sourceType
+          type:
+            - adaptivecards-designer.CardElementType
+          description: ''
+    package: adaptivecards-designer
+references:
+  - uid: >-
+      adaptivecards-designer.DesignerPeerRegistry<adaptivecards-designer.CardElementType,
+      adaptivecards-designer.CardElementPeerType>
+    name: CardElementPeerType>
+    spec.typeScript:
+      - name: DesignerPeerRegistry
+        fullName: DesignerPeerRegistry
+        uid: adaptivecards-designer.DesignerPeerRegistry
+      - name: <
+        fullName: <
+      - name: CardElementType
+        fullName: CardElementType
+        uid: adaptivecards-designer.CardElementType
+      - name: ', '
+        fullName: ', '
+      - name: CardElementPeerType
+        fullName: CardElementPeerType
+        uid: adaptivecards-designer.CardElementPeerType
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+    name: DesignerPeerRegistrationBase
+    spec.typeScript:
+      - name: DesignerPeerRegistrationBase
+        fullName: DesignerPeerRegistrationBase
+        uid: adaptivecards-designer.DesignerPeerRegistrationBase
+  - uid: adaptivecards-designer.CardDesignerSurface
+    name: CardDesignerSurface
+    spec.typeScript:
+      - name: CardDesignerSurface
+        fullName: CardDesignerSurface
+        uid: adaptivecards-designer.CardDesignerSurface
+  - uid: adaptivecards-designer.DesignerPeer
+    name: DesignerPeer
+    spec.typeScript:
+      - name: DesignerPeer
+        fullName: DesignerPeer
+        uid: adaptivecards-designer.DesignerPeer
+  - uid: adaptivecards-designer.CardElementPeer
+    name: CardElementPeer
+    spec.typeScript:
+      - name: CardElementPeer
+        fullName: CardElementPeer
+        uid: adaptivecards-designer.CardElementPeer
+  - uid: adaptivecards-designer.CardElementType
+    name: CardElementType
+    spec.typeScript:
+      - name: CardElementType
+        fullName: CardElementType
+        uid: adaptivecards-designer.CardElementType
+  - uid: >-
+      adaptivecards-designer.DesignerPeerRegistration<adaptivecards-designer.CardElementType,
+      adaptivecards-designer.CardElementPeerType>
+    name: CardElementPeerType>
+    spec.typeScript:
+      - name: DesignerPeerRegistration
+        fullName: DesignerPeerRegistration
+        uid: adaptivecards-designer.DesignerPeerRegistration
+      - name: <
+        fullName: <
+      - name: CardElementType
+        fullName: CardElementType
+        uid: adaptivecards-designer.CardElementType
+      - name: ', '
+        fullName: ', '
+      - name: CardElementPeerType
+        fullName: CardElementPeerType
+        uid: adaptivecards-designer.CardElementPeerType
+      - name: '>'
+        fullName: '>'
+  - uid: adaptivecards-designer.CardElementPeerType
+    name: CardElementPeerType
+    spec.typeScript:
+      - name: CardElementPeerType
+        fullName: CardElementPeerType
+        uid: adaptivecards-designer.CardElementPeerType

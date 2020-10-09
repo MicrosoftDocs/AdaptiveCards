@@ -1,0 +1,118 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.SubPropertySheetEntry
+    name: SubPropertySheetEntry
+    fullName: SubPropertySheetEntry
+    children:
+      - adaptivecards-designer.SubPropertySheetEntry.propertySheet
+      - adaptivecards-designer.SubPropertySheetEntry.render
+      - adaptivecards-designer.SubPropertySheetEntry.constructor
+      - adaptivecards-designer.SubPropertySheetEntry.target
+      - adaptivecards-designer.SubPropertySheetEntry.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SubPropertySheetEntry.propertySheet
+    name: propertySheet
+    fullName: propertySheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertySheet: PropertySheet'
+      return:
+        type:
+          - adaptivecards-designer.PropertySheet
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SubPropertySheetEntry.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SubPropertySheetEntry.constructor
+    name: 'SubPropertySheetEntry(Adaptive.TargetVersion, object, PropertySheet)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new SubPropertySheetEntry(targetVersion: Adaptive.TargetVersion, target:
+        object, propertySheet: PropertySheet)
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+        - id: target
+          type:
+            - object
+          description: ''
+        - id: propertySheet
+          type:
+            - adaptivecards-designer.PropertySheet
+          description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SubPropertySheetEntry.target
+    name: target
+    fullName: target
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'target: object'
+      return:
+        type:
+          - object
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SubPropertySheetEntry.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.PropertySheet
+    name: PropertySheet
+    spec.typeScript:
+      - name: PropertySheet
+        fullName: PropertySheet
+        uid: adaptivecards-designer.PropertySheet
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

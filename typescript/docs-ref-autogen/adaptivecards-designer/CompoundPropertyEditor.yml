@@ -1,0 +1,131 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.CompoundPropertyEditor
+    name: CompoundPropertyEditor
+    fullName: CompoundPropertyEditor
+    children:
+      - adaptivecards-designer.CompoundPropertyEditor.constructor
+      - adaptivecards-designer.CompoundPropertyEditor.entries
+      - adaptivecards-designer.CompoundPropertyEditor.propertyName
+      - adaptivecards-designer.CompoundPropertyEditor.render
+      - adaptivecards-designer.CompoundPropertyEditor.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.PropertySheetEntry
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CompoundPropertyEditor.constructor
+    name: >-
+      CompoundPropertyEditor(Adaptive.TargetVersion, string,
+      PropertySheetEntry[])
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new CompoundPropertyEditor(targetVersion: Adaptive.TargetVersion,
+        propertyName: string, entries?: PropertySheetEntry[])
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: entries
+          type:
+            - 'adaptivecards-designer.PropertySheetEntry[]'
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CompoundPropertyEditor.entries
+    name: entries
+    fullName: entries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'entries: PropertySheetEntry[]'
+      return:
+        type:
+          - 'adaptivecards-designer.PropertySheetEntry[]'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CompoundPropertyEditor.propertyName
+    name: propertyName
+    fullName: propertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CompoundPropertyEditor.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.CompoundPropertyEditor.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.PropertySheetEntry
+    name: PropertySheetEntry
+    spec.typeScript:
+      - name: PropertySheetEntry
+        fullName: PropertySheetEntry
+        uid: adaptivecards-designer.PropertySheetEntry
+  - uid: 'adaptivecards-designer.PropertySheetEntry[]'
+    name: 'PropertySheetEntry[]'
+    spec.typeScript:
+      - name: PropertySheetEntry
+        fullName: PropertySheetEntry
+        uid: adaptivecards-designer.PropertySheetEntry
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

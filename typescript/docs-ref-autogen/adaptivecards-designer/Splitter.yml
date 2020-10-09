@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.Splitter
+    name: Splitter
+    fullName: Splitter
+    children:
+      - adaptivecards-designer.Splitter.attachedTo
+      - adaptivecards-designer.Splitter.minimum
+      - adaptivecards-designer.Splitter.onResized
+      - adaptivecards-designer.Splitter.onResizeEnded
+      - adaptivecards-designer.Splitter.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Splitter.attachedTo
+    name: attachedTo
+    fullName: attachedTo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'attachedTo: HTMLElement'
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Splitter.minimum
+    name: minimum
+    fullName: minimum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'minimum: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Splitter.onResized
+    name: onResized
+    fullName: onResized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onResized: (sender: Splitter) => void'
+      return:
+        type:
+          - '(sender: Splitter) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Splitter.onResizeEnded
+    name: onResizeEnded
+    fullName: onResizeEnded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onResizeEnded: (sender: Splitter) => void'
+      return:
+        type:
+          - '(sender: Splitter) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Splitter.constructor
+    name: 'Splitter(HTMLElement, HTMLElement, boolean, boolean, number)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new Splitter(attachedTo: HTMLElement, sizedElement: HTMLElement,
+        isVertical?: boolean, isAttachedAfter?: boolean, minimumSize?: number)
+      parameters:
+        - id: attachedTo
+          type:
+            - HTMLElement
+          description: ''
+        - id: sizedElement
+          type:
+            - HTMLElement
+          description: ''
+        - id: isVertical
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: isAttachedAfter
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: minimumSize
+          type:
+            - number
+          description: ''
+          optional: true
+    package: adaptivecards-designer

@@ -1,0 +1,309 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ToolbarButton
+    name: ToolbarButton
+    fullName: ToolbarButton
+    children:
+      - adaptivecards-designer.ToolbarButton.alignment
+      - adaptivecards-designer.ToolbarButton.allowToggle
+      - adaptivecards-designer.ToolbarButton.caption
+      - adaptivecards-designer.ToolbarButton.displayCaption
+      - adaptivecards-designer.ToolbarButton.iconClass
+      - adaptivecards-designer.ToolbarButton.id
+      - adaptivecards-designer.ToolbarButton.isEnabled
+      - adaptivecards-designer.ToolbarButton.isToggled
+      - adaptivecards-designer.ToolbarButton.isVisible
+      - adaptivecards-designer.ToolbarButton.label
+      - adaptivecards-designer.ToolbarButton.onClick
+      - adaptivecards-designer.ToolbarButton.render
+      - adaptivecards-designer.ToolbarButton.renderedElement
+      - adaptivecards-designer.ToolbarButton.separator
+      - adaptivecards-designer.ToolbarButton.constructor
+      - adaptivecards-designer.ToolbarButton.toolTip
+      - adaptivecards-designer.ToolbarButton.updateLayout
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.ToolbarElement
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.alignment
+    name: alignment
+    fullName: alignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'alignment: ToolbarElementAlignment'
+      return:
+        type:
+          - adaptivecards-designer.ToolbarElementAlignment
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.allowToggle
+    name: allowToggle
+    fullName: allowToggle
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean allowToggle
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.caption
+    name: caption
+    fullName: caption
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string caption
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.displayCaption
+    name: displayCaption
+    fullName: displayCaption
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean displayCaption
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.iconClass
+    name: iconClass
+    fullName: iconClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string iconClass
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.isEnabled
+    name: isEnabled
+    fullName: isEnabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isEnabled
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.isToggled
+    name: isToggled
+    fullName: isToggled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isToggled
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.isVisible
+    name: isVisible
+    fullName: isVisible
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isVisible: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (sender: ToolbarButton) => void'
+      return:
+        type:
+          - '(sender: ToolbarButton) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.separator
+    name: separator
+    fullName: separator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'separator: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.constructor
+    name: 'ToolbarButton(string, string, string, (sender: ToolbarButton) => void)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new ToolbarButton(id: string, caption: string, iconClass: string,
+        onClick?: (sender: ToolbarButton) => void)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: caption
+          type:
+            - string
+          description: ''
+        - id: iconClass
+          type:
+            - string
+          description: ''
+        - id: onClick
+          type:
+            - '(sender: ToolbarButton) => void'
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.toolTip
+    name: toolTip
+    fullName: toolTip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string toolTip
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.ToolbarButton.updateLayout
+    name: updateLayout()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function updateLayout()
+      parameters: []
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.ToolbarElement
+    name: ToolbarElement
+    spec.typeScript:
+      - name: ToolbarElement
+        fullName: ToolbarElement
+        uid: adaptivecards-designer.ToolbarElement
+  - uid: adaptivecards-designer.ToolbarElementAlignment
+    name: ToolbarElementAlignment
+    spec.typeScript:
+      - name: ToolbarElementAlignment
+        fullName: ToolbarElementAlignment
+        uid: adaptivecards-designer.ToolbarElementAlignment

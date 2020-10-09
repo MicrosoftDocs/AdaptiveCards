@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ContainerFitStatus
+    name: ContainerFitStatus
+    fullName: ContainerFitStatus
+    children:
+      - adaptivecards.ContainerFitStatus.FullyInContainer
+      - adaptivecards.ContainerFitStatus.Overflowing
+      - adaptivecards.ContainerFitStatus.FullyOutOfContainer
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerFitStatus.FullyInContainer
+    name: FullyInContainer
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards
+  - uid: adaptivecards.ContainerFitStatus.Overflowing
+    name: Overflowing
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards
+  - uid: adaptivecards.ContainerFitStatus.FullyOutOfContainer
+    name: FullyOutOfContainer
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards

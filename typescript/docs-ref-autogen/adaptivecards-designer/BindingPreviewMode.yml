@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.BindingPreviewMode
+    name: BindingPreviewMode
+    fullName: BindingPreviewMode
+    children:
+      - adaptivecards-designer.BindingPreviewMode.NoPreview
+      - adaptivecards-designer.BindingPreviewMode.GeneratedData
+      - adaptivecards-designer.BindingPreviewMode.SampleData
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BindingPreviewMode.NoPreview
+    name: NoPreview
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BindingPreviewMode.GeneratedData
+    name: GeneratedData
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.BindingPreviewMode.SampleData
+    name: SampleData
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards-designer

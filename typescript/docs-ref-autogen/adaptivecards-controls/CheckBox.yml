@@ -1,0 +1,84 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.CheckBox
+    name: CheckBox
+    fullName: CheckBox
+    children:
+      - adaptivecards-controls.CheckBox.attach
+      - adaptivecards-controls.CheckBox.isChecked
+      - adaptivecards-controls.CheckBox.label
+      - adaptivecards-controls.CheckBox.onChange
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-controls.InputControl
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CheckBox.attach
+    name: attach(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CheckBox.isChecked
+    name: isChecked
+    fullName: isChecked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isChecked
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CheckBox.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string label
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.CheckBox.onChange
+    name: onChange
+    fullName: onChange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onChange: (sender: CheckBox) => void'
+      return:
+        type:
+          - '(sender: CheckBox) => void'
+        description: ''
+    package: adaptivecards-controls
+references:
+  - uid: adaptivecards-controls.InputControl
+    name: InputControl
+    spec.typeScript:
+      - name: InputControl
+        fullName: InputControl
+        uid: adaptivecards-controls.InputControl

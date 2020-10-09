@@ -1,0 +1,183 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.PeerCommand
+    name: PeerCommand
+    fullName: PeerCommand
+    children:
+      - adaptivecards-designer.PeerCommand.alwaysShowName
+      - adaptivecards-designer.PeerCommand.execute
+      - adaptivecards-designer.PeerCommand.iconClass
+      - adaptivecards-designer.PeerCommand.isPromotable
+      - adaptivecards-designer.PeerCommand.name
+      - adaptivecards-designer.PeerCommand.constructor
+      - adaptivecards-designer.PeerCommand.render
+      - adaptivecards-designer.PeerCommand.renderedElement
+      - adaptivecards-designer.PeerCommand.showInPropertySheet
+      - adaptivecards-designer.PeerCommand.toolTip
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.alwaysShowName
+    name: alwaysShowName
+    fullName: alwaysShowName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'alwaysShowName: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.execute
+    name: execute
+    fullName: execute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'execute: (command: PeerCommand, clickedElement: HTMLElement) => void'
+      return:
+        type:
+          - '(command: PeerCommand, clickedElement: HTMLElement) => void'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.iconClass
+    name: iconClass
+    fullName: iconClass
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'iconClass: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.isPromotable
+    name: isPromotable
+    fullName: isPromotable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isPromotable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.constructor
+    name: PeerCommand(Partial<PeerCommand>)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new PeerCommand(init?: Partial<PeerCommand>)'
+      parameters:
+        - id: init
+          type:
+            - Partial<adaptivecards-designer.PeerCommand>
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.renderedElement
+    name: renderedElement
+    fullName: renderedElement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.showInPropertySheet
+    name: showInPropertySheet
+    fullName: showInPropertySheet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'showInPropertySheet: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.PeerCommand.toolTip
+    name: toolTip
+    fullName: toolTip
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'toolTip: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: Partial<adaptivecards-designer.PeerCommand>
+    name: PeerCommand>
+    spec.typeScript:
+      - name: Partial<
+        fullName: Partial<
+      - name: PeerCommand
+        fullName: PeerCommand
+        uid: adaptivecards-designer.PeerCommand
+      - name: '>'
+        fullName: '>'

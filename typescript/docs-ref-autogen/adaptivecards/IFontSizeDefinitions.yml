@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.IFontSizeDefinitions
+    name: IFontSizeDefinitions
+    fullName: IFontSizeDefinitions
+    children:
+      - adaptivecards.IFontSizeDefinitions.default
+      - adaptivecards.IFontSizeDefinitions.extraLarge
+      - adaptivecards.IFontSizeDefinitions.large
+      - adaptivecards.IFontSizeDefinitions.medium
+      - adaptivecards.IFontSizeDefinitions.small
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.IFontSizeDefinitions.default
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'default: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IFontSizeDefinitions.extraLarge
+    name: extraLarge
+    fullName: extraLarge
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'extraLarge: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IFontSizeDefinitions.large
+    name: large
+    fullName: large
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'large: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IFontSizeDefinitions.medium
+    name: medium
+    fullName: medium
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'medium: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.IFontSizeDefinitions.small
+    name: small
+    fullName: small
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'small: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards

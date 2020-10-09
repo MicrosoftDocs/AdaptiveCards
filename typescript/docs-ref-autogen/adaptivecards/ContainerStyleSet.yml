@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ContainerStyleSet
+    name: ContainerStyleSet
+    fullName: ContainerStyleSet
+    children:
+      - adaptivecards.ContainerStyleSet.constructor
+      - adaptivecards.ContainerStyleSet.default
+      - adaptivecards.ContainerStyleSet.emphasis
+      - adaptivecards.ContainerStyleSet.getStyleByName
+      - adaptivecards.ContainerStyleSet.toJSON
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleSet.constructor
+    name: ContainerStyleSet(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ContainerStyleSet(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleSet.default
+    name: default
+    fullName: default
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ContainerStyleDefinition default
+      return:
+        type:
+          - adaptivecards.ContainerStyleDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleSet.emphasis
+    name: emphasis
+    fullName: emphasis
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: ContainerStyleDefinition emphasis
+      return:
+        type:
+          - adaptivecards.ContainerStyleDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleSet.getStyleByName
+    name: 'getStyleByName(string | undefined, ContainerStyleDefinition)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getStyleByName(name: string | undefined, defaultValue?:
+        ContainerStyleDefinition)
+      parameters:
+        - id: name
+          type:
+            - string | undefined
+          description: ''
+        - id: defaultValue
+          type:
+            - adaptivecards.ContainerStyleDefinition
+          description: ''
+          optional: true
+      return:
+        type:
+          - adaptivecards.ContainerStyleDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ContainerStyleSet.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ContainerStyleDefinition
+    name: ContainerStyleDefinition
+    spec.typeScript:
+      - name: ContainerStyleDefinition
+        fullName: ContainerStyleDefinition
+        uid: adaptivecards.ContainerStyleDefinition

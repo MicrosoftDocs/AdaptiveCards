@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.VerticalAlignment
+    name: VerticalAlignment
+    fullName: VerticalAlignment
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type VerticalAlignment = "top" | "center" | "bottom"
+    package: adaptivecards

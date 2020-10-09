@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.Constants
+    name: Constants
+    fullName: Constants
+    children:
+      - adaptivecards-controls.Constants.keys
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.Constants.keys
+    name: keys
+    fullName: keys
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static keys: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards-controls

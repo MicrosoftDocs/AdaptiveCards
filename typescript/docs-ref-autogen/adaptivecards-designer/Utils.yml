@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.Utils
+    name: Utils
+    fullName: Utils
+    children:
+      - adaptivecards-designer.Utils.isAbsoluteUrl
+      - adaptivecards-designer.Utils.joinPaths
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Utils.isAbsoluteUrl
+    name: isAbsoluteUrl(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function isAbsoluteUrl(urlString: string)'
+      parameters:
+        - id: urlString
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.Utils.joinPaths
+    name: 'joinPaths(string[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function joinPaths(args: string[])'
+      parameters:
+        - id: args
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer

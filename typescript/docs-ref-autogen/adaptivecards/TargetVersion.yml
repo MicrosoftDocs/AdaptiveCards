@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.TargetVersion
+    name: TargetVersion
+    fullName: TargetVersion
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type TargetVersion = Version | "*"
+    package: adaptivecards

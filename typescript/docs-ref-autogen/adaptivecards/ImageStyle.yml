@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ImageStyle
+    name: ImageStyle
+    fullName: ImageStyle
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type ImageStyle = "default" | "person"
+    package: adaptivecards

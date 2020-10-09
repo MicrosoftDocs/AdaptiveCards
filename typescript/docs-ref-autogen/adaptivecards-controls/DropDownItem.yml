@@ -1,0 +1,111 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.DropDownItem
+    name: DropDownItem
+    fullName: DropDownItem
+    children:
+      - adaptivecards-controls.DropDownItem.constructor
+      - adaptivecards-controls.DropDownItem.key
+      - adaptivecards-controls.DropDownItem.onClick
+      - adaptivecards-controls.DropDownItem.render
+      - adaptivecards-controls.DropDownItem.toString
+      - adaptivecards-controls.DropDownItem.value
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDownItem.constructor
+    name: 'DropDownItem(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new DropDownItem(key: string, value: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDownItem.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'key: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDownItem.onClick
+    name: onClick
+    fullName: onClick
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onClick: (item: DropDownItem) => void'
+      return:
+        type:
+          - '(item: DropDownItem) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDownItem.render
+    name: render()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function render()
+      parameters: []
+      return:
+        type:
+          - HTMLElement
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDownItem.toString
+    name: toString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DropDownItem.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string value
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls

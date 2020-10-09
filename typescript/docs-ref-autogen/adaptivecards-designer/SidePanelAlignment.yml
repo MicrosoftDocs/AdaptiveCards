@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.SidePanelAlignment
+    name: SidePanelAlignment
+    fullName: SidePanelAlignment
+    children:
+      - adaptivecards-designer.SidePanelAlignment.Top
+      - adaptivecards-designer.SidePanelAlignment.Right
+      - adaptivecards-designer.SidePanelAlignment.Bottom
+      - adaptivecards-designer.SidePanelAlignment.Left
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanelAlignment.Top
+    name: Top
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanelAlignment.Right
+    name: Right
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanelAlignment.Bottom
+    name: Bottom
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.SidePanelAlignment.Left
+    name: Left
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: adaptivecards-designer

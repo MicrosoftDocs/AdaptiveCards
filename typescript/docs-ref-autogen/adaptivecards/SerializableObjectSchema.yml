@@ -1,0 +1,114 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.SerializableObjectSchema
+    name: SerializableObjectSchema
+    fullName: SerializableObjectSchema
+    children:
+      - adaptivecards.SerializableObjectSchema.add
+      - adaptivecards.SerializableObjectSchema.getCount
+      - adaptivecards.SerializableObjectSchema.getItemAt
+      - adaptivecards.SerializableObjectSchema.indexOf
+      - adaptivecards.SerializableObjectSchema.remove
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializableObjectSchema.add
+    name: 'add(PropertyDefinition[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add(properties: PropertyDefinition[])'
+      parameters:
+        - id: properties
+          type:
+            - 'adaptivecards.PropertyDefinition[]'
+          description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializableObjectSchema.getCount
+    name: getCount()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCount()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializableObjectSchema.getItemAt
+    name: getItemAt(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getItemAt(index: number)'
+      parameters:
+        - id: index
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - adaptivecards.PropertyDefinition
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializableObjectSchema.indexOf
+    name: indexOf(PropertyDefinition)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function indexOf(property: PropertyDefinition)'
+      parameters:
+        - id: property
+          type:
+            - adaptivecards.PropertyDefinition
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.SerializableObjectSchema.remove
+    name: 'remove(PropertyDefinition[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(properties: PropertyDefinition[])'
+      parameters:
+        - id: properties
+          type:
+            - 'adaptivecards.PropertyDefinition[]'
+          description: ''
+    package: adaptivecards
+references:
+  - uid: 'adaptivecards.PropertyDefinition[]'
+    name: 'PropertyDefinition[]'
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition
+      - name: '[]'
+        fullName: '[]'
+  - uid: adaptivecards.PropertyDefinition
+    name: PropertyDefinition
+    spec.typeScript:
+      - name: PropertyDefinition
+        fullName: PropertyDefinition
+        uid: adaptivecards.PropertyDefinition

@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-templating.IEvaluationContext
+    name: IEvaluationContext
+    fullName: IEvaluationContext
+    children:
+      - adaptivecards-templating.IEvaluationContext.$root
+    langs:
+      - typeScript
+    type: interface
+    summary: Holds the context used to expand a template.
+    package: adaptivecards-templating
+  - uid: adaptivecards-templating.IEvaluationContext.$root
+    name: $root
+    fullName: $root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The root data object the template will bind to. Expressions that refer to
+      $root in the template payload
+
+      map to this field. Initially, $data also maps to $root.
+    syntax:
+      content: '$root: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-templating

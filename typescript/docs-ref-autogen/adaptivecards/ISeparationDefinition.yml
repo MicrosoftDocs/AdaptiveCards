@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ISeparationDefinition
+    name: ISeparationDefinition
+    fullName: ISeparationDefinition
+    children:
+      - adaptivecards.ISeparationDefinition.lineColor
+      - adaptivecards.ISeparationDefinition.lineThickness
+      - adaptivecards.ISeparationDefinition.spacing
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ISeparationDefinition.lineColor
+    name: lineColor
+    fullName: lineColor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'lineColor?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ISeparationDefinition.lineThickness
+    name: lineThickness
+    fullName: lineThickness
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'lineThickness?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ISeparationDefinition.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'spacing: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards

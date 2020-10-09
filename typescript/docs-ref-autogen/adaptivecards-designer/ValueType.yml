@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.ValueType
+    name: ValueType
+    fullName: ValueType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type ValueType = "String" | "Boolean" | "Number" | "Array" | "Object"
+    package: adaptivecards-designer

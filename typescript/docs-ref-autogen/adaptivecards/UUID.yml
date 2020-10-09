@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.UUID
+    name: UUID
+    fullName: UUID
+    children:
+      - adaptivecards.UUID.generate
+      - adaptivecards.UUID.initialize
+    langs:
+      - typeScript
+    type: class
+    summary: 'Fast UUID generator, RFC4122 version 4 compliant.'
+    package: adaptivecards
+  - uid: adaptivecards.UUID.generate
+    name: generate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function generate()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.UUID.initialize
+    name: initialize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function initialize()
+      parameters: []
+    package: adaptivecards

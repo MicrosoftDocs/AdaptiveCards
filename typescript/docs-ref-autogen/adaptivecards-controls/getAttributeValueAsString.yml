@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.getAttributeValueAsString
+    name: 'getAttributeValueAsString(HTMLElement, string, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getAttributeValueAsString(element: HTMLElement, attributeName:
+        string, defaultValue: string)
+      parameters:
+        - id: element
+          type:
+            - HTMLElement
+          description: ''
+        - id: attributeName
+          type:
+            - string
+          description: ''
+        - id: defaultValue
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+        description: ''
+    package: adaptivecards-controls

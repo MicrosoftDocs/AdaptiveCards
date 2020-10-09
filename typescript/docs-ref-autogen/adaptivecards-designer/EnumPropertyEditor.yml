@@ -1,0 +1,164 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.EnumPropertyEditor
+    name: EnumPropertyEditor
+    fullName: EnumPropertyEditor
+    children:
+      - adaptivecards-designer.EnumPropertyEditor.causesPropertySheetRefresh
+      - adaptivecards-designer.EnumPropertyEditor.constructor
+      - adaptivecards-designer.EnumPropertyEditor.enumType
+      - adaptivecards-designer.EnumPropertyEditor.label
+      - adaptivecards-designer.EnumPropertyEditor.propertyName
+      - adaptivecards-designer.EnumPropertyEditor.render
+      - adaptivecards-designer.EnumPropertyEditor.targetVersion
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: adaptivecards-designer.SingleInputPropertyEditor
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.EnumPropertyEditor.causesPropertySheetRefresh
+    name: causesPropertySheetRefresh
+    fullName: causesPropertySheetRefresh
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'causesPropertySheetRefresh: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.EnumPropertyEditor.constructor
+    name: >-
+      EnumPropertyEditor(Adaptive.TargetVersion, string, string, [key: number]:
+      string, boolean)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new EnumPropertyEditor(targetVersion: Adaptive.TargetVersion,
+        propertyName: string, label: string, enumType: [key: number]: string,
+        causesPropertySheetRefresh?: boolean)
+      parameters:
+        - id: targetVersion
+          type:
+            - Adaptive.TargetVersion
+          description: ''
+        - id: propertyName
+          type:
+            - string
+          description: ''
+        - id: label
+          type:
+            - string
+          description: ''
+        - id: enumType
+          type:
+            - '[key: number]: string'
+          description: ''
+        - id: causesPropertySheetRefresh
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.EnumPropertyEditor.enumType
+    name: enumType
+    fullName: enumType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'enumType: [key: number]: string'
+      return:
+        type:
+          - '[key: number]: string'
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.EnumPropertyEditor.label
+    name: label
+    fullName: label
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'label: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.EnumPropertyEditor.propertyName
+    name: propertyName
+    fullName: propertyName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'propertyName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.EnumPropertyEditor.render
+    name: render(PropertySheetContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function render(context: PropertySheetContext)'
+      parameters:
+        - id: context
+          type:
+            - adaptivecards-designer.PropertySheetContext
+          description: ''
+      return:
+        type:
+          - CardElement
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.EnumPropertyEditor.targetVersion
+    name: targetVersion
+    fullName: targetVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        type:
+          - Adaptive.TargetVersion
+        description: ''
+    package: adaptivecards-designer
+references:
+  - uid: adaptivecards-designer.SingleInputPropertyEditor
+    name: SingleInputPropertyEditor
+    spec.typeScript:
+      - name: SingleInputPropertyEditor
+        fullName: SingleInputPropertyEditor
+        uid: adaptivecards-designer.SingleInputPropertyEditor
+  - uid: adaptivecards-designer.PropertySheetContext
+    name: PropertySheetContext
+    spec.typeScript:
+      - name: PropertySheetContext
+        fullName: PropertySheetContext
+        uid: adaptivecards-designer.PropertySheetContext

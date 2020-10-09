@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-designer.IChoicePickerItem
+    name: IChoicePickerItem
+    fullName: IChoicePickerItem
+    children:
+      - adaptivecards-designer.IChoicePickerItem.name
+      - adaptivecards-designer.IChoicePickerItem.value
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IChoicePickerItem.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer
+  - uid: adaptivecards-designer.IChoicePickerItem.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'value: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-designer

@@ -1,0 +1,236 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards.ActionsConfig
+    name: ActionsConfig
+    fullName: ActionsConfig
+    children:
+      - adaptivecards.ActionsConfig.actionAlignment
+      - adaptivecards.ActionsConfig.constructor
+      - adaptivecards.ActionsConfig.actionsOrientation
+      - adaptivecards.ActionsConfig.allowTitleToWrap
+      - adaptivecards.ActionsConfig.buttonSpacing
+      - adaptivecards.ActionsConfig.iconPlacement
+      - adaptivecards.ActionsConfig.iconSize
+      - adaptivecards.ActionsConfig.maxActions
+      - adaptivecards.ActionsConfig.preExpandSingleShowCardAction
+      - adaptivecards.ActionsConfig.showCard
+      - adaptivecards.ActionsConfig.spacing
+      - adaptivecards.ActionsConfig.toJSON
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.actionAlignment
+    name: actionAlignment
+    fullName: actionAlignment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'actionAlignment: ActionAlignment'
+      return:
+        type:
+          - adaptivecards.ActionAlignment
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.constructor
+    name: ActionsConfig(any)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ActionsConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+          optional: true
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.actionsOrientation
+    name: actionsOrientation
+    fullName: actionsOrientation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'actionsOrientation: Orientation'
+      return:
+        type:
+          - adaptivecards.Orientation
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.allowTitleToWrap
+    name: allowTitleToWrap
+    fullName: allowTitleToWrap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'allowTitleToWrap: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.buttonSpacing
+    name: buttonSpacing
+    fullName: buttonSpacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'buttonSpacing: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.iconPlacement
+    name: iconPlacement
+    fullName: iconPlacement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'iconPlacement: ActionIconPlacement'
+      return:
+        type:
+          - adaptivecards.ActionIconPlacement
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.iconSize
+    name: iconSize
+    fullName: iconSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'iconSize: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.maxActions
+    name: maxActions
+    fullName: maxActions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'maxActions: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.preExpandSingleShowCardAction
+    name: preExpandSingleShowCardAction
+    fullName: preExpandSingleShowCardAction
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'preExpandSingleShowCardAction?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.showCard
+    name: showCard
+    fullName: showCard
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'showCard: ShowCardActionConfig'
+      return:
+        type:
+          - adaptivecards.ShowCardActionConfig
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.spacing
+    name: spacing
+    fullName: spacing
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'spacing: Spacing'
+      return:
+        type:
+          - adaptivecards.Spacing
+        description: ''
+    package: adaptivecards
+  - uid: adaptivecards.ActionsConfig.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - Object
+        description: ''
+    package: adaptivecards
+references:
+  - uid: adaptivecards.ActionAlignment
+    name: ActionAlignment
+    spec.typeScript:
+      - name: ActionAlignment
+        fullName: ActionAlignment
+        uid: adaptivecards.ActionAlignment
+  - uid: adaptivecards.Orientation
+    name: Orientation
+    spec.typeScript:
+      - name: Orientation
+        fullName: Orientation
+        uid: adaptivecards.Orientation
+  - uid: adaptivecards.ActionIconPlacement
+    name: ActionIconPlacement
+    spec.typeScript:
+      - name: ActionIconPlacement
+        fullName: ActionIconPlacement
+        uid: adaptivecards.ActionIconPlacement
+  - uid: adaptivecards.ShowCardActionConfig
+    name: ShowCardActionConfig
+    spec.typeScript:
+      - name: ShowCardActionConfig
+        fullName: ShowCardActionConfig
+        uid: adaptivecards.ShowCardActionConfig
+  - uid: adaptivecards.Spacing
+    name: Spacing
+    spec.typeScript:
+      - name: Spacing
+        fullName: Spacing
+        uid: adaptivecards.Spacing

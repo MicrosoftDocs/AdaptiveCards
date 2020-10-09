@@ -1,0 +1,155 @@
+### YamlMime:UniversalReference
+items:
+  - uid: adaptivecards-controls.DatePicker
+    name: DatePicker
+    fullName: DatePicker
+    children:
+      - adaptivecards-controls.DatePicker.attach
+      - adaptivecards-controls.DatePicker.closePopup
+      - adaptivecards-controls.DatePicker.isOpen
+      - adaptivecards-controls.DatePicker.labelId
+      - adaptivecards-controls.DatePicker.onValueChanged
+      - adaptivecards-controls.DatePicker.placeholderText
+      - adaptivecards-controls.DatePicker.popup
+      - adaptivecards-controls.DatePicker.value
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: >-
+        adaptivecards-controls.InputWithPopup<adaptivecards-controls.CalendarPopupControl,
+        Date>
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DatePicker.attach
+    name: attach(HTMLElement)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type:
+            - HTMLElement
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DatePicker.closePopup
+    name: closePopup(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type:
+            - boolean
+          description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DatePicker.isOpen
+    name: isOpen
+    fullName: isOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean isOpen
+      return:
+        type:
+          - boolean
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DatePicker.labelId
+    name: labelId
+    fullName: labelId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string labelId
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DatePicker.onValueChanged
+    name: onValueChanged
+    fullName: onValueChanged
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'onValueChanged: (sender: InputControl) => void'
+      return:
+        type:
+          - '(sender: InputControl) => void'
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DatePicker.placeholderText
+    name: placeholderText
+    fullName: placeholderText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string placeholderText
+      return:
+        type:
+          - string
+        description: ''
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DatePicker.popup
+    name: popup()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function popup()
+      parameters: []
+    package: adaptivecards-controls
+  - uid: adaptivecards-controls.DatePicker.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: Date value
+      return:
+        type:
+          - Date
+        description: ''
+    package: adaptivecards-controls
+references:
+  - uid: >-
+      adaptivecards-controls.InputWithPopup<adaptivecards-controls.CalendarPopupControl,
+      Date>
+    name: 'CalendarPopupControl, Date>'
+    spec.typeScript:
+      - name: InputWithPopup
+        fullName: InputWithPopup
+        uid: adaptivecards-controls.InputWithPopup
+      - name: <
+        fullName: <
+      - name: CalendarPopupControl
+        fullName: CalendarPopupControl
+        uid: adaptivecards-controls.CalendarPopupControl
+      - name: ', Date>'
+        fullName: ', Date>'
