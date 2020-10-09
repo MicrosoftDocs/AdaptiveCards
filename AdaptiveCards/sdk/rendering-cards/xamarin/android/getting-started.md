@@ -39,7 +39,7 @@ using AdaptiveCards.Rendering.Xamarin.Android.Renderer.Registration;
 
 ## Xamarin.Android Visualizer Sample
 
-The [Xamarin.Android Visualizer sample](https://github.com/Microsoft/AdaptiveCards/tree/master/source/xamarin/Xamarin.Droid.Sample) lets you visualize cards using Xamarin.Android. If you have ever used the Android sample application you'll find the experience to be really similar.
+The [Xamarin.Android Visualizer sample](https://github.com/Microsoft/AdaptiveCards/tree/main/source/xamarin/Xamarin.Droid.Sample) lets you visualize cards using Xamarin.Android. If you have ever used the Android sample application you'll find the experience to be really similar.
 
 ## Next steps
 
