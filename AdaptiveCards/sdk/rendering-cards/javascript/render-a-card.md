@@ -2,7 +2,7 @@
 title: Render a card - JavaScript SDK
 author: matthidinger
 ms.author: mahiding
-ms.date: 11/28/2017
+ms.date: 08/30/2020
 ms.topic: article
 ---
 
@@ -76,7 +76,10 @@ adaptiveCard.onExecuteAction = function(action) { alert("Ow!"); }
 // E.g., to use markdown-it, include in your HTML page:
 //     <script type="text/javascript" src="https://unpkg.com/markdown-it/dist/markdown-it.js"></script>
 // And add this code to replace the default markdown handler:
-//     AdaptiveCards.processMarkdown = function(text) { return markdownit().render(text); }
+//     AdaptiveCards.AdaptiveCard.onProcessMarkdown = function (text, result) {
+//         result.outputHtml = markdownit().render(text);
+//         result.didProcess = true;
+//     };
 
 // Parse the card payload
 adaptiveCard.parse(card);
