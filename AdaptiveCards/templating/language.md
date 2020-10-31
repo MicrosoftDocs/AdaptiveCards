@@ -8,7 +8,7 @@ ms.topic: article
 
 # Adaptive Cards Template Language
 
-Templating enables the separation of **data** from **layout** in your Adaptive Card. The template langauge is the syntax used to author a template. 
+Templating enables the separation of **data** from **layout** in your Adaptive Card. The template language is the syntax used to author a template. 
 
 > Please read this for an [overview of Adaptive Card Templating](index.md)
 
