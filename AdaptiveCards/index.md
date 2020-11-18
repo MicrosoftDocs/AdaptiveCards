@@ -37,7 +37,7 @@ The goals for Adaptive Cards are:
 Adaptive Cards are great for card authors:
 
 * **One schema** - You get a single format, minimizing the cost of creating a card and maximizing the number of places it can be used.
-* **Richer expression** - Your content can more closely align with want you want to say because you have a richer palette to paint with.
+* **Richer expression** - Your content can more closely align with what you want to say because you have a richer palette to paint with.
 * **Broad reach** - Your content will work across a broader set of applications without you having to learn new schemas.
 * **Input controls** - Your card can include input controls for gathering information from the user that is viewing the card.
 * **Better tooling** - An open card ecosystem means better tooling that is shared by everyone.
