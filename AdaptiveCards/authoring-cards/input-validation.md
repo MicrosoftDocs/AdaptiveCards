@@ -31,7 +31,8 @@ An `errorMessage` property is available on all input types to specify what error
 
 ## Labels
 
-Another property added in schema version 1.3 for all input elements is the `label` string property. Using the `label` property is the recommended way of tagging inputs in an Adaptive Card, vis-a-vis the `placeholder` property. It is a simple and concise way of labeling inputs for card authors and has the following benefits:
+Another property added in schema version 1.3 for all input elements is the `label` string property. Using the `label` property is the recommended way of tagging inputs in an Adaptive Card, vis-a-vis the `placeholder` property. It is a simple and concise way of labelling inputs for card authors and has the following benefits:
+
 * Validation indicators: as mentioned above inputs can be now marked as required, labels for required inputs will have a visual indicator next to them. This visual indicator is defined in the `HostConfig` and by default is rendered as an asterisk `*`.
 * Accessibility: by having a connection between labels and inputs, renderer libraries can set the necessary properties to allow users using assistive technologies (screen readers) to be able to interact correctly with inputs inside adaptive cards.
     * Labels vs Placeholders: as Katie Sherwin explains in the article [Placeholders in form fields are harmful](https://www.nngroup.com/articles/form-design-placeholders/) using placeholders has many negative consequences such as straining users' short term memory, making it harder for users to verify their inputs before submitting, providing difficulties for users to read them as, usually, placeholder text has poor color contrast against it's background or screen readers not reading the placeholder text at all, just to name a few.

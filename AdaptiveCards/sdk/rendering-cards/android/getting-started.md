@@ -14,7 +14,7 @@ This is a renderer which targets Android native controls.
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.adaptivecards/adaptivecards-android.svg)](https://search.maven.org/#search%7Cga%7C1%7Ca%3A%22adaptivecards-android%22)
 
-You can find the published packages ![here](https://search.maven.org/search?q=g:io.adaptivecards)
+You can find the published packages [here](https://search.maven.org/artifact/io.adaptivecards/adaptivecards-android)
 
 To include library to your project you must include this line into your project gradle.build under the dependencies section
 
