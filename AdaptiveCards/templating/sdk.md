@@ -85,6 +85,11 @@ document.getElementById('exampleDiv').appendChild(adaptiveCard.render());
 
 ## .NET 
 
+> [!IMPORTANT] 
+> 
+> The .NET Release Candidate will be available around 05/23. Look for version `1.0.0-RC1`
+>
+
 [![Nuget install](https://img.shields.io/nuget/vpre/AdaptiveCards.Templating.svg)](https://www.nuget.org/packages/AdaptiveCards.Templating)
 
 ```console
