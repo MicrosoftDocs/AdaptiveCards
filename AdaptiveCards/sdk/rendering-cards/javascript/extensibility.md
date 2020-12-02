@@ -173,20 +173,20 @@ card.parse(
 ```
 
 ### Custom inputs
-An input is a special type of element dedicated to collecting data entered by the end user that can subsequently be passed as parameter to actions.
+An input is a special type of element dedicated to collecting data entered by the end user that can subsequently be passed as parameters to actions.
 
 Versions 2.x of the Adaptive Cards JS SDK introduces two notable changes when it comes to inputs:
 - **Input validation:** there is now a built-in input validation mechanism that automatically handles validation errors including visual cues
 - **Accessibility improvements:** built-in inputs have better support for accessibility features
 
-Because of this, implementing custom inputs requires a little more logic than implementing simple elements. The table below lists all the methods a custom input implementation should to implement in order to partiocipate in the input validation mechanism and be accessible:
+Because of this, implementing custom inputs requires a little more logic than implementing simple elements. The table below lists all the methods a custom input implementation should consider implementing in order to participate in the input validation mechanism and be accessible:
 
 | Method | Description |
 | --------- | ------------- |
-| `protected updateInputControlAriaLabelledBy()` | This method  is called during the input validation sequence. When an input fails validation, its associated error message is displayed and the underlying input control's `aria-labelledby` attribute needs to be updated in order for the input to comply with accessibility requirements. Custom inputs SHOULD override `updateInputControlAriaLabelledBy` to apply the appropriate `aria-labelledby` attribute to the underlying input control. The `getAllLabelIds(): string[]` method can be used to retrieve the Ids of all the labels that should be specified in the `aria-labelledby` attribute.  |
+| `protected updateInputControlAriaLabelledBy()` | This method is called during the input validation sequence. When an input fails validation, its associated error message is displayed and the underlying input control's `aria-labelledby` attribute needs to be updated in order for the input to comply with accessibility requirements. Custom inputs SHOULD override `updateInputControlAriaLabelledBy` to apply the appropriate `aria-labelledby` attribute to the underlying input control. The `getAllLabelIds(): string[]` method can be used to retrieve the Ids of all the labels that should be specified in the `aria-labelledby` attribute. |
 | `protected internalRender(): HTMLElement` | Just like for any other Adaptive Card custom element, `internalRender` MUST be overridden to render your input as desired. This is where you'll want to create the actual underlying input control. |
 | `protected get isNullable(): boolean` | Indicates whether the input supports undefined values (for instance, Input.Text does, whereas Input.Toggle doesn't.) Custom inputs SHOULD override this property getter to indicate if they support undefined values. The base implementation returns `true`. |
-| `public focus()` | When validation errors are encountered, the focus is automatically placed on the first input that failed validation. The base implementation of `focus` will in some cases just work for custom inputs. When that isn't the case, custom input controls MUST override `focus` to explicitly put the focus on the underlying input control.  |
+| `public focus()` | When validation errors are encountered, the focus is automatically placed on the first input that failed validation. The base implementation of `focus` will in some cases just work for custom inputs. When that isn't the case, custom input controls MUST override `focus` to explicitly put the focus on the underlying input control. |
 | `public abstract isSet(): boolean` | Indicates whether the input's value has been set by the user. This method is called during the input validation sequence to determine if the input passes or fails validation. Custom inputs MUST override `isSet` in order to participate in the input validation mechanism. |
 | `public isValid(): boolean` | Indicates whether the value of the input is valid. This method is called during the input validation sequence to determine if the input passes or fails validation. Custom inputs SHOULD override `isValid` in order to participate in the input validation mechanism. The base implementation returns `true`. |
 | `public abstract get value(): any` | Returns the value of the input. Custom inputs MUST override this so that the value of the input is retrieved from the underlying input control. |
