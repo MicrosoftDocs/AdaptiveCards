@@ -2,7 +2,7 @@
 title: Adaptive Cards Designer SDK
 author: matthidinger
 ms.author: mahiding
-ms.date: 08/15/2019
+ms.date: 01/04/2021
 ms.topic: article
 ---
 
@@ -15,10 +15,6 @@ Try it out at [https://adaptivecards.io/designer](https://adaptivecards.io/desig
 ![Designer screenshot](../content/designer.png)
 
 This SDK allows you to easily integrate the adaptive cards designer into your own experiences.
-
-> [!NOTE]
-> 
-> The designer SDK is currently in preview and may have breaking changes in the public API as we get feedback.
 
 ## Get Started
 
