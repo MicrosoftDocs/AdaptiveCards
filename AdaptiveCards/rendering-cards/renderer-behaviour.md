@@ -101,4 +101,35 @@ This is with the `wrap` property disabled for the text block.
 This card has the `wrap` property enabled for the text block. 
 
 
+## Spacing and Separator
+
+ 1. **Spacing** - Possible values `none`, `small`, `default`, `medium`, `large`, `extra large` and `padding` 
+
+* Spacing attribute adds spacing between this element and the preceding element.
+
+![Elements with different spacing combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/spacing1.png)
+
+* Spacing attribute does not have any effect when its the first element in the view container. 
+
+![Element where spacing has no effect](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/spacing_no_effect.png)
+
+For example, the elements marked with arrow are the first elements among its siblings, so spacing has no effect. 
+
+ 2. **Separator** - Possible values (on/off toggle)
+
+Draws a seperating line at the top of the element.
+
+![Elements with seperator attribute](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/spacing3_seperator.png)
+
+3. **Spacing and Seperator combination**
+
+The constraints of the spacing and the seperator combination are illustrated below. 
+
+![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/spacing4_with_seperator.png)
+
+The overall spacing distance is maintained with respect to the spacing value, but the seperator is added right in between the space of the padding. 
+
+[Note. Need to confirm the distance where the seperator is inserted in the spacing area. Seems like the middle]
+
+
 
