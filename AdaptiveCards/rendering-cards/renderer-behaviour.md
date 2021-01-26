@@ -1,11 +1,4 @@
 
-
----
-title: Renderer Behaviour Guide
-ms.topic: article
----
-
-
 # Adaptive Card Renderer Behaviour Guideline
 
 The following specification describes the design guideline to be followed when implementing the behaviour of a renderer with respect to parsing the relationship between the card elements. 
@@ -130,6 +123,33 @@ The constraints of the spacing and the seperator combination are illustrated bel
 The overall spacing distance is maintained with respect to the spacing value, but the seperator is added right in between the space of the padding. 
 
 [Note. Need to confirm the distance where the seperator is inserted in the spacing area. Seems like the middle]
+
+## Container, Column and ColumnSet Styles 
+
+* Provides styling hints for containers such as columns and columnset
+* Possible values `none`, `default`, `emphasis`, `good`, `attention`, `warning` and `accent`
+* These predefined style options provides padding for the elements within the container and background color
+
+
+![Columns and ColumnSet Style Combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/style1.png)
+
+1. Card A illustrates columns and columnset with no style options
+2. Card B illustrates columnset with **Attention** style. Notice the padding within the columnset container and the background color change. 
+3. Card C illustrates columns with styling only. Similar to the previous one, column includes padding and background change. 
+4. Card D illustrates columns and columnset both with style options. 
+
+## Bleed
+
+* This property allows the container such as columns and columnset to bleed through its parent. 
+* Possible values `on` and `off`.
+
+
+![Column with bleed property](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/style2_withBleed.png)
+
+1. Card A illustrates columns and columnset with regular styling.
+2. Card B illustrates the first column with bleed option. The content just bleeds through its boundaries to its parent's. 
+ 
+
 
 
 
