@@ -149,7 +149,27 @@ The overall spacing distance is maintained with respect to the spacing value, bu
 1. Card A illustrates columns and columnset with regular styling.
 2. Card B illustrates the first column with bleed option. The content just bleeds through its boundaries to its parent's. 
  
+## Image Dimensions
 
+### `Size` attribute
+1. Possible values allowed for approximation - `auto`, `stretch`, `small`, `medium`, `large`
+2. `auto` : Images will scale down to fit if needed, but will not scale up to fill the area.
+3. `stretch` : Image with both scale down and up to fit as needed.
+4. `small`, `medium` and `large`: Image is displayed with a fixed width, where the width is determined by the host.
 
+1. `auto` vs `stretch`
 
+![Image with auto and stretch behaviour](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/image_size_auto_stretch.png)
+
+2. Column width and Image Size combination
+
+![Column width and image size combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/imagesize2.png)
+
+* Generally, Columns with `stretch` width allow images to upscale freely with `stretch` size.
+* Columns with `auto` width allows image to occupy exact space irrespective of `auto` and `stretch` size of image.
+* Column width takes more precedence in determining the image size in this arrangement.
+
+### `Min Height` and `Min Width` 
+
+TODO 
 
