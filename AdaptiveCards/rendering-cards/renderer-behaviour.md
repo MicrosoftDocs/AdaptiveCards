@@ -169,7 +169,10 @@ The overall spacing distance is maintained with respect to the spacing value, bu
 * Columns with `auto` width allows image to occupy exact space irrespective of `auto` and `stretch` size of image.
 * Column width takes more precedence in determining the image size in this arrangement.
 
-### `Min Height` and `Min Width` 
+### `Width in pixels`
+* This provides the desired on-screen width of the image. 
+* `size` property is overriden when a value is specified
 
-TODO 
+![Column width and image width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/image_size_3.png)
+* The column with `auto` width will have more precedence than `stretch` in providing room for image content in this arrangement. 
 
