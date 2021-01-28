@@ -9,7 +9,7 @@ The following specification describes the design guideline to be followed when i
 
 ## Behaviours 
 
-The Renderer **MUST** take care to the following behaviours when rendering card elements with respect to the attributes provided. 
+The Renderer **MUST** take care to the following behaviours when rendering card elements with respect to the attributes mentioned in this doc. 
 
 1. **Constraints**
 2. **Image Size**
@@ -17,15 +17,13 @@ The Renderer **MUST** take care to the following behaviours when rendering card 
 
 ## Constraints
 
-The **Constraints** behaviour takes into the account the various factors such as margin, padding, height and width etc configuration of the card elements and its children. It also specifies the order of precedence at which the constraints will be set up when multiple attributes are provided in a nested setup. 
-
+The renderer should manage **Constraints** taking into account the various factors such as margin, padding, height and width etc configuration of the card elements and its children.
 
 ## Width 
 
-2. Possible values  `auto` and `stretch` 
-3. Fixed values can also be provided in terms of `weightage` and `pixels`
-4. `auto` provides sufficient space for expansion of width (supports min expansion)
-5. `stretch` takes up the remaining width (supports max expansion)
+1. Allowed values - `auto`, `stretch` and fixed values in terms of `pixels` and `weight`
+2. `auto` provides sufficient space for expansion of width (supports min expansion)
+3. `stretch` takes up the remaining width (supports max expansion)
 
 Below below scenarios describes how the constraints are affected with different width combinations for columns
 
@@ -34,13 +32,13 @@ Below below scenarios describes how the constraints are affected with different 
 
 ![Column with auto and stretch width](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/width_1_auto_stretch.png)
 
-The first column with auto width takes sufficient space to display the content and the second column with stretch width takes up the entire space.
+* The first column with `auto` width takes sufficient space to display the content and the second column with `stretch` width takes up the entire space.
 
 2. Columns with only `stretch` width
 
 ![Column with only stretch width](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/width_2_stretch_stretch.png)
 
-Columns with only stretch width takes up the remaining spaces after dividing it equally.
+* Columns with only stretch width takes up the remaining spaces after dividing it equally.
 
 3. `auto`,`stretch` and `auto` 
 
@@ -52,33 +50,36 @@ The **first** and **third** columns width is adjusted first to accommodate the e
 
 ![Columns with auto width](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/width6_all_auto.png)
 
-The columns with all auto width is adjusted to occupy the text block sufficiently. The image sizes in the first and second column is readjusted to make room for the text block in column three. 
+* Columns with `auto` will position themselves to provide ample space for the content to render. 
+* In case of **Image views**, images will downscale to fit the remaining width. 
+* **Note:** Images will downscale only for `stretch` and `auto` image size, but not for fixed width and height in pixels.    
 
-### `weighted` vs `pixels`
+### `weights` vs `pixels`
 
-1. Columns with `weight` and `pixel width` combination
+1. Columns with `weight` and `pixel` width combination
 
 ![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/width_4_w50_p100_w50.png)
 
-The above card has three columns with the following width configuration - \
-*Column1* Weighted 50, *Column2* Pixel width 100, *Column3* Weighted 50\
-The width of Column 2 is determined by the **pixel value** \ 
-The width of Column 1 and 3 is adjusted based on the **weight value** and the calculated **weight ratio**.
+* The above card has three columns with the following width configuration - 
+* `Column1: Weight 50`, `Column2: 100px`, `Column3: Weight 50`
+* The width of Column 2 is determined by the `pixel value`
+* The width of Column 1 and 3 is adjusted based on the `weights` and the calculated `weight ratio`.
 
 2. Columns with `weight`, `pixel width` and `auto` attributes
 
 ![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/width5_w50_p100_w50_auto.png)
 
-The above card has the same configuration as the one before this with addition to a column with `auto` width.\
-The `pixel width` and `weighted` takes more priority as `auto` as  the last column had to adjust the image size accordingly. 
+* The above card has four columns with the following width configuration - 
+* `Column1: Weight 50`, `Column2: 100px`, `Column3: Weight 50`, and `Column4: auto`
+* **Note:** Image view with `auto` width column downscales to adjust to the remaining space. 
 
 ### Precedence order of displaying elements with the width attribute
-`pixels` > `weighted` > `auto` > `stretch` 
+`px` > `weight` > `auto` > `stretch`
 
 
 ## Height 
 
- Possible values  `auto` and `stretch` 
+ Allowed values - `auto` and `stretch` 
 
 Below  scenarios describes how the constraints are affected with different height combinations for card elements
 
@@ -86,17 +87,17 @@ Below  scenarios describes how the constraints are affected with different heigh
 
 ![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/height1_text_wrap_off.png)
 
-Both the columns can expand sufficiently vertically irrespective of `auto` and `stretch` values\
-This is with the `wrap` property disabled for the text block.
+* Both the columns can expand sufficiently vertically irrespective of `auto` and `stretch` values
+* This is with the `wrap` property disabled for the text block.
+
+2. The card below has the `wrap` property enabled for the text block. 
 
 ![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/height2_text_wrap_on.png)
-
-This card has the `wrap` property enabled for the text block. 
 
 
 ## Spacing and Separator
 
- 1. **Spacing** - Possible values `none`, `small`, `default`, `medium`, `large`, `extra large` and `padding` 
+ 1. **Spacing** - Allowed values `none`, `small`, `default`, `medium`, `large`, `extra large` and `padding` 
 
 * Spacing attribute adds spacing between this element and the preceding element.
 
@@ -106,37 +107,40 @@ This card has the `wrap` property enabled for the text block.
 
 ![Element where spacing has no effect](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/spacing_no_effect.png)
 
-For example, the elements marked with arrow are the first elements among its siblings, so spacing has no effect. 
+* The elements marked with arrow are the first elements among its siblings, so spacing has no effect. 
 
  2. **Separator** - Possible values (on/off toggle)
 
-Draws a seperating line at the top of the element.
+* Draws a seperating line at the top of the element.
 
 ![Elements with seperator attribute](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/spacing3_seperator.png)
 
 3. **Spacing and Seperator combination**
 
-The constraints of the spacing and the seperator combination are illustrated below. 
+* The constraints of the spacing and the seperator combination are illustrated below. 
 
 ![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/spacing4_with_seperator.png)
 
-The overall spacing distance is maintained with respect to the spacing value, but the seperator is added right in between the space of the padding. 
+* The overall spacing distance is maintained with respect to the values provided.
+* The seperator is added halfway in the middle of the spaced distance.
 
 [Note. Need to confirm the distance where the seperator is inserted in the spacing area. Seems like the middle]
 
-## Container, Column and ColumnSet Styles 
+## Container Styles
 
 * Provides styling hints for containers such as columns and columnset
-* Possible values `none`, `default`, `emphasis`, `good`, `attention`, `warning` and `accent`
+* Allowed values `none`, `default`, `emphasis`, `good`, `attention`, `warning` and `accent`
 * These predefined style options provides padding for the elements within the container and background color
 
 
 ![Columns and ColumnSet Style Combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/style1.png)
 
 1. Card A illustrates columns and columnset with no style options
-2. Card B illustrates columnset with **Attention** style. Notice the padding within the columnset container and the background color change. 
+2. Card B illustrates columnset with **Attention** style. Notice the padding within the columnset container and the change in background color. 
 3. Card C illustrates columns with styling only. Similar to the previous one, column includes padding and background change. 
-4. Card D illustrates columns and columnset both with style options. 
+4. Card D illustrates columns and columnset both with style options.
+
+[Note. Need to check how the padding amount is determined. Is it determined by the host? ]
 
 ## Bleed
 
@@ -149,13 +153,13 @@ The overall spacing distance is maintained with respect to the spacing value, bu
 1. Card A illustrates columns and columnset with regular styling.
 2. Card B illustrates the first column with bleed option. The content just bleeds through its boundaries to its parent's. 
  
-## Image Dimensions
+## Image Size
 
 ### `Size` attribute
-1. Possible values allowed for approximation - `auto`, `stretch`, `small`, `medium`, `large`
-2. `auto` : Images will scale down to fit if needed, but will not scale up to fill the area.
-3. `stretch` : Image with both scale down and up to fit as needed.
-4. `small`, `medium` and `large`: Image is displayed with a fixed width, where the width is determined by the host.
+* Allowed values - `auto`, `stretch`, `small`, `medium`, `large`
+* `auto` : Images will scale down to fit if needed, but will not scale up to fill the area.
+* `stretch` : Image with both scale down and up to fit as needed.
+* `small`, `medium` and `large`: Image is displayed with a fixed width, where the width is determined by the host.
 
 1. `auto` vs `stretch`
 
@@ -169,7 +173,7 @@ The overall spacing distance is maintained with respect to the spacing value, bu
 * Columns with `auto` width allows image to occupy exact space irrespective of `auto` and `stretch` size of image.
 * Column width takes more precedence in determining the image size in this arrangement.
 
-### `Width in pixels`
+### `Width in pixels` attribute
 * This provides the desired on-screen width of the image. 
 * `size` property is overriden when a value is specified
 
