@@ -173,10 +173,27 @@ Below  scenarios describes how the constraints are affected with different heigh
 * Columns with `auto` width allows image to occupy exact space irrespective of `auto` and `stretch` size of image.
 * Column width takes more precedence in determining the image size in this arrangement.
 
-### `Width in pixels` attribute
+### Image `Width (in pixels)` attribute
 * This provides the desired on-screen width of the image. 
 * `size` property is overriden when a value is specified
 
 ![Column width and image width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/image_size_3.png)
 * The column with `auto` width will have more precedence than `stretch` in providing room for image content in this arrangement. 
+
+### Column Width (weight and pixel) and Image size (auto and stretch) Combination
+
+![Column width and image width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/column_width_image_width_2.png)
+* Images with `auto` size takes sufficient space for expansion (or downscales) within the column constraints of `weight` and `pixel` width. 
+* Images with `stretch` size can expand to fill the remaining space within the constraints of column `weight` and `pixel` width. 
+
+
+## Summary
+* Column width takes more precedence in determining the size of the image than its image size (auto, stretch, min width etc). 
+* The precedence of the column width taken to display its content sufficiently - `px` > `weight` > `auto` > `stretch`
+* Image `size` (auto, stretch) is **ignored** when Image `width` and `height` in px is provided. 
+* Image `stretch` size attribute will upscale the image only when there is remaining space and column auto is **not** `auto`.
+* An image stretches itself to the limit where it maintain its aspect ratio in the space available in the column. In turn, the height expands freely.
+* `Spacing` attribute will not have any effect when its the first or the only element among its sibling. 
+
+
 
