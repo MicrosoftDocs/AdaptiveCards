@@ -13,3 +13,4 @@ By default, the actions will render as buttons on the card, but it's up to your 
 * **Action.OpenUrl** - open the specified `url`.  
 * **Action.Submit** - take the result of the submit and send it to the source. How you send it to the source of the card is entirely up to you.
 * **Action.ShowCard** - invokes a dialog and renders the sub-card into that dialog. Note that you only need to handle this if `ShowCardActionMode` is set to `popup`.
+* **Action.ToggleVisibility** - shows or hides one or more elements in the card.
