@@ -1,3 +1,8 @@
+---
+title: Renderer Behaviour Guideline
+author: manujai
+---
+
 
 # Adaptive Card Renderer Behaviour Guideline
 
@@ -67,7 +72,7 @@ The **first** and **third** columns width is adjusted first to accommodate the e
 
 2. Columns with `weight`, `pixel width` and `auto` attributes
 
-![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/width5_w50_p100_w50_auto.png)
+![Columns with wight, pixel width and auto combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/width5_w50_p100_w50_auto.png)
 
 * The above card has four columns with the following width configuration - 
 * `Column1: Weight 50`, `Column2: 100px`, `Column3: Weight 50`, and `Column4: auto`
@@ -85,14 +90,14 @@ Below  scenarios describes how the constraints are affected with different heigh
 
 1. Elements expand freely vertically when card is not of fixed height
 
-![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/height1_text_wrap_off.png)
+![Columns with auto and stretch height](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/height1_text_wrap_off.png)
 
 * Both the columns can expand sufficiently vertically irrespective of `auto` and `stretch` values
 * This is with the `wrap` property disabled for the text block.
 
 2. The card below has the `wrap` property enabled for the text block. 
 
-![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/height2_text_wrap_on.png)
+![Column with wrap property for text block](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/height2_text_wrap_on.png)
 
 
 ## Spacing and Separator
@@ -119,7 +124,7 @@ Below  scenarios describes how the constraints are affected with different heigh
 
 * The constraints of the spacing and the seperator combination are illustrated below. 
 
-![Columns with weightage and pixel width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/spacing4_with_seperator.png)
+![Spacing and seperator combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/spacing4_with_seperator.png)
 
 * The overall spacing distance is maintained with respect to the values provided.
 * The seperator is added halfway in the middle of the spaced distance.
@@ -177,15 +182,23 @@ Below  scenarios describes how the constraints are affected with different heigh
 * This provides the desired on-screen width of the image. 
 * `size` property is overriden when a value is specified
 
-![Column width and image width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/image_size_3.png)
+![Column width and image width in pixels combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/image_size_3.png)
 * The column with `auto` width will have more precedence than `stretch` in providing room for image content in this arrangement. 
 
 ### Column Width (weight and pixel) and Image size (auto and stretch) Combination
 
-![Column width and image width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/column_width_image_width_2.png)
+![Column width and image size combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/column_width_image_width_2.png)
 * Images with `auto` size takes sufficient space for expansion (or downscales) within the column constraints of `weight` and `pixel` width. 
 * Images with `stretch` size can expand to fill the remaining space within the constraints of column `weight` and `pixel` width. 
 
+## Action.Submit
+* `Action.Submit` element gathers input fields, merges with optional data field, and sends an event to the client.
+* A significant difference in the element behaviour is present between 1.x and 2.x version of the ACL renderer.
+
+![Column width and image width combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/action_submit_behaviour.png)
+
+* `1.x Renderer` - The inputs are collected from all fields irrespective of the where in the hierarchy the input field is present. 
+* `2.x Renderer` - The inputs are collected from fields present in parent container or as a sibling of the `Action.Submit` element. 
 
 ## Summary
 * Column width takes more precedence in determining the size of the image than its image size (auto, stretch, min width etc). 
