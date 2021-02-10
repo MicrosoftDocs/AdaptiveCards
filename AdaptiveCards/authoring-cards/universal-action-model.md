@@ -18,12 +18,12 @@ As Adaptive Cards grew in popularity, different hosts started supporting differe
   - The ability for a card to be refreshed at the time it is displayed
   - The ability for `Action.Execute` actions to return an updated card to be immediately displayed in the client
 
-For more information about Actionable Messages in Outlook, please refer to the [Actionable Message documentation](https://docs.microsoft.com/en-us/outlook/actionable-messages/send-via-email)
+For more information about Actionable Messages in Outlook, please refer to the [Actionable Message documentation](https://docs.microsoft.com/outlook/actionable-messages/send-via-email)
 
 Before `Action.Execute` |  With `Action.Execute`
 :-------------------------:|:-------------------------:
-![inconsistent-action-model-lifecycle.png](media/universal-action-model/inconsistent-action-model-lifecycle.png) | ![universal-action-model-lifecycle.jpg](media/universal-action-model/universal-action-model-lifecycle.jpg)
-![inconsistent-action-model.png](media/universal-action-model/inconsistent-action-model.png) | ![new-universal-action-model.jpg](media/universal-action-model/new-universal-action-model.jpg)
+![An image depicting the current inconsistent model in Teams and Outlook](media/universal-action-model/inconsistent-action-model-lifecycle.png) | ![An image depicting the consistent model that is enabled with Action.Execute in Teams and Outlook](media/universal-action-model/universal-action-model-lifecycle.jpg)
+![An image showing how Adaptive Card JSONs look like with current inconsistent model](media/universal-action-model/inconsistent-action-model.png) | ![An image showing how Adaptive Card JSONs would look the same with new Action.Execute based model](media/universal-action-model/new-universal-action-model.jpg)
 
 Source: [Adaptive Cards @ Microsoft Build 2020](https://youtu.be/hEBhwB72Qn4?t=1393)
 
@@ -276,7 +276,7 @@ In the below example, note the `version` property of the card is set to `1.2` an
           "title": "Submit",
           "verb": "personalDetailsFormSubmit",
           "fallback": {
-            "Action.Submit",
+            "type": "Action.Submit",
             "title": "Submit"
           }  
         }
