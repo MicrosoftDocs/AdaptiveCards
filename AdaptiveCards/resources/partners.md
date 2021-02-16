@@ -2,7 +2,7 @@
 title:  Adaptive Cards Partners
 author: matthidinger
 ms.author: mahiding
-ms.date: 9/24/2018
+ms.date: 2/15/2021
 ms.topic: article
 ---
 
