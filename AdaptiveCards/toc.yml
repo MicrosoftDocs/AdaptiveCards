@@ -20,6 +20,9 @@
     href: authoring-cards/text-features.md
   - name: Input Validation
     href: authoring-cards/input-validation.md
+  - name: Universal Bot Action Model
+    href: authoring-cards/universal-action-model.md
+
 - name: Rendering Cards
   items:
   - name: Getting Started

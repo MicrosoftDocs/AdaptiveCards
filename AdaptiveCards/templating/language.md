@@ -251,11 +251,11 @@ For example, the `TextBlock` below will be repeated 3 times since it's `$data` i
 
 ## Built-in functions
 
-No templating language is complete without a rich suite of helper functions. Adaptive Card Templating is built on top of the [Adaptive Expression Language](https://aka.ms/adaptive-expressions) (AEL), which is an open standard for declaring expressions that can be evaluated on many different platforms. And it's a proper superset of "Logic Apps", so you can use similar syntax as Power Automate, etc.
+No templating language is complete without a rich suite of helper functions. Adaptive Card Templating is built on top of the [Adaptive Expression Language](/azure/bot-service/bot-builder-concept-adaptive-expressions) (AEL), which is an open standard for declaring expressions that can be evaluated on many different platforms. And it's a proper superset of "Logic Apps", so you can use similar syntax as Power Automate, etc.
 
 **This is just a small sampling of the built-in functions.**
 
-Check out the full list of [Adaptive Expression Language Pre-built functions](https://docs.microsoft.com/azure/bot-service/bot-builder-concept-adaptive-expressions?view=azure-bot-service-4.0).
+Check out the full list of [Adaptive Expression Language Pre-built functions](/azure/bot-service/bot-builder-concept-adaptive-expressions?view=azure-bot-service-4.0).
 
 ### Conditional evaluation
 
