@@ -50,6 +50,7 @@ ACRRegistration *registration = [ACRRegistration getInstance];
 
  Developers can also send in additional properties as part of json payload.
  For example, in addition to "spacing" and "id" of json payload for BaseCardElement, one can add radius for corners of TextBlock to its json payload.
+ Additional property is returned as NSData and accessbile from `ACOBaseCardElement` and `ACOBaseActionElement`. The NSData shoudl be deserialized into NSDictionary to access. 
 
  ```objective-c
  "type":"TextBlock",
