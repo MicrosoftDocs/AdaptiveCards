@@ -50,7 +50,7 @@ ACRRegistration *registration = [ACRRegistration getInstance];
 
  Developers can also send in additional properties as part of json payload.
  For example, in addition to "spacing" and "id" of json payload for BaseCardElement, one can add radius for corners of TextBlock to its json payload.
- Additional property is returned as NSData and accessbile from `ACOBaseCardElement` and `ACOBaseActionElement`. The NSData shoudl be deserialized into NSDictionary to access. 
+ Additional property is returned as NSData and accessbile from `ACOBaseCardElement` and `ACOBaseActionElement`. The NSData should be deserialized into NSDictionary to access. 
 
  ```objective-c
  "type":"TextBlock",
@@ -106,7 +106,7 @@ AdaptiveCards renderer users can use resource resolver to have more control in t
 ### [ADCResolver](source/ios/AdaptiveCards/ADCIOSVisualizer/ADCIOSVisualizer/ADCResolver.m)
 - Adopts [ACOIResourceResolver](https://github.com/microsoft/AdaptiveCards/blob/main/source/ios/AdaptiveCards/AdaptiveCards/AdaptiveCards/ACOIResourceResolver.h) protocol
 - AdaptiveCards renderer asks UIImageView via `(UIImageView *)resolveImageViewResource:(NSURL *)url`. ADCResolver can either hand over UIImageView with empty UIImage or UIImageView with UIImage.
-- If the UIImage was empty, when UIImage is set to the UIImageView in the resolver, the renderer will get notified via KVO and triggers layout update.
+- If the UIImage was empty, when UIImage is set to the UIImageView in the resolver, the renderer will get notified via KVO and trigger layout update.
 - simple objective-c example
 
 ```objective-c
