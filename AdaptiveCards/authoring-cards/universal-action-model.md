@@ -18,7 +18,7 @@ As Adaptive Cards grew in popularity, different hosts started supporting differe
   - The ability for a card to be refreshed at the time it is displayed
   - The ability for `Action.Execute` actions to return an updated card to be immediately displayed in the client
 
-For more information about Actionable Messages in Outlook, please refer to the [Actionable Message documentation](https://docs.microsoft.com/outlook/actionable-messages/send-via-email)
+For more information about Actionable Messages in Outlook, please refer to the [Actionable Message documentation](/outlook/actionable-messages/send-via-email)
 
 Before `Action.Execute` |  With `Action.Execute`
 :-------------------------:|:-------------------------:
@@ -289,37 +289,3 @@ In the below example, note the `version` property of the card is set to `1.2` an
 ## References
 - [Adaptive Cards @ Microsoft Build 2020](https://youtu.be/hEBhwB72Qn4?t=1393)
 - [Adaptive Cards @ Ignite 2020](https://techcommunity.microsoft.com/t5/video-hub/elevate-user-experiences-with-teams-and-adaptive-cards/m-p/1689460)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
