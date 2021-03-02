@@ -1,6 +1,6 @@
 ---
 title: Extensibility - iOS SDK
-author: joswphwoo
+author: josephwoo
 ms.author: joswo
 ms.date: 03/02/2021
 ms.topic: article
