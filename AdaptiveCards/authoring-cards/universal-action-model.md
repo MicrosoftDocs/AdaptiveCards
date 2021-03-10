@@ -1,11 +1,12 @@
 ---
-title:  Universal Bot action model
+title:  Universal Action Model
 author: sowrabh-msft
 ms.author: sonrs
 ms.date: 02/10/2021
 ms.topic: article
 ---
-# Universal Bot action model
+
+# Universal Action Model
 
 ## Context
 
@@ -165,7 +166,7 @@ When an `Action.Execute` is executed in the client (whether it's the refresh act
 
 #### Request format
 
-```
+```json
 { 
   "type": "invoke",
   "name": "adaptiveCard/action",
