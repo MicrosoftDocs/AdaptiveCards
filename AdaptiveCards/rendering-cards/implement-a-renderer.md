@@ -1,5 +1,6 @@
 ---
 title: Implementing a Renderer
+description: Specification on how to implement a renderer SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 03/09/2021
@@ -243,7 +244,7 @@ Below  scenarios describes how the constraints are affected with different heigh
 
 #### Column Width (weight and pixel) and Image size (auto and stretch) Combination
 
-![Column width and image size combination](../content/column_width_image_width_2.png)
+![Column width weighted and image size combination](../content/column_width_image_width_2.png)
 * Images with `auto` size takes sufficient space for expansion (or downscales) within the column constraints of `weight` and `pixel` width. 
 * Images with `stretch` size can expand to fill the remaining space within the constraints of column `weight` and `pixel` width. 
 
@@ -310,7 +311,7 @@ Action.Execute was introduced in version 1.4. We will provide implementation gui
 3. A renderer **SHOULD** display the `placeholderText` if possible
 5. Input value binding **MUST** be properly escaped
 4. Prior to v1.3, A renderer **DOES NOT** have to implement validation of the input. Users of Adaptive Cards must plan to validate any received data on their end.
-6. [Input Labels and Validation were introduced](../authoring-cards/input-validation) in v1.3 of the Adaptive Cards Schema. Extra care must be taken to render the associated label, validation hints and error messages.
+6. [Input Labels and Validation were introduced](../authoring-cards/input-validation.md) in v1.3 of the Adaptive Cards Schema. Extra care must be taken to render the associated label, validation hints and error messages.
 
 ## Styling, Customization and Extensibility APIs
 
