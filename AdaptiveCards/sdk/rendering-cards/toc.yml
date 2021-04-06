@@ -102,6 +102,8 @@
   items:
   - name: Getting Started
     href: react-native/getting-started.md
+  - name: Customization and themeing
+    href: react-native/theme-config.md
 - name: Xamarin.Android
   items:
   - name: Getting Started
