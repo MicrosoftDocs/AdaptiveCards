@@ -10,12 +10,12 @@ ms.topic: article
 
 A [community-supported](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.MD) ReactNative renderer for Adaptive Cards, maintained by [Imaginea](https://imaginea.com).
 
-## Getting started
-
 > [!IMPORTANT]
 >
 > **Community Support Only**. This renderer is in active development but is maintained outside of Microsoft. **As such, we cannot guarantee any SLA for this SDK**. Please see our [Support policy](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.MD) for more details. 
 >
+
+## Getting started
 
 ### Install the package
 
@@ -47,7 +47,7 @@ A [community-supported](https://github.com/microsoft/AdaptiveCards/blob/main/SUP
                ref="referenceVariable"/>
 ```
 
-### Full documentation and source code
+## Full documentation and source code
 
 * [Documentation](https://www.npmjs.com/package/adaptivecards-reactnative)
 * [Source code](https://github.com/microsoft/AdaptiveCards/tree/master/source/community/reactnative)
