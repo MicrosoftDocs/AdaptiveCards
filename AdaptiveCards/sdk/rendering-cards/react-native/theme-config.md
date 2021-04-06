@@ -1,3 +1,14 @@
+---
+title: ReactNative Themeing and Customization
+description: Styling and customization options for the card rendering
+author: matthidinger
+ms.author: mahiding
+ms.date: 03/15/2021
+ms.topic: article
+---
+
+# ReactNative Customization
+
 ## Extensibility Theme Config
 * For customizing UI styles of elements, Host App can pass styles (plain JSON object) as an optional prop to root element `<AdaptiveCards/>`.
 
