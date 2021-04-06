@@ -8,15 +8,49 @@ ms.topic: article
 
 # ReactNative Renderer
 
+A [community-supported](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.MD) ReactNative renderer for Adaptive Cards, maintained by [Imaginea](https://imaginea.com).
+
+## Getting started
+
 > [!IMPORTANT]
 >
 > **Community Support Only**. This renderer is in active development but is maintained outside of Microsoft. **As such, we cannot guarantee any SLA for this SDK**. Please see our [Support policy](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.MD) for more details. 
 >
 
+### Install the package
 
-Developer | Install | Documentation | Source Code
----|---|---|---
-Imaginea | `npm install adaptivecards-reactnative` | [Documentation](https://www.npmjs.com/package/adaptivecards-reactnative) | [Source](https://github.com/microsoft/AdaptiveCards/tree/master/source/community/reactnative)
+`npm install adaptivecards-reactnative`
+
+### Import the root component
+
+`import AdaptiveCard from 'adaptivecards-reactnative'`
+
+### Render the component with required props
+
+```jsx
+<AdaptiveCard payload={} 
+               hostConfig={}
+               themeConfig={}
+               onExecuteAction={} 
+               onParseError={} 
+               containerStyle={{
+                    width:100, 
+                    height: 100, 
+                    flexGrow:1, 
+                    backgroundColor:'lightblue'
+               }}
+               contentContainerStyle={{
+                    flexGrow: 1, 
+                    justifyContent: 'space-between'
+               }}
+               contentHeight={500} 
+               ref="referenceVariable"/>
+```
+
+### Full documentation and source code
+
+* [Documentation](https://www.npmjs.com/package/adaptivecards-reactnative)
+* [Source code](https://github.com/microsoft/AdaptiveCards/tree/master/source/community/reactnative)
 
 ## Customization and Themeing
 
