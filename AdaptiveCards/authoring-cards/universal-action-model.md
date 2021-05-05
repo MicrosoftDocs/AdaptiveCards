@@ -109,7 +109,7 @@ To allow an Adaptiver Card to automatically refresh, define its `refresh` proper
 | Property | Type | Required | Description 
 | -------- | ---- | -------- | ----------- 
 | **action** | `"Action.Execute"` | Yes | Must be an action instance of type `"Action.Execute"`. |
-| **userIds** | `Array<string>` | Yes | An array of `MRI`s of users for whom Auto Refresh must be enabled.<br><br>**IMPORTANT:** If the `userIds` list property isn't included in the `refresh` section of the card, the card will NOT be automatically refresh on display. Instead, a button will be presented to the user to allow them to manually refresh. The reason for this is Channels in Teams can include a large number of members; if many members are all viewing the channel at the same time, and unconditional automatic refresh would results in many concurrent calls to the Bot, which would not scale. To alleviate the potential scale problem, the `userIds` property should always be included to identify which users should get an automatic refresh, with a maximum of **5** user IDs currently being allowed.<br><br>Note that the `userIds` property is ignored in Outlook, and the `refresh` property is always automatically honored. There is no scale issue in Outlook because users will typically view the card at different times. |
+| **userIds** | `Array<string>` | Yes | An array of `MRI`s of users for whom Auto Refresh must be enabled.<br><br>**IMPORTANT:** If the `userIds` list property isn't included in the `refresh` section of the card, the card will NOT be automatically refresh on display. Instead, a button will be presented to the user to allow them to manually refresh. The reason for this is Channels in Teams can include a large number of members; if many members are all viewing the channel at the same time, and unconditional automatic refresh would results in many concurrent calls to the Bot, which would not scale. To alleviate the potential scale problem, the `userIds` property should always be included to identify which users should get an automatic refresh, with a maximum of **60** user IDs currently being allowed.  See [userIds in refresh](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/work-with-universal-actions-for-adaptive-cards#user-ids-in-refresh) for more details.<br><br>Note that the `userIds` property is ignored in Outlook, and the `refresh` property is always automatically honored. There is no scale issue in Outlook because users will typically view the card at different times.|
 
 **Sample JSON**
 ```JSON
@@ -214,7 +214,7 @@ The following table lists the allowed values for `statusCode`, `type`, and `valu
 
 | Status Code | Type | Value Schema | Notes |
 | --- | --- | --- | --- |
-| 200 | `application/vnd.microsoft.adaptive.card` | `Adaptive Card` | The request was successfully processed, and the response includes an Adaptive Card that the client should display in place of the current one. |
+| 200 | `application/vnd.microsoft.card.adaptive` | `Adaptive Card` | The request was successfully processed, and the response includes an Adaptive Card that the client should display in place of the current one. |
 | 200 | `application/vnd.microsoft.activity.message` | `string` | The request was successfully processed, and the response includes a message that the client should display. |
 | 400 | `application/vnd.microsoft.error` | Error Object (TODO: needs link) | The incoming request was invalid. | 
 | 401 | `application/vnd.microsoft.activity.loginRequest` | OAuthCard (TODO: needs link) | The client needs to prompt the user to authenticate. |
@@ -226,7 +226,7 @@ The following table lists the allowed values for `statusCode`, `type`, and `valu
 
 1. Use `Action.Execute` instead of `Action.Submit`. To update an existing scenario on teams, replace all instances of `Action.Submit` with `Action.Execute`. For upgrading an existing scenario on Outlook please refer the backward compatibility section below.
 2. For cards to surface on outlook add the `originator` field. Refer the Sample JSON above.  
-3. Add a `refresh` clause to your Adaptive Card if you want to leverage the automatic refresh mechanism or if your scenario requires contextual views. Be sure to specify the `userIds` property to identify which users (maximum 5) will get automatic updates. 
+3. Add a `refresh` clause to your Adaptive Card if you want to leverage the automatic refresh mechanism or if your scenario requires contextual views. Be sure to specify the `userIds` property to identify which users (maximum 60) will get automatic updates. 
 4. Handle `adaptiveCard/action` Invoke requests in your Bot
 5. Whenever your Bot needs to return a new card as a result of processing an `Action.Execute`, you can use the Invoke request's context to generate cards that are specifically crafted for a given user. Make sure the response conforms to the response schema defined above.
 
