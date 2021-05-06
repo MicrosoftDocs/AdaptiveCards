@@ -21,7 +21,7 @@ As Adaptive Cards grew in popularity, different hosts started supporting differe
 
 For more information about Actionable Messages in Outlook, please refer to the [Actionable Message documentation](/outlook/actionable-messages/send-via-email)
 
-For details on various scenarios possible with Universal Actions in Teams, please refer to [Teams cards reference](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/overview).
+For details on various scenarios possible with Universal Actions in Teams, please refer to [Teams cards reference](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/overview).
 
 Before `Action.Execute` |  With `Action.Execute`
 :-------------------------:|:-------------------------:
@@ -111,7 +111,7 @@ To allow an Adaptiver Card to automatically refresh, define its `refresh` proper
 | Property | Type | Required | Description 
 | -------- | ---- | -------- | ----------- 
 | **action** | `"Action.Execute"` | Yes | Must be an action instance of type `"Action.Execute"`. |
-| **userIds** | `Array<string>` | Yes | An array of `MRI`s of users for whom Auto Refresh must be enabled.<br><br>**IMPORTANT:** If the `userIds` list property isn't included in the `refresh` section of the card, the card will NOT automatically refresh on display. Instead, a button will be presented to the user to allow them to manually refresh. The reason for this is chats/channels in Teams can include a large number of members; if many members are all viewing the channel at the same time, an unconditional automatic refresh would result in many concurrent calls to the bot, which would not scale. To alleviate the potential scale problem, the `userIds` property should always be included to identify which users should get an automatic refresh, with a maximum of **60** user IDs currently being allowed.  See [userIds in refresh](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/work-with-universal-actions-for-adaptive-cards#user-ids-in-refresh) for more details.<br><br>Note that the `userIds` property is ignored in Outlook, and the `refresh` property is always automatically honored. There is no scale issue in Outlook because users will typically view the card at different times.|
+| **userIds** | `Array<string>` | Yes | An array of `MRI`s of users for whom Auto Refresh must be enabled.<br><br>**IMPORTANT:** If the `userIds` list property isn't included in the `refresh` section of the card, the card will NOT automatically refresh on display. Instead, a button will be presented to the user to allow them to manually refresh. The reason for this is chats/channels in Teams can include a large number of members; if many members are all viewing the channel at the same time, an unconditional automatic refresh would result in many concurrent calls to the bot, which would not scale. To alleviate the potential scale problem, the `userIds` property should always be included to identify which users should get an automatic refresh, with a maximum of **60** user IDs currently being allowed.  See [userIds in refresh](https://docs.microsoft.com//microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/work-with-universal-actions-for-adaptive-cards#user-ids-in-refresh) for more details.<br><br>Note that the `userIds` property is ignored in Outlook, and the `refresh` property is always automatically honored. There is no scale issue in Outlook because users will typically view the card at different times.|
 
 **Sample JSON**
 ```JSON
@@ -290,6 +290,6 @@ In the below example, note the `version` property of the card is set to `1.2` an
 ```
 
 ## References
-- [Universal Action Model Teams Documentation](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/overview)
+- [Universal Action Model Teams Documentation](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/cards/universal-actions-for-adaptive-cards/overview)
 - [Adaptive Cards @ Microsoft Build 2020](https://youtu.be/hEBhwB72Qn4?t=1393)
 - [Adaptive Cards @ Ignite 2020](https://techcommunity.microsoft.com/t5/video-hub/elevate-user-experiences-with-teams-and-adaptive-cards/m-p/1689460)
