@@ -13,11 +13,16 @@
   - name: Getting Started
     href: authoring-cards/getting-started.md
   - name: Card Schema
-    href: authoring-cards/card-schema.md
+    href: https://adaptivecards.io/explorer
   - name: Speech
     href: authoring-cards/speech.md
   - name: Text Features
     href: authoring-cards/text-features.md
+  - name: Input Validation
+    href: authoring-cards/input-validation.md
+  - name: Universal Bot Action Model
+    href: authoring-cards/universal-action-model.md
+
 - name: Rendering Cards
   items:
   - name: Getting Started
@@ -32,12 +37,24 @@
     href: rendering-cards/renderer-status.md
   - name: Implement a Renderer
     href: rendering-cards/implement-a-renderer.md
-- name: SDK
+- name: SDKs
   items:
   - name: Authoring Cards
     href: sdk/authoring-cards/toc.yml
   - name: Rendering Cards
     href: sdk/rendering-cards/toc.yml
+  - name: Designer SDK
+    href: sdk/designer.md
+- name: Templating
+  items:
+  - name: Overview
+    href: templating/index.md
+  - name: Template Language
+    href: templating/language.md
+  - name: Templating SDKs
+    href: templating/sdk.md
+  - name: Template Service
+    href: templating/service.md
 - name: Resources
   items:
   - name: Principles

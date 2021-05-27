@@ -24,7 +24,7 @@ Users win because everything feels familiar. Host apps win because they control 
 
 ## Goals 
 
-The goals for adaptive cards are:
+The goals for Adaptive Cards are:
 
 * **Portable** - To any app, device, and UI framework
 * **Open** - Libraries and schema are open source and shared
@@ -37,7 +37,7 @@ The goals for adaptive cards are:
 Adaptive Cards are great for card authors:
 
 * **One schema** - You get a single format, minimizing the cost of creating a card and maximizing the number of places it can be used.
-* **Richer expression** - Your content can more closely align with want you want to say because you have a richer palette to paint with.
+* **Richer expression** - Your content can more closely align with what you want to say because you have a richer palette to paint with.
 * **Broad reach** - Your content will work across a broader set of applications without you having to learn new schemas.
 * **Input controls** - Your card can include input controls for gathering information from the user that is viewing the card.
 * **Better tooling** - An open card ecosystem means better tooling that is shared by everyone.
@@ -49,7 +49,7 @@ If you are an app developer who wants to tap into an ecosystem of third-party co
 * **Native performance** - You get native performance as it targets your UI framework directly.
 * **Safe** - Content is delivered in safe payloads so you don't have to open up your UI framework to raw markup and scripting.
 * **Easy to implement** - You get off the shelf libraries to easily integrate on any platform you support 
-* **Free documentation** - You save time because you don't have invent, implement, and document a proprietary schema.
+* **Free documentation** - You save time because you don't have to invent, implement, and document a proprietary schema.
 * **Shared tooling** - You save time because you don't have to create custom tooling.
 
 ## Core Design Principles 
@@ -70,11 +70,11 @@ By focusing on keeping it simple and expressive, Markdown created an easy and co
 same way, we believe that Adaptive Cards can create a simple, expressive means of describing card content.
 
 ### When in doubt, keep it out
-It is easier to add later then it is to live with a mistake. If we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
+It is easier to add later than it is to live with a mistake. If we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
 
 
-## Build 2018 Session
+## Build 2019 Session
 
-The following session at Build 2018 showcases Adaptive Cards in Bots, Cortana, Outlook, and Windows. 
+The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases. 
 
-<iframe src="https://medius.studios.ms/Embed/Video/BRK2401?SFYT=true" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wT1yFr_j6IM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

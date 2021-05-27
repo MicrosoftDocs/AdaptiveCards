@@ -1,6 +1,6 @@
 - name: Docs
-  href: /
-  homepage: /
+  tocHref: /
+  topicHref: /
   items:
   - name: Adaptive Cards
     tocHref: /adaptive-cards/

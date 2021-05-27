@@ -40,6 +40,8 @@
     href: javascript/native-styling.md
   - name: Extensibility
     href: javascript/extensibility.md
+  - name: Fabric UI integration
+    href: javascript/fabric.md
 - name: .NET HTML
   items:
   - name: Getting Started
@@ -96,3 +98,21 @@
     href: uwp/native-styling.md
   - name: Extensibility
     href: uwp/extensibility.md
+- name: ReactNative
+  items:
+  - name: Getting Started
+    href: react-native/getting-started.md
+  - name: Customization and themeing
+    href: react-native/theme-config.md
+- name: Xamarin.Android
+  items:
+  - name: Getting Started
+    href: xamarin/android/getting-started.md
+  - name: Render a Card
+    href: xamarin/android/render-a-card.md
+  - name: Actions
+    href: xamarin/android/actions.md
+  - name: Host Config
+    href: xamarin/android/host-config.md
+  - name: Native Styling
+    href: xamarin/android/native-styling.md

@@ -1,14 +1,20 @@
 ---
 title: Actions - Android SDK
-author: bekao
-ms.author: bekao
+author: almedina-ms
+ms.author: almedina
 ms.date: 09/27/2017
 ms.topic: article
 ---
 
 # Actions - Android
 
-When a cards action is executed, the class that was passed to the render call that implements the ICardActionHandler interface gets invoked. Here is how to define your action handler:
+> [!IMPORTANT]
+> **List of Breaking changes**
+> 
+> [Breaking changes in v1.1](#breaking-changes-in-v11)
+> 
+
+When a cards action is executed, the class that was passed to the render call that implements the ```ICardActionHandler``` interface gets invoked. Here is how to define your action handler:
 
 ```java
 public class ActionHandler implements ICardActionHandler
@@ -101,6 +107,54 @@ public class ActionHandler implements ICardActionHandler
 
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(openUrlAction.GetUrl()));
         this.startActivity(browserIntent);
+    }
+}
+```
+
+## Breaking changes in v1.1
+
+The media element included in this version requires two new methods to be implemented by the classes that implement ```ICardActionHandler```, these methods are:
+
+* ```onMediaPlay``` is invoked when the play button is pressed for the first time in any media element
+* ```onMediaStop``` is invoked when the media reaches it's end
+
+The signatures for these methods are:
+
+```java
+public void onMediaPlay(BaseCardElement mediaElement, RenderedAdaptiveCard renderedAdaptiveCard)
+public void onMediaStop(BaseCardElement mediaElement, RenderedAdaptiveCard renderedAdaptiveCard)
+```
+
+And the implementation for the ActionHandler from the previous example would now look similar to this:
+
+```java
+public class ActionHandler implements ICardActionHandler
+{
+    @Override
+    public void onAction(BaseActionElement actionElement, RenderedAdaptiveCard renderedCard)
+    { }
+
+    private void onSubmit(BaseActionElement actionElement, RenderedAdaptiveCard renderedAdaptiveCard) 
+    { }
+
+    private void onShowCard(BaseActionElement actionElement)
+    { }
+
+    private void onOpenUrl(BaseActionElement actionElement)
+    { }
+
+    @Override
+    public void onMediaPlay(BaseCardElement mediaElement, RenderedAdaptiveCard renderedAdaptiveCard)
+    {
+        // Your logic here, i.e.
+        showToast("Media started: " + mediaElement, Toast.LENGTH_LONG);
+    }
+
+    @Override
+    public void onMediaStop(BaseCardElement mediaElement, RenderedAdaptiveCard renderedAdaptiveCard)
+    {
+        // Your logic here, i.e.
+        showToast("Media ended playing: " + mediaElement, Toast.LENGTH_LONG);
     }
 }
 ```

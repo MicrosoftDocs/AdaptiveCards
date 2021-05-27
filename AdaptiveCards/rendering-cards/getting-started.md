@@ -39,7 +39,7 @@ By default, the actions will render as buttons on the card, but it's up to your 
 
 ## Render a card
 
-After you acquire a card payload, simply call the renderer and pass in the card. You will to get back a native UI object made up of the card contents. Now just put this UI somewhere in your app.
+After you acquire a card payload, simply call the renderer and pass in the card. You will get back a native UI object made up of the card contents. Now just put this UI somewhere in your app.
 
 ## Customization
 
@@ -55,7 +55,7 @@ Most UI frameworks allow you to style the rendered card by using the native UI f
 
 ### Customize per-element rendering
 
-Each SDK allows you to override the rendering of any element, or even add support for entirely new elements that you define.  For example, you can change the `Input.Date` renderer to emit your own custom control while still retaining the rest of the output of the renderer. Or you can add support for a custom `Rating` element to you define.
+Each SDK allows you to override the rendering of any element, or even add support for entirely new elements that you define.  For example, you can change the `Input.Date` renderer to emit your own custom control while still retaining the rest of the output of the renderer. Or you can add support for a custom `Rating` element that you define.
 
 
 

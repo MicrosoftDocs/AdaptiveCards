@@ -1,8 +1,8 @@
 ---
 title: HostConfig for Adaptive Cards
-author: paulcam206
-ms.author: paulcam
-ms.date: 09/18/2018
+author: almedina-ms
+ms.author: almedina
+ms.date: 08/05/2020
 ms.topic: reference
 ---
 
@@ -11,7 +11,7 @@ ms.topic: reference
 
 This allows properties which are platform agnostic to be shared among renderers on different platforms and devices. It also allows tooling to be created which gives you an idea of the look and feel that card would have for a given environment.
 
-See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/master/samples/v1.0/HostConfig/sample.json) to get a feeling for its contents.
+See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/master/samples/HostConfig/sample.json) to get a feeling for its contents.
 
 ---
 
@@ -24,13 +24,17 @@ See a sample [HostConfig.json](https://github.com/Microsoft/AdaptiveCards/blob/m
    * [`ForegroundColorsConfig`](#schema-foregroundcolorsconfig) - Controls various font colors
    * [`ImageSetConfig`](#schema-imagesetconfig) - Controls how `ImageSet`s are displayed
    * [`ImageSizesConfig`](#schema-imagesizesconfig) - Controls `Image` sizes
+   * [`InputsConfig`](#schema-inputsconfig) - Controls how labels and error messages are displayed 
+      * [`LabelConfig`](#schema-labelconfig) - Controls how labels are displayed
+         * [`InputLabelConfig`](#schema-inputlabelconfig) - Controls how required or optional labels are displayed
+      * [`ErrorMessageConfig`](#schema-errormessageconfig) - Controls how error messages are displayed
    * [`MediaConfig`](#schema-mediaconfig) - Controls the display and behavior of `Media` elements
    * [`SeparatorConfig`](#schema-separatorconfig) - Controls how separators are displayed
    * [`ShowCardConfig`](#schema-showcardconfig) - Controls behavior and styling of `Action.ShowCard`
    * [`SpacingsConfig`](#schema-spacingsconfig) - Controls how elements are to be laid out
    * [`TextBlockConfig`](#schema-textblockconfig) - Parameters controlling the display of text
 
-# Card Configuration
+## Card Configuration
 
 <a name="schema-adaptivecardconfig"></a>
 ## AdaptiveCardConfig
@@ -160,6 +164,50 @@ Controls `Image` sizes
 |**medium**|`integer`| No, default: `120`|Medium image size value|1.0
 |**large**|`integer`| No, default: `180`|Large image size value|1.0
 
+<a name="schema-inputsconfig"></a>
+## InputsConfig
+
+Controls how labels and error messages are displayed 
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**label**|`LabelConfig`| No |Controls how labels are displayed|1.3|
+|**errorMessage**|`ErrorMessageConfig`| No|Controls how error messages are displayed |1.3|
+
+<a name="schema-labelconfig"></a>
+### LabelConfig
+
+Controls how labels are displayed
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**requiredInputs**|`InputLabelConfig`| No |Controls how labels for required inputs are displayed|1.3|
+|**optionalInputs**|`InputLabelConfig`| No|Controls how labels for optional inputs are displayed |1.3|
+|**spacing**|`string`| No, default: `"default"` |[Spacing](#schema-spacingsconfig) between the label and the input|1.3|
+
+<a name="schema-inputlabelconfig"></a>
+#### InputLabelConfig
+
+Controls how required or optional labels are displayed
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**color**|`string`|No, default: `"default"`| Font [color](#schema-foregroundcolorsconfig) of the label (the suffix is always rendered in `attention` color) |1.3|
+|**isSubtle**|`bool`| No, default: `false`| Defines whether to use the `subtle` foreground color |1.3|
+|**size**|`string`| No, default: `"default"` | Font [size](#schema-fontsizesconfig) of the label to be displayed |1.3|
+|**suffix**|`string`| No, default: `"*"` | Suffix to be displayed at the end of the label for required inputs. If none is defined, an asterisk `*` is appended to the label |1.3|
+|**weight**|`string`| No, default: `"default"` | Font [weight](#schema-fontweightsconfig) of the label |1.3|
+
+<a name="schema-errormessageconfig"></a>
+### ErrorMessageConfig
+
+Controls how error messages are displayed. Error messages are always displayed with the `attention` color.
+
+|Property|Type|Required|Description|Version|
+|--------|----|--------|-----------|-------|
+|**spacing**|`string`| No, default: `"default"` |[Spacing](#schema-spacingsconfig) between the input and the error message|1.3|
+|**size**|`string`| No, default: `"default"` | Font [size](#schema-fontsizesconfig) of the error message  |1.3|
+|**weight**|`string`| No, default: `"default"` | Font [weight](#schema-fontweightsconfig) of the error message |1.3|
 
 <a name="schema-mediaconfig"></a>
 ## MediaConfig

@@ -22,7 +22,7 @@ ACOHostConfig *defaultConfig = [[ACHostConfig alloc] init];
 
 ## Render a card using host config
 
-Rederer takes adaptive card and host config. HostConfig can be nil, and if nil, default value will be used.
+Renderer takes adaptive card and host config. HostConfig can be nil, and if nil, default value will be used.
 
 ```objective-c
 ACRRenderResult *renderResult;
@@ -30,3 +30,11 @@ renderResult = [ACRRenderer render:cardParseResult.card
                             config:hostconfigParseResult.config
                    widthConstraint:300.0];
 ```
+
+## Customization
+
+There are 3 ways to customize the adaptive card rendering:
+
+1. Host Config
+2. XIB
+3. Custom element rendering

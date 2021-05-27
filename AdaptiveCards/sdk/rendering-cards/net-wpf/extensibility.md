@@ -24,9 +24,9 @@ renderer.ElementRenderers.Set<MyCustomRating>(MyCustomRating.Render);
 // Define a custom Rating element type
 public class MyCustomRating : AdaptiveElement
 {
-    public override string Type => "Rating";
+    public MyCustomRating() { Type = "Rating"; }
 
-    public double Rating { get; set; }
+    public override string Type { get; set; }
 
     public AdaptiveTextSize Size { get; set; }
 

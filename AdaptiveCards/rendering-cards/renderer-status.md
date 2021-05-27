@@ -25,7 +25,7 @@ The tables below show the current status of each renderer, based on their public
 |Render actions bar | ✅ | ✅ | ✅ | ✅ | ✅ |
 |Ignore unknown Elements | ✅ | ✅ | ✅ | ✅ | ✅ |
 |Host Config support | ✅ | ✅ | ✅ | ✅ | ✅ |
-|Native platform styling | ✅ | ✅ | ✅ | ✅ | ✅ |
+|Native platform styling | ✅ | ✅ | ✅ | ✅ | ❌ |
 
 ### Element Rendering
 
@@ -33,19 +33,19 @@ The tables below show the current status of each renderer, based on their public
 |--- | --- | --- | --- | --- | --- | --- |
 |Spacing and Separator | ✅ | ✅ | ✅ | ✅ | ✅ |
 |[TextBlock DATE/TIME formatting](../authoring-cards/text-features.md#datetime-formatting-and-localization) | ✅ | ✅ | ✅ | ✅ | ✅ |
-|[TextBlock Markdown support](../authoring-cards/text-features.md#markdown) | ✅* | ✅ | ✅ | ✅ | ✅ |
-|Full Input support | ✅ | ✅ | ✅ | ✅ | ✅ |
+|[TextBlock Markdown support](../authoring-cards/text-features.md#markdown-commonmark-subset) | ✅* | ✅ | ✅ | ✅ | ✅ |
+|Input Validation and Labels | ❌ | ✅ | ✅ | ✅ | ✅ |
 
 \* The HTML renderer doesn’t include built-in Markdown support in order to minimize the size of the library and to let consuming applications use their preferred Markdown processor. The HTML renderer will however automatically use Markdown-It if it is loaded.
 
-### Extensbility
+### Extensibility
 
 |Functionality | HTML | .NET | UWP | iOS | Android |
 |--- | --- | --- | --- | --- | --- | --- |
 |Override Element Renderer | ✅ | ✅ | ✅ | ✅ | ✅ |
 |Add new Element Renderer | ✅ | ✅ | ✅ | ✅ | ✅ |
 |Remove Element Renderer | ✅ | ✅ | ✅ | ✅ | ✅ |
-|[Override/add/remove Action Renderer](https://github.com/Microsoft/AdaptiveCards/issues/1671) | ✅ | ✅ | ❌ | ✅ | ✅ |
+|[Override/add/remove Action Renderer](https://github.com/Microsoft/AdaptiveCards/issues/1671) | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ### Actions
 

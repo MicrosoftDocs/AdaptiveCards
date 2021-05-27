@@ -3,7 +3,7 @@ title: Getting Started
 author: matthidinger
 ms.author: mahiding
 ms.date: 11/9/2017
-ms.topic: get-started-article
+ms.topic: article
 ---
 
 # Getting Started 
@@ -84,7 +84,7 @@ Actions add buttons to the card. These can perform a variety of actions, like op
 
 ## Learn More
 
-* [Browse Sample cards](http://adaptivecards.io/samples/) for inspiration
-* Use the [Schema Explorer](http://adaptivecards.io/explorer) to browse the available elements
-* Build a card using the [Interactive Visualizer](http://adaptivecards.io/visualizer/)
-* [Get in touch](http://adaptivecards.io/connect) with any feedback you have
+* [Browse Sample cards](https://adaptivecards.io/samples/) for inspiration
+* Use the [Schema Explorer](https://adaptivecards.io/explorer) to browse the available elements
+* Build a card using the [Interactive Visualizer](https://adaptivecards.io/visualizer/)
+* [Get in touch](https://adaptivecards.io/connect) with any feedback you have
