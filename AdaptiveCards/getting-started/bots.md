@@ -110,8 +110,8 @@ If your bot is developed using .NET or NodeJS we have libraries to make building
 
 Platform|Install|Learn more
 --------|-------|----------
-.NET | `Install-Package AdaptiveCards -IncludePrerelease` | [Bot Framework .NET Docs](https://docs.microsoft.com/en-us/bot-framework/dotnet/bot-builder-dotnet-add-rich-card-attachments)
-NodeJS | `npm install adaptivecards` | [Bot Framework NodeJS Docs](https://docs.microsoft.com/en-us/bot-framework/nodejs/bot-builder-nodejs-send-rich-cards)
+.NET | `Install-Package AdaptiveCards -IncludePrerelease` | [Bot Framework .NET Docs](/bot-framework/dotnet/bot-builder-dotnet-add-rich-card-attachments)
+NodeJS | `npm install adaptivecards` | [Bot Framework NodeJS Docs](/bot-framework/nodejs/bot-builder-nodejs-send-rich-cards)
 
 
 ## Channel status
