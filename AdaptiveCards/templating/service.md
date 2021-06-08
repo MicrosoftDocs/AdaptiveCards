@@ -126,7 +126,7 @@ The service returns a list of any matching templates, along with a `confidence` 
 
 ### Get a template
 
-A template retrieved from this endpoint can be populated with data at runtime [using the templatng SDKs](sdk.md).
+A template retrieved from this endpoint can be populated with data at runtime [using the templating SDKs](sdk.md).
 
 > `HTTP GET https://templates.adaptivecards.io/[TEMPLATE-PATH]`
 
