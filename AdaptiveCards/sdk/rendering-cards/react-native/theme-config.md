@@ -71,6 +71,7 @@ defaultThemeConfig = {
             borderRadius: 15,
             backgroundColor: "#1D9BF6",
             color: "white"
+            textTransform: undefined
         },
         windows: {
             borderRadius: 15,
@@ -145,3 +146,4 @@ defaultThemeConfig = {
     }
 };
 ```
+
