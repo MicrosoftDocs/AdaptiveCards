@@ -65,20 +65,20 @@ defaultThemeConfig = {
             borderRadius: 15,
             backgroundColor: "#1D9BF6",
             color: "white",
-            textTransform: 'none'
+            textTransform: "none"
         },
         android: {
             borderRadius: 15,
             backgroundColor: "#1D9BF6",
-            color: "white",
+            color: "white"
             textTransform: undefined
         },
         windows: {
             borderRadius: 15,
             backgroundColor: "#1D9BF6",
             color: "white",
-            textTransform: 'none'
-        },
+            textTransform: "none"
+        }
     },
     input: {
         borderColor: "#dcdcdc",
@@ -87,34 +87,63 @@ defaultThemeConfig = {
         borderWidth: 1
     },
     inputDate: {
-        width: '100%',
+        width: "100%",
         height: 44,
         padding: 5,
         borderWidth: 1,
         backgroundColor: "white",
         borderColor: "lightgrey",
-        borderRadius: 5,
+        borderRadius: 5
     },
     inputTime: {
-        width: '100%',
+        width: "100%",
         height: 44,
         padding: 5,
         borderWidth: 1,
         backgroundColor: "white",
         borderColor: "lightgrey",
-        borderRadius: 5,
+        borderRadius: 5
     },
     radioButton: {
-        width: 28,
-        height: 28
+        width: 24,
+        height: 24,
+        activeColor: "#000000",
+        inactiveColor: "#404040"
+    },
+    radioButtonText: {
+        marginLeft: 8,
+        flexShrink: 1,
+        activeColor: "#000000",
+        inactiveColor: "#404040"
     },
     checkBox: {
         width: 28,
-        height: 28
+        height: 28,
+        activeColor: "#000000",
+        inactiveColor: "#404040"
     },
-    choiceSetTitle: {
+    checkBoxText: {
         marginLeft: 8,
-        flexShrink: 1
+        flexShrink: 1,
+        activeColor: "#000000",
+        inactiveColor: "#404040"
     },
-}
+    dropdown: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "flex-end",
+        borderWidth: 1,
+        backgroundColor: "white",
+        borderColor: "lightgrey",
+        borderRadius: 5
+    },
+    dropdownText: {
+        color: "#000000",
+        textAlign: "left",
+        marginTop: 10,
+        marginLeft: 8,
+        height: 30
+    }
+};
 ```
+

@@ -39,7 +39,7 @@ By default, the actions will render as buttons on the card, but it's up to your 
 
 ## Render a card
 
-After you acquire a card payload, simply call the renderer and pass in the card. You will to get back a native UI object made up of the card contents. Now just put this UI somewhere in your app.
+After you acquire a card payload, simply call the renderer and pass in the card. You will get back a native UI object made up of the card contents. Now just put this UI somewhere in your app.
 
 ## Customization
 
