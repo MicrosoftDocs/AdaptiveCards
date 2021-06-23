@@ -12,7 +12,7 @@ ms.topic: article
 
 Adaptive Cards are platform-agnostic snippets of UI, authored using a lightweight JSON format, that apps and services can share. Adaptive Cards not only adapt to the look-and-feel of the host, but also provide rich interaction capabilities. For more information about Adaptive Cards, please visit [adaptivecards.io](http://adaptivecards.io). 
 
-As Adaptive Cards grew in popularity, different hosts started supporting different action models and this led to fragmentation. To solve this problem, the Teams, Outlook and Adaptive Cards teams worked on creating a new universal Bot action model compatible across hosts. This effort lead to the following:
+As Adaptive Cards grew in popularity, different hosts started supporting different action models and this led to fragmentation. To solve this problem, the Teams, Outlook and Adaptive Cards teams worked on creating a new universal Bot action model compatible across hosts. This effort led to the following:
 - The generalization of Bots and the Bot Framework as the way to implement Adaptive Card-based scenarios for both Teams (Bots) and Outlook (Actionable Message)
 - `Action.Execute` as a replacement for both `Action.Submit` (currently used by Bots) and `Action.Http` (currently used by Actionable Messages)
 - Popular features only supported by Actionable Messages made available to Bots, namely:
@@ -106,7 +106,7 @@ When authoring Adaptive Cards, use `Action.Execute` in place of both `Action.Sub
 
 Alongside `Action.Execute`, a new refresh mechanism is now supported, making it possible to create Adaptive Cards that automatically update at the time they are displayed. This ensures that users always see up to date data. A typical refresh use case is an approval request: once approved, it is best that users are not presented with a card prompting them to approve when it's already been done, but instead provides information on the time the request was approved and by whom.
 
-To allow an Adaptiver Card to automatically refresh, define its `refresh` property, which embeds an `action` of type `Action.Execute` as well as a `userIds` array.
+To allow an Adaptive Card to automatically refresh, define its `refresh` property, which embeds an `action` of type `Action.Execute` as well as a `userIds` array.
 
 | Property | Type | Required | Description 
 | -------- | ---- | -------- | ----------- 
@@ -226,7 +226,7 @@ The following table lists the allowed values for `statusCode`, `type`, and `valu
 
 ## Summary: how to leverage the universal Bot action model
 
-1. Use `Action.Execute` instead of `Action.Submit`. To update an existing scenario on teams, replace all instances of `Action.Submit` with `Action.Execute`. For upgrading an existing scenario on Outlook please refer the backward compatibility section below.
+1. Use `Action.Execute` instead of `Action.Submit`. To update an existing scenario on teams, replace all instances of `Action.Submit` with `Action.Execute`. For upgrading an existing scenario on Outlook please refer to the backward compatibility section below.
 2. For cards to surface on outlook add the `originator` field. Refer the Sample JSON above.  
 3. Add a `refresh` clause to your Adaptive Card if you want to leverage the automatic refresh mechanism or if your scenario requires user specific views. Be sure to specify the `userIds` property to identify which users (maximum 60) will get automatic updates. 
 4. Handle `adaptiveCard/action` Invoke requests in your Bot
