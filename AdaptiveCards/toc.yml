@@ -14,8 +14,6 @@
     href: authoring-cards/getting-started.md
   - name: Card Schema
     href: https://adaptivecards.io/explorer
-  - name: Speech
-    href: authoring-cards/speech.md
   - name: Text Features
     href: authoring-cards/text-features.md
   - name: Input Validation
