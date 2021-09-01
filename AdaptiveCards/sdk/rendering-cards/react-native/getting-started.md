@@ -9,7 +9,7 @@ ms.topic: article
 
 # ReactNative Renderer
 
-A [community-supported](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.MD) ReactNative renderer for Adaptive Cards, maintained by [Imaginea](https://imaginea.com).
+A [community-supported](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.MD) ReactNative renderer for Adaptive Cards, maintained by [BigThinkCode](https://www.bigthinkcode.com).
 
 > [!IMPORTANT]
 >
@@ -51,7 +51,7 @@ A [community-supported](https://github.com/microsoft/AdaptiveCards/blob/main/SUP
 ## Full documentation and source code
 
 * [Documentation](https://www.npmjs.com/package/adaptivecards-reactnative)
-* [Source code](https://github.com/microsoft/AdaptiveCards/tree/master/source/community/reactnative)
+* [Source code](https://github.com/BigThinkcode/AdaptiveCards/tree/master/source/community/reactnative)
 
 ## Customization and Themeing
 
