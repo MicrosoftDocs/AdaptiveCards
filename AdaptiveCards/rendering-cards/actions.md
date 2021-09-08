@@ -14,4 +14,4 @@ By default, the actions will render as buttons on the card, but it's up to your 
 * **Action.Submit** - take the result of the submit and send it to the source. How you send it to the source of the card is entirely up to you.
 * **Action.ShowCard** - invokes a dialog and renders the sub-card into that dialog. Note that you only need to handle this if `ShowCardActionMode` is set to `popup`.
 * **Action.ToggleVisibility** - shows or hides one or more elements in the card.
-* **Action.Execute** - gathers input fields, merges with optional data field, and sends an event to the client. Learn more about Action.Execute in our [Universal Action Model](https://docs.microsoft.com/en-us/adaptive-cards/authoring-cards/universal-action-model) section.
+* **Action.Execute** - gathers input fields, merges with optional data field, and sends an event to the client. Learn more about Action.Execute in our [Universal Action Model](https://docs.microsoft.com/adaptive-cards/authoring-cards/universal-action-model) section.
