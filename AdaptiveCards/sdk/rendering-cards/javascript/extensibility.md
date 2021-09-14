@@ -261,7 +261,7 @@ card.parse(
 );
 ```
 
-## Extensibility with the JS SDK prior to version 2.0
+## Extensibility with the JavaScript SDK prior to version 2.0
 
 ### Custom elements
 
