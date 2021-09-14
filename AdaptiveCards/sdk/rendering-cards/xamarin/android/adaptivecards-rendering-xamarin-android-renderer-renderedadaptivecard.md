@@ -20,7 +20,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 
 ### Summary
 
-| Attributes | |
+| Attributes | &nbsp; |
 | ---- | --- |
 | AdaptiveCard | Logical representation of the rendered adaptive card. |
 | Inputs | Dictionary of input element and information added by the user. |
@@ -29,7 +29,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 
 &nbsp;
 
-| Public methods | |
+| Public methods | &nbsp; |
 | --- | ---- |
 | ```void``` | [```AddWarning AdaptiveCards.Rendering.Xamarin.Android.Renderer.AdaptiveWarning warning)```](#addwarning) |
 
@@ -47,6 +47,6 @@ public void AddWarning (AdaptiveWarning warning)
 
 Adds a warning to the warning list.
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | warning | ```AdaptiveCards.Rendering.Xamarin.Android.Renderer.AdaptiveWarning``` |
