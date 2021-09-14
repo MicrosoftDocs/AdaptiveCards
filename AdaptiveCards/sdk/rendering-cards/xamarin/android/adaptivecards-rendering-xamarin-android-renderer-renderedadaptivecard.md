@@ -38,7 +38,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 ---
 
 ### <a id="addwarning"></a> AddWarning
-<p style='text-align:right'>Added in version 0.1</p>
+<p>Added in version 0.1</p>
 
 ```csharp
 public void AddWarning (AdaptiveWarning warning)

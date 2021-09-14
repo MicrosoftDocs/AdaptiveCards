@@ -1,7 +1,7 @@
 ---
 title: Renderer Behaviour Guideline
 author: manujai
-ms.author: manujai
+ms.author: almedina
 ---
 
 
@@ -173,7 +173,7 @@ Below  scenarios describes how the constraints are affected with different heigh
 
 2. Column width and Image Size combination
 
-![Column width and image size combination](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/imagesize2.png)
+![Screenshot that shows column width and image size combination.](https://github.com/manujai/AdaptiveCards/blob/doc_renderer_behaviour/AdaptiveCards/content/imagesize2.png)
 
 * Generally, Columns with `stretch` width allow images to upscale freely with `stretch` size.
 * Columns with `auto` width allows image to occupy exact space irrespective of `auto` and `stretch` size of image.
