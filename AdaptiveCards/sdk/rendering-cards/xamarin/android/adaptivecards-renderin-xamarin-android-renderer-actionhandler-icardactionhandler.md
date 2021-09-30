@@ -28,7 +28,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer.ActionHandler
 ## Public Methods
 --- 
 ### <a id="onaction"></a> OnAction
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0p>
 
 ```csharp
 void OnAction (BaseActionElement p0, RenderedAdaptiveCard p1)
