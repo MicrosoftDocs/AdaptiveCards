@@ -29,7 +29,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 ---
 
 ### <a id="render0"></a> Render
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public RenderedAdaptiveCard Render (Context context, 
@@ -61,7 +61,7 @@ RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.Instance.Render(context
 ---
 
 ### <a id="render1"></a> Render
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 RenderedAdaptiveCard Render (Context context, 

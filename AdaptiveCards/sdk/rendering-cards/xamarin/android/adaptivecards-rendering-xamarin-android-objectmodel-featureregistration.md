@@ -30,7 +30,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
 ---
 
 ### <a id="addfeature"></a> AddFeature
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public void AddFeature (string featureName, 
@@ -55,7 +55,7 @@ CardRendererRegistration.Instance.RegisterFeatureRegistration(featureRegistratio
 ---
 
 ### <a id="getfeatureversion"></a> GetFeatureVersion
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public string GetFeatureVersion (string featureName)
@@ -82,7 +82,7 @@ string featureVersion = featureRegistration.GetFeatureVersion("MyFeature"); // 1
 ---
 
 ### <a id="removefeature"></a> RemoveFeature
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public void RemoveFeature (string featureName)

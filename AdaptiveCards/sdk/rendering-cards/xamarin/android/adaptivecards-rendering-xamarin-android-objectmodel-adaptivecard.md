@@ -207,7 +207,7 @@ public AdaptiveCard (string version,
 ## Public Methods
 ---
 ### <a id="deserializefromstring0"></a> DeserializeFromString
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public static ParseResult DeserializeFromString (string jsonString, string rendererVersion)
@@ -232,7 +232,7 @@ ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveC
 
 --- 
 ### <a id="deserializefromstring1"></a> DeserializeFromString
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public static ParseResult DeserializeFromString(string jsonString, string rendererVersion, ParseContext context)
@@ -260,7 +260,7 @@ ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveC
 ---
 
 ### <a id="makefallbacktextcard"></a> MakeFallbackTextCard
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public static AdaptiveCard MakeFallbackTextCard (string fallbackText, string language, string speak)
@@ -287,7 +287,7 @@ AdaptiveCard adaptiveCard = AdaptiveCard.MakeFallbackTextCard("This card failed 
 ---
 
 ### <a id="serialize"></a> Serialize
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public string Serialize ()
@@ -308,7 +308,7 @@ string jsonString = parseResult.AdaptiveCard.Serialize();
 ---
 
 ### <a id="serializetojsonvalue"></a> SerializeToJsonValue
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public JsonValue SerializeToJsonValue ()

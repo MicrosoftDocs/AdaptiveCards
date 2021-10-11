@@ -28,7 +28,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer.Registration
 --- 
 
 ### <a id="registerfeatureregistration"></a> RegisterFeatureRegistration
-<p>Added in version 0.1</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public void RegisterFeatureRegistration (FeatureRegistration featureRegistration)
