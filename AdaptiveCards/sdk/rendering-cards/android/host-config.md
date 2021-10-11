@@ -6,7 +6,7 @@ ms.date: 09/27/2017
 ms.topic: article
 ---
 
-# Host config - Android
+# Host config for Android
 
 To customize the renderer you provide an instance of the HostConfig object. (See [Host Config Schema](../../../rendering-cards/host-config.md) for the full description.)
 

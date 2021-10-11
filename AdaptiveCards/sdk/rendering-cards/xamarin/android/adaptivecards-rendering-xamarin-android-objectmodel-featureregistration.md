@@ -19,7 +19,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
 
 ## Summary
 
-| Public methods | |
+| Public methods | &nbsp; |
 | --- | ---- |
 | ```void``` | [```AddFeature(string featureName, string featureVersion)```](#addfeature) |
 | ```string``` | [```GetFeatureVersion(string featureName)```](#getfeatureversion) |
@@ -30,7 +30,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
 ---
 
 ### <a id="addfeature"></a> AddFeature
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public void AddFeature (string featureName, 
@@ -39,7 +39,7 @@ public void AddFeature (string featureName,
 
 Adds a feature containing its name and version to the renderer feature registration.
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | featureName | ```string``` |
 | featureVersion | ```string``` |
@@ -55,7 +55,7 @@ CardRendererRegistration.Instance.RegisterFeatureRegistration(featureRegistratio
 ---
 
 ### <a id="getfeatureversion"></a> GetFeatureVersion
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public string GetFeatureVersion (string featureName)
@@ -63,11 +63,11 @@ public string GetFeatureVersion (string featureName)
 
 Retrieves the version for a given feature. 
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | featureName | ```string``` |
 
-| Returns | |
+| Returns | &nbsp; |
 | --- | --- |
 | ```string``` | Feature version for the given feature |
 
@@ -82,7 +82,7 @@ string featureVersion = featureRegistration.GetFeatureVersion("MyFeature"); // 1
 ---
 
 ### <a id="removefeature"></a> RemoveFeature
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public void RemoveFeature (string featureName)
@@ -90,7 +90,7 @@ public void RemoveFeature (string featureName)
 
 Removes the given feature from the feature dictionary.
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | featureName | ```string``` |
 
