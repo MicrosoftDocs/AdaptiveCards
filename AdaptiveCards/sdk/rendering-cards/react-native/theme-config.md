@@ -58,92 +58,130 @@ In this example, styles passed for element `input` are applied to all the platfo
 
 Currently, AdaptiveCards take the below theme config by default. But, the adaptive card developer can override below styles or add new styles using the custom theme config. Please note that the custom styles that are passing to the below elements should be supported in respective React-Native components. 
 
+In addition, to give a different placeholder color for the input elements, developers can pass a custom style called `placeHolderTextColor` in the themeConfig props - `input, inputDate, and inputTime`.
+
+
 ```css
 defaultThemeConfig = {
-    button: {
-        ios: {
-            borderRadius: 15,
-            backgroundColor: "#1D9BF6",
-            color: "white",
-            textTransform: "none"
-        },
-        android: {
-            borderRadius: 15,
-            backgroundColor: "#1D9BF6",
-            color: "white"
-            textTransform: undefined
-        },
-        windows: {
-            borderRadius: 15,
-            backgroundColor: "#1D9BF6",
-            color: "white",
-            textTransform: "none"
-        }
+  button: {
+    ios: {
+      borderRadius: 15,
+      backgroundColor: "#1D9BF6",
+      color: "white",
+      textTransform: "none"
     },
-    input: {
-        borderColor: "#dcdcdc",
-        backgroundColor: "white",
-        borderRadius: 5,
-        borderWidth: 1
+    android: {
+      borderRadius: 15,
+      backgroundColor: "#1D9BF6",
+      color: "white"
     },
-    inputDate: {
-        width: "100%",
-        height: 44,
-        padding: 5,
-        borderWidth: 1,
-        backgroundColor: "white",
-        borderColor: "lightgrey",
-        borderRadius: 5
-    },
-    inputTime: {
-        width: "100%",
-        height: 44,
-        padding: 5,
-        borderWidth: 1,
-        backgroundColor: "white",
-        borderColor: "lightgrey",
-        borderRadius: 5
-    },
-    radioButton: {
-        width: 24,
-        height: 24,
-        activeColor: "#000000",
-        inactiveColor: "#404040"
-    },
-    radioButtonText: {
-        marginLeft: 8,
-        flexShrink: 1,
-        activeColor: "#000000",
-        inactiveColor: "#404040"
-    },
-    checkBox: {
-        width: 28,
-        height: 28,
-        activeColor: "#000000",
-        inactiveColor: "#404040"
-    },
-    checkBoxText: {
-        marginLeft: 8,
-        flexShrink: 1,
-        activeColor: "#000000",
-        inactiveColor: "#404040"
-    },
-    dropdown: {
-        flexDirection: "row",
-        justifyContent: "space-between",
-        alignItems: "flex-end",
-        borderWidth: 1,
-        backgroundColor: "white",
-        borderColor: "lightgrey",
-        borderRadius: 5
-    },
-    dropdownText: {
-        color: "#000000",
-        textAlign: "left",
-        marginTop: 10,
-        marginLeft: 8,
-        height: 30
+    windows: {
+      borderRadius: 15,
+      backgroundColor: "#1D9BF6",
+      color: "white",
+      textTransform: "none"
     }
+  },
+  input: {
+    borderColor: "#dcdcdc",
+    backgroundColor: "white",
+    borderRadius: 5,
+    borderWidth: 1
+  },
+  inputDate: {
+    width: "100%",
+    height: 44,
+    padding: 5,
+    borderWidth: 1,
+    backgroundColor: "white",
+    borderColor: "lightgrey",
+    borderRadius: 5
+  },
+  inputTime: {
+    width: "100%",
+    height: 44,
+    padding: 5,
+    borderWidth: 1,
+    backgroundColor: "white",
+    borderColor: "lightgrey",
+    borderRadius: 5
+  },
+  radioButton: {
+    width: 24,
+    height: 24,
+    activeColor: "#000000",
+    inactiveColor: "#404040"
+  },
+  radioButtonText: {
+    marginLeft: 8,
+    flexShrink: 1,
+    activeColor: "#000000",
+    inactiveColor: "#404040"
+  },
+  checkBox: {
+    width: 28,
+    height: 28,
+    activeColor: "#000000",
+    inactiveColor: "#404040"
+  },
+  checkBoxText: {
+    marginLeft: 8,
+    flexShrink: 1,
+    activeColor: "#000000",
+    inactiveColor: "#404040"
+  },
+  dropdown: {
+    ios: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "flex-end",
+      borderWidth: 1,
+      backgroundColor: "white",
+      borderColor: "lightgrey",
+      borderRadius: 5
+    },
+    android: {
+      borderWidth: 1,
+      backgroundColor: "lightgrey",
+      borderColor: "lightgrey",
+      borderRadius: 5
+    },
+    windows: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "flex-end",
+      borderWidth: 1,
+      backgroundColor: "white",
+      borderColor: "lightgrey",
+      borderRadius: 5
+    }
+  },
+  dropdownText: {
+    color: "#000000",
+    textAlign: "left",
+    marginTop: 10,
+    marginLeft: 8,
+    height: 30
+  },
+  picker: {
+    borderWidth: 1,
+    backgroundColor: "lightgrey",
+    borderColor: "lightgrey",
+    color: "#000000",
+    borderRadius: 5,
+    marginHorizontal: 2
+  },
+  dateTimePicker: {
+    backgroundColor: "white",
+    height: 260,
+    width: "100%",
+    textColor: "#000000"
+  },
+  switch: {
+     trackColor: undefined, /// Object of type {true: color; false: color} (See RN Docs)
+     thumbColor: undefined, 
+     ios_backgroundColor: undefined
+  }
 };
 ```
 
