@@ -26,7 +26,7 @@ NSArray<ACRParseWarning *> *warnings = cardParseResult.parseWarnings;
 
 ## Render a Card
 
-Rederer takes adaptive card and host config. HostConfig can be nil, and if nil, default value will be used.
+Renderer takes adaptive card and host config. HostConfig can be nil, and if nil, default value will be used.
 Returned UIView uses autolayout. Width will be constraint to the value set by widthConstraint. If 0 value is used, it won't be bound.
 Height is not bound, and when returned it will have the height of sums of all contents rendered. To bound the view dimension, please use NSLayoutConstraint. The exact dimension is accessible from the context of viewDidLayoutSubview of its superview's viewcontroller or its method with the same name if ACRViewController is used.
 
