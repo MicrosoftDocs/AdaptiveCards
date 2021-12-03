@@ -27,13 +27,7 @@ Video 2:
 
 [!VIDEO https://www.youtube.com/embed/7BfKcU-7UjA]
 
-[!VIDEO https://channel9.msdn.com/Events/Windows/Windows-Developer-Day-Fall-Creators-Update/WinDev003/player]
-
 ## Ignite 2017
 
 [!VIDEO https://www.youtube.com/embed/v3pOg0EO2t4]
-
-## Build 2017 
-
-[!VIDEO https://channel9.msdn.com/Events/Build/2017/B8002/player]
 
