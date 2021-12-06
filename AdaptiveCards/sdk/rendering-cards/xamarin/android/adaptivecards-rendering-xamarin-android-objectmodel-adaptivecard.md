@@ -20,7 +20,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.ObjectModel
 
 ## Summary
 
-| Attributes | |
+| Attributes | Description |
 | ---- | --- |
 | Actions | The Actions to show in the card’s action bar. |
 | BackgroundImage | Specifies the background image of the card. |
@@ -67,8 +67,7 @@ AdaptiveCard(string version, string fallbackText, string backgroundImageUrl, Con
 ```
 </div></a>
 
-&nbsp;
-| Public methods | |
+| Public methods | &nbsp; |
 | --- | ---- |
 | ```static ParseResult``` | [```DeserializeFromString(string jsonString, string rendererVersion)```](#deserializefromstring0) |
 | ```static ParseResult``` | [```DeserializeFromString(string jsonString, string rendererVersion, ParseContext context)```](#deserializefromstring1) |
@@ -81,7 +80,7 @@ AdaptiveCard(string version, string fallbackText, string backgroundImageUrl, Con
 ---
 
 ### <a id="ctor0"></a> AdaptiveCard
-<p style='text-align:right'>Added in version 0.1</p>
+<p>Added in version 0.1</p>
 
 ```csharp
 public AdaptiveCard (string version, 
@@ -95,7 +94,7 @@ public AdaptiveCard (string version,
                     long minHeight) 
 ```
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | version | ```string``` |
 | fallbackText | ```string``` |
@@ -110,7 +109,7 @@ public AdaptiveCard (string version,
 &nbsp;&nbsp;
 
 ### <a id="ctor1"></a> AdaptiveCard
-<p style='text-align:right'>Added in version 0.1</p>
+<p>Added in version 0.1</p>
 
 ```csharp
 public AdaptiveCard (string version, 
@@ -126,7 +125,7 @@ public AdaptiveCard (string version,
                     BaseActionElementVector actions)
 ```
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | version | ```string``` |
 | fallbackText | ```string``` |
@@ -143,7 +142,7 @@ public AdaptiveCard (string version,
 &nbsp;&nbsp;
 
 ### <a id="ctor2"></a> AdaptiveCard
-<p style='text-align:right'>Added in version 0.1</p>
+<p>Added in version 0.1</p>
 
 ```csharp
 public AdaptiveCard (string version, 
@@ -157,7 +156,7 @@ public AdaptiveCard (string version,
                     long minHeight) 
 ```
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | version | ```string``` |
 | fallbackText | ```string``` |
@@ -172,7 +171,7 @@ public AdaptiveCard (string version,
 &nbsp;&nbsp;
 
 ### <a id="ctor3"></a> AdaptiveCard
-<p style='text-align:right'>Added in version 0.1</p>
+<p>Added in version 0.1</p>
 
 ```csharp
 public AdaptiveCard (string version, 
@@ -189,7 +188,7 @@ public AdaptiveCard (string version,
 
 ```
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | version | ```string``` |
 | fallbackText | ```string``` |
@@ -208,7 +207,7 @@ public AdaptiveCard (string version,
 ## Public Methods
 ---
 ### <a id="deserializefromstring0"></a> DeserializeFromString
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public static ParseResult DeserializeFromString (string jsonString, string rendererVersion)
@@ -216,12 +215,12 @@ public static ParseResult DeserializeFromString (string jsonString, string rende
 
 Deserializes the given adaptive card as a json string for the specified renderer version.
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | jsonString | ```string``` |
 | rendererVersion | ```string``` |
 
-| Returns | |
+| Returns | &nbsp; |
 | --- | --- |
 | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.ParseResult``` | |
 
@@ -233,7 +232,7 @@ ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveC
 
 --- 
 ### <a id="deserializefromstring1"></a> DeserializeFromString
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public static ParseResult DeserializeFromString(string jsonString, string rendererVersion, ParseContext context)
@@ -241,13 +240,13 @@ public static ParseResult DeserializeFromString(string jsonString, string render
 
 Deserializes the given adaptive card as a json string for the specified renderer version using a [ParseContext]() object to handle custom element parsing.
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | jsonString | ```string``` |
 | rendererVersion | ```string``` |
 | context | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.ParseContext``` |
 
-| Returns | |
+| Returns | &nbsp; |
 | --- | --- |
 | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.ParseResult``` | |
 
@@ -261,7 +260,7 @@ ParseResult parseResult = AdaptiveCard.DeserializeFromString(jsonText, AdaptiveC
 ---
 
 ### <a id="makefallbacktextcard"></a> MakeFallbackTextCard
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public static AdaptiveCard MakeFallbackTextCard (string fallbackText, string language, string speak)
@@ -269,13 +268,13 @@ public static AdaptiveCard MakeFallbackTextCard (string fallbackText, string lan
 
 Deserializes the given adaptive card as a json string for the specified renderer version.
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | fallbackText | ```string``` |
 | language | ```string``` |
 | speak | ```string``` |
 
-| Returns | |
+| Returns | &nbsp; |
 | --- | --- |
 | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.AdaptiveCard``` | Adaptive card that contains the fallback text for an unrendereable card |
 
@@ -288,7 +287,7 @@ AdaptiveCard adaptiveCard = AdaptiveCard.MakeFallbackTextCard("This card failed 
 ---
 
 ### <a id="serialize"></a> Serialize
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public string Serialize ()
@@ -296,7 +295,7 @@ public string Serialize ()
 
 Serializes the adaptive card into it's json string form.
 
-| Returns | |
+| Returns | &nbsp; |
 | --- | --- |
 | ```string``` | Adaptive card as a json string |
 
@@ -309,7 +308,7 @@ string jsonString = parseResult.AdaptiveCard.Serialize();
 ---
 
 ### <a id="serializetojsonvalue"></a> SerializeToJsonValue
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public JsonValue SerializeToJsonValue ()
@@ -317,7 +316,7 @@ public JsonValue SerializeToJsonValue ()
 
 Serializes the adaptive card into a json value object.
 
-| Returns | |
+| Returns | &nbsp; |
 | --- | --- |
 | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.JsonValue``` | |
 

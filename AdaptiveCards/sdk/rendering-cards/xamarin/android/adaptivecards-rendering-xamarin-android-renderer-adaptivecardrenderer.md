@@ -19,7 +19,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 
 ### Summary
 
-| Public methods | |
+| Public methods | &nbsp; |
 | --- | ---- |
 | ```RenderedAdaptiveCard``` | [```Render (Context context, FragmentManager fragmentManager, AdaptiveCard adaptiveCard, ICardActionHandler cardActionHandler)```](#render0) |
 | ```RenderedAdaptiveCard``` | [```Render (Context context, FragmentManager fragmentManager, AdaptiveCard adaptiveCard, ICardActionHandler cardActionHandler, HostConfig hostConfig)```](#render1) |
@@ -29,7 +29,7 @@ namespace AdaptiveCards.Rendering.Xamarin.Android.Renderer
 ---
 
 ### <a id="render0"></a> Render
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 public RenderedAdaptiveCard Render (Context context, 
@@ -40,14 +40,14 @@ public RenderedAdaptiveCard Render (Context context,
 
 Renders the specified adaptive card with default values for the host config.
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | context | ```Android.Content.Context``` |
 | fragmentManager | ```Android.Support.V4.App.FragmentManager``` |
 | adaptiveCard | [```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.AdaptiveCard```](adaptivecards-rendering-xamarin-android-objectmodel-adaptivecard.md) |
 | cardActionHandler | [```AdaptiveCards.Rendering.Xamarin.Android.Renderer.ActionHandler.ICardActionHandler```](adaptivecards-renderin-xamarin-android-renderer-actionhandler-icardactionhandler.md) |
 
-| Returns |
+| Returns | &nbsp; |
 | --- | --- |
 | [```AdaptiveCards.Rendering.Xamarin.Android.Renderer.RenderedAdaptiveCard```](adaptivecards-rendering-xamarin-android-renderer-renderedadaptivecard.md) | |
 
@@ -61,7 +61,7 @@ RenderedAdaptiveCard renderedCard = AdaptiveCardRenderer.Instance.Render(context
 ---
 
 ### <a id="render1"></a> Render
-<p style='text-align:right'>Added in version 0.1.0</p>
+<p>Added in version 0.1.0</p>
 
 ```csharp
 RenderedAdaptiveCard Render (Context context, 
@@ -73,7 +73,7 @@ RenderedAdaptiveCard Render (Context context,
 
 Renders the specified adaptive card with using the given host config.
 
-| Parameters | |
+| Parameters | &nbsp; |
 | --- | --- |
 | context | ```Android.Content.Context``` |
 | fragmentManager | ```Android.Support.V4.App.FragmentManager``` |
@@ -81,7 +81,7 @@ Renders the specified adaptive card with using the given host config.
 | cardActionHandler | [```AdaptiveCards.Rendering.Xamarin.Android.Renderer.ActionHandler.ICardActionHandler```](adaptivecards-renderin-xamarin-android-renderer-actionhandler-icardactionhandler.md) |
 | hostConfig | ```AdaptiveCards.Rendering.Xamarin.Android.ObjectModel.HostConfig``` |
 
-| Returns | |
+| Returns | &nbsp; |
 | --- | --- |
 | [```AdaptiveCards.Rendering.Xamarin.Android.Renderer.RenderedAdaptiveCard```](adaptivecards-rendering-xamarin-android-renderer-renderedadaptivecard.md) | |
 
