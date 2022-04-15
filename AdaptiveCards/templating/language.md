@@ -50,13 +50,15 @@ Writing a template is as simple as replacing the "non-static" content of your ca
 * Use *Dot-notation* to access sub-objects of an object hierarchy. E.g., `${myParent.myChild}`
 * Graceful null handling ensures you won't get exceptions if you access a null property in an object graph
 * Use *Indexer syntax* to retrieve properties by key or items in an array. E.g., `${myArray[0]}`
+* Access *host data* with `$host`. E.g., `${$host.hostProperty}`
 
 ## Providing the data
 
-Now that you have a template, you'll want to provide the data that makes it complete. You have two options to do this:
+Now that you have a template, you'll want to provide the data that makes it complete. You have three options to do this:
 
 1. **Option A: Inline within the template payload**. You can provide the data inline within the `AdaptiveCard` template payload. To do so, simply add a `$data` attribute to the root `AdaptiveCard` object.
 2. **Option B: As a separate data object**. With this option you provide two separate objects to the [Templating SDK](sdk.md) at runtime: the `template` and the `data`. This will be the more common approach, since typically you will create a template and want to provide dynamic data later.
+3. **Option C: As a separeate host data object**. With this option you provide an additional `host` object to the [Templating SDK](sdk.md) at runtime. This approach allows the host to supply its own parameter data to the card.
 
 ### Option A: Inline data
 
@@ -154,6 +156,69 @@ var card = template.expand({
 // Now you have an AdaptiveCard ready to render!
 ```
 
+## Option C: Additional host data object
+
+You can allow the host to supply additional data. For `host` data, the object reference should be preceeded by `$host.` in the binding expression. For instance, if you would like to retrieve a `layout` object, the binding expression would be `${$host.layout}`.
+
+**EmployeeCardTemplateWithHostData.json**
+
+```json
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Hi ${employee.name}! Here's a bit about your org..."
+        },
+        {
+            "type": "TextBlock",
+            "text": "Your manager is: ${employee.manager.name}"
+        },
+        {
+            "$when": "${$host.layout != 'Small'}",
+            "type": "TextBlock",
+            "text": "3 of your peers are: ${employee.peers[0].name}, ${employee.peers[1].name}, ${employee.peers[2].name}"
+        }
+    ]
+}
+```
+
+Then load it up and provide the data at runtime using the [Templating SDKs](sdk.md).
+
+**JavaScript example**
+
+Using the [adaptivecards-templating](https://npmjs.com/package/adaptivecards-templating) package.
+
+```js
+var template = new ACData.Template({ 
+    // EmployeeCardTemplateWithHostData goes here
+});
+
+// Specify data at runtime
+var card = template.expand({
+    $root: {
+        "employee": {
+            "name": "Matt",
+            "manager": { "name": "Thomas" },
+            "peers": [{
+                "name": "Andrew" 
+            }, { 
+                "name": "Lei"
+            }, { 
+                "name": "Mary Anne"
+            }, { 
+                "name": "Adam"
+            }]
+        }
+    },
+    $host: {
+        "layout": "Medium"
+    }
+});
+
+// Now you have an AdaptiveCard ready to render!
+```
+
 ## Designer Support
 
 The Adaptive Card Designer has been updated to support templating. 
@@ -165,6 +230,8 @@ The Adaptive Card Designer has been updated to support templating.
 * **Sample Data Editor** - Specify sample data here to view the data-bound card when in "Preview Mode." There is a small button in this pane to populate the Data Structure from the existing sample data.
 * **Preview Mode** - Press the toolbar button to toggle between the edit-experience and the sample-data-preview experience
 * **Open Sample** - click this button to open various sample payloads
+
+**Note** - Adaptive Card Designer does not yet support templating with [host data](https://docs.microsoft.com/en-us/adaptive-cards/templating/language#option-c-additional-host-data-object).
 
 ## Advanced binding
 
@@ -343,6 +410,39 @@ To drop an entire element if a condition is met, use the `$when` property. If `$
 ### Composing templates
 
 Currently there is no support for composing template "parts" together. But we are exploring options and hope to share more soon. Any thoughts here welcome!
+
+## Access templating version
+
+The `adaptivecards-templating` library version can be access via an exposed variable, `$_acTemplateVersion`.
+
+``` json
+"$_acTemplatVersion": {
+    "major": 1,
+    "minor": 2,
+    "patch": 3,
+    "suffix": "beta"
+}
+```
+
+The following example shows how one could display text based on the templating version being used.
+
+``` json
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "$when": "${$_acTemplateVersion.major >= 2}",
+            "type": "TextBlock",
+            "text": "Templating version is up to date!"
+        },
+        {
+            "$when": "${$_acTemplateVersion.major < 2}",
+            "type": "TextBlock",
+            "text": "Templating libary needs to be updated"
+        }
+    ]
+}
+```
 
 ## Examples
 
