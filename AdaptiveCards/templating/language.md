@@ -416,7 +416,7 @@ Currently there is no support for composing template "parts" together. But we ar
 The `adaptivecards-templating` library version can be access via an exposed variable, `$_acTemplateVersion`.
 
 ``` json
-"$_acTemplatVersion": {
+"$_acTemplateVersion": {
     "major": 1,
     "minor": 2,
     "patch": 3,
