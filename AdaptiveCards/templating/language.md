@@ -231,7 +231,7 @@ The Adaptive Card Designer has been updated to support templating.
 * **Preview Mode** - Press the toolbar button to toggle between the edit-experience and the sample-data-preview experience
 * **Open Sample** - click this button to open various sample payloads
 
-**Note** - Adaptive Card Designer does not yet support templating with [host data](https://docs.microsoft.com/en-us/adaptive-cards/templating/language#option-c-additional-host-data-object).
+**Note** - Adaptive Card Designer does not yet support templating with [host data](#option-c-additional-host-data-object).
 
 ## Advanced binding
 
