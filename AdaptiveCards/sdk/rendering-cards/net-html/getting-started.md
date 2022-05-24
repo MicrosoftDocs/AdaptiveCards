@@ -12,7 +12,7 @@ As we described in [Getting Started](../../../authoring-cards/getting-started.md
 
 > [!IMPORTANT]
 >
-> **As of 12/31/2020 this package is in Maintenance mode and no longer in active development**. It will only receive critical bugs and security fixes. Please see our [Support policy](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.MD) for more details. If you are interested in maintaining this project we would be happy to provide support where possible -- please reach out on GitHub and let us know.
+> **As of 12/31/2020 this package is in Maintenance mode and no longer in active development**. It will only receive critical bugs and security fixes. Please see our [Support policy](https://docs.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2020)) for more details. If you are interested in maintaining this project we would be happy to provide support where possible -- please reach out on GitHub and let us know.
 
 ## NuGet install
 
