@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: SizeUnit
+uid: adaptivecards.SizeUnit
+package: adaptivecards
+summary: ''
+fullName: SizeUnit
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Weight
+    uid: adaptivecards.SizeUnit.Weight
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Pixel
+    uid: adaptivecards.SizeUnit.Pixel
+    package: adaptivecards
+    summary: ''
+    numericValue: 1

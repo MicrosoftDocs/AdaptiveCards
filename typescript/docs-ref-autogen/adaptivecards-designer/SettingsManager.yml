@@ -1,0 +1,100 @@
+### YamlMime:TSType
+name: SettingsManager
+uid: adaptivecards-designer.SettingsManager
+package: adaptivecards-designer
+summary: ''
+fullName: SettingsManager
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: isLocalStorageAvailable
+    uid: adaptivecards-designer.SettingsManager.isLocalStorageAvailable
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isLocalStorageAvailable
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: static boolean isLocalStorageAvailable
+      return:
+        description: ''
+        type: boolean
+methods:
+  - name: 'tryLoadBooleanSetting(string, boolean)'
+    uid: adaptivecards-designer.SettingsManager.tryLoadBooleanSetting
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static function tryLoadBooleanSetting(name: string, defaultValue:
+        boolean): ILoadSettingResult<boolean>
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: defaultValue
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards-designer.ILoadSettingResult"
+          />&lt;boolean&gt;
+  - name: tryLoadNumberSetting(string)
+    uid: adaptivecards-designer.SettingsManager.tryLoadNumberSetting
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static function tryLoadNumberSetting(name: string):
+        ILoadSettingResult<number>
+      parameters:
+        - id: name
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ILoadSettingResult" />&lt;number&gt;
+  - name: tryLoadStringSetting(string)
+    uid: adaptivecards-designer.SettingsManager.tryLoadStringSetting
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static function tryLoadStringSetting(name: string):
+        ILoadSettingResult<string>
+      parameters:
+        - id: name
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ILoadSettingResult" />&lt;string&gt;
+  - name: 'trySaveSetting(string, string)'
+    uid: adaptivecards-designer.SettingsManager.trySaveSetting
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function trySaveSetting(name: string, value: string)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: value
+          type: string
+          description: ''

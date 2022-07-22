@@ -1,0 +1,150 @@
+### YamlMime:TSType
+name: DataType
+uid: adaptivecards-designer.DataType
+package: adaptivecards-designer
+summary: ''
+fullName: DataType
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: DataType(FieldDefinition)
+    uid: adaptivecards-designer.DataType.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new DataType(owner: FieldDefinition)'
+      parameters:
+        - id: owner
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+properties:
+  - name: isCollection
+    uid: adaptivecards-designer.DataType.isCollection
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isCollection
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isCollection
+      return:
+        description: ''
+        type: boolean
+  - name: owner
+    uid: adaptivecards-designer.DataType.owner
+    package: adaptivecards-designer
+    summary: ''
+    fullName: owner
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'owner: FieldDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: valueType
+    uid: adaptivecards-designer.DataType.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: ValueType valueType
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ValueType" />
+methods:
+  - name: 'deriveFrom(FieldDefinition, any)'
+    uid: adaptivecards-designer.DataType.deriveFrom
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static function deriveFrom(parent: FieldDefinition, value: any):
+        DataType
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+        - id: value
+          type: any
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DataType" />
+  - name: generateSampleData()
+    uid: adaptivecards-designer.DataType.generateSampleData
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function generateSampleData(): any'
+      return:
+        description: ''
+        type: any
+  - name: getChildFields()
+    uid: adaptivecards-designer.DataType.getChildFields
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildFields(): FieldDefinition[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.FieldDefinition" />[]'
+  - name: 'parse(FieldDefinition, IData)'
+    uid: adaptivecards-designer.DataType.parse
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function parse(parent: FieldDefinition, data: IData): DataType'
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+        - id: data
+          type: <xref uid="adaptivecards-designer.IData" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DataType" />
+  - name: 'qualifyFieldName(string, boolean)'
+    uid: adaptivecards-designer.DataType.qualifyFieldName
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function qualifyFieldName(fieldName: string, fieldIsLeaf: boolean):
+        string
+      parameters:
+        - id: fieldName
+          type: string
+          description: ''
+        - id: fieldIsLeaf
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: string

@@ -1,0 +1,104 @@
+### YamlMime:TSType
+name: TextBox
+uid: adaptivecards-controls.TextBox
+package: adaptivecards-controls
+summary: ''
+fullName: TextBox
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: isMultiline
+    uid: adaptivecards-controls.TextBox.isMultiline
+    package: adaptivecards-controls
+    summary: ''
+    fullName: isMultiline
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isMultiline
+      return:
+        description: ''
+        type: boolean
+  - name: lineCount
+    uid: adaptivecards-controls.TextBox.lineCount
+    package: adaptivecards-controls
+    summary: ''
+    fullName: lineCount
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number lineCount
+      return:
+        description: ''
+        type: number
+  - name: maxLength
+    uid: adaptivecards-controls.TextBox.maxLength
+    package: adaptivecards-controls
+    summary: ''
+    fullName: maxLength
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number maxLength
+      return:
+        description: ''
+        type: number
+  - name: onChange
+    uid: adaptivecards-controls.TextBox.onChange
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onChange
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onChange: (sender: TextBox) => void'
+      return:
+        description: ''
+        type: '(sender: TextBox) =&gt; void'
+  - name: placeholder
+    uid: adaptivecards-controls.TextBox.placeholder
+    package: adaptivecards-controls
+    summary: ''
+    fullName: placeholder
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string placeholder
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards-controls.TextBox.value
+    package: adaptivecards-controls
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string value
+      return:
+        description: ''
+        type: string
+methods:
+  - name: attach(HTMLElement)
+    uid: adaptivecards-controls.TextBox.attach
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+extends: <xref uid="adaptivecards-controls.InputControl" />

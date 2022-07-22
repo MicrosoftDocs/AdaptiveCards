@@ -1,0 +1,496 @@
+### YamlMime:TSType
+name: SerializationContext
+uid: adaptivecards.SerializationContext
+package: adaptivecards
+summary: ''
+fullName: SerializationContext
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: SerializationContext(Version)
+    uid: adaptivecards.SerializationContext.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new SerializationContext(targetVersion?: Version)'
+      parameters:
+        - id: targetVersion
+          type: <xref uid="adaptivecards.Version" />
+          description: ''
+properties:
+  - name: actionRegistry
+    uid: adaptivecards.SerializationContext.actionRegistry
+    package: adaptivecards
+    summary: ''
+    fullName: actionRegistry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardObjectRegistry<Action> actionRegistry
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+          uid="adaptivecards.Action" />&gt;
+  - name: elementRegistry
+    uid: adaptivecards.SerializationContext.elementRegistry
+    package: adaptivecards
+    summary: ''
+    fullName: elementRegistry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardObjectRegistry<CardElement> elementRegistry
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+          uid="adaptivecards.CardElement" />&gt;
+  - name: eventCount
+    uid: adaptivecards.SerializationContext.eventCount
+    package: adaptivecards
+    summary: ''
+    fullName: eventCount
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number eventCount
+      return:
+        description: ''
+        type: number
+  - name: onParseAction
+    uid: adaptivecards.SerializationContext.onParseAction
+    package: adaptivecards
+    summary: ''
+    fullName: onParseAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onParseAction?: (action: Action, source: any, context:
+        SerializationContext) => void
+      return:
+        description: ''
+        type: >-
+          (action: Action, source: any, context: SerializationContext) =&gt;
+          void
+  - name: onParseElement
+    uid: adaptivecards.SerializationContext.onParseElement
+    package: adaptivecards
+    summary: ''
+    fullName: onParseElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onParseElement?: (element: CardElement, source: any, context:
+        SerializationContext) => void
+      return:
+        description: ''
+        type: >-
+          (element: CardElement, source: any, context: SerializationContext)
+          =&gt; void
+inheritedProperties:
+  - name: targetVersion
+    uid: adaptivecards.SerializationContext.targetVersion
+    package: adaptivecards
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: toJSONOriginalParam
+    uid: adaptivecards.SerializationContext.toJSONOriginalParam
+    package: adaptivecards
+    summary: ''
+    fullName: toJSONOriginalParam
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'toJSONOriginalParam: any'
+      return:
+        description: ''
+        type: any
+inheritedMethods:
+  - name: clearEvents()
+    uid: adaptivecards.SerializationContext.clearEvents
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function clearEvents()
+  - name: getEventAt(number)
+    uid: adaptivecards.SerializationContext.getEventAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEventAt(index: number): IValidationEvent'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IValidationEvent" />
+  - name: >-
+      logEvent(SerializableObject | undefined, ValidationPhase, ValidationEvent,
+      string)
+    uid: adaptivecards.SerializationContext.logEvent
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function logEvent(source: SerializableObject | undefined, phase:
+        ValidationPhase, event: ValidationEvent, message: string)
+      parameters:
+        - id: source
+          type: <xref uid="adaptivecards.SerializableObject" /> | undefined
+          description: ''
+        - id: phase
+          type: <xref uid="adaptivecards.ValidationPhase" />
+          description: ''
+        - id: event
+          type: <xref uid="adaptivecards.ValidationEvent" />
+          description: ''
+        - id: message
+          type: string
+          description: ''
+  - name: 'logParseEvent(SerializableObject | undefined, ValidationEvent, string)'
+    uid: adaptivecards.SerializationContext.logParseEvent
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function logParseEvent(source: SerializableObject | undefined, event:
+        ValidationEvent, message: string)
+      parameters:
+        - id: source
+          type: <xref uid="adaptivecards.SerializableObject" /> | undefined
+          description: ''
+        - id: event
+          type: <xref uid="adaptivecards.ValidationEvent" />
+          description: ''
+        - id: message
+          type: string
+          description: ''
+  - name: 'serializeArray([key: string]: any, string, any[] | undefined)'
+    uid: adaptivecards.SerializationContext.serializeArray
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function serializeArray(target: [key: string]: any, propertyName:
+        string, propertyValue: any[] | undefined)
+      parameters:
+        - id: target
+          type: '[key: string]\: any'
+          description: ''
+        - id: propertyName
+          type: string
+          description: ''
+        - id: propertyValue
+          type: 'any[] | undefined'
+          description: ''
+  - name: 'serializeBool([key: string]: any, string, boolean, boolean)'
+    uid: adaptivecards.SerializationContext.serializeBool
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function serializeBool(target: [key: string]: any, propertyName: string,
+        propertyValue?: boolean, defaultValue?: boolean)
+      parameters:
+        - id: target
+          type: '[key: string]\: any'
+          description: ''
+        - id: propertyName
+          type: string
+          description: ''
+        - id: propertyValue
+          type: boolean
+          description: ''
+        - id: defaultValue
+          type: boolean
+          description: ''
+  - name: >-
+      serializeEnum([key: number]: string, [key: string]: any, string, number |
+      undefined, number | undefined)
+    uid: adaptivecards.SerializationContext.serializeEnum
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function serializeEnum(enumType: [key: number]: string, target: [key:
+        string]: any, propertyName: string, propertyValue: number | undefined,
+        defaultValue?: number | undefined)
+      parameters:
+        - id: enumType
+          type: '[key: number]\: string'
+          description: ''
+        - id: target
+          type: '[key: string]\: any'
+          description: ''
+        - id: propertyName
+          type: string
+          description: ''
+        - id: propertyValue
+          type: number | undefined
+          description: ''
+        - id: defaultValue
+          type: number | undefined
+          description: ''
+  - name: 'serializeNumber([key: string]: any, string, number, number)'
+    uid: adaptivecards.SerializationContext.serializeNumber
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function serializeNumber(target: [key: string]: any, propertyName:
+        string, propertyValue?: number, defaultValue?: number)
+      parameters:
+        - id: target
+          type: '[key: string]\: any'
+          description: ''
+        - id: propertyName
+          type: string
+          description: ''
+        - id: propertyValue
+          type: number
+          description: ''
+        - id: defaultValue
+          type: number
+          description: ''
+  - name: 'serializeString([key: string]: any, string, string, string)'
+    uid: adaptivecards.SerializationContext.serializeString
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function serializeString(target: [key: string]: any, propertyName:
+        string, propertyValue?: string, defaultValue?: string)
+      parameters:
+        - id: target
+          type: '[key: string]\: any'
+          description: ''
+        - id: propertyName
+          type: string
+          description: ''
+        - id: propertyValue
+          type: string
+          description: ''
+        - id: defaultValue
+          type: string
+          description: ''
+  - name: 'serializeValue([key: string]: any, string, any, any, boolean)'
+    uid: adaptivecards.SerializationContext.serializeValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function serializeValue(target: [key: string]: any, propertyName:
+        string, propertyValue: any, defaultValue?: any,
+        forceDeleteIfNullOrDefault?: boolean)
+      parameters:
+        - id: target
+          type: '[key: string]\: any'
+          description: ''
+        - id: propertyName
+          type: string
+          description: ''
+        - id: propertyValue
+          type: any
+          description: ''
+        - id: defaultValue
+          type: any
+          description: ''
+        - id: forceDeleteIfNullOrDefault
+          type: boolean
+          description: ''
+methods:
+  - name: 'parseAction(CardElement, any, string[], boolean)'
+    uid: adaptivecards.SerializationContext.parseAction
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseAction(parent: CardElement, source: any,
+        forbiddenActionTypes: string[], allowFallback: boolean): Action |
+        undefined
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+        - id: source
+          type: any
+          description: ''
+        - id: forbiddenActionTypes
+          type: 'string[]'
+          description: ''
+        - id: allowFallback
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: >-
+      parseCardObject<T>(CardElement | undefined, any, string[], boolean,
+      (typeName: string) => T | undefined, (typeName: string, errorType:
+      TypeErrorType) => void)
+    uid: adaptivecards.SerializationContext.parseCardObject
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseCardObject<T>(parent: CardElement | undefined, source:
+        any, forbiddenTypeNames: string[], allowFallback: boolean,
+        createInstanceCallback: (typeName: string) => T | undefined,
+        logParseEvent: (typeName: string, errorType: TypeErrorType) => void): T
+        | undefined
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards.CardElement" /> | undefined
+          description: ''
+        - id: source
+          type: any
+          description: ''
+        - id: forbiddenTypeNames
+          type: 'string[]'
+          description: ''
+        - id: allowFallback
+          type: boolean
+          description: ''
+        - id: createInstanceCallback
+          type: '(typeName: string) =&gt; T | undefined'
+          description: ''
+        - id: logParseEvent
+          type: '(typeName: string, errorType: TypeErrorType) =&gt; void'
+          description: ''
+      return:
+        description: ''
+        type: T | undefined
+  - name: 'parseElement(CardElement | undefined, any, boolean)'
+    uid: adaptivecards.SerializationContext.parseElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseElement(parent: CardElement | undefined, source: any,
+        allowFallback: boolean): CardElement | undefined
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards.CardElement" /> | undefined
+          description: ''
+        - id: source
+          type: any
+          description: ''
+        - id: allowFallback
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: setActionRegistry(CardObjectRegistry<Action> | undefined)
+    uid: adaptivecards.SerializationContext.setActionRegistry
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function setActionRegistry(value: CardObjectRegistry<Action> |
+        undefined)
+      parameters:
+        - id: value
+          type: >-
+            <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+            uid="adaptivecards.Action" />&gt; | undefined
+          description: ''
+  - name: setElementRegistry(CardObjectRegistry<CardElement> | undefined)
+    uid: adaptivecards.SerializationContext.setElementRegistry
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function setElementRegistry(value: CardObjectRegistry<CardElement> |
+        undefined)
+      parameters:
+        - id: value
+          type: >-
+            <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+            uid="adaptivecards.CardElement" />&gt; | undefined
+          description: ''
+  - name: shouldSerialize(SerializableObject)
+    uid: adaptivecards.SerializationContext.shouldSerialize
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function shouldSerialize(o: SerializableObject): boolean'
+      parameters:
+        - id: o
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+extends: <xref uid="adaptivecards.BaseSerializationContext" />

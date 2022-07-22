@@ -1,0 +1,76 @@
+### YamlMime:TSType
+name: CustomPropertySheetEntry
+uid: adaptivecards-designer.CustomPropertySheetEntry
+package: adaptivecards-designer
+summary: ''
+fullName: CustomPropertySheetEntry
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      CustomPropertySheetEntry(Adaptive.TargetVersion, (context:
+      PropertySheetContext) => CardElement)
+    uid: adaptivecards-designer.CustomPropertySheetEntry.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new CustomPropertySheetEntry(targetVersion: Adaptive.TargetVersion,
+        onRender: (context: PropertySheetContext) => CardElement)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="Adaptive.TargetVersion" />
+          description: ''
+        - id: onRender
+          type: '(context: PropertySheetContext) =&gt; CardElement'
+          description: ''
+properties:
+  - name: onRender
+    uid: adaptivecards-designer.CustomPropertySheetEntry.onRender
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onRender
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onRender: (context: PropertySheetContext) => CardElement'
+      return:
+        description: ''
+        type: '(context: PropertySheetContext) =&gt; CardElement'
+  - name: targetVersion
+    uid: adaptivecards-designer.CustomPropertySheetEntry.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        description: ''
+        type: <xref uid="Adaptive.TargetVersion" />
+methods:
+  - name: render(PropertySheetContext)
+    uid: adaptivecards-designer.CustomPropertySheetEntry.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(context: PropertySheetContext): CardElement'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.PropertySheetContext" />
+          description: ''
+      return:
+        description: ''
+        type: CardElement
+extends: <xref uid="adaptivecards-designer.PropertySheetEntry" />

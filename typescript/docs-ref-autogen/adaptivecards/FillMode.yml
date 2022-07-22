@@ -1,0 +1,30 @@
+### YamlMime:TSEnum
+name: FillMode
+uid: adaptivecards.FillMode
+package: adaptivecards
+summary: ''
+fullName: FillMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Cover
+    uid: adaptivecards.FillMode.Cover
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: RepeatHorizontally
+    uid: adaptivecards.FillMode.RepeatHorizontally
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: RepeatVertically
+    uid: adaptivecards.FillMode.RepeatVertically
+    package: adaptivecards
+    summary: ''
+    numericValue: 2
+  - name: Repeat
+    uid: adaptivecards.FillMode.Repeat
+    package: adaptivecards
+    summary: ''
+    numericValue: 3

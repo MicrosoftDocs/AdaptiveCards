@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: ActionType
+uid: adaptivecards-designer.ActionType
+package: adaptivecards-designer
+summary: ''
+fullName: ActionType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type ActionType = {}

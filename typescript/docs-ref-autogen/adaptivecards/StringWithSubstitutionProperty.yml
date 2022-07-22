@@ -1,0 +1,172 @@
+### YamlMime:TSType
+name: StringWithSubstitutionProperty
+uid: adaptivecards.StringWithSubstitutionProperty
+package: adaptivecards
+summary: ''
+fullName: StringWithSubstitutionProperty
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'StringWithSubstitutionProperty(Version, string)'
+    uid: adaptivecards.StringWithSubstitutionProperty.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new StringWithSubstitutionProperty(targetVersion: Version, name: string)'
+      parameters:
+        - id: targetVersion
+          type: <xref uid="adaptivecards.Version" />
+          description: ''
+        - id: name
+          type: string
+          description: ''
+properties:
+  - name: name
+    uid: adaptivecards.StringWithSubstitutionProperty.name
+    package: adaptivecards
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: targetVersion
+    uid: adaptivecards.StringWithSubstitutionProperty.targetVersion
+    package: adaptivecards
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+inheritedProperties:
+  - name: defaultValue
+    uid: adaptivecards.StringWithSubstitutionProperty.defaultValue
+    package: adaptivecards
+    summary: ''
+    fullName: defaultValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultValue?: any'
+      return:
+        description: ''
+        type: any
+  - name: isSerializationEnabled
+    uid: adaptivecards.StringWithSubstitutionProperty.isSerializationEnabled
+    package: adaptivecards
+    summary: ''
+    fullName: isSerializationEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: onGetInitialValue
+    uid: adaptivecards.StringWithSubstitutionProperty.onGetInitialValue
+    package: adaptivecards
+    summary: ''
+    fullName: onGetInitialValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => any | undefined'
+      return:
+        description: ''
+        type: '(sender: SerializableObject) =&gt; any | undefined'
+  - name: sequentialNumber
+    uid: adaptivecards.StringWithSubstitutionProperty.sequentialNumber
+    package: adaptivecards
+    summary: ''
+    fullName: sequentialNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        description: ''
+        type: number
+inheritedMethods:
+  - name: getInternalName()
+    uid: adaptivecards.StringWithSubstitutionProperty.getInternalName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getInternalName(): string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: 'parse(SerializableObject, PropertyBag, BaseSerializationContext)'
+    uid: adaptivecards.StringWithSubstitutionProperty.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        BaseSerializationContext): StringWithSubstitutions
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: source
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringWithSubstitutions" />
+  - name: >-
+      toJSON(SerializableObject, PropertyBag, StringWithSubstitutions,
+      BaseSerializationContext)
+    uid: adaptivecards.StringWithSubstitutionProperty.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        StringWithSubstitutions, context: BaseSerializationContext)
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: target
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: value
+          type: <xref uid="adaptivecards.StringWithSubstitutions" />
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+extends: <xref uid="adaptivecards.PropertyDefinition" />

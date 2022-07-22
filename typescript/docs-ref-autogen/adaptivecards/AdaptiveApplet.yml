@@ -1,0 +1,326 @@
+### YamlMime:TSType
+name: AdaptiveApplet
+uid: adaptivecards.AdaptiveApplet
+package: adaptivecards
+summary: ''
+fullName: AdaptiveApplet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: AdaptiveApplet()
+    uid: adaptivecards.AdaptiveApplet.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new AdaptiveApplet()
+properties:
+  - name: card
+    uid: adaptivecards.AdaptiveApplet.card
+    package: adaptivecards
+    summary: ''
+    fullName: card
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: AdaptiveCard | undefined card
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.AdaptiveCard" /> | undefined
+  - name: channelAdapter
+    uid: adaptivecards.AdaptiveApplet.channelAdapter
+    package: adaptivecards
+    summary: ''
+    fullName: channelAdapter
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'channelAdapter?: ChannelAdapter'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ChannelAdapter" />
+  - name: hostConfig
+    uid: adaptivecards.AdaptiveApplet.hostConfig
+    package: adaptivecards
+    summary: ''
+    fullName: hostConfig
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'hostConfig?: HostConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostConfig" />
+  - name: onAction
+    uid: adaptivecards.AdaptiveApplet.onAction
+    package: adaptivecards
+    summary: ''
+    fullName: onAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onAction?: (sender: AdaptiveApplet, action: Action) => void'
+      return:
+        description: ''
+        type: '(sender: AdaptiveApplet, action: Action) =&gt; void'
+  - name: onActivityRequestFailed
+    uid: adaptivecards.AdaptiveApplet.onActivityRequestFailed
+    package: adaptivecards
+    summary: ''
+    fullName: onActivityRequestFailed
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onActivityRequestFailed?: (sender: AdaptiveApplet, response:
+        ErrorResponse) => number
+      return:
+        description: ''
+        type: '(sender: AdaptiveApplet, response: ErrorResponse) =&gt; number'
+  - name: onActivityRequestSucceeded
+    uid: adaptivecards.AdaptiveApplet.onActivityRequestSucceeded
+    package: adaptivecards
+    summary: ''
+    fullName: onActivityRequestSucceeded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onActivityRequestSucceeded?: (sender: AdaptiveApplet, response:
+        SuccessResponse, parsedContent: string | AdaptiveCard | undefined) =>
+        void
+      return:
+        description: ''
+        type: >-
+          (sender: AdaptiveApplet, response: SuccessResponse, parsedContent:
+          string | AdaptiveCard | undefined) =&gt; void
+  - name: onCardChanged
+    uid: adaptivecards.AdaptiveApplet.onCardChanged
+    package: adaptivecards
+    summary: ''
+    fullName: onCardChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onCardChanged?: (sender: AdaptiveApplet) => void'
+      return:
+        description: ''
+        type: '(sender: AdaptiveApplet) =&gt; void'
+  - name: onCardChanging
+    uid: adaptivecards.AdaptiveApplet.onCardChanging
+    package: adaptivecards
+    summary: ''
+    fullName: onCardChanging
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onCardChanging?: (sender: AdaptiveApplet, card: any) => boolean'
+      return:
+        description: ''
+        type: '(sender: AdaptiveApplet, card: any) =&gt; boolean'
+  - name: onCreateProgressOverlay
+    uid: adaptivecards.AdaptiveApplet.onCreateProgressOverlay
+    package: adaptivecards
+    summary: ''
+    fullName: onCreateProgressOverlay
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onCreateProgressOverlay?: (sender: AdaptiveApplet, request:
+        IActivityRequest) => HTMLElement | undefined
+      return:
+        description: ''
+        type: >-
+          (sender: AdaptiveApplet, request: IActivityRequest) =&gt; HTMLElement
+          | undefined
+  - name: onCreateSerializationContext
+    uid: adaptivecards.AdaptiveApplet.onCreateSerializationContext
+    package: adaptivecards
+    summary: ''
+    fullName: onCreateSerializationContext
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onCreateSerializationContext?: (sender: AdaptiveApplet) =>
+        SerializationContext
+      return:
+        description: ''
+        type: '(sender: AdaptiveApplet) =&gt; SerializationContext'
+  - name: onPrefetchSSOToken
+    uid: adaptivecards.AdaptiveApplet.onPrefetchSSOToken
+    package: adaptivecards
+    summary: ''
+    fullName: onPrefetchSSOToken
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onPrefetchSSOToken?: (sender: AdaptiveApplet, tokenExchangeResource:
+        TokenExchangeResource) => void
+      return:
+        description: ''
+        type: >-
+          (sender: AdaptiveApplet, tokenExchangeResource: TokenExchangeResource)
+          =&gt; void
+  - name: onPrepareActivityRequest
+    uid: adaptivecards.AdaptiveApplet.onPrepareActivityRequest
+    package: adaptivecards
+    summary: ''
+    fullName: onPrepareActivityRequest
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onPrepareActivityRequest?: (sender: AdaptiveApplet, request:
+        IActivityRequest, action: ExecuteAction) => boolean
+      return:
+        description: ''
+        type: >-
+          (sender: AdaptiveApplet, request: IActivityRequest, action:
+          ExecuteAction) =&gt; boolean
+  - name: onRemoveProgressOverlay
+    uid: adaptivecards.AdaptiveApplet.onRemoveProgressOverlay
+    package: adaptivecards
+    summary: ''
+    fullName: onRemoveProgressOverlay
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onRemoveProgressOverlay?: (sender: AdaptiveApplet, request:
+        IActivityRequest) => void
+      return:
+        description: ''
+        type: '(sender: AdaptiveApplet, request: IActivityRequest) =&gt; void'
+  - name: onRenderManualRefreshButton
+    uid: adaptivecards.AdaptiveApplet.onRenderManualRefreshButton
+    package: adaptivecards
+    summary: ''
+    fullName: onRenderManualRefreshButton
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onRenderManualRefreshButton?: (sender: AdaptiveApplet) => HTMLElement |
+        undefined
+      return:
+        description: ''
+        type: '(sender: AdaptiveApplet) =&gt; HTMLElement | undefined'
+  - name: onShowAuthCodeInputDialog
+    uid: adaptivecards.AdaptiveApplet.onShowAuthCodeInputDialog
+    package: adaptivecards
+    summary: ''
+    fullName: onShowAuthCodeInputDialog
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onShowAuthCodeInputDialog?: (sender: AdaptiveApplet, request:
+        IActivityRequest) => boolean
+      return:
+        description: ''
+        type: '(sender: AdaptiveApplet, request: IActivityRequest) =&gt; boolean'
+  - name: onShowManualRefreshButton
+    uid: adaptivecards.AdaptiveApplet.onShowManualRefreshButton
+    package: adaptivecards
+    summary: ''
+    fullName: onShowManualRefreshButton
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onShowManualRefreshButton?: (sender: AdaptiveApplet) => boolean'
+      return:
+        description: ''
+        type: '(sender: AdaptiveApplet) =&gt; boolean'
+  - name: onShowSigninPrompt
+    uid: adaptivecards.AdaptiveApplet.onShowSigninPrompt
+    package: adaptivecards
+    summary: ''
+    fullName: onShowSigninPrompt
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onShowSigninPrompt?: (sender: AdaptiveApplet, request: IActivityRequest,
+        signinButton: AuthCardButton) => void
+      return:
+        description: ''
+        type: >-
+          (sender: AdaptiveApplet, request: IActivityRequest, signinButton:
+          AuthCardButton) =&gt; void
+  - name: onSSOTokenNeeded
+    uid: adaptivecards.AdaptiveApplet.onSSOTokenNeeded
+    package: adaptivecards
+    summary: ''
+    fullName: onSSOTokenNeeded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onSSOTokenNeeded?: (sender: AdaptiveApplet, request: IActivityRequest,
+        tokenExchangeResource: TokenExchangeResource) => boolean
+      return:
+        description: ''
+        type: >-
+          (sender: AdaptiveApplet, request: IActivityRequest,
+          tokenExchangeResource: TokenExchangeResource) =&gt; boolean
+  - name: renderedElement
+    uid: adaptivecards.AdaptiveApplet.renderedElement
+    package: adaptivecards
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'renderedElement: HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+methods:
+  - name: refreshCard()
+    uid: adaptivecards.AdaptiveApplet.refreshCard
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function refreshCard()
+  - name: setCard(any)
+    uid: adaptivecards.AdaptiveApplet.setCard
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setCard(payload: any)'
+      parameters:
+        - id: payload
+          type: any
+          description: ''

@@ -1,0 +1,1427 @@
+### YamlMime:TSType
+name: TableRow
+uid: adaptivecards.TableRow
+package: adaptivecards
+summary: ''
+fullName: TableRow
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TableRow()
+    uid: adaptivecards.TableRow.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new TableRow()
+properties:
+  - name: hasVisibleSeparator
+    uid: adaptivecards.TableRow.hasVisibleSeparator
+    package: adaptivecards
+    summary: ''
+    fullName: hasVisibleSeparator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean hasVisibleSeparator
+      return:
+        description: ''
+        type: boolean
+  - name: horizontalCellContentAlignment
+    uid: adaptivecards.TableRow.horizontalCellContentAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalCellContentAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalCellContentAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: horizontalCellContentAlignmentProperty
+    uid: adaptivecards.TableRow.horizontalCellContentAlignmentProperty
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalCellContentAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static horizontalCellContentAlignmentProperty:
+        EnumProperty<HorizontalAlignment>
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.HorizontalAlignment" />&gt;
+  - name: hostConfig
+    uid: adaptivecards.TableRow.hostConfig
+    package: adaptivecards
+    summary: ''
+    fullName: hostConfig
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostConfig hostConfig
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostConfig" />
+  - name: index
+    uid: adaptivecards.TableRow.index
+    package: adaptivecards
+    summary: ''
+    fullName: index
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number index
+      return:
+        description: ''
+        type: number
+  - name: isInline
+    uid: adaptivecards.TableRow.isInline
+    package: adaptivecards
+    summary: ''
+    fullName: isInline
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isInline
+      return:
+        description: ''
+        type: boolean
+  - name: isInteractive
+    uid: adaptivecards.TableRow.isInteractive
+    package: adaptivecards
+    summary: ''
+    fullName: isInteractive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isInteractive
+      return:
+        description: ''
+        type: boolean
+  - name: isStandalone
+    uid: adaptivecards.TableRow.isStandalone
+    package: adaptivecards
+    summary: ''
+    fullName: isStandalone
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isStandalone
+      return:
+        description: ''
+        type: boolean
+  - name: isVisible
+    uid: adaptivecards.TableRow.isVisible
+    package: adaptivecards
+    summary: ''
+    fullName: isVisible
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isVisible
+      return:
+        description: ''
+        type: boolean
+  - name: lang
+    uid: adaptivecards.TableRow.lang
+    package: adaptivecards
+    summary: ''
+    fullName: lang
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string | undefined lang
+      return:
+        description: ''
+        type: string | undefined
+  - name: parent
+    uid: adaptivecards.TableRow.parent
+    package: adaptivecards
+    summary: ''
+    fullName: parent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardElement | undefined parent
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: parentTable
+    uid: adaptivecards.TableRow.parentTable
+    package: adaptivecards
+    summary: ''
+    fullName: parentTable
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Table parentTable
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Table" />
+  - name: renderedElement
+    uid: adaptivecards.TableRow.renderedElement
+    package: adaptivecards
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement | undefined renderedElement
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: requires
+    uid: adaptivecards.TableRow.requires
+    package: adaptivecards
+    summary: ''
+    fullName: requires
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostCapabilities requires
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostCapabilities" />
+  - name: separatorElement
+    uid: adaptivecards.TableRow.separatorElement
+    package: adaptivecards
+    summary: ''
+    fullName: separatorElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement | undefined separatorElement
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: style
+    uid: adaptivecards.TableRow.style
+    package: adaptivecards
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string | undefined style
+      return:
+        description: ''
+        type: string | undefined
+  - name: styleProperty
+    uid: adaptivecards.TableRow.styleProperty
+    package: adaptivecards
+    summary: ''
+    fullName: styleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static styleProperty: ContainerStyleProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleProperty" />
+  - name: verticalCellContentAlignment
+    uid: adaptivecards.TableRow.verticalCellContentAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: verticalCellContentAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'verticalCellContentAlignment?: VerticalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.VerticalAlignment" />
+  - name: verticalCellContentAlignmentProperty
+    uid: adaptivecards.TableRow.verticalCellContentAlignmentProperty
+    package: adaptivecards
+    summary: ''
+    fullName: verticalCellContentAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static verticalCellContentAlignmentProperty:
+        EnumProperty<VerticalAlignment>
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.VerticalAlignment" />&gt;
+inheritedProperties:
+  - name: allowVerticalOverflow
+    uid: adaptivecards.TableRow.allowVerticalOverflow
+    package: adaptivecards
+    summary: ''
+    fullName: allowVerticalOverflow
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowVerticalOverflow: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: customCssSelector
+    uid: adaptivecards.TableRow.customCssSelector
+    package: adaptivecards
+    summary: ''
+    fullName: customCssSelector
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'customCssSelector?: string'
+      return:
+        description: ''
+        type: string
+  - name: defaultMaxVersion
+    uid: adaptivecards.TableRow.defaultMaxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: defaultMaxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static defaultMaxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: height
+    uid: adaptivecards.TableRow.height
+    package: adaptivecards
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height: CardElementHeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElementHeight" />
+  - name: heightProperty
+    uid: adaptivecards.TableRow.heightProperty
+    package: adaptivecards
+    summary: ''
+    fullName: heightProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static heightProperty: ValueSetProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValueSetProperty" />
+  - name: horizontalAlignment
+    uid: adaptivecards.TableRow.horizontalAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: horizontalAlignmentProperty
+    uid: adaptivecards.TableRow.horizontalAlignmentProperty
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumProperty<HorizontalAlignment>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.HorizontalAlignment" />&gt;
+  - name: id
+    uid: adaptivecards.TableRow.id
+    package: adaptivecards
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: idProperty
+    uid: adaptivecards.TableRow.idProperty
+    package: adaptivecards
+    summary: ''
+    fullName: idProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static idProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: isVisibleProperty
+    uid: adaptivecards.TableRow.isVisibleProperty
+    package: adaptivecards
+    summary: ''
+    fullName: isVisibleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static isVisibleProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: langProperty
+    uid: adaptivecards.TableRow.langProperty
+    package: adaptivecards
+    summary: ''
+    fullName: langProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static langProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: maxVersion
+    uid: adaptivecards.TableRow.maxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: maxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: onPreProcessPropertyValue
+    uid: adaptivecards.TableRow.onPreProcessPropertyValue
+    package: adaptivecards
+    summary: ''
+    fullName: onPreProcessPropertyValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onPreProcessPropertyValue?: (sender: CardObject, property:
+        PropertyDefinition, value: any) => any
+      return:
+        description: ''
+        type: >-
+          (sender: CardObject, property: PropertyDefinition, value: any) =&gt;
+          any
+  - name: onRegisterCustomProperties
+    uid: adaptivecards.TableRow.onRegisterCustomProperties
+    package: adaptivecards
+    summary: ''
+    fullName: onRegisterCustomProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onRegisterCustomProperties?: (sender: SerializableObject, schema:
+        SerializableObjectSchema) => void
+      return:
+        description: ''
+        type: >-
+          (sender: SerializableObject, schema: SerializableObjectSchema) =&gt;
+          void
+  - name: requiresProperty
+    uid: adaptivecards.TableRow.requiresProperty
+    package: adaptivecards
+    summary: ''
+    fullName: requiresProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static requiresProperty: SerializableObjectProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectProperty" />
+  - name: selectActionProperty
+    uid: adaptivecards.TableRow.selectActionProperty
+    package: adaptivecards
+    summary: ''
+    fullName: selectActionProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static selectActionProperty: ActionProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ActionProperty" />
+  - name: separator
+    uid: adaptivecards.TableRow.separator
+    package: adaptivecards
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: separatorProperty
+    uid: adaptivecards.TableRow.separatorProperty
+    package: adaptivecards
+    summary: ''
+    fullName: separatorProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static separatorProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: spacing
+    uid: adaptivecards.TableRow.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: spacingProperty
+    uid: adaptivecards.TableRow.spacingProperty
+    package: adaptivecards
+    summary: ''
+    fullName: spacingProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static spacingProperty: EnumProperty<Spacing>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.Spacing" />&gt;
+  - name: typeNameProperty
+    uid: adaptivecards.TableRow.typeNameProperty
+    package: adaptivecards
+    summary: ''
+    fullName: typeNameProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static typeNameProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+inheritedMethods:
+  - name: asString()
+    uid: adaptivecards.TableRow.asString
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function asString(): string | undefined'
+      return:
+        description: ''
+        type: string | undefined
+  - name: findDOMNodeOwner(Node)
+    uid: adaptivecards.TableRow.findDOMNodeOwner
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function findDOMNodeOwner(node: Node): CardObject | undefined'
+      parameters:
+        - id: node
+          type: Node
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardObject" /> | undefined
+  - name: getActionAt(number)
+    uid: adaptivecards.TableRow.getActionAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionAt(index: number): Action | undefined'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: getActionById(string)
+    uid: adaptivecards.TableRow.getActionById
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionById(id: string): Action | undefined'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: getActionCount()
+    uid: adaptivecards.TableRow.getActionCount
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: getAllInputs(boolean)
+    uid: adaptivecards.TableRow.getAllInputs
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getAllInputs(processActions?: boolean): Input[]'
+      parameters:
+        - id: processActions
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.Input" />[]'
+  - name: getCustomProperty(string)
+    uid: adaptivecards.TableRow.getCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCustomProperty(name: string): any'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: getEffectiveHorizontalAlignment()
+    uid: adaptivecards.TableRow.getEffectiveHorizontalAlignment
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveHorizontalAlignment(): HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: getEffectivePadding()
+    uid: adaptivecards.TableRow.getEffectivePadding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectivePadding(): PaddingDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PaddingDefinition" />
+  - name: getEffectiveStyle()
+    uid: adaptivecards.TableRow.getEffectiveStyle
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveStyle(): string'
+      return:
+        description: ''
+        type: string
+  - name: getEffectiveStyleDefinition()
+    uid: adaptivecards.TableRow.getEffectiveStyleDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveStyleDefinition(): ContainerStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleDefinition" />
+  - name: getEffectiveTextStyleDefinition()
+    uid: adaptivecards.TableRow.getEffectiveTextStyleDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveTextStyleDefinition(): TextStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextStyleDefinition" />
+  - name: getElementById(string)
+    uid: adaptivecards.TableRow.getElementById
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getElementById(id: string): CardElement | undefined'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: getFirstVisibleRenderedItem()
+    uid: adaptivecards.TableRow.getFirstVisibleRenderedItem
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getFirstVisibleRenderedItem(): TableCell | undefined'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TableCell" /> | undefined
+  - name: getForbiddenActionTypes()
+    uid: adaptivecards.TableRow.getForbiddenActionTypes
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getForbiddenActionTypes(): ActionType[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.ActionType" />[]'
+  - name: >-
+      getImmediateSurroundingPadding(PaddingDefinition, boolean, boolean,
+      boolean, boolean)
+    uid: adaptivecards.TableRow.getImmediateSurroundingPadding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getImmediateSurroundingPadding(result: PaddingDefinition,
+        processTop?: boolean, processRight?: boolean, processBottom?: boolean,
+        processLeft?: boolean)
+      parameters:
+        - id: result
+          type: <xref uid="adaptivecards.PaddingDefinition" />
+          description: ''
+        - id: processTop
+          type: boolean
+          description: ''
+        - id: processRight
+          type: boolean
+          description: ''
+        - id: processBottom
+          type: boolean
+          description: ''
+        - id: processLeft
+          type: boolean
+          description: ''
+  - name: getItemAt(number)
+    uid: adaptivecards.TableRow.getItemAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getItemAt(index: number): TableCell'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TableCell" />
+  - name: getItemCount()
+    uid: adaptivecards.TableRow.getItemCount
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getItemCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: getLastVisibleRenderedItem()
+    uid: adaptivecards.TableRow.getLastVisibleRenderedItem
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getLastVisibleRenderedItem(): TableCell | undefined'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TableCell" /> | undefined
+  - name: getParentContainer()
+    uid: adaptivecards.TableRow.getParentContainer
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getParentContainer(): Container | undefined'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Container" /> | undefined
+  - name: getResourceInformation()
+    uid: adaptivecards.TableRow.getResourceInformation
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getResourceInformation(): IResourceInformation[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.IResourceInformation" />[]'
+  - name: getRootElement()
+    uid: adaptivecards.TableRow.getRootElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getRootElement(): CardElement'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" />
+  - name: getRootObject()
+    uid: adaptivecards.TableRow.getRootObject
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getRootObject(): CardObject'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardObject" />
+  - name: getSchema()
+    uid: adaptivecards.TableRow.getSchema
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getSchema(): SerializableObjectSchema'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectSchema" />
+  - name: hasAllDefaultValues()
+    uid: adaptivecards.TableRow.hasAllDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasAllDefaultValues(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: hasDefaultValue(PropertyDefinition)
+    uid: adaptivecards.TableRow.hasDefaultValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasDefaultValue(property: PropertyDefinition): boolean'
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: indexOf(CardElement)
+    uid: adaptivecards.TableRow.indexOf
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOf(cardElement: CardElement): number'
+      parameters:
+        - id: cardElement
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: indexOfAction(Action)
+    uid: adaptivecards.TableRow.indexOfAction
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOfAction(action: Action): number'
+      parameters:
+        - id: action
+          type: <xref uid="adaptivecards.Action" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: internalValidateProperties(ValidationResults)
+    uid: adaptivecards.TableRow.internalValidateProperties
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function internalValidateProperties(context: ValidationResults)'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards.ValidationResults" />
+          description: ''
+  - name: isAtTheVeryBottom()
+    uid: adaptivecards.TableRow.isAtTheVeryBottom
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryBottom(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryLeft()
+    uid: adaptivecards.TableRow.isAtTheVeryLeft
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryLeft(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryRight()
+    uid: adaptivecards.TableRow.isAtTheVeryRight
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryRight(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryTop()
+    uid: adaptivecards.TableRow.isAtTheVeryTop
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryTop(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleeding()
+    uid: adaptivecards.TableRow.isBleeding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleeding(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleedingAtBottom()
+    uid: adaptivecards.TableRow.isBleedingAtBottom
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleedingAtBottom(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleedingAtTop()
+    uid: adaptivecards.TableRow.isBleedingAtTop
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleedingAtTop(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBottomElement(CardElement)
+    uid: adaptivecards.TableRow.isBottomElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBottomElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isDesignMode()
+    uid: adaptivecards.TableRow.isDesignMode
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDesignMode(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isFirstElement(CardElement)
+    uid: adaptivecards.TableRow.isFirstElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isFirstElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isHiddenDueToOverflow()
+    uid: adaptivecards.TableRow.isHiddenDueToOverflow
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isHiddenDueToOverflow(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isLastElement(CardElement)
+    uid: adaptivecards.TableRow.isLastElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isLastElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isLeftMostElement(CardElement)
+    uid: adaptivecards.TableRow.isLeftMostElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isLeftMostElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isRightMostElement(CardElement)
+    uid: adaptivecards.TableRow.isRightMostElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isRightMostElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isTopElement(CardElement)
+    uid: adaptivecards.TableRow.isTopElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isTopElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'parse(any, SerializationContext)'
+    uid: adaptivecards.TableRow.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(source: any, context?: SerializationContext)'
+      parameters:
+        - id: source
+          type: any
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.SerializationContext" />
+          description: ''
+  - name: 'preProcessPropertyValue(PropertyDefinition, any)'
+    uid: adaptivecards.TableRow.preProcessPropertyValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function preProcessPropertyValue(property: PropertyDefinition,
+        propertyValue?: any): any
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+        - id: propertyValue
+          type: any
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: remove()
+    uid: adaptivecards.TableRow.remove
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: removeItem(TableCell)
+    uid: adaptivecards.TableRow.removeItem
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function removeItem(item: TableCell): boolean'
+      parameters:
+        - id: item
+          type: <xref uid="adaptivecards.TableCell" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: render()
+    uid: adaptivecards.TableRow.render
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement | undefined'
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: resetDefaultValues()
+    uid: adaptivecards.TableRow.resetDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function resetDefaultValues()
+  - name: 'setCustomProperty(string, any)'
+    uid: adaptivecards.TableRow.setCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setCustomProperty(name: string, value: any)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: value
+          type: any
+          description: ''
+  - name: setParent(CardObject | undefined)
+    uid: adaptivecards.TableRow.setParent
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setParent(value: CardObject | undefined)'
+      parameters:
+        - id: value
+          type: <xref uid="adaptivecards.CardObject" /> | undefined
+          description: ''
+  - name: setShouldFallback(boolean)
+    uid: adaptivecards.TableRow.setShouldFallback
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setShouldFallback(value: boolean)'
+      parameters:
+        - id: value
+          type: boolean
+          description: ''
+  - name: shouldFallback()
+    uid: adaptivecards.TableRow.shouldFallback
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function shouldFallback(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: toJSON(BaseSerializationContext)
+    uid: adaptivecards.TableRow.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(context?: BaseSerializationContext): PropertyBag |
+        undefined
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PropertyBag" /> | undefined
+  - name: updateLayout(boolean)
+    uid: adaptivecards.TableRow.updateLayout
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function updateLayout(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type: boolean
+          description: ''
+  - name: validateProperties()
+    uid: adaptivecards.TableRow.validateProperties
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function validateProperties(): ValidationResults'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValidationResults" />
+methods:
+  - name: addCell(TableCell)
+    uid: adaptivecards.TableRow.addCell
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function addCell(cell: TableCell)'
+      parameters:
+        - id: cell
+          type: <xref uid="adaptivecards.TableCell" />
+          description: ''
+  - name: ensureHasEnoughCells(number)
+    uid: adaptivecards.TableRow.ensureHasEnoughCells
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function ensureHasEnoughCells(cellCount: number)'
+      parameters:
+        - id: cellCount
+          type: number
+          description: ''
+  - name: getIsFirstRow()
+    uid: adaptivecards.TableRow.getIsFirstRow
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getIsFirstRow(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: getJsonTypeName()
+    uid: adaptivecards.TableRow.getJsonTypeName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getJsonTypeName(): string'
+      return:
+        description: ''
+        type: string
+  - name: removeCellAt(number)
+    uid: adaptivecards.TableRow.removeCellAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function removeCellAt(columnIndex: number): boolean'
+      parameters:
+        - id: columnIndex
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: boolean
+extends: >-
+  <xref uid="adaptivecards.StylableContainer" />&lt;<xref
+  uid="adaptivecards.TableCell" />&gt;

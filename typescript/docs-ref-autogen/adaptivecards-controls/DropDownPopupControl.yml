@@ -1,0 +1,132 @@
+### YamlMime:TSType
+name: DropDownPopupControl
+uid: adaptivecards-controls.DropDownPopupControl
+package: adaptivecards-controls
+summary: ''
+fullName: DropDownPopupControl
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: DropDownPopupControl(DropDown)
+    uid: adaptivecards-controls.DropDownPopupControl.constructor
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new DropDownPopupControl(owner: DropDown)'
+      parameters:
+        - id: owner
+          type: <xref uid="adaptivecards-controls.DropDown" />
+          description: ''
+properties:
+  - name: isOpen
+    uid: adaptivecards-controls.DropDownPopupControl.isOpen
+    package: adaptivecards-controls
+    summary: ''
+    fullName: isOpen
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isOpen
+      return:
+        description: ''
+        type: boolean
+  - name: selectedIndex
+    uid: adaptivecards-controls.DropDownPopupControl.selectedIndex
+    package: adaptivecards-controls
+    summary: ''
+    fullName: selectedIndex
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number selectedIndex
+      return:
+        description: ''
+        type: number
+inheritedProperties:
+  - name: onClose
+    uid: adaptivecards-controls.DropDownPopupControl.onClose
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (popupControl: PopupControl, wasCancelled: boolean) => void'
+      return:
+        description: ''
+        type: '(popupControl: PopupControl, wasCancelled: boolean) =&gt; void'
+inheritedMethods:
+  - name: closePopup(boolean)
+    uid: adaptivecards-controls.DropDownPopupControl.closePopup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type: boolean
+          description: ''
+  - name: focus()
+    uid: adaptivecards-controls.DropDownPopupControl.focus
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: popup(HTMLElement)
+    uid: adaptivecards-controls.DropDownPopupControl.popup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function popup(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+methods:
+  - name: keyDown(KeyboardEvent)
+    uid: adaptivecards-controls.DropDownPopupControl.keyDown
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function keyDown(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type: KeyboardEvent
+          description: ''
+  - name: render(ClientRect)
+    uid: adaptivecards-controls.DropDownPopupControl.render
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(rootElementBounds: ClientRect): HTMLElement'
+      parameters:
+        - id: rootElementBounds
+          type: ClientRect
+          description: ''
+      return:
+        description: ''
+        type: HTMLElement
+extends: <xref uid="adaptivecards-controls.PopupControl" />

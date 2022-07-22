@@ -1,0 +1,130 @@
+### YamlMime:TSType
+name: IImageSet
+uid: adaptivecards-designer.IImageSet
+package: adaptivecards-designer
+summary: ''
+fullName: IImageSet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: images
+    uid: adaptivecards-designer.IImageSet.images
+    package: adaptivecards-designer
+    summary: ''
+    fullName: images
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'images: IImage[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.IImage" />[]'
+  - name: size
+    uid: adaptivecards-designer.IImageSet.size
+    package: adaptivecards-designer
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size?: Size'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Size" />
+  - name: type
+    uid: adaptivecards-designer.IImageSet.type
+    package: adaptivecards-designer
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "ImageSet"'
+      return:
+        description: ''
+        type: '"ImageSet"'
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-designer.IImageSet.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-designer.IImageSet.horizontalAlignment
+    package: adaptivecards-designer
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-designer.IImageSet.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-designer.IImageSet.separator
+    package: adaptivecards-designer
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-designer.IImageSet.spacing
+    package: adaptivecards-designer
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Spacing" />
+  - name: speak
+    uid: adaptivecards-designer.IImageSet.speak
+    package: adaptivecards-designer
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-designer.ICardElement" />

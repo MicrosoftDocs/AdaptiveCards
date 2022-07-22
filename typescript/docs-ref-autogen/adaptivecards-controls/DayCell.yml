@@ -1,0 +1,99 @@
+### YamlMime:TSType
+name: DayCell
+uid: adaptivecards-controls.DayCell
+package: adaptivecards-controls
+summary: ''
+fullName: DayCell
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: DayCell(Date)
+    uid: adaptivecards-controls.DayCell.constructor
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new DayCell(date: Date)'
+      parameters:
+        - id: date
+          type: Date
+          description: ''
+properties:
+  - name: date
+    uid: adaptivecards-controls.DayCell.date
+    package: adaptivecards-controls
+    summary: ''
+    fullName: date
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'date: Date'
+      return:
+        description: ''
+        type: Date
+  - name: isSelected
+    uid: adaptivecards-controls.DayCell.isSelected
+    package: adaptivecards-controls
+    summary: ''
+    fullName: isSelected
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isSelected
+      return:
+        description: ''
+        type: boolean
+  - name: isSubdued
+    uid: adaptivecards-controls.DayCell.isSubdued
+    package: adaptivecards-controls
+    summary: ''
+    fullName: isSubdued
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isSubdued
+      return:
+        description: ''
+        type: boolean
+  - name: onSelected
+    uid: adaptivecards-controls.DayCell.onSelected
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onSelected
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onSelected: (cell: DayCell) => void'
+      return:
+        description: ''
+        type: '(cell: DayCell) =&gt; void'
+methods:
+  - name: focus()
+    uid: adaptivecards-controls.DayCell.focus
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: render()
+    uid: adaptivecards-controls.DayCell.render
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement

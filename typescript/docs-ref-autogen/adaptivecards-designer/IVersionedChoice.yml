@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: IVersionedChoice
+uid: adaptivecards-designer.IVersionedChoice
+package: adaptivecards-designer
+summary: ''
+fullName: IVersionedChoice
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: name
+    uid: adaptivecards-designer.IVersionedChoice.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: targetVersion
+    uid: adaptivecards-designer.IVersionedChoice.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        description: ''
+        type: <xref uid="Adaptive.TargetVersion" />
+  - name: value
+    uid: adaptivecards-designer.IVersionedChoice.value
+    package: adaptivecards-designer
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value: string'
+      return:
+        description: ''
+        type: string

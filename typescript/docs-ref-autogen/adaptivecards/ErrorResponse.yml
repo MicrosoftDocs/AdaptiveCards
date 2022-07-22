@@ -1,0 +1,57 @@
+### YamlMime:TSType
+name: ErrorResponse
+uid: adaptivecards.ErrorResponse
+package: adaptivecards
+summary: ''
+fullName: ErrorResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'ErrorResponse(IActivityRequest, ActivityRequestError)'
+    uid: adaptivecards.ErrorResponse.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ErrorResponse(request: IActivityRequest, error:
+        ActivityRequestError)
+      parameters:
+        - id: request
+          type: <xref uid="adaptivecards.IActivityRequest" />
+          description: ''
+        - id: error
+          type: <xref uid="adaptivecards.ActivityRequestError" />
+          description: ''
+properties:
+  - name: error
+    uid: adaptivecards.ErrorResponse.error
+    package: adaptivecards
+    summary: ''
+    fullName: error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'error: ActivityRequestError'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ActivityRequestError" />
+  - name: request
+    uid: adaptivecards.ErrorResponse.request
+    package: adaptivecards
+    summary: ''
+    fullName: request
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'request: IActivityRequest'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IActivityRequest" />
+extends: <xref uid="adaptivecards.ActivityResponse" />

@@ -1,0 +1,61 @@
+### YamlMime:TSPackage
+uid: adaptivecards-templating
+name: adaptivecards-templating
+summary: ''
+type: package
+functions:
+  - name: JSONSchemaCard(JSONSchema7)
+    uid: adaptivecards-templating.JSONSchemaCard
+    package: adaptivecards-templating
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function JSONSchemaCard(schema: JSONSchema7): IAdaptiveCard | undefined'
+      parameters:
+        - id: schema
+          type: JSONSchema7
+          description: ''
+      return:
+        description: ''
+        type: IAdaptiveCard | undefined
+classes:
+  - adaptivecards-templating.GlobalSettings
+  - adaptivecards-templating.Template
+interfaces:
+  - adaptivecards-templating.IEvaluationContext
+  - adaptivecards-templating.IAction
+  - adaptivecards-templating.IAdaptiveCard
+  - adaptivecards-templating.IBackgroundImage
+  - adaptivecards-templating.ICardElement
+  - adaptivecards-templating.IChoice
+  - adaptivecards-templating.IChoiceSetInput
+  - adaptivecards-templating.IColumn
+  - adaptivecards-templating.IColumnSet
+  - adaptivecards-templating.IContainer
+  - adaptivecards-templating.IDateInput
+  - adaptivecards-templating.IFact
+  - adaptivecards-templating.IFactSet
+  - adaptivecards-templating.IImage
+  - adaptivecards-templating.IImageSet
+  - adaptivecards-templating.IInput
+  - adaptivecards-templating.INumberInput
+  - adaptivecards-templating.IOpenUrlAction
+  - adaptivecards-templating.IShowCardAction
+  - adaptivecards-templating.ISubmitAction
+  - adaptivecards-templating.ITextBlock
+  - adaptivecards-templating.ITextInput
+  - adaptivecards-templating.ITimeInput
+  - adaptivecards-templating.IToggleInput
+  - adaptivecards-templating.IVersion
+typeAliases:
+  - adaptivecards-templating.ContainerStyle
+  - adaptivecards-templating.HorizontalAlignment
+  - adaptivecards-templating.ImageStyle
+  - adaptivecards-templating.Size
+  - adaptivecards-templating.Spacing
+  - adaptivecards-templating.TextColor
+  - adaptivecards-templating.TextSize
+  - adaptivecards-templating.TextWeight
+  - adaptivecards-templating.VerticalAlignment

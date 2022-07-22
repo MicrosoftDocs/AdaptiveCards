@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: TargetVersion
+uid: adaptivecards.TargetVersion
+package: adaptivecards
+summary: ''
+fullName: TargetVersion
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type TargetVersion = Version | "*"

@@ -1,0 +1,204 @@
+### YamlMime:TSType
+name: DataPaletteItem
+uid: adaptivecards-designer.DataPaletteItem
+package: adaptivecards-designer
+summary: ''
+fullName: DataPaletteItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: DataPaletteItem(FieldDefinition)
+    uid: adaptivecards-designer.DataPaletteItem.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new DataPaletteItem(field: FieldDefinition)'
+      parameters:
+        - id: field
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+properties:
+  - name: dragging
+    uid: adaptivecards-designer.DataPaletteItem.dragging
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dragging
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean dragging
+      return:
+        description: ''
+        type: boolean
+  - name: field
+    uid: adaptivecards-designer.DataPaletteItem.field
+    package: adaptivecards-designer
+    summary: ''
+    fullName: field
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'field: FieldDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: renderedElement
+    uid: adaptivecards-designer.DataPaletteItem.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+inheritedProperties:
+  - name: onClick
+    uid: adaptivecards-designer.DataPaletteItem.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onDoubleClick
+    uid: adaptivecards-designer.DataPaletteItem.onDoubleClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onDoubleClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onEndDrag
+    uid: adaptivecards-designer.DataPaletteItem.onEndDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onEndDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onStartDrag
+    uid: adaptivecards-designer.DataPaletteItem.onStartDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onStartDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+inheritedMethods:
+  - name: endDrag()
+    uid: adaptivecards-designer.DataPaletteItem.endDrag
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function endDrag()
+  - name: focus()
+    uid: adaptivecards-designer.DataPaletteItem.focus
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: isDraggable()
+    uid: adaptivecards-designer.DataPaletteItem.isDraggable
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDraggable(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: render()
+    uid: adaptivecards-designer.DataPaletteItem.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: renderDragVisual()
+    uid: adaptivecards-designer.DataPaletteItem.renderDragVisual
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function renderDragVisual(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: updateLayout()
+    uid: adaptivecards-designer.DataPaletteItem.updateLayout
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateLayout()
+methods:
+  - name: 'createPeer(DesignContext, CardDesignerSurface)'
+    uid: adaptivecards-designer.DataPaletteItem.createPeer
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createPeer(context: DesignContext, designer:
+        CardDesignerSurface): CardElementPeer
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.DesignContext" />
+          description: ''
+        - id: designer
+          type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CardElementPeer" />
+extends: <xref uid="adaptivecards-designer.BasePaletteItem" />

@@ -1,0 +1,28 @@
+### YamlMime:TSType
+name: Constants
+uid: adaptivecards.Constants
+package: adaptivecards
+summary: ''
+fullName: Constants
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: keys
+    uid: adaptivecards.Constants.keys
+    package: adaptivecards
+    summary: ''
+    fullName: keys
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static keys: { delete: "Delete", down: "ArrowDown", enter: "Enter",
+        escape: "Escape", space: " ", tab: "Tab", up: "ArrowUp" }
+      return:
+        description: ''
+        type: >-
+          { delete: "Delete", down: "ArrowDown", enter: "Enter", escape:
+          "Escape", space: " ", tab: "Tab", up: "ArrowUp" }

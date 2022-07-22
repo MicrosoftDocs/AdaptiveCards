@@ -1,0 +1,117 @@
+### YamlMime:TSType
+name: IFactSet
+uid: adaptivecards-designer.IFactSet
+package: adaptivecards-designer
+summary: ''
+fullName: IFactSet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: facts
+    uid: adaptivecards-designer.IFactSet.facts
+    package: adaptivecards-designer
+    summary: ''
+    fullName: facts
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'facts: IFact[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.IFact" />[]'
+  - name: type
+    uid: adaptivecards-designer.IFactSet.type
+    package: adaptivecards-designer
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "FactSet"'
+      return:
+        description: ''
+        type: '"FactSet"'
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-designer.IFactSet.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-designer.IFactSet.horizontalAlignment
+    package: adaptivecards-designer
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-designer.IFactSet.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-designer.IFactSet.separator
+    package: adaptivecards-designer
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-designer.IFactSet.spacing
+    package: adaptivecards-designer
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Spacing" />
+  - name: speak
+    uid: adaptivecards-designer.IFactSet.speak
+    package: adaptivecards-designer
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-designer.ICardElement" />

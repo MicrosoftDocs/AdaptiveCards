@@ -1,0 +1,216 @@
+### YamlMime:TSType
+name: ContainerStyleProperty
+uid: adaptivecards.ContainerStyleProperty
+package: adaptivecards
+summary: ''
+fullName: ContainerStyleProperty
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      ContainerStyleProperty(Version, string, string | undefined, (sender:
+      SerializableObject) => string | undefined)
+    uid: adaptivecards.ContainerStyleProperty.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ContainerStyleProperty(targetVersion: Version, name: string,
+        defaultValue?: string | undefined, onGetInitialValue?: (sender:
+        SerializableObject) => string | undefined)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="adaptivecards.Version" />
+          description: ''
+        - id: name
+          type: string
+          description: ''
+        - id: defaultValue
+          type: string | undefined
+          description: ''
+        - id: onGetInitialValue
+          type: '(sender: SerializableObject) =&gt; string | undefined'
+          description: ''
+properties:
+  - name: defaultValue
+    uid: adaptivecards.ContainerStyleProperty.defaultValue
+    package: adaptivecards
+    summary: ''
+    fullName: defaultValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultValue?: string | undefined'
+      return:
+        description: ''
+        type: string | undefined
+  - name: name
+    uid: adaptivecards.ContainerStyleProperty.name
+    package: adaptivecards
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: onGetInitialValue
+    uid: adaptivecards.ContainerStyleProperty.onGetInitialValue
+    package: adaptivecards
+    summary: ''
+    fullName: onGetInitialValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => string | undefined'
+      return:
+        description: ''
+        type: '(sender: SerializableObject) =&gt; string | undefined'
+  - name: targetVersion
+    uid: adaptivecards.ContainerStyleProperty.targetVersion
+    package: adaptivecards
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+inheritedProperties:
+  - name: isSerializationEnabled
+    uid: adaptivecards.ContainerStyleProperty.isSerializationEnabled
+    package: adaptivecards
+    summary: ''
+    fullName: isSerializationEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: sequentialNumber
+    uid: adaptivecards.ContainerStyleProperty.sequentialNumber
+    package: adaptivecards
+    summary: ''
+    fullName: sequentialNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        description: ''
+        type: number
+  - name: values
+    uid: adaptivecards.ContainerStyleProperty.values
+    package: adaptivecards
+    summary: ''
+    fullName: values
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'values: IVersionedValue<string>[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.IVersionedValue" />&lt;string&gt;[]'
+inheritedMethods:
+  - name: getInternalName()
+    uid: adaptivecards.ContainerStyleProperty.getInternalName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getInternalName(): string'
+      return:
+        description: ''
+        type: string
+  - name: 'isValidValue(string, BaseSerializationContext)'
+    uid: adaptivecards.ContainerStyleProperty.isValidValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isValidValue(value: string, context: BaseSerializationContext):
+        boolean
+      parameters:
+        - id: value
+          type: string
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'parse(SerializableObject, PropertyBag, BaseSerializationContext)'
+    uid: adaptivecards.ContainerStyleProperty.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        BaseSerializationContext): string | undefined
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: source
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: string | undefined
+  - name: >-
+      toJSON(SerializableObject, PropertyBag, string | undefined,
+      BaseSerializationContext)
+    uid: adaptivecards.ContainerStyleProperty.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        string | undefined, context: BaseSerializationContext)
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: target
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: value
+          type: string | undefined
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+extends: <xref uid="adaptivecards.ValueSetProperty" />

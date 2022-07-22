@@ -1,0 +1,57 @@
+### YamlMime:TSType
+name: SuccessResponse
+uid: adaptivecards.SuccessResponse
+package: adaptivecards
+summary: ''
+fullName: SuccessResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'SuccessResponse(IActivityRequest, string | undefined)'
+    uid: adaptivecards.SuccessResponse.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new SuccessResponse(request: IActivityRequest, rawContent?: string |
+        undefined)
+      parameters:
+        - id: request
+          type: <xref uid="adaptivecards.IActivityRequest" />
+          description: ''
+        - id: rawContent
+          type: string | undefined
+          description: ''
+properties:
+  - name: rawContent
+    uid: adaptivecards.SuccessResponse.rawContent
+    package: adaptivecards
+    summary: ''
+    fullName: rawContent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'rawContent?: string | undefined'
+      return:
+        description: ''
+        type: string | undefined
+  - name: request
+    uid: adaptivecards.SuccessResponse.request
+    package: adaptivecards
+    summary: ''
+    fullName: request
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'request: IActivityRequest'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IActivityRequest" />
+extends: <xref uid="adaptivecards.ActivityResponse" />

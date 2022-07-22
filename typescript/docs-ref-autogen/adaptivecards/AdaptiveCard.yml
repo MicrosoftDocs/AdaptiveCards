@@ -1,0 +1,1983 @@
+### YamlMime:TSType
+name: AdaptiveCard
+uid: adaptivecards.AdaptiveCard
+package: adaptivecards
+summary: ''
+fullName: AdaptiveCard
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: AdaptiveCard()
+    uid: adaptivecards.AdaptiveCard.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new AdaptiveCard()
+properties:
+  - name: authentication
+    uid: adaptivecards.AdaptiveCard.authentication
+    package: adaptivecards
+    summary: ''
+    fullName: authentication
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'authentication?: Authentication'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Authentication" />
+  - name: authenticationProperty
+    uid: adaptivecards.AdaptiveCard.authenticationProperty
+    package: adaptivecards
+    summary: ''
+    fullName: authenticationProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static authenticationProperty: SerializableObjectProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectProperty" />
+  - name: backgroundImage
+    uid: adaptivecards.AdaptiveCard.backgroundImage
+    package: adaptivecards
+    summary: ''
+    fullName: backgroundImage
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: BackgroundImage backgroundImage
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BackgroundImage" />
+  - name: bleed
+    uid: adaptivecards.AdaptiveCard.bleed
+    package: adaptivecards
+    summary: ''
+    fullName: bleed
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean bleed
+      return:
+        description: ''
+        type: boolean
+  - name: designMode
+    uid: adaptivecards.AdaptiveCard.designMode
+    package: adaptivecards
+    summary: ''
+    fullName: designMode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'designMode: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: fallbackText
+    uid: adaptivecards.AdaptiveCard.fallbackText
+    package: adaptivecards
+    summary: ''
+    fullName: fallbackText
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fallbackText?: string'
+      return:
+        description: ''
+        type: string
+  - name: fallbackTextProperty
+    uid: adaptivecards.AdaptiveCard.fallbackTextProperty
+    package: adaptivecards
+    summary: ''
+    fullName: fallbackTextProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static fallbackTextProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: hasVisibleSeparator
+    uid: adaptivecards.AdaptiveCard.hasVisibleSeparator
+    package: adaptivecards
+    summary: ''
+    fullName: hasVisibleSeparator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean hasVisibleSeparator
+      return:
+        description: ''
+        type: boolean
+  - name: hostConfig
+    uid: adaptivecards.AdaptiveCard.hostConfig
+    package: adaptivecards
+    summary: ''
+    fullName: hostConfig
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostConfig hostConfig
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostConfig" />
+  - name: index
+    uid: adaptivecards.AdaptiveCard.index
+    package: adaptivecards
+    summary: ''
+    fullName: index
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number index
+      return:
+        description: ''
+        type: number
+  - name: isInline
+    uid: adaptivecards.AdaptiveCard.isInline
+    package: adaptivecards
+    summary: ''
+    fullName: isInline
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isInline
+      return:
+        description: ''
+        type: boolean
+  - name: isInteractive
+    uid: adaptivecards.AdaptiveCard.isInteractive
+    package: adaptivecards
+    summary: ''
+    fullName: isInteractive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isInteractive
+      return:
+        description: ''
+        type: boolean
+  - name: isStandalone
+    uid: adaptivecards.AdaptiveCard.isStandalone
+    package: adaptivecards
+    summary: ''
+    fullName: isStandalone
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isStandalone
+      return:
+        description: ''
+        type: boolean
+  - name: isVisible
+    uid: adaptivecards.AdaptiveCard.isVisible
+    package: adaptivecards
+    summary: ''
+    fullName: isVisible
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isVisible
+      return:
+        description: ''
+        type: boolean
+  - name: lang
+    uid: adaptivecards.AdaptiveCard.lang
+    package: adaptivecards
+    summary: ''
+    fullName: lang
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string | undefined lang
+      return:
+        description: ''
+        type: string | undefined
+  - name: onAnchorClicked
+    uid: adaptivecards.AdaptiveCard.onAnchorClicked
+    package: adaptivecards
+    summary: ''
+    fullName: onAnchorClicked
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onAnchorClicked?: (element: CardElement, anchor: HTMLAnchorElement, ev?:
+        MouseEvent) => boolean
+      return:
+        description: ''
+        type: >-
+          (element: CardElement, anchor: HTMLAnchorElement, ev?: MouseEvent)
+          =&gt; boolean
+  - name: onAnchorClicked
+    uid: adaptivecards.AdaptiveCard.onAnchorClicked
+    package: adaptivecards
+    summary: ''
+    fullName: onAnchorClicked
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onAnchorClicked?: (element: CardElement, anchor:
+        HTMLAnchorElement, ev?: MouseEvent) => boolean
+      return:
+        description: ''
+        type: >-
+          (element: CardElement, anchor: HTMLAnchorElement, ev?: MouseEvent)
+          =&gt; boolean
+  - name: onDisplayOverflowActionMenu
+    uid: adaptivecards.AdaptiveCard.onDisplayOverflowActionMenu
+    package: adaptivecards
+    summary: ''
+    fullName: onDisplayOverflowActionMenu
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onDisplayOverflowActionMenu?: (actions: Object, target?: HTMLElement) =>
+        boolean
+      return:
+        description: ''
+        type: '(actions: Object, target?: HTMLElement) =&gt; boolean'
+  - name: onDisplayOverflowActionMenu
+    uid: adaptivecards.AdaptiveCard.onDisplayOverflowActionMenu
+    package: adaptivecards
+    summary: ''
+    fullName: onDisplayOverflowActionMenu
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onDisplayOverflowActionMenu?: (actions: Object, target?:
+        HTMLElement) => boolean
+      return:
+        description: ''
+        type: '(actions: Object, target?: HTMLElement) =&gt; boolean'
+  - name: onElementVisibilityChanged
+    uid: adaptivecards.AdaptiveCard.onElementVisibilityChanged
+    package: adaptivecards
+    summary: ''
+    fullName: onElementVisibilityChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onElementVisibilityChanged?: (element: CardElement) => void'
+      return:
+        description: ''
+        type: '(element: CardElement) =&gt; void'
+  - name: onElementVisibilityChanged
+    uid: adaptivecards.AdaptiveCard.onElementVisibilityChanged
+    package: adaptivecards
+    summary: ''
+    fullName: onElementVisibilityChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static onElementVisibilityChanged?: (element: CardElement) => void'
+      return:
+        description: ''
+        type: '(element: CardElement) =&gt; void'
+  - name: onExecuteAction
+    uid: adaptivecards.AdaptiveCard.onExecuteAction
+    package: adaptivecards
+    summary: ''
+    fullName: onExecuteAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onExecuteAction?: (action: Action) => void'
+      return:
+        description: ''
+        type: '(action: Action) =&gt; void'
+  - name: onExecuteAction
+    uid: adaptivecards.AdaptiveCard.onExecuteAction
+    package: adaptivecards
+    summary: ''
+    fullName: onExecuteAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static onExecuteAction?: (action: Action) => void'
+      return:
+        description: ''
+        type: '(action: Action) =&gt; void'
+  - name: onImageLoaded
+    uid: adaptivecards.AdaptiveCard.onImageLoaded
+    package: adaptivecards
+    summary: ''
+    fullName: onImageLoaded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onImageLoaded?: (image: Image) => void'
+      return:
+        description: ''
+        type: '(image: Image) =&gt; void'
+  - name: onImageLoaded
+    uid: adaptivecards.AdaptiveCard.onImageLoaded
+    package: adaptivecards
+    summary: ''
+    fullName: onImageLoaded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static onImageLoaded?: (image: Image) => void'
+      return:
+        description: ''
+        type: '(image: Image) =&gt; void'
+  - name: onInlineCardExpanded
+    uid: adaptivecards.AdaptiveCard.onInlineCardExpanded
+    package: adaptivecards
+    summary: ''
+    fullName: onInlineCardExpanded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onInlineCardExpanded?: (action: ShowCardAction, isExpanded: boolean) =>
+        void
+      return:
+        description: ''
+        type: '(action: ShowCardAction, isExpanded: boolean) =&gt; void'
+  - name: onInlineCardExpanded
+    uid: adaptivecards.AdaptiveCard.onInlineCardExpanded
+    package: adaptivecards
+    summary: ''
+    fullName: onInlineCardExpanded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onInlineCardExpanded?: (action: ShowCardAction, isExpanded:
+        boolean) => void
+      return:
+        description: ''
+        type: '(action: ShowCardAction, isExpanded: boolean) =&gt; void'
+  - name: onInputValueChanged
+    uid: adaptivecards.AdaptiveCard.onInputValueChanged
+    package: adaptivecards
+    summary: ''
+    fullName: onInputValueChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onInputValueChanged?: (input: Input) => void'
+      return:
+        description: ''
+        type: '(input: Input) =&gt; void'
+  - name: onInputValueChanged
+    uid: adaptivecards.AdaptiveCard.onInputValueChanged
+    package: adaptivecards
+    summary: ''
+    fullName: onInputValueChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static onInputValueChanged?: (input: Input) => void'
+      return:
+        description: ''
+        type: '(input: Input) =&gt; void'
+  - name: onProcessMarkdown
+    uid: adaptivecards.AdaptiveCard.onProcessMarkdown
+    package: adaptivecards
+    summary: ''
+    fullName: onProcessMarkdown
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onProcessMarkdown?: (text: string, result:
+        IMarkdownProcessingResult) => void
+      return:
+        description: ''
+        type: '(text: string, result: IMarkdownProcessingResult) =&gt; void'
+  - name: onRenderOverflowActions
+    uid: adaptivecards.AdaptiveCard.onRenderOverflowActions
+    package: adaptivecards
+    summary: ''
+    fullName: onRenderOverflowActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onRenderOverflowActions?: (actions: Object, isRootLevelActions: boolean)
+        => boolean
+      return:
+        description: ''
+        type: '(actions: Object, isRootLevelActions: boolean) =&gt; boolean'
+  - name: onRenderOverflowActions
+    uid: adaptivecards.AdaptiveCard.onRenderOverflowActions
+    package: adaptivecards
+    summary: ''
+    fullName: onRenderOverflowActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onRenderOverflowActions?: (actions: Object, isRootLevelActions:
+        boolean) => boolean
+      return:
+        description: ''
+        type: '(actions: Object, isRootLevelActions: boolean) =&gt; boolean'
+  - name: padding
+    uid: adaptivecards.AdaptiveCard.padding
+    package: adaptivecards
+    summary: ''
+    fullName: padding
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: PaddingDefinition | undefined padding
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PaddingDefinition" /> | undefined
+  - name: parent
+    uid: adaptivecards.AdaptiveCard.parent
+    package: adaptivecards
+    summary: ''
+    fullName: parent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardElement | undefined parent
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: processMarkdown
+    uid: adaptivecards.AdaptiveCard.processMarkdown
+    package: adaptivecards
+    summary: ''
+    fullName: processMarkdown
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static (text: string) => string processMarkdown'
+      return:
+        description: ''
+        type: '(text: string) =&gt; string'
+  - name: refresh
+    uid: adaptivecards.AdaptiveCard.refresh
+    package: adaptivecards
+    summary: ''
+    fullName: refresh
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: RefreshDefinition | undefined refresh
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.RefreshDefinition" /> | undefined
+  - name: refreshProperty
+    uid: adaptivecards.AdaptiveCard.refreshProperty
+    package: adaptivecards
+    summary: ''
+    fullName: refreshProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static refreshProperty: SerializableObjectProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectProperty" />
+  - name: renderedElement
+    uid: adaptivecards.AdaptiveCard.renderedElement
+    package: adaptivecards
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement | undefined renderedElement
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: requires
+    uid: adaptivecards.AdaptiveCard.requires
+    package: adaptivecards
+    summary: ''
+    fullName: requires
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostCapabilities requires
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostCapabilities" />
+  - name: schemaUrl
+    uid: adaptivecards.AdaptiveCard.schemaUrl
+    package: adaptivecards
+    summary: ''
+    fullName: schemaUrl
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static schemaUrl: "http://adaptivecards.io/schemas/adaptive-card.json" =
+        "http://adaptivecards.io/schemas/adaptive-card.json"
+      return:
+        description: ''
+        type: '"http:<xref uid="//adaptivecards.io/schemas/adaptive-card.json" />"'
+  - name: selectAction
+    uid: adaptivecards.AdaptiveCard.selectAction
+    package: adaptivecards
+    summary: ''
+    fullName: selectAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Action | undefined selectAction
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: separatorElement
+    uid: adaptivecards.AdaptiveCard.separatorElement
+    package: adaptivecards
+    summary: ''
+    fullName: separatorElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement | undefined separatorElement
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: speak
+    uid: adaptivecards.AdaptiveCard.speak
+    package: adaptivecards
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+  - name: speakProperty
+    uid: adaptivecards.AdaptiveCard.speakProperty
+    package: adaptivecards
+    summary: ''
+    fullName: speakProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static speakProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: style
+    uid: adaptivecards.AdaptiveCard.style
+    package: adaptivecards
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string | undefined style
+      return:
+        description: ''
+        type: string | undefined
+  - name: version
+    uid: adaptivecards.AdaptiveCard.version
+    package: adaptivecards
+    summary: ''
+    fullName: version
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'version: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: versionProperty
+    uid: adaptivecards.AdaptiveCard.versionProperty
+    package: adaptivecards
+    summary: ''
+    fullName: versionProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static versionProperty: CustomProperty<Version | undefined>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.CustomProperty" />&lt;<xref
+          uid="adaptivecards.Version" /> | undefined&gt;
+inheritedProperties:
+  - name: allowVerticalOverflow
+    uid: adaptivecards.AdaptiveCard.allowVerticalOverflow
+    package: adaptivecards
+    summary: ''
+    fullName: allowVerticalOverflow
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowVerticalOverflow: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: backgroundImageProperty
+    uid: adaptivecards.AdaptiveCard.backgroundImageProperty
+    package: adaptivecards
+    summary: ''
+    fullName: backgroundImageProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static backgroundImageProperty: SerializableObjectProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectProperty" />
+  - name: bleedProperty
+    uid: adaptivecards.AdaptiveCard.bleedProperty
+    package: adaptivecards
+    summary: ''
+    fullName: bleedProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static bleedProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: customCssSelector
+    uid: adaptivecards.AdaptiveCard.customCssSelector
+    package: adaptivecards
+    summary: ''
+    fullName: customCssSelector
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'customCssSelector?: string'
+      return:
+        description: ''
+        type: string
+  - name: defaultMaxVersion
+    uid: adaptivecards.AdaptiveCard.defaultMaxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: defaultMaxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static defaultMaxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: height
+    uid: adaptivecards.AdaptiveCard.height
+    package: adaptivecards
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height: CardElementHeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElementHeight" />
+  - name: heightProperty
+    uid: adaptivecards.AdaptiveCard.heightProperty
+    package: adaptivecards
+    summary: ''
+    fullName: heightProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static heightProperty: ValueSetProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValueSetProperty" />
+  - name: horizontalAlignment
+    uid: adaptivecards.AdaptiveCard.horizontalAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: horizontalAlignmentProperty
+    uid: adaptivecards.AdaptiveCard.horizontalAlignmentProperty
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumProperty<HorizontalAlignment>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.HorizontalAlignment" />&gt;
+  - name: id
+    uid: adaptivecards.AdaptiveCard.id
+    package: adaptivecards
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: idProperty
+    uid: adaptivecards.AdaptiveCard.idProperty
+    package: adaptivecards
+    summary: ''
+    fullName: idProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static idProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: isVisibleProperty
+    uid: adaptivecards.AdaptiveCard.isVisibleProperty
+    package: adaptivecards
+    summary: ''
+    fullName: isVisibleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static isVisibleProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: langProperty
+    uid: adaptivecards.AdaptiveCard.langProperty
+    package: adaptivecards
+    summary: ''
+    fullName: langProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static langProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: maxVersion
+    uid: adaptivecards.AdaptiveCard.maxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: maxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: minHeightProperty
+    uid: adaptivecards.AdaptiveCard.minHeightProperty
+    package: adaptivecards
+    summary: ''
+    fullName: minHeightProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static minHeightProperty: PixelSizeProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PixelSizeProperty" />
+  - name: minPixelHeight
+    uid: adaptivecards.AdaptiveCard.minPixelHeight
+    package: adaptivecards
+    summary: ''
+    fullName: minPixelHeight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'minPixelHeight?: number'
+      return:
+        description: ''
+        type: number
+  - name: onPreProcessPropertyValue
+    uid: adaptivecards.AdaptiveCard.onPreProcessPropertyValue
+    package: adaptivecards
+    summary: ''
+    fullName: onPreProcessPropertyValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onPreProcessPropertyValue?: (sender: CardObject, property:
+        PropertyDefinition, value: any) => any
+      return:
+        description: ''
+        type: >-
+          (sender: CardObject, property: PropertyDefinition, value: any) =&gt;
+          any
+  - name: onRegisterCustomProperties
+    uid: adaptivecards.AdaptiveCard.onRegisterCustomProperties
+    package: adaptivecards
+    summary: ''
+    fullName: onRegisterCustomProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onRegisterCustomProperties?: (sender: SerializableObject, schema:
+        SerializableObjectSchema) => void
+      return:
+        description: ''
+        type: >-
+          (sender: SerializableObject, schema: SerializableObjectSchema) =&gt;
+          void
+  - name: requiresProperty
+    uid: adaptivecards.AdaptiveCard.requiresProperty
+    package: adaptivecards
+    summary: ''
+    fullName: requiresProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static requiresProperty: SerializableObjectProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectProperty" />
+  - name: rtl
+    uid: adaptivecards.AdaptiveCard.rtl
+    package: adaptivecards
+    summary: ''
+    fullName: rtl
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'rtl?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: rtlProperty
+    uid: adaptivecards.AdaptiveCard.rtlProperty
+    package: adaptivecards
+    summary: ''
+    fullName: rtlProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static rtlProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: selectActionProperty
+    uid: adaptivecards.AdaptiveCard.selectActionProperty
+    package: adaptivecards
+    summary: ''
+    fullName: selectActionProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static selectActionProperty: ActionProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ActionProperty" />
+  - name: separator
+    uid: adaptivecards.AdaptiveCard.separator
+    package: adaptivecards
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: separatorProperty
+    uid: adaptivecards.AdaptiveCard.separatorProperty
+    package: adaptivecards
+    summary: ''
+    fullName: separatorProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static separatorProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: spacing
+    uid: adaptivecards.AdaptiveCard.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: spacingProperty
+    uid: adaptivecards.AdaptiveCard.spacingProperty
+    package: adaptivecards
+    summary: ''
+    fullName: spacingProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static spacingProperty: EnumProperty<Spacing>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.Spacing" />&gt;
+  - name: styleProperty
+    uid: adaptivecards.AdaptiveCard.styleProperty
+    package: adaptivecards
+    summary: ''
+    fullName: styleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static styleProperty: ContainerStyleProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleProperty" />
+  - name: typeNameProperty
+    uid: adaptivecards.AdaptiveCard.typeNameProperty
+    package: adaptivecards
+    summary: ''
+    fullName: typeNameProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static typeNameProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: verticalContentAlignment
+    uid: adaptivecards.AdaptiveCard.verticalContentAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: verticalContentAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'verticalContentAlignment?: VerticalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.VerticalAlignment" />
+  - name: verticalContentAlignmentProperty
+    uid: adaptivecards.AdaptiveCard.verticalContentAlignmentProperty
+    package: adaptivecards
+    summary: ''
+    fullName: verticalContentAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static verticalContentAlignmentProperty: EnumProperty<VerticalAlignment>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.VerticalAlignment" />&gt;
+inheritedMethods:
+  - name: addAction(Action)
+    uid: adaptivecards.AdaptiveCard.addAction
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function addAction(action: Action)'
+      parameters:
+        - id: action
+          type: <xref uid="adaptivecards.Action" />
+          description: ''
+  - name: addItem(CardElement)
+    uid: adaptivecards.AdaptiveCard.addItem
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function addItem(item: CardElement)'
+      parameters:
+        - id: item
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+  - name: asString()
+    uid: adaptivecards.AdaptiveCard.asString
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function asString(): string | undefined'
+      return:
+        description: ''
+        type: string | undefined
+  - name: clear()
+    uid: adaptivecards.AdaptiveCard.clear
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function clear()
+  - name: findDOMNodeOwner(Node)
+    uid: adaptivecards.AdaptiveCard.findDOMNodeOwner
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function findDOMNodeOwner(node: Node): CardObject | undefined'
+      parameters:
+        - id: node
+          type: Node
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardObject" /> | undefined
+  - name: getActionAt(number)
+    uid: adaptivecards.AdaptiveCard.getActionAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionAt(index: number): Action | undefined'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: getActionById(string)
+    uid: adaptivecards.AdaptiveCard.getActionById
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionById(id: string): Action | undefined'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: getActionCount()
+    uid: adaptivecards.AdaptiveCard.getActionCount
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: getAllInputs(boolean)
+    uid: adaptivecards.AdaptiveCard.getAllInputs
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getAllInputs(processActions?: boolean): Input[]'
+      parameters:
+        - id: processActions
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.Input" />[]'
+  - name: getCustomProperty(string)
+    uid: adaptivecards.AdaptiveCard.getCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCustomProperty(name: string): any'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: getEffectiveHorizontalAlignment()
+    uid: adaptivecards.AdaptiveCard.getEffectiveHorizontalAlignment
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveHorizontalAlignment(): HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: getEffectivePadding()
+    uid: adaptivecards.AdaptiveCard.getEffectivePadding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectivePadding(): PaddingDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PaddingDefinition" />
+  - name: getEffectiveStyle()
+    uid: adaptivecards.AdaptiveCard.getEffectiveStyle
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveStyle(): string'
+      return:
+        description: ''
+        type: string
+  - name: getEffectiveStyleDefinition()
+    uid: adaptivecards.AdaptiveCard.getEffectiveStyleDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveStyleDefinition(): ContainerStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleDefinition" />
+  - name: getEffectiveTextStyleDefinition()
+    uid: adaptivecards.AdaptiveCard.getEffectiveTextStyleDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveTextStyleDefinition(): TextStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextStyleDefinition" />
+  - name: getEffectiveVerticalContentAlignment()
+    uid: adaptivecards.AdaptiveCard.getEffectiveVerticalContentAlignment
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveVerticalContentAlignment(): VerticalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.VerticalAlignment" />
+  - name: getElementById(string)
+    uid: adaptivecards.AdaptiveCard.getElementById
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getElementById(id: string): CardElement | undefined'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: getFirstVisibleRenderedItem()
+    uid: adaptivecards.AdaptiveCard.getFirstVisibleRenderedItem
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getFirstVisibleRenderedItem(): CardElement | undefined'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: getForbiddenActionTypes()
+    uid: adaptivecards.AdaptiveCard.getForbiddenActionTypes
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getForbiddenActionTypes(): ActionType[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.ActionType" />[]'
+  - name: >-
+      getImmediateSurroundingPadding(PaddingDefinition, boolean, boolean,
+      boolean, boolean)
+    uid: adaptivecards.AdaptiveCard.getImmediateSurroundingPadding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getImmediateSurroundingPadding(result: PaddingDefinition,
+        processTop?: boolean, processRight?: boolean, processBottom?: boolean,
+        processLeft?: boolean)
+      parameters:
+        - id: result
+          type: <xref uid="adaptivecards.PaddingDefinition" />
+          description: ''
+        - id: processTop
+          type: boolean
+          description: ''
+        - id: processRight
+          type: boolean
+          description: ''
+        - id: processBottom
+          type: boolean
+          description: ''
+        - id: processLeft
+          type: boolean
+          description: ''
+  - name: getItemAt(number)
+    uid: adaptivecards.AdaptiveCard.getItemAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getItemAt(index: number): CardElement'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" />
+  - name: getItemCount()
+    uid: adaptivecards.AdaptiveCard.getItemCount
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getItemCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: getLastVisibleRenderedItem()
+    uid: adaptivecards.AdaptiveCard.getLastVisibleRenderedItem
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getLastVisibleRenderedItem(): CardElement | undefined'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: getParentContainer()
+    uid: adaptivecards.AdaptiveCard.getParentContainer
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getParentContainer(): Container | undefined'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Container" /> | undefined
+  - name: getResourceInformation()
+    uid: adaptivecards.AdaptiveCard.getResourceInformation
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getResourceInformation(): IResourceInformation[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.IResourceInformation" />[]'
+  - name: getRootElement()
+    uid: adaptivecards.AdaptiveCard.getRootElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getRootElement(): CardElement'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" />
+  - name: getRootObject()
+    uid: adaptivecards.AdaptiveCard.getRootObject
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getRootObject(): CardObject'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardObject" />
+  - name: getSchema()
+    uid: adaptivecards.AdaptiveCard.getSchema
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getSchema(): SerializableObjectSchema'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectSchema" />
+  - name: hasAllDefaultValues()
+    uid: adaptivecards.AdaptiveCard.hasAllDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasAllDefaultValues(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: hasDefaultValue(PropertyDefinition)
+    uid: adaptivecards.AdaptiveCard.hasDefaultValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasDefaultValue(property: PropertyDefinition): boolean'
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: indexOf(CardElement)
+    uid: adaptivecards.AdaptiveCard.indexOf
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOf(cardElement: CardElement): number'
+      parameters:
+        - id: cardElement
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: indexOfAction(Action)
+    uid: adaptivecards.AdaptiveCard.indexOfAction
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOfAction(action: Action): number'
+      parameters:
+        - id: action
+          type: <xref uid="adaptivecards.Action" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: 'insertItemAfter(CardElement, CardElement)'
+    uid: adaptivecards.AdaptiveCard.insertItemAfter
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function insertItemAfter(item: CardElement, insertAfter: CardElement)'
+      parameters:
+        - id: item
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+        - id: insertAfter
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+  - name: 'insertItemBefore(CardElement, CardElement)'
+    uid: adaptivecards.AdaptiveCard.insertItemBefore
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function insertItemBefore(item: CardElement, insertBefore: CardElement)'
+      parameters:
+        - id: item
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+        - id: insertBefore
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+  - name: isAtTheVeryBottom()
+    uid: adaptivecards.AdaptiveCard.isAtTheVeryBottom
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryBottom(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryLeft()
+    uid: adaptivecards.AdaptiveCard.isAtTheVeryLeft
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryLeft(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryRight()
+    uid: adaptivecards.AdaptiveCard.isAtTheVeryRight
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryRight(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryTop()
+    uid: adaptivecards.AdaptiveCard.isAtTheVeryTop
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryTop(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleeding()
+    uid: adaptivecards.AdaptiveCard.isBleeding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleeding(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleedingAtBottom()
+    uid: adaptivecards.AdaptiveCard.isBleedingAtBottom
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleedingAtBottom(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleedingAtTop()
+    uid: adaptivecards.AdaptiveCard.isBleedingAtTop
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleedingAtTop(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBottomElement(CardElement)
+    uid: adaptivecards.AdaptiveCard.isBottomElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBottomElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isDesignMode()
+    uid: adaptivecards.AdaptiveCard.isDesignMode
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDesignMode(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isFirstElement(CardElement)
+    uid: adaptivecards.AdaptiveCard.isFirstElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isFirstElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isHiddenDueToOverflow()
+    uid: adaptivecards.AdaptiveCard.isHiddenDueToOverflow
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isHiddenDueToOverflow(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isLastElement(CardElement)
+    uid: adaptivecards.AdaptiveCard.isLastElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isLastElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isLeftMostElement(CardElement)
+    uid: adaptivecards.AdaptiveCard.isLeftMostElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isLeftMostElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isRightMostElement(CardElement)
+    uid: adaptivecards.AdaptiveCard.isRightMostElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isRightMostElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isRtl()
+    uid: adaptivecards.AdaptiveCard.isRtl
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isRtl(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isTopElement(CardElement)
+    uid: adaptivecards.AdaptiveCard.isTopElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isTopElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'parse(any, SerializationContext)'
+    uid: adaptivecards.AdaptiveCard.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(source: any, context?: SerializationContext)'
+      parameters:
+        - id: source
+          type: any
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.SerializationContext" />
+          description: ''
+  - name: 'preProcessPropertyValue(PropertyDefinition, any)'
+    uid: adaptivecards.AdaptiveCard.preProcessPropertyValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function preProcessPropertyValue(property: PropertyDefinition,
+        propertyValue?: any): any
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+        - id: propertyValue
+          type: any
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: remove()
+    uid: adaptivecards.AdaptiveCard.remove
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: removeItem(CardElement)
+    uid: adaptivecards.AdaptiveCard.removeItem
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function removeItem(item: CardElement): boolean'
+      parameters:
+        - id: item
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: resetDefaultValues()
+    uid: adaptivecards.AdaptiveCard.resetDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function resetDefaultValues()
+  - name: 'setCustomProperty(string, any)'
+    uid: adaptivecards.AdaptiveCard.setCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setCustomProperty(name: string, value: any)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: value
+          type: any
+          description: ''
+  - name: setParent(CardObject | undefined)
+    uid: adaptivecards.AdaptiveCard.setParent
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setParent(value: CardObject | undefined)'
+      parameters:
+        - id: value
+          type: <xref uid="adaptivecards.CardObject" /> | undefined
+          description: ''
+  - name: setShouldFallback(boolean)
+    uid: adaptivecards.AdaptiveCard.setShouldFallback
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setShouldFallback(value: boolean)'
+      parameters:
+        - id: value
+          type: boolean
+          description: ''
+  - name: toJSON(BaseSerializationContext)
+    uid: adaptivecards.AdaptiveCard.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(context?: BaseSerializationContext): PropertyBag |
+        undefined
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PropertyBag" /> | undefined
+  - name: validateProperties()
+    uid: adaptivecards.AdaptiveCard.validateProperties
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function validateProperties(): ValidationResults'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValidationResults" />
+methods:
+  - name: applyMarkdown(string)
+    uid: adaptivecards.AdaptiveCard.applyMarkdown
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function applyMarkdown(text: string): IMarkdownProcessingResult'
+      parameters:
+        - id: text
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IMarkdownProcessingResult" />
+  - name: getJsonTypeName()
+    uid: adaptivecards.AdaptiveCard.getJsonTypeName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getJsonTypeName(): string'
+      return:
+        description: ''
+        type: string
+  - name: internalValidateProperties(ValidationResults)
+    uid: adaptivecards.AdaptiveCard.internalValidateProperties
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function internalValidateProperties(context: ValidationResults)'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards.ValidationResults" />
+          description: ''
+  - name: render(HTMLElement)
+    uid: adaptivecards.AdaptiveCard.render
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(target?: HTMLElement): HTMLElement | undefined'
+      parameters:
+        - id: target
+          type: HTMLElement
+          description: ''
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: shouldFallback()
+    uid: adaptivecards.AdaptiveCard.shouldFallback
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function shouldFallback(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: updateLayout(boolean)
+    uid: adaptivecards.AdaptiveCard.updateLayout
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function updateLayout(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type: boolean
+          description: ''
+extends: <xref uid="adaptivecards.ContainerWithActions" />

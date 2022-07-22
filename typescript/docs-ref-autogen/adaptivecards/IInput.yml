@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: IInput
+uid: adaptivecards.IInput
+package: adaptivecards
+summary: ''
+fullName: IInput
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: id
+    uid: adaptivecards.IInput.id
+    package: adaptivecards
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards.IInput.value
+    package: adaptivecards
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: validateValue()
+    uid: adaptivecards.IInput.validateValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function validateValue(): boolean'
+      return:
+        description: ''
+        type: boolean

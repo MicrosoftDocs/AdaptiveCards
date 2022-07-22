@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: FactSetConfig
+uid: adaptivecards.FactSetConfig
+package: adaptivecards
+summary: ''
+fullName: FactSetConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: FactSetConfig(any)
+    uid: adaptivecards.FactSetConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new FactSetConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: spacing
+    uid: adaptivecards.FactSetConfig.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing: number'
+      return:
+        description: ''
+        type: number
+  - name: title
+    uid: adaptivecards.FactSetConfig.title
+    package: adaptivecards
+    summary: ''
+    fullName: title
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'title: FactTitleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FactTitleDefinition" />
+  - name: value
+    uid: adaptivecards.FactSetConfig.value
+    package: adaptivecards
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value: FactTextDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FactTextDefinition" />

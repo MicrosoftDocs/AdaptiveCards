@@ -1,0 +1,318 @@
+### YamlMime:TSType
+name: BackgroundImage
+uid: adaptivecards.BackgroundImage
+package: adaptivecards
+summary: ''
+fullName: BackgroundImage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: BackgroundImage()
+    uid: adaptivecards.BackgroundImage.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new BackgroundImage()
+properties:
+  - name: fillMode
+    uid: adaptivecards.BackgroundImage.fillMode
+    package: adaptivecards
+    summary: ''
+    fullName: fillMode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fillMode: FillMode'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FillMode" />
+  - name: fillModeProperty
+    uid: adaptivecards.BackgroundImage.fillModeProperty
+    package: adaptivecards
+    summary: ''
+    fullName: fillModeProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static fillModeProperty: EnumProperty<FillMode>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.FillMode" />&gt;
+  - name: horizontalAlignment
+    uid: adaptivecards.BackgroundImage.horizontalAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: horizontalAlignmentProperty
+    uid: adaptivecards.BackgroundImage.horizontalAlignmentProperty
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumProperty<HorizontalAlignment>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.HorizontalAlignment" />&gt;
+  - name: url
+    uid: adaptivecards.BackgroundImage.url
+    package: adaptivecards
+    summary: ''
+    fullName: url
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'url?: string'
+      return:
+        description: ''
+        type: string
+  - name: urlProperty
+    uid: adaptivecards.BackgroundImage.urlProperty
+    package: adaptivecards
+    summary: ''
+    fullName: urlProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static urlProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: verticalAlignment
+    uid: adaptivecards.BackgroundImage.verticalAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: verticalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'verticalAlignment: VerticalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.VerticalAlignment" />
+  - name: verticalAlignmentProperty
+    uid: adaptivecards.BackgroundImage.verticalAlignmentProperty
+    package: adaptivecards
+    summary: ''
+    fullName: verticalAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static verticalAlignmentProperty: EnumProperty<VerticalAlignment>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.VerticalAlignment" />&gt;
+inheritedProperties:
+  - name: defaultMaxVersion
+    uid: adaptivecards.BackgroundImage.defaultMaxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: defaultMaxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static defaultMaxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: maxVersion
+    uid: adaptivecards.BackgroundImage.maxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: maxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: onRegisterCustomProperties
+    uid: adaptivecards.BackgroundImage.onRegisterCustomProperties
+    package: adaptivecards
+    summary: ''
+    fullName: onRegisterCustomProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onRegisterCustomProperties?: (sender: SerializableObject, schema:
+        SerializableObjectSchema) => void
+      return:
+        description: ''
+        type: >-
+          (sender: SerializableObject, schema: SerializableObjectSchema) =&gt;
+          void
+inheritedMethods:
+  - name: getCustomProperty(string)
+    uid: adaptivecards.BackgroundImage.getCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCustomProperty(name: string): any'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: getSchema()
+    uid: adaptivecards.BackgroundImage.getSchema
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getSchema(): SerializableObjectSchema'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectSchema" />
+  - name: hasAllDefaultValues()
+    uid: adaptivecards.BackgroundImage.hasAllDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasAllDefaultValues(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: hasDefaultValue(PropertyDefinition)
+    uid: adaptivecards.BackgroundImage.hasDefaultValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasDefaultValue(property: PropertyDefinition): boolean'
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'parse(PropertyBag, BaseSerializationContext)'
+    uid: adaptivecards.BackgroundImage.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(source: PropertyBag, context?: BaseSerializationContext)'
+      parameters:
+        - id: source
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+  - name: resetDefaultValues()
+    uid: adaptivecards.BackgroundImage.resetDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function resetDefaultValues()
+  - name: 'setCustomProperty(string, any)'
+    uid: adaptivecards.BackgroundImage.setCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setCustomProperty(name: string, value: any)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: value
+          type: any
+          description: ''
+  - name: toJSON(BaseSerializationContext)
+    uid: adaptivecards.BackgroundImage.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(context?: BaseSerializationContext): PropertyBag |
+        undefined
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PropertyBag" /> | undefined
+methods:
+  - name: apply(CardElement)
+    uid: adaptivecards.BackgroundImage.apply
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function apply(element: CardElement)'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+  - name: isValid()
+    uid: adaptivecards.BackgroundImage.isValid
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isValid(): boolean'
+      return:
+        description: ''
+        type: boolean
+extends: <xref uid="adaptivecards.SerializableObject" />

@@ -1,0 +1,166 @@
+### YamlMime:TSType
+name: ArrayData
+uid: adaptivecards-designer.ArrayData
+package: adaptivecards-designer
+summary: ''
+fullName: ArrayData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ArrayData(FieldDefinition)
+    uid: adaptivecards-designer.ArrayData.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ArrayData(owner: FieldDefinition)'
+      parameters:
+        - id: owner
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+properties:
+  - name: dataType
+    uid: adaptivecards-designer.ArrayData.dataType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dataType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'dataType: DataType'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DataType" />
+  - name: isCollection
+    uid: adaptivecards-designer.ArrayData.isCollection
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isCollection
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isCollection
+      return:
+        description: ''
+        type: boolean
+  - name: owner
+    uid: adaptivecards-designer.ArrayData.owner
+    package: adaptivecards-designer
+    summary: ''
+    fullName: owner
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'owner: FieldDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: valueType
+    uid: adaptivecards-designer.ArrayData.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: ValueType valueType
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ValueType" />
+methods:
+  - name: 'deriveFrom(FieldDefinition, object)'
+    uid: adaptivecards-designer.ArrayData.deriveFrom
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static function deriveFrom(parent: FieldDefinition, input: object):
+        ArrayData
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+        - id: input
+          type: object
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ArrayData" />
+  - name: generateSampleData()
+    uid: adaptivecards-designer.ArrayData.generateSampleData
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function generateSampleData(): any'
+      return:
+        description: ''
+        type: any
+  - name: getChildFields()
+    uid: adaptivecards-designer.ArrayData.getChildFields
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildFields(): FieldDefinition[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.FieldDefinition" />[]'
+  - name: 'parse(FieldDefinition, IArrayData)'
+    uid: adaptivecards-designer.ArrayData.parse
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static function parse(parent: FieldDefinition, data: IArrayData):
+        ArrayData
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+        - id: data
+          type: <xref uid="adaptivecards-designer.IArrayData" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ArrayData" />
+  - name: 'qualifyFieldName(string, boolean)'
+    uid: adaptivecards-designer.ArrayData.qualifyFieldName
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function qualifyFieldName(fieldName: string, fieldIsLeaf: boolean):
+        string
+      parameters:
+        - id: fieldName
+          type: string
+          description: ''
+        - id: fieldIsLeaf
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-designer.DataType" />

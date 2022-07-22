@@ -1,0 +1,1583 @@
+### YamlMime:TSType
+name: TextBlock
+uid: adaptivecards.TextBlock
+package: adaptivecards
+summary: ''
+fullName: TextBlock
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TextBlock(string)
+    uid: adaptivecards.TextBlock.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new TextBlock(text?: string)'
+      parameters:
+        - id: text
+          type: string
+          description: ''
+properties:
+  - name: effectiveColor
+    uid: adaptivecards.TextBlock.effectiveColor
+    package: adaptivecards
+    summary: ''
+    fullName: effectiveColor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: TextColor effectiveColor
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColor" />
+  - name: effectiveFontType
+    uid: adaptivecards.TextBlock.effectiveFontType
+    package: adaptivecards
+    summary: ''
+    fullName: effectiveFontType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: FontType effectiveFontType
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FontType" />
+  - name: effectiveIsSubtle
+    uid: adaptivecards.TextBlock.effectiveIsSubtle
+    package: adaptivecards
+    summary: ''
+    fullName: effectiveIsSubtle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean effectiveIsSubtle
+      return:
+        description: ''
+        type: boolean
+  - name: effectiveSize
+    uid: adaptivecards.TextBlock.effectiveSize
+    package: adaptivecards
+    summary: ''
+    fullName: effectiveSize
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: TextSize effectiveSize
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextSize" />
+  - name: effectiveWeight
+    uid: adaptivecards.TextBlock.effectiveWeight
+    package: adaptivecards
+    summary: ''
+    fullName: effectiveWeight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: TextWeight effectiveWeight
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+  - name: forElementId
+    uid: adaptivecards.TextBlock.forElementId
+    package: adaptivecards
+    summary: ''
+    fullName: forElementId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'forElementId?: string'
+      return:
+        description: ''
+        type: string
+  - name: hasVisibleSeparator
+    uid: adaptivecards.TextBlock.hasVisibleSeparator
+    package: adaptivecards
+    summary: ''
+    fullName: hasVisibleSeparator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean hasVisibleSeparator
+      return:
+        description: ''
+        type: boolean
+  - name: hostConfig
+    uid: adaptivecards.TextBlock.hostConfig
+    package: adaptivecards
+    summary: ''
+    fullName: hostConfig
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostConfig hostConfig
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostConfig" />
+  - name: index
+    uid: adaptivecards.TextBlock.index
+    package: adaptivecards
+    summary: ''
+    fullName: index
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number index
+      return:
+        description: ''
+        type: number
+  - name: isInline
+    uid: adaptivecards.TextBlock.isInline
+    package: adaptivecards
+    summary: ''
+    fullName: isInline
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isInline
+      return:
+        description: ''
+        type: boolean
+  - name: isInteractive
+    uid: adaptivecards.TextBlock.isInteractive
+    package: adaptivecards
+    summary: ''
+    fullName: isInteractive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isInteractive
+      return:
+        description: ''
+        type: boolean
+  - name: isStandalone
+    uid: adaptivecards.TextBlock.isStandalone
+    package: adaptivecards
+    summary: ''
+    fullName: isStandalone
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isStandalone
+      return:
+        description: ''
+        type: boolean
+  - name: isVisible
+    uid: adaptivecards.TextBlock.isVisible
+    package: adaptivecards
+    summary: ''
+    fullName: isVisible
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isVisible
+      return:
+        description: ''
+        type: boolean
+  - name: lang
+    uid: adaptivecards.TextBlock.lang
+    package: adaptivecards
+    summary: ''
+    fullName: lang
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string | undefined lang
+      return:
+        description: ''
+        type: string | undefined
+  - name: maxLines
+    uid: adaptivecards.TextBlock.maxLines
+    package: adaptivecards
+    summary: ''
+    fullName: maxLines
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxLines?: number'
+      return:
+        description: ''
+        type: number
+  - name: maxLinesProperty
+    uid: adaptivecards.TextBlock.maxLinesProperty
+    package: adaptivecards
+    summary: ''
+    fullName: maxLinesProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static maxLinesProperty: NumProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.NumProperty" />
+  - name: parent
+    uid: adaptivecards.TextBlock.parent
+    package: adaptivecards
+    summary: ''
+    fullName: parent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardElement | undefined parent
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: renderedElement
+    uid: adaptivecards.TextBlock.renderedElement
+    package: adaptivecards
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement | undefined renderedElement
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: requires
+    uid: adaptivecards.TextBlock.requires
+    package: adaptivecards
+    summary: ''
+    fullName: requires
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostCapabilities requires
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostCapabilities" />
+  - name: separatorElement
+    uid: adaptivecards.TextBlock.separatorElement
+    package: adaptivecards
+    summary: ''
+    fullName: separatorElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement | undefined separatorElement
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: style
+    uid: adaptivecards.TextBlock.style
+    package: adaptivecards
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'style?: TextBlockStyle'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextBlockStyle" />
+  - name: styleProperty
+    uid: adaptivecards.TextBlock.styleProperty
+    package: adaptivecards
+    summary: ''
+    fullName: styleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static styleProperty: ValueSetProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValueSetProperty" />
+  - name: text
+    uid: adaptivecards.TextBlock.text
+    package: adaptivecards
+    summary: ''
+    fullName: text
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string | undefined text
+      return:
+        description: ''
+        type: string | undefined
+  - name: useMarkdown
+    uid: adaptivecards.TextBlock.useMarkdown
+    package: adaptivecards
+    summary: ''
+    fullName: useMarkdown
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'useMarkdown: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: wrap
+    uid: adaptivecards.TextBlock.wrap
+    package: adaptivecards
+    summary: ''
+    fullName: wrap
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'wrap: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: wrapProperty
+    uid: adaptivecards.TextBlock.wrapProperty
+    package: adaptivecards
+    summary: ''
+    fullName: wrapProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static wrapProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+inheritedProperties:
+  - name: ariaHidden
+    uid: adaptivecards.TextBlock.ariaHidden
+    package: adaptivecards
+    summary: ''
+    fullName: ariaHidden
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'ariaHidden: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: color
+    uid: adaptivecards.TextBlock.color
+    package: adaptivecards
+    summary: ''
+    fullName: color
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'color?: TextColor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColor" />
+  - name: colorProperty
+    uid: adaptivecards.TextBlock.colorProperty
+    package: adaptivecards
+    summary: ''
+    fullName: colorProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static colorProperty: EnumProperty<TextColor>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.TextColor" />&gt;
+  - name: customCssSelector
+    uid: adaptivecards.TextBlock.customCssSelector
+    package: adaptivecards
+    summary: ''
+    fullName: customCssSelector
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'customCssSelector?: string'
+      return:
+        description: ''
+        type: string
+  - name: defaultMaxVersion
+    uid: adaptivecards.TextBlock.defaultMaxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: defaultMaxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static defaultMaxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: fontType
+    uid: adaptivecards.TextBlock.fontType
+    package: adaptivecards
+    summary: ''
+    fullName: fontType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fontType?: FontType'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FontType" />
+  - name: fontTypeProperty
+    uid: adaptivecards.TextBlock.fontTypeProperty
+    package: adaptivecards
+    summary: ''
+    fullName: fontTypeProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static fontTypeProperty: EnumProperty<FontType>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.FontType" />&gt;
+  - name: height
+    uid: adaptivecards.TextBlock.height
+    package: adaptivecards
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height: CardElementHeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElementHeight" />
+  - name: heightProperty
+    uid: adaptivecards.TextBlock.heightProperty
+    package: adaptivecards
+    summary: ''
+    fullName: heightProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static heightProperty: ValueSetProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValueSetProperty" />
+  - name: horizontalAlignment
+    uid: adaptivecards.TextBlock.horizontalAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: horizontalAlignmentProperty
+    uid: adaptivecards.TextBlock.horizontalAlignmentProperty
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumProperty<HorizontalAlignment>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.HorizontalAlignment" />&gt;
+  - name: id
+    uid: adaptivecards.TextBlock.id
+    package: adaptivecards
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: idProperty
+    uid: adaptivecards.TextBlock.idProperty
+    package: adaptivecards
+    summary: ''
+    fullName: idProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static idProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: isSubtle
+    uid: adaptivecards.TextBlock.isSubtle
+    package: adaptivecards
+    summary: ''
+    fullName: isSubtle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSubtle?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isSubtleProperty
+    uid: adaptivecards.TextBlock.isSubtleProperty
+    package: adaptivecards
+    summary: ''
+    fullName: isSubtleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static isSubtleProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: isVisibleProperty
+    uid: adaptivecards.TextBlock.isVisibleProperty
+    package: adaptivecards
+    summary: ''
+    fullName: isVisibleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static isVisibleProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: langProperty
+    uid: adaptivecards.TextBlock.langProperty
+    package: adaptivecards
+    summary: ''
+    fullName: langProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static langProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: maxVersion
+    uid: adaptivecards.TextBlock.maxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: maxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: onPreProcessPropertyValue
+    uid: adaptivecards.TextBlock.onPreProcessPropertyValue
+    package: adaptivecards
+    summary: ''
+    fullName: onPreProcessPropertyValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onPreProcessPropertyValue?: (sender: CardObject, property:
+        PropertyDefinition, value: any) => any
+      return:
+        description: ''
+        type: >-
+          (sender: CardObject, property: PropertyDefinition, value: any) =&gt;
+          any
+  - name: onRegisterCustomProperties
+    uid: adaptivecards.TextBlock.onRegisterCustomProperties
+    package: adaptivecards
+    summary: ''
+    fullName: onRegisterCustomProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onRegisterCustomProperties?: (sender: SerializableObject, schema:
+        SerializableObjectSchema) => void
+      return:
+        description: ''
+        type: >-
+          (sender: SerializableObject, schema: SerializableObjectSchema) =&gt;
+          void
+  - name: requiresProperty
+    uid: adaptivecards.TextBlock.requiresProperty
+    package: adaptivecards
+    summary: ''
+    fullName: requiresProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static requiresProperty: SerializableObjectProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectProperty" />
+  - name: selectAction
+    uid: adaptivecards.TextBlock.selectAction
+    package: adaptivecards
+    summary: ''
+    fullName: selectAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'selectAction?: Action'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" />
+  - name: selectActionProperty
+    uid: adaptivecards.TextBlock.selectActionProperty
+    package: adaptivecards
+    summary: ''
+    fullName: selectActionProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static selectActionProperty: ActionProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ActionProperty" />
+  - name: separator
+    uid: adaptivecards.TextBlock.separator
+    package: adaptivecards
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: separatorProperty
+    uid: adaptivecards.TextBlock.separatorProperty
+    package: adaptivecards
+    summary: ''
+    fullName: separatorProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static separatorProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: size
+    uid: adaptivecards.TextBlock.size
+    package: adaptivecards
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size?: TextSize'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextSize" />
+  - name: sizeProperty
+    uid: adaptivecards.TextBlock.sizeProperty
+    package: adaptivecards
+    summary: ''
+    fullName: sizeProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static sizeProperty: EnumProperty<TextSize>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.TextSize" />&gt;
+  - name: spacing
+    uid: adaptivecards.TextBlock.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: spacingProperty
+    uid: adaptivecards.TextBlock.spacingProperty
+    package: adaptivecards
+    summary: ''
+    fullName: spacingProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static spacingProperty: EnumProperty<Spacing>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.Spacing" />&gt;
+  - name: textProperty
+    uid: adaptivecards.TextBlock.textProperty
+    package: adaptivecards
+    summary: ''
+    fullName: textProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static textProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: typeNameProperty
+    uid: adaptivecards.TextBlock.typeNameProperty
+    package: adaptivecards
+    summary: ''
+    fullName: typeNameProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static typeNameProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: weight
+    uid: adaptivecards.TextBlock.weight
+    package: adaptivecards
+    summary: ''
+    fullName: weight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'weight?: TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+  - name: weightProperty
+    uid: adaptivecards.TextBlock.weightProperty
+    package: adaptivecards
+    summary: ''
+    fullName: weightProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static weightProperty: EnumProperty<TextWeight>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.TextWeight" />&gt;
+inheritedMethods:
+  - name: asString()
+    uid: adaptivecards.TextBlock.asString
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function asString(): string | undefined'
+      return:
+        description: ''
+        type: string | undefined
+  - name: findDOMNodeOwner(Node)
+    uid: adaptivecards.TextBlock.findDOMNodeOwner
+    package: adaptivecards
+    summary: |-
+      Recursively searches this CardObject and any children to find the
+      innermost CardObject that owns the given DOM Node.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function findDOMNodeOwner(node: Node): CardObject | undefined'
+      parameters:
+        - id: node
+          type: Node
+          description: |
+            The DOM Node to look for.
+      return:
+        description: 'The owner of the given DOM Node, or `undefined` if no owner was found.'
+        type: <xref uid="adaptivecards.CardObject" /> | undefined
+  - name: getActionAt(number)
+    uid: adaptivecards.TextBlock.getActionAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionAt(index: number): Action | undefined'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: getActionById(string)
+    uid: adaptivecards.TextBlock.getActionById
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionById(id: string): Action | undefined'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: getActionCount()
+    uid: adaptivecards.TextBlock.getActionCount
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: getAllInputs(boolean)
+    uid: adaptivecards.TextBlock.getAllInputs
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getAllInputs(processActions?: boolean): Input[]'
+      parameters:
+        - id: processActions
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.Input" />[]'
+  - name: getCustomProperty(string)
+    uid: adaptivecards.TextBlock.getCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCustomProperty(name: string): any'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: getEffectiveHorizontalAlignment()
+    uid: adaptivecards.TextBlock.getEffectiveHorizontalAlignment
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveHorizontalAlignment(): HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: getEffectivePadding()
+    uid: adaptivecards.TextBlock.getEffectivePadding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectivePadding(): PaddingDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PaddingDefinition" />
+  - name: getEffectiveStyle()
+    uid: adaptivecards.TextBlock.getEffectiveStyle
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveStyle(): string'
+      return:
+        description: ''
+        type: string
+  - name: getEffectiveStyleDefinition()
+    uid: adaptivecards.TextBlock.getEffectiveStyleDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveStyleDefinition(): ContainerStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleDefinition" />
+  - name: getElementById(string)
+    uid: adaptivecards.TextBlock.getElementById
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getElementById(id: string): CardElement | undefined'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: getForbiddenActionTypes()
+    uid: adaptivecards.TextBlock.getForbiddenActionTypes
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getForbiddenActionTypes(): ActionType[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.ActionType" />[]'
+  - name: >-
+      getImmediateSurroundingPadding(PaddingDefinition, boolean, boolean,
+      boolean, boolean)
+    uid: adaptivecards.TextBlock.getImmediateSurroundingPadding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getImmediateSurroundingPadding(result: PaddingDefinition,
+        processTop?: boolean, processRight?: boolean, processBottom?: boolean,
+        processLeft?: boolean)
+      parameters:
+        - id: result
+          type: <xref uid="adaptivecards.PaddingDefinition" />
+          description: ''
+        - id: processTop
+          type: boolean
+          description: ''
+        - id: processRight
+          type: boolean
+          description: ''
+        - id: processBottom
+          type: boolean
+          description: ''
+        - id: processLeft
+          type: boolean
+          description: ''
+  - name: getParentContainer()
+    uid: adaptivecards.TextBlock.getParentContainer
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getParentContainer(): Container | undefined'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Container" /> | undefined
+  - name: getResourceInformation()
+    uid: adaptivecards.TextBlock.getResourceInformation
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getResourceInformation(): IResourceInformation[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.IResourceInformation" />[]'
+  - name: getRootElement()
+    uid: adaptivecards.TextBlock.getRootElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getRootElement(): CardElement'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" />
+  - name: getRootObject()
+    uid: adaptivecards.TextBlock.getRootObject
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getRootObject(): CardObject'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardObject" />
+  - name: getSchema()
+    uid: adaptivecards.TextBlock.getSchema
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getSchema(): SerializableObjectSchema'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectSchema" />
+  - name: hasAllDefaultValues()
+    uid: adaptivecards.TextBlock.hasAllDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasAllDefaultValues(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: hasDefaultValue(PropertyDefinition)
+    uid: adaptivecards.TextBlock.hasDefaultValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasDefaultValue(property: PropertyDefinition): boolean'
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: indexOf(CardElement)
+    uid: adaptivecards.TextBlock.indexOf
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOf(cardElement: CardElement): number'
+      parameters:
+        - id: cardElement
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: indexOfAction(Action)
+    uid: adaptivecards.TextBlock.indexOfAction
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOfAction(action: Action): number'
+      parameters:
+        - id: action
+          type: <xref uid="adaptivecards.Action" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: init(BaseTextDefinition)
+    uid: adaptivecards.TextBlock.init
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function init(textDefinition: BaseTextDefinition)'
+      parameters:
+        - id: textDefinition
+          type: <xref uid="adaptivecards.BaseTextDefinition" />
+          description: ''
+  - name: internalValidateProperties(ValidationResults)
+    uid: adaptivecards.TextBlock.internalValidateProperties
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function internalValidateProperties(context: ValidationResults)'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards.ValidationResults" />
+          description: ''
+  - name: isAtTheVeryBottom()
+    uid: adaptivecards.TextBlock.isAtTheVeryBottom
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryBottom(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryLeft()
+    uid: adaptivecards.TextBlock.isAtTheVeryLeft
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryLeft(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryRight()
+    uid: adaptivecards.TextBlock.isAtTheVeryRight
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryRight(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryTop()
+    uid: adaptivecards.TextBlock.isAtTheVeryTop
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryTop(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleeding()
+    uid: adaptivecards.TextBlock.isBleeding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleeding(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleedingAtBottom()
+    uid: adaptivecards.TextBlock.isBleedingAtBottom
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleedingAtBottom(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleedingAtTop()
+    uid: adaptivecards.TextBlock.isBleedingAtTop
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleedingAtTop(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBottomElement(CardElement)
+    uid: adaptivecards.TextBlock.isBottomElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBottomElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isDesignMode()
+    uid: adaptivecards.TextBlock.isDesignMode
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDesignMode(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isFirstElement(CardElement)
+    uid: adaptivecards.TextBlock.isFirstElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isFirstElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isHiddenDueToOverflow()
+    uid: adaptivecards.TextBlock.isHiddenDueToOverflow
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isHiddenDueToOverflow(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isLastElement(CardElement)
+    uid: adaptivecards.TextBlock.isLastElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isLastElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isLeftMostElement(CardElement)
+    uid: adaptivecards.TextBlock.isLeftMostElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isLeftMostElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isRightMostElement(CardElement)
+    uid: adaptivecards.TextBlock.isRightMostElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isRightMostElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isTopElement(CardElement)
+    uid: adaptivecards.TextBlock.isTopElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isTopElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'parse(any, SerializationContext)'
+    uid: adaptivecards.TextBlock.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(source: any, context?: SerializationContext)'
+      parameters:
+        - id: source
+          type: any
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.SerializationContext" />
+          description: ''
+  - name: 'preProcessPropertyValue(PropertyDefinition, any)'
+    uid: adaptivecards.TextBlock.preProcessPropertyValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function preProcessPropertyValue(property: PropertyDefinition,
+        propertyValue?: any): any
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+        - id: propertyValue
+          type: any
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: remove()
+    uid: adaptivecards.TextBlock.remove
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: render()
+    uid: adaptivecards.TextBlock.render
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement | undefined'
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: resetDefaultValues()
+    uid: adaptivecards.TextBlock.resetDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function resetDefaultValues()
+  - name: 'setCustomProperty(string, any)'
+    uid: adaptivecards.TextBlock.setCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setCustomProperty(name: string, value: any)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: value
+          type: any
+          description: ''
+  - name: setParent(CardObject | undefined)
+    uid: adaptivecards.TextBlock.setParent
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setParent(value: CardObject | undefined)'
+      parameters:
+        - id: value
+          type: <xref uid="adaptivecards.CardObject" /> | undefined
+          description: ''
+  - name: setShouldFallback(boolean)
+    uid: adaptivecards.TextBlock.setShouldFallback
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setShouldFallback(value: boolean)'
+      parameters:
+        - id: value
+          type: boolean
+          description: ''
+  - name: shouldFallback()
+    uid: adaptivecards.TextBlock.shouldFallback
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function shouldFallback(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: toJSON(BaseSerializationContext)
+    uid: adaptivecards.TextBlock.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(context?: BaseSerializationContext): PropertyBag |
+        undefined
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PropertyBag" /> | undefined
+  - name: validateProperties()
+    uid: adaptivecards.TextBlock.validateProperties
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function validateProperties(): ValidationResults'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValidationResults" />
+methods:
+  - name: applyStylesTo(HTMLElement)
+    uid: adaptivecards.TextBlock.applyStylesTo
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function applyStylesTo(targetElement: HTMLElement)'
+      parameters:
+        - id: targetElement
+          type: HTMLElement
+          description: ''
+  - name: getEffectiveTextStyleDefinition()
+    uid: adaptivecards.TextBlock.getEffectiveTextStyleDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveTextStyleDefinition(): TextStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextStyleDefinition" />
+  - name: getJsonTypeName()
+    uid: adaptivecards.TextBlock.getJsonTypeName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getJsonTypeName(): string'
+      return:
+        description: ''
+        type: string
+  - name: updateLayout(boolean)
+    uid: adaptivecards.TextBlock.updateLayout
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function updateLayout(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type: boolean
+          description: ''
+extends: <xref uid="adaptivecards.BaseTextBlock" />

@@ -1,0 +1,18 @@
+### YamlMime:TSTypeAlias
+name: Spacing
+uid: adaptivecards.Spacing
+package: adaptivecards
+summary: ''
+fullName: Spacing
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type Spacing =
+    | "none"
+    | "small"
+    | "default"
+    | "medium"
+    | "large"
+    | "extraLarge"
+    | "padding"

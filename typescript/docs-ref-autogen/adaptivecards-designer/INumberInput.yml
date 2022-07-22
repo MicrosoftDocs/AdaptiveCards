@@ -1,0 +1,156 @@
+### YamlMime:TSType
+name: INumberInput
+uid: adaptivecards-designer.INumberInput
+package: adaptivecards-designer
+summary: ''
+fullName: INumberInput
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: max
+    uid: adaptivecards-designer.INumberInput.max
+    package: adaptivecards-designer
+    summary: ''
+    fullName: max
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'max?: number'
+      return:
+        description: ''
+        type: number
+  - name: min
+    uid: adaptivecards-designer.INumberInput.min
+    package: adaptivecards-designer
+    summary: ''
+    fullName: min
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'min?: number'
+      return:
+        description: ''
+        type: number
+  - name: placeholder
+    uid: adaptivecards-designer.INumberInput.placeholder
+    package: adaptivecards-designer
+    summary: ''
+    fullName: placeholder
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'placeholder?: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: adaptivecards-designer.INumberInput.type
+    package: adaptivecards-designer
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Input.Number"'
+      return:
+        description: ''
+        type: '"<xref uid="Input.Number" />"'
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-designer.INumberInput.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-designer.INumberInput.horizontalAlignment
+    package: adaptivecards-designer
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-designer.INumberInput.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-designer.INumberInput.separator
+    package: adaptivecards-designer
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-designer.INumberInput.spacing
+    package: adaptivecards-designer
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Spacing" />
+  - name: speak
+    uid: adaptivecards-designer.INumberInput.speak
+    package: adaptivecards-designer
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards-designer.INumberInput.value
+    package: adaptivecards-designer
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-designer.IInput" />

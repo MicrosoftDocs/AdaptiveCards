@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IDataField
+uid: adaptivecards-designer.IDataField
+package: adaptivecards-designer
+summary: ''
+fullName: IDataField
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: displayName
+    uid: adaptivecards-designer.IDataField.displayName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: displayName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'displayName: string'
+      return:
+        description: ''
+        type: string
+  - name: name
+    uid: adaptivecards-designer.IDataField.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string

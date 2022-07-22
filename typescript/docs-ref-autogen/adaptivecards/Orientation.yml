@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: Orientation
+uid: adaptivecards.Orientation
+package: adaptivecards
+summary: ''
+fullName: Orientation
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Horizontal
+    uid: adaptivecards.Orientation.Horizontal
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Vertical
+    uid: adaptivecards.Orientation.Vertical
+    package: adaptivecards
+    summary: ''
+    numericValue: 1

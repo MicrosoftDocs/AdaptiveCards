@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: IArrayField
+uid: adaptivecards-designer.IArrayField
+package: adaptivecards-designer
+summary: ''
+fullName: IArrayField
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+inheritedProperties:
+  - name: displayName
+    uid: adaptivecards-designer.IArrayField.displayName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: displayName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'displayName: string'
+      return:
+        description: ''
+        type: string
+  - name: itemType
+    uid: adaptivecards-designer.IArrayField.itemType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: itemType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'itemType: IData'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.IData" />
+  - name: name
+    uid: adaptivecards-designer.IArrayField.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: valueType
+    uid: adaptivecards-designer.IArrayField.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueType: "Array"'
+      return:
+        description: ''
+        type: '"Array"'
+extends: <xref uid="adaptivecards-designer.IDataField" />

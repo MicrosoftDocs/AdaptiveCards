@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: CellType
+uid: adaptivecards.CellType
+package: adaptivecards
+summary: ''
+fullName: CellType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type CellType = "data" | "header"

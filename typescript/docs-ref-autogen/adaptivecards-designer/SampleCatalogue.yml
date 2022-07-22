@@ -1,0 +1,87 @@
+### YamlMime:TSType
+name: SampleCatalogue
+uid: adaptivecards-designer.SampleCatalogue
+package: adaptivecards-designer
+summary: ''
+fullName: SampleCatalogue
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: SampleCatalogue(string)
+    uid: adaptivecards-designer.SampleCatalogue.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new SampleCatalogue(url?: string)'
+      parameters:
+        - id: url
+          type: string
+          description: ''
+properties:
+  - name: entries
+    uid: adaptivecards-designer.SampleCatalogue.entries
+    package: adaptivecards-designer
+    summary: ''
+    fullName: entries
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'CatalogueEntry[] entries'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.CatalogueEntry" />[]'
+  - name: isDownloaded
+    uid: adaptivecards-designer.SampleCatalogue.isDownloaded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isDownloaded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isDownloaded
+      return:
+        description: ''
+        type: boolean
+  - name: onDownloaded
+    uid: adaptivecards-designer.SampleCatalogue.onDownloaded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onDownloaded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDownloaded: (sender: SampleCatalogue) => void'
+      return:
+        description: ''
+        type: '(sender: SampleCatalogue) =&gt; void'
+  - name: url
+    uid: adaptivecards-designer.SampleCatalogue.url
+    package: adaptivecards-designer
+    summary: ''
+    fullName: url
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string url
+      return:
+        description: ''
+        type: string
+methods:
+  - name: download()
+    uid: adaptivecards-designer.SampleCatalogue.download
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function download()

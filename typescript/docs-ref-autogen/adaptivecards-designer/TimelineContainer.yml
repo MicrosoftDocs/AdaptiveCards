@@ -1,0 +1,242 @@
+### YamlMime:TSType
+name: TimelineContainer
+uid: adaptivecards-designer.TimelineContainer
+package: adaptivecards-designer
+summary: ''
+fullName: TimelineContainer
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'TimelineContainer(string, string)'
+    uid: adaptivecards-designer.TimelineContainer.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new TimelineContainer(name: string, styleSheet: string)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: styleSheet
+          type: string
+          description: ''
+properties:
+  - name: actionsRegistry
+    uid: adaptivecards-designer.TimelineContainer.actionsRegistry
+    package: adaptivecards-designer
+    summary: ''
+    fullName: actionsRegistry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardObjectRegistry<Action> actionsRegistry
+      return:
+        description: ''
+        type: CardObjectRegistry&lt;Action&gt;
+  - name: cardHost
+    uid: adaptivecards-designer.TimelineContainer.cardHost
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardHost
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement cardHost
+      return:
+        description: ''
+        type: HTMLElement
+  - name: elementsRegistry
+    uid: adaptivecards-designer.TimelineContainer.elementsRegistry
+    package: adaptivecards-designer
+    summary: ''
+    fullName: elementsRegistry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardObjectRegistry<CardElement> elementsRegistry
+      return:
+        description: ''
+        type: CardObjectRegistry&lt;CardElement&gt;
+  - name: isFixedHeight
+    uid: adaptivecards-designer.TimelineContainer.isFixedHeight
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isFixedHeight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isFixedHeight
+      return:
+        description: ''
+        type: boolean
+  - name: targetVersion
+    uid: adaptivecards-designer.TimelineContainer.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Version targetVersion
+      return:
+        description: ''
+        type: Version
+inheritedProperties:
+  - name: name
+    uid: adaptivecards-designer.TimelineContainer.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: styleSheet
+    uid: adaptivecards-designer.TimelineContainer.styleSheet
+    package: adaptivecards-designer
+    summary: ''
+    fullName: styleSheet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'styleSheet: string'
+      return:
+        description: ''
+        type: string
+  - name: supportsActionBar
+    uid: adaptivecards-designer.TimelineContainer.supportsActionBar
+    package: adaptivecards-designer
+    summary: ''
+    fullName: supportsActionBar
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'supportsActionBar: boolean'
+      return:
+        description: ''
+        type: boolean
+inheritedMethods:
+  - name: 'anchorClicked(CardElement, HTMLAnchorElement)'
+    uid: adaptivecards-designer.TimelineContainer.anchorClicked
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function anchorClicked(element: CardElement, anchor: HTMLAnchorElement):
+        boolean
+      parameters:
+        - id: element
+          type: CardElement
+          description: ''
+        - id: anchor
+          type: HTMLAnchorElement
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: createSerializationContext(Version)
+    uid: adaptivecards-designer.TimelineContainer.createSerializationContext
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createSerializationContext(targetVersion: Version):
+        SerializationContext
+      parameters:
+        - id: targetVersion
+          type: Version
+          description: ''
+      return:
+        description: ''
+        type: SerializationContext
+  - name: getBackgroundColor()
+    uid: adaptivecards-designer.TimelineContainer.getBackgroundColor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getBackgroundColor(): string'
+      return:
+        description: ''
+        type: string
+  - name: 'parseElement(CardElement, any, SerializationContext)'
+    uid: adaptivecards-designer.TimelineContainer.parseElement
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseElement(element: CardElement, source: any, context:
+        SerializationContext)
+      parameters:
+        - id: element
+          type: CardElement
+          description: ''
+        - id: source
+          type: any
+          description: ''
+        - id: context
+          type: SerializationContext
+          description: ''
+methods:
+  - name: getHostConfig()
+    uid: adaptivecards-designer.TimelineContainer.getHostConfig
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getHostConfig(): HostConfig'
+      return:
+        description: ''
+        type: HostConfig
+  - name: initialize()
+    uid: adaptivecards-designer.TimelineContainer.initialize
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function initialize()
+  - name: renderTo(HTMLElement)
+    uid: adaptivecards-designer.TimelineContainer.renderTo
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function renderTo(hostElement: HTMLElement)'
+      parameters:
+        - id: hostElement
+          type: HTMLElement
+          description: ''
+extends: <xref uid="adaptivecards-designer.HostContainer" />

@@ -1,0 +1,56 @@
+### YamlMime:TSType
+name: ActivityRequestError
+uid: adaptivecards.ActivityRequestError
+package: adaptivecards
+summary: ''
+fullName: ActivityRequestError
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'ActivityRequestError(string | undefined, string | undefined)'
+    uid: adaptivecards.ActivityRequestError.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ActivityRequestError(code?: string | undefined, message?: string |
+        undefined)
+      parameters:
+        - id: code
+          type: string | undefined
+          description: ''
+        - id: message
+          type: string | undefined
+          description: ''
+properties:
+  - name: code
+    uid: adaptivecards.ActivityRequestError.code
+    package: adaptivecards
+    summary: ''
+    fullName: code
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'code?: string | undefined'
+      return:
+        description: ''
+        type: string | undefined
+  - name: message
+    uid: adaptivecards.ActivityRequestError.message
+    package: adaptivecards
+    summary: ''
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message?: string | undefined'
+      return:
+        description: ''
+        type: string | undefined

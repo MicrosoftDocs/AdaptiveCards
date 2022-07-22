@@ -1,0 +1,29 @@
+### YamlMime:TSType
+name: ChannelAdapter
+uid: adaptivecards.ChannelAdapter
+package: adaptivecards
+summary: ''
+fullName: ChannelAdapter
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: sendRequestAsync(IActivityRequest)
+    uid: adaptivecards.ChannelAdapter.sendRequestAsync
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function sendRequestAsync(request: IActivityRequest):
+        Promise<ActivityResponse>
+      parameters:
+        - id: request
+          type: <xref uid="adaptivecards.IActivityRequest" />
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;<xref uid="adaptivecards.ActivityResponse" />&gt;

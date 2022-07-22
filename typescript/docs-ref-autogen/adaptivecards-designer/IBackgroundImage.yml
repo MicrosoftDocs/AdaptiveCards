@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: IBackgroundImage
+uid: adaptivecards-designer.IBackgroundImage
+package: adaptivecards-designer
+summary: ''
+fullName: IBackgroundImage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: url
+    uid: adaptivecards-designer.IBackgroundImage.url
+    package: adaptivecards-designer
+    summary: ''
+    fullName: url
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'url: string'
+      return:
+        description: ''
+        type: string

@@ -1,0 +1,216 @@
+### YamlMime:TSType
+name: EnumProperty
+uid: adaptivecards.EnumProperty
+package: adaptivecards
+summary: ''
+fullName: EnumProperty<TEnum>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      EnumProperty(Version, string, TEnum, number | undefined,
+      IVersionedValue<number>[], (sender: SerializableObject) => number |
+      undefined)
+    uid: adaptivecards.EnumProperty.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new EnumProperty(targetVersion: Version, name: string, enumType: TEnum,
+        defaultValue?: number | undefined, values?: IVersionedValue<number>[],
+        onGetInitialValue?: (sender: SerializableObject) => number | undefined)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="adaptivecards.Version" />
+          description: ''
+        - id: name
+          type: string
+          description: ''
+        - id: enumType
+          type: TEnum
+          description: ''
+        - id: defaultValue
+          type: number | undefined
+          description: ''
+        - id: values
+          type: '<xref uid="adaptivecards.IVersionedValue" />&lt;number&gt;[]'
+          description: ''
+        - id: onGetInitialValue
+          type: '(sender: SerializableObject) =&gt; number | undefined'
+          description: ''
+properties:
+  - name: defaultValue
+    uid: adaptivecards.EnumProperty.defaultValue
+    package: adaptivecards
+    summary: ''
+    fullName: defaultValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultValue?: number | undefined'
+      return:
+        description: ''
+        type: number | undefined
+  - name: enumType
+    uid: adaptivecards.EnumProperty.enumType
+    package: adaptivecards
+    summary: ''
+    fullName: enumType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'enumType: TEnum'
+      return:
+        description: ''
+        type: TEnum
+  - name: name
+    uid: adaptivecards.EnumProperty.name
+    package: adaptivecards
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: onGetInitialValue
+    uid: adaptivecards.EnumProperty.onGetInitialValue
+    package: adaptivecards
+    summary: ''
+    fullName: onGetInitialValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => number | undefined'
+      return:
+        description: ''
+        type: '(sender: SerializableObject) =&gt; number | undefined'
+  - name: targetVersion
+    uid: adaptivecards.EnumProperty.targetVersion
+    package: adaptivecards
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: values
+    uid: adaptivecards.EnumProperty.values
+    package: adaptivecards
+    summary: ''
+    fullName: values
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'IVersionedValue<number>[] values'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.IVersionedValue" />&lt;number&gt;[]'
+inheritedProperties:
+  - name: isSerializationEnabled
+    uid: adaptivecards.EnumProperty.isSerializationEnabled
+    package: adaptivecards
+    summary: ''
+    fullName: isSerializationEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: sequentialNumber
+    uid: adaptivecards.EnumProperty.sequentialNumber
+    package: adaptivecards
+    summary: ''
+    fullName: sequentialNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        description: ''
+        type: number
+inheritedMethods:
+  - name: getInternalName()
+    uid: adaptivecards.EnumProperty.getInternalName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getInternalName(): string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: 'parse(SerializableObject, PropertyBag, BaseSerializationContext)'
+    uid: adaptivecards.EnumProperty.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        BaseSerializationContext): number | undefined
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: source
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: number | undefined
+  - name: >-
+      toJSON(SerializableObject, PropertyBag, number | undefined,
+      BaseSerializationContext)
+    uid: adaptivecards.EnumProperty.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        number | undefined, context: BaseSerializationContext)
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: target
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: value
+          type: number | undefined
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+extends: <xref uid="adaptivecards.PropertyDefinition" />

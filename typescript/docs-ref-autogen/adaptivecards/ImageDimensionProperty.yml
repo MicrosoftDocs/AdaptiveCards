@@ -1,0 +1,207 @@
+### YamlMime:TSType
+name: ImageDimensionProperty
+uid: adaptivecards.ImageDimensionProperty
+package: adaptivecards
+summary: ''
+fullName: ImageDimensionProperty
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      ImageDimensionProperty(Version, string, string, ValueSetProperty |
+      undefined)
+    uid: adaptivecards.ImageDimensionProperty.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ImageDimensionProperty(targetVersion: Version, name: string,
+        internalName: string, fallbackProperty?: ValueSetProperty | undefined)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="adaptivecards.Version" />
+          description: ''
+        - id: name
+          type: string
+          description: ''
+        - id: internalName
+          type: string
+          description: ''
+        - id: fallbackProperty
+          type: <xref uid="adaptivecards.ValueSetProperty" /> | undefined
+          description: ''
+properties:
+  - name: fallbackProperty
+    uid: adaptivecards.ImageDimensionProperty.fallbackProperty
+    package: adaptivecards
+    summary: ''
+    fullName: fallbackProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fallbackProperty?: ValueSetProperty | undefined'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValueSetProperty" /> | undefined
+  - name: internalName
+    uid: adaptivecards.ImageDimensionProperty.internalName
+    package: adaptivecards
+    summary: ''
+    fullName: internalName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'internalName: string'
+      return:
+        description: ''
+        type: string
+  - name: name
+    uid: adaptivecards.ImageDimensionProperty.name
+    package: adaptivecards
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: targetVersion
+    uid: adaptivecards.ImageDimensionProperty.targetVersion
+    package: adaptivecards
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+inheritedProperties:
+  - name: defaultValue
+    uid: adaptivecards.ImageDimensionProperty.defaultValue
+    package: adaptivecards
+    summary: ''
+    fullName: defaultValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultValue?: any'
+      return:
+        description: ''
+        type: any
+  - name: isSerializationEnabled
+    uid: adaptivecards.ImageDimensionProperty.isSerializationEnabled
+    package: adaptivecards
+    summary: ''
+    fullName: isSerializationEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: onGetInitialValue
+    uid: adaptivecards.ImageDimensionProperty.onGetInitialValue
+    package: adaptivecards
+    summary: ''
+    fullName: onGetInitialValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => any | undefined'
+      return:
+        description: ''
+        type: '(sender: SerializableObject) =&gt; any | undefined'
+  - name: sequentialNumber
+    uid: adaptivecards.ImageDimensionProperty.sequentialNumber
+    package: adaptivecards
+    summary: ''
+    fullName: sequentialNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        description: ''
+        type: number
+methods:
+  - name: getInternalName()
+    uid: adaptivecards.ImageDimensionProperty.getInternalName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getInternalName(): string'
+      return:
+        description: ''
+        type: string
+  - name: 'parse(SerializableObject, PropertyBag, BaseSerializationContext)'
+    uid: adaptivecards.ImageDimensionProperty.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        BaseSerializationContext): number | undefined
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: source
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: number | undefined
+  - name: >-
+      toJSON(SerializableObject, PropertyBag, number | undefined,
+      BaseSerializationContext)
+    uid: adaptivecards.ImageDimensionProperty.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        number | undefined, context: BaseSerializationContext)
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: target
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: value
+          type: number | undefined
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+extends: <xref uid="adaptivecards.PropertyDefinition" />

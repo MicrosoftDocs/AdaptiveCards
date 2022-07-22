@@ -1,0 +1,169 @@
+### YamlMime:TSType
+name: IChoiceSetInput
+uid: adaptivecards-templating.IChoiceSetInput
+package: adaptivecards-templating
+summary: ''
+fullName: IChoiceSetInput
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: choices
+    uid: adaptivecards-templating.IChoiceSetInput.choices
+    package: adaptivecards-templating
+    summary: ''
+    fullName: choices
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'choices: IChoice[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-templating.IChoice" />[]'
+  - name: isMultiSelect
+    uid: adaptivecards-templating.IChoiceSetInput.isMultiSelect
+    package: adaptivecards-templating
+    summary: ''
+    fullName: isMultiSelect
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isMultiSelect?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: placeholder
+    uid: adaptivecards-templating.IChoiceSetInput.placeholder
+    package: adaptivecards-templating
+    summary: ''
+    fullName: placeholder
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'placeholder?: string'
+      return:
+        description: ''
+        type: string
+  - name: style
+    uid: adaptivecards-templating.IChoiceSetInput.style
+    package: adaptivecards-templating
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'style?: "expanded" | "compact"'
+      return:
+        description: ''
+        type: '"expanded" | "compact"'
+  - name: type
+    uid: adaptivecards-templating.IChoiceSetInput.type
+    package: adaptivecards-templating
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Input.ChoiceSet"'
+      return:
+        description: ''
+        type: '"<xref uid="Input.ChoiceSet" />"'
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-templating.IChoiceSetInput.height
+    package: adaptivecards-templating
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-templating.IChoiceSetInput.horizontalAlignment
+    package: adaptivecards-templating
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-templating.IChoiceSetInput.id
+    package: adaptivecards-templating
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-templating.IChoiceSetInput.separator
+    package: adaptivecards-templating
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-templating.IChoiceSetInput.spacing
+    package: adaptivecards-templating
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.Spacing" />
+  - name: speak
+    uid: adaptivecards-templating.IChoiceSetInput.speak
+    package: adaptivecards-templating
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards-templating.IChoiceSetInput.value
+    package: adaptivecards-templating
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-templating.IInput" />

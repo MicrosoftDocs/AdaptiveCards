@@ -1,0 +1,80 @@
+### YamlMime:TSType
+name: IPropertySheetEditorCommand
+uid: adaptivecards-designer.IPropertySheetEditorCommand
+package: adaptivecards-designer
+summary: ''
+fullName: IPropertySheetEditorCommand
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: altText
+    uid: adaptivecards-designer.IPropertySheetEditorCommand.altText
+    package: adaptivecards-designer
+    summary: ''
+    fullName: altText
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'altText?: string'
+      return:
+        description: ''
+        type: string
+  - name: caption
+    uid: adaptivecards-designer.IPropertySheetEditorCommand.caption
+    package: adaptivecards-designer
+    summary: ''
+    fullName: caption
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'caption: string'
+      return:
+        description: ''
+        type: string
+  - name: expanded
+    uid: adaptivecards-designer.IPropertySheetEditorCommand.expanded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: expanded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'expanded?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: id
+    uid: adaptivecards-designer.IPropertySheetEditorCommand.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: onExecute
+    uid: adaptivecards-designer.IPropertySheetEditorCommand.onExecute
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onExecute
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onExecute: (sender: SingleInputPropertyEditor, clickedElement:
+        HTMLElement) => void
+      return:
+        description: ''
+        type: >-
+          (sender: SingleInputPropertyEditor, clickedElement: HTMLElement) =&gt;
+          void

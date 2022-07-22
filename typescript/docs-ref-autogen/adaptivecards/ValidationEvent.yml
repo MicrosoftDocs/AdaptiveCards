@@ -1,0 +1,100 @@
+### YamlMime:TSEnum
+name: ValidationEvent
+uid: adaptivecards.ValidationEvent
+package: adaptivecards
+summary: ''
+fullName: ValidationEvent
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Hint
+    uid: adaptivecards.ValidationEvent.Hint
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: ActionTypeNotAllowed
+    uid: adaptivecards.ValidationEvent.ActionTypeNotAllowed
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: CollectionCantBeEmpty
+    uid: adaptivecards.ValidationEvent.CollectionCantBeEmpty
+    package: adaptivecards
+    summary: ''
+    numericValue: 2
+  - name: Deprecated
+    uid: adaptivecards.ValidationEvent.Deprecated
+    package: adaptivecards
+    summary: ''
+    numericValue: 3
+  - name: ElementTypeNotAllowed
+    uid: adaptivecards.ValidationEvent.ElementTypeNotAllowed
+    package: adaptivecards
+    summary: ''
+    numericValue: 4
+  - name: InteractivityNotAllowed
+    uid: adaptivecards.ValidationEvent.InteractivityNotAllowed
+    package: adaptivecards
+    summary: ''
+    numericValue: 5
+  - name: InvalidPropertyValue
+    uid: adaptivecards.ValidationEvent.InvalidPropertyValue
+    package: adaptivecards
+    summary: ''
+    numericValue: 6
+  - name: MissingCardType
+    uid: adaptivecards.ValidationEvent.MissingCardType
+    package: adaptivecards
+    summary: ''
+    numericValue: 7
+  - name: PropertyCantBeNull
+    uid: adaptivecards.ValidationEvent.PropertyCantBeNull
+    package: adaptivecards
+    summary: ''
+    numericValue: 8
+  - name: TooManyActions
+    uid: adaptivecards.ValidationEvent.TooManyActions
+    package: adaptivecards
+    summary: ''
+    numericValue: 9
+  - name: UnknownActionType
+    uid: adaptivecards.ValidationEvent.UnknownActionType
+    package: adaptivecards
+    summary: ''
+    numericValue: 10
+  - name: UnknownElementType
+    uid: adaptivecards.ValidationEvent.UnknownElementType
+    package: adaptivecards
+    summary: ''
+    numericValue: 11
+  - name: UnsupportedCardVersion
+    uid: adaptivecards.ValidationEvent.UnsupportedCardVersion
+    package: adaptivecards
+    summary: ''
+    numericValue: 12
+  - name: DuplicateId
+    uid: adaptivecards.ValidationEvent.DuplicateId
+    package: adaptivecards
+    summary: ''
+    numericValue: 13
+  - name: UnsupportedProperty
+    uid: adaptivecards.ValidationEvent.UnsupportedProperty
+    package: adaptivecards
+    summary: ''
+    numericValue: 14
+  - name: RequiredInputsShouldHaveLabel
+    uid: adaptivecards.ValidationEvent.RequiredInputsShouldHaveLabel
+    package: adaptivecards
+    summary: ''
+    numericValue: 15
+  - name: RequiredInputsShouldHaveErrorMessage
+    uid: adaptivecards.ValidationEvent.RequiredInputsShouldHaveErrorMessage
+    package: adaptivecards
+    summary: ''
+    numericValue: 16
+  - name: Other
+    uid: adaptivecards.ValidationEvent.Other
+    package: adaptivecards
+    summary: ''
+    numericValue: 17

@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: ISeparationDefinition
+uid: adaptivecards.ISeparationDefinition
+package: adaptivecards
+summary: ''
+fullName: ISeparationDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: lineColor
+    uid: adaptivecards.ISeparationDefinition.lineColor
+    package: adaptivecards
+    summary: ''
+    fullName: lineColor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lineColor?: string'
+      return:
+        description: ''
+        type: string
+  - name: lineThickness
+    uid: adaptivecards.ISeparationDefinition.lineThickness
+    package: adaptivecards
+    summary: ''
+    fullName: lineThickness
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lineThickness?: number'
+      return:
+        description: ''
+        type: number
+  - name: spacing
+    uid: adaptivecards.ISeparationDefinition.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing: number'
+      return:
+        description: ''
+        type: number

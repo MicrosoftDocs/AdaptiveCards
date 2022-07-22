@@ -1,0 +1,89 @@
+### YamlMime:TSType
+name: Toolbar
+uid: adaptivecards-designer.Toolbar
+package: adaptivecards-designer
+summary: ''
+fullName: Toolbar
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: addElement(ToolbarElement)
+    uid: adaptivecards-designer.Toolbar.addElement
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function addElement(element: ToolbarElement)'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards-designer.ToolbarElement" />
+          description: ''
+  - name: attachTo(HTMLElement)
+    uid: adaptivecards-designer.Toolbar.attachTo
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function attachTo(element: HTMLElement)'
+      parameters:
+        - id: element
+          type: HTMLElement
+          description: ''
+  - name: getElementById(string)
+    uid: adaptivecards-designer.Toolbar.getElementById
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getElementById(elementId: string): ToolbarElement'
+      parameters:
+        - id: elementId
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ToolbarElement" />
+  - name: 'insertElementAfter(ToolbarElement, string)'
+    uid: adaptivecards-designer.Toolbar.insertElementAfter
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function insertElementAfter(element: ToolbarElement, afterElementId:
+        string)
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards-designer.ToolbarElement" />
+          description: ''
+        - id: afterElementId
+          type: string
+          description: ''
+  - name: 'insertElementBefore(ToolbarElement, string)'
+    uid: adaptivecards-designer.Toolbar.insertElementBefore
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function insertElementBefore(element: ToolbarElement, beforeElementId:
+        string)
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards-designer.ToolbarElement" />
+          description: ''
+        - id: beforeElementId
+          type: string
+          description: ''

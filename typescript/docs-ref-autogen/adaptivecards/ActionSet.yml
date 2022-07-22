@@ -1,0 +1,1219 @@
+### YamlMime:TSType
+name: ActionSet
+uid: adaptivecards.ActionSet
+package: adaptivecards
+summary: ''
+fullName: ActionSet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ActionSet()
+    uid: adaptivecards.ActionSet.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new ActionSet()
+properties:
+  - name: hasVisibleSeparator
+    uid: adaptivecards.ActionSet.hasVisibleSeparator
+    package: adaptivecards
+    summary: ''
+    fullName: hasVisibleSeparator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean hasVisibleSeparator
+      return:
+        description: ''
+        type: boolean
+  - name: hostConfig
+    uid: adaptivecards.ActionSet.hostConfig
+    package: adaptivecards
+    summary: ''
+    fullName: hostConfig
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostConfig hostConfig
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostConfig" />
+  - name: index
+    uid: adaptivecards.ActionSet.index
+    package: adaptivecards
+    summary: ''
+    fullName: index
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number index
+      return:
+        description: ''
+        type: number
+  - name: isInline
+    uid: adaptivecards.ActionSet.isInline
+    package: adaptivecards
+    summary: ''
+    fullName: isInline
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isInline
+      return:
+        description: ''
+        type: boolean
+  - name: isInteractive
+    uid: adaptivecards.ActionSet.isInteractive
+    package: adaptivecards
+    summary: ''
+    fullName: isInteractive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isInteractive
+      return:
+        description: ''
+        type: boolean
+  - name: isStandalone
+    uid: adaptivecards.ActionSet.isStandalone
+    package: adaptivecards
+    summary: ''
+    fullName: isStandalone
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isStandalone
+      return:
+        description: ''
+        type: boolean
+  - name: isVisible
+    uid: adaptivecards.ActionSet.isVisible
+    package: adaptivecards
+    summary: ''
+    fullName: isVisible
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isVisible
+      return:
+        description: ''
+        type: boolean
+  - name: lang
+    uid: adaptivecards.ActionSet.lang
+    package: adaptivecards
+    summary: ''
+    fullName: lang
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string | undefined lang
+      return:
+        description: ''
+        type: string | undefined
+  - name: orientation
+    uid: adaptivecards.ActionSet.orientation
+    package: adaptivecards
+    summary: ''
+    fullName: orientation
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'orientation?: Orientation'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Orientation" />
+  - name: orientationProperty
+    uid: adaptivecards.ActionSet.orientationProperty
+    package: adaptivecards
+    summary: ''
+    fullName: orientationProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static orientationProperty: EnumProperty<Orientation>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.Orientation" />&gt;
+  - name: parent
+    uid: adaptivecards.ActionSet.parent
+    package: adaptivecards
+    summary: ''
+    fullName: parent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardElement | undefined parent
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: renderedElement
+    uid: adaptivecards.ActionSet.renderedElement
+    package: adaptivecards
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement | undefined renderedElement
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: requires
+    uid: adaptivecards.ActionSet.requires
+    package: adaptivecards
+    summary: ''
+    fullName: requires
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostCapabilities requires
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostCapabilities" />
+  - name: separatorElement
+    uid: adaptivecards.ActionSet.separatorElement
+    package: adaptivecards
+    summary: ''
+    fullName: separatorElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement | undefined separatorElement
+      return:
+        description: ''
+        type: HTMLElement | undefined
+inheritedProperties:
+  - name: customCssSelector
+    uid: adaptivecards.ActionSet.customCssSelector
+    package: adaptivecards
+    summary: ''
+    fullName: customCssSelector
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'customCssSelector?: string'
+      return:
+        description: ''
+        type: string
+  - name: defaultMaxVersion
+    uid: adaptivecards.ActionSet.defaultMaxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: defaultMaxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static defaultMaxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: height
+    uid: adaptivecards.ActionSet.height
+    package: adaptivecards
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height: CardElementHeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElementHeight" />
+  - name: heightProperty
+    uid: adaptivecards.ActionSet.heightProperty
+    package: adaptivecards
+    summary: ''
+    fullName: heightProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static heightProperty: ValueSetProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValueSetProperty" />
+  - name: horizontalAlignment
+    uid: adaptivecards.ActionSet.horizontalAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: horizontalAlignmentProperty
+    uid: adaptivecards.ActionSet.horizontalAlignmentProperty
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumProperty<HorizontalAlignment>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.HorizontalAlignment" />&gt;
+  - name: id
+    uid: adaptivecards.ActionSet.id
+    package: adaptivecards
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: idProperty
+    uid: adaptivecards.ActionSet.idProperty
+    package: adaptivecards
+    summary: ''
+    fullName: idProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static idProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: isVisibleProperty
+    uid: adaptivecards.ActionSet.isVisibleProperty
+    package: adaptivecards
+    summary: ''
+    fullName: isVisibleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static isVisibleProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: langProperty
+    uid: adaptivecards.ActionSet.langProperty
+    package: adaptivecards
+    summary: ''
+    fullName: langProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static langProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+  - name: maxVersion
+    uid: adaptivecards.ActionSet.maxVersion
+    package: adaptivecards
+    summary: ''
+    fullName: maxVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: onPreProcessPropertyValue
+    uid: adaptivecards.ActionSet.onPreProcessPropertyValue
+    package: adaptivecards
+    summary: ''
+    fullName: onPreProcessPropertyValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onPreProcessPropertyValue?: (sender: CardObject, property:
+        PropertyDefinition, value: any) => any
+      return:
+        description: ''
+        type: >-
+          (sender: CardObject, property: PropertyDefinition, value: any) =&gt;
+          any
+  - name: onRegisterCustomProperties
+    uid: adaptivecards.ActionSet.onRegisterCustomProperties
+    package: adaptivecards
+    summary: ''
+    fullName: onRegisterCustomProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onRegisterCustomProperties?: (sender: SerializableObject, schema:
+        SerializableObjectSchema) => void
+      return:
+        description: ''
+        type: >-
+          (sender: SerializableObject, schema: SerializableObjectSchema) =&gt;
+          void
+  - name: requiresProperty
+    uid: adaptivecards.ActionSet.requiresProperty
+    package: adaptivecards
+    summary: ''
+    fullName: requiresProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static requiresProperty: SerializableObjectProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectProperty" />
+  - name: separator
+    uid: adaptivecards.ActionSet.separator
+    package: adaptivecards
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: separatorProperty
+    uid: adaptivecards.ActionSet.separatorProperty
+    package: adaptivecards
+    summary: ''
+    fullName: separatorProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static separatorProperty: BoolProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BoolProperty" />
+  - name: spacing
+    uid: adaptivecards.ActionSet.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: spacingProperty
+    uid: adaptivecards.ActionSet.spacingProperty
+    package: adaptivecards
+    summary: ''
+    fullName: spacingProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static spacingProperty: EnumProperty<Spacing>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.EnumProperty" />&lt;<xref
+          uid="adaptivecards.Spacing" />&gt;
+  - name: typeNameProperty
+    uid: adaptivecards.ActionSet.typeNameProperty
+    package: adaptivecards
+    summary: ''
+    fullName: typeNameProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static typeNameProperty: StringProperty'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.StringProperty" />
+inheritedMethods:
+  - name: asString()
+    uid: adaptivecards.ActionSet.asString
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function asString(): string | undefined'
+      return:
+        description: ''
+        type: string | undefined
+  - name: getCustomProperty(string)
+    uid: adaptivecards.ActionSet.getCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCustomProperty(name: string): any'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: getEffectiveHorizontalAlignment()
+    uid: adaptivecards.ActionSet.getEffectiveHorizontalAlignment
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveHorizontalAlignment(): HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: getEffectivePadding()
+    uid: adaptivecards.ActionSet.getEffectivePadding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectivePadding(): PaddingDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PaddingDefinition" />
+  - name: getEffectiveStyle()
+    uid: adaptivecards.ActionSet.getEffectiveStyle
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveStyle(): string'
+      return:
+        description: ''
+        type: string
+  - name: getEffectiveStyleDefinition()
+    uid: adaptivecards.ActionSet.getEffectiveStyleDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveStyleDefinition(): ContainerStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleDefinition" />
+  - name: getEffectiveTextStyleDefinition()
+    uid: adaptivecards.ActionSet.getEffectiveTextStyleDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveTextStyleDefinition(): TextStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextStyleDefinition" />
+  - name: getElementById(string)
+    uid: adaptivecards.ActionSet.getElementById
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getElementById(id: string): CardElement | undefined'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" /> | undefined
+  - name: getForbiddenActionTypes()
+    uid: adaptivecards.ActionSet.getForbiddenActionTypes
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getForbiddenActionTypes(): ActionType[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.ActionType" />[]'
+  - name: >-
+      getImmediateSurroundingPadding(PaddingDefinition, boolean, boolean,
+      boolean, boolean)
+    uid: adaptivecards.ActionSet.getImmediateSurroundingPadding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getImmediateSurroundingPadding(result: PaddingDefinition,
+        processTop?: boolean, processRight?: boolean, processBottom?: boolean,
+        processLeft?: boolean)
+      parameters:
+        - id: result
+          type: <xref uid="adaptivecards.PaddingDefinition" />
+          description: ''
+        - id: processTop
+          type: boolean
+          description: ''
+        - id: processRight
+          type: boolean
+          description: ''
+        - id: processBottom
+          type: boolean
+          description: ''
+        - id: processLeft
+          type: boolean
+          description: ''
+  - name: getParentContainer()
+    uid: adaptivecards.ActionSet.getParentContainer
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getParentContainer(): Container | undefined'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Container" /> | undefined
+  - name: getRootElement()
+    uid: adaptivecards.ActionSet.getRootElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getRootElement(): CardElement'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardElement" />
+  - name: getRootObject()
+    uid: adaptivecards.ActionSet.getRootObject
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getRootObject(): CardObject'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardObject" />
+  - name: getSchema()
+    uid: adaptivecards.ActionSet.getSchema
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getSchema(): SerializableObjectSchema'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SerializableObjectSchema" />
+  - name: hasAllDefaultValues()
+    uid: adaptivecards.ActionSet.hasAllDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasAllDefaultValues(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: hasDefaultValue(PropertyDefinition)
+    uid: adaptivecards.ActionSet.hasDefaultValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function hasDefaultValue(property: PropertyDefinition): boolean'
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: indexOf(CardElement)
+    uid: adaptivecards.ActionSet.indexOf
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOf(cardElement: CardElement): number'
+      parameters:
+        - id: cardElement
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: indexOfAction(Action)
+    uid: adaptivecards.ActionSet.indexOfAction
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOfAction(action: Action): number'
+      parameters:
+        - id: action
+          type: <xref uid="adaptivecards.Action" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: isAtTheVeryBottom()
+    uid: adaptivecards.ActionSet.isAtTheVeryBottom
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryBottom(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryLeft()
+    uid: adaptivecards.ActionSet.isAtTheVeryLeft
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryLeft(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryRight()
+    uid: adaptivecards.ActionSet.isAtTheVeryRight
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryRight(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isAtTheVeryTop()
+    uid: adaptivecards.ActionSet.isAtTheVeryTop
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAtTheVeryTop(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleeding()
+    uid: adaptivecards.ActionSet.isBleeding
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleeding(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBleedingAtTop()
+    uid: adaptivecards.ActionSet.isBleedingAtTop
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleedingAtTop(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isBottomElement(CardElement)
+    uid: adaptivecards.ActionSet.isBottomElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBottomElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isDesignMode()
+    uid: adaptivecards.ActionSet.isDesignMode
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDesignMode(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isFirstElement(CardElement)
+    uid: adaptivecards.ActionSet.isFirstElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isFirstElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isHiddenDueToOverflow()
+    uid: adaptivecards.ActionSet.isHiddenDueToOverflow
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isHiddenDueToOverflow(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isLastElement(CardElement)
+    uid: adaptivecards.ActionSet.isLastElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isLastElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isLeftMostElement(CardElement)
+    uid: adaptivecards.ActionSet.isLeftMostElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isLeftMostElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isRightMostElement(CardElement)
+    uid: adaptivecards.ActionSet.isRightMostElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isRightMostElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: isTopElement(CardElement)
+    uid: adaptivecards.ActionSet.isTopElement
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isTopElement(element: CardElement): boolean'
+      parameters:
+        - id: element
+          type: <xref uid="adaptivecards.CardElement" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'parse(any, SerializationContext)'
+    uid: adaptivecards.ActionSet.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(source: any, context?: SerializationContext)'
+      parameters:
+        - id: source
+          type: any
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.SerializationContext" />
+          description: ''
+  - name: 'preProcessPropertyValue(PropertyDefinition, any)'
+    uid: adaptivecards.ActionSet.preProcessPropertyValue
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function preProcessPropertyValue(property: PropertyDefinition,
+        propertyValue?: any): any
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+        - id: propertyValue
+          type: any
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: remove()
+    uid: adaptivecards.ActionSet.remove
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: render()
+    uid: adaptivecards.ActionSet.render
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement | undefined'
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: resetDefaultValues()
+    uid: adaptivecards.ActionSet.resetDefaultValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function resetDefaultValues()
+  - name: 'setCustomProperty(string, any)'
+    uid: adaptivecards.ActionSet.setCustomProperty
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setCustomProperty(name: string, value: any)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: value
+          type: any
+          description: ''
+  - name: setParent(CardObject | undefined)
+    uid: adaptivecards.ActionSet.setParent
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setParent(value: CardObject | undefined)'
+      parameters:
+        - id: value
+          type: <xref uid="adaptivecards.CardObject" /> | undefined
+          description: ''
+  - name: setShouldFallback(boolean)
+    uid: adaptivecards.ActionSet.setShouldFallback
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setShouldFallback(value: boolean)'
+      parameters:
+        - id: value
+          type: boolean
+          description: ''
+  - name: shouldFallback()
+    uid: adaptivecards.ActionSet.shouldFallback
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function shouldFallback(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: toJSON(BaseSerializationContext)
+    uid: adaptivecards.ActionSet.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(context?: BaseSerializationContext): PropertyBag |
+        undefined
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PropertyBag" /> | undefined
+  - name: updateLayout(boolean)
+    uid: adaptivecards.ActionSet.updateLayout
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function updateLayout(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type: boolean
+          description: ''
+  - name: validateProperties()
+    uid: adaptivecards.ActionSet.validateProperties
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function validateProperties(): ValidationResults'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ValidationResults" />
+methods:
+  - name: addAction(Action)
+    uid: adaptivecards.ActionSet.addAction
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function addAction(action: Action)'
+      parameters:
+        - id: action
+          type: <xref uid="adaptivecards.Action" />
+          description: ''
+  - name: findDOMNodeOwner(Node)
+    uid: adaptivecards.ActionSet.findDOMNodeOwner
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function findDOMNodeOwner(node: Node): CardObject | undefined'
+      parameters:
+        - id: node
+          type: Node
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.CardObject" /> | undefined
+  - name: getActionAt(number)
+    uid: adaptivecards.ActionSet.getActionAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionAt(index: number): Action | undefined'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: getActionById(string)
+    uid: adaptivecards.ActionSet.getActionById
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionById(id: string): Action | undefined'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Action" /> | undefined
+  - name: getActionCount()
+    uid: adaptivecards.ActionSet.getActionCount
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getActionCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: getAllInputs(boolean)
+    uid: adaptivecards.ActionSet.getAllInputs
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getAllInputs(processActions?: boolean): Input[]'
+      parameters:
+        - id: processActions
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.Input" />[]'
+  - name: getJsonTypeName()
+    uid: adaptivecards.ActionSet.getJsonTypeName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getJsonTypeName(): string'
+      return:
+        description: ''
+        type: string
+  - name: getResourceInformation()
+    uid: adaptivecards.ActionSet.getResourceInformation
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getResourceInformation(): IResourceInformation[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.IResourceInformation" />[]'
+  - name: internalValidateProperties(ValidationResults)
+    uid: adaptivecards.ActionSet.internalValidateProperties
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function internalValidateProperties(context: ValidationResults)'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards.ValidationResults" />
+          description: ''
+  - name: isBleedingAtBottom()
+    uid: adaptivecards.ActionSet.isBleedingAtBottom
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isBleedingAtBottom(): boolean'
+      return:
+        description: ''
+        type: boolean
+extends: <xref uid="adaptivecards.CardElement" />

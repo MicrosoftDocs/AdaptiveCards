@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: predictedCardJSON
+uid: adaptivecards-designer.predictedCardJSON
+package: adaptivecards-designer
+summary: ''
+fullName: predictedCardJSON
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: card
+    uid: adaptivecards-designer.predictedCardJSON.card
+    package: adaptivecards-designer
+    summary: ''
+    fullName: card
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'card: __type'
+      return:
+        description: ''
+        type: __type
+  - name: data
+    uid: adaptivecards-designer.predictedCardJSON.data
+    package: adaptivecards-designer
+    summary: ''
+    fullName: data
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'data: __type'
+      return:
+        description: ''
+        type: __type

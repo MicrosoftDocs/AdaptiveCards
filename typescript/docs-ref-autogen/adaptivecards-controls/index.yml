@@ -1,0 +1,198 @@
+### YamlMime:TSPackage
+uid: adaptivecards-controls
+name: adaptivecards-controls
+summary: ''
+type: package
+classes:
+  - adaptivecards-controls.Calendar
+  - adaptivecards-controls.DayCell
+  - adaptivecards-controls.CheckBox
+  - adaptivecards-controls.Collection
+  - adaptivecards-controls.Constants
+  - adaptivecards-controls.CalendarPopupControl
+  - adaptivecards-controls.DatePicker
+  - adaptivecards-controls.DropDown
+  - adaptivecards-controls.DropDownItem
+  - adaptivecards-controls.DropDownPopupControl
+  - adaptivecards-controls.InputControl
+  - adaptivecards-controls.InputWithPopup
+  - adaptivecards-controls.PopupControl
+  - adaptivecards-controls.PopupMenu
+  - adaptivecards-controls.RadioButton
+  - adaptivecards-controls.TextBox
+  - adaptivecards-controls.CalendarSettings
+enums:
+  - adaptivecards-controls.DayOfWeek
+functions:
+  - name: 'addDays(Date, number)'
+    uid: adaptivecards-controls.addDays
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function addDays(date: Date, days: number): Date'
+      parameters:
+        - id: date
+          type: Date
+          description: ''
+        - id: days
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: Date
+  - name: 'addMonths(Date, number)'
+    uid: adaptivecards-controls.addMonths
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function addMonths(date: Date, months: number): Date'
+      parameters:
+        - id: date
+          type: Date
+          description: ''
+        - id: months
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: Date
+  - name: 'areDatesEqual(Date, Date)'
+    uid: adaptivecards-controls.areDatesEqual
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function areDatesEqual(date1: Date, date2: Date): boolean'
+      parameters:
+        - id: date1
+          type: Date
+          description: ''
+        - id: date2
+          type: Date
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'daysInMonth(number, number)'
+    uid: adaptivecards-controls.daysInMonth
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function daysInMonth(year: number, month: number): 29 | 28 | 30 | 31'
+      parameters:
+        - id: year
+          type: number
+          description: ''
+        - id: month
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: 29 | 28 | 30 | 31
+  - name: 'getAttributeValueAsBool(HTMLElement, string, boolean)'
+    uid: adaptivecards-controls.getAttributeValueAsBool
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getAttributeValueAsBool(element: HTMLElement, attributeName:
+        string, defaultValue: boolean): boolean
+      parameters:
+        - id: element
+          type: HTMLElement
+          description: ''
+        - id: attributeName
+          type: string
+          description: ''
+        - id: defaultValue
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'getAttributeValueAsInt(HTMLElement, string, number)'
+    uid: adaptivecards-controls.getAttributeValueAsInt
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getAttributeValueAsInt(element: HTMLElement, attributeName:
+        string, defaultValue: number): number
+      parameters:
+        - id: element
+          type: HTMLElement
+          description: ''
+        - id: attributeName
+          type: string
+          description: ''
+        - id: defaultValue
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: 'getAttributeValueAsString(HTMLElement, string, string)'
+    uid: adaptivecards-controls.getAttributeValueAsString
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getAttributeValueAsString(element: HTMLElement, attributeName:
+        string, defaultValue: string): any
+      parameters:
+        - id: element
+          type: HTMLElement
+          description: ''
+        - id: attributeName
+          type: string
+          description: ''
+        - id: defaultValue
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: any
+  - name: getScrollX()
+    uid: adaptivecards-controls.getScrollX
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getScrollX(): number'
+      return:
+        description: ''
+        type: number
+  - name: getScrollY()
+    uid: adaptivecards-controls.getScrollY
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getScrollY(): number'
+      return:
+        description: ''
+        type: number

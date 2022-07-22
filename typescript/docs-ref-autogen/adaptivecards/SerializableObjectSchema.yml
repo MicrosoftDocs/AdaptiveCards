@@ -1,0 +1,81 @@
+### YamlMime:TSType
+name: SerializableObjectSchema
+uid: adaptivecards.SerializableObjectSchema
+package: adaptivecards
+summary: ''
+fullName: SerializableObjectSchema
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: 'add(PropertyDefinition[])'
+    uid: adaptivecards.SerializableObjectSchema.add
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function add(properties: PropertyDefinition[])'
+      parameters:
+        - id: properties
+          type: '<xref uid="adaptivecards.PropertyDefinition" />[]'
+          description: ''
+  - name: getCount()
+    uid: adaptivecards.SerializableObjectSchema.getCount
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: getItemAt(number)
+    uid: adaptivecards.SerializableObjectSchema.getItemAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getItemAt(index: number): PropertyDefinition'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.PropertyDefinition" />
+  - name: indexOf(PropertyDefinition)
+    uid: adaptivecards.SerializableObjectSchema.indexOf
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOf(property: PropertyDefinition): number'
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: 'remove(PropertyDefinition[])'
+    uid: adaptivecards.SerializableObjectSchema.remove
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(properties: PropertyDefinition[])'
+      parameters:
+        - id: properties
+          type: '<xref uid="adaptivecards.PropertyDefinition" />[]'
+          description: ''

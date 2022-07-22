@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IChoicePickerItem
+uid: adaptivecards-designer.IChoicePickerItem
+package: adaptivecards-designer
+summary: ''
+fullName: IChoicePickerItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: name
+    uid: adaptivecards-designer.IChoicePickerItem.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards-designer.IChoicePickerItem.value
+    package: adaptivecards-designer
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value: string'
+      return:
+        description: ''
+        type: string

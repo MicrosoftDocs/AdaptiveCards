@@ -1,0 +1,75 @@
+### YamlMime:TSType
+name: FullScreenHandler
+uid: adaptivecards-designer.FullScreenHandler
+package: adaptivecards-designer
+summary: ''
+fullName: FullScreenHandler
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: FullScreenHandler()
+    uid: adaptivecards-designer.FullScreenHandler.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new FullScreenHandler()
+properties:
+  - name: isFullScreen
+    uid: adaptivecards-designer.FullScreenHandler.isFullScreen
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isFullScreen
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isFullScreen
+      return:
+        description: ''
+        type: boolean
+  - name: onFullScreenChanged
+    uid: adaptivecards-designer.FullScreenHandler.onFullScreenChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onFullScreenChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onFullScreenChanged: (isFullScreen: boolean) => void'
+      return:
+        description: ''
+        type: '(isFullScreen: boolean) =&gt; void'
+methods:
+  - name: enterFullScreen()
+    uid: adaptivecards-designer.FullScreenHandler.enterFullScreen
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function enterFullScreen()
+  - name: exitFullScreen()
+    uid: adaptivecards-designer.FullScreenHandler.exitFullScreen
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function exitFullScreen()
+  - name: toggleFullScreen()
+    uid: adaptivecards-designer.FullScreenHandler.toggleFullScreen
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function toggleFullScreen()

@@ -1,0 +1,242 @@
+### YamlMime:TSType
+name: ToolbarButton
+uid: adaptivecards-designer.ToolbarButton
+package: adaptivecards-designer
+summary: ''
+fullName: ToolbarButton
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'ToolbarButton(string, string, string, (sender: ToolbarButton) => void)'
+    uid: adaptivecards-designer.ToolbarButton.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ToolbarButton(id: string, caption: string, iconClass: string,
+        onClick?: (sender: ToolbarButton) => void)
+      parameters:
+        - id: id
+          type: string
+          description: ''
+        - id: caption
+          type: string
+          description: ''
+        - id: iconClass
+          type: string
+          description: ''
+        - id: onClick
+          type: '(sender: ToolbarButton) =&gt; void'
+          description: ''
+properties:
+  - name: allowToggle
+    uid: adaptivecards-designer.ToolbarButton.allowToggle
+    package: adaptivecards-designer
+    summary: ''
+    fullName: allowToggle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean allowToggle
+      return:
+        description: ''
+        type: boolean
+  - name: caption
+    uid: adaptivecards-designer.ToolbarButton.caption
+    package: adaptivecards-designer
+    summary: ''
+    fullName: caption
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string caption
+      return:
+        description: ''
+        type: string
+  - name: displayCaption
+    uid: adaptivecards-designer.ToolbarButton.displayCaption
+    package: adaptivecards-designer
+    summary: ''
+    fullName: displayCaption
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean displayCaption
+      return:
+        description: ''
+        type: boolean
+  - name: iconClass
+    uid: adaptivecards-designer.ToolbarButton.iconClass
+    package: adaptivecards-designer
+    summary: ''
+    fullName: iconClass
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string iconClass
+      return:
+        description: ''
+        type: string
+  - name: isEnabled
+    uid: adaptivecards-designer.ToolbarButton.isEnabled
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isEnabled
+      return:
+        description: ''
+        type: boolean
+  - name: isToggled
+    uid: adaptivecards-designer.ToolbarButton.isToggled
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isToggled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isToggled
+      return:
+        description: ''
+        type: boolean
+  - name: onClick
+    uid: adaptivecards-designer.ToolbarButton.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (sender: ToolbarButton) => void'
+      return:
+        description: ''
+        type: '(sender: ToolbarButton) =&gt; void'
+  - name: renderedElement
+    uid: adaptivecards-designer.ToolbarButton.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+  - name: toolTip
+    uid: adaptivecards-designer.ToolbarButton.toolTip
+    package: adaptivecards-designer
+    summary: ''
+    fullName: toolTip
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string toolTip
+      return:
+        description: ''
+        type: string
+inheritedProperties:
+  - name: alignment
+    uid: adaptivecards-designer.ToolbarButton.alignment
+    package: adaptivecards-designer
+    summary: ''
+    fullName: alignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'alignment: ToolbarElementAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ToolbarElementAlignment" />
+  - name: id
+    uid: adaptivecards-designer.ToolbarButton.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: isVisible
+    uid: adaptivecards-designer.ToolbarButton.isVisible
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isVisible
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isVisible: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: label
+    uid: adaptivecards-designer.ToolbarButton.label
+    package: adaptivecards-designer
+    summary: ''
+    fullName: label
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'label: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-designer.ToolbarButton.separator
+    package: adaptivecards-designer
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator: boolean'
+      return:
+        description: ''
+        type: boolean
+inheritedMethods:
+  - name: render()
+    uid: adaptivecards-designer.ToolbarButton.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: updateLayout()
+    uid: adaptivecards-designer.ToolbarButton.updateLayout
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateLayout()
+extends: <xref uid="adaptivecards-designer.ToolbarElement" />

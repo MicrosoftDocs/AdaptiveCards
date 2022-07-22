@@ -1,0 +1,117 @@
+### YamlMime:TSType
+name: DatePicker
+uid: adaptivecards-controls.DatePicker
+package: adaptivecards-controls
+summary: ''
+fullName: DatePicker
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: isOpen
+    uid: adaptivecards-controls.DatePicker.isOpen
+    package: adaptivecards-controls
+    summary: ''
+    fullName: isOpen
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isOpen
+      return:
+        description: ''
+        type: boolean
+  - name: labelId
+    uid: adaptivecards-controls.DatePicker.labelId
+    package: adaptivecards-controls
+    summary: ''
+    fullName: labelId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string labelId
+      return:
+        description: ''
+        type: string
+  - name: placeholderText
+    uid: adaptivecards-controls.DatePicker.placeholderText
+    package: adaptivecards-controls
+    summary: ''
+    fullName: placeholderText
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string placeholderText
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards-controls.DatePicker.value
+    package: adaptivecards-controls
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Date value
+      return:
+        description: ''
+        type: Date
+inheritedProperties:
+  - name: onValueChanged
+    uid: adaptivecards-controls.DatePicker.onValueChanged
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onValueChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onValueChanged: (sender: InputControl) => void'
+      return:
+        description: ''
+        type: '(sender: InputControl) =&gt; void'
+inheritedMethods:
+  - name: attach(HTMLElement)
+    uid: adaptivecards-controls.DatePicker.attach
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+  - name: closePopup(boolean)
+    uid: adaptivecards-controls.DatePicker.closePopup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type: boolean
+          description: ''
+methods:
+  - name: popup()
+    uid: adaptivecards-controls.DatePicker.popup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function popup()
+extends: >-
+  <xref uid="adaptivecards-controls.InputWithPopup" />&lt;<xref
+  uid="adaptivecards-controls.CalendarPopupControl" />, Date&gt;

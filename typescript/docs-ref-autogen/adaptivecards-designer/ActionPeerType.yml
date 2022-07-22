@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: ActionPeerType
+uid: adaptivecards-designer.ActionPeerType
+package: adaptivecards-designer
+summary: ''
+fullName: ActionPeerType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type ActionPeerType = {}

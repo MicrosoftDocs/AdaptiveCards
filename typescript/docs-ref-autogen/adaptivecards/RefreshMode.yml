@@ -1,0 +1,25 @@
+### YamlMime:TSEnum
+name: RefreshMode
+uid: adaptivecards.RefreshMode
+package: adaptivecards
+summary: ''
+fullName: RefreshMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Disabled
+    uid: adaptivecards.RefreshMode.Disabled
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Manual
+    uid: adaptivecards.RefreshMode.Manual
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: Automatic
+    uid: adaptivecards.RefreshMode.Automatic
+    package: adaptivecards
+    summary: ''
+    numericValue: 2

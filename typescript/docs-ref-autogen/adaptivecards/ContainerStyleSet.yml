@@ -1,0 +1,85 @@
+### YamlMime:TSType
+name: ContainerStyleSet
+uid: adaptivecards.ContainerStyleSet
+package: adaptivecards
+summary: ''
+fullName: ContainerStyleSet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ContainerStyleSet(any)
+    uid: adaptivecards.ContainerStyleSet.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ContainerStyleSet(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: default
+    uid: adaptivecards.ContainerStyleSet.default
+    package: adaptivecards
+    summary: ''
+    fullName: default
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: ContainerStyleDefinition default
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleDefinition" />
+  - name: emphasis
+    uid: adaptivecards.ContainerStyleSet.emphasis
+    package: adaptivecards
+    summary: ''
+    fullName: emphasis
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: ContainerStyleDefinition emphasis
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleDefinition" />
+methods:
+  - name: 'getStyleByName(string | undefined, ContainerStyleDefinition)'
+    uid: adaptivecards.ContainerStyleSet.getStyleByName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getStyleByName(name: string | undefined, defaultValue?:
+        ContainerStyleDefinition): ContainerStyleDefinition
+      parameters:
+        - id: name
+          type: string | undefined
+          description: ''
+        - id: defaultValue
+          type: <xref uid="adaptivecards.ContainerStyleDefinition" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleDefinition" />
+  - name: toJSON()
+    uid: adaptivecards.ContainerStyleSet.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function toJSON(): any'
+      return:
+        description: ''
+        type: any

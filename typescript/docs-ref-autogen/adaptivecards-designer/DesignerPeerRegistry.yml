@@ -1,0 +1,113 @@
+### YamlMime:TSType
+name: DesignerPeerRegistry
+uid: adaptivecards-designer.DesignerPeerRegistry
+package: adaptivecards-designer
+summary: ''
+fullName: 'DesignerPeerRegistry<TSource, TPeer>'
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: DesignerPeerRegistry()
+    uid: adaptivecards-designer.DesignerPeerRegistry.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new DesignerPeerRegistry()
+properties:
+  - name: defaultRegistration
+    uid: adaptivecards-designer.DesignerPeerRegistry.defaultRegistration
+    package: adaptivecards-designer
+    summary: ''
+    fullName: defaultRegistration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultRegistration: DesignerPeerRegistrationBase'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />
+methods:
+  - name: clear()
+    uid: adaptivecards-designer.DesignerPeerRegistry.clear
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function clear()
+  - name: findTypeRegistration(TSource)
+    uid: adaptivecards-designer.DesignerPeerRegistry.findTypeRegistration
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function findTypeRegistration(sourceType: TSource):
+        DesignerPeerRegistration<TSource, TPeer>
+      parameters:
+        - id: sourceType
+          type: TSource
+          description: ''
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards-designer.DesignerPeerRegistration"
+          />&lt;TSource, TPeer&gt;
+  - name: 'registerPeer(TSource, TPeer, string, string)'
+    uid: adaptivecards-designer.DesignerPeerRegistry.registerPeer
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function registerPeer(sourceType: TSource, peerType: TPeer, category:
+        string, iconClass?: string)
+      parameters:
+        - id: sourceType
+          type: TSource
+          description: ''
+        - id: peerType
+          type: TPeer
+          description: ''
+        - id: category
+          type: string
+          description: ''
+        - id: iconClass
+          type: string
+          description: ''
+  - name: reset()
+    uid: adaptivecards-designer.DesignerPeerRegistry.reset
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function reset(): any'
+      return:
+        description: ''
+        type: any
+  - name: unregisterPeer(TSource)
+    uid: adaptivecards-designer.DesignerPeerRegistry.unregisterPeer
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function unregisterPeer(sourceType: TSource)'
+      parameters:
+        - id: sourceType
+          type: TSource
+          description: ''

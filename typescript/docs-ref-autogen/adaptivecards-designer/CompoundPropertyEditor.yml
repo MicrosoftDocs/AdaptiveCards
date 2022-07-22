@@ -1,0 +1,109 @@
+### YamlMime:TSType
+name: CompoundPropertyEditor
+uid: adaptivecards-designer.CompoundPropertyEditor
+package: adaptivecards-designer
+summary: ''
+fullName: CompoundPropertyEditor
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      CompoundPropertyEditor(Adaptive.TargetVersion, string,
+      PropertySheetEntry[], () => object)
+    uid: adaptivecards-designer.CompoundPropertyEditor.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new CompoundPropertyEditor(targetVersion: Adaptive.TargetVersion,
+        propertyName: string, entries?: PropertySheetEntry[],
+        initializeProperty?: () => object)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="Adaptive.TargetVersion" />
+          description: ''
+        - id: propertyName
+          type: string
+          description: ''
+        - id: entries
+          type: '<xref uid="adaptivecards-designer.PropertySheetEntry" />[]'
+          description: ''
+        - id: initializeProperty
+          type: () =&gt; object
+          description: ''
+properties:
+  - name: entries
+    uid: adaptivecards-designer.CompoundPropertyEditor.entries
+    package: adaptivecards-designer
+    summary: ''
+    fullName: entries
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'entries: PropertySheetEntry[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.PropertySheetEntry" />[]'
+  - name: initializeProperty
+    uid: adaptivecards-designer.CompoundPropertyEditor.initializeProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: initializeProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'initializeProperty?: () => object'
+      return:
+        description: ''
+        type: () =&gt; object
+  - name: propertyName
+    uid: adaptivecards-designer.CompoundPropertyEditor.propertyName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: propertyName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'propertyName: string'
+      return:
+        description: ''
+        type: string
+  - name: targetVersion
+    uid: adaptivecards-designer.CompoundPropertyEditor.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        description: ''
+        type: <xref uid="Adaptive.TargetVersion" />
+methods:
+  - name: render(PropertySheetContext)
+    uid: adaptivecards-designer.CompoundPropertyEditor.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(context: PropertySheetContext): CardElement'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.PropertySheetContext" />
+          description: ''
+      return:
+        description: ''
+        type: CardElement
+extends: <xref uid="adaptivecards-designer.PropertySheetEntry" />

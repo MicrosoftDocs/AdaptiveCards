@@ -1,0 +1,131 @@
+### YamlMime:TSType
+name: ContainerStylePropertyEditor
+uid: adaptivecards-designer.ContainerStylePropertyEditor
+package: adaptivecards-designer
+summary: ''
+fullName: ContainerStylePropertyEditor
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'ContainerStylePropertyEditor(Adaptive.TargetVersion, string, string)'
+    uid: adaptivecards-designer.ContainerStylePropertyEditor.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ContainerStylePropertyEditor(targetVersion: Adaptive.TargetVersion,
+        propertyName: string, label: string)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="Adaptive.TargetVersion" />
+          description: ''
+        - id: propertyName
+          type: string
+          description: ''
+        - id: label
+          type: string
+          description: ''
+properties:
+  - name: label
+    uid: adaptivecards-designer.ContainerStylePropertyEditor.label
+    package: adaptivecards-designer
+    summary: ''
+    fullName: label
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'label: string'
+      return:
+        description: ''
+        type: string
+  - name: propertyName
+    uid: adaptivecards-designer.ContainerStylePropertyEditor.propertyName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: propertyName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'propertyName: string'
+      return:
+        description: ''
+        type: string
+  - name: targetVersion
+    uid: adaptivecards-designer.ContainerStylePropertyEditor.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        description: ''
+        type: <xref uid="Adaptive.TargetVersion" />
+inheritedProperties:
+  - name: causesPropertySheetRefresh
+    uid: >-
+      adaptivecards-designer.ContainerStylePropertyEditor.causesPropertySheetRefresh
+    package: adaptivecards-designer
+    summary: ''
+    fullName: causesPropertySheetRefresh
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'causesPropertySheetRefresh: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: choices
+    uid: adaptivecards-designer.ContainerStylePropertyEditor.choices
+    package: adaptivecards-designer
+    summary: ''
+    fullName: choices
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'choices: IVersionedChoice[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.IVersionedChoice" />[]'
+  - name: isNullable
+    uid: adaptivecards-designer.ContainerStylePropertyEditor.isNullable
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isNullable
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isNullable: boolean'
+      return:
+        description: ''
+        type: boolean
+inheritedMethods:
+  - name: render(PropertySheetContext)
+    uid: adaptivecards-designer.ContainerStylePropertyEditor.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(context: PropertySheetContext): CardElement'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.PropertySheetContext" />
+          description: ''
+      return:
+        description: ''
+        type: CardElement
+extends: <xref uid="adaptivecards-designer.ChoicePropertyEditor" />

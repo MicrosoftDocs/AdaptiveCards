@@ -1,0 +1,193 @@
+### YamlMime:TSType
+name: FieldDefinition
+uid: adaptivecards-designer.FieldDefinition
+package: adaptivecards-designer
+summary: ''
+fullName: FieldDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: FieldDefinition(FieldDefinition)
+    uid: adaptivecards-designer.FieldDefinition.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new FieldDefinition(parent: FieldDefinition)'
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+properties:
+  - name: children
+    uid: adaptivecards-designer.FieldDefinition.children
+    package: adaptivecards-designer
+    summary: ''
+    fullName: children
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'FieldDefinition[] children'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.FieldDefinition" />[]'
+  - name: dataType
+    uid: adaptivecards-designer.FieldDefinition.dataType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dataType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'dataType: DataType'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DataType" />
+  - name: displayName
+    uid: adaptivecards-designer.FieldDefinition.displayName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: displayName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string displayName
+      return:
+        description: ''
+        type: string
+  - name: isCollection
+    uid: adaptivecards-designer.FieldDefinition.isCollection
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isCollection
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isCollection
+      return:
+        description: ''
+        type: boolean
+  - name: name
+    uid: adaptivecards-designer.FieldDefinition.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: parent
+    uid: adaptivecards-designer.FieldDefinition.parent
+    package: adaptivecards-designer
+    summary: ''
+    fullName: parent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'parent: FieldDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: valueType
+    uid: adaptivecards-designer.FieldDefinition.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string valueType
+      return:
+        description: ''
+        type: string
+methods:
+  - name: asExpression()
+    uid: adaptivecards-designer.FieldDefinition.asExpression
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function asExpression(): string'
+      return:
+        description: ''
+        type: string
+  - name: deriveFrom(any)
+    uid: adaptivecards-designer.FieldDefinition.deriveFrom
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function deriveFrom(input: any): FieldDefinition'
+      parameters:
+        - id: input
+          type: any
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: getPath(boolean)
+    uid: adaptivecards-designer.FieldDefinition.getPath
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getPath(asLeaf?: boolean): string'
+      parameters:
+        - id: asLeaf
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: string
+  - name: parse(IData)
+    uid: adaptivecards-designer.FieldDefinition.parse
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function parse(data: IData): FieldDefinition'
+      parameters:
+        - id: data
+          type: <xref uid="adaptivecards-designer.IData" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: qualifiedName(boolean)
+    uid: adaptivecards-designer.FieldDefinition.qualifiedName
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function qualifiedName(asLeaf: boolean): string'
+      parameters:
+        - id: asLeaf
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: string

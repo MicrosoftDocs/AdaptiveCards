@@ -1,0 +1,56 @@
+### YamlMime:TSType
+name: TableColumnsPropertyEditor
+uid: adaptivecards-designer.TableColumnsPropertyEditor
+package: adaptivecards-designer
+summary: ''
+fullName: TableColumnsPropertyEditor
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TableColumnsPropertyEditor(Adaptive.TargetVersion)
+    uid: adaptivecards-designer.TableColumnsPropertyEditor.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new TableColumnsPropertyEditor(targetVersion: Adaptive.TargetVersion)'
+      parameters:
+        - id: targetVersion
+          type: <xref uid="Adaptive.TargetVersion" />
+          description: ''
+inheritedProperties:
+  - name: targetVersion
+    uid: adaptivecards-designer.TableColumnsPropertyEditor.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        description: ''
+        type: <xref uid="Adaptive.TargetVersion" />
+methods:
+  - name: render(PropertySheetContext)
+    uid: adaptivecards-designer.TableColumnsPropertyEditor.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(context: PropertySheetContext): CardElement'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.PropertySheetContext" />
+          description: ''
+      return:
+        description: ''
+        type: CardElement
+extends: <xref uid="adaptivecards-designer.PropertySheetEntry" />

@@ -1,0 +1,25 @@
+### YamlMime:TSEnum
+name: ContainerFitStatus
+uid: adaptivecards.ContainerFitStatus
+package: adaptivecards
+summary: ''
+fullName: ContainerFitStatus
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: FullyInContainer
+    uid: adaptivecards.ContainerFitStatus.FullyInContainer
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Overflowing
+    uid: adaptivecards.ContainerFitStatus.Overflowing
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: FullyOutOfContainer
+    uid: adaptivecards.ContainerFitStatus.FullyOutOfContainer
+    package: adaptivecards
+    summary: ''
+    numericValue: 2

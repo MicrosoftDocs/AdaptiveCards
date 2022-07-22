@@ -1,0 +1,144 @@
+### YamlMime:TSType
+name: RequiredInputLabelTextDefinition
+uid: adaptivecards.RequiredInputLabelTextDefinition
+package: adaptivecards
+summary: ''
+fullName: RequiredInputLabelTextDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: RequiredInputLabelTextDefinition(any)
+    uid: adaptivecards.RequiredInputLabelTextDefinition.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new RequiredInputLabelTextDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: suffix
+    uid: adaptivecards.RequiredInputLabelTextDefinition.suffix
+    package: adaptivecards
+    summary: ''
+    fullName: suffix
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'suffix?: string'
+      return:
+        description: ''
+        type: string
+  - name: suffixColor
+    uid: adaptivecards.RequiredInputLabelTextDefinition.suffixColor
+    package: adaptivecards
+    summary: ''
+    fullName: suffixColor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'suffixColor: TextColor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColor" />
+inheritedProperties:
+  - name: color
+    uid: adaptivecards.RequiredInputLabelTextDefinition.color
+    package: adaptivecards
+    summary: ''
+    fullName: color
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'color: TextColor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColor" />
+  - name: isSubtle
+    uid: adaptivecards.RequiredInputLabelTextDefinition.isSubtle
+    package: adaptivecards
+    summary: ''
+    fullName: isSubtle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSubtle: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: size
+    uid: adaptivecards.RequiredInputLabelTextDefinition.size
+    package: adaptivecards
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size: TextSize'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextSize" />
+  - name: weight
+    uid: adaptivecards.RequiredInputLabelTextDefinition.weight
+    package: adaptivecards
+    summary: ''
+    fullName: weight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'weight: TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+inheritedMethods:
+  - name: getDefaultWeight()
+    uid: adaptivecards.RequiredInputLabelTextDefinition.getDefaultWeight
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getDefaultWeight(): TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+methods:
+  - name: parse(any)
+    uid: adaptivecards.RequiredInputLabelTextDefinition.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+  - name: toJSON()
+    uid: adaptivecards.RequiredInputLabelTextDefinition.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function toJSON(): any'
+      return:
+        description: ''
+        type: any
+extends: <xref uid="adaptivecards.BaseTextDefinition" />

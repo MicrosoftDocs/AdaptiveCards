@@ -1,0 +1,169 @@
+### YamlMime:TSType
+name: IChoiceSetInput
+uid: adaptivecards.IChoiceSetInput
+package: adaptivecards
+summary: ''
+fullName: IChoiceSetInput
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: choices
+    uid: adaptivecards.IChoiceSetInput.choices
+    package: adaptivecards
+    summary: ''
+    fullName: choices
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'choices: IChoice[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.IChoice" />[]'
+  - name: isMultiSelect
+    uid: adaptivecards.IChoiceSetInput.isMultiSelect
+    package: adaptivecards
+    summary: ''
+    fullName: isMultiSelect
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isMultiSelect?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: placeholder
+    uid: adaptivecards.IChoiceSetInput.placeholder
+    package: adaptivecards
+    summary: ''
+    fullName: placeholder
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'placeholder?: string'
+      return:
+        description: ''
+        type: string
+  - name: style
+    uid: adaptivecards.IChoiceSetInput.style
+    package: adaptivecards
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'style?: "expanded" | "compact"'
+      return:
+        description: ''
+        type: '"expanded" | "compact"'
+  - name: type
+    uid: adaptivecards.IChoiceSetInput.type
+    package: adaptivecards
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Input.ChoiceSet"'
+      return:
+        description: ''
+        type: '"<xref uid="Input.ChoiceSet" />"'
+inheritedProperties:
+  - name: height
+    uid: adaptivecards.IChoiceSetInput.height
+    package: adaptivecards
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards.IChoiceSetInput.horizontalAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards.IChoiceSetInput.id
+    package: adaptivecards
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards.IChoiceSetInput.separator
+    package: adaptivecards
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards.IChoiceSetInput.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: speak
+    uid: adaptivecards.IChoiceSetInput.speak
+    package: adaptivecards
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards.IChoiceSetInput.value
+    package: adaptivecards
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards.IInput" />

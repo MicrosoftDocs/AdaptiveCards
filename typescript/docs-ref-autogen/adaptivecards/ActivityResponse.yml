@@ -1,0 +1,38 @@
+### YamlMime:TSType
+name: ActivityResponse
+uid: adaptivecards.ActivityResponse
+package: adaptivecards
+summary: ''
+fullName: ActivityResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ActivityResponse(IActivityRequest)
+    uid: adaptivecards.ActivityResponse.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ActivityResponse(request: IActivityRequest)'
+      parameters:
+        - id: request
+          type: <xref uid="adaptivecards.IActivityRequest" />
+          description: ''
+properties:
+  - name: request
+    uid: adaptivecards.ActivityResponse.request
+    package: adaptivecards
+    summary: ''
+    fullName: request
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'request: IActivityRequest'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IActivityRequest" />

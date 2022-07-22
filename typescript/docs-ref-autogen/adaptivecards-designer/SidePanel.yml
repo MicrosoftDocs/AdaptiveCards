@@ -1,0 +1,171 @@
+### YamlMime:TSType
+name: SidePanel
+uid: adaptivecards-designer.SidePanel
+package: adaptivecards-designer
+summary: ''
+fullName: SidePanel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'SidePanel(string, SidePanelAlignment, HTMLElement)'
+    uid: adaptivecards-designer.SidePanel.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new SidePanel(id: string, alignment: SidePanelAlignment,
+        collapsedTabContainer: HTMLElement)
+      parameters:
+        - id: id
+          type: string
+          description: ''
+        - id: alignment
+          type: <xref uid="adaptivecards-designer.SidePanelAlignment" />
+          description: ''
+        - id: collapsedTabContainer
+          type: HTMLElement
+          description: ''
+properties:
+  - name: contentHost
+    uid: adaptivecards-designer.SidePanel.contentHost
+    package: adaptivecards-designer
+    summary: ''
+    fullName: contentHost
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement contentHost
+      return:
+        description: ''
+        type: HTMLElement
+  - name: id
+    uid: adaptivecards-designer.SidePanel.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: any'
+      return:
+        description: ''
+        type: any
+  - name: isResizable
+    uid: adaptivecards-designer.SidePanel.isResizable
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isResizable
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isResizable: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: onResized
+    uid: adaptivecards-designer.SidePanel.onResized
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onResized
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onResized: (sender: SidePanel) => void'
+      return:
+        description: ''
+        type: '(sender: SidePanel) =&gt; void'
+  - name: onToolboxExpandedOrCollapsed
+    uid: adaptivecards-designer.SidePanel.onToolboxExpandedOrCollapsed
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onToolboxExpandedOrCollapsed
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onToolboxExpandedOrCollapsed: (sender: SidePanel, toolbox: Toolbox) =>
+        void
+      return:
+        description: ''
+        type: '(sender: SidePanel, toolbox: Toolbox) =&gt; void'
+  - name: onToolboxResized
+    uid: adaptivecards-designer.SidePanel.onToolboxResized
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onToolboxResized
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onToolboxResized: (sender: SidePanel, toolbox: Toolbox) => void'
+      return:
+        description: ''
+        type: '(sender: SidePanel, toolbox: Toolbox) =&gt; void'
+  - name: size
+    uid: adaptivecards-designer.SidePanel.size
+    package: adaptivecards-designer
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size?: number'
+      return:
+        description: ''
+        type: number
+methods:
+  - name: addToolbox(Toolbox)
+    uid: adaptivecards-designer.SidePanel.addToolbox
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function addToolbox(toolbox: Toolbox)'
+      parameters:
+        - id: toolbox
+          type: <xref uid="adaptivecards-designer.Toolbox" />
+          description: ''
+  - name: attachTo(HTMLElement)
+    uid: adaptivecards-designer.SidePanel.attachTo
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function attachTo(attachTo: HTMLElement)'
+      parameters:
+        - id: attachTo
+          type: HTMLElement
+          description: ''
+  - name: restoreState()
+    uid: adaptivecards-designer.SidePanel.restoreState
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function restoreState()
+  - name: saveState()
+    uid: adaptivecards-designer.SidePanel.saveState
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function saveState()

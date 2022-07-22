@@ -1,0 +1,117 @@
+### YamlMime:TSType
+name: IFactSet
+uid: adaptivecards-templating.IFactSet
+package: adaptivecards-templating
+summary: ''
+fullName: IFactSet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: facts
+    uid: adaptivecards-templating.IFactSet.facts
+    package: adaptivecards-templating
+    summary: ''
+    fullName: facts
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'facts: IFact[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-templating.IFact" />[]'
+  - name: type
+    uid: adaptivecards-templating.IFactSet.type
+    package: adaptivecards-templating
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "FactSet"'
+      return:
+        description: ''
+        type: '"FactSet"'
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-templating.IFactSet.height
+    package: adaptivecards-templating
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-templating.IFactSet.horizontalAlignment
+    package: adaptivecards-templating
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-templating.IFactSet.id
+    package: adaptivecards-templating
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-templating.IFactSet.separator
+    package: adaptivecards-templating
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-templating.IFactSet.spacing
+    package: adaptivecards-templating
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.Spacing" />
+  - name: speak
+    uid: adaptivecards-templating.IFactSet.speak
+    package: adaptivecards-templating
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-templating.ICardElement" />

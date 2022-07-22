@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: VerticalAlignment
+uid: adaptivecards-designer.VerticalAlignment
+package: adaptivecards-designer
+summary: ''
+fullName: VerticalAlignment
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type VerticalAlignment = "top" | "center" | "bottom"

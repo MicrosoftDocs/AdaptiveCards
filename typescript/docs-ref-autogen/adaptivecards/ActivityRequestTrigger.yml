@@ -1,0 +1,18 @@
+### YamlMime:TSEnum
+name: ActivityRequestTrigger
+uid: adaptivecards.ActivityRequestTrigger
+package: adaptivecards
+summary: ''
+fullName: ActivityRequestTrigger
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Automatic
+    uid: adaptivecards.ActivityRequestTrigger.Automatic
+    package: adaptivecards
+    summary: ''
+  - name: Manual
+    uid: adaptivecards.ActivityRequestTrigger.Manual
+    package: adaptivecards
+    summary: ''

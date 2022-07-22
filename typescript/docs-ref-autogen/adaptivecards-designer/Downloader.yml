@@ -1,0 +1,87 @@
+### YamlMime:TSType
+name: Downloader
+uid: adaptivecards-designer.Downloader
+package: adaptivecards-designer
+summary: ''
+fullName: Downloader
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: Downloader(string)
+    uid: adaptivecards-designer.Downloader.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new Downloader(url: string)'
+      parameters:
+        - id: url
+          type: string
+          description: ''
+properties:
+  - name: data
+    uid: adaptivecards-designer.Downloader.data
+    package: adaptivecards-designer
+    summary: ''
+    fullName: data
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string data
+      return:
+        description: ''
+        type: string
+  - name: onError
+    uid: adaptivecards-designer.Downloader.onError
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onError
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onError: (sender: Downloader) => void'
+      return:
+        description: ''
+        type: '(sender: Downloader) =&gt; void'
+  - name: onSuccess
+    uid: adaptivecards-designer.Downloader.onSuccess
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onSuccess
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onSuccess: (sender: Downloader) => void'
+      return:
+        description: ''
+        type: '(sender: Downloader) =&gt; void'
+  - name: url
+    uid: adaptivecards-designer.Downloader.url
+    package: adaptivecards-designer
+    summary: ''
+    fullName: url
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'url: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: download()
+    uid: adaptivecards-designer.Downloader.download
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function download()

@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: IOpenUrlAction
+uid: adaptivecards-designer.IOpenUrlAction
+package: adaptivecards-designer
+summary: ''
+fullName: IOpenUrlAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: type
+    uid: adaptivecards-designer.IOpenUrlAction.type
+    package: adaptivecards-designer
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Action.OpenUrl"'
+      return:
+        description: ''
+        type: '"<xref uid="Action.OpenUrl" />"'
+  - name: url
+    uid: adaptivecards-designer.IOpenUrlAction.url
+    package: adaptivecards-designer
+    summary: ''
+    fullName: url
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'url: string'
+      return:
+        description: ''
+        type: string
+inheritedProperties:
+  - name: id
+    uid: adaptivecards-designer.IOpenUrlAction.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: title
+    uid: adaptivecards-designer.IOpenUrlAction.title
+    package: adaptivecards-designer
+    summary: ''
+    fullName: title
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'title?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-designer.IAction" />

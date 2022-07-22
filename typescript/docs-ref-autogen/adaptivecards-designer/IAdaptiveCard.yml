@@ -1,0 +1,167 @@
+### YamlMime:TSType
+name: IAdaptiveCard
+uid: adaptivecards-designer.IAdaptiveCard
+package: adaptivecards-designer
+summary: ''
+fullName: IAdaptiveCard
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: actions
+    uid: adaptivecards-designer.IAdaptiveCard.actions
+    package: adaptivecards-designer
+    summary: ''
+    fullName: actions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'actions?: ISubmitAction | IOpenUrlAction | IShowCardAction[]'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards-designer.ISubmitAction" /> | <xref
+          uid="adaptivecards-designer.IOpenUrlAction" /> | <xref
+          uid="adaptivecards-designer.IShowCardAction" />[]
+  - name: backgroundImage
+    uid: adaptivecards-designer.IAdaptiveCard.backgroundImage
+    package: adaptivecards-designer
+    summary: ''
+    fullName: backgroundImage
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'backgroundImage?: IBackgroundImage | string'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.IBackgroundImage" /> | string
+  - name: body
+    uid: adaptivecards-designer.IAdaptiveCard.body
+    package: adaptivecards-designer
+    summary: ''
+    fullName: body
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        body?: IImage | ITextBlock | IImageSet | IFactSet | IColumnSet |
+        IContainer[]
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards-designer.IImage" /> | <xref
+          uid="adaptivecards-designer.ITextBlock" /> | <xref
+          uid="adaptivecards-designer.IImageSet" /> | <xref
+          uid="adaptivecards-designer.IFactSet" /> | <xref
+          uid="adaptivecards-designer.IColumnSet" /> | <xref
+          uid="adaptivecards-designer.IContainer" />[]
+  - name: speak
+    uid: adaptivecards-designer.IAdaptiveCard.speak
+    package: adaptivecards-designer
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: adaptivecards-designer.IAdaptiveCard.type
+    package: adaptivecards-designer
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "AdaptiveCard"'
+      return:
+        description: ''
+        type: '"AdaptiveCard"'
+  - name: version
+    uid: adaptivecards-designer.IAdaptiveCard.version
+    package: adaptivecards-designer
+    summary: ''
+    fullName: version
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'version?: IVersion | string'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.IVersion" /> | string
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-designer.IAdaptiveCard.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-designer.IAdaptiveCard.horizontalAlignment
+    package: adaptivecards-designer
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-designer.IAdaptiveCard.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-designer.IAdaptiveCard.separator
+    package: adaptivecards-designer
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-designer.IAdaptiveCard.spacing
+    package: adaptivecards-designer
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Spacing" />
+extends: <xref uid="adaptivecards-designer.ICardElement" />

@@ -1,0 +1,169 @@
+### YamlMime:TSType
+name: IImage
+uid: adaptivecards.IImage
+package: adaptivecards
+summary: ''
+fullName: IImage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: altText
+    uid: adaptivecards.IImage.altText
+    package: adaptivecards
+    summary: ''
+    fullName: altText
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'altText?: string'
+      return:
+        description: ''
+        type: string
+  - name: selectAction
+    uid: adaptivecards.IImage.selectAction
+    package: adaptivecards
+    summary: ''
+    fullName: selectAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'selectAction?: IAction'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IAction" />
+  - name: size
+    uid: adaptivecards.IImage.size
+    package: adaptivecards
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size?: Size'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Size" />
+  - name: style
+    uid: adaptivecards.IImage.style
+    package: adaptivecards
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'style?: ImageStyle'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ImageStyle" />
+  - name: type
+    uid: adaptivecards.IImage.type
+    package: adaptivecards
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Image"'
+      return:
+        description: ''
+        type: '"Image"'
+  - name: url
+    uid: adaptivecards.IImage.url
+    package: adaptivecards
+    summary: ''
+    fullName: url
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'url: string'
+      return:
+        description: ''
+        type: string
+inheritedProperties:
+  - name: height
+    uid: adaptivecards.IImage.height
+    package: adaptivecards
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards.IImage.horizontalAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards.IImage.id
+    package: adaptivecards
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards.IImage.separator
+    package: adaptivecards
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards.IImage.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: speak
+    uid: adaptivecards.IImage.speak
+    package: adaptivecards
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards.ICardElement" />

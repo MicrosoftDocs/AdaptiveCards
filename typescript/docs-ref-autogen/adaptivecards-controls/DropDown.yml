@@ -1,0 +1,182 @@
+### YamlMime:TSType
+name: DropDown
+uid: adaptivecards-controls.DropDown
+package: adaptivecards-controls
+summary: ''
+fullName: DropDown
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: DropDown()
+    uid: adaptivecards-controls.DropDown.constructor
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new DropDown()
+properties:
+  - name: isOpen
+    uid: adaptivecards-controls.DropDown.isOpen
+    package: adaptivecards-controls
+    summary: ''
+    fullName: isOpen
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isOpen
+      return:
+        description: ''
+        type: boolean
+  - name: items
+    uid: adaptivecards-controls.DropDown.items
+    package: adaptivecards-controls
+    summary: ''
+    fullName: items
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Collection<DropDownItem> items
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards-controls.Collection" />&lt;<xref
+          uid="adaptivecards-controls.DropDownItem" />&gt;
+  - name: labelId
+    uid: adaptivecards-controls.DropDown.labelId
+    package: adaptivecards-controls
+    summary: ''
+    fullName: labelId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string labelId
+      return:
+        description: ''
+        type: string
+  - name: parentLabelId
+    uid: adaptivecards-controls.DropDown.parentLabelId
+    package: adaptivecards-controls
+    summary: ''
+    fullName: parentLabelId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string parentLabelId
+      return:
+        description: ''
+        type: string
+  - name: placeholderText
+    uid: adaptivecards-controls.DropDown.placeholderText
+    package: adaptivecards-controls
+    summary: ''
+    fullName: placeholderText
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string placeholderText
+      return:
+        description: ''
+        type: string
+  - name: selectedIndex
+    uid: adaptivecards-controls.DropDown.selectedIndex
+    package: adaptivecards-controls
+    summary: ''
+    fullName: selectedIndex
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number selectedIndex
+      return:
+        description: ''
+        type: number
+  - name: selectedItem
+    uid: adaptivecards-controls.DropDown.selectedItem
+    package: adaptivecards-controls
+    summary: ''
+    fullName: selectedItem
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: DropDownItem selectedItem
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-controls.DropDownItem" />
+  - name: value
+    uid: adaptivecards-controls.DropDown.value
+    package: adaptivecards-controls
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: DropDownItem value
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-controls.DropDownItem" />
+inheritedProperties:
+  - name: onValueChanged
+    uid: adaptivecards-controls.DropDown.onValueChanged
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onValueChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onValueChanged: (sender: InputControl) => void'
+      return:
+        description: ''
+        type: '(sender: InputControl) =&gt; void'
+inheritedMethods:
+  - name: closePopup(boolean)
+    uid: adaptivecards-controls.DropDown.closePopup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type: boolean
+          description: ''
+methods:
+  - name: attach(HTMLElement)
+    uid: adaptivecards-controls.DropDown.attach
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+  - name: popup()
+    uid: adaptivecards-controls.DropDown.popup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function popup()
+extends: >-
+  <xref uid="adaptivecards-controls.InputWithPopup" />&lt;<xref
+  uid="adaptivecards-controls.DropDownPopupControl" />, <xref
+  uid="adaptivecards-controls.DropDownItem" />&gt;

@@ -1,0 +1,195 @@
+### YamlMime:TSType
+name: ITextBlock
+uid: adaptivecards-templating.ITextBlock
+package: adaptivecards-templating
+summary: ''
+fullName: ITextBlock
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: color
+    uid: adaptivecards-templating.ITextBlock.color
+    package: adaptivecards-templating
+    summary: ''
+    fullName: color
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'color?: TextColor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.TextColor" />
+  - name: isSubtle
+    uid: adaptivecards-templating.ITextBlock.isSubtle
+    package: adaptivecards-templating
+    summary: ''
+    fullName: isSubtle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSubtle?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: maxLines
+    uid: adaptivecards-templating.ITextBlock.maxLines
+    package: adaptivecards-templating
+    summary: ''
+    fullName: maxLines
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxLines?: number'
+      return:
+        description: ''
+        type: number
+  - name: size
+    uid: adaptivecards-templating.ITextBlock.size
+    package: adaptivecards-templating
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size?: TextSize'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.TextSize" />
+  - name: text
+    uid: adaptivecards-templating.ITextBlock.text
+    package: adaptivecards-templating
+    summary: ''
+    fullName: text
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'text: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: adaptivecards-templating.ITextBlock.type
+    package: adaptivecards-templating
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "TextBlock"'
+      return:
+        description: ''
+        type: '"TextBlock"'
+  - name: weight
+    uid: adaptivecards-templating.ITextBlock.weight
+    package: adaptivecards-templating
+    summary: ''
+    fullName: weight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'weight?: TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.TextWeight" />
+  - name: wrap
+    uid: adaptivecards-templating.ITextBlock.wrap
+    package: adaptivecards-templating
+    summary: ''
+    fullName: wrap
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'wrap?: boolean'
+      return:
+        description: ''
+        type: boolean
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-templating.ITextBlock.height
+    package: adaptivecards-templating
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-templating.ITextBlock.horizontalAlignment
+    package: adaptivecards-templating
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-templating.ITextBlock.id
+    package: adaptivecards-templating
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-templating.ITextBlock.separator
+    package: adaptivecards-templating
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-templating.ITextBlock.spacing
+    package: adaptivecards-templating
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.Spacing" />
+  - name: speak
+    uid: adaptivecards-templating.ITextBlock.speak
+    package: adaptivecards-templating
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-templating.ICardElement" />

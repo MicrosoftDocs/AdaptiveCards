@@ -1,0 +1,142 @@
+### YamlMime:TSType
+name: Rect
+uid: adaptivecards-designer.Rect
+package: adaptivecards-designer
+summary: ''
+fullName: Rect
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'Rect(number, number, number, number)'
+    uid: adaptivecards-designer.Rect.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new Rect(top?: number, right?: number, bottom?: number, left?: number)'
+      parameters:
+        - id: top
+          type: number
+          description: ''
+        - id: right
+          type: number
+          description: ''
+        - id: bottom
+          type: number
+          description: ''
+        - id: left
+          type: number
+          description: ''
+properties:
+  - name: bottom
+    uid: adaptivecards-designer.Rect.bottom
+    package: adaptivecards-designer
+    summary: ''
+    fullName: bottom
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'bottom: number'
+      return:
+        description: ''
+        type: number
+  - name: height
+    uid: adaptivecards-designer.Rect.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number height
+      return:
+        description: ''
+        type: number
+  - name: left
+    uid: adaptivecards-designer.Rect.left
+    package: adaptivecards-designer
+    summary: ''
+    fullName: left
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'left: number'
+      return:
+        description: ''
+        type: number
+  - name: right
+    uid: adaptivecards-designer.Rect.right
+    package: adaptivecards-designer
+    summary: ''
+    fullName: right
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'right: number'
+      return:
+        description: ''
+        type: number
+  - name: top
+    uid: adaptivecards-designer.Rect.top
+    package: adaptivecards-designer
+    summary: ''
+    fullName: top
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'top: number'
+      return:
+        description: ''
+        type: number
+  - name: width
+    uid: adaptivecards-designer.Rect.width
+    package: adaptivecards-designer
+    summary: ''
+    fullName: width
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number width
+      return:
+        description: ''
+        type: number
+methods:
+  - name: isInside(IPoint)
+    uid: adaptivecards-designer.Rect.isInside
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isInside(point: IPoint): boolean'
+      parameters:
+        - id: point
+          type: <xref uid="adaptivecards-designer.IPoint" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: union(Rect)
+    uid: adaptivecards-designer.Rect.union
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function union(otherRect: Rect)'
+      parameters:
+        - id: otherRect
+          type: <xref uid="adaptivecards-designer.Rect" />
+          description: ''

@@ -1,0 +1,132 @@
+### YamlMime:TSType
+name: CardObjectRegistry
+uid: adaptivecards.CardObjectRegistry
+package: adaptivecards
+summary: ''
+fullName: CardObjectRegistry<T>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: clear()
+    uid: adaptivecards.CardObjectRegistry.clear
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function clear()
+  - name: copyTo(CardObjectRegistry<T>)
+    uid: adaptivecards.CardObjectRegistry.copyTo
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function copyTo(target: CardObjectRegistry<T>)'
+      parameters:
+        - id: target
+          type: <xref uid="adaptivecards.CardObjectRegistry" />&lt;T&gt;
+          description: ''
+  - name: 'createInstance(string, Version)'
+    uid: adaptivecards.CardObjectRegistry.createInstance
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createInstance(typeName: string, targetVersion: Version): T |
+        undefined
+      parameters:
+        - id: typeName
+          type: string
+          description: ''
+        - id: targetVersion
+          type: <xref uid="adaptivecards.Version" />
+          description: ''
+      return:
+        description: ''
+        type: T | undefined
+  - name: findByName(string)
+    uid: adaptivecards.CardObjectRegistry.findByName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function findByName(typeName: string): ITypeRegistration<T> | undefined'
+      parameters:
+        - id: typeName
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ITypeRegistration" />&lt;T&gt; | undefined
+  - name: getItemAt(number)
+    uid: adaptivecards.CardObjectRegistry.getItemAt
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getItemAt(index: number): ITypeRegistration<T>'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ITypeRegistration" />&lt;T&gt;
+  - name: getItemCount()
+    uid: adaptivecards.CardObjectRegistry.getItemCount
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getItemCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: 'register(string, {  }, Version)'
+    uid: adaptivecards.CardObjectRegistry.register
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function register(typeName: string, objectType: {  }, schemaVersion?:
+        Version)
+      parameters:
+        - id: typeName
+          type: string
+          description: ''
+        - id: objectType
+          type: '{  }'
+          description: ''
+        - id: schemaVersion
+          type: <xref uid="adaptivecards.Version" />
+          description: ''
+  - name: unregister(string)
+    uid: adaptivecards.CardObjectRegistry.unregister
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function unregister(typeName: string)'
+      parameters:
+        - id: typeName
+          type: string
+          description: ''

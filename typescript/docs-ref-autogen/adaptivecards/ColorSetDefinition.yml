@@ -1,0 +1,130 @@
+### YamlMime:TSType
+name: ColorSetDefinition
+uid: adaptivecards.ColorSetDefinition
+package: adaptivecards
+summary: ''
+fullName: ColorSetDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ColorSetDefinition(any)
+    uid: adaptivecards.ColorSetDefinition.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ColorSetDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: accent
+    uid: adaptivecards.ColorSetDefinition.accent
+    package: adaptivecards
+    summary: ''
+    fullName: accent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'accent: TextColorDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColorDefinition" />
+  - name: attention
+    uid: adaptivecards.ColorSetDefinition.attention
+    package: adaptivecards
+    summary: ''
+    fullName: attention
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'attention: TextColorDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColorDefinition" />
+  - name: dark
+    uid: adaptivecards.ColorSetDefinition.dark
+    package: adaptivecards
+    summary: ''
+    fullName: dark
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'dark: TextColorDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColorDefinition" />
+  - name: default
+    uid: adaptivecards.ColorSetDefinition.default
+    package: adaptivecards
+    summary: ''
+    fullName: default
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'default: TextColorDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColorDefinition" />
+  - name: good
+    uid: adaptivecards.ColorSetDefinition.good
+    package: adaptivecards
+    summary: ''
+    fullName: good
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'good: TextColorDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColorDefinition" />
+  - name: light
+    uid: adaptivecards.ColorSetDefinition.light
+    package: adaptivecards
+    summary: ''
+    fullName: light
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'light: TextColorDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColorDefinition" />
+  - name: warning
+    uid: adaptivecards.ColorSetDefinition.warning
+    package: adaptivecards
+    summary: ''
+    fullName: warning
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'warning: TextColorDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColorDefinition" />
+methods:
+  - name: parse(any)
+    uid: adaptivecards.ColorSetDefinition.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(obj: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''

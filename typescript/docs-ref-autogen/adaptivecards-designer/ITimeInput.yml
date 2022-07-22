@@ -1,0 +1,156 @@
+### YamlMime:TSType
+name: ITimeInput
+uid: adaptivecards-designer.ITimeInput
+package: adaptivecards-designer
+summary: ''
+fullName: ITimeInput
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: max
+    uid: adaptivecards-designer.ITimeInput.max
+    package: adaptivecards-designer
+    summary: ''
+    fullName: max
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'max?: string'
+      return:
+        description: ''
+        type: string
+  - name: min
+    uid: adaptivecards-designer.ITimeInput.min
+    package: adaptivecards-designer
+    summary: ''
+    fullName: min
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'min?: string'
+      return:
+        description: ''
+        type: string
+  - name: placeholder
+    uid: adaptivecards-designer.ITimeInput.placeholder
+    package: adaptivecards-designer
+    summary: ''
+    fullName: placeholder
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'placeholder?: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: adaptivecards-designer.ITimeInput.type
+    package: adaptivecards-designer
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Input.Time"'
+      return:
+        description: ''
+        type: '"<xref uid="Input.Time" />"'
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-designer.ITimeInput.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-designer.ITimeInput.horizontalAlignment
+    package: adaptivecards-designer
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-designer.ITimeInput.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-designer.ITimeInput.separator
+    package: adaptivecards-designer
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-designer.ITimeInput.spacing
+    package: adaptivecards-designer
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Spacing" />
+  - name: speak
+    uid: adaptivecards-designer.ITimeInput.speak
+    package: adaptivecards-designer
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards-designer.ITimeInput.value
+    package: adaptivecards-designer
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-designer.IInput" />

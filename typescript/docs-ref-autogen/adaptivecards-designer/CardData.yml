@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: CardData
+uid: adaptivecards-designer.CardData
+package: adaptivecards-designer
+summary: ''
+fullName: CardData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: cardPayload
+    uid: adaptivecards-designer.CardData.cardPayload
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardPayload
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cardPayload?: string'
+      return:
+        description: ''
+        type: string
+  - name: sampleData
+    uid: adaptivecards-designer.CardData.sampleData
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sampleData?: string'
+      return:
+        description: ''
+        type: string
+  - name: thumbnail
+    uid: adaptivecards-designer.CardData.thumbnail
+    package: adaptivecards-designer
+    summary: ''
+    fullName: thumbnail
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'thumbnail?: HTMLElement | () => HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement | () =&gt; HTMLElement

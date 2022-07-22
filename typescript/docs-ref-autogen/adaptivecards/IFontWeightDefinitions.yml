@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: IFontWeightDefinitions
+uid: adaptivecards.IFontWeightDefinitions
+package: adaptivecards
+summary: ''
+fullName: IFontWeightDefinitions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: bolder
+    uid: adaptivecards.IFontWeightDefinitions.bolder
+    package: adaptivecards
+    summary: ''
+    fullName: bolder
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'bolder: number'
+      return:
+        description: ''
+        type: number
+  - name: default
+    uid: adaptivecards.IFontWeightDefinitions.default
+    package: adaptivecards
+    summary: ''
+    fullName: default
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'default: number'
+      return:
+        description: ''
+        type: number
+  - name: lighter
+    uid: adaptivecards.IFontWeightDefinitions.lighter
+    package: adaptivecards
+    summary: ''
+    fullName: lighter
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lighter: number'
+      return:
+        description: ''
+        type: number

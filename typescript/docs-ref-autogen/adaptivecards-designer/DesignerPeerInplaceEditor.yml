@@ -1,0 +1,61 @@
+### YamlMime:TSType
+name: DesignerPeerInplaceEditor
+uid: adaptivecards-designer.DesignerPeerInplaceEditor
+package: adaptivecards-designer
+summary: ''
+fullName: DesignerPeerInplaceEditor
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: onClose
+    uid: adaptivecards-designer.DesignerPeerInplaceEditor.onClose
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (applyChanges: boolean) => void'
+      return:
+        description: ''
+        type: '(applyChanges: boolean) =&gt; void'
+methods:
+  - name: applyChanges()
+    uid: adaptivecards-designer.DesignerPeerInplaceEditor.applyChanges
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function applyChanges(): any'
+      return:
+        description: ''
+        type: any
+  - name: initialize()
+    uid: adaptivecards-designer.DesignerPeerInplaceEditor.initialize
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function initialize(): any'
+      return:
+        description: ''
+        type: any
+  - name: render()
+    uid: adaptivecards-designer.DesignerPeerInplaceEditor.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement

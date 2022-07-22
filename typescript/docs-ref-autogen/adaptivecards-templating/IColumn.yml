@@ -1,0 +1,169 @@
+### YamlMime:TSType
+name: IColumn
+uid: adaptivecards-templating.IColumn
+package: adaptivecards-templating
+summary: ''
+fullName: IColumn
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: backgroundImage
+    uid: adaptivecards-templating.IColumn.backgroundImage
+    package: adaptivecards-templating
+    summary: ''
+    fullName: backgroundImage
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'backgroundImage?: IBackgroundImage | string'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.IBackgroundImage" /> | string
+  - name: items
+    uid: adaptivecards-templating.IColumn.items
+    package: adaptivecards-templating
+    summary: ''
+    fullName: items
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'items?: ICardElement[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-templating.ICardElement" />[]'
+  - name: selectAction
+    uid: adaptivecards-templating.IColumn.selectAction
+    package: adaptivecards-templating
+    summary: ''
+    fullName: selectAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'selectAction?: IAction'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.IAction" />
+  - name: style
+    uid: adaptivecards-templating.IColumn.style
+    package: adaptivecards-templating
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'style?: ContainerStyle'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.ContainerStyle" />
+  - name: verticalContentAlignment
+    uid: adaptivecards-templating.IColumn.verticalContentAlignment
+    package: adaptivecards-templating
+    summary: ''
+    fullName: verticalContentAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'verticalContentAlignment?: VerticalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.VerticalAlignment" />
+  - name: width
+    uid: adaptivecards-templating.IColumn.width
+    package: adaptivecards-templating
+    summary: ''
+    fullName: width
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'width?: number | "auto" | "stretch" | "auto"'
+      return:
+        description: ''
+        type: number | "auto" | "stretch" | "auto"
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-templating.IColumn.height
+    package: adaptivecards-templating
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-templating.IColumn.horizontalAlignment
+    package: adaptivecards-templating
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-templating.IColumn.id
+    package: adaptivecards-templating
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-templating.IColumn.separator
+    package: adaptivecards-templating
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-templating.IColumn.spacing
+    package: adaptivecards-templating
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.Spacing" />
+  - name: speak
+    uid: adaptivecards-templating.IColumn.speak
+    package: adaptivecards-templating
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-templating.ICardElement" />

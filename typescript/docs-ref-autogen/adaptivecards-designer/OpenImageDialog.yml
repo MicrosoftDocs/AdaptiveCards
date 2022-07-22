@@ -1,0 +1,159 @@
+### YamlMime:TSType
+name: OpenImageDialog
+uid: adaptivecards-designer.OpenImageDialog
+package: adaptivecards-designer
+summary: ''
+fullName: OpenImageDialog
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: OpenImageDialog()
+    uid: adaptivecards-designer.OpenImageDialog.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new OpenImageDialog()
+properties:
+  - name: predictedCardJSON
+    uid: adaptivecards-designer.OpenImageDialog.predictedCardJSON
+    package: adaptivecards-designer
+    summary: ''
+    fullName: predictedCardJSON
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: predictedCardJSON predictedCardJSON
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.predictedCardJSON" />
+inheritedProperties:
+  - name: buttons
+    uid: adaptivecards-designer.OpenImageDialog.buttons
+    package: adaptivecards-designer
+    summary: ''
+    fullName: buttons
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'buttons?: DialogButton[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.DialogButton" />[]'
+  - name: closeButton
+    uid: adaptivecards-designer.OpenImageDialog.closeButton
+    package: adaptivecards-designer
+    summary: ''
+    fullName: closeButton
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'closeButton: DialogButton'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DialogButton" />
+  - name: height
+    uid: adaptivecards-designer.OpenImageDialog.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height: string'
+      return:
+        description: ''
+        type: string
+  - name: onClose
+    uid: adaptivecards-designer.OpenImageDialog.onClose
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (sender: Dialog) => void'
+      return:
+        description: ''
+        type: '(sender: Dialog) =&gt; void'
+  - name: preventLightDismissal
+    uid: adaptivecards-designer.OpenImageDialog.preventLightDismissal
+    package: adaptivecards-designer
+    summary: ''
+    fullName: preventLightDismissal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'preventLightDismissal: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: title
+    uid: adaptivecards-designer.OpenImageDialog.title
+    package: adaptivecards-designer
+    summary: ''
+    fullName: title
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'title: string'
+      return:
+        description: ''
+        type: string
+  - name: width
+    uid: adaptivecards-designer.OpenImageDialog.width
+    package: adaptivecards-designer
+    summary: ''
+    fullName: width
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'width: string'
+      return:
+        description: ''
+        type: string
+inheritedMethods:
+  - name: close()
+    uid: adaptivecards-designer.OpenImageDialog.close
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function close()
+  - name: open()
+    uid: adaptivecards-designer.OpenImageDialog.open
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function open()
+methods:
+  - name: createActionButton()
+    uid: adaptivecards-designer.OpenImageDialog.createActionButton
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function createActionButton(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+extends: <xref uid="adaptivecards-designer.Dialog" />

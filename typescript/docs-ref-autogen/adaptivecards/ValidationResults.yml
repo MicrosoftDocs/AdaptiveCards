@@ -1,0 +1,59 @@
+### YamlMime:TSType
+name: ValidationResults
+uid: adaptivecards.ValidationResults
+package: adaptivecards
+summary: ''
+fullName: ValidationResults
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: allIds
+    uid: adaptivecards.ValidationResults.allIds
+    package: adaptivecards
+    summary: ''
+    fullName: allIds
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allIds: Dictionary<number>'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Dictionary" />&lt;number&gt;
+  - name: validationEvents
+    uid: adaptivecards.ValidationResults.validationEvents
+    package: adaptivecards
+    summary: ''
+    fullName: validationEvents
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'validationEvents: IValidationEvent[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.IValidationEvent" />[]'
+methods:
+  - name: 'addFailure(CardObject, ValidationEvent, string)'
+    uid: adaptivecards.ValidationResults.addFailure
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function addFailure(cardObject: CardObject, event: ValidationEvent,
+        message: string)
+      parameters:
+        - id: cardObject
+          type: <xref uid="adaptivecards.CardObject" />
+          description: ''
+        - id: event
+          type: <xref uid="adaptivecards.ValidationEvent" />
+          description: ''
+        - id: message
+          type: string
+          description: ''

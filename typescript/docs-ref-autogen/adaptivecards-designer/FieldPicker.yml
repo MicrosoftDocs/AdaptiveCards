@@ -1,0 +1,145 @@
+### YamlMime:TSType
+name: FieldPicker
+uid: adaptivecards-designer.FieldPicker
+package: adaptivecards-designer
+summary: ''
+fullName: FieldPicker
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: FieldPicker(FieldDefinition)
+    uid: adaptivecards-designer.FieldPicker.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new FieldPicker(dataStructure: FieldDefinition)'
+      parameters:
+        - id: dataStructure
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+properties:
+  - name: dataStructure
+    uid: adaptivecards-designer.FieldPicker.dataStructure
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dataStructure
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'dataStructure: FieldDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: isOpen
+    uid: adaptivecards-designer.FieldPicker.isOpen
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isOpen
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isOpen
+      return:
+        description: ''
+        type: boolean
+  - name: selectedField
+    uid: adaptivecards-designer.FieldPicker.selectedField
+    package: adaptivecards-designer
+    summary: ''
+    fullName: selectedField
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: FieldDefinition selectedField
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+inheritedProperties:
+  - name: onClose
+    uid: adaptivecards-designer.FieldPicker.onClose
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (popupControl: PopupControl, wasCancelled: boolean) => void'
+      return:
+        description: ''
+        type: '(popupControl: PopupControl, wasCancelled: boolean) =&gt; void'
+inheritedMethods:
+  - name: closePopup(boolean)
+    uid: adaptivecards-designer.FieldPicker.closePopup
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type: boolean
+          description: ''
+  - name: popup(HTMLElement)
+    uid: adaptivecards-designer.FieldPicker.popup
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function popup(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+methods:
+  - name: focus()
+    uid: adaptivecards-designer.FieldPicker.focus
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: keyDown(KeyboardEvent)
+    uid: adaptivecards-designer.FieldPicker.keyDown
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function keyDown(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type: KeyboardEvent
+          description: ''
+  - name: render(ClientRect)
+    uid: adaptivecards-designer.FieldPicker.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(rootElementBounds: ClientRect): HTMLElement'
+      parameters:
+        - id: rootElementBounds
+          type: ClientRect
+          description: ''
+      return:
+        description: ''
+        type: HTMLElement
+extends: PopupControl

@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: CardObjectType
+uid: adaptivecards.CardObjectType
+package: adaptivecards
+summary: ''
+fullName: CardObjectType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type CardObjectType = {}

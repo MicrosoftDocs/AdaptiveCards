@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: RadioButton
+uid: adaptivecards-controls.RadioButton
+package: adaptivecards-controls
+summary: ''
+fullName: RadioButton
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: isChecked
+    uid: adaptivecards-controls.RadioButton.isChecked
+    package: adaptivecards-controls
+    summary: ''
+    fullName: isChecked
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isChecked
+      return:
+        description: ''
+        type: boolean
+  - name: label
+    uid: adaptivecards-controls.RadioButton.label
+    package: adaptivecards-controls
+    summary: ''
+    fullName: label
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string label
+      return:
+        description: ''
+        type: string
+  - name: onChange
+    uid: adaptivecards-controls.RadioButton.onChange
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onChange
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onChange: (sender: RadioButton) => void'
+      return:
+        description: ''
+        type: '(sender: RadioButton) =&gt; void'
+methods:
+  - name: attach(HTMLElement)
+    uid: adaptivecards-controls.RadioButton.attach
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+extends: <xref uid="adaptivecards-controls.InputControl" />

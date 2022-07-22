@@ -1,0 +1,38 @@
+### YamlMime:TSType
+name: TextBlockConfig
+uid: adaptivecards.TextBlockConfig
+package: adaptivecards
+summary: ''
+fullName: TextBlockConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TextBlockConfig(any)
+    uid: adaptivecards.TextBlockConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new TextBlockConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: headingLevel
+    uid: adaptivecards.TextBlockConfig.headingLevel
+    package: adaptivecards
+    summary: ''
+    fullName: headingLevel
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'headingLevel?: number'
+      return:
+        description: ''
+        type: number

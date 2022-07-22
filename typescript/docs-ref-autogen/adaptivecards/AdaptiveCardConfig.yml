@@ -1,0 +1,38 @@
+### YamlMime:TSType
+name: AdaptiveCardConfig
+uid: adaptivecards.AdaptiveCardConfig
+package: adaptivecards
+summary: ''
+fullName: AdaptiveCardConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: AdaptiveCardConfig(any)
+    uid: adaptivecards.AdaptiveCardConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new AdaptiveCardConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: allowCustomStyle
+    uid: adaptivecards.AdaptiveCardConfig.allowCustomStyle
+    package: adaptivecards
+    summary: ''
+    fullName: allowCustomStyle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowCustomStyle: boolean'
+      return:
+        description: ''
+        type: boolean

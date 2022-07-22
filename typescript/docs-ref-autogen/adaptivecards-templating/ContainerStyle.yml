@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: ContainerStyle
+uid: adaptivecards-templating.ContainerStyle
+package: adaptivecards-templating
+summary: ''
+fullName: ContainerStyle
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type ContainerStyle = "default" | "emphasis"

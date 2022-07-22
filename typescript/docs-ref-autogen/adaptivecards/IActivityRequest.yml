@@ -1,0 +1,99 @@
+### YamlMime:TSType
+name: IActivityRequest
+uid: adaptivecards.IActivityRequest
+package: adaptivecards
+summary: ''
+fullName: IActivityRequest
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: action
+    uid: adaptivecards.IActivityRequest.action
+    package: adaptivecards
+    summary: ''
+    fullName: action
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'action: ExecuteAction'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ExecuteAction" />
+  - name: attemptNumber
+    uid: adaptivecards.IActivityRequest.attemptNumber
+    package: adaptivecards
+    summary: ''
+    fullName: attemptNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'attemptNumber: number'
+      return:
+        description: ''
+        type: number
+  - name: authCode
+    uid: adaptivecards.IActivityRequest.authCode
+    package: adaptivecards
+    summary: ''
+    fullName: authCode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'authCode?: string'
+      return:
+        description: ''
+        type: string
+  - name: authToken
+    uid: adaptivecards.IActivityRequest.authToken
+    package: adaptivecards
+    summary: ''
+    fullName: authToken
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'authToken?: string'
+      return:
+        description: ''
+        type: string
+  - name: consecutiveRefreshes
+    uid: adaptivecards.IActivityRequest.consecutiveRefreshes
+    package: adaptivecards
+    summary: ''
+    fullName: consecutiveRefreshes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'consecutiveRefreshes: number'
+      return:
+        description: ''
+        type: number
+  - name: trigger
+    uid: adaptivecards.IActivityRequest.trigger
+    package: adaptivecards
+    summary: ''
+    fullName: trigger
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'trigger: ActivityRequestTrigger'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ActivityRequestTrigger" />
+methods:
+  - name: retryAsync()
+    uid: adaptivecards.IActivityRequest.retryAsync
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function retryAsync()

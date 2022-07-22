@@ -1,0 +1,156 @@
+### YamlMime:TSType
+name: INumberInput
+uid: adaptivecards-templating.INumberInput
+package: adaptivecards-templating
+summary: ''
+fullName: INumberInput
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: max
+    uid: adaptivecards-templating.INumberInput.max
+    package: adaptivecards-templating
+    summary: ''
+    fullName: max
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'max?: number'
+      return:
+        description: ''
+        type: number
+  - name: min
+    uid: adaptivecards-templating.INumberInput.min
+    package: adaptivecards-templating
+    summary: ''
+    fullName: min
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'min?: number'
+      return:
+        description: ''
+        type: number
+  - name: placeholder
+    uid: adaptivecards-templating.INumberInput.placeholder
+    package: adaptivecards-templating
+    summary: ''
+    fullName: placeholder
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'placeholder?: string'
+      return:
+        description: ''
+        type: string
+  - name: type
+    uid: adaptivecards-templating.INumberInput.type
+    package: adaptivecards-templating
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Input.Number"'
+      return:
+        description: ''
+        type: '"<xref uid="Input.Number" />"'
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-templating.INumberInput.height
+    package: adaptivecards-templating
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-templating.INumberInput.horizontalAlignment
+    package: adaptivecards-templating
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-templating.INumberInput.id
+    package: adaptivecards-templating
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-templating.INumberInput.separator
+    package: adaptivecards-templating
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-templating.INumberInput.spacing
+    package: adaptivecards-templating
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.Spacing" />
+  - name: speak
+    uid: adaptivecards-templating.INumberInput.speak
+    package: adaptivecards-templating
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards-templating.INumberInput.value
+    package: adaptivecards-templating
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-templating.IInput" />

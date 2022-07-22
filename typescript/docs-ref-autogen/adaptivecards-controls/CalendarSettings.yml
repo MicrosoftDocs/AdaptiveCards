@@ -1,0 +1,196 @@
+### YamlMime:TSType
+name: CalendarSettings
+uid: adaptivecards-controls.CalendarSettings
+package: adaptivecards-controls
+summary: ''
+fullName: CalendarSettings
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: daysInWeek
+    uid: adaptivecards-controls.CalendarSettings.daysInWeek
+    package: adaptivecards-controls
+    summary: ''
+    fullName: daysInWeek
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static daysInWeek: number'
+      return:
+        description: ''
+        type: number
+  - name: firstDayOfWeek
+    uid: adaptivecards-controls.CalendarSettings.firstDayOfWeek
+    package: adaptivecards-controls
+    summary: ''
+    fullName: firstDayOfWeek
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static firstDayOfWeek: DayOfWeek'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-controls.DayOfWeek" />
+  - name: longDayNames
+    uid: adaptivecards-controls.CalendarSettings.longDayNames
+    package: adaptivecards-controls
+    summary: ''
+    fullName: longDayNames
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static longDayNames: string[]'
+      return:
+        description: ''
+        type: 'string[]'
+  - name: longMonthNames
+    uid: adaptivecards-controls.CalendarSettings.longMonthNames
+    package: adaptivecards-controls
+    summary: ''
+    fullName: longMonthNames
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static longMonthNames: string[]'
+      return:
+        description: ''
+        type: 'string[]'
+  - name: minimalDayNames
+    uid: adaptivecards-controls.CalendarSettings.minimalDayNames
+    package: adaptivecards-controls
+    summary: ''
+    fullName: minimalDayNames
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static minimalDayNames: string[]'
+      return:
+        description: ''
+        type: 'string[]'
+  - name: monthsInYear
+    uid: adaptivecards-controls.CalendarSettings.monthsInYear
+    package: adaptivecards-controls
+    summary: ''
+    fullName: monthsInYear
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static monthsInYear: number'
+      return:
+        description: ''
+        type: number
+  - name: shortDayNames
+    uid: adaptivecards-controls.CalendarSettings.shortDayNames
+    package: adaptivecards-controls
+    summary: ''
+    fullName: shortDayNames
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static shortDayNames: string[]'
+      return:
+        description: ''
+        type: 'string[]'
+  - name: shortMonthNames
+    uid: adaptivecards-controls.CalendarSettings.shortMonthNames
+    package: adaptivecards-controls
+    summary: ''
+    fullName: shortMonthNames
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static shortMonthNames: string[]'
+      return:
+        description: ''
+        type: 'string[]'
+methods:
+  - name: getInitialDayName(number)
+    uid: adaptivecards-controls.CalendarSettings.getInitialDayName
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function getInitialDayName(dayIndex: number): string'
+      parameters:
+        - id: dayIndex
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: string
+  - name: getLongDayName(number)
+    uid: adaptivecards-controls.CalendarSettings.getLongDayName
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function getLongDayName(dayIndex: number): string'
+      parameters:
+        - id: dayIndex
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: string
+  - name: getLongMonthName(number)
+    uid: adaptivecards-controls.CalendarSettings.getLongMonthName
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function getLongMonthName(monthIndex: number): string'
+      parameters:
+        - id: monthIndex
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: string
+  - name: getShortDayName(number)
+    uid: adaptivecards-controls.CalendarSettings.getShortDayName
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function getShortDayName(dayIndex: number): string'
+      parameters:
+        - id: dayIndex
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: string
+  - name: getShortMonthName(number)
+    uid: adaptivecards-controls.CalendarSettings.getShortMonthName
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function getShortMonthName(monthIndex: number): string'
+      parameters:
+        - id: monthIndex
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: string

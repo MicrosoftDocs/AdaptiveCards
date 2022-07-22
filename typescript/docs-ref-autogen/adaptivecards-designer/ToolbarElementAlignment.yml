@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: ToolbarElementAlignment
+uid: adaptivecards-designer.ToolbarElementAlignment
+package: adaptivecards-designer
+summary: ''
+fullName: ToolbarElementAlignment
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Left
+    uid: adaptivecards-designer.ToolbarElementAlignment.Left
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 0
+  - name: Right
+    uid: adaptivecards-designer.ToolbarElementAlignment.Right
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 1

@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: IShowCardAction
+uid: adaptivecards-templating.IShowCardAction
+package: adaptivecards-templating
+summary: ''
+fullName: IShowCardAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: card
+    uid: adaptivecards-templating.IShowCardAction.card
+    package: adaptivecards-templating
+    summary: ''
+    fullName: card
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'card: IAdaptiveCard'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.IAdaptiveCard" />
+  - name: type
+    uid: adaptivecards-templating.IShowCardAction.type
+    package: adaptivecards-templating
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Action.ShowCard"'
+      return:
+        description: ''
+        type: '"<xref uid="Action.ShowCard" />"'
+inheritedProperties:
+  - name: id
+    uid: adaptivecards-templating.IShowCardAction.id
+    package: adaptivecards-templating
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: title
+    uid: adaptivecards-templating.IShowCardAction.title
+    package: adaptivecards-templating
+    summary: ''
+    fullName: title
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'title?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-templating.IAction" />

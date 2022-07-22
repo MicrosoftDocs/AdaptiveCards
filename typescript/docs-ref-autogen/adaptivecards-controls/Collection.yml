@@ -1,0 +1,109 @@
+### YamlMime:TSType
+name: Collection
+uid: adaptivecards-controls.Collection
+package: adaptivecards-controls
+summary: ''
+fullName: Collection<TItem>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: length
+    uid: adaptivecards-controls.Collection.length
+    package: adaptivecards-controls
+    summary: ''
+    fullName: length
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number length
+      return:
+        description: ''
+        type: number
+  - name: onItemAdded
+    uid: adaptivecards-controls.Collection.onItemAdded
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onItemAdded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onItemAdded: (item: TItem) => void'
+      return:
+        description: ''
+        type: '(item: TItem) =&gt; void'
+  - name: onItemRemoved
+    uid: adaptivecards-controls.Collection.onItemRemoved
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onItemRemoved
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onItemRemoved: (item: TItem) => void'
+      return:
+        description: ''
+        type: '(item: TItem) =&gt; void'
+methods:
+  - name: add(TItem)
+    uid: adaptivecards-controls.Collection.add
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function add(item: TItem)'
+      parameters:
+        - id: item
+          type: TItem
+          description: ''
+  - name: get(number)
+    uid: adaptivecards-controls.Collection.get
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function get(index: number): TItem'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: TItem
+  - name: indexOf(TItem)
+    uid: adaptivecards-controls.Collection.indexOf
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOf(item: TItem): number'
+      parameters:
+        - id: item
+          type: TItem
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: remove(TItem)
+    uid: adaptivecards-controls.Collection.remove
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(item: TItem)'
+      parameters:
+        - id: item
+          type: TItem
+          description: ''

@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IStringData
+uid: adaptivecards-designer.IStringData
+package: adaptivecards-designer
+summary: ''
+fullName: IStringData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: sampleValue
+    uid: adaptivecards-designer.IStringData.sampleValue
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sampleValue?: string'
+      return:
+        description: ''
+        type: string
+  - name: valueType
+    uid: adaptivecards-designer.IStringData.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueType: "String"'
+      return:
+        description: ''
+        type: '"String"'

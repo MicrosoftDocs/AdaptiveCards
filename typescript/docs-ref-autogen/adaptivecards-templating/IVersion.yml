@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IVersion
+uid: adaptivecards-templating.IVersion
+package: adaptivecards-templating
+summary: ''
+fullName: IVersion
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: major
+    uid: adaptivecards-templating.IVersion.major
+    package: adaptivecards-templating
+    summary: ''
+    fullName: major
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'major: number'
+      return:
+        description: ''
+        type: number
+  - name: minor
+    uid: adaptivecards-templating.IVersion.minor
+    package: adaptivecards-templating
+    summary: ''
+    fullName: minor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'minor: number'
+      return:
+        description: ''
+        type: number

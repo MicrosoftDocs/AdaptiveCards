@@ -1,0 +1,411 @@
+### YamlMime:TSType
+name: HostConfig
+uid: adaptivecards.HostConfig
+package: adaptivecards
+summary: ''
+fullName: HostConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: HostConfig(any)
+    uid: adaptivecards.HostConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new HostConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: actions
+    uid: adaptivecards.HostConfig.actions
+    package: adaptivecards
+    summary: ''
+    fullName: actions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'actions: ActionsConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ActionsConfig" />
+  - name: adaptiveCard
+    uid: adaptivecards.HostConfig.adaptiveCard
+    package: adaptivecards
+    summary: ''
+    fullName: adaptiveCard
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'adaptiveCard: AdaptiveCardConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.AdaptiveCardConfig" />
+  - name: alwaysAllowBleed
+    uid: adaptivecards.HostConfig.alwaysAllowBleed
+    package: adaptivecards
+    summary: ''
+    fullName: alwaysAllowBleed
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'alwaysAllowBleed: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: choiceSetInputValueSeparator
+    uid: adaptivecards.HostConfig.choiceSetInputValueSeparator
+    package: adaptivecards
+    summary: ''
+    fullName: choiceSetInputValueSeparator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'choiceSetInputValueSeparator: string'
+      return:
+        description: ''
+        type: string
+  - name: containerStyles
+    uid: adaptivecards.HostConfig.containerStyles
+    package: adaptivecards
+    summary: ''
+    fullName: containerStyles
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'containerStyles: ContainerStyleSet'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyleSet" />
+  - name: cssClassNamePrefix
+    uid: adaptivecards.HostConfig.cssClassNamePrefix
+    package: adaptivecards
+    summary: ''
+    fullName: cssClassNamePrefix
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cssClassNamePrefix?: string'
+      return:
+        description: ''
+        type: string
+  - name: factSet
+    uid: adaptivecards.HostConfig.factSet
+    package: adaptivecards
+    summary: ''
+    fullName: factSet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'factSet: FactSetConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FactSetConfig" />
+  - name: fontFamily
+    uid: adaptivecards.HostConfig.fontFamily
+    package: adaptivecards
+    summary: ''
+    fullName: fontFamily
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string | undefined fontFamily
+      return:
+        description: ''
+        type: string | undefined
+  - name: fontSizes
+    uid: adaptivecards.HostConfig.fontSizes
+    package: adaptivecards
+    summary: ''
+    fullName: fontSizes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: IFontSizeDefinitions fontSizes
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IFontSizeDefinitions" />
+  - name: fontTypes
+    uid: adaptivecards.HostConfig.fontTypes
+    package: adaptivecards
+    summary: ''
+    fullName: fontTypes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fontTypes?: FontTypeSet'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FontTypeSet" />
+  - name: fontWeights
+    uid: adaptivecards.HostConfig.fontWeights
+    package: adaptivecards
+    summary: ''
+    fullName: fontWeights
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: IFontWeightDefinitions fontWeights
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IFontWeightDefinitions" />
+  - name: hostCapabilities
+    uid: adaptivecards.HostConfig.hostCapabilities
+    package: adaptivecards
+    summary: ''
+    fullName: hostCapabilities
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'hostCapabilities: HostCapabilities'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostCapabilities" />
+  - name: imageSet
+    uid: adaptivecards.HostConfig.imageSet
+    package: adaptivecards
+    summary: ''
+    fullName: imageSet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'imageSet: ImageSetConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ImageSetConfig" />
+  - name: imageSizes
+    uid: adaptivecards.HostConfig.imageSizes
+    package: adaptivecards
+    summary: ''
+    fullName: imageSizes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'imageSizes: { large: number, medium: number, small: number }'
+      return:
+        description: ''
+        type: '{ large: number, medium: number, small: number }'
+  - name: inputs
+    uid: adaptivecards.HostConfig.inputs
+    package: adaptivecards
+    summary: ''
+    fullName: inputs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'inputs: InputConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.InputConfig" />
+  - name: lineHeights
+    uid: adaptivecards.HostConfig.lineHeights
+    package: adaptivecards
+    summary: ''
+    fullName: lineHeights
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lineHeights?: ILineHeightDefinitions'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ILineHeightDefinitions" />
+  - name: media
+    uid: adaptivecards.HostConfig.media
+    package: adaptivecards
+    summary: ''
+    fullName: media
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'media: MediaConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.MediaConfig" />
+  - name: separator
+    uid: adaptivecards.HostConfig.separator
+    package: adaptivecards
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator: { lineColor: string, lineThickness: number }'
+      return:
+        description: ''
+        type: '{ lineColor: string, lineThickness: number }'
+  - name: spacing
+    uid: adaptivecards.HostConfig.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        spacing: { default: number, extraLarge: number, large: number, medium:
+        number, padding: number, small: number }
+      return:
+        description: ''
+        type: >-
+          { default: number, extraLarge: number, large: number, medium: number,
+          padding: number, small: number }
+  - name: supportsInteractivity
+    uid: adaptivecards.HostConfig.supportsInteractivity
+    package: adaptivecards
+    summary: ''
+    fullName: supportsInteractivity
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'supportsInteractivity: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: table
+    uid: adaptivecards.HostConfig.table
+    package: adaptivecards
+    summary: ''
+    fullName: table
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'table: TableConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TableConfig" />
+  - name: textBlock
+    uid: adaptivecards.HostConfig.textBlock
+    package: adaptivecards
+    summary: ''
+    fullName: textBlock
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'textBlock: TextBlockConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextBlockConfig" />
+  - name: textStyles
+    uid: adaptivecards.HostConfig.textStyles
+    package: adaptivecards
+    summary: ''
+    fullName: textStyles
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'textStyles: TextStyleSet'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextStyleSet" />
+methods:
+  - name: getEffectiveSpacing(Spacing)
+    uid: adaptivecards.HostConfig.getEffectiveSpacing
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEffectiveSpacing(spacing: Spacing): number'
+      parameters:
+        - id: spacing
+          type: <xref uid="adaptivecards.Spacing" />
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: getFontTypeDefinition(FontType)
+    uid: adaptivecards.HostConfig.getFontTypeDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getFontTypeDefinition(style?: FontType): FontTypeDefinition'
+      parameters:
+        - id: style
+          type: <xref uid="adaptivecards.FontType" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FontTypeDefinition" />
+  - name: 'makeCssClassName(string[])'
+    uid: adaptivecards.HostConfig.makeCssClassName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function makeCssClassName(classNames: string[]): string'
+      parameters:
+        - id: classNames
+          type: 'string[]'
+          description: ''
+      return:
+        description: ''
+        type: string
+  - name: 'makeCssClassNames(string[])'
+    uid: adaptivecards.HostConfig.makeCssClassNames
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function makeCssClassNames(classNames: string[]): string[]'
+      parameters:
+        - id: classNames
+          type: 'string[]'
+          description: ''
+      return:
+        description: ''
+        type: 'string[]'
+  - name: paddingDefinitionToSpacingDefinition(PaddingDefinition)
+    uid: adaptivecards.HostConfig.paddingDefinitionToSpacingDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function paddingDefinitionToSpacingDefinition(paddingDefinition:
+        PaddingDefinition): SpacingDefinition
+      parameters:
+        - id: paddingDefinition
+          type: <xref uid="adaptivecards.PaddingDefinition" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.SpacingDefinition" />

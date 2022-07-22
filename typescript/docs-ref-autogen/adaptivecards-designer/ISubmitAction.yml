@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: ISubmitAction
+uid: adaptivecards-designer.ISubmitAction
+package: adaptivecards-designer
+summary: ''
+fullName: ISubmitAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: data
+    uid: adaptivecards-designer.ISubmitAction.data
+    package: adaptivecards-designer
+    summary: ''
+    fullName: data
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'data?: any'
+      return:
+        description: ''
+        type: any
+  - name: type
+    uid: adaptivecards-designer.ISubmitAction.type
+    package: adaptivecards-designer
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Action.Submit"'
+      return:
+        description: ''
+        type: '"<xref uid="Action.Submit" />"'
+inheritedProperties:
+  - name: id
+    uid: adaptivecards-designer.ISubmitAction.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: title
+    uid: adaptivecards-designer.ISubmitAction.title
+    package: adaptivecards-designer
+    summary: ''
+    fullName: title
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'title?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-designer.IAction" />

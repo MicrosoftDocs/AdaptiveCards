@@ -1,0 +1,71 @@
+### YamlMime:TSType
+name: Calendar
+uid: adaptivecards-controls.Calendar
+package: adaptivecards-controls
+summary: ''
+fullName: Calendar
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: Calendar()
+    uid: adaptivecards-controls.Calendar.constructor
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new Calendar()
+properties:
+  - name: date
+    uid: adaptivecards-controls.Calendar.date
+    package: adaptivecards-controls
+    summary: ''
+    fullName: date
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Date date
+      return:
+        description: ''
+        type: Date
+  - name: onDateChanged
+    uid: adaptivecards-controls.Calendar.onDateChanged
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onDateChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDateChanged: (calendar: Calendar) => void'
+      return:
+        description: ''
+        type: '(calendar: Calendar) =&gt; void'
+methods:
+  - name: attach(HTMLElement)
+    uid: adaptivecards-controls.Calendar.attach
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function attach(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+  - name: focus()
+    uid: adaptivecards-controls.Calendar.focus
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+extends: <xref uid="adaptivecards-controls.InputControl" />

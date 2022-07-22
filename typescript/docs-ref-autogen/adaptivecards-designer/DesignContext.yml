@@ -1,0 +1,76 @@
+### YamlMime:TSType
+name: DesignContext
+uid: adaptivecards-designer.DesignContext
+package: adaptivecards-designer
+summary: ''
+fullName: DesignContext
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: bindingPreviewMode
+    uid: adaptivecards-designer.DesignContext.bindingPreviewMode
+    package: adaptivecards-designer
+    summary: ''
+    fullName: bindingPreviewMode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: BindingPreviewMode bindingPreviewMode
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.BindingPreviewMode" />
+  - name: dataStructure
+    uid: adaptivecards-designer.DesignContext.dataStructure
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dataStructure
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: FieldDefinition dataStructure
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: hostContainer
+    uid: adaptivecards-designer.DesignContext.hostContainer
+    package: adaptivecards-designer
+    summary: ''
+    fullName: hostContainer
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostContainer hostContainer
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.HostContainer" />
+  - name: sampleData
+    uid: adaptivecards-designer.DesignContext.sampleData
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: any sampleData
+      return:
+        description: ''
+        type: any
+  - name: targetVersion
+    uid: adaptivecards-designer.DesignContext.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Version targetVersion
+      return:
+        description: ''
+        type: Version

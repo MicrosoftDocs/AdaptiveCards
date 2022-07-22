@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: ImageStyle
+uid: adaptivecards-designer.ImageStyle
+package: adaptivecards-designer
+summary: ''
+fullName: ImageStyle
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type ImageStyle = "default" | "person"

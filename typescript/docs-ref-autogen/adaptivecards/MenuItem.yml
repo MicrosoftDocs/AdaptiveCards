@@ -1,0 +1,109 @@
+### YamlMime:TSType
+name: MenuItem
+uid: adaptivecards.MenuItem
+package: adaptivecards
+summary: ''
+fullName: MenuItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'MenuItem(string, string)'
+    uid: adaptivecards.MenuItem.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new MenuItem(key: string, value: string)'
+      parameters:
+        - id: key
+          type: string
+          description: ''
+        - id: value
+          type: string
+          description: ''
+properties:
+  - name: isEnabled
+    uid: adaptivecards.MenuItem.isEnabled
+    package: adaptivecards
+    summary: ''
+    fullName: isEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isEnabled
+      return:
+        description: ''
+        type: boolean
+  - name: key
+    uid: adaptivecards.MenuItem.key
+    package: adaptivecards
+    summary: ''
+    fullName: key
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'key: string'
+      return:
+        description: ''
+        type: string
+  - name: onClick
+    uid: adaptivecards.MenuItem.onClick
+    package: adaptivecards
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick?: (item: MenuItem) => void'
+      return:
+        description: ''
+        type: '(item: MenuItem) =&gt; void'
+  - name: value
+    uid: adaptivecards.MenuItem.value
+    package: adaptivecards
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string value
+      return:
+        description: ''
+        type: string
+methods:
+  - name: render(HostConfig)
+    uid: adaptivecards.MenuItem.render
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(hostConfig?: HostConfig): HTMLElement'
+      parameters:
+        - id: hostConfig
+          type: <xref uid="adaptivecards.HostConfig" />
+          description: ''
+      return:
+        description: ''
+        type: HTMLElement
+  - name: toString()
+    uid: adaptivecards.MenuItem.toString
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function toString(): string'
+      return:
+        description: ''
+        type: string

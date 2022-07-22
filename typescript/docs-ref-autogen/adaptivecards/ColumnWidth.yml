@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: ColumnWidth
+uid: adaptivecards.ColumnWidth
+package: adaptivecards
+summary: ''
+fullName: ColumnWidth
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type ColumnWidth = SizeAndUnit | "auto" | "stretch"

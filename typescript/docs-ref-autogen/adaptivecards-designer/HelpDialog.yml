@@ -1,0 +1,132 @@
+### YamlMime:TSType
+name: HelpDialog
+uid: adaptivecards-designer.HelpDialog
+package: adaptivecards-designer
+summary: ''
+fullName: HelpDialog
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: HelpDialog()
+    uid: adaptivecards-designer.HelpDialog.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new HelpDialog()
+inheritedProperties:
+  - name: buttons
+    uid: adaptivecards-designer.HelpDialog.buttons
+    package: adaptivecards-designer
+    summary: ''
+    fullName: buttons
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'buttons?: DialogButton[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.DialogButton" />[]'
+  - name: closeButton
+    uid: adaptivecards-designer.HelpDialog.closeButton
+    package: adaptivecards-designer
+    summary: ''
+    fullName: closeButton
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'closeButton: DialogButton'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DialogButton" />
+  - name: height
+    uid: adaptivecards-designer.HelpDialog.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height: string'
+      return:
+        description: ''
+        type: string
+  - name: onClose
+    uid: adaptivecards-designer.HelpDialog.onClose
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (sender: Dialog) => void'
+      return:
+        description: ''
+        type: '(sender: Dialog) =&gt; void'
+  - name: preventLightDismissal
+    uid: adaptivecards-designer.HelpDialog.preventLightDismissal
+    package: adaptivecards-designer
+    summary: ''
+    fullName: preventLightDismissal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'preventLightDismissal: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: title
+    uid: adaptivecards-designer.HelpDialog.title
+    package: adaptivecards-designer
+    summary: ''
+    fullName: title
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'title: string'
+      return:
+        description: ''
+        type: string
+  - name: width
+    uid: adaptivecards-designer.HelpDialog.width
+    package: adaptivecards-designer
+    summary: ''
+    fullName: width
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'width: string'
+      return:
+        description: ''
+        type: string
+inheritedMethods:
+  - name: close()
+    uid: adaptivecards-designer.HelpDialog.close
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function close()
+  - name: open()
+    uid: adaptivecards-designer.HelpDialog.open
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function open()
+extends: <xref uid="adaptivecards-designer.Dialog" />

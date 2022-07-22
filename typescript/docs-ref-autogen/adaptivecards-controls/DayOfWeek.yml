@@ -1,0 +1,45 @@
+### YamlMime:TSEnum
+name: DayOfWeek
+uid: adaptivecards-controls.DayOfWeek
+package: adaptivecards-controls
+summary: ''
+fullName: DayOfWeek
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Sunday
+    uid: adaptivecards-controls.DayOfWeek.Sunday
+    package: adaptivecards-controls
+    summary: ''
+    numericValue: 0
+  - name: Monday
+    uid: adaptivecards-controls.DayOfWeek.Monday
+    package: adaptivecards-controls
+    summary: ''
+    numericValue: 1
+  - name: Tuesday
+    uid: adaptivecards-controls.DayOfWeek.Tuesday
+    package: adaptivecards-controls
+    summary: ''
+    numericValue: 2
+  - name: Wednesday
+    uid: adaptivecards-controls.DayOfWeek.Wednesday
+    package: adaptivecards-controls
+    summary: ''
+    numericValue: 3
+  - name: Thursday
+    uid: adaptivecards-controls.DayOfWeek.Thursday
+    package: adaptivecards-controls
+    summary: ''
+    numericValue: 4
+  - name: Friday
+    uid: adaptivecards-controls.DayOfWeek.Friday
+    package: adaptivecards-controls
+    summary: ''
+    numericValue: 5
+  - name: Saturday
+    uid: adaptivecards-controls.DayOfWeek.Saturday
+    package: adaptivecards-controls
+    summary: ''
+    numericValue: 6

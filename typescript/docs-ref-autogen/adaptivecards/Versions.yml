@@ -1,0 +1,102 @@
+### YamlMime:TSType
+name: Versions
+uid: adaptivecards.Versions
+package: adaptivecards
+summary: ''
+fullName: Versions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: latest
+    uid: adaptivecards.Versions.latest
+    package: adaptivecards
+    summary: ''
+    fullName: latest
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static latest: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: v1_0
+    uid: adaptivecards.Versions.v1_0
+    package: adaptivecards
+    summary: ''
+    fullName: v1_0
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static v1_0: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: v1_1
+    uid: adaptivecards.Versions.v1_1
+    package: adaptivecards
+    summary: ''
+    fullName: v1_1
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static v1_1: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: v1_2
+    uid: adaptivecards.Versions.v1_2
+    package: adaptivecards
+    summary: ''
+    fullName: v1_2
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static v1_2: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: v1_3
+    uid: adaptivecards.Versions.v1_3
+    package: adaptivecards
+    summary: ''
+    fullName: v1_3
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static v1_3: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: v1_4
+    uid: adaptivecards.Versions.v1_4
+    package: adaptivecards
+    summary: ''
+    fullName: v1_4
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static v1_4: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: v1_5
+    uid: adaptivecards.Versions.v1_5
+    package: adaptivecards
+    summary: ''
+    fullName: v1_5
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static v1_5: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />

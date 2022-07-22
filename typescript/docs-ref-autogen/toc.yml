@@ -1,0 +1,1854 @@
+- name: adaptivecards
+  items:
+    - name: Overview
+      uid: adaptivecards
+    - uid: adaptivecards.Action
+      name: Action
+      items: []
+    - uid: adaptivecards.ActionAlignment
+      name: ActionAlignment
+      items: []
+    - uid: adaptivecards.ActionButtonState
+      name: ActionButtonState
+      items: []
+    - uid: adaptivecards.ActionIconPlacement
+      name: ActionIconPlacement
+      items: []
+    - uid: adaptivecards.ActionMode
+      name: ActionMode
+      items: []
+    - uid: adaptivecards.ActionProperty
+      name: ActionProperty
+      items: []
+    - uid: adaptivecards.ActionsConfig
+      name: ActionsConfig
+      items: []
+    - uid: adaptivecards.ActionSet
+      name: ActionSet
+      items: []
+    - uid: adaptivecards.ActionStyle
+      name: ActionStyle
+      items: []
+    - uid: adaptivecards.ActionType
+      name: ActionType
+      items: []
+    - uid: adaptivecards.ActivityRequestError
+      name: ActivityRequestError
+      items: []
+    - uid: adaptivecards.ActivityRequestTrigger
+      name: ActivityRequestTrigger
+      items: []
+    - uid: adaptivecards.ActivityResponse
+      name: ActivityResponse
+      items: []
+    - uid: adaptivecards.AdaptiveApplet
+      name: AdaptiveApplet
+      items: []
+    - uid: adaptivecards.AdaptiveCard
+      name: AdaptiveCard
+      items: []
+    - uid: adaptivecards.AdaptiveCardConfig
+      name: AdaptiveCardConfig
+      items: []
+    - uid: adaptivecards.AppletsSettings
+      name: AppletsSettings
+      items: []
+    - uid: adaptivecards.AuthCardButton
+      name: AuthCardButton
+      items: []
+    - uid: adaptivecards.Authentication
+      name: Authentication
+      items: []
+    - uid: adaptivecards.BackgroundImage
+      name: BackgroundImage
+      items: []
+    - uid: adaptivecards.BaseSerializationContext
+      name: BaseSerializationContext
+      items: []
+    - uid: adaptivecards.BaseTextBlock
+      name: BaseTextBlock
+      items: []
+    - uid: adaptivecards.BaseTextDefinition
+      name: BaseTextDefinition
+      items: []
+    - uid: adaptivecards.BoolProperty
+      name: BoolProperty
+      items: []
+    - uid: adaptivecards.CardElement
+      name: CardElement
+      items: []
+    - uid: adaptivecards.CardElementContainer
+      name: CardElementContainer
+      items: []
+    - uid: adaptivecards.CardElementHeight
+      name: CardElementHeight
+      items: []
+    - uid: adaptivecards.CardObject
+      name: CardObject
+      items: []
+    - uid: adaptivecards.CardObjectRegistry
+      name: CardObjectRegistry
+      items: []
+    - uid: adaptivecards.CardObjectType
+      name: CardObjectType
+      items: []
+    - uid: adaptivecards.CellType
+      name: CellType
+      items: []
+    - uid: adaptivecards.ChannelAdapter
+      name: ChannelAdapter
+      items: []
+    - uid: adaptivecards.Choice
+      name: Choice
+      items: []
+    - uid: adaptivecards.ChoiceSetInput
+      name: ChoiceSetInput
+      items: []
+    - uid: adaptivecards.Collection
+      name: Collection
+      items: []
+    - uid: adaptivecards.ColorDefinition
+      name: ColorDefinition
+      items: []
+    - uid: adaptivecards.ColorSetDefinition
+      name: ColorSetDefinition
+      items: []
+    - uid: adaptivecards.Column
+      name: Column
+      items: []
+    - uid: adaptivecards.ColumnSet
+      name: ColumnSet
+      items: []
+    - uid: adaptivecards.ColumnWidth
+      name: ColumnWidth
+      items: []
+    - uid: adaptivecards.Constants
+      name: Constants
+      items: []
+    - uid: adaptivecards.Container
+      name: Container
+      items: []
+    - uid: adaptivecards.ContainerBase
+      name: ContainerBase
+      items: []
+    - uid: adaptivecards.ContainerFitStatus
+      name: ContainerFitStatus
+      items: []
+    - uid: adaptivecards.ContainerStyle
+      name: ContainerStyle
+      items: []
+    - uid: adaptivecards.ContainerStyle
+      name: ContainerStyle
+      items: []
+    - uid: adaptivecards.ContainerStyleDefinition
+      name: ContainerStyleDefinition
+      items: []
+    - uid: adaptivecards.ContainerStyleProperty
+      name: ContainerStyleProperty
+      items: []
+    - uid: adaptivecards.ContainerStyleSet
+      name: ContainerStyleSet
+      items: []
+    - uid: adaptivecards.ContainerWithActions
+      name: ContainerWithActions
+      items: []
+    - uid: adaptivecards.CustomProperty
+      name: CustomProperty
+      items: []
+    - uid: adaptivecards.DateInput
+      name: DateInput
+      items: []
+    - uid: adaptivecards.Dictionary
+      name: Dictionary
+      items: []
+    - uid: adaptivecards.EnumProperty
+      name: EnumProperty
+      items: []
+    - uid: adaptivecards.ErrorResponse
+      name: ErrorResponse
+      items: []
+    - uid: adaptivecards.ExecuteAction
+      name: ExecuteAction
+      items: []
+    - uid: adaptivecards.Fact
+      name: Fact
+      items: []
+    - uid: adaptivecards.FactSet
+      name: FactSet
+      items: []
+    - uid: adaptivecards.FactSetConfig
+      name: FactSetConfig
+      items: []
+    - uid: adaptivecards.FactTextDefinition
+      name: FactTextDefinition
+      items: []
+    - uid: adaptivecards.FactTitleDefinition
+      name: FactTitleDefinition
+      items: []
+    - uid: adaptivecards.FillMode
+      name: FillMode
+      items: []
+    - uid: adaptivecards.FontType
+      name: FontType
+      items: []
+    - uid: adaptivecards.FontTypeDefinition
+      name: FontTypeDefinition
+      items: []
+    - uid: adaptivecards.FontTypeSet
+      name: FontTypeSet
+      items: []
+    - uid: adaptivecards.GlobalRegistry
+      name: GlobalRegistry
+      items: []
+    - uid: adaptivecards.GlobalSettings
+      name: GlobalSettings
+      items: []
+    - uid: adaptivecards.HorizontalAlignment
+      name: HorizontalAlignment
+      items: []
+    - uid: adaptivecards.HorizontalAlignment
+      name: HorizontalAlignment
+      items: []
+    - uid: adaptivecards.HostCapabilities
+      name: HostCapabilities
+      items: []
+    - uid: adaptivecards.HostConfig
+      name: HostConfig
+      items: []
+    - uid: adaptivecards.HttpAction
+      name: HttpAction
+      items: []
+    - uid: adaptivecards.HttpHeader
+      name: HttpHeader
+      items: []
+    - uid: adaptivecards.IAction
+      name: IAction
+      items: []
+    - uid: adaptivecards.IActivityRequest
+      name: IActivityRequest
+      items: []
+    - uid: adaptivecards.IAdaptiveCard
+      name: IAdaptiveCard
+      items: []
+    - uid: adaptivecards.IBackgroundImage
+      name: IBackgroundImage
+      items: []
+    - uid: adaptivecards.ICardElement
+      name: ICardElement
+      items: []
+    - uid: adaptivecards.IChoice
+      name: IChoice
+      items: []
+    - uid: adaptivecards.IChoiceSetInput
+      name: IChoiceSetInput
+      items: []
+    - uid: adaptivecards.IColumn
+      name: IColumn
+      items: []
+    - uid: adaptivecards.IColumnSet
+      name: IColumnSet
+      items: []
+    - uid: adaptivecards.IContainer
+      name: IContainer
+      items: []
+    - uid: adaptivecards.IDateInput
+      name: IDateInput
+      items: []
+    - uid: adaptivecards.IFact
+      name: IFact
+      items: []
+    - uid: adaptivecards.IFactSet
+      name: IFactSet
+      items: []
+    - uid: adaptivecards.IFontSizeDefinitions
+      name: IFontSizeDefinitions
+      items: []
+    - uid: adaptivecards.IFontWeightDefinitions
+      name: IFontWeightDefinitions
+      items: []
+    - uid: adaptivecards.IImage
+      name: IImage
+      items: []
+    - uid: adaptivecards.IImageSet
+      name: IImageSet
+      items: []
+    - uid: adaptivecards.IInput
+      name: IInput
+      items: []
+    - uid: adaptivecards.IInput
+      name: IInput
+      items: []
+    - uid: adaptivecards.ILineHeightDefinitions
+      name: ILineHeightDefinitions
+      items: []
+    - uid: adaptivecards.Image
+      name: Image
+      items: []
+    - uid: adaptivecards.ImageDimensionProperty
+      name: ImageDimensionProperty
+      items: []
+    - uid: adaptivecards.ImageSet
+      name: ImageSet
+      items: []
+    - uid: adaptivecards.ImageSetConfig
+      name: ImageSetConfig
+      items: []
+    - uid: adaptivecards.ImageSize
+      name: ImageSize
+      items: []
+    - uid: adaptivecards.ImageStyle
+      name: ImageStyle
+      items: []
+    - uid: adaptivecards.ImageStyle
+      name: ImageStyle
+      items: []
+    - uid: adaptivecards.IMarkdownProcessingResult
+      name: IMarkdownProcessingResult
+      items: []
+    - uid: adaptivecards.Input
+      name: Input
+      items: []
+    - uid: adaptivecards.InputConfig
+      name: InputConfig
+      items: []
+    - uid: adaptivecards.InputLabelConfig
+      name: InputLabelConfig
+      items: []
+    - uid: adaptivecards.InputTextStyle
+      name: InputTextStyle
+      items: []
+    - uid: adaptivecards.INumberInput
+      name: INumberInput
+      items: []
+    - uid: adaptivecards.IOpenUrlAction
+      name: IOpenUrlAction
+      items: []
+    - uid: adaptivecards.IResourceInformation
+      name: IResourceInformation
+      items: []
+    - uid: adaptivecards.ISeparationDefinition
+      name: ISeparationDefinition
+      items: []
+    - uid: adaptivecards.IShowCardAction
+      name: IShowCardAction
+      items: []
+    - uid: adaptivecards.ISubmitAction
+      name: ISubmitAction
+      items: []
+    - uid: adaptivecards.ITextBlock
+      name: ITextBlock
+      items: []
+    - uid: adaptivecards.ITextInput
+      name: ITextInput
+      items: []
+    - uid: adaptivecards.ITimeInput
+      name: ITimeInput
+      items: []
+    - uid: adaptivecards.IToggleInput
+      name: IToggleInput
+      items: []
+    - uid: adaptivecards.ITypeRegistration
+      name: ITypeRegistration
+      items: []
+    - uid: adaptivecards.IValidationEvent
+      name: IValidationEvent
+      items: []
+    - uid: adaptivecards.IVersion
+      name: IVersion
+      items: []
+    - uid: adaptivecards.IVersionedValue
+      name: IVersionedValue
+      items: []
+    - uid: adaptivecards.LoginRequestResponse
+      name: LoginRequestResponse
+      items: []
+    - uid: adaptivecards.LogLevel
+      name: LogLevel
+      items: []
+    - uid: adaptivecards.Media
+      name: Media
+      items: []
+    - uid: adaptivecards.MediaConfig
+      name: MediaConfig
+      items: []
+    - uid: adaptivecards.MediaSource
+      name: MediaSource
+      items: []
+    - uid: adaptivecards.MenuItem
+      name: MenuItem
+      items: []
+    - uid: adaptivecards.NumberInput
+      name: NumberInput
+      items: []
+    - uid: adaptivecards.NumProperty
+      name: NumProperty
+      items: []
+    - uid: adaptivecards.OpenUrlAction
+      name: OpenUrlAction
+      items: []
+    - uid: adaptivecards.Orientation
+      name: Orientation
+      items: []
+    - uid: adaptivecards.PaddingDefinition
+      name: PaddingDefinition
+      items: []
+    - uid: adaptivecards.PixelSizeProperty
+      name: PixelSizeProperty
+      items: []
+    - uid: adaptivecards.PopupControl
+      name: PopupControl
+      items: []
+    - uid: adaptivecards.PopupMenu
+      name: PopupMenu
+      items: []
+    - uid: adaptivecards.PropertyBag
+      name: PropertyBag
+      items: []
+    - uid: adaptivecards.PropertyDefinition
+      name: PropertyDefinition
+      items: []
+    - uid: adaptivecards.Refresh
+      name: Refresh
+      items: []
+    - uid: adaptivecards.RefreshActionProperty
+      name: RefreshActionProperty
+      items: []
+    - uid: adaptivecards.RefreshDefinition
+      name: RefreshDefinition
+      items: []
+    - uid: adaptivecards.RefreshMode
+      name: RefreshMode
+      items: []
+    - uid: adaptivecards.RequiredInputLabelTextDefinition
+      name: RequiredInputLabelTextDefinition
+      items: []
+    - uid: adaptivecards.RichTextBlock
+      name: RichTextBlock
+      items: []
+    - uid: adaptivecards.SerializableObject
+      name: SerializableObject
+      items: []
+    - uid: adaptivecards.SerializableObjectCollectionProperty
+      name: SerializableObjectCollectionProperty
+      items: []
+    - uid: adaptivecards.SerializableObjectProperty
+      name: SerializableObjectProperty
+      items: []
+    - uid: adaptivecards.SerializableObjectSchema
+      name: SerializableObjectSchema
+      items: []
+    - uid: adaptivecards.SerializableObjectType
+      name: SerializableObjectType
+      items: []
+    - uid: adaptivecards.SerializationContext
+      name: SerializationContext
+      items: []
+    - uid: adaptivecards.ShowCardAction
+      name: ShowCardAction
+      items: []
+    - uid: adaptivecards.ShowCardActionConfig
+      name: ShowCardActionConfig
+      items: []
+    - uid: adaptivecards.ShowCardActionMode
+      name: ShowCardActionMode
+      items: []
+    - uid: adaptivecards.Size
+      name: Size
+      items: []
+    - uid: adaptivecards.Size
+      name: Size
+      items: []
+    - uid: adaptivecards.SizeAndUnit
+      name: SizeAndUnit
+      items: []
+    - uid: adaptivecards.SizeUnit
+      name: SizeUnit
+      items: []
+    - uid: adaptivecards.Spacing
+      name: Spacing
+      items: []
+    - uid: adaptivecards.Spacing
+      name: Spacing
+      items: []
+    - uid: adaptivecards.SpacingDefinition
+      name: SpacingDefinition
+      items: []
+    - uid: adaptivecards.StringArrayProperty
+      name: StringArrayProperty
+      items: []
+    - uid: adaptivecards.StringProperty
+      name: StringProperty
+      items: []
+    - uid: adaptivecards.Strings
+      name: Strings
+      items: []
+    - uid: adaptivecards.StringWithSubstitutionProperty
+      name: StringWithSubstitutionProperty
+      items: []
+    - uid: adaptivecards.StringWithSubstitutions
+      name: StringWithSubstitutions
+      items: []
+    - uid: adaptivecards.StylableCardElementContainer
+      name: StylableCardElementContainer
+      items: []
+    - uid: adaptivecards.StylableContainer
+      name: StylableContainer
+      items: []
+    - uid: adaptivecards.SubmitAction
+      name: SubmitAction
+      items: []
+    - uid: adaptivecards.SubmitActionBase
+      name: SubmitActionBase
+      items: []
+    - uid: adaptivecards.SuccessResponse
+      name: SuccessResponse
+      items: []
+    - uid: adaptivecards.Table
+      name: Table
+      items: []
+    - uid: adaptivecards.TableCell
+      name: TableCell
+      items: []
+    - uid: adaptivecards.TableColumnDefinition
+      name: TableColumnDefinition
+      items: []
+    - uid: adaptivecards.TableConfig
+      name: TableConfig
+      items: []
+    - uid: adaptivecards.TableRow
+      name: TableRow
+      items: []
+    - uid: adaptivecards.TargetVersion
+      name: TargetVersion
+      items: []
+    - uid: adaptivecards.TextBlock
+      name: TextBlock
+      items: []
+    - uid: adaptivecards.TextBlockConfig
+      name: TextBlockConfig
+      items: []
+    - uid: adaptivecards.TextBlockStyle
+      name: TextBlockStyle
+      items: []
+    - uid: adaptivecards.TextColor
+      name: TextColor
+      items: []
+    - uid: adaptivecards.TextColor
+      name: TextColor
+      items: []
+    - uid: adaptivecards.TextColorDefinition
+      name: TextColorDefinition
+      items: []
+    - uid: adaptivecards.TextInput
+      name: TextInput
+      items: []
+    - uid: adaptivecards.TextRun
+      name: TextRun
+      items: []
+    - uid: adaptivecards.TextSize
+      name: TextSize
+      items: []
+    - uid: adaptivecards.TextSize
+      name: TextSize
+      items: []
+    - uid: adaptivecards.TextStyleDefinition
+      name: TextStyleDefinition
+      items: []
+    - uid: adaptivecards.TextStyleSet
+      name: TextStyleSet
+      items: []
+    - uid: adaptivecards.TextWeight
+      name: TextWeight
+      items: []
+    - uid: adaptivecards.TextWeight
+      name: TextWeight
+      items: []
+    - uid: adaptivecards.TimeInput
+      name: TimeInput
+      items: []
+    - uid: adaptivecards.TimeProperty
+      name: TimeProperty
+      items: []
+    - uid: adaptivecards.ToggleInput
+      name: ToggleInput
+      items: []
+    - uid: adaptivecards.ToggleVisibilityAction
+      name: ToggleVisibilityAction
+      items: []
+    - uid: adaptivecards.TokenExchangeResource
+      name: TokenExchangeResource
+      items: []
+    - uid: adaptivecards.TypeErrorType
+      name: TypeErrorType
+      items: []
+    - uid: adaptivecards.UUID
+      name: UUID
+      items: []
+    - uid: adaptivecards.ValidationEvent
+      name: ValidationEvent
+      items: []
+    - uid: adaptivecards.ValidationPhase
+      name: ValidationPhase
+      items: []
+    - uid: adaptivecards.ValidationResults
+      name: ValidationResults
+      items: []
+    - uid: adaptivecards.ValueSetProperty
+      name: ValueSetProperty
+      items: []
+    - uid: adaptivecards.Version
+      name: Version
+      items: []
+    - uid: adaptivecards.Versions
+      name: Versions
+      items: []
+    - uid: adaptivecards.VerticalAlignment
+      name: VerticalAlignment
+      items: []
+    - uid: adaptivecards.VerticalAlignment
+      name: VerticalAlignment
+      items: []
+- name: adaptivecards-controls
+  items:
+    - name: Overview
+      uid: adaptivecards-controls
+    - uid: adaptivecards-controls.Calendar
+      name: Calendar
+      items: []
+    - uid: adaptivecards-controls.CalendarPopupControl
+      name: CalendarPopupControl
+      items: []
+    - uid: adaptivecards-controls.CalendarSettings
+      name: CalendarSettings
+      items: []
+    - uid: adaptivecards-controls.CheckBox
+      name: CheckBox
+      items: []
+    - uid: adaptivecards-controls.Collection
+      name: Collection
+      items: []
+    - uid: adaptivecards-controls.Constants
+      name: Constants
+      items: []
+    - uid: adaptivecards-controls.DatePicker
+      name: DatePicker
+      items: []
+    - uid: adaptivecards-controls.DayCell
+      name: DayCell
+      items: []
+    - uid: adaptivecards-controls.DayOfWeek
+      name: DayOfWeek
+      items: []
+    - uid: adaptivecards-controls.DropDown
+      name: DropDown
+      items: []
+    - uid: adaptivecards-controls.DropDownItem
+      name: DropDownItem
+      items: []
+    - uid: adaptivecards-controls.DropDownPopupControl
+      name: DropDownPopupControl
+      items: []
+    - uid: adaptivecards-controls.InputControl
+      name: InputControl
+      items: []
+    - uid: adaptivecards-controls.InputWithPopup
+      name: InputWithPopup
+      items: []
+    - uid: adaptivecards-controls.PopupControl
+      name: PopupControl
+      items: []
+    - uid: adaptivecards-controls.PopupMenu
+      name: PopupMenu
+      items: []
+    - uid: adaptivecards-controls.RadioButton
+      name: RadioButton
+      items: []
+    - uid: adaptivecards-controls.TextBox
+      name: TextBox
+      items: []
+- name: adaptivecards-designer
+  items:
+    - name: Overview
+      uid: adaptivecards-designer
+    - uid: adaptivecards-designer.ActionPeer
+      name: ActionPeer
+      items: []
+    - uid: adaptivecards-designer.ActionPeer
+      name: ActionPeer
+      items: []
+    - uid: adaptivecards-designer.ActionPeerRegistry
+      name: ActionPeerRegistry
+      items: []
+    - uid: adaptivecards-designer.ActionPeerRegistry
+      name: ActionPeerRegistry
+      items: []
+    - uid: adaptivecards-designer.ActionPeerType
+      name: ActionPeerType
+      items: []
+    - uid: adaptivecards-designer.ActionPeerType
+      name: ActionPeerType
+      items: []
+    - uid: adaptivecards-designer.ActionPropertyEditor
+      name: ActionPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ActionPropertyEditor
+      name: ActionPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ActionSetPeer
+      name: ActionSetPeer
+      items: []
+    - uid: adaptivecards-designer.ActionSetPeer
+      name: ActionSetPeer
+      items: []
+    - uid: adaptivecards-designer.ActionType
+      name: ActionType
+      items: []
+    - uid: adaptivecards-designer.ActionType
+      name: ActionType
+      items: []
+    - uid: adaptivecards-designer.AdaptiveCardPeer
+      name: AdaptiveCardPeer
+      items: []
+    - uid: adaptivecards-designer.AdaptiveCardPeer
+      name: AdaptiveCardPeer
+      items: []
+    - uid: adaptivecards-designer.ArrayData
+      name: ArrayData
+      items: []
+    - uid: adaptivecards-designer.ArrayData
+      name: ArrayData
+      items: []
+    - uid: adaptivecards-designer.BaseCortanaContainer
+      name: BaseCortanaContainer
+      items: []
+    - uid: adaptivecards-designer.BaseCortanaContainer
+      name: BaseCortanaContainer
+      items: []
+    - uid: adaptivecards-designer.BasePaletteItem
+      name: BasePaletteItem
+      items: []
+    - uid: adaptivecards-designer.BasePaletteItem
+      name: BasePaletteItem
+      items: []
+    - uid: adaptivecards-designer.BaseStringPropertyEditor
+      name: BaseStringPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.BaseStringPropertyEditor
+      name: BaseStringPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.BaseSubmitActionPeer
+      name: BaseSubmitActionPeer
+      items: []
+    - uid: adaptivecards-designer.BaseSubmitActionPeer
+      name: BaseSubmitActionPeer
+      items: []
+    - uid: adaptivecards-designer.BaseTeamsContainer
+      name: BaseTeamsContainer
+      items: []
+    - uid: adaptivecards-designer.BaseTeamsContainer
+      name: BaseTeamsContainer
+      items: []
+    - uid: adaptivecards-designer.BaseTreeItem
+      name: BaseTreeItem
+      items: []
+    - uid: adaptivecards-designer.BaseTreeItem
+      name: BaseTreeItem
+      items: []
+    - uid: adaptivecards-designer.BindingPreviewMode
+      name: BindingPreviewMode
+      items: []
+    - uid: adaptivecards-designer.BindingPreviewMode
+      name: BindingPreviewMode
+      items: []
+    - uid: adaptivecards-designer.BooleanPropertyEditor
+      name: BooleanPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.BooleanPropertyEditor
+      name: BooleanPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.BotFrameworkContainer
+      name: BotFrameworkContainer
+      items: []
+    - uid: adaptivecards-designer.BotFrameworkContainer
+      name: BotFrameworkContainer
+      items: []
+    - uid: adaptivecards-designer.CardData
+      name: CardData
+      items: []
+    - uid: adaptivecards-designer.CardData
+      name: CardData
+      items: []
+    - uid: adaptivecards-designer.CardDataCallback
+      name: CardDataCallback
+      items: []
+    - uid: adaptivecards-designer.CardDataCallback
+      name: CardDataCallback
+      items: []
+    - uid: adaptivecards-designer.CardDataProvider
+      name: CardDataProvider
+      items: []
+    - uid: adaptivecards-designer.CardDataProvider
+      name: CardDataProvider
+      items: []
+    - name: CardDesigner
+      items:
+        - name: Overview
+          uid: adaptivecards-designer.CardDesigner
+        - uid: adaptivecards-designer.CardDesigner.ToolbarCommands
+          name: ToolbarCommands
+          items: []
+    - name: CardDesigner
+      items:
+        - name: Overview
+          uid: adaptivecards-designer.CardDesigner
+        - uid: adaptivecards-designer.CardDesigner.ToolbarCommands
+          name: ToolbarCommands
+          items: []
+    - uid: adaptivecards-designer.CardDesignerSurface
+      name: CardDesignerSurface
+      items: []
+    - uid: adaptivecards-designer.CardDesignerSurface
+      name: CardDesignerSurface
+      items: []
+    - uid: adaptivecards-designer.CardElementPeer
+      name: CardElementPeer
+      items: []
+    - uid: adaptivecards-designer.CardElementPeer
+      name: CardElementPeer
+      items: []
+    - uid: adaptivecards-designer.CardElementPeerInplaceEditor
+      name: CardElementPeerInplaceEditor
+      items: []
+    - uid: adaptivecards-designer.CardElementPeerInplaceEditor
+      name: CardElementPeerInplaceEditor
+      items: []
+    - uid: adaptivecards-designer.CardElementPeerRegistry
+      name: CardElementPeerRegistry
+      items: []
+    - uid: adaptivecards-designer.CardElementPeerRegistry
+      name: CardElementPeerRegistry
+      items: []
+    - uid: adaptivecards-designer.CardElementPeerType
+      name: CardElementPeerType
+      items: []
+    - uid: adaptivecards-designer.CardElementPeerType
+      name: CardElementPeerType
+      items: []
+    - uid: adaptivecards-designer.CardElementType
+      name: CardElementType
+      items: []
+    - uid: adaptivecards-designer.CardElementType
+      name: CardElementType
+      items: []
+    - uid: adaptivecards-designer.CatalogueEntry
+      name: CatalogueEntry
+      items: []
+    - uid: adaptivecards-designer.CatalogueEntry
+      name: CatalogueEntry
+      items: []
+    - uid: adaptivecards-designer.ChoicePropertyEditor
+      name: ChoicePropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ChoicePropertyEditor
+      name: ChoicePropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ChoiceSetInputPeer
+      name: ChoiceSetInputPeer
+      items: []
+    - uid: adaptivecards-designer.ChoiceSetInputPeer
+      name: ChoiceSetInputPeer
+      items: []
+    - uid: adaptivecards-designer.ColumnPeer
+      name: ColumnPeer
+      items: []
+    - uid: adaptivecards-designer.ColumnPeer
+      name: ColumnPeer
+      items: []
+    - uid: adaptivecards-designer.ColumnSetPeer
+      name: ColumnSetPeer
+      items: []
+    - uid: adaptivecards-designer.ColumnSetPeer
+      name: ColumnSetPeer
+      items: []
+    - uid: adaptivecards-designer.ColumnWidthPropertyEditor
+      name: ColumnWidthPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ColumnWidthPropertyEditor
+      name: ColumnWidthPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.CompoundPropertyEditor
+      name: CompoundPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.CompoundPropertyEditor
+      name: CompoundPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ContainerPeer
+      name: ContainerPeer
+      items: []
+    - uid: adaptivecards-designer.ContainerPeer
+      name: ContainerPeer
+      items: []
+    - uid: adaptivecards-designer.ContainerStyle
+      name: ContainerStyle
+      items: []
+    - uid: adaptivecards-designer.ContainerStylePropertyEditor
+      name: ContainerStylePropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ContainerStylePropertyEditor
+      name: ContainerStylePropertyEditor
+      items: []
+    - uid: adaptivecards-designer.CortanaClassicContainer
+      name: CortanaClassicContainer
+      items: []
+    - uid: adaptivecards-designer.CortanaClassicContainer
+      name: CortanaClassicContainer
+      items: []
+    - uid: adaptivecards-designer.CustomCardObjectPropertyEditor
+      name: CustomCardObjectPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.CustomCardObjectPropertyEditor
+      name: CustomCardObjectPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.CustomPaletteItem
+      name: CustomPaletteItem
+      items: []
+    - uid: adaptivecards-designer.CustomPaletteItem
+      name: CustomPaletteItem
+      items: []
+    - uid: adaptivecards-designer.CustomPropertySheetEntry
+      name: CustomPropertySheetEntry
+      items: []
+    - uid: adaptivecards-designer.CustomPropertySheetEntry
+      name: CustomPropertySheetEntry
+      items: []
+    - uid: adaptivecards-designer.DarkCortanaContainer
+      name: DarkCortanaContainer
+      items: []
+    - uid: adaptivecards-designer.DarkCortanaContainer
+      name: DarkCortanaContainer
+      items: []
+    - uid: adaptivecards-designer.DarkTeamsContainer
+      name: DarkTeamsContainer
+      items: []
+    - uid: adaptivecards-designer.DarkTeamsContainer
+      name: DarkTeamsContainer
+      items: []
+    - uid: adaptivecards-designer.DataPaletteItem
+      name: DataPaletteItem
+      items: []
+    - uid: adaptivecards-designer.DataPaletteItem
+      name: DataPaletteItem
+      items: []
+    - uid: adaptivecards-designer.DataTreeItem
+      name: DataTreeItem
+      items: []
+    - uid: adaptivecards-designer.DataTreeItem
+      name: DataTreeItem
+      items: []
+    - uid: adaptivecards-designer.DataType
+      name: DataType
+      items: []
+    - uid: adaptivecards-designer.DataType
+      name: DataType
+      items: []
+    - uid: adaptivecards-designer.DateInputPeer
+      name: DateInputPeer
+      items: []
+    - uid: adaptivecards-designer.DateInputPeer
+      name: DateInputPeer
+      items: []
+    - uid: adaptivecards-designer.DefaultContainer
+      name: DefaultContainer
+      items: []
+    - uid: adaptivecards-designer.DefaultContainer
+      name: DefaultContainer
+      items: []
+    - uid: adaptivecards-designer.DesignContext
+      name: DesignContext
+      items: []
+    - uid: adaptivecards-designer.DesignContext
+      name: DesignContext
+      items: []
+    - uid: adaptivecards-designer.DesignerPeer
+      name: DesignerPeer
+      items: []
+    - uid: adaptivecards-designer.DesignerPeer
+      name: DesignerPeer
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerInplaceEditor
+      name: DesignerPeerInplaceEditor
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerInplaceEditor
+      name: DesignerPeerInplaceEditor
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerRegistration
+      name: DesignerPeerRegistration
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerRegistration
+      name: DesignerPeerRegistration
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+      name: DesignerPeerRegistrationBase
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerRegistrationBase
+      name: DesignerPeerRegistrationBase
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerRegistry
+      name: DesignerPeerRegistry
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerRegistry
+      name: DesignerPeerRegistry
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerTreeItem
+      name: DesignerPeerTreeItem
+      items: []
+    - uid: adaptivecards-designer.DesignerPeerTreeItem
+      name: DesignerPeerTreeItem
+      items: []
+    - uid: adaptivecards-designer.Dialog
+      name: Dialog
+      items: []
+    - uid: adaptivecards-designer.Dialog
+      name: Dialog
+      items: []
+    - uid: adaptivecards-designer.DialogButton
+      name: DialogButton
+      items: []
+    - uid: adaptivecards-designer.DialogButton
+      name: DialogButton
+      items: []
+    - uid: adaptivecards-designer.Downloader
+      name: Downloader
+      items: []
+    - uid: adaptivecards-designer.Downloader
+      name: Downloader
+      items: []
+    - uid: adaptivecards-designer.DraggableElement
+      name: DraggableElement
+      items: []
+    - uid: adaptivecards-designer.DraggableElement
+      name: DraggableElement
+      items: []
+    - uid: adaptivecards-designer.ElementPaletteItem
+      name: ElementPaletteItem
+      items: []
+    - uid: adaptivecards-designer.ElementPaletteItem
+      name: ElementPaletteItem
+      items: []
+    - uid: adaptivecards-designer.EnumPropertyEditor
+      name: EnumPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.EnumPropertyEditor
+      name: EnumPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ExecuteActionPeer
+      name: ExecuteActionPeer
+      items: []
+    - uid: adaptivecards-designer.ExecuteActionPeer
+      name: ExecuteActionPeer
+      items: []
+    - uid: adaptivecards-designer.FactSetPeer
+      name: FactSetPeer
+      items: []
+    - uid: adaptivecards-designer.FactSetPeer
+      name: FactSetPeer
+      items: []
+    - uid: adaptivecards-designer.FetchManager
+      name: FetchManager
+      items: []
+    - uid: adaptivecards-designer.FetchManager
+      name: FetchManager
+      items: []
+    - uid: adaptivecards-designer.FieldDefinition
+      name: FieldDefinition
+      items: []
+    - uid: adaptivecards-designer.FieldDefinition
+      name: FieldDefinition
+      items: []
+    - uid: adaptivecards-designer.FieldPicker
+      name: FieldPicker
+      items: []
+    - uid: adaptivecards-designer.FieldPicker
+      name: FieldPicker
+      items: []
+    - uid: adaptivecards-designer.FullScreenHandler
+      name: FullScreenHandler
+      items: []
+    - uid: adaptivecards-designer.FullScreenHandler
+      name: FullScreenHandler
+      items: []
+    - uid: adaptivecards-designer.GlobalSettings
+      name: GlobalSettings
+      items: []
+    - uid: adaptivecards-designer.GlobalSettings
+      name: GlobalSettings
+      items: []
+    - uid: adaptivecards-designer.HeightPropertyEditor
+      name: HeightPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.HeightPropertyEditor
+      name: HeightPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.HelpDialog
+      name: HelpDialog
+      items: []
+    - uid: adaptivecards-designer.HelpDialog
+      name: HelpDialog
+      items: []
+    - uid: adaptivecards-designer.HorizontalAlignment
+      name: HorizontalAlignment
+      items: []
+    - uid: adaptivecards-designer.HostContainer
+      name: HostContainer
+      items: []
+    - uid: adaptivecards-designer.HostContainer
+      name: HostContainer
+      items: []
+    - uid: adaptivecards-designer.HttpActionPeer
+      name: HttpActionPeer
+      items: []
+    - uid: adaptivecards-designer.HttpActionPeer
+      name: HttpActionPeer
+      items: []
+    - uid: adaptivecards-designer.IAction
+      name: IAction
+      items: []
+    - uid: adaptivecards-designer.IAdaptiveCard
+      name: IAdaptiveCard
+      items: []
+    - uid: adaptivecards-designer.IArrayData
+      name: IArrayData
+      items: []
+    - uid: adaptivecards-designer.IArrayData
+      name: IArrayData
+      items: []
+    - uid: adaptivecards-designer.IArrayField
+      name: IArrayField
+      items: []
+    - uid: adaptivecards-designer.IArrayField
+      name: IArrayField
+      items: []
+    - uid: adaptivecards-designer.IBackgroundImage
+      name: IBackgroundImage
+      items: []
+    - uid: adaptivecards-designer.IBooleanData
+      name: IBooleanData
+      items: []
+    - uid: adaptivecards-designer.IBooleanData
+      name: IBooleanData
+      items: []
+    - uid: adaptivecards-designer.IBooleanField
+      name: IBooleanField
+      items: []
+    - uid: adaptivecards-designer.IBooleanField
+      name: IBooleanField
+      items: []
+    - uid: adaptivecards-designer.ICardElement
+      name: ICardElement
+      items: []
+    - uid: adaptivecards-designer.IChoice
+      name: IChoice
+      items: []
+    - uid: adaptivecards-designer.IChoicePickerItem
+      name: IChoicePickerItem
+      items: []
+    - uid: adaptivecards-designer.IChoicePickerItem
+      name: IChoicePickerItem
+      items: []
+    - uid: adaptivecards-designer.IChoiceSetInput
+      name: IChoiceSetInput
+      items: []
+    - uid: adaptivecards-designer.IColumn
+      name: IColumn
+      items: []
+    - uid: adaptivecards-designer.IColumnSet
+      name: IColumnSet
+      items: []
+    - uid: adaptivecards-designer.IContainer
+      name: IContainer
+      items: []
+    - uid: adaptivecards-designer.IData
+      name: IData
+      items: []
+    - uid: adaptivecards-designer.IData
+      name: IData
+      items: []
+    - uid: adaptivecards-designer.IDataField
+      name: IDataField
+      items: []
+    - uid: adaptivecards-designer.IDataField
+      name: IDataField
+      items: []
+    - uid: adaptivecards-designer.IDateInput
+      name: IDateInput
+      items: []
+    - uid: adaptivecards-designer.IFact
+      name: IFact
+      items: []
+    - uid: adaptivecards-designer.IFactSet
+      name: IFactSet
+      items: []
+    - uid: adaptivecards-designer.IField
+      name: IField
+      items: []
+    - uid: adaptivecards-designer.IField
+      name: IField
+      items: []
+    - uid: adaptivecards-designer.IImage
+      name: IImage
+      items: []
+    - uid: adaptivecards-designer.IImageSet
+      name: IImageSet
+      items: []
+    - uid: adaptivecards-designer.IInput
+      name: IInput
+      items: []
+    - uid: adaptivecards-designer.ILoadSettingResult
+      name: ILoadSettingResult
+      items: []
+    - uid: adaptivecards-designer.ILoadSettingResult
+      name: ILoadSettingResult
+      items: []
+    - uid: adaptivecards-designer.ImageItem
+      name: ImageItem
+      items: []
+    - uid: adaptivecards-designer.ImageItem
+      name: ImageItem
+      items: []
+    - uid: adaptivecards-designer.ImagePeer
+      name: ImagePeer
+      items: []
+    - uid: adaptivecards-designer.ImagePeer
+      name: ImagePeer
+      items: []
+    - uid: adaptivecards-designer.ImageSetPeer
+      name: ImageSetPeer
+      items: []
+    - uid: adaptivecards-designer.ImageSetPeer
+      name: ImageSetPeer
+      items: []
+    - uid: adaptivecards-designer.ImageStyle
+      name: ImageStyle
+      items: []
+    - uid: adaptivecards-designer.InputPeer
+      name: InputPeer
+      items: []
+    - uid: adaptivecards-designer.InputPeer
+      name: InputPeer
+      items: []
+    - uid: adaptivecards-designer.INumberData
+      name: INumberData
+      items: []
+    - uid: adaptivecards-designer.INumberData
+      name: INumberData
+      items: []
+    - uid: adaptivecards-designer.INumberField
+      name: INumberField
+      items: []
+    - uid: adaptivecards-designer.INumberField
+      name: INumberField
+      items: []
+    - uid: adaptivecards-designer.INumberInput
+      name: INumberInput
+      items: []
+    - uid: adaptivecards-designer.IObjectData
+      name: IObjectData
+      items: []
+    - uid: adaptivecards-designer.IObjectData
+      name: IObjectData
+      items: []
+    - uid: adaptivecards-designer.IObjectField
+      name: IObjectField
+      items: []
+    - uid: adaptivecards-designer.IObjectField
+      name: IObjectField
+      items: []
+    - uid: adaptivecards-designer.IOpenUrlAction
+      name: IOpenUrlAction
+      items: []
+    - uid: adaptivecards-designer.IPoint
+      name: IPoint
+      items: []
+    - uid: adaptivecards-designer.IPoint
+      name: IPoint
+      items: []
+    - uid: adaptivecards-designer.IPropertySheetEditorCommand
+      name: IPropertySheetEditorCommand
+      items: []
+    - uid: adaptivecards-designer.IPropertySheetEditorCommand
+      name: IPropertySheetEditorCommand
+      items: []
+    - uid: adaptivecards-designer.IShowCardAction
+      name: IShowCardAction
+      items: []
+    - uid: adaptivecards-designer.IStringData
+      name: IStringData
+      items: []
+    - uid: adaptivecards-designer.IStringData
+      name: IStringData
+      items: []
+    - uid: adaptivecards-designer.IStringField
+      name: IStringField
+      items: []
+    - uid: adaptivecards-designer.IStringField
+      name: IStringField
+      items: []
+    - uid: adaptivecards-designer.ISubmitAction
+      name: ISubmitAction
+      items: []
+    - uid: adaptivecards-designer.ITextBlock
+      name: ITextBlock
+      items: []
+    - uid: adaptivecards-designer.ITextInput
+      name: ITextInput
+      items: []
+    - uid: adaptivecards-designer.ITimeInput
+      name: ITimeInput
+      items: []
+    - uid: adaptivecards-designer.IToggleInput
+      name: IToggleInput
+      items: []
+    - uid: adaptivecards-designer.IToolboxCommand
+      name: IToolboxCommand
+      items: []
+    - uid: adaptivecards-designer.IToolboxCommand
+      name: IToolboxCommand
+      items: []
+    - uid: adaptivecards-designer.IVersion
+      name: IVersion
+      items: []
+    - uid: adaptivecards-designer.IVersionedChoice
+      name: IVersionedChoice
+      items: []
+    - uid: adaptivecards-designer.IVersionedChoice
+      name: IVersionedChoice
+      items: []
+    - uid: adaptivecards-designer.LightCortanaContainer
+      name: LightCortanaContainer
+      items: []
+    - uid: adaptivecards-designer.LightCortanaContainer
+      name: LightCortanaContainer
+      items: []
+    - uid: adaptivecards-designer.LightTeamsContainer
+      name: LightTeamsContainer
+      items: []
+    - uid: adaptivecards-designer.LightTeamsContainer
+      name: LightTeamsContainer
+      items: []
+    - uid: adaptivecards-designer.MediaPeer
+      name: MediaPeer
+      items: []
+    - uid: adaptivecards-designer.MediaPeer
+      name: MediaPeer
+      items: []
+    - uid: adaptivecards-designer.NameValuePairPropertyEditor
+      name: NameValuePairPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.NameValuePairPropertyEditor
+      name: NameValuePairPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.NullableBooleanPropertyEditor
+      name: NullableBooleanPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.NullableBooleanPropertyEditor
+      name: NullableBooleanPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.NumberInputPeer
+      name: NumberInputPeer
+      items: []
+    - uid: adaptivecards-designer.NumberInputPeer
+      name: NumberInputPeer
+      items: []
+    - uid: adaptivecards-designer.NumberPropertyEditor
+      name: NumberPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.NumberPropertyEditor
+      name: NumberPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ObjectData
+      name: ObjectData
+      items: []
+    - uid: adaptivecards-designer.ObjectData
+      name: ObjectData
+      items: []
+    - uid: adaptivecards-designer.ObjectPropertyEditor
+      name: ObjectPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.ObjectPropertyEditor
+      name: ObjectPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.OpenImageDialog
+      name: OpenImageDialog
+      items: []
+    - uid: adaptivecards-designer.OpenImageDialog
+      name: OpenImageDialog
+      items: []
+    - uid: adaptivecards-designer.OpenJsonSchemaDialog
+      name: OpenJsonSchemaDialog
+      items: []
+    - uid: adaptivecards-designer.OpenJsonSchemaDialog
+      name: OpenJsonSchemaDialog
+      items: []
+    - uid: adaptivecards-designer.OpenSampleDialog
+      name: OpenSampleDialog
+      items: []
+    - uid: adaptivecards-designer.OpenSampleDialog
+      name: OpenSampleDialog
+      items: []
+    - uid: adaptivecards-designer.OpenSampleDialogProps
+      name: OpenSampleDialogProps
+      items: []
+    - uid: adaptivecards-designer.OpenSampleDialogProps
+      name: OpenSampleDialogProps
+      items: []
+    - uid: adaptivecards-designer.OpenSampleItemProps
+      name: OpenSampleItemProps
+      items: []
+    - uid: adaptivecards-designer.OpenSampleItemProps
+      name: OpenSampleItemProps
+      items: []
+    - uid: adaptivecards-designer.OpenUrlActionPeer
+      name: OpenUrlActionPeer
+      items: []
+    - uid: adaptivecards-designer.OpenUrlActionPeer
+      name: OpenUrlActionPeer
+      items: []
+    - uid: adaptivecards-designer.OutlookContainer
+      name: OutlookContainer
+      items: []
+    - uid: adaptivecards-designer.OutlookContainer
+      name: OutlookContainer
+      items: []
+    - uid: adaptivecards-designer.PeerCommand
+      name: PeerCommand
+      items: []
+    - uid: adaptivecards-designer.PeerCommand
+      name: PeerCommand
+      items: []
+    - uid: adaptivecards-designer.Pic2Card
+      name: Pic2Card
+      items: []
+    - uid: adaptivecards-designer.Pic2Card
+      name: Pic2Card
+      items: []
+    - uid: adaptivecards-designer.predictedCardJSON
+      name: predictedCardJSON
+      items: []
+    - uid: adaptivecards-designer.predictedCardJSON
+      name: predictedCardJSON
+      items: []
+    - uid: adaptivecards-designer.PropertySheet
+      name: PropertySheet
+      items: []
+    - uid: adaptivecards-designer.PropertySheet
+      name: PropertySheet
+      items: []
+    - uid: adaptivecards-designer.PropertySheetCategory
+      name: PropertySheetCategory
+      items: []
+    - uid: adaptivecards-designer.PropertySheetCategory
+      name: PropertySheetCategory
+      items: []
+    - uid: adaptivecards-designer.PropertySheetContext
+      name: PropertySheetContext
+      items: []
+    - uid: adaptivecards-designer.PropertySheetContext
+      name: PropertySheetContext
+      items: []
+    - uid: adaptivecards-designer.PropertySheetEntry
+      name: PropertySheetEntry
+      items: []
+    - uid: adaptivecards-designer.PropertySheetEntry
+      name: PropertySheetEntry
+      items: []
+    - uid: adaptivecards-designer.Rect
+      name: Rect
+      items: []
+    - uid: adaptivecards-designer.Rect
+      name: Rect
+      items: []
+    - uid: adaptivecards-designer.RichTextBlockPeer
+      name: RichTextBlockPeer
+      items: []
+    - uid: adaptivecards-designer.RichTextBlockPeer
+      name: RichTextBlockPeer
+      items: []
+    - uid: adaptivecards-designer.SampleCatalogue
+      name: SampleCatalogue
+      items: []
+    - uid: adaptivecards-designer.SampleCatalogue
+      name: SampleCatalogue
+      items: []
+    - uid: adaptivecards-designer.SettingsManager
+      name: SettingsManager
+      items: []
+    - uid: adaptivecards-designer.SettingsManager
+      name: SettingsManager
+      items: []
+    - uid: adaptivecards-designer.ShowCardActionPeer
+      name: ShowCardActionPeer
+      items: []
+    - uid: adaptivecards-designer.ShowCardActionPeer
+      name: ShowCardActionPeer
+      items: []
+    - uid: adaptivecards-designer.SidePanel
+      name: SidePanel
+      items: []
+    - uid: adaptivecards-designer.SidePanel
+      name: SidePanel
+      items: []
+    - uid: adaptivecards-designer.SidePanelAlignment
+      name: SidePanelAlignment
+      items: []
+    - uid: adaptivecards-designer.SidePanelAlignment
+      name: SidePanelAlignment
+      items: []
+    - uid: adaptivecards-designer.SingleInputPropertyEditor
+      name: SingleInputPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.SingleInputPropertyEditor
+      name: SingleInputPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.Size
+      name: Size
+      items: []
+    - uid: adaptivecards-designer.SizeAndUnitPropertyEditor
+      name: SizeAndUnitPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.SizeAndUnitPropertyEditor
+      name: SizeAndUnitPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.SkypeContainer
+      name: SkypeContainer
+      items: []
+    - uid: adaptivecards-designer.SkypeContainer
+      name: SkypeContainer
+      items: []
+    - uid: adaptivecards-designer.SnippetPaletteItem
+      name: SnippetPaletteItem
+      items: []
+    - uid: adaptivecards-designer.SnippetPaletteItem
+      name: SnippetPaletteItem
+      items: []
+    - uid: adaptivecards-designer.Spacing
+      name: Spacing
+      items: []
+    - uid: adaptivecards-designer.Splitter
+      name: Splitter
+      items: []
+    - uid: adaptivecards-designer.Splitter
+      name: Splitter
+      items: []
+    - uid: adaptivecards-designer.StringArrayPropertyEditor
+      name: StringArrayPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.StringArrayPropertyEditor
+      name: StringArrayPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.StringPropertyEditor
+      name: StringPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.StringPropertyEditor
+      name: StringPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.Strings
+      name: Strings
+      items: []
+    - uid: adaptivecards-designer.Strings
+      name: Strings
+      items: []
+    - uid: adaptivecards-designer.SubmitActionPeer
+      name: SubmitActionPeer
+      items: []
+    - uid: adaptivecards-designer.SubmitActionPeer
+      name: SubmitActionPeer
+      items: []
+    - uid: adaptivecards-designer.SubPropertySheetEntry
+      name: SubPropertySheetEntry
+      items: []
+    - uid: adaptivecards-designer.SubPropertySheetEntry
+      name: SubPropertySheetEntry
+      items: []
+    - uid: adaptivecards-designer.TableCellPeer
+      name: TableCellPeer
+      items: []
+    - uid: adaptivecards-designer.TableCellPeer
+      name: TableCellPeer
+      items: []
+    - uid: adaptivecards-designer.TableColumnsPropertyEditor
+      name: TableColumnsPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.TableColumnsPropertyEditor
+      name: TableColumnsPropertyEditor
+      items: []
+    - uid: adaptivecards-designer.TablePeer
+      name: TablePeer
+      items: []
+    - uid: adaptivecards-designer.TablePeer
+      name: TablePeer
+      items: []
+    - uid: adaptivecards-designer.TableRowPeer
+      name: TableRowPeer
+      items: []
+    - uid: adaptivecards-designer.TableRowPeer
+      name: TableRowPeer
+      items: []
+    - uid: adaptivecards-designer.TextBlockPeer
+      name: TextBlockPeer
+      items: []
+    - uid: adaptivecards-designer.TextBlockPeer
+      name: TextBlockPeer
+      items: []
+    - uid: adaptivecards-designer.TextColor
+      name: TextColor
+      items: []
+    - uid: adaptivecards-designer.TextInputPeer
+      name: TextInputPeer
+      items: []
+    - uid: adaptivecards-designer.TextInputPeer
+      name: TextInputPeer
+      items: []
+    - uid: adaptivecards-designer.TextSize
+      name: TextSize
+      items: []
+    - uid: adaptivecards-designer.TextWeight
+      name: TextWeight
+      items: []
+    - uid: adaptivecards-designer.TimeInputPeer
+      name: TimeInputPeer
+      items: []
+    - uid: adaptivecards-designer.TimeInputPeer
+      name: TimeInputPeer
+      items: []
+    - uid: adaptivecards-designer.TimelineContainer
+      name: TimelineContainer
+      items: []
+    - uid: adaptivecards-designer.TimelineContainer
+      name: TimelineContainer
+      items: []
+    - uid: adaptivecards-designer.ToastContainer
+      name: ToastContainer
+      items: []
+    - uid: adaptivecards-designer.ToastContainer
+      name: ToastContainer
+      items: []
+    - uid: adaptivecards-designer.ToggleInputPeer
+      name: ToggleInputPeer
+      items: []
+    - uid: adaptivecards-designer.ToggleInputPeer
+      name: ToggleInputPeer
+      items: []
+    - uid: adaptivecards-designer.ToggleVisibilityActionPeer
+      name: ToggleVisibilityActionPeer
+      items: []
+    - uid: adaptivecards-designer.ToggleVisibilityActionPeer
+      name: ToggleVisibilityActionPeer
+      items: []
+    - uid: adaptivecards-designer.Toolbar
+      name: Toolbar
+      items: []
+    - uid: adaptivecards-designer.Toolbar
+      name: Toolbar
+      items: []
+    - uid: adaptivecards-designer.ToolbarButton
+      name: ToolbarButton
+      items: []
+    - uid: adaptivecards-designer.ToolbarButton
+      name: ToolbarButton
+      items: []
+    - uid: adaptivecards-designer.ToolbarChoicePicker
+      name: ToolbarChoicePicker
+      items: []
+    - uid: adaptivecards-designer.ToolbarChoicePicker
+      name: ToolbarChoicePicker
+      items: []
+    - uid: adaptivecards-designer.ToolbarElement
+      name: ToolbarElement
+      items: []
+    - uid: adaptivecards-designer.ToolbarElement
+      name: ToolbarElement
+      items: []
+    - uid: adaptivecards-designer.ToolbarElementAlignment
+      name: ToolbarElementAlignment
+      items: []
+    - uid: adaptivecards-designer.ToolbarElementAlignment
+      name: ToolbarElementAlignment
+      items: []
+    - uid: adaptivecards-designer.Toolbox
+      name: Toolbox
+      items: []
+    - uid: adaptivecards-designer.Toolbox
+      name: Toolbox
+      items: []
+    - uid: adaptivecards-designer.ToolboxOrientation
+      name: ToolboxOrientation
+      items: []
+    - uid: adaptivecards-designer.ToolboxOrientation
+      name: ToolboxOrientation
+      items: []
+    - uid: adaptivecards-designer.TreeView
+      name: TreeView
+      items: []
+    - uid: adaptivecards-designer.TreeView
+      name: TreeView
+      items: []
+    - uid: adaptivecards-designer.TypedActionPeer
+      name: TypedActionPeer
+      items: []
+    - uid: adaptivecards-designer.TypedActionPeer
+      name: TypedActionPeer
+      items: []
+    - uid: adaptivecards-designer.TypedCardElementPeer
+      name: TypedCardElementPeer
+      items: []
+    - uid: adaptivecards-designer.TypedCardElementPeer
+      name: TypedCardElementPeer
+      items: []
+    - uid: adaptivecards-designer.Utils
+      name: Utils
+      items: []
+    - uid: adaptivecards-designer.Utils
+      name: Utils
+      items: []
+    - uid: adaptivecards-designer.ValueType
+      name: ValueType
+      items: []
+    - uid: adaptivecards-designer.ValueType
+      name: ValueType
+      items: []
+    - uid: adaptivecards-designer.ValueTypeData
+      name: ValueTypeData
+      items: []
+    - uid: adaptivecards-designer.ValueTypeData
+      name: ValueTypeData
+      items: []
+    - uid: adaptivecards-designer.VerticalAlignment
+      name: VerticalAlignment
+      items: []
+    - uid: adaptivecards-designer.WebChatContainer
+      name: WebChatContainer
+      items: []
+    - uid: adaptivecards-designer.WebChatContainer
+      name: WebChatContainer
+      items: []
+- name: adaptivecards-templating
+  items:
+    - name: Overview
+      uid: adaptivecards-templating
+    - uid: adaptivecards-templating.ContainerStyle
+      name: ContainerStyle
+      items: []
+    - uid: adaptivecards-templating.GlobalSettings
+      name: GlobalSettings
+      items: []
+    - uid: adaptivecards-templating.GlobalSettings
+      name: GlobalSettings
+      items: []
+    - uid: adaptivecards-templating.HorizontalAlignment
+      name: HorizontalAlignment
+      items: []
+    - uid: adaptivecards-templating.IAction
+      name: IAction
+      items: []
+    - uid: adaptivecards-templating.IAdaptiveCard
+      name: IAdaptiveCard
+      items: []
+    - uid: adaptivecards-templating.IBackgroundImage
+      name: IBackgroundImage
+      items: []
+    - uid: adaptivecards-templating.ICardElement
+      name: ICardElement
+      items: []
+    - uid: adaptivecards-templating.IChoice
+      name: IChoice
+      items: []
+    - uid: adaptivecards-templating.IChoiceSetInput
+      name: IChoiceSetInput
+      items: []
+    - uid: adaptivecards-templating.IColumn
+      name: IColumn
+      items: []
+    - uid: adaptivecards-templating.IColumnSet
+      name: IColumnSet
+      items: []
+    - uid: adaptivecards-templating.IContainer
+      name: IContainer
+      items: []
+    - uid: adaptivecards-templating.IDateInput
+      name: IDateInput
+      items: []
+    - uid: adaptivecards-templating.IEvaluationContext
+      name: IEvaluationContext
+      items: []
+    - uid: adaptivecards-templating.IEvaluationContext
+      name: IEvaluationContext
+      items: []
+    - uid: adaptivecards-templating.IFact
+      name: IFact
+      items: []
+    - uid: adaptivecards-templating.IFactSet
+      name: IFactSet
+      items: []
+    - uid: adaptivecards-templating.IImage
+      name: IImage
+      items: []
+    - uid: adaptivecards-templating.IImageSet
+      name: IImageSet
+      items: []
+    - uid: adaptivecards-templating.IInput
+      name: IInput
+      items: []
+    - uid: adaptivecards-templating.ImageStyle
+      name: ImageStyle
+      items: []
+    - uid: adaptivecards-templating.INumberInput
+      name: INumberInput
+      items: []
+    - uid: adaptivecards-templating.IOpenUrlAction
+      name: IOpenUrlAction
+      items: []
+    - uid: adaptivecards-templating.IShowCardAction
+      name: IShowCardAction
+      items: []
+    - uid: adaptivecards-templating.ISubmitAction
+      name: ISubmitAction
+      items: []
+    - uid: adaptivecards-templating.ITextBlock
+      name: ITextBlock
+      items: []
+    - uid: adaptivecards-templating.ITextInput
+      name: ITextInput
+      items: []
+    - uid: adaptivecards-templating.ITimeInput
+      name: ITimeInput
+      items: []
+    - uid: adaptivecards-templating.IToggleInput
+      name: IToggleInput
+      items: []
+    - uid: adaptivecards-templating.IVersion
+      name: IVersion
+      items: []
+    - uid: adaptivecards-templating.Size
+      name: Size
+      items: []
+    - uid: adaptivecards-templating.Spacing
+      name: Spacing
+      items: []
+    - uid: adaptivecards-templating.Template
+      name: Template
+      items: []
+    - uid: adaptivecards-templating.Template
+      name: Template
+      items: []
+    - uid: adaptivecards-templating.TextColor
+      name: TextColor
+      items: []
+    - uid: adaptivecards-templating.TextSize
+      name: TextSize
+      items: []
+    - uid: adaptivecards-templating.TextWeight
+      name: TextWeight
+      items: []
+    - uid: adaptivecards-templating.VerticalAlignment
+      name: VerticalAlignment
+      items: []

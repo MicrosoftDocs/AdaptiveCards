@@ -1,0 +1,117 @@
+### YamlMime:TSType
+name: ContainerStyleDefinition
+uid: adaptivecards.ContainerStyleDefinition
+package: adaptivecards
+summary: ''
+fullName: ContainerStyleDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ContainerStyleDefinition(any)
+    uid: adaptivecards.ContainerStyleDefinition.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ContainerStyleDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: backgroundColor
+    uid: adaptivecards.ContainerStyleDefinition.backgroundColor
+    package: adaptivecards
+    summary: ''
+    fullName: backgroundColor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'backgroundColor?: string'
+      return:
+        description: ''
+        type: string
+  - name: borderColor
+    uid: adaptivecards.ContainerStyleDefinition.borderColor
+    package: adaptivecards
+    summary: ''
+    fullName: borderColor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'borderColor?: string'
+      return:
+        description: ''
+        type: string
+  - name: foregroundColors
+    uid: adaptivecards.ContainerStyleDefinition.foregroundColors
+    package: adaptivecards
+    summary: ''
+    fullName: foregroundColors
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'foregroundColors: ColorSetDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ColorSetDefinition" />
+  - name: highlightBackgroundColor
+    uid: adaptivecards.ContainerStyleDefinition.highlightBackgroundColor
+    package: adaptivecards
+    summary: ''
+    fullName: highlightBackgroundColor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'highlightBackgroundColor?: string'
+      return:
+        description: ''
+        type: string
+  - name: highlightForegroundColor
+    uid: adaptivecards.ContainerStyleDefinition.highlightForegroundColor
+    package: adaptivecards
+    summary: ''
+    fullName: highlightForegroundColor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'highlightForegroundColor?: string'
+      return:
+        description: ''
+        type: string
+  - name: isBuiltIn
+    uid: adaptivecards.ContainerStyleDefinition.isBuiltIn
+    package: adaptivecards
+    summary: ''
+    fullName: isBuiltIn
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isBuiltIn
+      return:
+        description: ''
+        type: boolean
+methods:
+  - name: parse(any)
+    uid: adaptivecards.ContainerStyleDefinition.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(obj: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''

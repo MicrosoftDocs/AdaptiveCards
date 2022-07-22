@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: INumberData
+uid: adaptivecards-designer.INumberData
+package: adaptivecards-designer
+summary: ''
+fullName: INumberData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: sampleValue
+    uid: adaptivecards-designer.INumberData.sampleValue
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sampleValue?: number'
+      return:
+        description: ''
+        type: number
+  - name: valueType
+    uid: adaptivecards-designer.INumberData.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueType: "Number"'
+      return:
+        description: ''
+        type: '"Number"'

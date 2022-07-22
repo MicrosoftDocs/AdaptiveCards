@@ -1,0 +1,892 @@
+### YamlMime:TSType
+name: ImagePeer
+uid: adaptivecards-designer.ImagePeer
+package: adaptivecards-designer
+summary: ''
+fullName: ImagePeer
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      ImagePeer(DesignerPeer, CardDesignerSurface, DesignerPeerRegistrationBase,
+      Image, boolean)
+    uid: adaptivecards-designer.ImagePeer.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ImagePeer(parent: DesignerPeer, designerSurface:
+        CardDesignerSurface, registration: DesignerPeerRegistrationBase,
+        cardElement: Image, initializeCardElement?: boolean)
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: designerSurface
+          type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+          description: ''
+        - id: registration
+          type: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />
+          description: ''
+        - id: cardElement
+          type: Image
+          description: ''
+        - id: initializeCardElement
+          type: boolean
+          description: ''
+properties:
+  - name: altTextProperty
+    uid: adaptivecards-designer.ImagePeer.altTextProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: altTextProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static altTextProperty: StringPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.StringPropertyEditor" />
+  - name: backgroundColorProperty
+    uid: adaptivecards-designer.ImagePeer.backgroundColorProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: backgroundColorProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static backgroundColorProperty: StringPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.StringPropertyEditor" />
+  - name: cardElement
+    uid: adaptivecards-designer.ImagePeer.cardElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Image cardElement
+      return:
+        description: ''
+        type: Image
+  - name: dragging
+    uid: adaptivecards-designer.ImagePeer.dragging
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dragging
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean dragging
+      return:
+        description: ''
+        type: boolean
+  - name: isSelected
+    uid: adaptivecards-designer.ImagePeer.isSelected
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isSelected
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isSelected
+      return:
+        description: ''
+        type: boolean
+  - name: isTreeItemExpandedByDefault
+    uid: adaptivecards-designer.ImagePeer.isTreeItemExpandedByDefault
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isTreeItemExpandedByDefault
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isTreeItemExpandedByDefault
+      return:
+        description: ''
+        type: boolean
+  - name: parent
+    uid: adaptivecards-designer.ImagePeer.parent
+    package: adaptivecards-designer
+    summary: ''
+    fullName: parent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: DesignerPeer parent
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeer" />
+  - name: pixelHeightProperty
+    uid: adaptivecards-designer.ImagePeer.pixelHeightProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: pixelHeightProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static pixelHeightProperty: NumberPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.NumberPropertyEditor" />
+  - name: pixelWidthProperty
+    uid: adaptivecards-designer.ImagePeer.pixelWidthProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: pixelWidthProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static pixelWidthProperty: NumberPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.NumberPropertyEditor" />
+  - name: renderedElement
+    uid: adaptivecards-designer.ImagePeer.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+  - name: sizeProperty
+    uid: adaptivecards-designer.ImagePeer.sizeProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sizeProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static sizeProperty: EnumPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.EnumPropertyEditor" />
+  - name: styleProperty
+    uid: adaptivecards-designer.ImagePeer.styleProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: styleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static styleProperty: EnumPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.EnumPropertyEditor" />
+  - name: urlProperty
+    uid: adaptivecards-designer.ImagePeer.urlProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: urlProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static urlProperty: StringPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.StringPropertyEditor" />
+inheritedProperties:
+  - name: dataContextProperty
+    uid: adaptivecards-designer.ImagePeer.dataContextProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dataContextProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static dataContextProperty: CustomCardObjectPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CustomCardObjectPropertyEditor" />
+  - name: designerSurface
+    uid: adaptivecards-designer.ImagePeer.designerSurface
+    package: adaptivecards-designer
+    summary: ''
+    fullName: designerSurface
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'designerSurface: CardDesignerSurface'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+  - name: heightProperty
+    uid: adaptivecards-designer.ImagePeer.heightProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: heightProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static heightProperty: HeightPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.HeightPropertyEditor" />
+  - name: horizontalAlignmentProperty
+    uid: adaptivecards-designer.ImagePeer.horizontalAlignmentProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: horizontalAlignmentProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static horizontalAlignmentProperty: EnumPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.EnumPropertyEditor" />
+  - name: idProperty
+    uid: adaptivecards-designer.ImagePeer.idProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: idProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static idProperty: StringPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.StringPropertyEditor" />
+  - name: isVisibleProperty
+    uid: adaptivecards-designer.ImagePeer.isVisibleProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isVisibleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static isVisibleProperty: BooleanPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.BooleanPropertyEditor" />
+  - name: onChanged
+    uid: adaptivecards-designer.ImagePeer.onChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onChanged: (sender: DesignerPeer, updatePropertySheet: boolean) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer, updatePropertySheet: boolean) =&gt; void'
+  - name: onClick
+    uid: adaptivecards-designer.ImagePeer.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onDoubleClick
+    uid: adaptivecards-designer.ImagePeer.onDoubleClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onDoubleClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onEndDrag
+    uid: adaptivecards-designer.ImagePeer.onEndDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onEndDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onParentChanged
+    uid: adaptivecards-designer.ImagePeer.onParentChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onParentChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onParentChanged: (sender: DesignerPeer) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer) =&gt; void'
+  - name: onPeerAdded
+    uid: adaptivecards-designer.ImagePeer.onPeerAdded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onPeerAdded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onPeerAdded: (sender: DesignerPeer, newPeer: DesignerPeer) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer, newPeer: DesignerPeer) =&gt; void'
+  - name: onPeerRemoved
+    uid: adaptivecards-designer.ImagePeer.onPeerRemoved
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onPeerRemoved
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onPeerRemoved: (sender: DesignerPeer) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer) =&gt; void'
+  - name: onPopulatePropertySheet
+    uid: adaptivecards-designer.ImagePeer.onPopulatePropertySheet
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onPopulatePropertySheet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onPopulatePropertySheet?: (sender: DesignerPeer, propertySheet:
+        PropertySheet) => void
+      return:
+        description: ''
+        type: '(sender: DesignerPeer, propertySheet: PropertySheet) =&gt; void'
+  - name: onSelectedChanged
+    uid: adaptivecards-designer.ImagePeer.onSelectedChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onSelectedChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onSelectedChanged: (sender: DesignerPeer) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer) =&gt; void'
+  - name: onStartDrag
+    uid: adaptivecards-designer.ImagePeer.onStartDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onStartDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: registration
+    uid: adaptivecards-designer.ImagePeer.registration
+    package: adaptivecards-designer
+    summary: ''
+    fullName: registration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'registration: DesignerPeerRegistrationBase'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />
+  - name: separatorProperty
+    uid: adaptivecards-designer.ImagePeer.separatorProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: separatorProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static separatorProperty: BooleanPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.BooleanPropertyEditor" />
+  - name: spacingProperty
+    uid: adaptivecards-designer.ImagePeer.spacingProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: spacingProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static spacingProperty: EnumPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.EnumPropertyEditor" />
+  - name: treeItem
+    uid: adaptivecards-designer.ImagePeer.treeItem
+    package: adaptivecards-designer
+    summary: ''
+    fullName: treeItem
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'treeItem: DesignerPeerTreeItem'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeerTreeItem" />
+  - name: whenProperty
+    uid: adaptivecards-designer.ImagePeer.whenProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: whenProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static whenProperty: CustomCardObjectPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CustomCardObjectPropertyEditor" />
+inheritedMethods:
+  - name: 'addElementsToDesignerSurface(HTMLElement, boolean)'
+    uid: adaptivecards-designer.ImagePeer.addElementsToDesignerSurface
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function addElementsToDesignerSurface(designerSurface: HTMLElement,
+        processChildren?: boolean)
+      parameters:
+        - id: designerSurface
+          type: HTMLElement
+          description: ''
+        - id: processChildren
+          type: boolean
+          description: ''
+  - name: buildPropertySheetCard(DesignContext)
+    uid: adaptivecards-designer.ImagePeer.buildPropertySheetCard
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function buildPropertySheetCard(context: DesignContext): AdaptiveCard'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.DesignContext" />
+          description: ''
+      return:
+        description: ''
+        type: AdaptiveCard
+  - name: canBeRemoved()
+    uid: adaptivecards-designer.ImagePeer.canBeRemoved
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function canBeRemoved(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: canDrop(DesignerPeer)
+    uid: adaptivecards-designer.ImagePeer.canDrop
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function canDrop(peer: DesignerPeer): boolean'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: changed(boolean)
+    uid: adaptivecards-designer.ImagePeer.changed
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function changed(updatePropertySheet: boolean)'
+      parameters:
+        - id: updatePropertySheet
+          type: boolean
+          description: ''
+  - name: endDrag()
+    uid: adaptivecards-designer.ImagePeer.endDrag
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function endDrag()
+  - name: findActionChild(Action)
+    uid: adaptivecards-designer.ImagePeer.findActionChild
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function findActionChild(action: Action): ActionPeer | undefined'
+      parameters:
+        - id: action
+          type: Action
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ActionPeer" /> | undefined
+  - name: findCardElementChild(CardElement)
+    uid: adaptivecards-designer.ImagePeer.findCardElementChild
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function findCardElementChild(element: CardElement): CardElementPeer |
+        undefined
+      parameters:
+        - id: element
+          type: CardElement
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CardElementPeer" /> | undefined
+  - name: focus()
+    uid: adaptivecards-designer.ImagePeer.focus
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: getCardObject()
+    uid: adaptivecards-designer.ImagePeer.getCardObject
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCardObject(): CardObject'
+      return:
+        description: ''
+        type: CardObject
+  - name: getCardObjectBoundingRect()
+    uid: adaptivecards-designer.ImagePeer.getCardObjectBoundingRect
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCardObjectBoundingRect(): Rect'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Rect" />
+  - name: getChildAt(number)
+    uid: adaptivecards-designer.ImagePeer.getChildAt
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildAt(index: number): DesignerPeer'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeer" />
+  - name: getChildCount()
+    uid: adaptivecards-designer.ImagePeer.getChildCount
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: 'getCommands(DesignContext, boolean)'
+    uid: adaptivecards-designer.ImagePeer.getCommands
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getCommands(context: DesignContext, promoteParentCommands?:
+        boolean): Array<PeerCommand>
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.DesignContext" />
+          description: ''
+        - id: promoteParentCommands
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: Array&lt;<xref uid="adaptivecards-designer.PeerCommand" />&gt;
+  - name: getTreeItemText()
+    uid: adaptivecards-designer.ImagePeer.getTreeItemText
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getTreeItemText(): string'
+      return:
+        description: ''
+        type: string
+  - name: initializeCardElement()
+    uid: adaptivecards-designer.ImagePeer.initializeCardElement
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function initializeCardElement()
+  - name: 'insertChild(DesignerPeer, number)'
+    uid: adaptivecards-designer.ImagePeer.insertChild
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function insertChild(peer: DesignerPeer, index?: number)'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: index
+          type: number
+          description: ''
+  - name: 'remove(boolean, boolean)'
+    uid: adaptivecards-designer.ImagePeer.remove
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(onlyFromCard: boolean, removeChildren: boolean): boolean'
+      parameters:
+        - id: onlyFromCard
+          type: boolean
+          description: ''
+        - id: removeChildren
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: removeChild(DesignerPeer)
+    uid: adaptivecards-designer.ImagePeer.removeChild
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function removeChild(peer: DesignerPeer)'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+  - name: removeElementsFromDesignerSurface(boolean)
+    uid: adaptivecards-designer.ImagePeer.removeElementsFromDesignerSurface
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function removeElementsFromDesignerSurface(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type: boolean
+          description: ''
+  - name: render()
+    uid: adaptivecards-designer.ImagePeer.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: scrollIntoView()
+    uid: adaptivecards-designer.ImagePeer.scrollIntoView
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function scrollIntoView()
+  - name: tryAdd(DesignerPeer)
+    uid: adaptivecards-designer.ImagePeer.tryAdd
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function tryAdd(peer: DesignerPeer): boolean'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'tryDrop(DesignerPeer, IPoint)'
+    uid: adaptivecards-designer.ImagePeer.tryDrop
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function tryDrop(peer: DesignerPeer, insertionPoint: IPoint): boolean'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: insertionPoint
+          type: <xref uid="adaptivecards-designer.IPoint" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: updateChildren(boolean)
+    uid: adaptivecards-designer.ImagePeer.updateChildren
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function updateChildren(initializeCardElement?: boolean)'
+      parameters:
+        - id: initializeCardElement
+          type: boolean
+          description: ''
+  - name: updateLayout()
+    uid: adaptivecards-designer.ImagePeer.updateLayout
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateLayout()
+methods:
+  - name: getBoundingRect()
+    uid: adaptivecards-designer.ImagePeer.getBoundingRect
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getBoundingRect(): Rect'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Rect" />
+  - name: isDraggable()
+    uid: adaptivecards-designer.ImagePeer.isDraggable
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDraggable(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: 'populatePropertySheet(PropertySheet, string)'
+    uid: adaptivecards-designer.ImagePeer.populatePropertySheet
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function populatePropertySheet(propertySheet: PropertySheet,
+        defaultCategory?: string)
+      parameters:
+        - id: propertySheet
+          type: <xref uid="adaptivecards-designer.PropertySheet" />
+          description: ''
+        - id: defaultCategory
+          type: string
+          description: ''
+extends: <xref uid="adaptivecards-designer.TypedCardElementPeer" />&lt;Image&gt;

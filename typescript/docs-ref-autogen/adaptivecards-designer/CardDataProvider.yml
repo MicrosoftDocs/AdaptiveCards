@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: CardDataProvider
+uid: adaptivecards-designer.CardDataProvider
+package: adaptivecards-designer
+summary: ''
+fullName: CardDataProvider
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type CardDataProvider = (callback?: CardDataCallback) => CardData | void

@@ -1,0 +1,91 @@
+### YamlMime:TSType
+name: Splitter
+uid: adaptivecards-designer.Splitter
+package: adaptivecards-designer
+summary: ''
+fullName: Splitter
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'Splitter(HTMLElement, HTMLElement, boolean, boolean, number)'
+    uid: adaptivecards-designer.Splitter.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new Splitter(attachedTo: HTMLElement, sizedElement: HTMLElement,
+        isVertical?: boolean, isAttachedAfter?: boolean, minimumSize?: number)
+      parameters:
+        - id: attachedTo
+          type: HTMLElement
+          description: ''
+        - id: sizedElement
+          type: HTMLElement
+          description: ''
+        - id: isVertical
+          type: boolean
+          description: ''
+        - id: isAttachedAfter
+          type: boolean
+          description: ''
+        - id: minimumSize
+          type: number
+          description: ''
+properties:
+  - name: attachedTo
+    uid: adaptivecards-designer.Splitter.attachedTo
+    package: adaptivecards-designer
+    summary: ''
+    fullName: attachedTo
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'attachedTo: HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: minimum
+    uid: adaptivecards-designer.Splitter.minimum
+    package: adaptivecards-designer
+    summary: ''
+    fullName: minimum
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'minimum: number'
+      return:
+        description: ''
+        type: number
+  - name: onResized
+    uid: adaptivecards-designer.Splitter.onResized
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onResized
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onResized: (sender: Splitter) => void'
+      return:
+        description: ''
+        type: '(sender: Splitter) =&gt; void'
+  - name: onResizeEnded
+    uid: adaptivecards-designer.Splitter.onResizeEnded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onResizeEnded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onResizeEnded: (sender: Splitter) => void'
+      return:
+        description: ''
+        type: '(sender: Splitter) =&gt; void'

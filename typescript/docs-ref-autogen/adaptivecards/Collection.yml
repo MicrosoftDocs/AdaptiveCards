@@ -1,0 +1,109 @@
+### YamlMime:TSType
+name: Collection
+uid: adaptivecards.Collection
+package: adaptivecards
+summary: ''
+fullName: Collection<TItem>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: length
+    uid: adaptivecards.Collection.length
+    package: adaptivecards
+    summary: ''
+    fullName: length
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number length
+      return:
+        description: ''
+        type: number
+  - name: onItemAdded
+    uid: adaptivecards.Collection.onItemAdded
+    package: adaptivecards
+    summary: ''
+    fullName: onItemAdded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onItemAdded: (item: TItem) => void'
+      return:
+        description: ''
+        type: '(item: TItem) =&gt; void'
+  - name: onItemRemoved
+    uid: adaptivecards.Collection.onItemRemoved
+    package: adaptivecards
+    summary: ''
+    fullName: onItemRemoved
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onItemRemoved: (item: TItem) => void'
+      return:
+        description: ''
+        type: '(item: TItem) =&gt; void'
+methods:
+  - name: add(TItem)
+    uid: adaptivecards.Collection.add
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function add(item: TItem)'
+      parameters:
+        - id: item
+          type: TItem
+          description: ''
+  - name: get(number)
+    uid: adaptivecards.Collection.get
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function get(index: number): TItem'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: TItem
+  - name: indexOf(TItem)
+    uid: adaptivecards.Collection.indexOf
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function indexOf(item: TItem): number'
+      parameters:
+        - id: item
+          type: TItem
+          description: ''
+      return:
+        description: ''
+        type: number
+  - name: remove(TItem)
+    uid: adaptivecards.Collection.remove
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(item: TItem)'
+      parameters:
+        - id: item
+          type: TItem
+          description: ''

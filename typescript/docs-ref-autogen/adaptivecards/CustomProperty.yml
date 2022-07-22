@@ -1,0 +1,234 @@
+### YamlMime:TSType
+name: CustomProperty
+uid: adaptivecards.CustomProperty
+package: adaptivecards
+summary: ''
+fullName: CustomProperty<T>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      CustomProperty(Version, string, (sender: SerializableObject, property:
+      PropertyDefinition, source: PropertyBag, context:
+      BaseSerializationContext) => T, (sender: SerializableObject, property:
+      PropertyDefinition, target: PropertyBag, value: T, context:
+      BaseSerializationContext) => void, T | undefined, (sender:
+      SerializableObject) => T | undefined)
+    uid: adaptivecards.CustomProperty.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new CustomProperty(targetVersion: Version, name: string, onParse:
+        (sender: SerializableObject, property: PropertyDefinition, source:
+        PropertyBag, context: BaseSerializationContext) => T, onToJSON: (sender:
+        SerializableObject, property: PropertyDefinition, target: PropertyBag,
+        value: T, context: BaseSerializationContext) => void, defaultValue?: T |
+        undefined, onGetInitialValue?: (sender: SerializableObject) => T |
+        undefined)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="adaptivecards.Version" />
+          description: ''
+        - id: name
+          type: string
+          description: ''
+        - id: onParse
+          type: >-
+            (sender: SerializableObject, property: PropertyDefinition, source:
+            PropertyBag, context: BaseSerializationContext) =&gt; T
+          description: ''
+        - id: onToJSON
+          type: >-
+            (sender: SerializableObject, property: PropertyDefinition, target:
+            PropertyBag, value: T, context: BaseSerializationContext) =&gt; void
+          description: ''
+        - id: defaultValue
+          type: T | undefined
+          description: ''
+        - id: onGetInitialValue
+          type: '(sender: SerializableObject) =&gt; T | undefined'
+          description: ''
+properties:
+  - name: defaultValue
+    uid: adaptivecards.CustomProperty.defaultValue
+    package: adaptivecards
+    summary: ''
+    fullName: defaultValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultValue?: T | undefined'
+      return:
+        description: ''
+        type: T | undefined
+  - name: name
+    uid: adaptivecards.CustomProperty.name
+    package: adaptivecards
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: onGetInitialValue
+    uid: adaptivecards.CustomProperty.onGetInitialValue
+    package: adaptivecards
+    summary: ''
+    fullName: onGetInitialValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => T | undefined'
+      return:
+        description: ''
+        type: '(sender: SerializableObject) =&gt; T | undefined'
+  - name: onParse
+    uid: adaptivecards.CustomProperty.onParse
+    package: adaptivecards
+    summary: ''
+    fullName: onParse
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onParse: (sender: SerializableObject, property: PropertyDefinition,
+        source: PropertyBag, context: BaseSerializationContext) => T
+      return:
+        description: ''
+        type: >-
+          (sender: SerializableObject, property: PropertyDefinition, source:
+          PropertyBag, context: BaseSerializationContext) =&gt; T
+  - name: onToJSON
+    uid: adaptivecards.CustomProperty.onToJSON
+    package: adaptivecards
+    summary: ''
+    fullName: onToJSON
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onToJSON: (sender: SerializableObject, property: PropertyDefinition,
+        target: PropertyBag, value: T, context: BaseSerializationContext) =>
+        void
+      return:
+        description: ''
+        type: >-
+          (sender: SerializableObject, property: PropertyDefinition, target:
+          PropertyBag, value: T, context: BaseSerializationContext) =&gt; void
+  - name: targetVersion
+    uid: adaptivecards.CustomProperty.targetVersion
+    package: adaptivecards
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+inheritedProperties:
+  - name: isSerializationEnabled
+    uid: adaptivecards.CustomProperty.isSerializationEnabled
+    package: adaptivecards
+    summary: ''
+    fullName: isSerializationEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: sequentialNumber
+    uid: adaptivecards.CustomProperty.sequentialNumber
+    package: adaptivecards
+    summary: ''
+    fullName: sequentialNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        description: ''
+        type: number
+inheritedMethods:
+  - name: getInternalName()
+    uid: adaptivecards.CustomProperty.getInternalName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getInternalName(): string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: 'parse(SerializableObject, PropertyBag, BaseSerializationContext)'
+    uid: adaptivecards.CustomProperty.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parse(sender: SerializableObject, source: PropertyBag, context:
+        BaseSerializationContext): T
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: source
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: T
+  - name: 'toJSON(SerializableObject, PropertyBag, T, BaseSerializationContext)'
+    uid: adaptivecards.CustomProperty.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        T, context: BaseSerializationContext)
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: target
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: value
+          type: T
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.BaseSerializationContext" />
+          description: ''
+extends: <xref uid="adaptivecards.PropertyDefinition" />

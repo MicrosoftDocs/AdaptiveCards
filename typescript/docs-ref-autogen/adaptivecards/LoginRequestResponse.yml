@@ -1,0 +1,70 @@
+### YamlMime:TSType
+name: LoginRequestResponse
+uid: adaptivecards.LoginRequestResponse
+package: adaptivecards
+summary: ''
+fullName: LoginRequestResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'LoginRequestResponse(IActivityRequest, Authentication)'
+    uid: adaptivecards.LoginRequestResponse.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new LoginRequestResponse(request: IActivityRequest, _auth:
+        Authentication)
+      parameters:
+        - id: request
+          type: <xref uid="adaptivecards.IActivityRequest" />
+          description: ''
+        - id: _auth
+          type: <xref uid="adaptivecards.Authentication" />
+          description: ''
+properties:
+  - name: request
+    uid: adaptivecards.LoginRequestResponse.request
+    package: adaptivecards
+    summary: ''
+    fullName: request
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'request: IActivityRequest'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IActivityRequest" />
+  - name: signinButton
+    uid: adaptivecards.LoginRequestResponse.signinButton
+    package: adaptivecards
+    summary: ''
+    fullName: signinButton
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'signinButton?: AuthCardButton'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.AuthCardButton" />
+  - name: tokenExchangeResource
+    uid: adaptivecards.LoginRequestResponse.tokenExchangeResource
+    package: adaptivecards
+    summary: ''
+    fullName: tokenExchangeResource
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: TokenExchangeResource | undefined tokenExchangeResource
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TokenExchangeResource" /> | undefined
+extends: <xref uid="adaptivecards.ActivityResponse" />

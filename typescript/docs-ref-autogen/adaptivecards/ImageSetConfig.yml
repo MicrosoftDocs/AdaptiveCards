@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: ImageSetConfig
+uid: adaptivecards.ImageSetConfig
+package: adaptivecards
+summary: ''
+fullName: ImageSetConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ImageSetConfig(any)
+    uid: adaptivecards.ImageSetConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ImageSetConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: imageSize
+    uid: adaptivecards.ImageSetConfig.imageSize
+    package: adaptivecards
+    summary: ''
+    fullName: imageSize
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'imageSize: Size'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Size" />
+  - name: maxImageHeight
+    uid: adaptivecards.ImageSetConfig.maxImageHeight
+    package: adaptivecards
+    summary: ''
+    fullName: maxImageHeight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxImageHeight: number'
+      return:
+        description: ''
+        type: number
+methods:
+  - name: toJSON()
+    uid: adaptivecards.ImageSetConfig.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function toJSON(): { imageSize: string, maxImageHeight: number }'
+      return:
+        description: ''
+        type: '{ imageSize: string, maxImageHeight: number }'

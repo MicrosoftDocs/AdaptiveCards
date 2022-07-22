@@ -1,0 +1,172 @@
+### YamlMime:TSType
+name: RefreshActionProperty
+uid: adaptivecards.RefreshActionProperty
+package: adaptivecards
+summary: ''
+fullName: RefreshActionProperty
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'RefreshActionProperty(Version, string)'
+    uid: adaptivecards.RefreshActionProperty.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new RefreshActionProperty(targetVersion: Version, name: string)'
+      parameters:
+        - id: targetVersion
+          type: <xref uid="adaptivecards.Version" />
+          description: ''
+        - id: name
+          type: string
+          description: ''
+properties:
+  - name: name
+    uid: adaptivecards.RefreshActionProperty.name
+    package: adaptivecards
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: targetVersion
+    uid: adaptivecards.RefreshActionProperty.targetVersion
+    package: adaptivecards
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+inheritedProperties:
+  - name: defaultValue
+    uid: adaptivecards.RefreshActionProperty.defaultValue
+    package: adaptivecards
+    summary: ''
+    fullName: defaultValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultValue?: any'
+      return:
+        description: ''
+        type: any
+  - name: isSerializationEnabled
+    uid: adaptivecards.RefreshActionProperty.isSerializationEnabled
+    package: adaptivecards
+    summary: ''
+    fullName: isSerializationEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSerializationEnabled: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: onGetInitialValue
+    uid: adaptivecards.RefreshActionProperty.onGetInitialValue
+    package: adaptivecards
+    summary: ''
+    fullName: onGetInitialValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onGetInitialValue?: (sender: SerializableObject) => any | undefined'
+      return:
+        description: ''
+        type: '(sender: SerializableObject) =&gt; any | undefined'
+  - name: sequentialNumber
+    uid: adaptivecards.RefreshActionProperty.sequentialNumber
+    package: adaptivecards
+    summary: ''
+    fullName: sequentialNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sequentialNumber: number'
+      return:
+        description: ''
+        type: number
+inheritedMethods:
+  - name: getInternalName()
+    uid: adaptivecards.RefreshActionProperty.getInternalName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getInternalName(): string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: 'parse(RefreshDefinition, PropertyBag, SerializationContext)'
+    uid: adaptivecards.RefreshActionProperty.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parse(sender: RefreshDefinition, source: PropertyBag, context:
+        SerializationContext): ExecuteAction | undefined
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.RefreshDefinition" />
+          description: ''
+        - id: source
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.SerializationContext" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ExecuteAction" /> | undefined
+  - name: >-
+      toJSON(SerializableObject, PropertyBag, ExecuteAction | undefined,
+      SerializationContext)
+    uid: adaptivecards.RefreshActionProperty.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(sender: SerializableObject, target: PropertyBag, value:
+        ExecuteAction | undefined, context: SerializationContext)
+      parameters:
+        - id: sender
+          type: <xref uid="adaptivecards.SerializableObject" />
+          description: ''
+        - id: target
+          type: <xref uid="adaptivecards.PropertyBag" />
+          description: ''
+        - id: value
+          type: <xref uid="adaptivecards.ExecuteAction" /> | undefined
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards.SerializationContext" />
+          description: ''
+extends: <xref uid="adaptivecards.PropertyDefinition" />

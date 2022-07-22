@@ -1,0 +1,192 @@
+### YamlMime:TSType
+name: ToolbarChoicePicker
+uid: adaptivecards-designer.ToolbarChoicePicker
+package: adaptivecards-designer
+summary: ''
+fullName: ToolbarChoicePicker
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ToolbarChoicePicker(string)
+    uid: adaptivecards-designer.ToolbarChoicePicker.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ToolbarChoicePicker(id: string)'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+properties:
+  - name: choices
+    uid: adaptivecards-designer.ToolbarChoicePicker.choices
+    package: adaptivecards-designer
+    summary: ''
+    fullName: choices
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'choices: Array<IChoicePickerItem>'
+      return:
+        description: ''
+        type: Array&lt;<xref uid="adaptivecards-designer.IChoicePickerItem" />&gt;
+  - name: label
+    uid: adaptivecards-designer.ToolbarChoicePicker.label
+    package: adaptivecards-designer
+    summary: ''
+    fullName: label
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'label: string'
+      return:
+        description: ''
+        type: string
+  - name: onChanged
+    uid: adaptivecards-designer.ToolbarChoicePicker.onChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onChanged: (sender: ToolbarChoicePicker) => void'
+      return:
+        description: ''
+        type: '(sender: ToolbarChoicePicker) =&gt; void'
+  - name: renderedElement
+    uid: adaptivecards-designer.ToolbarChoicePicker.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+  - name: selectedIndex
+    uid: adaptivecards-designer.ToolbarChoicePicker.selectedIndex
+    package: adaptivecards-designer
+    summary: ''
+    fullName: selectedIndex
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number selectedIndex
+      return:
+        description: ''
+        type: number
+  - name: value
+    uid: adaptivecards-designer.ToolbarChoicePicker.value
+    package: adaptivecards-designer
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string value
+      return:
+        description: ''
+        type: string
+  - name: width
+    uid: adaptivecards-designer.ToolbarChoicePicker.width
+    package: adaptivecards-designer
+    summary: ''
+    fullName: width
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'width?: number'
+      return:
+        description: ''
+        type: number
+inheritedProperties:
+  - name: alignment
+    uid: adaptivecards-designer.ToolbarChoicePicker.alignment
+    package: adaptivecards-designer
+    summary: ''
+    fullName: alignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'alignment: ToolbarElementAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ToolbarElementAlignment" />
+  - name: id
+    uid: adaptivecards-designer.ToolbarChoicePicker.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: isVisible
+    uid: adaptivecards-designer.ToolbarChoicePicker.isVisible
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isVisible
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isVisible: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: separator
+    uid: adaptivecards-designer.ToolbarChoicePicker.separator
+    package: adaptivecards-designer
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator: boolean'
+      return:
+        description: ''
+        type: boolean
+inheritedMethods:
+  - name: render()
+    uid: adaptivecards-designer.ToolbarChoicePicker.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: updateLayout()
+    uid: adaptivecards-designer.ToolbarChoicePicker.updateLayout
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateLayout()
+extends: <xref uid="adaptivecards-designer.ToolbarElement" />

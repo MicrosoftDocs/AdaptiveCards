@@ -1,0 +1,160 @@
+### YamlMime:TSType
+name: OpenJsonSchemaDialog
+uid: adaptivecards-designer.OpenJsonSchemaDialog
+package: adaptivecards-designer
+summary: ''
+fullName: OpenJsonSchemaDialog
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: OpenJsonSchemaDialog()
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new OpenJsonSchemaDialog()
+properties:
+  - name: output
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.output
+    package: adaptivecards-designer
+    summary: ''
+    fullName: output
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardData output
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CardData" />
+  - name: submitButton
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.submitButton
+    package: adaptivecards-designer
+    summary: ''
+    fullName: submitButton
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'submitButton: DialogButton'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DialogButton" />
+inheritedProperties:
+  - name: buttons
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.buttons
+    package: adaptivecards-designer
+    summary: ''
+    fullName: buttons
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'buttons?: DialogButton[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.DialogButton" />[]'
+  - name: closeButton
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.closeButton
+    package: adaptivecards-designer
+    summary: ''
+    fullName: closeButton
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'closeButton: DialogButton'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DialogButton" />
+  - name: height
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height: string'
+      return:
+        description: ''
+        type: string
+  - name: onClose
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.onClose
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (sender: Dialog) => void'
+      return:
+        description: ''
+        type: '(sender: Dialog) =&gt; void'
+  - name: preventLightDismissal
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.preventLightDismissal
+    package: adaptivecards-designer
+    summary: ''
+    fullName: preventLightDismissal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'preventLightDismissal: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: title
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.title
+    package: adaptivecards-designer
+    summary: ''
+    fullName: title
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'title: string'
+      return:
+        description: ''
+        type: string
+  - name: width
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.width
+    package: adaptivecards-designer
+    summary: ''
+    fullName: width
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'width: string'
+      return:
+        description: ''
+        type: string
+inheritedMethods:
+  - name: close()
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.close
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function close()
+methods:
+  - name: open()
+    uid: adaptivecards-designer.OpenJsonSchemaDialog.open
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function open()
+extends: <xref uid="adaptivecards-designer.Dialog" />

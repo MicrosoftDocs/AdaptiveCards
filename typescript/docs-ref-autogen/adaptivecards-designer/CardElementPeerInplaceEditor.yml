@@ -1,0 +1,90 @@
+### YamlMime:TSType
+name: CardElementPeerInplaceEditor
+uid: adaptivecards-designer.CardElementPeerInplaceEditor
+package: adaptivecards-designer
+summary: ''
+fullName: CardElementPeerInplaceEditor<TCardElement>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: CardElementPeerInplaceEditor(TCardElement)
+    uid: adaptivecards-designer.CardElementPeerInplaceEditor.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new CardElementPeerInplaceEditor(cardElement: TCardElement)'
+      parameters:
+        - id: cardElement
+          type: TCardElement
+          description: ''
+properties:
+  - name: cardElement
+    uid: adaptivecards-designer.CardElementPeerInplaceEditor.cardElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cardElement: TCardElement'
+      return:
+        description: ''
+        type: TCardElement
+inheritedProperties:
+  - name: onClose
+    uid: adaptivecards-designer.CardElementPeerInplaceEditor.onClose
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (applyChanges: boolean) => void'
+      return:
+        description: ''
+        type: '(applyChanges: boolean) =&gt; void'
+inheritedMethods:
+  - name: applyChanges()
+    uid: adaptivecards-designer.CardElementPeerInplaceEditor.applyChanges
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function applyChanges(): any'
+      return:
+        description: ''
+        type: any
+  - name: initialize()
+    uid: adaptivecards-designer.CardElementPeerInplaceEditor.initialize
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function initialize(): any'
+      return:
+        description: ''
+        type: any
+  - name: render()
+    uid: adaptivecards-designer.CardElementPeerInplaceEditor.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+extends: <xref uid="adaptivecards-designer.DesignerPeerInplaceEditor" />

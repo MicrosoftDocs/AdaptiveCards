@@ -1,0 +1,203 @@
+### YamlMime:TSType
+name: CustomPaletteItem
+uid: adaptivecards-designer.CustomPaletteItem
+package: adaptivecards-designer
+summary: ''
+fullName: CustomPaletteItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: CustomPaletteItem(string)
+    uid: adaptivecards-designer.CustomPaletteItem.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new CustomPaletteItem(category: string)'
+      parameters:
+        - id: category
+          type: string
+          description: ''
+properties:
+  - name: category
+    uid: adaptivecards-designer.CustomPaletteItem.category
+    package: adaptivecards-designer
+    summary: ''
+    fullName: category
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'category: string'
+      return:
+        description: ''
+        type: string
+  - name: dragging
+    uid: adaptivecards-designer.CustomPaletteItem.dragging
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dragging
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean dragging
+      return:
+        description: ''
+        type: boolean
+  - name: renderedElement
+    uid: adaptivecards-designer.CustomPaletteItem.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+inheritedProperties:
+  - name: onClick
+    uid: adaptivecards-designer.CustomPaletteItem.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onDoubleClick
+    uid: adaptivecards-designer.CustomPaletteItem.onDoubleClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onDoubleClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onEndDrag
+    uid: adaptivecards-designer.CustomPaletteItem.onEndDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onEndDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onStartDrag
+    uid: adaptivecards-designer.CustomPaletteItem.onStartDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onStartDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+inheritedMethods:
+  - name: 'createPeer(DesignContext, CardDesignerSurface)'
+    uid: adaptivecards-designer.CustomPaletteItem.createPeer
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createPeer(context: DesignContext, designer:
+        CardDesignerSurface): CardElementPeer
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.DesignContext" />
+          description: ''
+        - id: designer
+          type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CardElementPeer" />
+  - name: endDrag()
+    uid: adaptivecards-designer.CustomPaletteItem.endDrag
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function endDrag()
+  - name: focus()
+    uid: adaptivecards-designer.CustomPaletteItem.focus
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: isDraggable()
+    uid: adaptivecards-designer.CustomPaletteItem.isDraggable
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDraggable(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: render()
+    uid: adaptivecards-designer.CustomPaletteItem.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: renderDragVisual()
+    uid: adaptivecards-designer.CustomPaletteItem.renderDragVisual
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function renderDragVisual(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: updateLayout()
+    uid: adaptivecards-designer.CustomPaletteItem.updateLayout
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateLayout()
+extends: <xref uid="adaptivecards-designer.BasePaletteItem" />

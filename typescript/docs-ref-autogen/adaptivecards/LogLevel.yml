@@ -1,0 +1,25 @@
+### YamlMime:TSEnum
+name: LogLevel
+uid: adaptivecards.LogLevel
+package: adaptivecards
+summary: ''
+fullName: LogLevel
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Info
+    uid: adaptivecards.LogLevel.Info
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Warning
+    uid: adaptivecards.LogLevel.Warning
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: Error
+    uid: adaptivecards.LogLevel.Error
+    package: adaptivecards
+    summary: ''
+    numericValue: 2

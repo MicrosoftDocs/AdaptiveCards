@@ -1,0 +1,28 @@
+### YamlMime:TSType
+name: IEvaluationContext
+uid: adaptivecards-templating.IEvaluationContext
+package: adaptivecards-templating
+summary: Holds the context used to expand a template.
+fullName: IEvaluationContext
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: $root
+    uid: adaptivecards-templating.IEvaluationContext.$root
+    package: adaptivecards-templating
+    summary: >-
+      The root data object the template will bind to. Expressions that refer to
+      $root in the template payload
+
+      map to this field. Initially, $data also maps to $root.
+    fullName: $root
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: '$root: any'
+      return:
+        description: ''
+        type: any

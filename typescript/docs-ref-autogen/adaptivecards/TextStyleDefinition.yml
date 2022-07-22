@@ -1,0 +1,131 @@
+### YamlMime:TSType
+name: TextStyleDefinition
+uid: adaptivecards.TextStyleDefinition
+package: adaptivecards
+summary: ''
+fullName: TextStyleDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TextStyleDefinition(any)
+    uid: adaptivecards.TextStyleDefinition.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new TextStyleDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: fontType
+    uid: adaptivecards.TextStyleDefinition.fontType
+    package: adaptivecards
+    summary: ''
+    fullName: fontType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fontType: FontType'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FontType" />
+inheritedProperties:
+  - name: color
+    uid: adaptivecards.TextStyleDefinition.color
+    package: adaptivecards
+    summary: ''
+    fullName: color
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'color: TextColor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColor" />
+  - name: isSubtle
+    uid: adaptivecards.TextStyleDefinition.isSubtle
+    package: adaptivecards
+    summary: ''
+    fullName: isSubtle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSubtle: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: size
+    uid: adaptivecards.TextStyleDefinition.size
+    package: adaptivecards
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size: TextSize'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextSize" />
+  - name: weight
+    uid: adaptivecards.TextStyleDefinition.weight
+    package: adaptivecards
+    summary: ''
+    fullName: weight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'weight: TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+inheritedMethods:
+  - name: getDefaultWeight()
+    uid: adaptivecards.TextStyleDefinition.getDefaultWeight
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getDefaultWeight(): TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+  - name: toJSON()
+    uid: adaptivecards.TextStyleDefinition.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function toJSON(): any'
+      return:
+        description: ''
+        type: any
+methods:
+  - name: parse(any)
+    uid: adaptivecards.TextStyleDefinition.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(obj: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+extends: <xref uid="adaptivecards.BaseTextDefinition" />

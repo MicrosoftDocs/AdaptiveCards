@@ -1,0 +1,88 @@
+### YamlMime:TSType
+name: PaddingDefinition
+uid: adaptivecards.PaddingDefinition
+package: adaptivecards
+summary: ''
+fullName: PaddingDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'PaddingDefinition(Spacing, Spacing, Spacing, Spacing)'
+    uid: adaptivecards.PaddingDefinition.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new PaddingDefinition(top?: Spacing, right?: Spacing, bottom?: Spacing,
+        left?: Spacing)
+      parameters:
+        - id: top
+          type: <xref uid="adaptivecards.Spacing" />
+          description: ''
+        - id: right
+          type: <xref uid="adaptivecards.Spacing" />
+          description: ''
+        - id: bottom
+          type: <xref uid="adaptivecards.Spacing" />
+          description: ''
+        - id: left
+          type: <xref uid="adaptivecards.Spacing" />
+          description: ''
+properties:
+  - name: bottom
+    uid: adaptivecards.PaddingDefinition.bottom
+    package: adaptivecards
+    summary: ''
+    fullName: bottom
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'bottom: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: left
+    uid: adaptivecards.PaddingDefinition.left
+    package: adaptivecards
+    summary: ''
+    fullName: left
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'left: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: right
+    uid: adaptivecards.PaddingDefinition.right
+    package: adaptivecards
+    summary: ''
+    fullName: right
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'right: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: top
+    uid: adaptivecards.PaddingDefinition.top
+    package: adaptivecards
+    summary: ''
+    fullName: top
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'top: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />

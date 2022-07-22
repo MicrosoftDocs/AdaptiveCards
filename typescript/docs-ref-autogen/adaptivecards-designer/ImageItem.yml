@@ -1,0 +1,80 @@
+### YamlMime:TSType
+name: ImageItem
+uid: adaptivecards-designer.ImageItem
+package: adaptivecards-designer
+summary: ''
+fullName: ImageItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'ImageItem(string, number)'
+    uid: adaptivecards-designer.ImageItem.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ImageItem(template: string, itemIndex: number)'
+      parameters:
+        - id: template
+          type: string
+          description: ''
+        - id: itemIndex
+          type: number
+          description: ''
+properties:
+  - name: itemIndex
+    uid: adaptivecards-designer.ImageItem.itemIndex
+    package: adaptivecards-designer
+    summary: ''
+    fullName: itemIndex
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'itemIndex: number'
+      return:
+        description: ''
+        type: number
+  - name: onClick
+    uid: adaptivecards-designer.ImageItem.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (template: string, sampleImageName: string) => void'
+      return:
+        description: ''
+        type: '(template: string, sampleImageName: string) =&gt; void'
+  - name: template
+    uid: adaptivecards-designer.ImageItem.template
+    package: adaptivecards-designer
+    summary: ''
+    fullName: template
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'template: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: render()
+    uid: adaptivecards-designer.ImageItem.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement

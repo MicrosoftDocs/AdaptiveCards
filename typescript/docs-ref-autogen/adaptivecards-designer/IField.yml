@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: IField
+uid: adaptivecards-designer.IField
+package: adaptivecards-designer
+summary: ''
+fullName: IField
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type IField =
+    | IStringField
+    | INumberField
+    | IBooleanField
+    | IObjectField
+    | IArrayField

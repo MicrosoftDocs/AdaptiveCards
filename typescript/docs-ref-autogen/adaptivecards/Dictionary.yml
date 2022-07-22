@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: Dictionary
+uid: adaptivecards.Dictionary
+package: adaptivecards
+summary: ''
+fullName: Dictionary<T>
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type Dictionary<T> = [key: string]: T'

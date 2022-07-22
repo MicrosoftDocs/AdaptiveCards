@@ -1,0 +1,51 @@
+### YamlMime:TSType
+name: TableConfig
+uid: adaptivecards.TableConfig
+package: adaptivecards
+summary: ''
+fullName: TableConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TableConfig(any)
+    uid: adaptivecards.TableConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new TableConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: cellSpacing
+    uid: adaptivecards.TableConfig.cellSpacing
+    package: adaptivecards
+    summary: ''
+    fullName: cellSpacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cellSpacing: number'
+      return:
+        description: ''
+        type: number
+methods:
+  - name: toJSON()
+    uid: adaptivecards.TableConfig.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function toJSON(): { cellSpacing: number }'
+      return:
+        description: ''
+        type: '{ cellSpacing: number }'

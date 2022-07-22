@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: IData
+uid: adaptivecards-designer.IData
+package: adaptivecards-designer
+summary: ''
+fullName: IData
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >
+  type IData = IStringData | IBooleanData | INumberData | IArrayData |
+  IObjectData

@@ -1,0 +1,242 @@
+### YamlMime:TSType
+name: DarkCortanaContainer
+uid: adaptivecards-designer.DarkCortanaContainer
+package: adaptivecards-designer
+summary: ''
+fullName: DarkCortanaContainer
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'DarkCortanaContainer(string, string)'
+    uid: adaptivecards-designer.DarkCortanaContainer.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new DarkCortanaContainer(name: string, styleSheet: string)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: styleSheet
+          type: string
+          description: ''
+properties:
+  - name: actionsRegistry
+    uid: adaptivecards-designer.DarkCortanaContainer.actionsRegistry
+    package: adaptivecards-designer
+    summary: ''
+    fullName: actionsRegistry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardObjectRegistry<Action> actionsRegistry
+      return:
+        description: ''
+        type: CardObjectRegistry&lt;Action&gt;
+  - name: cardHost
+    uid: adaptivecards-designer.DarkCortanaContainer.cardHost
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardHost
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement cardHost
+      return:
+        description: ''
+        type: HTMLElement
+  - name: elementsRegistry
+    uid: adaptivecards-designer.DarkCortanaContainer.elementsRegistry
+    package: adaptivecards-designer
+    summary: ''
+    fullName: elementsRegistry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardObjectRegistry<CardElement> elementsRegistry
+      return:
+        description: ''
+        type: CardObjectRegistry&lt;CardElement&gt;
+  - name: isFixedHeight
+    uid: adaptivecards-designer.DarkCortanaContainer.isFixedHeight
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isFixedHeight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isFixedHeight
+      return:
+        description: ''
+        type: boolean
+  - name: targetVersion
+    uid: adaptivecards-designer.DarkCortanaContainer.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Version targetVersion
+      return:
+        description: ''
+        type: Version
+inheritedProperties:
+  - name: name
+    uid: adaptivecards-designer.DarkCortanaContainer.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: styleSheet
+    uid: adaptivecards-designer.DarkCortanaContainer.styleSheet
+    package: adaptivecards-designer
+    summary: ''
+    fullName: styleSheet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'styleSheet: string'
+      return:
+        description: ''
+        type: string
+  - name: supportsActionBar
+    uid: adaptivecards-designer.DarkCortanaContainer.supportsActionBar
+    package: adaptivecards-designer
+    summary: ''
+    fullName: supportsActionBar
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'supportsActionBar: boolean'
+      return:
+        description: ''
+        type: boolean
+inheritedMethods:
+  - name: 'anchorClicked(CardElement, HTMLAnchorElement)'
+    uid: adaptivecards-designer.DarkCortanaContainer.anchorClicked
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function anchorClicked(element: CardElement, anchor: HTMLAnchorElement):
+        boolean
+      parameters:
+        - id: element
+          type: CardElement
+          description: ''
+        - id: anchor
+          type: HTMLAnchorElement
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: createSerializationContext(Version)
+    uid: adaptivecards-designer.DarkCortanaContainer.createSerializationContext
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createSerializationContext(targetVersion: Version):
+        SerializationContext
+      parameters:
+        - id: targetVersion
+          type: Version
+          description: ''
+      return:
+        description: ''
+        type: SerializationContext
+  - name: initialize()
+    uid: adaptivecards-designer.DarkCortanaContainer.initialize
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function initialize()
+  - name: 'parseElement(CardElement, any, SerializationContext)'
+    uid: adaptivecards-designer.DarkCortanaContainer.parseElement
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseElement(element: CardElement, source: any, context:
+        SerializationContext)
+      parameters:
+        - id: element
+          type: CardElement
+          description: ''
+        - id: source
+          type: any
+          description: ''
+        - id: context
+          type: SerializationContext
+          description: ''
+  - name: renderTo(HTMLElement)
+    uid: adaptivecards-designer.DarkCortanaContainer.renderTo
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function renderTo(hostElement: HTMLElement)'
+      parameters:
+        - id: hostElement
+          type: HTMLElement
+          description: ''
+methods:
+  - name: getBackgroundColor()
+    uid: adaptivecards-designer.DarkCortanaContainer.getBackgroundColor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getBackgroundColor(): string'
+      return:
+        description: ''
+        type: string
+  - name: getHostConfig()
+    uid: adaptivecards-designer.DarkCortanaContainer.getHostConfig
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getHostConfig(): HostConfig'
+      return:
+        description: ''
+        type: HostConfig
+extends: <xref uid="adaptivecards-designer.BaseCortanaContainer" />

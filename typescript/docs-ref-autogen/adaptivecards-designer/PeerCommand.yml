@@ -1,0 +1,142 @@
+### YamlMime:TSType
+name: PeerCommand
+uid: adaptivecards-designer.PeerCommand
+package: adaptivecards-designer
+summary: ''
+fullName: PeerCommand
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: PeerCommand(Partial<PeerCommand>)
+    uid: adaptivecards-designer.PeerCommand.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new PeerCommand(init?: Partial<PeerCommand>)'
+      parameters:
+        - id: init
+          type: Partial&lt;<xref uid="adaptivecards-designer.PeerCommand" />&gt;
+          description: ''
+properties:
+  - name: alwaysShowName
+    uid: adaptivecards-designer.PeerCommand.alwaysShowName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: alwaysShowName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'alwaysShowName: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: execute
+    uid: adaptivecards-designer.PeerCommand.execute
+    package: adaptivecards-designer
+    summary: ''
+    fullName: execute
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'execute: (command: PeerCommand, clickedElement: HTMLElement) => void'
+      return:
+        description: ''
+        type: '(command: PeerCommand, clickedElement: HTMLElement) =&gt; void'
+  - name: iconClass
+    uid: adaptivecards-designer.PeerCommand.iconClass
+    package: adaptivecards-designer
+    summary: ''
+    fullName: iconClass
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'iconClass: string'
+      return:
+        description: ''
+        type: string
+  - name: isPromotable
+    uid: adaptivecards-designer.PeerCommand.isPromotable
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isPromotable
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isPromotable: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: name
+    uid: adaptivecards-designer.PeerCommand.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: renderedElement
+    uid: adaptivecards-designer.PeerCommand.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+  - name: showInPropertySheet
+    uid: adaptivecards-designer.PeerCommand.showInPropertySheet
+    package: adaptivecards-designer
+    summary: ''
+    fullName: showInPropertySheet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'showInPropertySheet: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: toolTip
+    uid: adaptivecards-designer.PeerCommand.toolTip
+    package: adaptivecards-designer
+    summary: ''
+    fullName: toolTip
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'toolTip: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: render()
+    uid: adaptivecards-designer.PeerCommand.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement

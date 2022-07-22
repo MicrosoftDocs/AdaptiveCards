@@ -1,0 +1,25 @@
+### YamlMime:TSEnum
+name: ImageSize
+uid: adaptivecards.ImageSize
+package: adaptivecards
+summary: ''
+fullName: ImageSize
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Small
+    uid: adaptivecards.ImageSize.Small
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Medium
+    uid: adaptivecards.ImageSize.Medium
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: Large
+    uid: adaptivecards.ImageSize.Large
+    package: adaptivecards
+    summary: ''
+    numericValue: 2

@@ -1,0 +1,163 @@
+### YamlMime:TSType
+name: CatalogueEntry
+uid: adaptivecards-designer.CatalogueEntry
+package: adaptivecards-designer
+summary: ''
+fullName: CatalogueEntry
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'CatalogueEntry(string, string, string, string)'
+    uid: adaptivecards-designer.CatalogueEntry.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new CatalogueEntry(displayName: string, cardPayloadUrl: string,
+        sampleDataUrl?: string, cardId?: string)
+      parameters:
+        - id: displayName
+          type: string
+          description: ''
+        - id: cardPayloadUrl
+          type: string
+          description: ''
+        - id: sampleDataUrl
+          type: string
+          description: ''
+        - id: cardId
+          type: string
+          description: ''
+properties:
+  - name: cardId
+    uid: adaptivecards-designer.CatalogueEntry.cardId
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string cardId
+      return:
+        description: ''
+        type: string
+  - name: cardPayload
+    uid: adaptivecards-designer.CatalogueEntry.cardPayload
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardPayload
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string cardPayload
+      return:
+        description: ''
+        type: string
+  - name: cardPayloadDownloaded
+    uid: adaptivecards-designer.CatalogueEntry.cardPayloadDownloaded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardPayloadDownloaded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean cardPayloadDownloaded
+      return:
+        description: ''
+        type: boolean
+  - name: cardPayloadUrl
+    uid: adaptivecards-designer.CatalogueEntry.cardPayloadUrl
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardPayloadUrl
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cardPayloadUrl: string'
+      return:
+        description: ''
+        type: string
+  - name: displayName
+    uid: adaptivecards-designer.CatalogueEntry.displayName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: displayName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'displayName: string'
+      return:
+        description: ''
+        type: string
+  - name: onDownloaded
+    uid: adaptivecards-designer.CatalogueEntry.onDownloaded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onDownloaded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDownloaded: (sender: CatalogueEntry) => void'
+      return:
+        description: ''
+        type: '(sender: CatalogueEntry) =&gt; void'
+  - name: sampleData
+    uid: adaptivecards-designer.CatalogueEntry.sampleData
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string sampleData
+      return:
+        description: ''
+        type: string
+  - name: sampleDataDownloaded
+    uid: adaptivecards-designer.CatalogueEntry.sampleDataDownloaded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleDataDownloaded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean sampleDataDownloaded
+      return:
+        description: ''
+        type: boolean
+  - name: sampleDataUrl
+    uid: adaptivecards-designer.CatalogueEntry.sampleDataUrl
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleDataUrl
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sampleDataUrl?: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: download()
+    uid: adaptivecards-designer.CatalogueEntry.download
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function download()

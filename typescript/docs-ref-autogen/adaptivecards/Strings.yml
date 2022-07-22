@@ -1,0 +1,153 @@
+### YamlMime:TSType
+name: Strings
+uid: adaptivecards.Strings
+package: adaptivecards
+summary: ''
+fullName: Strings
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: defaults
+    uid: adaptivecards.Strings.defaults
+    package: adaptivecards
+    summary: ''
+    fullName: defaults
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static defaults: { inlineActionTitle: () => string,
+        mediaPlayerAriaLabel: () => string, mediaPlayerPlayMedia: () => string,
+        overflowButtonText: () => string }
+      return:
+        description: ''
+        type: >-
+          { inlineActionTitle: () =&gt; string, mediaPlayerAriaLabel: () =&gt;
+          string, mediaPlayerPlayMedia: () =&gt; string, overflowButtonText: ()
+          =&gt; string }
+  - name: errors
+    uid: adaptivecards.Strings.errors
+    package: adaptivecards
+    summary: ''
+    fullName: errors
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static errors: { actionAlreadyParented: () => string,
+        actionHttpHeadersMustHaveNameAndValue: () => string,
+        actionTypeNotAllowed: (typeName: string) => string,
+        choiceSetChoicesMustHaveTitleAndValue: () => string,
+        choiceSetMustHaveAtLeastOneChoice: () => string,
+        columnAlreadyBelongsToAnotherSet: () => string, duplicateId: (id:
+        string) => string, elementAlreadyParented: () => string,
+        elementCannotBeUsedAsInline: () => string, elementTypeNotAllowed:
+        (typeName: string) => string, elementTypeNotStandalone: (typeName:
+        string) => string, indexOutOfRange: (index: number) => string,
+        inlineAlreadyParented: () => string, inputsMustHaveUniqueId: () =>
+        string, interactivityNotAllowed: () => string, invalidCardType: () =>
+        string, invalidCardVersion: (defaultingToVersion: string) => string,
+        invalidColumnWidth: (invalidWidth: string) => string,
+        invalidPropertyValue: (value: any, propertyName: string) => string,
+        invalidVersionString: (versionString: string) => string,
+        markdownProcessingNotEnabled: () => string, processMarkdownEventRemoved:
+        () => string, propertyMustBeSet: (propertyName: string) => string,
+        propertyNotSupported: (propertyName: string, supportedInVersion: string,
+        versionUsed: string) => string, propertyValueNotSupported: (value: any,
+        propertyName: string, supportedInVersion: string, versionUsed: string)
+        => string, showCardMustHaveCard: () => string, tooManyActions:
+        (maximumActions: number) => string, unknownActionType: (typeName:
+        string) => string, unknownElementType: (typeName: string) => string,
+        unsupportedCardVersion: (version: string, maxSupportedVersion: string)
+        => string }
+      return:
+        description: ''
+        type: >-
+          { actionAlreadyParented: () =&gt; string,
+          actionHttpHeadersMustHaveNameAndValue: () =&gt; string,
+          actionTypeNotAllowed: (typeName: string) =&gt; string,
+          choiceSetChoicesMustHaveTitleAndValue: () =&gt; string,
+          choiceSetMustHaveAtLeastOneChoice: () =&gt; string,
+          columnAlreadyBelongsToAnotherSet: () =&gt; string, duplicateId: (id:
+          string) =&gt; string, elementAlreadyParented: () =&gt; string,
+          elementCannotBeUsedAsInline: () =&gt; string, elementTypeNotAllowed:
+          (typeName: string) =&gt; string, elementTypeNotStandalone: (typeName:
+          string) =&gt; string, indexOutOfRange: (index: number) =&gt; string,
+          inlineAlreadyParented: () =&gt; string, inputsMustHaveUniqueId: ()
+          =&gt; string, interactivityNotAllowed: () =&gt; string,
+          invalidCardType: () =&gt; string, invalidCardVersion:
+          (defaultingToVersion: string) =&gt; string, invalidColumnWidth:
+          (invalidWidth: string) =&gt; string, invalidPropertyValue: (value:
+          any, propertyName: string) =&gt; string, invalidVersionString:
+          (versionString: string) =&gt; string, markdownProcessingNotEnabled: ()
+          =&gt; string, processMarkdownEventRemoved: () =&gt; string,
+          propertyMustBeSet: (propertyName: string) =&gt; string,
+          propertyNotSupported: (propertyName: string, supportedInVersion:
+          string, versionUsed: string) =&gt; string, propertyValueNotSupported:
+          (value: any, propertyName: string, supportedInVersion: string,
+          versionUsed: string) =&gt; string, showCardMustHaveCard: () =&gt;
+          string, tooManyActions: (maximumActions: number) =&gt; string,
+          unknownActionType: (typeName: string) =&gt; string,
+          unknownElementType: (typeName: string) =&gt; string,
+          unsupportedCardVersion: (version: string, maxSupportedVersion: string)
+          =&gt; string }
+  - name: hints
+    uid: adaptivecards.Strings.hints
+    package: adaptivecards
+    summary: ''
+    fullName: hints
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static hints: { dontUseWeightedAndStrecthedColumnsInSameSet: () =>
+        string }
+      return:
+        description: ''
+        type: '{ dontUseWeightedAndStrecthedColumnsInSameSet: () =&gt; string }'
+  - name: magicCodeInputCard
+    uid: adaptivecards.Strings.magicCodeInputCard
+    package: adaptivecards
+    summary: ''
+    fullName: magicCodeInputCard
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static magicCodeInputCard: { authenticationFailed: () => string, cancel:
+        () => string, enterMagicCode: () => string,
+        pleaseEnterMagicCodeYouReceived: () => string, pleaseLogin: () =>
+        string, somethingWentWrong: () => string, submit: () => string,
+        tryAgain: () => string }
+      return:
+        description: ''
+        type: >-
+          { authenticationFailed: () =&gt; string, cancel: () =&gt; string,
+          enterMagicCode: () =&gt; string, pleaseEnterMagicCodeYouReceived: ()
+          =&gt; string, pleaseLogin: () =&gt; string, somethingWentWrong: ()
+          =&gt; string, submit: () =&gt; string, tryAgain: () =&gt; string }
+  - name: runtime
+    uid: adaptivecards.Strings.runtime
+    package: adaptivecards
+    summary: ''
+    fullName: runtime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static runtime: { automaticRefreshPaused: () => string,
+        clckToRestartAutomaticRefresh: () => string, refreshThisCard: () =>
+        string }
+      return:
+        description: ''
+        type: >-
+          { automaticRefreshPaused: () =&gt; string,
+          clckToRestartAutomaticRefresh: () =&gt; string, refreshThisCard: ()
+          =&gt; string }

@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IObjectData
+uid: adaptivecards-designer.IObjectData
+package: adaptivecards-designer
+summary: ''
+fullName: IObjectData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: fields
+    uid: adaptivecards-designer.IObjectData.fields
+    package: adaptivecards-designer
+    summary: ''
+    fullName: fields
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fields: IField[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.IField" />[]'
+  - name: valueType
+    uid: adaptivecards-designer.IObjectData.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueType: "Object"'
+      return:
+        description: ''
+        type: '"Object"'

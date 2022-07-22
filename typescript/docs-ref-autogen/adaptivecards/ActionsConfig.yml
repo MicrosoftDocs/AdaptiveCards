@@ -1,0 +1,175 @@
+### YamlMime:TSType
+name: ActionsConfig
+uid: adaptivecards.ActionsConfig
+package: adaptivecards
+summary: ''
+fullName: ActionsConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ActionsConfig(any)
+    uid: adaptivecards.ActionsConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ActionsConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: actionAlignment
+    uid: adaptivecards.ActionsConfig.actionAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: actionAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'actionAlignment: ActionAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ActionAlignment" />
+  - name: actionsOrientation
+    uid: adaptivecards.ActionsConfig.actionsOrientation
+    package: adaptivecards
+    summary: ''
+    fullName: actionsOrientation
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'actionsOrientation: Orientation'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Orientation" />
+  - name: allowTitleToWrap
+    uid: adaptivecards.ActionsConfig.allowTitleToWrap
+    package: adaptivecards
+    summary: ''
+    fullName: allowTitleToWrap
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowTitleToWrap: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: buttonSpacing
+    uid: adaptivecards.ActionsConfig.buttonSpacing
+    package: adaptivecards
+    summary: ''
+    fullName: buttonSpacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'buttonSpacing: number'
+      return:
+        description: ''
+        type: number
+  - name: iconPlacement
+    uid: adaptivecards.ActionsConfig.iconPlacement
+    package: adaptivecards
+    summary: ''
+    fullName: iconPlacement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'iconPlacement: ActionIconPlacement'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ActionIconPlacement" />
+  - name: iconSize
+    uid: adaptivecards.ActionsConfig.iconSize
+    package: adaptivecards
+    summary: ''
+    fullName: iconSize
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'iconSize: number'
+      return:
+        description: ''
+        type: number
+  - name: maxActions
+    uid: adaptivecards.ActionsConfig.maxActions
+    package: adaptivecards
+    summary: ''
+    fullName: maxActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxActions: number'
+      return:
+        description: ''
+        type: number
+  - name: preExpandSingleShowCardAction
+    uid: adaptivecards.ActionsConfig.preExpandSingleShowCardAction
+    package: adaptivecards
+    summary: ''
+    fullName: preExpandSingleShowCardAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'preExpandSingleShowCardAction?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: showCard
+    uid: adaptivecards.ActionsConfig.showCard
+    package: adaptivecards
+    summary: ''
+    fullName: showCard
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'showCard: ShowCardActionConfig'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ShowCardActionConfig" />
+  - name: spacing
+    uid: adaptivecards.ActionsConfig.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+methods:
+  - name: toJSON()
+    uid: adaptivecards.ActionsConfig.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(): { actionAlignment: string, actionsOrientation:
+        string, buttonSpacing: number, maxActions: number,
+        preExpandSingleShowCardAction: boolean | undefined, showCard:
+        ShowCardActionConfig, spacing: string }
+      return:
+        description: ''
+        type: >-
+          { actionAlignment: string, actionsOrientation: string, buttonSpacing:
+          number, maxActions: number, preExpandSingleShowCardAction: boolean |
+          undefined, showCard: ShowCardActionConfig, spacing: string }

@@ -1,0 +1,130 @@
+### YamlMime:TSType
+name: IImageSet
+uid: adaptivecards-templating.IImageSet
+package: adaptivecards-templating
+summary: ''
+fullName: IImageSet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: images
+    uid: adaptivecards-templating.IImageSet.images
+    package: adaptivecards-templating
+    summary: ''
+    fullName: images
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'images: IImage[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-templating.IImage" />[]'
+  - name: size
+    uid: adaptivecards-templating.IImageSet.size
+    package: adaptivecards-templating
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size?: Size'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.Size" />
+  - name: type
+    uid: adaptivecards-templating.IImageSet.type
+    package: adaptivecards-templating
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "ImageSet"'
+      return:
+        description: ''
+        type: '"ImageSet"'
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-templating.IImageSet.height
+    package: adaptivecards-templating
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-templating.IImageSet.horizontalAlignment
+    package: adaptivecards-templating
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-templating.IImageSet.id
+    package: adaptivecards-templating
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-templating.IImageSet.separator
+    package: adaptivecards-templating
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-templating.IImageSet.spacing
+    package: adaptivecards-templating
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-templating.Spacing" />
+  - name: speak
+    uid: adaptivecards-templating.IImageSet.speak
+    package: adaptivecards-templating
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-templating.ICardElement" />

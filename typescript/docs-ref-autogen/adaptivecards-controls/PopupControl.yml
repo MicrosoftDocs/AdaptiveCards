@@ -1,0 +1,102 @@
+### YamlMime:TSType
+name: PopupControl
+uid: adaptivecards-controls.PopupControl
+package: adaptivecards-controls
+summary: ''
+fullName: PopupControl
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: isOpen
+    uid: adaptivecards-controls.PopupControl.isOpen
+    package: adaptivecards-controls
+    summary: ''
+    fullName: isOpen
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isOpen
+      return:
+        description: ''
+        type: boolean
+  - name: onClose
+    uid: adaptivecards-controls.PopupControl.onClose
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (popupControl: PopupControl, wasCancelled: boolean) => void'
+      return:
+        description: ''
+        type: '(popupControl: PopupControl, wasCancelled: boolean) =&gt; void'
+methods:
+  - name: closePopup(boolean)
+    uid: adaptivecards-controls.PopupControl.closePopup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type: boolean
+          description: ''
+  - name: focus()
+    uid: adaptivecards-controls.PopupControl.focus
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: keyDown(KeyboardEvent)
+    uid: adaptivecards-controls.PopupControl.keyDown
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function keyDown(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type: KeyboardEvent
+          description: ''
+  - name: popup(HTMLElement)
+    uid: adaptivecards-controls.PopupControl.popup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function popup(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+  - name: render(ClientRect)
+    uid: adaptivecards-controls.PopupControl.render
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(rootElementBounds: ClientRect): HTMLElement'
+      parameters:
+        - id: rootElementBounds
+          type: ClientRect
+          description: ''
+      return:
+        description: ''
+        type: HTMLElement

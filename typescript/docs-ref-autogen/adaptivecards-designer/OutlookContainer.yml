@@ -1,0 +1,242 @@
+### YamlMime:TSType
+name: OutlookContainer
+uid: adaptivecards-designer.OutlookContainer
+package: adaptivecards-designer
+summary: ''
+fullName: OutlookContainer
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'OutlookContainer(string, string)'
+    uid: adaptivecards-designer.OutlookContainer.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new OutlookContainer(name: string, styleSheet: string)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+        - id: styleSheet
+          type: string
+          description: ''
+properties:
+  - name: actionsRegistry
+    uid: adaptivecards-designer.OutlookContainer.actionsRegistry
+    package: adaptivecards-designer
+    summary: ''
+    fullName: actionsRegistry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardObjectRegistry<Action> actionsRegistry
+      return:
+        description: ''
+        type: CardObjectRegistry&lt;Action&gt;
+  - name: cardHost
+    uid: adaptivecards-designer.OutlookContainer.cardHost
+    package: adaptivecards-designer
+    summary: ''
+    fullName: cardHost
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement cardHost
+      return:
+        description: ''
+        type: HTMLElement
+  - name: elementsRegistry
+    uid: adaptivecards-designer.OutlookContainer.elementsRegistry
+    package: adaptivecards-designer
+    summary: ''
+    fullName: elementsRegistry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardObjectRegistry<CardElement> elementsRegistry
+      return:
+        description: ''
+        type: CardObjectRegistry&lt;CardElement&gt;
+  - name: isFixedHeight
+    uid: adaptivecards-designer.OutlookContainer.isFixedHeight
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isFixedHeight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isFixedHeight
+      return:
+        description: ''
+        type: boolean
+  - name: targetVersion
+    uid: adaptivecards-designer.OutlookContainer.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Version targetVersion
+      return:
+        description: ''
+        type: Version
+inheritedProperties:
+  - name: name
+    uid: adaptivecards-designer.OutlookContainer.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: styleSheet
+    uid: adaptivecards-designer.OutlookContainer.styleSheet
+    package: adaptivecards-designer
+    summary: ''
+    fullName: styleSheet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'styleSheet: string'
+      return:
+        description: ''
+        type: string
+  - name: supportsActionBar
+    uid: adaptivecards-designer.OutlookContainer.supportsActionBar
+    package: adaptivecards-designer
+    summary: ''
+    fullName: supportsActionBar
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'supportsActionBar: boolean'
+      return:
+        description: ''
+        type: boolean
+inheritedMethods:
+  - name: createSerializationContext(Version)
+    uid: adaptivecards-designer.OutlookContainer.createSerializationContext
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createSerializationContext(targetVersion: Version):
+        SerializationContext
+      parameters:
+        - id: targetVersion
+          type: Version
+          description: ''
+      return:
+        description: ''
+        type: SerializationContext
+  - name: getBackgroundColor()
+    uid: adaptivecards-designer.OutlookContainer.getBackgroundColor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getBackgroundColor(): string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: 'anchorClicked(CardElement, HTMLAnchorElement)'
+    uid: adaptivecards-designer.OutlookContainer.anchorClicked
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function anchorClicked(element: CardElement, anchor: HTMLAnchorElement):
+        boolean
+      parameters:
+        - id: element
+          type: CardElement
+          description: ''
+        - id: anchor
+          type: HTMLAnchorElement
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: getHostConfig()
+    uid: adaptivecards-designer.OutlookContainer.getHostConfig
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getHostConfig(): HostConfig'
+      return:
+        description: ''
+        type: HostConfig
+  - name: initialize()
+    uid: adaptivecards-designer.OutlookContainer.initialize
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function initialize()
+  - name: 'parseElement(CardElement, any, SerializationContext)'
+    uid: adaptivecards-designer.OutlookContainer.parseElement
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseElement(element: CardElement, source: any, context:
+        SerializationContext)
+      parameters:
+        - id: element
+          type: CardElement
+          description: ''
+        - id: source
+          type: any
+          description: ''
+        - id: context
+          type: SerializationContext
+          description: ''
+  - name: renderTo(HTMLElement)
+    uid: adaptivecards-designer.OutlookContainer.renderTo
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function renderTo(hostElement: HTMLElement)'
+      parameters:
+        - id: hostElement
+          type: HTMLElement
+          description: ''
+extends: <xref uid="adaptivecards-designer.HostContainer" />

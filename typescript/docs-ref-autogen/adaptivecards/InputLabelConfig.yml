@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: InputLabelConfig
+uid: adaptivecards.InputLabelConfig
+package: adaptivecards
+summary: ''
+fullName: InputLabelConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: InputLabelConfig(any)
+    uid: adaptivecards.InputLabelConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new InputLabelConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: inputSpacing
+    uid: adaptivecards.InputLabelConfig.inputSpacing
+    package: adaptivecards
+    summary: ''
+    fullName: inputSpacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'inputSpacing: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: optionalInputs
+    uid: adaptivecards.InputLabelConfig.optionalInputs
+    package: adaptivecards
+    summary: ''
+    fullName: optionalInputs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'optionalInputs: BaseTextDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.BaseTextDefinition" />
+  - name: requiredInputs
+    uid: adaptivecards.InputLabelConfig.requiredInputs
+    package: adaptivecards
+    summary: ''
+    fullName: requiredInputs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requiredInputs: RequiredInputLabelTextDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.RequiredInputLabelTextDefinition" />

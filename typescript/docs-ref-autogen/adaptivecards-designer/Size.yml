@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: Size
+uid: adaptivecards-designer.Size
+package: adaptivecards-designer
+summary: ''
+fullName: Size
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type Size = "auto" | "stretch" | "small" | "medium" | "large"

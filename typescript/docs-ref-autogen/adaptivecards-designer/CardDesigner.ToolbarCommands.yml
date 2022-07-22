@@ -1,0 +1,115 @@
+### YamlMime:TSType
+name: ToolbarCommands
+uid: adaptivecards-designer.CardDesigner.ToolbarCommands
+package: adaptivecards-designer
+summary: ''
+fullName: ToolbarCommands
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: CopyJSON
+    uid: adaptivecards-designer.CardDesigner.ToolbarCommands.CopyJSON
+    package: adaptivecards-designer
+    summary: ''
+    fullName: CopyJSON
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static CopyJSON: "__copyJsonButton" = "__copyJsonButton"'
+      return:
+        description: ''
+        type: '"__copyJsonButton"'
+  - name: Help
+    uid: adaptivecards-designer.CardDesigner.ToolbarCommands.Help
+    package: adaptivecards-designer
+    summary: ''
+    fullName: Help
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Help: "__helpButton" = "__helpButton"'
+      return:
+        description: ''
+        type: '"__helpButton"'
+  - name: HostAppPicker
+    uid: adaptivecards-designer.CardDesigner.ToolbarCommands.HostAppPicker
+    package: adaptivecards-designer
+    summary: ''
+    fullName: HostAppPicker
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static HostAppPicker: "__hostAppPicker" = "__hostAppPicker"'
+      return:
+        description: ''
+        type: '"__hostAppPicker"'
+  - name: NewCard
+    uid: adaptivecards-designer.CardDesigner.ToolbarCommands.NewCard
+    package: adaptivecards-designer
+    summary: ''
+    fullName: NewCard
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static NewCard: "__newCardButton" = "__newCardButton"'
+      return:
+        description: ''
+        type: '"__newCardButton"'
+  - name: Redo
+    uid: adaptivecards-designer.CardDesigner.ToolbarCommands.Redo
+    package: adaptivecards-designer
+    summary: ''
+    fullName: Redo
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Redo: "__redoButton" = "__redoButton"'
+      return:
+        description: ''
+        type: '"__redoButton"'
+  - name: TogglePreview
+    uid: adaptivecards-designer.CardDesigner.ToolbarCommands.TogglePreview
+    package: adaptivecards-designer
+    summary: ''
+    fullName: TogglePreview
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static TogglePreview: "__togglePreviewButton" = "__togglePreviewButton"'
+      return:
+        description: ''
+        type: '"__togglePreviewButton"'
+  - name: Undo
+    uid: adaptivecards-designer.CardDesigner.ToolbarCommands.Undo
+    package: adaptivecards-designer
+    summary: ''
+    fullName: Undo
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Undo: "__undoButton" = "__undoButton"'
+      return:
+        description: ''
+        type: '"__undoButton"'
+  - name: VersionPicker
+    uid: adaptivecards-designer.CardDesigner.ToolbarCommands.VersionPicker
+    package: adaptivecards-designer
+    summary: ''
+    fullName: VersionPicker
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static VersionPicker: "__versionPicker" = "__versionPicker"'
+      return:
+        description: ''
+        type: '"__versionPicker"'

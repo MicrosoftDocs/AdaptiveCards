@@ -1,0 +1,90 @@
+### YamlMime:TSType
+name: DesignerPeerRegistration
+uid: adaptivecards-designer.DesignerPeerRegistration
+package: adaptivecards-designer
+summary: ''
+fullName: 'DesignerPeerRegistration<TSource, TPeer>'
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'DesignerPeerRegistration(TSource, TPeer, string, string)'
+    uid: adaptivecards-designer.DesignerPeerRegistration.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new DesignerPeerRegistration(sourceType: TSource, peerType: TPeer,
+        category: string, iconClass?: string)
+      parameters:
+        - id: sourceType
+          type: TSource
+          description: ''
+        - id: peerType
+          type: TPeer
+          description: ''
+        - id: category
+          type: string
+          description: ''
+        - id: iconClass
+          type: string
+          description: ''
+properties:
+  - name: iconClass
+    uid: adaptivecards-designer.DesignerPeerRegistration.iconClass
+    package: adaptivecards-designer
+    summary: ''
+    fullName: iconClass
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string iconClass
+      return:
+        description: ''
+        type: string
+  - name: peerType
+    uid: adaptivecards-designer.DesignerPeerRegistration.peerType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: peerType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'peerType: TPeer'
+      return:
+        description: ''
+        type: TPeer
+  - name: sourceType
+    uid: adaptivecards-designer.DesignerPeerRegistration.sourceType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sourceType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sourceType: TSource'
+      return:
+        description: ''
+        type: TSource
+inheritedProperties:
+  - name: category
+    uid: adaptivecards-designer.DesignerPeerRegistration.category
+    package: adaptivecards-designer
+    summary: ''
+    fullName: category
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'category: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />

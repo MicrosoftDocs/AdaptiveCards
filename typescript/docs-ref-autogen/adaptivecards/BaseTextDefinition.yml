@@ -1,0 +1,115 @@
+### YamlMime:TSType
+name: BaseTextDefinition
+uid: adaptivecards.BaseTextDefinition
+package: adaptivecards
+summary: ''
+fullName: BaseTextDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: BaseTextDefinition(any)
+    uid: adaptivecards.BaseTextDefinition.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new BaseTextDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: color
+    uid: adaptivecards.BaseTextDefinition.color
+    package: adaptivecards
+    summary: ''
+    fullName: color
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'color: TextColor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColor" />
+  - name: isSubtle
+    uid: adaptivecards.BaseTextDefinition.isSubtle
+    package: adaptivecards
+    summary: ''
+    fullName: isSubtle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSubtle: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: size
+    uid: adaptivecards.BaseTextDefinition.size
+    package: adaptivecards
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size: TextSize'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextSize" />
+  - name: weight
+    uid: adaptivecards.BaseTextDefinition.weight
+    package: adaptivecards
+    summary: ''
+    fullName: weight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'weight: TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+methods:
+  - name: getDefaultWeight()
+    uid: adaptivecards.BaseTextDefinition.getDefaultWeight
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getDefaultWeight(): TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+  - name: parse(any)
+    uid: adaptivecards.BaseTextDefinition.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(obj: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+  - name: toJSON()
+    uid: adaptivecards.BaseTextDefinition.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function toJSON(): any'
+      return:
+        description: ''
+        type: any

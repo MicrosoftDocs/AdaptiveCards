@@ -1,0 +1,180 @@
+### YamlMime:TSType
+name: GlobalSettings
+uid: adaptivecards.GlobalSettings
+package: adaptivecards
+summary: ''
+fullName: GlobalSettings
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: allowMarkForTextHighlighting
+    uid: adaptivecards.GlobalSettings.allowMarkForTextHighlighting
+    package: adaptivecards
+    summary: ''
+    fullName: allowMarkForTextHighlighting
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static allowMarkForTextHighlighting: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: allowMoreThanMaxActionsInOverflowMenu
+    uid: adaptivecards.GlobalSettings.allowMoreThanMaxActionsInOverflowMenu
+    package: adaptivecards
+    summary: ''
+    fullName: allowMoreThanMaxActionsInOverflowMenu
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static allowMoreThanMaxActionsInOverflowMenu: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: allowPreProcessingPropertyValues
+    uid: adaptivecards.GlobalSettings.allowPreProcessingPropertyValues
+    package: adaptivecards
+    summary: ''
+    fullName: allowPreProcessingPropertyValues
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static allowPreProcessingPropertyValues: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: alwaysBleedSeparators
+    uid: adaptivecards.GlobalSettings.alwaysBleedSeparators
+    package: adaptivecards
+    summary: ''
+    fullName: alwaysBleedSeparators
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static alwaysBleedSeparators: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: applets
+    uid: adaptivecards.GlobalSettings.applets
+    package: adaptivecards
+    summary: ''
+    fullName: applets
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static applets: AppletsSettings'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.AppletsSettings" />
+  - name: displayInputValidationErrors
+    uid: adaptivecards.GlobalSettings.displayInputValidationErrors
+    package: adaptivecards
+    summary: ''
+    fullName: displayInputValidationErrors
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static displayInputValidationErrors: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: enableFallback
+    uid: adaptivecards.GlobalSettings.enableFallback
+    package: adaptivecards
+    summary: ''
+    fullName: enableFallback
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static enableFallback: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: enableFullJsonRoundTrip
+    uid: adaptivecards.GlobalSettings.enableFullJsonRoundTrip
+    package: adaptivecards
+    summary: ''
+    fullName: enableFullJsonRoundTrip
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static enableFullJsonRoundTrip: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: setTabIndexAtCardRoot
+    uid: adaptivecards.GlobalSettings.setTabIndexAtCardRoot
+    package: adaptivecards
+    summary: ''
+    fullName: setTabIndexAtCardRoot
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static setTabIndexAtCardRoot: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: useAdvancedCardBottomTruncation
+    uid: adaptivecards.GlobalSettings.useAdvancedCardBottomTruncation
+    package: adaptivecards
+    summary: ''
+    fullName: useAdvancedCardBottomTruncation
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static useAdvancedCardBottomTruncation: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: useAdvancedTextBlockTruncation
+    uid: adaptivecards.GlobalSettings.useAdvancedTextBlockTruncation
+    package: adaptivecards
+    summary: ''
+    fullName: useAdvancedTextBlockTruncation
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static useAdvancedTextBlockTruncation: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: useMarkdownInRadioButtonAndCheckbox
+    uid: adaptivecards.GlobalSettings.useMarkdownInRadioButtonAndCheckbox
+    package: adaptivecards
+    summary: ''
+    fullName: useMarkdownInRadioButtonAndCheckbox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static useMarkdownInRadioButtonAndCheckbox: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: useWebkitLineClamp
+    uid: adaptivecards.GlobalSettings.useWebkitLineClamp
+    package: adaptivecards
+    summary: ''
+    fullName: useWebkitLineClamp
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static useWebkitLineClamp: boolean'
+      return:
+        description: ''
+        type: boolean

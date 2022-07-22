@@ -1,0 +1,81 @@
+### YamlMime:TSType
+name: ShowCardActionConfig
+uid: adaptivecards.ShowCardActionConfig
+package: adaptivecards
+summary: ''
+fullName: ShowCardActionConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ShowCardActionConfig(any)
+    uid: adaptivecards.ShowCardActionConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new ShowCardActionConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: actionMode
+    uid: adaptivecards.ShowCardActionConfig.actionMode
+    package: adaptivecards
+    summary: ''
+    fullName: actionMode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'actionMode: ShowCardActionMode'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ShowCardActionMode" />
+  - name: inlineTopMargin
+    uid: adaptivecards.ShowCardActionConfig.inlineTopMargin
+    package: adaptivecards
+    summary: ''
+    fullName: inlineTopMargin
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'inlineTopMargin: number'
+      return:
+        description: ''
+        type: number
+  - name: style
+    uid: adaptivecards.ShowCardActionConfig.style
+    package: adaptivecards
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'style?: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: toJSON()
+    uid: adaptivecards.ShowCardActionConfig.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(): { actionMode: string, inlineTopMargin: number, style:
+        string | undefined }
+      return:
+        description: ''
+        type: >-
+          { actionMode: string, inlineTopMargin: number, style: string |
+          undefined }

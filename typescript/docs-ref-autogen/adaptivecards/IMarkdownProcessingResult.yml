@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IMarkdownProcessingResult
+uid: adaptivecards.IMarkdownProcessingResult
+package: adaptivecards
+summary: ''
+fullName: IMarkdownProcessingResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: didProcess
+    uid: adaptivecards.IMarkdownProcessingResult.didProcess
+    package: adaptivecards
+    summary: ''
+    fullName: didProcess
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'didProcess: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: outputHtml
+    uid: adaptivecards.IMarkdownProcessingResult.outputHtml
+    package: adaptivecards
+    summary: ''
+    fullName: outputHtml
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'outputHtml?: any'
+      return:
+        description: ''
+        type: any

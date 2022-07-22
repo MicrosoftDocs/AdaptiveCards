@@ -1,0 +1,25 @@
+### YamlMime:TSEnum
+name: ActionButtonState
+uid: adaptivecards.ActionButtonState
+package: adaptivecards
+summary: ''
+fullName: ActionButtonState
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Normal
+    uid: adaptivecards.ActionButtonState.Normal
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Expanded
+    uid: adaptivecards.ActionButtonState.Expanded
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: Subdued
+    uid: adaptivecards.ActionButtonState.Subdued
+    package: adaptivecards
+    summary: ''
+    numericValue: 2

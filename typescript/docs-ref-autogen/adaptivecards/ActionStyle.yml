@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: ActionStyle
+uid: adaptivecards.ActionStyle
+package: adaptivecards
+summary: ''
+fullName: ActionStyle
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: Default
+    uid: adaptivecards.ActionStyle.Default
+    package: adaptivecards
+    summary: ''
+    fullName: Default
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Default: "default"'
+      return:
+        description: ''
+        type: '"default"'
+  - name: Destructive
+    uid: adaptivecards.ActionStyle.Destructive
+    package: adaptivecards
+    summary: ''
+    fullName: Destructive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Destructive: "destructive"'
+      return:
+        description: ''
+        type: '"destructive"'
+  - name: Positive
+    uid: adaptivecards.ActionStyle.Positive
+    package: adaptivecards
+    summary: ''
+    fullName: Positive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Positive: "positive"'
+      return:
+        description: ''
+        type: '"positive"'

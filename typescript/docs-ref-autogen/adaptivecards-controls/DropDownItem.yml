@@ -1,0 +1,92 @@
+### YamlMime:TSType
+name: DropDownItem
+uid: adaptivecards-controls.DropDownItem
+package: adaptivecards-controls
+summary: ''
+fullName: DropDownItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'DropDownItem(string, string)'
+    uid: adaptivecards-controls.DropDownItem.constructor
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new DropDownItem(key: string, value: string)'
+      parameters:
+        - id: key
+          type: string
+          description: ''
+        - id: value
+          type: string
+          description: ''
+properties:
+  - name: key
+    uid: adaptivecards-controls.DropDownItem.key
+    package: adaptivecards-controls
+    summary: ''
+    fullName: key
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'key: string'
+      return:
+        description: ''
+        type: string
+  - name: onClick
+    uid: adaptivecards-controls.DropDownItem.onClick
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (item: DropDownItem) => void'
+      return:
+        description: ''
+        type: '(item: DropDownItem) =&gt; void'
+  - name: value
+    uid: adaptivecards-controls.DropDownItem.value
+    package: adaptivecards-controls
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string value
+      return:
+        description: ''
+        type: string
+methods:
+  - name: render()
+    uid: adaptivecards-controls.DropDownItem.render
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: toString()
+    uid: adaptivecards-controls.DropDownItem.toString
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function toString(): string'
+      return:
+        description: ''
+        type: string

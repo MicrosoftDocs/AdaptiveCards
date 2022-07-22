@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: SerializableObjectType
+uid: adaptivecards.SerializableObjectType
+package: adaptivecards
+summary: ''
+fullName: SerializableObjectType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type SerializableObjectType = {}

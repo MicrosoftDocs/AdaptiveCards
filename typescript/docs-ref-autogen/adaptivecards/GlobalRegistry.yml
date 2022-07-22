@@ -1,0 +1,115 @@
+### YamlMime:TSType
+name: GlobalRegistry
+uid: adaptivecards.GlobalRegistry
+package: adaptivecards
+summary: ''
+fullName: GlobalRegistry
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: actions
+    uid: adaptivecards.GlobalRegistry.actions
+    package: adaptivecards
+    summary: ''
+    fullName: actions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: static CardObjectRegistry<Action> actions
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+          uid="adaptivecards.Action" />&gt;
+  - name: defaultActions
+    uid: adaptivecards.GlobalRegistry.defaultActions
+    package: adaptivecards
+    summary: ''
+    fullName: defaultActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static defaultActions: CardObjectRegistry<Action>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+          uid="adaptivecards.Action" />&gt;
+  - name: defaultElements
+    uid: adaptivecards.GlobalRegistry.defaultElements
+    package: adaptivecards
+    summary: ''
+    fullName: defaultElements
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static defaultElements: CardObjectRegistry<CardElement>'
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+          uid="adaptivecards.CardElement" />&gt;
+  - name: elements
+    uid: adaptivecards.GlobalRegistry.elements
+    package: adaptivecards
+    summary: ''
+    fullName: elements
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: static CardObjectRegistry<CardElement> elements
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+          uid="adaptivecards.CardElement" />&gt;
+methods:
+  - name: populateWithDefaultActions(CardObjectRegistry<Action>)
+    uid: adaptivecards.GlobalRegistry.populateWithDefaultActions
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static function populateWithDefaultActions(registry:
+        CardObjectRegistry<Action>)
+      parameters:
+        - id: registry
+          type: >-
+            <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+            uid="adaptivecards.Action" />&gt;
+          description: ''
+  - name: populateWithDefaultElements(CardObjectRegistry<CardElement>)
+    uid: adaptivecards.GlobalRegistry.populateWithDefaultElements
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static function populateWithDefaultElements(registry:
+        CardObjectRegistry<CardElement>)
+      parameters:
+        - id: registry
+          type: >-
+            <xref uid="adaptivecards.CardObjectRegistry" />&lt;<xref
+            uid="adaptivecards.CardElement" />&gt;
+          description: ''
+  - name: reset()
+    uid: adaptivecards.GlobalRegistry.reset
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: static function reset()

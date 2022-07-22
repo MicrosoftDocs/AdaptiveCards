@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: ValueType
+uid: adaptivecards-designer.ValueType
+package: adaptivecards-designer
+summary: ''
+fullName: ValueType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type ValueType = "String" | "Boolean" | "Number" | "Array" | "Object"

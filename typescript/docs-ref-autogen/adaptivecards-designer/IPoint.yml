@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IPoint
+uid: adaptivecards-designer.IPoint
+package: adaptivecards-designer
+summary: ''
+fullName: IPoint
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: x
+    uid: adaptivecards-designer.IPoint.x
+    package: adaptivecards-designer
+    summary: ''
+    fullName: x
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'x: number'
+      return:
+        description: ''
+        type: number
+  - name: 'y'
+    uid: adaptivecards-designer.IPoint.y
+    package: adaptivecards-designer
+    summary: ''
+    fullName: 'y'
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'y: number'
+      return:
+        description: ''
+        type: number

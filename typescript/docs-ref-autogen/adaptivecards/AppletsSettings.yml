@@ -1,0 +1,20 @@
+### YamlMime:TSTypeAlias
+name: AppletsSettings
+uid: adaptivecards.AppletsSettings
+package: adaptivecards
+summary: ''
+fullName: AppletsSettings
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type AppletsSettings = {
+    authPromptHeight: number,
+    authPromptWidth: number,
+    defaultTimeBetweenRetryAttempts: number,
+    logEnabled: boolean,
+    logLevel: LogLevel,
+    maximumRetryAttempts: number,
+    onLogEvent?: (level: LogLevel, message?: any, optionalParams: any[]) => void,
+    refresh: Refresh,
+  }

@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IBooleanData
+uid: adaptivecards-designer.IBooleanData
+package: adaptivecards-designer
+summary: ''
+fullName: IBooleanData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: sampleValue
+    uid: adaptivecards-designer.IBooleanData.sampleValue
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sampleValue?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: valueType
+    uid: adaptivecards-designer.IBooleanData.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueType: "Boolean"'
+      return:
+        description: ''
+        type: '"Boolean"'

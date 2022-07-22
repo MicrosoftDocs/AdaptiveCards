@@ -1,0 +1,30 @@
+### YamlMime:TSEnum
+name: ActionAlignment
+uid: adaptivecards.ActionAlignment
+package: adaptivecards
+summary: ''
+fullName: ActionAlignment
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Left
+    uid: adaptivecards.ActionAlignment.Left
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Center
+    uid: adaptivecards.ActionAlignment.Center
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: Right
+    uid: adaptivecards.ActionAlignment.Right
+    package: adaptivecards
+    summary: ''
+    numericValue: 2
+  - name: Stretch
+    uid: adaptivecards.ActionAlignment.Stretch
+    package: adaptivecards
+    summary: ''
+    numericValue: 3

@@ -1,0 +1,73 @@
+### YamlMime:TSType
+name: DialogButton
+uid: adaptivecards-designer.DialogButton
+package: adaptivecards-designer
+summary: ''
+fullName: DialogButton
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: DialogButton(string)
+    uid: adaptivecards-designer.DialogButton.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new DialogButton(caption: string)'
+      parameters:
+        - id: caption
+          type: string
+          description: ''
+properties:
+  - name: caption
+    uid: adaptivecards-designer.DialogButton.caption
+    package: adaptivecards-designer
+    summary: ''
+    fullName: caption
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'caption: string'
+      return:
+        description: ''
+        type: string
+  - name: onClick
+    uid: adaptivecards-designer.DialogButton.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (sender: DialogButton) => void'
+      return:
+        description: ''
+        type: '(sender: DialogButton) =&gt; void'
+methods:
+  - name: clicked()
+    uid: adaptivecards-designer.DialogButton.clicked
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function clicked()
+  - name: render()
+    uid: adaptivecards-designer.DialogButton.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement

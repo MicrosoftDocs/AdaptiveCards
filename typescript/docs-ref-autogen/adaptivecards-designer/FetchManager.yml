@@ -1,0 +1,44 @@
+### YamlMime:TSType
+name: FetchManager
+uid: adaptivecards-designer.FetchManager
+package: adaptivecards-designer
+summary: ''
+fullName: FetchManager
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: 'getPredictedData(any, any)'
+    uid: adaptivecards-designer.FetchManager.getPredictedData
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getPredictedData(imageContent: any, isTemplateBindingEnabled:
+        any): Promise<any>
+      parameters:
+        - id: imageContent
+          type: any
+          description: ''
+        - id: isTemplateBindingEnabled
+          type: any
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;any&gt;
+  - name: getSampleImages()
+    uid: adaptivecards-designer.FetchManager.getSampleImages
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getSampleImages(): Promise<any>'
+      return:
+        description: ''
+        type: Promise&lt;any&gt;

@@ -1,0 +1,81 @@
+### YamlMime:TSType
+name: TextStyleSet
+uid: adaptivecards.TextStyleSet
+package: adaptivecards
+summary: ''
+fullName: TextStyleSet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TextStyleSet(any)
+    uid: adaptivecards.TextStyleSet.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new TextStyleSet(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: columnHeader
+    uid: adaptivecards.TextStyleSet.columnHeader
+    package: adaptivecards
+    summary: ''
+    fullName: columnHeader
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'columnHeader: TextStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextStyleDefinition" />
+  - name: default
+    uid: adaptivecards.TextStyleSet.default
+    package: adaptivecards
+    summary: ''
+    fullName: default
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'default: TextStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextStyleDefinition" />
+  - name: heading
+    uid: adaptivecards.TextStyleSet.heading
+    package: adaptivecards
+    summary: ''
+    fullName: heading
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'heading: TextStyleDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextStyleDefinition" />
+methods:
+  - name: getStyleByName(string)
+    uid: adaptivecards.TextStyleSet.getStyleByName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getStyleByName(name: string): TextStyleDefinition'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextStyleDefinition" />

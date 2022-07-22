@@ -1,0 +1,72 @@
+### YamlMime:TSType
+name: PropertySheetContext
+uid: adaptivecards-designer.PropertySheetContext
+package: adaptivecards-designer
+summary: ''
+fullName: PropertySheetContext
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'PropertySheetContext(DesignContext, DesignerPeer, object)'
+    uid: adaptivecards-designer.PropertySheetContext.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new PropertySheetContext(designContext: DesignContext, peer:
+        DesignerPeer, target?: object)
+      parameters:
+        - id: designContext
+          type: <xref uid="adaptivecards-designer.DesignContext" />
+          description: ''
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: target
+          type: object
+          description: ''
+properties:
+  - name: designContext
+    uid: adaptivecards-designer.PropertySheetContext.designContext
+    package: adaptivecards-designer
+    summary: ''
+    fullName: designContext
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'designContext: DesignContext'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignContext" />
+  - name: peer
+    uid: adaptivecards-designer.PropertySheetContext.peer
+    package: adaptivecards-designer
+    summary: ''
+    fullName: peer
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'peer: DesignerPeer'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeer" />
+  - name: target
+    uid: adaptivecards-designer.PropertySheetContext.target
+    package: adaptivecards-designer
+    summary: ''
+    fullName: target
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: object target
+      return:
+        description: ''
+        type: object

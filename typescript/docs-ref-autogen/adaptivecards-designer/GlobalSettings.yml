@@ -1,0 +1,103 @@
+### YamlMime:TSType
+name: GlobalSettings
+uid: adaptivecards-designer.GlobalSettings
+package: adaptivecards-designer
+summary: ''
+fullName: GlobalSettings
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: enableDataBindingSupport
+    uid: adaptivecards-designer.GlobalSettings.enableDataBindingSupport
+    package: adaptivecards-designer
+    summary: ''
+    fullName: enableDataBindingSupport
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static enableDataBindingSupport: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: selectedHostContainerControlsTargetVersion
+    uid: >-
+      adaptivecards-designer.GlobalSettings.selectedHostContainerControlsTargetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: selectedHostContainerControlsTargetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static selectedHostContainerControlsTargetVersion: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: showDataStructureToolbox
+    uid: adaptivecards-designer.GlobalSettings.showDataStructureToolbox
+    package: adaptivecards-designer
+    summary: ''
+    fullName: showDataStructureToolbox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static showDataStructureToolbox: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: showSampleDataEditorToolbox
+    uid: adaptivecards-designer.GlobalSettings.showSampleDataEditorToolbox
+    package: adaptivecards-designer
+    summary: ''
+    fullName: showSampleDataEditorToolbox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static showSampleDataEditorToolbox: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: showTargetVersionMismatchWarning
+    uid: adaptivecards-designer.GlobalSettings.showTargetVersionMismatchWarning
+    package: adaptivecards-designer
+    summary: ''
+    fullName: showTargetVersionMismatchWarning
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static showTargetVersionMismatchWarning: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: showVersionPicker
+    uid: adaptivecards-designer.GlobalSettings.showVersionPicker
+    package: adaptivecards-designer
+    summary: ''
+    fullName: showVersionPicker
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static showVersionPicker: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: supportedTargetVersions
+    uid: adaptivecards-designer.GlobalSettings.supportedTargetVersions
+    package: adaptivecards-designer
+    summary: ''
+    fullName: supportedTargetVersions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static supportedTargetVersions: Version[]'
+      return:
+        description: ''
+        type: 'Version[]'

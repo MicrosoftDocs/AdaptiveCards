@@ -1,0 +1,18 @@
+### YamlMime:TSTypeAlias
+name: TextColor
+uid: adaptivecards-designer.TextColor
+package: adaptivecards-designer
+summary: ''
+fullName: TextColor
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type TextColor =
+    | "default"
+    | "dark"
+    | "light"
+    | "accent"
+    | "good"
+    | "warning"
+    | "attention"

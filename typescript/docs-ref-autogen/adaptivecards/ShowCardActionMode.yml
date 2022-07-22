@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: ShowCardActionMode
+uid: adaptivecards.ShowCardActionMode
+package: adaptivecards
+summary: ''
+fullName: ShowCardActionMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Inline
+    uid: adaptivecards.ShowCardActionMode.Inline
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Popup
+    uid: adaptivecards.ShowCardActionMode.Popup
+    package: adaptivecards
+    summary: ''
+    numericValue: 1

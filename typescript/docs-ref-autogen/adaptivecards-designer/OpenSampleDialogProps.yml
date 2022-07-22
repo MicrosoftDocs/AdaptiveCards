@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: OpenSampleDialogProps
+uid: adaptivecards-designer.OpenSampleDialogProps
+package: adaptivecards-designer
+summary: ''
+fullName: OpenSampleDialogProps
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: catalogue
+    uid: adaptivecards-designer.OpenSampleDialogProps.catalogue
+    package: adaptivecards-designer
+    summary: ''
+    fullName: catalogue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'catalogue?: SampleCatalogue'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.SampleCatalogue" />
+  - name: handlers
+    uid: adaptivecards-designer.OpenSampleDialogProps.handlers
+    package: adaptivecards-designer
+    summary: ''
+    fullName: handlers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'handlers?: OpenSampleItemProps[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.OpenSampleItemProps" />[]'

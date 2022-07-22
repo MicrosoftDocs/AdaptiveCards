@@ -1,0 +1,88 @@
+### YamlMime:TSType
+name: StringWithSubstitutions
+uid: adaptivecards.StringWithSubstitutions
+package: adaptivecards
+summary: ''
+fullName: StringWithSubstitutions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: get()
+    uid: adaptivecards.StringWithSubstitutions.get
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function get(): string | undefined'
+      return:
+        description: ''
+        type: string | undefined
+  - name: getOriginal()
+    uid: adaptivecards.StringWithSubstitutions.getOriginal
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getOriginal(): string | undefined'
+      return:
+        description: ''
+        type: string | undefined
+  - name: 'getReferencedInputs(IInput[], Dictionary<IInput>)'
+    uid: adaptivecards.StringWithSubstitutions.getReferencedInputs
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getReferencedInputs(inputs: IInput[], referencedInputs:
+        Dictionary<IInput>)
+      parameters:
+        - id: inputs
+          type: '<xref uid="adaptivecards.IInput" />[]'
+          description: ''
+        - id: referencedInputs
+          type: >-
+            <xref uid="adaptivecards.Dictionary" />&lt;<xref
+            uid="adaptivecards.IInput" />&gt;
+          description: ''
+  - name: set(string | undefined)
+    uid: adaptivecards.StringWithSubstitutions.set
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function set(value: string | undefined)'
+      parameters:
+        - id: value
+          type: string | undefined
+          description: ''
+  - name: 'substituteInputValues(Dictionary<IInput>, string)'
+    uid: adaptivecards.StringWithSubstitutions.substituteInputValues
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function substituteInputValues(inputs: Dictionary<IInput>, contentType:
+        string)
+      parameters:
+        - id: inputs
+          type: >-
+            <xref uid="adaptivecards.Dictionary" />&lt;<xref
+            uid="adaptivecards.IInput" />&gt;
+          description: ''
+        - id: contentType
+          type: string
+          description: ''

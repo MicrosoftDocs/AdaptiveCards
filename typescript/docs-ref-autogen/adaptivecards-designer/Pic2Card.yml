@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: Pic2Card
+uid: adaptivecards-designer.Pic2Card
+package: adaptivecards-designer
+summary: ''
+fullName: Pic2Card
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: pic2cardService
+    uid: adaptivecards-designer.Pic2Card.pic2cardService
+    package: adaptivecards-designer
+    summary: ''
+    fullName: pic2cardService
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static pic2cardService: string'
+      return:
+        description: ''
+        type: string
+  - name: privacyLink
+    uid: adaptivecards-designer.Pic2Card.privacyLink
+    package: adaptivecards-designer
+    summary: ''
+    fullName: privacyLink
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static privacyLink: string'
+      return:
+        description: ''
+        type: string

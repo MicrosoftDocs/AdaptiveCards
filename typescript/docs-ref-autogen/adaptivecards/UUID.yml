@@ -1,0 +1,32 @@
+### YamlMime:TSType
+name: UUID
+uid: adaptivecards.UUID
+package: adaptivecards
+summary: 'Fast UUID generator, RFC4122 version 4 compliant.'
+fullName: UUID
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: generate()
+    uid: adaptivecards.UUID.generate
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function generate(): string'
+      return:
+        description: ''
+        type: string
+  - name: initialize()
+    uid: adaptivecards.UUID.initialize
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: static function initialize()

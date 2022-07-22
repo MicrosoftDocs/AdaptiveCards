@@ -1,0 +1,35 @@
+### YamlMime:TSEnum
+name: InputTextStyle
+uid: adaptivecards.InputTextStyle
+package: adaptivecards
+summary: ''
+fullName: InputTextStyle
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Text
+    uid: adaptivecards.InputTextStyle.Text
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: Tel
+    uid: adaptivecards.InputTextStyle.Tel
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: Url
+    uid: adaptivecards.InputTextStyle.Url
+    package: adaptivecards
+    summary: ''
+    numericValue: 2
+  - name: Email
+    uid: adaptivecards.InputTextStyle.Email
+    package: adaptivecards
+    summary: ''
+    numericValue: 3
+  - name: Password
+    uid: adaptivecards.InputTextStyle.Password
+    package: adaptivecards
+    summary: ''
+    numericValue: 4

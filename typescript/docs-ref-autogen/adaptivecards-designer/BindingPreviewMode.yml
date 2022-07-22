@@ -1,0 +1,25 @@
+### YamlMime:TSEnum
+name: BindingPreviewMode
+uid: adaptivecards-designer.BindingPreviewMode
+package: adaptivecards-designer
+summary: ''
+fullName: BindingPreviewMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: NoPreview
+    uid: adaptivecards-designer.BindingPreviewMode.NoPreview
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 0
+  - name: GeneratedData
+    uid: adaptivecards-designer.BindingPreviewMode.GeneratedData
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 1
+  - name: SampleData
+    uid: adaptivecards-designer.BindingPreviewMode.SampleData
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 2

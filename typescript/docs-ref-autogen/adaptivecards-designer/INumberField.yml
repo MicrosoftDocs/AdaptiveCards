@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: INumberField
+uid: adaptivecards-designer.INumberField
+package: adaptivecards-designer
+summary: ''
+fullName: INumberField
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+inheritedProperties:
+  - name: displayName
+    uid: adaptivecards-designer.INumberField.displayName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: displayName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'displayName: string'
+      return:
+        description: ''
+        type: string
+  - name: name
+    uid: adaptivecards-designer.INumberField.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: sampleValue
+    uid: adaptivecards-designer.INumberField.sampleValue
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sampleValue?: number'
+      return:
+        description: ''
+        type: number
+  - name: valueType
+    uid: adaptivecards-designer.INumberField.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueType: "Number"'
+      return:
+        description: ''
+        type: '"Number"'
+extends: <xref uid="adaptivecards-designer.IDataField" />

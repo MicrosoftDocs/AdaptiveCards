@@ -1,0 +1,70 @@
+### YamlMime:TSType
+name: FontTypeSet
+uid: adaptivecards.FontTypeSet
+package: adaptivecards
+summary: ''
+fullName: FontTypeSet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: FontTypeSet(any)
+    uid: adaptivecards.FontTypeSet.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new FontTypeSet(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: default
+    uid: adaptivecards.FontTypeSet.default
+    package: adaptivecards
+    summary: ''
+    fullName: default
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'default: FontTypeDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FontTypeDefinition" />
+  - name: monospace
+    uid: adaptivecards.FontTypeSet.monospace
+    package: adaptivecards
+    summary: ''
+    fullName: monospace
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'monospace: FontTypeDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FontTypeDefinition" />
+methods:
+  - name: getStyleDefinition(FontType | undefined)
+    uid: adaptivecards.FontTypeSet.getStyleDefinition
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getStyleDefinition(style: FontType | undefined):
+        FontTypeDefinition
+      parameters:
+        - id: style
+          type: <xref uid="adaptivecards.FontType" /> | undefined
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FontTypeDefinition" />

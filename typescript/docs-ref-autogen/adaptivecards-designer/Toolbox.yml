@@ -1,0 +1,221 @@
+### YamlMime:TSType
+name: Toolbox
+uid: adaptivecards-designer.Toolbox
+package: adaptivecards-designer
+summary: ''
+fullName: Toolbox
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'Toolbox(string, string)'
+    uid: adaptivecards-designer.Toolbox.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new Toolbox(id: string, title: string)'
+      parameters:
+        - id: id
+          type: string
+          description: ''
+        - id: title
+          type: string
+          description: ''
+properties:
+  - name: commands
+    uid: adaptivecards-designer.Toolbox.commands
+    package: adaptivecards-designer
+    summary: ''
+    fullName: commands
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'commands: Array<IToolboxCommand>'
+      return:
+        description: ''
+        type: Array&lt;<xref uid="adaptivecards-designer.IToolboxCommand" />&gt;
+  - name: content
+    uid: adaptivecards-designer.Toolbox.content
+    package: adaptivecards-designer
+    summary: ''
+    fullName: content
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement content
+      return:
+        description: ''
+        type: HTMLElement
+  - name: id
+    uid: adaptivecards-designer.Toolbox.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        description: ''
+        type: string
+  - name: isExpanded
+    uid: adaptivecards-designer.Toolbox.isExpanded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isExpanded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isExpanded
+      return:
+        description: ''
+        type: boolean
+  - name: onToggled
+    uid: adaptivecards-designer.Toolbox.onToggled
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onToggled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onToggled: (sender: Toolbox) => void'
+      return:
+        description: ''
+        type: '(sender: Toolbox) =&gt; void'
+  - name: orientation
+    uid: adaptivecards-designer.Toolbox.orientation
+    package: adaptivecards-designer
+    summary: ''
+    fullName: orientation
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: ToolboxOrientation orientation
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ToolboxOrientation" />
+  - name: renderedElement
+    uid: adaptivecards-designer.Toolbox.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+  - name: stretch
+    uid: adaptivecards-designer.Toolbox.stretch
+    package: adaptivecards-designer
+    summary: ''
+    fullName: stretch
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean stretch
+      return:
+        description: ''
+        type: boolean
+  - name: title
+    uid: adaptivecards-designer.Toolbox.title
+    package: adaptivecards-designer
+    summary: ''
+    fullName: title
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'title: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: collapse()
+    uid: adaptivecards-designer.Toolbox.collapse
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function collapse()
+  - name: expand()
+    uid: adaptivecards-designer.Toolbox.expand
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function expand()
+  - name: getHeaderBoundingRect()
+    uid: adaptivecards-designer.Toolbox.getHeaderBoundingRect
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getHeaderBoundingRect(): ClientRect'
+      return:
+        description: ''
+        type: ClientRect
+  - name: 'render(ToolboxOrientation, HTMLElement)'
+    uid: adaptivecards-designer.Toolbox.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function render(orientation: ToolboxOrientation, collapsedTabContainer:
+        HTMLElement)
+      parameters:
+        - id: orientation
+          type: <xref uid="adaptivecards-designer.ToolboxOrientation" />
+          description: ''
+        - id: collapsedTabContainer
+          type: HTMLElement
+          description: ''
+  - name: restoreState()
+    uid: adaptivecards-designer.Toolbox.restoreState
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function restoreState()
+  - name: saveState()
+    uid: adaptivecards-designer.Toolbox.saveState
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function saveState()
+  - name: toggle()
+    uid: adaptivecards-designer.Toolbox.toggle
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function toggle()

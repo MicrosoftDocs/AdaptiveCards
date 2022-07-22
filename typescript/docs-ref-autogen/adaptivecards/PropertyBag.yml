@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: PropertyBag
+uid: adaptivecards.PropertyBag
+package: adaptivecards
+summary: ''
+fullName: PropertyBag
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type PropertyBag = [key: string]: any'

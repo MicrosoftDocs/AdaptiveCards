@@ -1,0 +1,47 @@
+### YamlMime:TSType
+name: Strings
+uid: adaptivecards-designer.Strings
+package: adaptivecards-designer
+summary: ''
+fullName: Strings
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: loadingEditor
+    uid: adaptivecards-designer.Strings.loadingEditor
+    package: adaptivecards-designer
+    summary: ''
+    fullName: loadingEditor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static loadingEditor: string'
+      return:
+        description: ''
+        type: string
+  - name: toolboxes
+    uid: adaptivecards-designer.Strings.toolboxes
+    package: adaptivecards-designer
+    summary: ''
+    fullName: toolboxes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static toolboxes: { cardEditor: { title: string }, cardStructure: {
+        title: string }, dataStructure: { title: string }, propertySheet: {
+        commands: { bindData: { accessibleText: (propertyLabel: string) =>
+        string, displayText: () => string } }, title: string },
+        sampleDataEditor: { title: string }, toolPalette: { title: string } }
+      return:
+        description: ''
+        type: >-
+          { cardEditor: { title: string }, cardStructure: { title: string },
+          dataStructure: { title: string }, propertySheet: { commands: {
+          bindData: { accessibleText: (propertyLabel: string) =&gt; string,
+          displayText: () =&gt; string } }, title: string }, sampleDataEditor: {
+          title: string }, toolPalette: { title: string } }

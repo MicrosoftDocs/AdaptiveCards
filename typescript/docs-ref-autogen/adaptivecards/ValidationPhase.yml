@@ -1,0 +1,25 @@
+### YamlMime:TSEnum
+name: ValidationPhase
+uid: adaptivecards.ValidationPhase
+package: adaptivecards
+summary: ''
+fullName: ValidationPhase
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Parse
+    uid: adaptivecards.ValidationPhase.Parse
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: ToJSON
+    uid: adaptivecards.ValidationPhase.ToJSON
+    package: adaptivecards
+    summary: ''
+    numericValue: 1
+  - name: Validation
+    uid: adaptivecards.ValidationPhase.Validation
+    package: adaptivecards
+    summary: ''
+    numericValue: 2

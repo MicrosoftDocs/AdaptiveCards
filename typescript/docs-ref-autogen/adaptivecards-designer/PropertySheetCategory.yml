@@ -1,0 +1,206 @@
+### YamlMime:TSType
+name: PropertySheetCategory
+uid: adaptivecards-designer.PropertySheetCategory
+package: adaptivecards-designer
+summary: ''
+fullName: PropertySheetCategory
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: PropertySheetCategory(string)
+    uid: adaptivecards-designer.PropertySheetCategory.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new PropertySheetCategory(name: string)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+properties:
+  - name: DefaultCategory
+    uid: adaptivecards-designer.PropertySheetCategory.DefaultCategory
+    package: adaptivecards-designer
+    summary: ''
+    fullName: DefaultCategory
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static DefaultCategory: "__defaultCategory" = "__defaultCategory"'
+      return:
+        description: ''
+        type: '"__defaultCategory"'
+  - name: InlineAction
+    uid: adaptivecards-designer.PropertySheetCategory.InlineAction
+    package: adaptivecards-designer
+    summary: ''
+    fullName: InlineAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static InlineAction: "Inline action" = "Inline action"'
+      return:
+        description: ''
+        type: '"Inline action"'
+  - name: LayoutCategory
+    uid: adaptivecards-designer.PropertySheetCategory.LayoutCategory
+    package: adaptivecards-designer
+    summary: ''
+    fullName: LayoutCategory
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static LayoutCategory: "Layout" = "Layout"'
+      return:
+        description: ''
+        type: '"Layout"'
+  - name: length
+    uid: adaptivecards-designer.PropertySheetCategory.length
+    package: adaptivecards-designer
+    summary: ''
+    fullName: length
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number length
+      return:
+        description: ''
+        type: number
+  - name: name
+    uid: adaptivecards-designer.PropertySheetCategory.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: Refresh
+    uid: adaptivecards-designer.PropertySheetCategory.Refresh
+    package: adaptivecards-designer
+    summary: ''
+    fullName: Refresh
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Refresh: "Refresh" = "Refresh"'
+      return:
+        description: ''
+        type: '"Refresh"'
+  - name: SelectionAction
+    uid: adaptivecards-designer.PropertySheetCategory.SelectionAction
+    package: adaptivecards-designer
+    summary: ''
+    fullName: SelectionAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static SelectionAction: "Selection action" = "Selection action"'
+      return:
+        description: ''
+        type: '"Selection action"'
+  - name: StyleCategory
+    uid: adaptivecards-designer.PropertySheetCategory.StyleCategory
+    package: adaptivecards-designer
+    summary: ''
+    fullName: StyleCategory
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static StyleCategory: "Style" = "Style"'
+      return:
+        description: ''
+        type: '"Style"'
+  - name: Validation
+    uid: adaptivecards-designer.PropertySheetCategory.Validation
+    package: adaptivecards-designer
+    summary: ''
+    fullName: Validation
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Validation: "Validation" = "Validation"'
+      return:
+        description: ''
+        type: '"Validation"'
+methods:
+  - name: 'add(PropertySheetEntry[])'
+    uid: adaptivecards-designer.PropertySheetCategory.add
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function add(entries: PropertySheetEntry[])'
+      parameters:
+        - id: entries
+          type: '<xref uid="adaptivecards-designer.PropertySheetEntry" />[]'
+          description: ''
+  - name: getEntryAt(number)
+    uid: adaptivecards-designer.PropertySheetCategory.getEntryAt
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEntryAt(index: number): PropertySheetEntry'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.PropertySheetEntry" />
+  - name: 'remove(PropertySheetEntry[])'
+    uid: adaptivecards-designer.PropertySheetCategory.remove
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(entries: PropertySheetEntry[])'
+      parameters:
+        - id: entries
+          type: '<xref uid="adaptivecards-designer.PropertySheetEntry" />[]'
+          description: ''
+  - name: 'render(Container, PropertySheetContext, boolean)'
+    uid: adaptivecards-designer.PropertySheetCategory.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function render(container: Container, context: PropertySheetContext,
+        displayCategoryName: boolean)
+      parameters:
+        - id: container
+          type: Container
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards-designer.PropertySheetContext" />
+          description: ''
+        - id: displayCategoryName
+          type: boolean
+          description: ''

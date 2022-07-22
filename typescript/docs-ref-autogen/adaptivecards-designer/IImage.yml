@@ -1,0 +1,169 @@
+### YamlMime:TSType
+name: IImage
+uid: adaptivecards-designer.IImage
+package: adaptivecards-designer
+summary: ''
+fullName: IImage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: altText
+    uid: adaptivecards-designer.IImage.altText
+    package: adaptivecards-designer
+    summary: ''
+    fullName: altText
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'altText?: string'
+      return:
+        description: ''
+        type: string
+  - name: selectAction
+    uid: adaptivecards-designer.IImage.selectAction
+    package: adaptivecards-designer
+    summary: ''
+    fullName: selectAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'selectAction?: IAction'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.IAction" />
+  - name: size
+    uid: adaptivecards-designer.IImage.size
+    package: adaptivecards-designer
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size?: Size'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Size" />
+  - name: style
+    uid: adaptivecards-designer.IImage.style
+    package: adaptivecards-designer
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'style?: ImageStyle'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ImageStyle" />
+  - name: type
+    uid: adaptivecards-designer.IImage.type
+    package: adaptivecards-designer
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Image"'
+      return:
+        description: ''
+        type: '"Image"'
+  - name: url
+    uid: adaptivecards-designer.IImage.url
+    package: adaptivecards-designer
+    summary: ''
+    fullName: url
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'url: string'
+      return:
+        description: ''
+        type: string
+inheritedProperties:
+  - name: height
+    uid: adaptivecards-designer.IImage.height
+    package: adaptivecards-designer
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards-designer.IImage.horizontalAlignment
+    package: adaptivecards-designer
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards-designer.IImage.id
+    package: adaptivecards-designer
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards-designer.IImage.separator
+    package: adaptivecards-designer
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards-designer.IImage.spacing
+    package: adaptivecards-designer
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Spacing" />
+  - name: speak
+    uid: adaptivecards-designer.IImage.speak
+    package: adaptivecards-designer
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards-designer.ICardElement" />

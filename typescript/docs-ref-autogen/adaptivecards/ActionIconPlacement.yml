@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: ActionIconPlacement
+uid: adaptivecards.ActionIconPlacement
+package: adaptivecards
+summary: ''
+fullName: ActionIconPlacement
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: LeftOfTitle
+    uid: adaptivecards.ActionIconPlacement.LeftOfTitle
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: AboveTitle
+    uid: adaptivecards.ActionIconPlacement.AboveTitle
+    package: adaptivecards
+    summary: ''
+    numericValue: 1

@@ -1,0 +1,141 @@
+### YamlMime:TSType
+name: BaseStringPropertyEditor
+uid: adaptivecards-designer.BaseStringPropertyEditor
+package: adaptivecards-designer
+summary: ''
+fullName: BaseStringPropertyEditor
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      BaseStringPropertyEditor(Adaptive.TargetVersion, string, string, boolean,
+      boolean, boolean)
+    uid: adaptivecards-designer.BaseStringPropertyEditor.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new BaseStringPropertyEditor(targetVersion: Adaptive.TargetVersion,
+        propertyName: string, label: string, allowBinding?: boolean,
+        isMultiline?: boolean, causesPropertySheetRefresh?: boolean)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="Adaptive.TargetVersion" />
+          description: ''
+        - id: propertyName
+          type: string
+          description: ''
+        - id: label
+          type: string
+          description: ''
+        - id: allowBinding
+          type: boolean
+          description: ''
+        - id: isMultiline
+          type: boolean
+          description: ''
+        - id: causesPropertySheetRefresh
+          type: boolean
+          description: ''
+properties:
+  - name: allowBinding
+    uid: adaptivecards-designer.BaseStringPropertyEditor.allowBinding
+    package: adaptivecards-designer
+    summary: ''
+    fullName: allowBinding
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowBinding: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: causesPropertySheetRefresh
+    uid: adaptivecards-designer.BaseStringPropertyEditor.causesPropertySheetRefresh
+    package: adaptivecards-designer
+    summary: ''
+    fullName: causesPropertySheetRefresh
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'causesPropertySheetRefresh: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isMultiline
+    uid: adaptivecards-designer.BaseStringPropertyEditor.isMultiline
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isMultiline
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isMultiline: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: label
+    uid: adaptivecards-designer.BaseStringPropertyEditor.label
+    package: adaptivecards-designer
+    summary: ''
+    fullName: label
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'label: string'
+      return:
+        description: ''
+        type: string
+  - name: propertyName
+    uid: adaptivecards-designer.BaseStringPropertyEditor.propertyName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: propertyName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'propertyName: string'
+      return:
+        description: ''
+        type: string
+  - name: targetVersion
+    uid: adaptivecards-designer.BaseStringPropertyEditor.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        description: ''
+        type: <xref uid="Adaptive.TargetVersion" />
+inheritedMethods:
+  - name: render(PropertySheetContext)
+    uid: adaptivecards-designer.BaseStringPropertyEditor.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(context: PropertySheetContext): CardElement'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.PropertySheetContext" />
+          description: ''
+      return:
+        description: ''
+        type: CardElement
+extends: <xref uid="adaptivecards-designer.SingleInputPropertyEditor" />

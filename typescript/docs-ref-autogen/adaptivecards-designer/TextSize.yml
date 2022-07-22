@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: TextSize
+uid: adaptivecards-designer.TextSize
+package: adaptivecards-designer
+summary: ''
+fullName: TextSize
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type TextSize = "small" | "default" | "medium" | "large" | "extraLarge"

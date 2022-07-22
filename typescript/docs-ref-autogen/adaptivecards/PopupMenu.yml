@@ -1,0 +1,156 @@
+### YamlMime:TSType
+name: PopupMenu
+uid: adaptivecards.PopupMenu
+package: adaptivecards
+summary: ''
+fullName: PopupMenu
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: PopupMenu()
+    uid: adaptivecards.PopupMenu.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new PopupMenu()
+properties:
+  - name: hostConfig
+    uid: adaptivecards.PopupMenu.hostConfig
+    package: adaptivecards
+    summary: ''
+    fullName: hostConfig
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostConfig hostConfig
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HostConfig" />
+  - name: isOpen
+    uid: adaptivecards.PopupMenu.isOpen
+    package: adaptivecards
+    summary: ''
+    fullName: isOpen
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isOpen
+      return:
+        description: ''
+        type: boolean
+  - name: items
+    uid: adaptivecards.PopupMenu.items
+    package: adaptivecards
+    summary: ''
+    fullName: items
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Collection<MenuItem> items
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards.Collection" />&lt;<xref
+          uid="adaptivecards.MenuItem" />&gt;
+  - name: selectedIndex
+    uid: adaptivecards.PopupMenu.selectedIndex
+    package: adaptivecards
+    summary: ''
+    fullName: selectedIndex
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number selectedIndex
+      return:
+        description: ''
+        type: number
+inheritedProperties:
+  - name: onClose
+    uid: adaptivecards.PopupMenu.onClose
+    package: adaptivecards
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (popupControl: PopupControl, wasCancelled: boolean) => void'
+      return:
+        description: ''
+        type: '(popupControl: PopupControl, wasCancelled: boolean) =&gt; void'
+inheritedMethods:
+  - name: closePopup(boolean)
+    uid: adaptivecards.PopupMenu.closePopup
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type: boolean
+          description: ''
+  - name: focus()
+    uid: adaptivecards.PopupMenu.focus
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: popup(HTMLElement)
+    uid: adaptivecards.PopupMenu.popup
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function popup(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+  - name: render(ClientRect)
+    uid: adaptivecards.PopupMenu.render
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(rootElementBounds: ClientRect): HTMLElement'
+      parameters:
+        - id: rootElementBounds
+          type: ClientRect
+          description: ''
+      return:
+        description: ''
+        type: HTMLElement
+methods:
+  - name: keyDown(KeyboardEvent)
+    uid: adaptivecards.PopupMenu.keyDown
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function keyDown(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type: KeyboardEvent
+          description: ''
+extends: <xref uid="adaptivecards.PopupControl" />

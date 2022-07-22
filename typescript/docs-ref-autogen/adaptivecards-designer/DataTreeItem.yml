@@ -1,0 +1,256 @@
+### YamlMime:TSType
+name: DataTreeItem
+uid: adaptivecards-designer.DataTreeItem
+package: adaptivecards-designer
+summary: ''
+fullName: DataTreeItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: DataTreeItem(FieldDefinition)
+    uid: adaptivecards-designer.DataTreeItem.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new DataTreeItem(field: FieldDefinition)'
+      parameters:
+        - id: field
+          type: <xref uid="adaptivecards-designer.FieldDefinition" />
+          description: ''
+properties:
+  - name: dragging
+    uid: adaptivecards-designer.DataTreeItem.dragging
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dragging
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean dragging
+      return:
+        description: ''
+        type: boolean
+  - name: field
+    uid: adaptivecards-designer.DataTreeItem.field
+    package: adaptivecards-designer
+    summary: ''
+    fullName: field
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'field: FieldDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: isSelected
+    uid: adaptivecards-designer.DataTreeItem.isSelected
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isSelected
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isSelected
+      return:
+        description: ''
+        type: boolean
+  - name: level
+    uid: adaptivecards-designer.DataTreeItem.level
+    package: adaptivecards-designer
+    summary: ''
+    fullName: level
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number level
+      return:
+        description: ''
+        type: number
+  - name: renderedElement
+    uid: adaptivecards-designer.DataTreeItem.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+inheritedProperties:
+  - name: onClick
+    uid: adaptivecards-designer.DataTreeItem.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onDoubleClick
+    uid: adaptivecards-designer.DataTreeItem.onDoubleClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onDoubleClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onEndDrag
+    uid: adaptivecards-designer.DataTreeItem.onEndDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onEndDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onSelectedChange
+    uid: adaptivecards-designer.DataTreeItem.onSelectedChange
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onSelectedChange
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onSelectedChange: (sender: BaseTreeItem) => void'
+      return:
+        description: ''
+        type: '(sender: BaseTreeItem) =&gt; void'
+  - name: onStartDrag
+    uid: adaptivecards-designer.DataTreeItem.onStartDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onStartDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+inheritedMethods:
+  - name: collpase()
+    uid: adaptivecards-designer.DataTreeItem.collpase
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function collpase()
+  - name: endDrag()
+    uid: adaptivecards-designer.DataTreeItem.endDrag
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function endDrag()
+  - name: expand()
+    uid: adaptivecards-designer.DataTreeItem.expand
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function expand()
+  - name: focus()
+    uid: adaptivecards-designer.DataTreeItem.focus
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: render()
+    uid: adaptivecards-designer.DataTreeItem.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: updateLayout()
+    uid: adaptivecards-designer.DataTreeItem.updateLayout
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateLayout()
+methods:
+  - name: getChildAt(number)
+    uid: adaptivecards-designer.DataTreeItem.getChildAt
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildAt(index: number): DataTreeItem'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DataTreeItem" />
+  - name: getChildCount()
+    uid: adaptivecards-designer.DataTreeItem.getChildCount
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: isDraggable()
+    uid: adaptivecards-designer.DataTreeItem.isDraggable
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDraggable(): boolean'
+      return:
+        description: ''
+        type: boolean
+extends: <xref uid="adaptivecards-designer.BaseTreeItem" />

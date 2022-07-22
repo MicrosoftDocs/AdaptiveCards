@@ -1,0 +1,66 @@
+### YamlMime:TSType
+name: MediaConfig
+uid: adaptivecards.MediaConfig
+package: adaptivecards
+summary: ''
+fullName: MediaConfig
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: MediaConfig(any)
+    uid: adaptivecards.MediaConfig.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new MediaConfig(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: allowInlinePlayback
+    uid: adaptivecards.MediaConfig.allowInlinePlayback
+    package: adaptivecards
+    summary: ''
+    fullName: allowInlinePlayback
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowInlinePlayback: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: defaultPoster
+    uid: adaptivecards.MediaConfig.defaultPoster
+    package: adaptivecards
+    summary: ''
+    fullName: defaultPoster
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultPoster?: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: toJSON()
+    uid: adaptivecards.MediaConfig.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function toJSON(): { allowInlinePlayback: boolean, defaultPoster: string
+        | undefined }
+      return:
+        description: ''
+        type: '{ allowInlinePlayback: boolean, defaultPoster: string | undefined }'

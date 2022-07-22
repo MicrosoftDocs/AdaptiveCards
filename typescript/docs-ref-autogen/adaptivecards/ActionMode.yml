@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: ActionMode
+uid: adaptivecards.ActionMode
+package: adaptivecards
+summary: ''
+fullName: ActionMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: Primary
+    uid: adaptivecards.ActionMode.Primary
+    package: adaptivecards
+    summary: ''
+    fullName: Primary
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Primary: "primary"'
+      return:
+        description: ''
+        type: '"primary"'
+  - name: Secondary
+    uid: adaptivecards.ActionMode.Secondary
+    package: adaptivecards
+    summary: ''
+    fullName: Secondary
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Secondary: "secondary"'
+      return:
+        description: ''
+        type: '"secondary"'

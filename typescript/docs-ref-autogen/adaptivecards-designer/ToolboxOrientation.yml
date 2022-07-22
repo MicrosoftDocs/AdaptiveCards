@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: ToolboxOrientation
+uid: adaptivecards-designer.ToolboxOrientation
+package: adaptivecards-designer
+summary: ''
+fullName: ToolboxOrientation
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Horizontal
+    uid: adaptivecards-designer.ToolboxOrientation.Horizontal
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 0
+  - name: Vertical
+    uid: adaptivecards-designer.ToolboxOrientation.Vertical
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 1

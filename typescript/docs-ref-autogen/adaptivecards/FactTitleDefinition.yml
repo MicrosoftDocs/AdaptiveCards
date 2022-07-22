@@ -1,0 +1,144 @@
+### YamlMime:TSType
+name: FactTitleDefinition
+uid: adaptivecards.FactTitleDefinition
+package: adaptivecards
+summary: ''
+fullName: FactTitleDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: FactTitleDefinition(any)
+    uid: adaptivecards.FactTitleDefinition.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new FactTitleDefinition(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+properties:
+  - name: maxWidth
+    uid: adaptivecards.FactTitleDefinition.maxWidth
+    package: adaptivecards
+    summary: ''
+    fullName: maxWidth
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxWidth?: number'
+      return:
+        description: ''
+        type: number
+  - name: weight
+    uid: adaptivecards.FactTitleDefinition.weight
+    package: adaptivecards
+    summary: ''
+    fullName: weight
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'weight: TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+inheritedProperties:
+  - name: color
+    uid: adaptivecards.FactTitleDefinition.color
+    package: adaptivecards
+    summary: ''
+    fullName: color
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'color: TextColor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextColor" />
+  - name: isSubtle
+    uid: adaptivecards.FactTitleDefinition.isSubtle
+    package: adaptivecards
+    summary: ''
+    fullName: isSubtle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSubtle: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: size
+    uid: adaptivecards.FactTitleDefinition.size
+    package: adaptivecards
+    summary: ''
+    fullName: size
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'size: TextSize'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextSize" />
+  - name: wrap
+    uid: adaptivecards.FactTitleDefinition.wrap
+    package: adaptivecards
+    summary: ''
+    fullName: wrap
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'wrap: boolean'
+      return:
+        description: ''
+        type: boolean
+inheritedMethods:
+  - name: parse(any)
+    uid: adaptivecards.FactTitleDefinition.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+  - name: toJSON()
+    uid: adaptivecards.FactTitleDefinition.toJSON
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function toJSON(): any'
+      return:
+        description: ''
+        type: any
+methods:
+  - name: getDefaultWeight()
+    uid: adaptivecards.FactTitleDefinition.getDefaultWeight
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getDefaultWeight(): TextWeight'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.TextWeight" />
+extends: <xref uid="adaptivecards.FactTextDefinition" />

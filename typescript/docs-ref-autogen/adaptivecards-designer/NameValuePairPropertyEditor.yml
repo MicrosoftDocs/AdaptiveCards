@@ -1,0 +1,192 @@
+### YamlMime:TSType
+name: NameValuePairPropertyEditor
+uid: adaptivecards-designer.NameValuePairPropertyEditor
+package: adaptivecards-designer
+summary: ''
+fullName: NameValuePairPropertyEditor
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      NameValuePairPropertyEditor(Adaptive.TargetVersion, string, string,
+      string, (name: string, value: string) => any, string, string, string,
+      string)
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new NameValuePairPropertyEditor(targetVersion: Adaptive.TargetVersion,
+        collectionPropertyName: string, namePropertyName: string,
+        valuePropertyName: string, createCollectionItem: (name: string, value:
+        string) => any, namePropertyLabel?: string, valuePropertyLabel?: string,
+        addButtonTitle?: string, messageIfEmpty?: string)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="Adaptive.TargetVersion" />
+          description: ''
+        - id: collectionPropertyName
+          type: string
+          description: ''
+        - id: namePropertyName
+          type: string
+          description: ''
+        - id: valuePropertyName
+          type: string
+          description: ''
+        - id: createCollectionItem
+          type: '(name: string, value: string) =&gt; any'
+          description: ''
+        - id: namePropertyLabel
+          type: string
+          description: ''
+        - id: valuePropertyLabel
+          type: string
+          description: ''
+        - id: addButtonTitle
+          type: string
+          description: ''
+        - id: messageIfEmpty
+          type: string
+          description: ''
+properties:
+  - name: addButtonTitle
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.addButtonTitle
+    package: adaptivecards-designer
+    summary: ''
+    fullName: addButtonTitle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'addButtonTitle: string'
+      return:
+        description: ''
+        type: string
+  - name: collectionPropertyName
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.collectionPropertyName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: collectionPropertyName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'collectionPropertyName: string'
+      return:
+        description: ''
+        type: string
+  - name: createCollectionItem
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.createCollectionItem
+    package: adaptivecards-designer
+    summary: ''
+    fullName: createCollectionItem
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'createCollectionItem: (name: string, value: string) => any'
+      return:
+        description: ''
+        type: '(name: string, value: string) =&gt; any'
+  - name: messageIfEmpty
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.messageIfEmpty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: messageIfEmpty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'messageIfEmpty: string'
+      return:
+        description: ''
+        type: string
+  - name: namePropertyLabel
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.namePropertyLabel
+    package: adaptivecards-designer
+    summary: ''
+    fullName: namePropertyLabel
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'namePropertyLabel: string'
+      return:
+        description: ''
+        type: string
+  - name: namePropertyName
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.namePropertyName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: namePropertyName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'namePropertyName: string'
+      return:
+        description: ''
+        type: string
+  - name: targetVersion
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        description: ''
+        type: <xref uid="Adaptive.TargetVersion" />
+  - name: valuePropertyLabel
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.valuePropertyLabel
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valuePropertyLabel
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valuePropertyLabel: string'
+      return:
+        description: ''
+        type: string
+  - name: valuePropertyName
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.valuePropertyName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valuePropertyName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valuePropertyName: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: render(PropertySheetContext)
+    uid: adaptivecards-designer.NameValuePairPropertyEditor.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(context: PropertySheetContext): CardElement'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.PropertySheetContext" />
+          description: ''
+      return:
+        description: ''
+        type: CardElement
+extends: <xref uid="adaptivecards-designer.PropertySheetEntry" />

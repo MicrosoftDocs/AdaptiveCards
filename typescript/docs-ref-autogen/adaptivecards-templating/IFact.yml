@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: IFact
+uid: adaptivecards-templating.IFact
+package: adaptivecards-templating
+summary: ''
+fullName: IFact
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: speak
+    uid: adaptivecards-templating.IFact.speak
+    package: adaptivecards-templating
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+  - name: title
+    uid: adaptivecards-templating.IFact.title
+    package: adaptivecards-templating
+    summary: ''
+    fullName: title
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'title: string'
+      return:
+        description: ''
+        type: string
+  - name: value
+    uid: adaptivecards-templating.IFact.value
+    package: adaptivecards-templating
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value: string'
+      return:
+        description: ''
+        type: string

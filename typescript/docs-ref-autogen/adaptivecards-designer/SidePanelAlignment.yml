@@ -1,0 +1,30 @@
+### YamlMime:TSEnum
+name: SidePanelAlignment
+uid: adaptivecards-designer.SidePanelAlignment
+package: adaptivecards-designer
+summary: ''
+fullName: SidePanelAlignment
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Top
+    uid: adaptivecards-designer.SidePanelAlignment.Top
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 0
+  - name: Right
+    uid: adaptivecards-designer.SidePanelAlignment.Right
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 1
+  - name: Bottom
+    uid: adaptivecards-designer.SidePanelAlignment.Bottom
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 2
+  - name: Left
+    uid: adaptivecards-designer.SidePanelAlignment.Left
+    package: adaptivecards-designer
+    summary: ''
+    numericValue: 3

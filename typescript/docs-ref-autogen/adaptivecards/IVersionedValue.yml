@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IVersionedValue
+uid: adaptivecards.IVersionedValue
+package: adaptivecards
+summary: ''
+fullName: IVersionedValue<TValue>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: targetVersion
+    uid: adaptivecards.IVersionedValue.targetVersion
+    package: adaptivecards
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion?: Version'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Version" />
+  - name: value
+    uid: adaptivecards.IVersionedValue.value
+    package: adaptivecards
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value: TValue'
+      return:
+        description: ''
+        type: TValue

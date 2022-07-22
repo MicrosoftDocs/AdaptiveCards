@@ -1,0 +1,140 @@
+### YamlMime:TSType
+name: ActionPeerRegistry
+uid: adaptivecards-designer.ActionPeerRegistry
+package: adaptivecards-designer
+summary: ''
+fullName: ActionPeerRegistry
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: ActionPeerRegistry()
+    uid: adaptivecards-designer.ActionPeerRegistry.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new ActionPeerRegistry()
+inheritedProperties:
+  - name: defaultRegistration
+    uid: adaptivecards-designer.ActionPeerRegistry.defaultRegistration
+    package: adaptivecards-designer
+    summary: ''
+    fullName: defaultRegistration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultRegistration: DesignerPeerRegistrationBase'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />
+inheritedMethods:
+  - name: clear()
+    uid: adaptivecards-designer.ActionPeerRegistry.clear
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function clear()
+  - name: findTypeRegistration(ActionType)
+    uid: adaptivecards-designer.ActionPeerRegistry.findTypeRegistration
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function findTypeRegistration(sourceType: ActionType):
+        DesignerPeerRegistration<ActionType, ActionPeerType>
+      parameters:
+        - id: sourceType
+          type: <xref uid="adaptivecards-designer.ActionType" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards-designer.DesignerPeerRegistration"
+          />&lt;<xref uid="adaptivecards-designer.ActionType" />, <xref
+          uid="adaptivecards-designer.ActionPeerType" />&gt;
+  - name: 'registerPeer(ActionType, ActionPeerType, string, string)'
+    uid: adaptivecards-designer.ActionPeerRegistry.registerPeer
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function registerPeer(sourceType: ActionType, peerType: ActionPeerType,
+        category: string, iconClass?: string)
+      parameters:
+        - id: sourceType
+          type: <xref uid="adaptivecards-designer.ActionType" />
+          description: ''
+        - id: peerType
+          type: <xref uid="adaptivecards-designer.ActionPeerType" />
+          description: ''
+        - id: category
+          type: string
+          description: ''
+        - id: iconClass
+          type: string
+          description: ''
+  - name: unregisterPeer(ActionType)
+    uid: adaptivecards-designer.ActionPeerRegistry.unregisterPeer
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function unregisterPeer(sourceType: ActionType)'
+      parameters:
+        - id: sourceType
+          type: <xref uid="adaptivecards-designer.ActionType" />
+          description: ''
+methods:
+  - name: 'createPeerInstance(CardDesignerSurface, DesignerPeer, Action)'
+    uid: adaptivecards-designer.ActionPeerRegistry.createPeerInstance
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createPeerInstance(designerSurface: CardDesignerSurface,
+        parent: DesignerPeer, action: Action): ActionPeer
+      parameters:
+        - id: designerSurface
+          type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+          description: ''
+        - id: parent
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: action
+          type: Action
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ActionPeer" />
+  - name: reset()
+    uid: adaptivecards-designer.ActionPeerRegistry.reset
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function reset()
+extends: >-
+  <xref uid="adaptivecards-designer.DesignerPeerRegistry" />&lt;<xref
+  uid="adaptivecards-designer.ActionType" />, <xref
+  uid="adaptivecards-designer.ActionPeerType" />&gt;

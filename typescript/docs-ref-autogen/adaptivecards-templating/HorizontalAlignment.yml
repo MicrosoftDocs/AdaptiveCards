@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: HorizontalAlignment
+uid: adaptivecards-templating.HorizontalAlignment
+package: adaptivecards-templating
+summary: ''
+fullName: HorizontalAlignment
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type HorizontalAlignment = "left" | "center" | "right"

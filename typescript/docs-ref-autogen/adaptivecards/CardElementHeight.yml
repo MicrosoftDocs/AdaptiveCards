@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: CardElementHeight
+uid: adaptivecards.CardElementHeight
+package: adaptivecards
+summary: ''
+fullName: CardElementHeight
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type CardElementHeight = "auto" | "stretch"

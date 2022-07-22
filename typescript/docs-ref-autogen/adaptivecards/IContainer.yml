@@ -1,0 +1,169 @@
+### YamlMime:TSType
+name: IContainer
+uid: adaptivecards.IContainer
+package: adaptivecards
+summary: ''
+fullName: IContainer
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: backgroundImage
+    uid: adaptivecards.IContainer.backgroundImage
+    package: adaptivecards
+    summary: ''
+    fullName: backgroundImage
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'backgroundImage?: IBackgroundImage | string'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IBackgroundImage" /> | string
+  - name: items
+    uid: adaptivecards.IContainer.items
+    package: adaptivecards
+    summary: ''
+    fullName: items
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'items?: ICardElement[]'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards.ICardElement" />[]'
+  - name: selectAction
+    uid: adaptivecards.IContainer.selectAction
+    package: adaptivecards
+    summary: ''
+    fullName: selectAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'selectAction?: IAction'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IAction" />
+  - name: style
+    uid: adaptivecards.IContainer.style
+    package: adaptivecards
+    summary: ''
+    fullName: style
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'style?: ContainerStyle'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerStyle" />
+  - name: type
+    uid: adaptivecards.IContainer.type
+    package: adaptivecards
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Container"'
+      return:
+        description: ''
+        type: '"Container"'
+  - name: verticalContentAlignment
+    uid: adaptivecards.IContainer.verticalContentAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: verticalContentAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'verticalContentAlignment?: VerticalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.VerticalAlignment" />
+inheritedProperties:
+  - name: height
+    uid: adaptivecards.IContainer.height
+    package: adaptivecards
+    summary: ''
+    fullName: height
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'height?: "auto" | "stretch"'
+      return:
+        description: ''
+        type: '"auto" | "stretch"'
+  - name: horizontalAlignment
+    uid: adaptivecards.IContainer.horizontalAlignment
+    package: adaptivecards
+    summary: ''
+    fullName: horizontalAlignment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'horizontalAlignment?: HorizontalAlignment'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.HorizontalAlignment" />
+  - name: id
+    uid: adaptivecards.IContainer.id
+    package: adaptivecards
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: separator
+    uid: adaptivecards.IContainer.separator
+    package: adaptivecards
+    summary: ''
+    fullName: separator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'separator?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: spacing
+    uid: adaptivecards.IContainer.spacing
+    package: adaptivecards
+    summary: ''
+    fullName: spacing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spacing?: Spacing'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.Spacing" />
+  - name: speak
+    uid: adaptivecards.IContainer.speak
+    package: adaptivecards
+    summary: ''
+    fullName: speak
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'speak?: string'
+      return:
+        description: ''
+        type: string
+extends: <xref uid="adaptivecards.ICardElement" />

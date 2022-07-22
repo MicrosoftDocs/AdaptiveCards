@@ -1,0 +1,243 @@
+### YamlMime:TSType
+name: BaseTreeItem
+uid: adaptivecards-designer.BaseTreeItem
+package: adaptivecards-designer
+summary: ''
+fullName: BaseTreeItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: BaseTreeItem(boolean)
+    uid: adaptivecards-designer.BaseTreeItem.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new BaseTreeItem(isExpanded?: boolean)'
+      parameters:
+        - id: isExpanded
+          type: boolean
+          description: ''
+properties:
+  - name: dragging
+    uid: adaptivecards-designer.BaseTreeItem.dragging
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dragging
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean dragging
+      return:
+        description: ''
+        type: boolean
+  - name: isSelected
+    uid: adaptivecards-designer.BaseTreeItem.isSelected
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isSelected
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isSelected
+      return:
+        description: ''
+        type: boolean
+  - name: level
+    uid: adaptivecards-designer.BaseTreeItem.level
+    package: adaptivecards-designer
+    summary: ''
+    fullName: level
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number level
+      return:
+        description: ''
+        type: number
+  - name: onSelectedChange
+    uid: adaptivecards-designer.BaseTreeItem.onSelectedChange
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onSelectedChange
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onSelectedChange: (sender: BaseTreeItem) => void'
+      return:
+        description: ''
+        type: '(sender: BaseTreeItem) =&gt; void'
+  - name: renderedElement
+    uid: adaptivecards-designer.BaseTreeItem.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+inheritedProperties:
+  - name: onClick
+    uid: adaptivecards-designer.BaseTreeItem.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onDoubleClick
+    uid: adaptivecards-designer.BaseTreeItem.onDoubleClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onDoubleClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onEndDrag
+    uid: adaptivecards-designer.BaseTreeItem.onEndDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onEndDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onStartDrag
+    uid: adaptivecards-designer.BaseTreeItem.onStartDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onStartDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+inheritedMethods:
+  - name: endDrag()
+    uid: adaptivecards-designer.BaseTreeItem.endDrag
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function endDrag()
+  - name: focus()
+    uid: adaptivecards-designer.BaseTreeItem.focus
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: render()
+    uid: adaptivecards-designer.BaseTreeItem.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+methods:
+  - name: collpase()
+    uid: adaptivecards-designer.BaseTreeItem.collpase
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function collpase()
+  - name: expand()
+    uid: adaptivecards-designer.BaseTreeItem.expand
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function expand()
+  - name: getChildAt(number)
+    uid: adaptivecards-designer.BaseTreeItem.getChildAt
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildAt(index: number): BaseTreeItem'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.BaseTreeItem" />
+  - name: getChildCount()
+    uid: adaptivecards-designer.BaseTreeItem.getChildCount
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: isDraggable()
+    uid: adaptivecards-designer.BaseTreeItem.isDraggable
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDraggable(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: updateLayout()
+    uid: adaptivecards-designer.BaseTreeItem.updateLayout
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateLayout()
+extends: <xref uid="adaptivecards-designer.DraggableElement" />

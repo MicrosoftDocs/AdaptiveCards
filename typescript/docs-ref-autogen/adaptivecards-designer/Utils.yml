@@ -1,0 +1,59 @@
+### YamlMime:TSType
+name: Utils
+uid: adaptivecards-designer.Utils
+package: adaptivecards-designer
+summary: ''
+fullName: Utils
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: adjustPointForScroll(IPoint)
+    uid: adaptivecards-designer.Utils.adjustPointForScroll
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function adjustPointForScroll(position: IPoint): IPoint'
+      parameters:
+        - id: position
+          type: <xref uid="adaptivecards-designer.IPoint" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.IPoint" />
+  - name: isAbsoluteUrl(string)
+    uid: adaptivecards-designer.Utils.isAbsoluteUrl
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function isAbsoluteUrl(urlString: string): boolean'
+      parameters:
+        - id: urlString
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'joinPaths(string[])'
+    uid: adaptivecards-designer.Utils.joinPaths
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function joinPaths(args: string[]): string'
+      parameters:
+        - id: args
+          type: 'string[]'
+          description: ''
+      return:
+        description: ''
+        type: string

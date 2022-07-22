@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: CardElementType
+uid: adaptivecards-designer.CardElementType
+package: adaptivecards-designer
+summary: ''
+fullName: CardElementType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type CardElementType = {}

@@ -1,0 +1,114 @@
+### YamlMime:TSType
+name: PropertySheet
+uid: adaptivecards-designer.PropertySheet
+package: adaptivecards-designer
+summary: ''
+fullName: PropertySheet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: PropertySheet(boolean)
+    uid: adaptivecards-designer.PropertySheet.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new PropertySheet(displayCategoryNames?: boolean)'
+      parameters:
+        - id: displayCategoryNames
+          type: boolean
+          description: ''
+properties:
+  - name: displayCategoryNames
+    uid: adaptivecards-designer.PropertySheet.displayCategoryNames
+    package: adaptivecards-designer
+    summary: ''
+    fullName: displayCategoryNames
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'displayCategoryNames: boolean'
+      return:
+        description: ''
+        type: boolean
+methods:
+  - name: 'add(string, PropertySheetEntry[])'
+    uid: adaptivecards-designer.PropertySheet.add
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function add(categoryName: string, entries: PropertySheetEntry[])'
+      parameters:
+        - id: categoryName
+          type: string
+          description: ''
+        - id: entries
+          type: '<xref uid="adaptivecards-designer.PropertySheetEntry" />[]'
+          description: ''
+  - name: >-
+      addActionProperties(Version, DesignerPeer, Action, string,
+      PropertySheetEntry[])
+    uid: adaptivecards-designer.PropertySheet.addActionProperties
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function addActionProperties(targetVersion: Version, peer: DesignerPeer,
+        action: Action, category: string, excludeProperties?:
+        PropertySheetEntry[])
+      parameters:
+        - id: targetVersion
+          type: Version
+          description: ''
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: action
+          type: Action
+          description: ''
+        - id: category
+          type: string
+          description: ''
+        - id: excludeProperties
+          type: '<xref uid="adaptivecards-designer.PropertySheetEntry" />[]'
+          description: ''
+  - name: 'remove(PropertySheetEntry[])'
+    uid: adaptivecards-designer.PropertySheet.remove
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(entries: PropertySheetEntry[])'
+      parameters:
+        - id: entries
+          type: '<xref uid="adaptivecards-designer.PropertySheetEntry" />[]'
+          description: ''
+  - name: 'render(Container, PropertySheetContext)'
+    uid: adaptivecards-designer.PropertySheet.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(container: Container, context: PropertySheetContext)'
+      parameters:
+        - id: container
+          type: Container
+          description: ''
+        - id: context
+          type: <xref uid="adaptivecards-designer.PropertySheetContext" />
+          description: ''

@@ -1,0 +1,542 @@
+### YamlMime:TSPackage
+uid: adaptivecards
+name: adaptivecards
+summary: ''
+type: package
+enums:
+  - adaptivecards.ActivityRequestTrigger
+  - adaptivecards.ActionButtonState
+  - adaptivecards.ActionAlignment
+  - adaptivecards.ActionIconPlacement
+  - adaptivecards.ContainerFitStatus
+  - adaptivecards.FillMode
+  - adaptivecards.FontType
+  - adaptivecards.ImageSize
+  - adaptivecards.InputTextStyle
+  - adaptivecards.LogLevel
+  - adaptivecards.Orientation
+  - adaptivecards.RefreshMode
+  - adaptivecards.ShowCardActionMode
+  - adaptivecards.SizeUnit
+  - adaptivecards.TypeErrorType
+  - adaptivecards.ValidationEvent
+  - adaptivecards.ValidationPhase
+classes:
+  - adaptivecards.ActivityRequestError
+  - adaptivecards.ActivityResponse
+  - adaptivecards.ErrorResponse
+  - adaptivecards.LoginRequestResponse
+  - adaptivecards.SuccessResponse
+  - adaptivecards.AdaptiveApplet
+  - adaptivecards.Action
+  - adaptivecards.ActionProperty
+  - adaptivecards.ActionSet
+  - adaptivecards.AdaptiveCard
+  - adaptivecards.AuthCardButton
+  - adaptivecards.Authentication
+  - adaptivecards.BackgroundImage
+  - adaptivecards.BaseTextBlock
+  - adaptivecards.CardElement
+  - adaptivecards.CardElementContainer
+  - adaptivecards.Choice
+  - adaptivecards.ChoiceSetInput
+  - adaptivecards.Column
+  - adaptivecards.ColumnSet
+  - adaptivecards.Container
+  - adaptivecards.ContainerBase
+  - adaptivecards.ContainerStyleProperty
+  - adaptivecards.ContainerWithActions
+  - adaptivecards.DateInput
+  - adaptivecards.ExecuteAction
+  - adaptivecards.Fact
+  - adaptivecards.FactSet
+  - adaptivecards.HttpAction
+  - adaptivecards.HttpHeader
+  - adaptivecards.Image
+  - adaptivecards.ImageDimensionProperty
+  - adaptivecards.ImageSet
+  - adaptivecards.Input
+  - adaptivecards.Media
+  - adaptivecards.MediaSource
+  - adaptivecards.NumberInput
+  - adaptivecards.OpenUrlAction
+  - adaptivecards.RefreshActionProperty
+  - adaptivecards.RefreshDefinition
+  - adaptivecards.RichTextBlock
+  - adaptivecards.SerializationContext
+  - adaptivecards.ShowCardAction
+  - adaptivecards.StringWithSubstitutionProperty
+  - adaptivecards.StylableCardElementContainer
+  - adaptivecards.SubmitAction
+  - adaptivecards.SubmitActionBase
+  - adaptivecards.TextBlock
+  - adaptivecards.TextInput
+  - adaptivecards.TextRun
+  - adaptivecards.TimeInput
+  - adaptivecards.TimeProperty
+  - adaptivecards.ToggleInput
+  - adaptivecards.ToggleVisibilityAction
+  - adaptivecards.TokenExchangeResource
+  - adaptivecards.CardObject
+  - adaptivecards.ValidationResults
+  - adaptivecards.ChannelAdapter
+  - adaptivecards.Collection
+  - adaptivecards.Constants
+  - adaptivecards.MenuItem
+  - adaptivecards.PopupControl
+  - adaptivecards.PopupMenu
+  - adaptivecards.ActionMode
+  - adaptivecards.ActionStyle
+  - adaptivecards.HostCapabilities
+  - adaptivecards.ActionsConfig
+  - adaptivecards.AdaptiveCardConfig
+  - adaptivecards.BaseTextDefinition
+  - adaptivecards.ColorDefinition
+  - adaptivecards.ColorSetDefinition
+  - adaptivecards.ContainerStyleDefinition
+  - adaptivecards.ContainerStyleSet
+  - adaptivecards.FactSetConfig
+  - adaptivecards.FactTextDefinition
+  - adaptivecards.FactTitleDefinition
+  - adaptivecards.FontTypeDefinition
+  - adaptivecards.FontTypeSet
+  - adaptivecards.HostConfig
+  - adaptivecards.ImageSetConfig
+  - adaptivecards.InputConfig
+  - adaptivecards.InputLabelConfig
+  - adaptivecards.MediaConfig
+  - adaptivecards.RequiredInputLabelTextDefinition
+  - adaptivecards.ShowCardActionConfig
+  - adaptivecards.TableConfig
+  - adaptivecards.TextBlockConfig
+  - adaptivecards.TextColorDefinition
+  - adaptivecards.TextStyleDefinition
+  - adaptivecards.TextStyleSet
+  - adaptivecards.CardObjectRegistry
+  - adaptivecards.GlobalRegistry
+  - adaptivecards.BaseSerializationContext
+  - adaptivecards.BoolProperty
+  - adaptivecards.CustomProperty
+  - adaptivecards.EnumProperty
+  - adaptivecards.NumProperty
+  - adaptivecards.PixelSizeProperty
+  - adaptivecards.PropertyDefinition
+  - adaptivecards.SerializableObject
+  - adaptivecards.SerializableObjectCollectionProperty
+  - adaptivecards.SerializableObjectProperty
+  - adaptivecards.SerializableObjectSchema
+  - adaptivecards.StringArrayProperty
+  - adaptivecards.StringProperty
+  - adaptivecards.ValueSetProperty
+  - adaptivecards.Version
+  - adaptivecards.Versions
+  - adaptivecards.GlobalSettings
+  - adaptivecards.PaddingDefinition
+  - adaptivecards.SizeAndUnit
+  - adaptivecards.SpacingDefinition
+  - adaptivecards.StringWithSubstitutions
+  - adaptivecards.UUID
+  - adaptivecards.Strings
+  - adaptivecards.StylableContainer
+  - adaptivecards.Table
+  - adaptivecards.TableCell
+  - adaptivecards.TableColumnDefinition
+  - adaptivecards.TableRow
+interfaces:
+  - adaptivecards.IActivityRequest
+  - adaptivecards.IMarkdownProcessingResult
+  - adaptivecards.IFontSizeDefinitions
+  - adaptivecards.IFontWeightDefinitions
+  - adaptivecards.ILineHeightDefinitions
+  - adaptivecards.ITypeRegistration
+  - adaptivecards.IAction
+  - adaptivecards.IAdaptiveCard
+  - adaptivecards.IBackgroundImage
+  - adaptivecards.ICardElement
+  - adaptivecards.IChoice
+  - adaptivecards.IChoiceSetInput
+  - adaptivecards.IColumn
+  - adaptivecards.IColumnSet
+  - adaptivecards.IContainer
+  - adaptivecards.IDateInput
+  - adaptivecards.IFact
+  - adaptivecards.IFactSet
+  - adaptivecards.IImage
+  - adaptivecards.IImageSet
+  - adaptivecards.IInput
+  - adaptivecards.INumberInput
+  - adaptivecards.IOpenUrlAction
+  - adaptivecards.IShowCardAction
+  - adaptivecards.ISubmitAction
+  - adaptivecards.ITextBlock
+  - adaptivecards.ITextInput
+  - adaptivecards.ITimeInput
+  - adaptivecards.IToggleInput
+  - adaptivecards.IVersion
+  - adaptivecards.IValidationEvent
+  - adaptivecards.IVersionedValue
+  - adaptivecards.IResourceInformation
+  - adaptivecards.ISeparationDefinition
+typeAliases:
+  - adaptivecards.ActionType
+  - adaptivecards.CardElementHeight
+  - adaptivecards.ColumnWidth
+  - adaptivecards.TextBlockStyle
+  - adaptivecards.CardObjectType
+  - adaptivecards.HorizontalAlignment
+  - adaptivecards.ImageStyle
+  - adaptivecards.Size
+  - adaptivecards.Spacing
+  - adaptivecards.TextColor
+  - adaptivecards.TextSize
+  - adaptivecards.TextWeight
+  - adaptivecards.VerticalAlignment
+  - adaptivecards.ContainerStyle
+  - adaptivecards.PropertyBag
+  - adaptivecards.SerializableObjectType
+  - adaptivecards.TargetVersion
+  - adaptivecards.AppletsSettings
+  - adaptivecards.Dictionary
+  - adaptivecards.Refresh
+  - adaptivecards.CellType
+functions:
+  - name: 'renderSeparation(HostConfig, ISeparationDefinition, Orientation)'
+    uid: adaptivecards.renderSeparation
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function renderSeparation(hostConfig: HostConfig, separationDefinition:
+        ISeparationDefinition, orientation: Orientation): HTMLElement |
+        undefined
+      parameters:
+        - id: hostConfig
+          type: <xref uid="adaptivecards.HostConfig" />
+          description: ''
+        - id: separationDefinition
+          type: <xref uid="adaptivecards.ISeparationDefinition" />
+          description: ''
+        - id: orientation
+          type: <xref uid="adaptivecards.Orientation" />
+          description: ''
+      return:
+        description: ''
+        type: HTMLElement | undefined
+  - name: 'isVersionLessOrEqual(TargetVersion, TargetVersion)'
+    uid: adaptivecards.isVersionLessOrEqual
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function isVersionLessOrEqual(version: TargetVersion, targetVersion:
+        TargetVersion): boolean
+      parameters:
+        - id: version
+          type: <xref uid="adaptivecards.TargetVersion" />
+          description: ''
+        - id: targetVersion
+          type: <xref uid="adaptivecards.TargetVersion" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: property(PropertyDefinition)
+    uid: adaptivecards.property
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function property(property: PropertyDefinition): (target: any,
+        propertyKey: string) => void
+      parameters:
+        - id: property
+          type: <xref uid="adaptivecards.PropertyDefinition" />
+          description: ''
+      return:
+        description: ''
+        type: '(target: any, propertyKey: string) =&gt; void'
+  - name: 'formatText(string | undefined, string | undefined)'
+    uid: adaptivecards.formatText
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function formatText(lang: string | undefined, text: string | undefined):
+        string | undefined
+      parameters:
+        - id: lang
+          type: string | undefined
+          description: ''
+        - id: text
+          type: string | undefined
+          description: ''
+      return:
+        description: ''
+        type: string | undefined
+  - name: 'appendChild(Node, Node | undefined)'
+    uid: adaptivecards.appendChild
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function appendChild(node: Node, child: Node | undefined)'
+      parameters:
+        - id: node
+          type: Node
+          description: ''
+        - id: child
+          type: Node | undefined
+          description: ''
+  - name: clearElementChildren(HTMLElement)
+    uid: adaptivecards.clearElementChildren
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function clearElementChildren(element: HTMLElement)'
+      parameters:
+        - id: element
+          type: HTMLElement
+          description: ''
+  - name: generateUniqueId()
+    uid: adaptivecards.generateUniqueId
+    package: adaptivecards
+    summary: Generate a UUID prepended with "__ac-"
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function generateUniqueId(): string'
+      return:
+        description: ''
+        type: string
+  - name: 'getEnumValueByName([key: number]: string, string)'
+    uid: adaptivecards.getEnumValueByName
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getEnumValueByName(enumType: [key: number]: string, name:
+        string): number | undefined
+      parameters:
+        - id: enumType
+          type: '[key: number]\: string'
+          description: ''
+        - id: name
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: number | undefined
+  - name: 'getFitStatus(HTMLElement, number)'
+    uid: adaptivecards.getFitStatus
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getFitStatus(element: HTMLElement, containerEnd: number):
+        ContainerFitStatus
+      parameters:
+        - id: element
+          type: HTMLElement
+          description: ''
+        - id: containerEnd
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ContainerFitStatus" />
+  - name: getScrollX()
+    uid: adaptivecards.getScrollX
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getScrollX(): number'
+      return:
+        description: ''
+        type: number
+  - name: getScrollY()
+    uid: adaptivecards.getScrollY
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getScrollY(): number'
+      return:
+        description: ''
+        type: number
+  - name: isInternetExplorer()
+    uid: adaptivecards.isInternetExplorer
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isInternetExplorer(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: isMobileOS()
+    uid: adaptivecards.isMobileOS
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isMobileOS(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: 'parseBool(any, boolean)'
+    uid: adaptivecards.parseBool
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseBool(value: any, defaultValue?: boolean): boolean |
+        undefined
+      parameters:
+        - id: value
+          type: any
+          description: ''
+        - id: defaultValue
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: boolean | undefined
+  - name: 'parseEnum([key: number]: string, string, number)'
+    uid: adaptivecards.parseEnum
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseEnum(enumType: [key: number]: string, name: string,
+        defaultValue?: number): number | undefined
+      parameters:
+        - id: enumType
+          type: '[key: number]\: string'
+          description: ''
+        - id: name
+          type: string
+          description: ''
+        - id: defaultValue
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: number | undefined
+  - name: 'parseNumber(any, number)'
+    uid: adaptivecards.parseNumber
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseNumber(obj: any, defaultValue?: number): number |
+        undefined
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+        - id: defaultValue
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: number | undefined
+  - name: 'parseString(any, string)'
+    uid: adaptivecards.parseString
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function parseString(obj: any, defaultValue?: string): string |
+        undefined
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+        - id: defaultValue
+          type: string
+          description: ''
+      return:
+        description: ''
+        type: string | undefined
+  - name: stringToCssColor(string | undefined)
+    uid: adaptivecards.stringToCssColor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function stringToCssColor(color: string | undefined): string | undefined'
+      parameters:
+        - id: color
+          type: string | undefined
+          description: ''
+      return:
+        description: ''
+        type: string | undefined
+  - name: 'truncate(HTMLElement, number, number)'
+    uid: adaptivecards.truncate
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function truncate(element: HTMLElement, maxHeight: number, lineHeight?:
+        number)
+      parameters:
+        - id: element
+          type: HTMLElement
+          description: ''
+        - id: maxHeight
+          type: number
+          description: ''
+        - id: lineHeight
+          type: number
+          description: ''

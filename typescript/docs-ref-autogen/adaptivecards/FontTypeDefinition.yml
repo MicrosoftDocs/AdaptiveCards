@@ -1,0 +1,91 @@
+### YamlMime:TSType
+name: FontTypeDefinition
+uid: adaptivecards.FontTypeDefinition
+package: adaptivecards
+summary: ''
+fullName: FontTypeDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: FontTypeDefinition(string)
+    uid: adaptivecards.FontTypeDefinition.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new FontTypeDefinition(fontFamily?: string)'
+      parameters:
+        - id: fontFamily
+          type: string
+          description: ''
+properties:
+  - name: fontFamily
+    uid: adaptivecards.FontTypeDefinition.fontFamily
+    package: adaptivecards
+    summary: ''
+    fullName: fontFamily
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fontFamily?: string'
+      return:
+        description: ''
+        type: string
+  - name: fontSizes
+    uid: adaptivecards.FontTypeDefinition.fontSizes
+    package: adaptivecards
+    summary: ''
+    fullName: fontSizes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fontSizes: IFontSizeDefinitions'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IFontSizeDefinitions" />
+  - name: fontWeights
+    uid: adaptivecards.FontTypeDefinition.fontWeights
+    package: adaptivecards
+    summary: ''
+    fullName: fontWeights
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fontWeights: IFontWeightDefinitions'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.IFontWeightDefinitions" />
+  - name: monospace
+    uid: adaptivecards.FontTypeDefinition.monospace
+    package: adaptivecards
+    summary: ''
+    fullName: monospace
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static monospace: FontTypeDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.FontTypeDefinition" />
+methods:
+  - name: parse(any)
+    uid: adaptivecards.FontTypeDefinition.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''

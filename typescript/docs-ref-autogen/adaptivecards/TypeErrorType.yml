@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: TypeErrorType
+uid: adaptivecards.TypeErrorType
+package: adaptivecards
+summary: ''
+fullName: TypeErrorType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: UnknownType
+    uid: adaptivecards.TypeErrorType.UnknownType
+    package: adaptivecards
+    summary: ''
+    numericValue: 0
+  - name: ForbiddenType
+    uid: adaptivecards.TypeErrorType.ForbiddenType
+    package: adaptivecards
+    summary: ''
+    numericValue: 1

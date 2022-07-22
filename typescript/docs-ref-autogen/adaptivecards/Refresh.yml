@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: Refresh
+uid: adaptivecards.Refresh
+package: adaptivecards
+summary: ''
+fullName: Refresh
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type Refresh = {
+    allowManualRefreshesAfterAutomaticRefreshes: boolean,
+    maximumConsecutiveAutomaticRefreshes: number,
+    mode: RefreshMode,
+    timeBetweenAutomaticRefreshes: number,
+  }

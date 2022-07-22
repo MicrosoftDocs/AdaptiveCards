@@ -1,0 +1,743 @@
+### YamlMime:TSType
+name: ToggleVisibilityActionPeer
+uid: adaptivecards-designer.ToggleVisibilityActionPeer
+package: adaptivecards-designer
+summary: ''
+fullName: ToggleVisibilityActionPeer
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      ToggleVisibilityActionPeer(DesignerPeer, CardDesignerSurface,
+      DesignerPeerRegistrationBase, ToggleVisibilityAction)
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ToggleVisibilityActionPeer(parent: DesignerPeer, designerSurface:
+        CardDesignerSurface, registration: DesignerPeerRegistrationBase, action:
+        ToggleVisibilityAction)
+      parameters:
+        - id: parent
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: designerSurface
+          type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+          description: ''
+        - id: registration
+          type: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />
+          description: ''
+        - id: action
+          type: ToggleVisibilityAction
+          description: ''
+properties:
+  - name: action
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.action
+    package: adaptivecards-designer
+    summary: ''
+    fullName: action
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: ToggleVisibilityAction action
+      return:
+        description: ''
+        type: ToggleVisibilityAction
+  - name: dragging
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.dragging
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dragging
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean dragging
+      return:
+        description: ''
+        type: boolean
+  - name: isSelected
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.isSelected
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isSelected
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isSelected
+      return:
+        description: ''
+        type: boolean
+  - name: isTreeItemExpandedByDefault
+    uid: >-
+      adaptivecards-designer.ToggleVisibilityActionPeer.isTreeItemExpandedByDefault
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isTreeItemExpandedByDefault
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isTreeItemExpandedByDefault
+      return:
+        description: ''
+        type: boolean
+  - name: parent
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.parent
+    package: adaptivecards-designer
+    summary: ''
+    fullName: parent
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: DesignerPeer parent
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeer" />
+  - name: renderedElement
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+inheritedProperties:
+  - name: designerSurface
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.designerSurface
+    package: adaptivecards-designer
+    summary: ''
+    fullName: designerSurface
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'designerSurface: CardDesignerSurface'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+  - name: iconUrlProperty
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.iconUrlProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: iconUrlProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static iconUrlProperty: StringPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.StringPropertyEditor" />
+  - name: idProperty
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.idProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: idProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static idProperty: StringPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.StringPropertyEditor" />
+  - name: isEnabledProperty
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.isEnabledProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: isEnabledProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static isEnabledProperty: BooleanPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.BooleanPropertyEditor" />
+  - name: modeProperty
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.modeProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: modeProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static modeProperty: ChoicePropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ChoicePropertyEditor" />
+  - name: onChanged
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onChanged: (sender: DesignerPeer, updatePropertySheet: boolean) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer, updatePropertySheet: boolean) =&gt; void'
+  - name: onClick
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onDoubleClick
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onDoubleClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onDoubleClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onEndDrag
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onEndDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onEndDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onParentChanged
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onParentChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onParentChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onParentChanged: (sender: DesignerPeer) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer) =&gt; void'
+  - name: onPeerAdded
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onPeerAdded
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onPeerAdded
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onPeerAdded: (sender: DesignerPeer, newPeer: DesignerPeer) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer, newPeer: DesignerPeer) =&gt; void'
+  - name: onPeerRemoved
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onPeerRemoved
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onPeerRemoved
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onPeerRemoved: (sender: DesignerPeer) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer) =&gt; void'
+  - name: onPopulatePropertySheet
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onPopulatePropertySheet
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onPopulatePropertySheet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onPopulatePropertySheet?: (sender: DesignerPeer, propertySheet:
+        PropertySheet) => void
+      return:
+        description: ''
+        type: '(sender: DesignerPeer, propertySheet: PropertySheet) =&gt; void'
+  - name: onSelectedChanged
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onSelectedChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onSelectedChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onSelectedChanged: (sender: DesignerPeer) => void'
+      return:
+        description: ''
+        type: '(sender: DesignerPeer) =&gt; void'
+  - name: onStartDrag
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.onStartDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onStartDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: registration
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.registration
+    package: adaptivecards-designer
+    summary: ''
+    fullName: registration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'registration: DesignerPeerRegistrationBase'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />
+  - name: styleProperty
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.styleProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: styleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static styleProperty: ChoicePropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.ChoicePropertyEditor" />
+  - name: titleProperty
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.titleProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: titleProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static titleProperty: StringPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.StringPropertyEditor" />
+  - name: tooltipProperty
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.tooltipProperty
+    package: adaptivecards-designer
+    summary: ''
+    fullName: tooltipProperty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static tooltipProperty: StringPropertyEditor'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.StringPropertyEditor" />
+  - name: treeItem
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.treeItem
+    package: adaptivecards-designer
+    summary: ''
+    fullName: treeItem
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'treeItem: DesignerPeerTreeItem'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeerTreeItem" />
+inheritedMethods:
+  - name: 'addElementsToDesignerSurface(HTMLElement, boolean)'
+    uid: >-
+      adaptivecards-designer.ToggleVisibilityActionPeer.addElementsToDesignerSurface
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function addElementsToDesignerSurface(designerSurface: HTMLElement,
+        processChildren?: boolean)
+      parameters:
+        - id: designerSurface
+          type: HTMLElement
+          description: ''
+        - id: processChildren
+          type: boolean
+          description: ''
+  - name: buildPropertySheetCard(DesignContext)
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.buildPropertySheetCard
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function buildPropertySheetCard(context: DesignContext): AdaptiveCard'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.DesignContext" />
+          description: ''
+      return:
+        description: ''
+        type: AdaptiveCard
+  - name: canBeRemoved()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.canBeRemoved
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function canBeRemoved(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: canDrop(DesignerPeer)
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.canDrop
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function canDrop(peer: DesignerPeer): boolean'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: changed(boolean)
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.changed
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function changed(updatePropertySheet: boolean)'
+      parameters:
+        - id: updatePropertySheet
+          type: boolean
+          description: ''
+  - name: endDrag()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.endDrag
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function endDrag()
+  - name: focus()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.focus
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: getBoundingRect()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.getBoundingRect
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getBoundingRect(): Rect'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Rect" />
+  - name: getCardObject()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.getCardObject
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCardObject(): CardObject'
+      return:
+        description: ''
+        type: CardObject
+  - name: getCardObjectBoundingRect()
+    uid: >-
+      adaptivecards-designer.ToggleVisibilityActionPeer.getCardObjectBoundingRect
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCardObjectBoundingRect(): Rect'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Rect" />
+  - name: getChildAt(number)
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.getChildAt
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildAt(index: number): DesignerPeer'
+      parameters:
+        - id: index
+          type: number
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeer" />
+  - name: getChildCount()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.getChildCount
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getChildCount(): number'
+      return:
+        description: ''
+        type: number
+  - name: 'getCommands(DesignContext, boolean)'
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.getCommands
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getCommands(context: DesignContext, promoteParentCommands?:
+        boolean): Array<PeerCommand>
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.DesignContext" />
+          description: ''
+        - id: promoteParentCommands
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: Array&lt;<xref uid="adaptivecards-designer.PeerCommand" />&gt;
+  - name: getTreeItemText()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.getTreeItemText
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getTreeItemText(): string'
+      return:
+        description: ''
+        type: string
+  - name: 'insertChild(DesignerPeer, number)'
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.insertChild
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function insertChild(peer: DesignerPeer, index?: number)'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: index
+          type: number
+          description: ''
+  - name: isDraggable()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.isDraggable
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDraggable(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: 'populatePropertySheet(PropertySheet, string)'
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.populatePropertySheet
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function populatePropertySheet(propertySheet: PropertySheet,
+        defaultCategory?: string)
+      parameters:
+        - id: propertySheet
+          type: <xref uid="adaptivecards-designer.PropertySheet" />
+          description: ''
+        - id: defaultCategory
+          type: string
+          description: ''
+  - name: 'remove(boolean, boolean)'
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.remove
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function remove(onlyFromCard: boolean, removeChildren: boolean): boolean'
+      parameters:
+        - id: onlyFromCard
+          type: boolean
+          description: ''
+        - id: removeChildren
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: removeChild(DesignerPeer)
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.removeChild
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function removeChild(peer: DesignerPeer)'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+  - name: removeElementsFromDesignerSurface(boolean)
+    uid: >-
+      adaptivecards-designer.ToggleVisibilityActionPeer.removeElementsFromDesignerSurface
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function removeElementsFromDesignerSurface(processChildren?: boolean)'
+      parameters:
+        - id: processChildren
+          type: boolean
+          description: ''
+  - name: render()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: scrollIntoView()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.scrollIntoView
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function scrollIntoView()
+  - name: tryAdd(DesignerPeer)
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.tryAdd
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function tryAdd(peer: DesignerPeer): boolean'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: 'tryDrop(DesignerPeer, IPoint)'
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.tryDrop
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function tryDrop(peer: DesignerPeer, insertionPoint: IPoint): boolean'
+      parameters:
+        - id: peer
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: insertionPoint
+          type: <xref uid="adaptivecards-designer.IPoint" />
+          description: ''
+      return:
+        description: ''
+        type: boolean
+  - name: updateChildren()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.updateChildren
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateChildren()
+  - name: updateLayout()
+    uid: adaptivecards-designer.ToggleVisibilityActionPeer.updateLayout
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateLayout()
+extends: >-
+  <xref uid="adaptivecards-designer.TypedActionPeer"
+  />&lt;ToggleVisibilityAction&gt;

@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: TextWeight
+uid: adaptivecards-templating.TextWeight
+package: adaptivecards-templating
+summary: ''
+fullName: TextWeight
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type TextWeight = "lighter" | "default" | "bolder"

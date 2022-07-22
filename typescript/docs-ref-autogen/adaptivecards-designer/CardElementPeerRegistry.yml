@@ -1,0 +1,146 @@
+### YamlMime:TSType
+name: CardElementPeerRegistry
+uid: adaptivecards-designer.CardElementPeerRegistry
+package: adaptivecards-designer
+summary: ''
+fullName: CardElementPeerRegistry
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: CardElementPeerRegistry()
+    uid: adaptivecards-designer.CardElementPeerRegistry.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: new CardElementPeerRegistry()
+inheritedProperties:
+  - name: defaultRegistration
+    uid: adaptivecards-designer.CardElementPeerRegistry.defaultRegistration
+    package: adaptivecards-designer
+    summary: ''
+    fullName: defaultRegistration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultRegistration: DesignerPeerRegistrationBase'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />
+inheritedMethods:
+  - name: clear()
+    uid: adaptivecards-designer.CardElementPeerRegistry.clear
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function clear()
+  - name: findTypeRegistration(CardElementType)
+    uid: adaptivecards-designer.CardElementPeerRegistry.findTypeRegistration
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function findTypeRegistration(sourceType: CardElementType):
+        DesignerPeerRegistration<CardElementType, CardElementPeerType>
+      parameters:
+        - id: sourceType
+          type: <xref uid="adaptivecards-designer.CardElementType" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          <xref uid="adaptivecards-designer.DesignerPeerRegistration"
+          />&lt;<xref uid="adaptivecards-designer.CardElementType" />, <xref
+          uid="adaptivecards-designer.CardElementPeerType" />&gt;
+  - name: 'registerPeer(CardElementType, CardElementPeerType, string, string)'
+    uid: adaptivecards-designer.CardElementPeerRegistry.registerPeer
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function registerPeer(sourceType: CardElementType, peerType:
+        CardElementPeerType, category: string, iconClass?: string)
+      parameters:
+        - id: sourceType
+          type: <xref uid="adaptivecards-designer.CardElementType" />
+          description: ''
+        - id: peerType
+          type: <xref uid="adaptivecards-designer.CardElementPeerType" />
+          description: ''
+        - id: category
+          type: string
+          description: ''
+        - id: iconClass
+          type: string
+          description: ''
+  - name: unregisterPeer(CardElementType)
+    uid: adaptivecards-designer.CardElementPeerRegistry.unregisterPeer
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function unregisterPeer(sourceType: CardElementType)'
+      parameters:
+        - id: sourceType
+          type: <xref uid="adaptivecards-designer.CardElementType" />
+          description: ''
+methods:
+  - name: >-
+      createPeerInstance(CardDesignerSurface, DesignerPeer, CardElement,
+      boolean)
+    uid: adaptivecards-designer.CardElementPeerRegistry.createPeerInstance
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createPeerInstance(designerSurface: CardDesignerSurface,
+        parent: DesignerPeer, cardElement: CardElement, initializeCardElement?:
+        boolean): CardElementPeer
+      parameters:
+        - id: designerSurface
+          type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+          description: ''
+        - id: parent
+          type: <xref uid="adaptivecards-designer.DesignerPeer" />
+          description: ''
+        - id: cardElement
+          type: CardElement
+          description: ''
+        - id: initializeCardElement
+          type: boolean
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CardElementPeer" />
+  - name: reset()
+    uid: adaptivecards-designer.CardElementPeerRegistry.reset
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function reset()
+extends: >-
+  <xref uid="adaptivecards-designer.DesignerPeerRegistry" />&lt;<xref
+  uid="adaptivecards-designer.CardElementType" />, <xref
+  uid="adaptivecards-designer.CardElementPeerType" />&gt;

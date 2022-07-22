@@ -1,0 +1,86 @@
+### YamlMime:TSType
+name: TreeView
+uid: adaptivecards-designer.TreeView
+package: adaptivecards-designer
+summary: ''
+fullName: TreeView
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TreeView(BaseTreeItem)
+    uid: adaptivecards-designer.TreeView.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new TreeView(rootItem: BaseTreeItem)'
+      parameters:
+        - id: rootItem
+          type: <xref uid="adaptivecards-designer.BaseTreeItem" />
+          description: ''
+properties:
+  - name: onSelectedItemChanged
+    uid: adaptivecards-designer.TreeView.onSelectedItemChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onSelectedItemChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onSelectedItemChanged: (sender: TreeView) => void'
+      return:
+        description: ''
+        type: '(sender: TreeView) =&gt; void'
+  - name: rootItem
+    uid: adaptivecards-designer.TreeView.rootItem
+    package: adaptivecards-designer
+    summary: ''
+    fullName: rootItem
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'rootItem: BaseTreeItem'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.BaseTreeItem" />
+  - name: selectedItem
+    uid: adaptivecards-designer.TreeView.selectedItem
+    package: adaptivecards-designer
+    summary: ''
+    fullName: selectedItem
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: BaseTreeItem selectedItem
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.BaseTreeItem" />
+methods:
+  - name: focus()
+    uid: adaptivecards-designer.TreeView.focus
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: render()
+    uid: adaptivecards-designer.TreeView.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement

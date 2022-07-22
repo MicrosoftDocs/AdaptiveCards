@@ -1,0 +1,83 @@
+### YamlMime:TSType
+name: TextColorDefinition
+uid: adaptivecards.TextColorDefinition
+package: adaptivecards
+summary: ''
+fullName: TextColorDefinition
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'TextColorDefinition(string, string)'
+    uid: adaptivecards.TextColorDefinition.constructor
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new TextColorDefinition(defaultColor?: string, subtleColor?: string)'
+      parameters:
+        - id: defaultColor
+          type: string
+          description: ''
+        - id: subtleColor
+          type: string
+          description: ''
+properties:
+  - name: highlightColors
+    uid: adaptivecards.TextColorDefinition.highlightColors
+    package: adaptivecards
+    summary: ''
+    fullName: highlightColors
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'highlightColors: ColorDefinition'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards.ColorDefinition" />
+inheritedProperties:
+  - name: default
+    uid: adaptivecards.TextColorDefinition.default
+    package: adaptivecards
+    summary: ''
+    fullName: default
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'default: string'
+      return:
+        description: ''
+        type: string
+  - name: subtle
+    uid: adaptivecards.TextColorDefinition.subtle
+    package: adaptivecards
+    summary: ''
+    fullName: subtle
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'subtle: string'
+      return:
+        description: ''
+        type: string
+methods:
+  - name: parse(any)
+    uid: adaptivecards.TextColorDefinition.parse
+    package: adaptivecards
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parse(obj?: any)'
+      parameters:
+        - id: obj
+          type: any
+          description: ''
+extends: <xref uid="adaptivecards.ColorDefinition" />

@@ -1,0 +1,440 @@
+### YamlMime:TSType
+name: CardDesigner
+uid: adaptivecards-designer.CardDesigner
+package: adaptivecards-designer
+summary: ''
+fullName: CardDesigner
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: CardDesigner(Array<HostContainer>)
+    uid: adaptivecards-designer.CardDesigner.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new CardDesigner(hostContainers?: Array<HostContainer>)'
+      parameters:
+        - id: hostContainers
+          type: Array&lt;<xref uid="adaptivecards-designer.HostContainer" />&gt;
+          description: ''
+properties:
+  - name: assetPath
+    uid: adaptivecards-designer.CardDesigner.assetPath
+    package: adaptivecards-designer
+    summary: ''
+    fullName: assetPath
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string assetPath
+      return:
+        description: ''
+        type: string
+  - name: bindingPreviewMode
+    uid: adaptivecards-designer.CardDesigner.bindingPreviewMode
+    package: adaptivecards-designer
+    summary: ''
+    fullName: bindingPreviewMode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: BindingPreviewMode bindingPreviewMode
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.BindingPreviewMode" />
+  - name: canRedo
+    uid: adaptivecards-designer.CardDesigner.canRedo
+    package: adaptivecards-designer
+    summary: ''
+    fullName: canRedo
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean canRedo
+      return:
+        description: ''
+        type: boolean
+  - name: canUndo
+    uid: adaptivecards-designer.CardDesigner.canUndo
+    package: adaptivecards-designer
+    summary: ''
+    fullName: canUndo
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean canUndo
+      return:
+        description: ''
+        type: boolean
+  - name: customPaletteItems
+    uid: adaptivecards-designer.CardDesigner.customPaletteItems
+    package: adaptivecards-designer
+    summary: ''
+    fullName: customPaletteItems
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'CustomPaletteItem[] customPaletteItems'
+      return:
+        description: ''
+        type: '<xref uid="adaptivecards-designer.CustomPaletteItem" />[]'
+  - name: dataStructure
+    uid: adaptivecards-designer.CardDesigner.dataStructure
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dataStructure
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: FieldDefinition dataStructure
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.FieldDefinition" />
+  - name: dataToolbox
+    uid: adaptivecards-designer.CardDesigner.dataToolbox
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dataToolbox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Toolbox dataToolbox
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Toolbox" />
+  - name: designerSurface
+    uid: adaptivecards-designer.CardDesigner.designerSurface
+    package: adaptivecards-designer
+    summary: ''
+    fullName: designerSurface
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: CardDesignerSurface designerSurface
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+  - name: hostContainer
+    uid: adaptivecards-designer.CardDesigner.hostContainer
+    package: adaptivecards-designer
+    summary: ''
+    fullName: hostContainer
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HostContainer hostContainer
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.HostContainer" />
+  - name: jsonEditorToolbox
+    uid: adaptivecards-designer.CardDesigner.jsonEditorToolbox
+    package: adaptivecards-designer
+    summary: ''
+    fullName: jsonEditorToolbox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Toolbox jsonEditorToolbox
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Toolbox" />
+  - name: lockDataStructure
+    uid: adaptivecards-designer.CardDesigner.lockDataStructure
+    package: adaptivecards-designer
+    summary: ''
+    fullName: lockDataStructure
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lockDataStructure: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: onActiveHostContainerChanged
+    uid: adaptivecards-designer.CardDesigner.onActiveHostContainerChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onActiveHostContainerChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onActiveHostContainerChanged: (designer: CardDesigner) => void'
+      return:
+        description: ''
+        type: '(designer: CardDesigner) =&gt; void'
+  - name: onCardPayloadChanged
+    uid: adaptivecards-designer.CardDesigner.onCardPayloadChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onCardPayloadChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onCardPayloadChanged: (designer: CardDesigner) => void'
+      return:
+        description: ''
+        type: '(designer: CardDesigner) =&gt; void'
+  - name: onCardValidated
+    uid: adaptivecards-designer.CardDesigner.onCardValidated
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onCardValidated
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        onCardValidated: (designer: CardDesigner, validationLogEntries:
+        IValidationEvent[]) => void
+      return:
+        description: ''
+        type: >-
+          (designer: CardDesigner, validationLogEntries: IValidationEvent[])
+          =&gt; void
+  - name: onProcessMarkdown
+    uid: adaptivecards-designer.CardDesigner.onProcessMarkdown
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onProcessMarkdown
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        static onProcessMarkdown: (text: string, result:
+        IMarkdownProcessingResult) => void
+      return:
+        description: ''
+        type: '(text: string, result: IMarkdownProcessingResult) =&gt; void'
+  - name: onTargetVersionChanged
+    uid: adaptivecards-designer.CardDesigner.onTargetVersionChanged
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onTargetVersionChanged
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onTargetVersionChanged: (designer: CardDesigner) => void'
+      return:
+        description: ''
+        type: '(designer: CardDesigner) =&gt; void'
+  - name: propertySheetToolbox
+    uid: adaptivecards-designer.CardDesigner.propertySheetToolbox
+    package: adaptivecards-designer
+    summary: ''
+    fullName: propertySheetToolbox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Toolbox propertySheetToolbox
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Toolbox" />
+  - name: sampleCatalogueUrl
+    uid: adaptivecards-designer.CardDesigner.sampleCatalogueUrl
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleCatalogueUrl
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string sampleCatalogueUrl
+      return:
+        description: ''
+        type: string
+  - name: sampleData
+    uid: adaptivecards-designer.CardDesigner.sampleData
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: any sampleData
+      return:
+        description: ''
+        type: any
+  - name: targetVersion
+    uid: adaptivecards-designer.CardDesigner.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Version targetVersion
+      return:
+        description: ''
+        type: Version
+  - name: toolbar
+    uid: adaptivecards-designer.CardDesigner.toolbar
+    package: adaptivecards-designer
+    summary: ''
+    fullName: toolbar
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'toolbar: Toolbar'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Toolbar" />
+  - name: toolPaletteToolbox
+    uid: adaptivecards-designer.CardDesigner.toolPaletteToolbox
+    package: adaptivecards-designer
+    summary: ''
+    fullName: toolPaletteToolbox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Toolbox toolPaletteToolbox
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Toolbox" />
+  - name: treeViewToolbox
+    uid: adaptivecards-designer.CardDesigner.treeViewToolbox
+    package: adaptivecards-designer
+    summary: ''
+    fullName: treeViewToolbox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: Toolbox treeViewToolbox
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.Toolbox" />
+methods:
+  - name: attachTo(HTMLElement)
+    uid: adaptivecards-designer.CardDesigner.attachTo
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function attachTo(root: HTMLElement)'
+      parameters:
+        - id: root
+          type: HTMLElement
+          description: ''
+  - name: clearUndoStack()
+    uid: adaptivecards-designer.CardDesigner.clearUndoStack
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function clearUndoStack()
+  - name: getBoundCard()
+    uid: adaptivecards-designer.CardDesigner.getBoundCard
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getBoundCard(): object'
+      return:
+        description: ''
+        type: object
+  - name: getCard()
+    uid: adaptivecards-designer.CardDesigner.getCard
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getCard(): object'
+      return:
+        description: ''
+        type: object
+  - name: monacoModuleLoaded(any)
+    uid: adaptivecards-designer.CardDesigner.monacoModuleLoaded
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function monacoModuleLoaded(monaco?: any)'
+      parameters:
+        - id: monaco
+          type: any
+          description: ''
+  - name: newCard()
+    uid: adaptivecards-designer.CardDesigner.newCard
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function newCard()
+  - name: redo()
+    uid: adaptivecards-designer.CardDesigner.redo
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function redo()
+  - name: setCard(object)
+    uid: adaptivecards-designer.CardDesigner.setCard
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setCard(payload: object)'
+      parameters:
+        - id: payload
+          type: object
+          description: ''
+  - name: showHelp()
+    uid: adaptivecards-designer.CardDesigner.showHelp
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function showHelp()
+  - name: undo()
+    uid: adaptivecards-designer.CardDesigner.undo
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function undo()
+extends: <xref uid="adaptivecards-designer.DesignContext" />

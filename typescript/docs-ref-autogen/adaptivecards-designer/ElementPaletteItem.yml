@@ -1,0 +1,224 @@
+### YamlMime:TSType
+name: ElementPaletteItem
+uid: adaptivecards-designer.ElementPaletteItem
+package: adaptivecards-designer
+summary: ''
+fullName: ElementPaletteItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      ElementPaletteItem(ITypeRegistration<CardElement>,
+      DesignerPeerRegistrationBase)
+    uid: adaptivecards-designer.ElementPaletteItem.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ElementPaletteItem(typeRegistration: ITypeRegistration<CardElement>,
+        peerRegistration: DesignerPeerRegistrationBase)
+      parameters:
+        - id: typeRegistration
+          type: ITypeRegistration&lt;CardElement&gt;
+          description: ''
+        - id: peerRegistration
+          type: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />
+          description: ''
+properties:
+  - name: dragging
+    uid: adaptivecards-designer.ElementPaletteItem.dragging
+    package: adaptivecards-designer
+    summary: ''
+    fullName: dragging
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean dragging
+      return:
+        description: ''
+        type: boolean
+  - name: peerRegistration
+    uid: adaptivecards-designer.ElementPaletteItem.peerRegistration
+    package: adaptivecards-designer
+    summary: ''
+    fullName: peerRegistration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'peerRegistration: DesignerPeerRegistrationBase'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.DesignerPeerRegistrationBase" />
+  - name: renderedElement
+    uid: adaptivecards-designer.ElementPaletteItem.renderedElement
+    package: adaptivecards-designer
+    summary: ''
+    fullName: renderedElement
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: HTMLElement renderedElement
+      return:
+        description: ''
+        type: HTMLElement
+  - name: typeRegistration
+    uid: adaptivecards-designer.ElementPaletteItem.typeRegistration
+    package: adaptivecards-designer
+    summary: ''
+    fullName: typeRegistration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'typeRegistration: ITypeRegistration<CardElement>'
+      return:
+        description: ''
+        type: ITypeRegistration&lt;CardElement&gt;
+inheritedProperties:
+  - name: onClick
+    uid: adaptivecards-designer.ElementPaletteItem.onClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onDoubleClick
+    uid: adaptivecards-designer.ElementPaletteItem.onDoubleClick
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onDoubleClick
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onDoubleClick: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onEndDrag
+    uid: adaptivecards-designer.ElementPaletteItem.onEndDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onEndDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onEndDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+  - name: onStartDrag
+    uid: adaptivecards-designer.ElementPaletteItem.onStartDrag
+    package: adaptivecards-designer
+    summary: ''
+    fullName: onStartDrag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onStartDrag: (sender: DraggableElement) => void'
+      return:
+        description: ''
+        type: '(sender: DraggableElement) =&gt; void'
+inheritedMethods:
+  - name: endDrag()
+    uid: adaptivecards-designer.ElementPaletteItem.endDrag
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function endDrag()
+  - name: focus()
+    uid: adaptivecards-designer.ElementPaletteItem.focus
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+  - name: isDraggable()
+    uid: adaptivecards-designer.ElementPaletteItem.isDraggable
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDraggable(): boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: render()
+    uid: adaptivecards-designer.ElementPaletteItem.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: renderDragVisual()
+    uid: adaptivecards-designer.ElementPaletteItem.renderDragVisual
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function renderDragVisual(): HTMLElement'
+      return:
+        description: ''
+        type: HTMLElement
+  - name: updateLayout()
+    uid: adaptivecards-designer.ElementPaletteItem.updateLayout
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function updateLayout()
+methods:
+  - name: 'createPeer(DesignContext, CardDesignerSurface)'
+    uid: adaptivecards-designer.ElementPaletteItem.createPeer
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createPeer(context: DesignContext, designer:
+        CardDesignerSurface): CardElementPeer
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.DesignContext" />
+          description: ''
+        - id: designer
+          type: <xref uid="adaptivecards-designer.CardDesignerSurface" />
+          description: ''
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.CardElementPeer" />
+extends: <xref uid="adaptivecards-designer.BasePaletteItem" />

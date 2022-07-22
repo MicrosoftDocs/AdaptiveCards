@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: IStringField
+uid: adaptivecards-designer.IStringField
+package: adaptivecards-designer
+summary: ''
+fullName: IStringField
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+inheritedProperties:
+  - name: displayName
+    uid: adaptivecards-designer.IStringField.displayName
+    package: adaptivecards-designer
+    summary: ''
+    fullName: displayName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'displayName: string'
+      return:
+        description: ''
+        type: string
+  - name: name
+    uid: adaptivecards-designer.IStringField.name
+    package: adaptivecards-designer
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: sampleValue
+    uid: adaptivecards-designer.IStringField.sampleValue
+    package: adaptivecards-designer
+    summary: ''
+    fullName: sampleValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sampleValue?: string'
+      return:
+        description: ''
+        type: string
+  - name: valueType
+    uid: adaptivecards-designer.IStringField.valueType
+    package: adaptivecards-designer
+    summary: ''
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueType: "String"'
+      return:
+        description: ''
+        type: '"String"'
+extends: <xref uid="adaptivecards-designer.IDataField" />

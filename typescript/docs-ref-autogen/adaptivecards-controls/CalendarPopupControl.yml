@@ -1,0 +1,119 @@
+### YamlMime:TSType
+name: CalendarPopupControl
+uid: adaptivecards-controls.CalendarPopupControl
+package: adaptivecards-controls
+summary: ''
+fullName: CalendarPopupControl
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: CalendarPopupControl(DatePicker)
+    uid: adaptivecards-controls.CalendarPopupControl.constructor
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new CalendarPopupControl(owner: DatePicker)'
+      parameters:
+        - id: owner
+          type: <xref uid="adaptivecards-controls.DatePicker" />
+          description: ''
+properties:
+  - name: isOpen
+    uid: adaptivecards-controls.CalendarPopupControl.isOpen
+    package: adaptivecards-controls
+    summary: ''
+    fullName: isOpen
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: boolean isOpen
+      return:
+        description: ''
+        type: boolean
+inheritedProperties:
+  - name: onClose
+    uid: adaptivecards-controls.CalendarPopupControl.onClose
+    package: adaptivecards-controls
+    summary: ''
+    fullName: onClose
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onClose: (popupControl: PopupControl, wasCancelled: boolean) => void'
+      return:
+        description: ''
+        type: '(popupControl: PopupControl, wasCancelled: boolean) =&gt; void'
+inheritedMethods:
+  - name: closePopup(boolean)
+    uid: adaptivecards-controls.CalendarPopupControl.closePopup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function closePopup(wasCancelled: boolean)'
+      parameters:
+        - id: wasCancelled
+          type: boolean
+          description: ''
+  - name: keyDown(KeyboardEvent)
+    uid: adaptivecards-controls.CalendarPopupControl.keyDown
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function keyDown(e: KeyboardEvent)'
+      parameters:
+        - id: e
+          type: KeyboardEvent
+          description: ''
+  - name: popup(HTMLElement)
+    uid: adaptivecards-controls.CalendarPopupControl.popup
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function popup(rootElement: HTMLElement)'
+      parameters:
+        - id: rootElement
+          type: HTMLElement
+          description: ''
+  - name: render(ClientRect)
+    uid: adaptivecards-controls.CalendarPopupControl.render
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(rootElementBounds: ClientRect): HTMLElement'
+      parameters:
+        - id: rootElementBounds
+          type: ClientRect
+          description: ''
+      return:
+        description: ''
+        type: HTMLElement
+methods:
+  - name: focus()
+    uid: adaptivecards-controls.CalendarPopupControl.focus
+    package: adaptivecards-controls
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function focus()
+extends: <xref uid="adaptivecards-controls.PopupControl" />

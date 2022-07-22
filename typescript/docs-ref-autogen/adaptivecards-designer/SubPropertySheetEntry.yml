@@ -1,0 +1,89 @@
+### YamlMime:TSType
+name: SubPropertySheetEntry
+uid: adaptivecards-designer.SubPropertySheetEntry
+package: adaptivecards-designer
+summary: ''
+fullName: SubPropertySheetEntry
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'SubPropertySheetEntry(Adaptive.TargetVersion, object, PropertySheet)'
+    uid: adaptivecards-designer.SubPropertySheetEntry.constructor
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new SubPropertySheetEntry(targetVersion: Adaptive.TargetVersion, target:
+        object, propertySheet: PropertySheet)
+      parameters:
+        - id: targetVersion
+          type: <xref uid="Adaptive.TargetVersion" />
+          description: ''
+        - id: target
+          type: object
+          description: ''
+        - id: propertySheet
+          type: <xref uid="adaptivecards-designer.PropertySheet" />
+          description: ''
+properties:
+  - name: propertySheet
+    uid: adaptivecards-designer.SubPropertySheetEntry.propertySheet
+    package: adaptivecards-designer
+    summary: ''
+    fullName: propertySheet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'propertySheet: PropertySheet'
+      return:
+        description: ''
+        type: <xref uid="adaptivecards-designer.PropertySheet" />
+  - name: target
+    uid: adaptivecards-designer.SubPropertySheetEntry.target
+    package: adaptivecards-designer
+    summary: ''
+    fullName: target
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'target: object'
+      return:
+        description: ''
+        type: object
+  - name: targetVersion
+    uid: adaptivecards-designer.SubPropertySheetEntry.targetVersion
+    package: adaptivecards-designer
+    summary: ''
+    fullName: targetVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'targetVersion: Adaptive.TargetVersion'
+      return:
+        description: ''
+        type: <xref uid="Adaptive.TargetVersion" />
+methods:
+  - name: render(PropertySheetContext)
+    uid: adaptivecards-designer.SubPropertySheetEntry.render
+    package: adaptivecards-designer
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function render(context: PropertySheetContext): CardElement'
+      parameters:
+        - id: context
+          type: <xref uid="adaptivecards-designer.PropertySheetContext" />
+          description: ''
+      return:
+        description: ''
+        type: CardElement

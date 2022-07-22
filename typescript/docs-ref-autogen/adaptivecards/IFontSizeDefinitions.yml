@@ -1,0 +1,76 @@
+### YamlMime:TSType
+name: IFontSizeDefinitions
+uid: adaptivecards.IFontSizeDefinitions
+package: adaptivecards
+summary: ''
+fullName: IFontSizeDefinitions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: default
+    uid: adaptivecards.IFontSizeDefinitions.default
+    package: adaptivecards
+    summary: ''
+    fullName: default
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'default: number'
+      return:
+        description: ''
+        type: number
+  - name: extraLarge
+    uid: adaptivecards.IFontSizeDefinitions.extraLarge
+    package: adaptivecards
+    summary: ''
+    fullName: extraLarge
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'extraLarge: number'
+      return:
+        description: ''
+        type: number
+  - name: large
+    uid: adaptivecards.IFontSizeDefinitions.large
+    package: adaptivecards
+    summary: ''
+    fullName: large
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'large: number'
+      return:
+        description: ''
+        type: number
+  - name: medium
+    uid: adaptivecards.IFontSizeDefinitions.medium
+    package: adaptivecards
+    summary: ''
+    fullName: medium
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'medium: number'
+      return:
+        description: ''
+        type: number
+  - name: small
+    uid: adaptivecards.IFontSizeDefinitions.small
+    package: adaptivecards
+    summary: ''
+    fullName: small
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'small: number'
+      return:
+        description: ''
+        type: number
