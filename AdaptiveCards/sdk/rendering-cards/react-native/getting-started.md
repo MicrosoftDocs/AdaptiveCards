@@ -13,7 +13,7 @@ A [community-supported](https://github.com/microsoft/AdaptiveCards/blob/main/SUP
 
 > [!IMPORTANT]
 >
-> **Community Support Only**. This renderer is in active development but is maintained outside of Microsoft. **As such, we cannot guarantee any SLA for this SDK**. Please see our [Support policy](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.MD) for more details. 
+> **Community Support Only**. This renderer is in active development but is maintained outside of Microsoft. **As such, we cannot guarantee any SLA for this SDK**. Please see our [Support policy](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.md) for more details. 
 >
 
 ## Getting started
