@@ -3,7 +3,7 @@ title: ReactNative SDK
 description: Adaptive Card rendering SDK for ReactNative
 author: matthidinger
 ms.author: mahiding
-ms.date: 02/16/2022
+ms.date: 08/03/2022
 ms.topic: article
 ---
 
