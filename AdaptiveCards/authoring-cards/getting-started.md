@@ -86,5 +86,5 @@ Actions add buttons to the card. These can perform a variety of actions, like op
 
 * [Browse Sample cards](https://adaptivecards.io/samples/) for inspiration
 * Use the [Schema Explorer](https://adaptivecards.io/explorer) to browse the available elements
-* Build a card using the [Interactive Visualizer]([https://vnext.adaptivecards.io/visualizer/](https://vnext.adaptivecards.io/visualizer/))
-* [Get in touch]([[https://adaptivecards.io/connect](https://github.com/Microsoft/AdaptiveCards/issues/new)](https://github.com/Microsoft/AdaptiveCards/issues/new?title=%5BWebsite%5D%20%5BYour%20feedback%20title%20here%5D&body=%0D%0A%0D%0A%5BYour%20detailed%20feedback%20here%5D%0D%0A%0D%0A---%0D%0A*%20URL%3A%20https%3A%2F%2Fadaptivecards.io%2Fsamples%2F)) with any feedback you have
+* Build a card using the [Interactive Visualizer](https://vnext.adaptivecards.io/visualizer/)
+* [Get in touch](https://github.com/Microsoft/AdaptiveCards/issues/new?title=%5BWebsite%5D%20%5BYour%20feedback%20title%20here%5D&body=%0D%0A%0D%0A%5BYour%20detailed%20feedback%20here%5D%0D%0A%0D%0A---%0D%0A*%20URL%3A%20https%3A%2F%2Fadaptivecards.io%2Fsamples%2F) with any feedback you have
