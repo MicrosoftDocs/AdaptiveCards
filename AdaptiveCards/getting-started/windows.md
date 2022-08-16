@@ -47,5 +47,5 @@ We've barely scratched the surface in this tutorial, so check back soon and brow
 
 * [Browse Sample cards](https://adaptivecards.io/samples/) for inspiration
 * Use the [Schema Explorer](https://adaptivecards.io/explorer) to learn the available elements
-* Build a card using the [Interactive Visualizer](https://adaptivecards.io/visualizer/index.html?hostApp=Skype)
-* [Get in touch](https://adaptivecards.io/connect) with any feedback you have
+* Build a card using the [Interactive Visualizer](https://vnext.adaptivecards.io/visualizer/)
+* [Get in touch](https://github.com/Microsoft/AdaptiveCards/issues/new) with any feedback you have
