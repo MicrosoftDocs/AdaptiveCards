@@ -9,11 +9,11 @@ ms.topic: article
 
 # ReactNative Renderer
 
-A [community-supported](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.md) ReactNative renderer for Adaptive Cards, maintained by [BigThinkCode](https://www.bigthinkcode.com).
+A [community-supported](/lifecycle/end-of-support/end-of-support-2020) ReactNative renderer for Adaptive Cards, maintained by [BigThinkCode](https://www.bigthinkcode.com).
 
 > [!IMPORTANT]
 >
-> **Community Support Only**. This renderer is in active development but is maintained outside of Microsoft. **As such, we cannot guarantee any SLA for this SDK**. Please see our [Support policy](https://github.com/microsoft/AdaptiveCards/blob/main/SUPPORT.md) for more details. 
+> **Community Support Only**. This renderer is in active development but is maintained outside of Microsoft. **As such, we cannot guarantee any SLA for this SDK**. Please see our [Support policy](/lifecycle/end-of-support/end-of-support-2020) for more details. 
 >
 
 ## Getting started
