@@ -30,9 +30,9 @@ await userActivity.SaveAsync();
 
 ### Learning Module
 
-There is a great 45-min learn module that covers these steps end-to-end.
+There is a great 45-minute Learn module that covers these steps end-to-end.
 
-[Integrate adaptive cards into Windows 10 Timeline](/learn/modules/integrate-app-into-windows-10-timeline/)
+[Integrate adaptive cards into Windows 10 Timeline](/training/modules/integrate-app-into-windows-10-timeline/)
 
 ### Learn more
 
