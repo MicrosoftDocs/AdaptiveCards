@@ -1,6 +1,7 @@
 ---
 title: Actions - WinUI 3 SDK
-author: jproca
+description: This article walks you through how to implement Actions in Adaptive Cards using the WinUI 3 SDK.
+author: JeanRoca
 ms.author: jproca
 ms.date: 05/04/2023
 ms.topic: article

@@ -1,6 +1,7 @@
 ---
 title: Render a card - WinUI 3 SDK
-author: jproca
+description: This article walks you through the process of rendering an Adaptive Card using the WinUI 3 SDK.
+author: JeanRoca
 ms.author: jproca
 ms.date: 05/04/2023
 ms.topic: article

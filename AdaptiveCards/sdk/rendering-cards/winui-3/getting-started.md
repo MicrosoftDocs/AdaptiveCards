@@ -1,6 +1,7 @@
 ---
 title: WinUI 3 SDK
-author: jproca
+description: This article walks you through the process of installing the WinUI 3 SDK for Adaptive Cards.
+author: JeanRoca
 ms.author: jproca
 ms.date: 05/04/2023
 ms.topic: article

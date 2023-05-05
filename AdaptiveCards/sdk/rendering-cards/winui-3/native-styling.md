@@ -1,6 +1,7 @@
 ---
 title: Native styling - WinUI 3 SDK
-author: jproca
+description: This article walks you through the process of implementing native styling using the WinUI 3 SDK.
+author: JeanRoca
 ms.author: jproca
 ms.date: 05/04/2023
 ms.topic: article
