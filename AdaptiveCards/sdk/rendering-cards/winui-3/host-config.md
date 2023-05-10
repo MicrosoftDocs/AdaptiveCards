@@ -39,4 +39,4 @@ var hostConfig = AdaptiveHostConfig.FromJsonString(jsonString);
 renderer.HostConfig = hostConfig;
 ```
 
-When you pass it in to the WinUI3Renderer you are setting the default HostConfig to use for every card you render.
+When you pass it in to the WinUI3 Renderer you are setting the default HostConfig to use for every card you render.
