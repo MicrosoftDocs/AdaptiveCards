@@ -17,7 +17,7 @@ If you are interested in joining the Adaptive Cards ecosystem, please [reach out
 
 Platform | Description | Documentation | Schema Version
 ---------|-------------|---------------|---------
-[Bot Framework Web Chat](https://github.com/Microsoft/BotFramework-WebChat)  | Embeddable web chat control for the Microsoft Bot Framework | [Get Started](../getting-started/bots.md) | 1.5 (Web Chat 4.15.6)
+[Bot Framework Web Chat](https://github.com/Microsoft/BotFramework-WebChat)  | Embeddable web chat control for the Microsoft Bot Framework | [Get Started](../getting-started/bots.md) | 1.5 (Web Chat 4.15.7)
 [Outlook Actionable Messages](/outlook/actionable-messages/)  | Attach an actionable message to email | [Get Started](/outlook/actionable-messages/) | 1.0
 [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software) | Platform that combines workplace chat, meetings, and notes | [Get Started](/microsoftteams/platform/concepts/cards/cards-reference#adaptive-card) | 1.4
 [Cortana Skills](/cortana/skills/adaptive-cards) | A virtual assistant for Windows 10 | [Get Started](../getting-started/bots.md) | 1.0
