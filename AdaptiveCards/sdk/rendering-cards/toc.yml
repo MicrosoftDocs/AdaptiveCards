@@ -98,6 +98,20 @@
     href: uwp/native-styling.md
   - name: Extensibility
     href: uwp/extensibility.md
+- name: WinUI 3
+  items:
+  - name: Getting Started
+    href: winui-3/getting-started.md
+  - name: Render a Card
+    href: winui-3/render-a-card.md
+  - name: Actions
+    href: winui-3/actions.md
+  - name: Host Config
+    href: winui-3/host-config.md
+  - name: Native Styling
+    href: winui-3/native-styling.md
+  - name: Extensibility
+    href: winui-3/extensibility.md
 - name: ReactNative
   items:
   - name: Getting Started
