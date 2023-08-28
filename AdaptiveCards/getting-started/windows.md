@@ -30,15 +30,13 @@ await userActivity.SaveAsync();
 
 ### Learning Module
 
-There is a great 45-min learn module that covers these steps end-to-end.
+There is a great 45-minute Learn module that covers these steps end-to-end.
 
-[Integrate adaptive cards into Windows 10 Timeline](/learn/modules/integrate-app-into-windows-10-timeline/)
+[Integrate adaptive cards into Windows 10 Timeline](/training/modules/integrate-app-into-windows-10-timeline/)
 
 ### Learn more
 
 This session at Build 2017 covers User Activities in detail.
-
-<iframe src="https://channel9.msdn.com/Events/Build/2017/B8108/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
 
 ## Other Windows Surfaces
 We don't have anything to share just yet, but we're working on incorporating Adaptive Cards into more Windows experiences.
@@ -49,5 +47,5 @@ We've barely scratched the surface in this tutorial, so check back soon and brow
 
 * [Browse Sample cards](https://adaptivecards.io/samples/) for inspiration
 * Use the [Schema Explorer](https://adaptivecards.io/explorer) to learn the available elements
-* Build a card using the [Interactive Visualizer](https://adaptivecards.io/visualizer/index.html?hostApp=Skype)
-* [Get in touch](https://adaptivecards.io/connect) with any feedback you have
+* Build a card using the [Interactive Visualizer](https://vnext.adaptivecards.io/visualizer/)
+* [Get in touch](https://github.com/Microsoft/AdaptiveCards/issues/new) with any feedback you have
