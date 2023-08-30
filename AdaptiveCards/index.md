@@ -10,9 +10,7 @@ ms.topic: article
 
 Adaptive Cards are an open card exchange format enabling developers to exchange UI content in a common and consistent way.
 
-<video controls width="100%" poster="./content/videoposter.png">
-    <source src="https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4" type="video/mp4">
-</video>
+> [!VIDEO [https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4]
 
 ## How they work
 
@@ -77,4 +75,4 @@ It is easier to add later than it is to live with a mistake. If we found ourselv
 
 The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wT1yFr_j6IM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> [!VIDEO [https://www.youtube.com/embed/wT1yFr_j6IM]
