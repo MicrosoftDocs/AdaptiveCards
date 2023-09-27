@@ -20,7 +20,7 @@ The basic structure of a card is as follows:
 
 ### Example Card
 
-This sample card which includes a single line of text followed by an image.
+This sample card includes a single line of text followed by an image.
 
 ```json
 {
