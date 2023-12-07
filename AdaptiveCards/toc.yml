@@ -6,6 +6,9 @@
       href: getting-started/bots.md
     - name: Windows Developers
       href: getting-started/windows.md
+    - name: sibling1test
+      href: ./getting-started/sibling1.md
+      displayName: sibling
     - name: Outlook Developers
       href: getting-started/outlook.md
 - name: Authoring Cards
