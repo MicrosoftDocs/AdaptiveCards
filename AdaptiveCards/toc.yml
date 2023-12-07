@@ -9,6 +9,9 @@
     - name: sibling1test
       href: ./getting-started/sibling1.md
       displayName: sibling
+    - name: sibling2
+      href: ./getting-started/sibling2test.md
+      displayName: sibling2
     - name: Outlook Developers
       href: getting-started/outlook.md
 - name: Authoring Cards
