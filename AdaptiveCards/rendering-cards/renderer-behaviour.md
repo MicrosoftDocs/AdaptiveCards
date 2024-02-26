@@ -2,6 +2,7 @@
 title: Renderer Behaviour Guideline
 author: manujai
 ms.author: almedina
+ms.topic: article
 ---
 
 
