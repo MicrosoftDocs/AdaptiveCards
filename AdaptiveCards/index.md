@@ -20,7 +20,7 @@ For example, Contoso Bot can author an Adaptive Card through the Bot Framework, 
 
 Users win because everything feels familiar. Host apps win because they control the user experience. And Card Authors win because their content gets broader reach without any additional work.
 
-## Goals 
+## Goals
 
 The goals for Adaptive Cards are:
 
@@ -32,6 +32,7 @@ The goals for Adaptive Cards are:
 * **Automatically styled** - To the Host application UX and brand guidelines
 
 ## For Card Authors
+
 Adaptive Cards are great for card authors:
 
 * **One schema** - You get a single format, minimizing the cost of creating a card and maximizing the number of places it can be used.
@@ -41,6 +42,7 @@ Adaptive Cards are great for card authors:
 * **Better tooling** - An open card ecosystem means better tooling that is shared by everyone.
 
 ## For Experience Owners
+
 If you are an app developer who wants to tap into an ecosystem of third-party content you will love Adaptive Cards because:
 
 * **Consistent user experience** - You guarantee a consistent experience for your users, because you own the style of the rendered card.
@@ -50,29 +52,32 @@ If you are an app developer who wants to tap into an ecosystem of third-party co
 * **Free documentation** - You save time because you don't have to invent, implement, and document a proprietary schema.
 * **Shared tooling** - You save time because you don't have to create custom tooling.
 
-## Core Design Principles 
+## Core Design Principles
 
 Adaptive Cards are driven by a set of [guiding principles](resources/principles.md) that have been useful for keeping the design on track. 
 
 ### Semantic instead of pixel-perfect
+
 We have striven as much as possible for semantic values and concepts as opposed to pure pixel-perfect layout. 
 Examples of semantic expression show up in colors, sizes, and in elements like FactSet and ImageSet. These all allow the host application to make better decisions about the actual look and feel.
 
 ### Card Authors own the content, Host App owns the look and feel
+
 The card authors own what they want to say, but the application displaying it owns the look and feel of the card in the context of their application.
 
 ### Keep it simple, but expressive
+
 We want Adaptive Cards to be expressive and general purpose, but we don't want to build a UI framework.  The goal is to create an intermediate layer which is "expressive enough" in the same way Markdown is expressive enough for documents.
 
 By focusing on keeping it simple and expressive, Markdown created an easy and consistent description of document content.  In the
 same way, we believe that Adaptive Cards can create a simple, expressive means of describing card content.
 
 ### When in doubt, keep it out
-It is easier to add later than it is to live with a mistake. If we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
 
+It is easier to add later than it is to live with a mistake. If we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
 
 ## Build 2019 Session
 
-The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases. 
+The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases.
 
-> [!VIDEO [https://www.youtube.com/embed/wT1yFr_j6IM]
+> [!VIDEO https://www.youtube.com/embed/wT1yFr_j6IM]
