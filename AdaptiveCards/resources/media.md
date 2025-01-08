@@ -11,11 +11,11 @@ ms.topic: article
 
 ## Introduction Video
 
-> [!VIDEO https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4]
+> [!VIDEO https://cdn.adaptivecards.io/assets/AdaptiveCardsOverviewVideo.mp4]
 
 Video 2:
 
-> [!VIDEO https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4]
+> [!VIDEO https://cdn.adaptivecards.io/assets/AdaptiveCardsOverviewVideo.mp4]
 
 ## Build 2018
 
@@ -28,4 +28,3 @@ Video 2:
 ## Ignite 2017
 
 > [!VIDEO https://www.youtube.com/embed/v3pOg0EO2t4]
-
