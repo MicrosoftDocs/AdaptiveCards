@@ -108,57 +108,57 @@
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/actions.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/adaptivecards-renderin-xamarin-android-renderer-actionhandler-icardactionhandler.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/adaptivecards-rendering-xamarin-android-objectmodel-adaptivecard.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/adaptivecards-rendering-xamarin-android-objectmodel-featureregistration.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/adaptivecards-rendering-xamarin-android-renderer-adaptivecardrenderer.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/adaptivecards-rendering-xamarin-android-renderer-cardrendererregistration.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/adaptivecards-rendering-xamarin-android-renderer-renderedadaptivecard.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/getting-started.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/host-config.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/native-styling.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       },
       {
          "source_path": "AdaptiveCards/sdk/rendering-cards/xamarin/android/render-a-card.md",
          "redirect_url": "/adaptive-cards",
-         "redirect_document_id": true
+         "redirect_document_id": false
       }
     ]
   }
