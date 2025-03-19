@@ -1,5 +1,5 @@
 - name: Android
-  items: 
+  items:
   - name: Getting Started
     href: android/getting-started.md
   - name: Render a Card
@@ -118,15 +118,3 @@
     href: react-native/getting-started.md
   - name: Customization and themeing
     href: react-native/theme-config.md
-- name: Xamarin.Android
-  items:
-  - name: Getting Started
-    href: xamarin/android/getting-started.md
-  - name: Render a Card
-    href: xamarin/android/render-a-card.md
-  - name: Actions
-    href: xamarin/android/actions.md
-  - name: Host Config
-    href: xamarin/android/host-config.md
-  - name: Native Styling
-    href: xamarin/android/native-styling.md
