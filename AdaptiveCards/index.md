@@ -76,4 +76,4 @@ It is easier to add later than it is to live with a mistake. If we found ourselv
 
 The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases.
 
-> [!VIDEO [https://www.youtube.com/embed/wT1yFr_j6IM]
+> [!VIDEO https://www.youtube.com/embed/wT1yFr_j6IM]
