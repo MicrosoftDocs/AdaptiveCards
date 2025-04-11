@@ -42,7 +42,7 @@ The card template service is a simple REST endpoint that helps:
 
 Behind it all, is:
 
-* A shared, open-source template repository backed by GitHub. *(The repo is currently private but will be made public as soon as we tie up some loose ends)*
+* A shared, open-source template repository backed by GitHub - https://github.com/microsoft/adaptivecards-templates
 * All the templates are flat JSON files in the repo, which makes editing, contributing, and sharing a natural part of a developer workflow.
 * The code for the service will be made available so you can host wherever makes the most sense to you. 
 
