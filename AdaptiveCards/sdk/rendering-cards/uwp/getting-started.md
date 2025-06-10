@@ -3,7 +3,7 @@ title: UWP SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 06/26/2017
-ms.topic: article
+ms.topic: get-started
 ---
 
 # Getting started - UWP

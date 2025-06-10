@@ -3,7 +3,7 @@ title: Render a card - JavaScript SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 08/30/2020
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Render a card - JavaScript
