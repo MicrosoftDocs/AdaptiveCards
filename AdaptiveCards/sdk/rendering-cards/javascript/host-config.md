@@ -3,7 +3,7 @@ title: Host config - JavaScript SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 11/28/2017
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Host config - JavaScript

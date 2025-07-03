@@ -3,7 +3,7 @@ title:  Templating SDKs
 author: matthidinger
 ms.author: mahiding
 ms.date: 05/15/2020
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Adaptive Card Templating SDKs

@@ -1,16 +1,17 @@
 ---
 title:  Adaptive Cards Overview
 author: matthidinger
+description: Provides an overview of the Adaptive Cards rendering platform
 ms.author: mahiding
 ms.date: 06/26/2017
-ms.topic: article
+ms.topic: concept-article
 ---
 
-# Adaptive Cards Overview 
+# Adaptive Cards Overview
 
 Adaptive Cards are an open card exchange format enabling developers to exchange UI content in a common and consistent way.
 
-> [!VIDEO https://adaptivecardsblob.blob.core.windows.net/assets/AdaptiveCardsOverviewVideo.mp4]
+> [!VIDEO https://cdn.adaptivecards.io/assets/AdaptiveCardsOverviewVideo.mp4]
 
 ## How they work
 
@@ -20,7 +21,7 @@ For example, Contoso Bot can author an Adaptive Card through the Bot Framework, 
 
 Users win because everything feels familiar. Host apps win because they control the user experience. And Card Authors win because their content gets broader reach without any additional work.
 
-## Goals 
+## Goals
 
 The goals for Adaptive Cards are:
 
@@ -46,16 +47,16 @@ If you are an app developer who wants to tap into an ecosystem of third-party co
 * **Consistent user experience** - You guarantee a consistent experience for your users, because you own the style of the rendered card.
 * **Native performance** - You get native performance as it targets your UI framework directly.
 * **Safe** - Content is delivered in safe payloads so you don't have to open up your UI framework to raw markup and scripting.
-* **Easy to implement** - You get off the shelf libraries to easily integrate on any platform you support 
+* **Easy to implement** - You get off the shelf libraries to easily integrate on any platform you support
 * **Free documentation** - You save time because you don't have to invent, implement, and document a proprietary schema.
 * **Shared tooling** - You save time because you don't have to create custom tooling.
 
-## Core Design Principles 
+## Core Design Principles
 
-Adaptive Cards are driven by a set of [guiding principles](resources/principles.md) that have been useful for keeping the design on track. 
+Adaptive Cards are driven by a set of [guiding principles](resources/principles.md) that have been useful for keeping the design on track.
 
 ### Semantic instead of pixel-perfect
-We have striven as much as possible for semantic values and concepts as opposed to pure pixel-perfect layout. 
+We have striven as much as possible for semantic values and concepts as opposed to pure pixel-perfect layout.
 Examples of semantic expression show up in colors, sizes, and in elements like FactSet and ImageSet. These all allow the host application to make better decisions about the actual look and feel.
 
 ### Card Authors own the content, Host App owns the look and feel
@@ -73,6 +74,6 @@ It is easier to add later than it is to live with a mistake. If we found ourselv
 
 ## Build 2019 Session
 
-The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases. 
+The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases.
 
 > [!VIDEO [https://www.youtube.com/embed/wT1yFr_j6IM]

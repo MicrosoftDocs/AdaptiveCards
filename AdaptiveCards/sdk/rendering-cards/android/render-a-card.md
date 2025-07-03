@@ -3,7 +3,7 @@ title: Render a card - Android SDK
 author: almedina-ms
 ms.author: almedina
 ms.date: 09/27/2017
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Render a card - Android
