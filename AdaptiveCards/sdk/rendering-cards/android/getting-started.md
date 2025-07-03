@@ -3,7 +3,7 @@ title: Android SDK
 author: almedina-ms
 ms.author: almedina
 ms.date: 09/27/2017
-ms.topic: article
+ms.topic: get-started
 ---
 
 # Getting started - Android

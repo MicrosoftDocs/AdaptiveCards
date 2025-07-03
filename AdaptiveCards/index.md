@@ -4,7 +4,7 @@ author: matthidinger
 description: Provides an overview of the Adaptive Cards rendering platform
 ms.author: mahiding
 ms.date: 06/26/2017
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Adaptive Cards Overview

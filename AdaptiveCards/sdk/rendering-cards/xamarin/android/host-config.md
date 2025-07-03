@@ -3,7 +3,7 @@ title: Host config - Xamarin.Android SDK
 author: almedina-ms
 ms.author: almedina
 ms.date: 12/02/2019
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Host config - Android

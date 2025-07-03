@@ -3,7 +3,7 @@ title: Getting Started
 author: matthidinger
 ms.author: mahiding
 ms.date: 11/9/2017
-ms.topic: article
+ms.topic: get-started
 ---
 
 # Getting Started 

@@ -4,7 +4,7 @@ description: Specification on how to implement a renderer SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 03/09/2021
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Adaptive Card Renderer Specification

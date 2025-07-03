@@ -4,7 +4,7 @@ description: This article walks you through the process of customizing the Host 
 author: JeanRoca
 ms.author: jproca
 ms.date: 05/04/2023
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Host config - WinUI 3
