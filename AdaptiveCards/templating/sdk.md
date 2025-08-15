@@ -71,6 +71,7 @@ var template = new ACData.Template(templatePayload);
  
 // Expand the template with your `$root` data object.
 // This binds it to the data and produces the final Adaptive Card payload
+// If you chose to include`$host` data, the `$host` object is the second argument for the `expand` method
 var cardPayload = template.expand({
    $root: {
       name: "Matt Hidinger"
