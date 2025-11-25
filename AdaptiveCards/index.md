@@ -73,9 +73,3 @@ same way, we believe that Adaptive Cards can create a simple, expressive means o
 ### When in doubt, keep it out
 It is easier to add later than it is to live with a mistake. If we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
 
-
-## Build 2019 Session
-
-The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases.
-
-> [!VIDEO https://youtu.be/wT1yFr_j6IM?si=JxnYWbocWrz1yU3q]
