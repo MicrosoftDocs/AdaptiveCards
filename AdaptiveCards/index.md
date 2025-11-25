@@ -9,6 +9,8 @@ ms.topic: concept-article
 
 # Adaptive Cards Overview
 
+Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks.
+
 Adaptive Cards are an open card exchange format enabling developers to exchange UI content in a common and consistent way.
 
 > [!VIDEO https://cdn.adaptivecards.io/assets/AdaptiveCardsOverviewVideo.mp4]
@@ -76,4 +78,4 @@ It is easier to add later than it is to live with a mistake. If we found ourselv
 
 The following session at the Microsoft Build conference showcases Adaptive Cards in a variety of use cases.
 
-> [!VIDEO [https://www.youtube.com/embed/wT1yFr_j6IM]
+> [!VIDEO https://youtu.be/wT1yFr_j6IM?si=JxnYWbocWrz1yU3q]
