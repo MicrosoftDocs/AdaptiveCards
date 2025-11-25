@@ -17,8 +17,7 @@ Adaptive Cards are an open card exchange format enabling developers to exchange 
 
 > [!VIDEO https://cdn.adaptivecards.io/assets/AdaptiveCardsOverviewVideo.mp4]
 
-**A whole new way to deliver UI**
-Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks.
+**A whole new way to deliver UI**: Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks.
 
 > [!VIDEO https://cdn.adaptivecards.io/assets/AdaptiveIntroVideo.mp4]
 
