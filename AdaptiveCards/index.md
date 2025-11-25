@@ -7,13 +7,20 @@ ms.date: 06/26/2017
 ms.topic: concept-article
 ---
 
-# Adaptive Cards Overview
+> [!NOTE]
+> **Are you building Copilot, Teams or Outlook scenarios powered by Adaptive Cards?**
+> Visit [**Adaptive Card Documentation Hub**](https://adaptivecards.microsoft.com/), the new one-stop-shop for all your Adaptive Card needs! It has all the resources you're looking for, including complete documentation for many new features, such as [Responsive layout](https://adaptivecards.microsoft.com/?topic=responsive-layout), [Icon](https://adaptivecards.microsoft.com/?topic=Icon), [Badge](https://adaptivecards.microsoft.com/?topic=Badge), [Carousel](https://adaptivecards.microsoft.com/?topic=Carousel), [Charts](https://adaptivecards.microsoft.com/?topic=Chart.Line), and much more!
 
-Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks.
+# Adaptive Cards Overview
 
 Adaptive Cards are an open card exchange format enabling developers to exchange UI content in a common and consistent way.
 
 > [!VIDEO https://cdn.adaptivecards.io/assets/AdaptiveCardsOverviewVideo.mp4]
+
+**A whole new way to deliver UI**
+Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks.
+
+> [!VIDEO https://cdn.adaptivecards.io/assets/AdaptiveIntroVideo.mp4]
 
 ## How they work
 
