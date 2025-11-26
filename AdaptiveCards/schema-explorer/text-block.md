@@ -1,3 +1,12 @@
+---
+title:  TextBlock Element
+author: luywang
+description: This page provides documentation for the `TextBlock` element in the Adaptive Cards schema.
+ms.author: luywang
+ms.date: 11/26/2025
+ms.topic: concept-article
+---
+
 # TextBlock Element
 
 > [!NOTE]
@@ -7,7 +16,7 @@
 This page provides documentation for the `TextBlock` element in the Adaptive Cards schema.
 
 > **Important note about accessibility:**
-> In version 1.3 of the schema we introduced a **[label](https://docs.microsoft.com/en-us/adaptive-cards/authoring-cards/input-validation#labels)** property on Inputs to improve accessibility. If the **[Host app you are targeting](https://docs.microsoft.com/en-us/adaptive-cards/resources/partners)** supports v1.3 you should use **label** instead of a **TextBlock** as seen in some samples below. Once most Host apps have updated to the latest version we will update the samples accordingly.
+> In version 1.3 of the schema we introduced a **[label](../authoring-cards/input-validation.md#labels)** property on Inputs to improve accessibility. If the **[Host app you are targeting](../resources/partners.md)** supports v1.3 you should use **label** instead of a **TextBlock** as seen in some samples below. Once most Host apps have updated to the latest version we will update the samples accordingly.
 
 ## TextBlock
 
