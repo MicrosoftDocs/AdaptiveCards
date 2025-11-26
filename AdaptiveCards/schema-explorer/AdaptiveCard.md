@@ -1,5 +1,7 @@
 # AdaptiveCard Element
 
+This page documents the `AdaptiveCard` element, which is the root element of an Adaptive Card.
+
 > **Important note about accessibility:**
 > In version 1.3 of the schema we introduced a [**label**](https://docs.microsoft.com/en-us/adaptive-cards/authoring-cards/input-validation#labels) property on Inputs to improve accessibility. If the [Host app you are targeting](https://docs.microsoft.com/en-us/adaptive-cards/resources/partners) supports v1.3 you should use **label** instead of a **TextBlock** as seen in some samples below. Once most Host apps have updated to the latest version we will update the samples accordingly.
 
