@@ -1,5 +1,9 @@
 # TextBlock Element
 
+> [!NOTE]
+> **Are you building Copilot, Teams or Outlook scenarios powered by Adaptive Cards?**
+> Visit [**Adaptive Card Documentation Hub**](https://adaptivecards.microsoft.com/), the new one-stop-shop for all your Adaptive Card needs! It has all the resources you're looking for, including complete documentation for many new features, such as [Responsive layout](https://adaptivecards.microsoft.com/?topic=responsive-layout), [Icon](https://adaptivecards.microsoft.com/?topic=Icon), [Badge](https://adaptivecards.microsoft.com/?topic=Badge), [Carousel](https://adaptivecards.microsoft.com/?topic=Carousel), [Charts](https://adaptivecards.microsoft.com/?topic=Chart.Line), and much more!
+
 This page provides documentation for the `TextBlock` element in the Adaptive Cards schema.
 
 > **Important note about accessibility:**
