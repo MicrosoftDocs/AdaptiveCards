@@ -1,6 +1,6 @@
 - name: AdaptiveCard
-  href: AdaptiveCard.md
+  href: adaptive-card.md
 - name: Card Elements
   items:
   - name: TextBlock
-    href: TextBlock.md
+    href: text-block.md
