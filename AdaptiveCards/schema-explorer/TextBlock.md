@@ -1,4 +1,4 @@
-# Adaptive Cards Schema Explorer (TextBlock Element)
+# TextBlock Element
 
 This page provides documentation for the `TextBlock` element in the Adaptive Cards schema.
 
