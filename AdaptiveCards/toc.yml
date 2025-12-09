@@ -8,6 +8,8 @@
       href: getting-started/windows.md
     - name: Outlook Developers
       href: getting-started/outlook.md
+- name: Schema Explorer
+  href: schema-explorer/toc.yml
 - name: Authoring Cards
   items:
   - name: Getting Started
@@ -20,7 +22,6 @@
     href: authoring-cards/input-validation.md
   - name: Universal Bot Action Model
     href: authoring-cards/universal-action-model.md
-
 - name: Rendering Cards
   items:
   - name: Getting Started
