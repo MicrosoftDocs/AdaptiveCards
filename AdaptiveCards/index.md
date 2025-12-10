@@ -37,8 +37,8 @@ Modern digital life is hectic. Users are constantly switching between devices, a
 
 **Integrate into existing apps:**
 
-* [**Teams SDK**](msteams-platform/task-modules-and-cards/cards/cards-reference.md#adaptive-card): As the digital hub for many modern workers, Teams offers multiple extensibilty points for apps to integrate with. A conversational agent powered by Adaptive Cards can greatly simplify business workflows on your web site or through other channels.
-* [**Outlook Actionable Messages**](docs/actionable-messages/adaptive-card.md): Email has long been life-blood of an information worker, and now you can deliver actionable content directly to their inbox.
+* [**Teams Adaptive Cards**](https://adaptivecards.microsoft.com/): As the digital hub for many modern workers, Teams offers multiple extensibilty points for apps to integrate with. A conversational agent powered by Adaptive Cards can greatly simplify business workflows on your web site or through other channels.
+* [**Outlook Actionable Messages**](https://learn.microsoft.com/en-us/outlook/actionable-messages/adaptive-card): Email has long been life-blood of an information worker, and now you can deliver actionable content directly to their inbox.
 * [**Windows Timeline**](getting-started/windows.md): Help users resume their activities on any device.
 
 ### Open your apps to extensibility
