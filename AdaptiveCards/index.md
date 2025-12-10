@@ -21,6 +21,60 @@ Adaptive Cards are an open card exchange format enabling developers to exchange 
 
 > [!VIDEO https://cdn.adaptivecards.io/assets/AdaptiveIntroVideo.mp4]
 
+Adaptive Cards are made for:
+* [Android](sdk/rendering-cards/android/getting-started.md)
+* [iOS](sdk/rendering-cards/ios/getting-started.md)
+* [JavaScript](sdk/rendering-cards/javascript/getting-started.md)
+* [ASP.NET](sdk/rendering-cards/net-html/getting-started.md)
+* [.NET WPF](sdk/rendering-cards/net-wpf/getting-started.md)
+* [Windows](sdk/rendering-cards/uwp/getting-started.md)
+* [ReactNative](sdk/rendering-cards/react-native/getting-started.md)
+
+### Meet your users where they are
+Modern digital life is hectic. Users are constantly switching between devices, apps, and services to get their job done. Adaptive Cards help you increase engagement and efficiency by injecting your actionable content directly into the apps they use every day.
+
+> [!VIDEO https://cdn.adaptivecards.io/assets/Video-MeetYourUsersWhereTheyAre.mp4]
+
+**Integrate into existing apps:**
+
+* [**Teams Adaptive Cards**](/microsoftteams/platform/task-modules-and-cards/cards/cards-reference#adaptive-card): As the digital hub for many modern workers, Teams offers multiple extensibilty points for apps to integrate with. A conversational agent powered by Adaptive Cards can greatly simplify business workflows on your web site or through other channels.
+* [**Outlook Actionable Messages**](/outlook/actionable-messages/adaptive-card): Email has long been life-blood of an information worker, and now you can deliver actionable content directly to their inbox.
+* [**Windows Timeline**](getting-started/windows.md): Help users resume their activities on any device.
+
+### Open your apps to extensibility
+
+There's an ecosystem of developers out there who want to integrate with your apps, but how can you do so safely and without their content sticking out like a sore thumb? Adaptive Cards are always native and blend seamlessly into the surrounding UI - and they work on every major platform!
+
+[Install the Rendering SDKs >](rendering-cards/getting-started.md)
+
+> [!VIDEO https://cdn.adaptivecards.io/assets/Video-RenderingCards.mp4]
+
+* **Native performance**: Adaptive Cards render native UI on any platform.
+* **Adapts to the surrounding UI**: Cards automatically adaptive to the surrounding UI.
+* **Fully extensible**: The schema is open-ended so you can add your own element.
+* **Dynamic and interactive**: Interactivity is expressed declaratively to help reduce risk of custom code injection
+
+### Design cards anywhere
+
+You don't have to send your users to this website to design cards. Just like Adaptive Cards blend into their surroundings, so does the Adaptive Card Designer. The SDK includes a full configuration API allowing you to deeply integrate card workflows into your existing toolchain.
+
+[Install the Designer SDK >](sdk/designer.md)
+
+> [!VIDEO https://cdn.adaptivecards.io/assets/Video-Designer.mp4?refresh=2019-09-10]
+
+### Create, share, and discover reusable templates
+
+What if you could instantly display any type of data? It could be your own app's data, your organization's data, or data from the web. With Adaptive Card Templating you can separate the data from card layout, and when coupled with a new template service a whole new ecosystem of card exchange becomes possible.
+
+[Create reusable card templates >](templating/index.md)
+
+> [!VIDEO https://cdn.adaptivecards.io/assets/Video-RenderingCards.mp4]
+
+* **Rich designer integration**: Sample data allows you to preview your template without leaving the designer.
+* **Simplify development workflows**: Create your template in the designer, use it without your services, then paste it right back into the designer to make changes.
+* **Discover and share templates using a REST service**: The template service finds a template for your data, and will even populate it for you.
+* **We want to hear from you**: We don't have a release date for this preview yet, but we're waiting to learn from you.
+
 ## How they work
 
 [**Card Authors**](authoring-cards/getting-started.md) describe their content as a simple JSON object. That content can then be rendered natively inside a [**Host Application**](rendering-cards/getting-started.md), automatically adapting to the look and feel of the Host.
@@ -78,4 +132,3 @@ same way, we believe that Adaptive Cards can create a simple, expressive means o
 
 ### When in doubt, keep it out
 It is easier to add later than it is to live with a mistake. If we found ourselves debating whether we should add something or not, we opted to leave it out.  It is always easier to add a property than to live with a legacy we wish we didn't have to support.
-
