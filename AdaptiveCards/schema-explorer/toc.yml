@@ -4,3 +4,5 @@
   items:
   - name: TextBlock
     href: text-block.md
+  - name: Image
+    href: Image.md
