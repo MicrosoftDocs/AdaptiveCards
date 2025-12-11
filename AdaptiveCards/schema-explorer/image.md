@@ -1,5 +1,5 @@
 ---
-title:  TextBlock Element
+title:  Image Element
 author: luywang
 description: This page documents the Image element, a card element in the Adaptive Cards schema.
 ms.author: luywang
@@ -16,7 +16,7 @@ ms.topic: concept-article
 This page documents the **Image** element, a card element in the Adaptive Cards schema.
 
 > **Important note about accessibility:**
-> In version 1.3 of the schema we introduced a [**label**](https://docs.microsoft.com/en-us/adaptive-cards/authoring-cards/input-validation#labels) property on Inputs to improve accessibility. If the [Host app you are targeting](https://docs.microsoft.com/en-us/adaptive-cards/resources/partners) supports v1.3 you should use **label** instead of a **TextBlock** as seen in some samples below. Once most Host apps have updated to the latest version we will update the samples accordingly.
+> In version 1.3 of the schema we introduced a [**label**](/adaptive-cards/authoring-cards/input-validation#labels) property on Inputs to improve accessibility. If the [Host app you are targeting](/adaptive-cards/resources/partners) supports v1.3 you should use **label** instead of a **TextBlock** as seen in some samples below. Once most Host apps have updated to the latest version we will update the samples accordingly.
 
 ## Image
 
@@ -489,3 +489,4 @@ A series of key/value pairs indicating features that the item requires with corr
   * **Version**: 1.2
 
   * **Required**: No
+
