@@ -1,3 +1,12 @@
+---
+title:  TextBlock Element
+author: luywang
+description: This page documents the Image element, a card element in the Adaptive Cards schema.
+ms.author: luywang
+ms.date: 12/11/2025
+ms.topic: concept-article
+---
+
 # Image Element
 
 > [!NOTE]
@@ -478,4 +487,5 @@ A series of key/value pairs indicating features that the item requires with corr
 
   * **Type**: `Dictionary<string>`
   * **Version**: 1.2
+
   * **Required**: No
