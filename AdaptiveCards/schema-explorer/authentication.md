@@ -18,7 +18,7 @@ ms.topic: concept-article
 
 ## Authentication
 
-Defines authentication information associated with a card. This maps to the `OAuthCard` type defined by the Bot Framework ([https://docs.microsoft.com/dotnet/api/microsoft.bot.schema.oauthcard](https://docs.microsoft.com/dotnet/api/microsoft.bot.schema.oauthcard)).
+Defines authentication information associated with a card. This maps to the [`OAuthCard`](/dotnet/api/microsoft.bot.schema.oauthcard) type defined by the Bot Framework.
 
 **Introduced in version 1.4**
 
@@ -66,3 +66,4 @@ Buttons that should be displayed to the user when prompting for authentication. 
 * **Required**: No
 * **Allowed values**:
     * `AuthCardButton`
+
