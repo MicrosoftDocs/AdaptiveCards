@@ -7,8 +7,6 @@ ms.date: 12/11/2025
 ms.topic: concept-article
 ---
 
-I have converted the HTML content for the **Adaptive Cards TargetElement** type from the Schema Explorer into a structured Markdown format.
-
 # TargetElement
 
 > [!NOTE]
@@ -47,3 +45,4 @@ If `true`, always show target element. If `false`, always hide target element. I
 
   * **Type**: `boolean?`
   * **Required**: No
+
