@@ -8,4 +8,78 @@
     href: image.md
   - name: Media
     href: media.md
+  - name: MediaSource
+    href: media-source.md
+  - name: CaptionSource
+    href: caption-source.md
+  - name: RichTextBlock
+    href: rich-text-block.md
+  - name: TextRun
+    href: text-run.md
+- name: Containers
+  items:
+  - name: ActionSet
+    href: action-set.md
+  - name: Container
+    href: container.md
+  - name: ColumnSet
+    href: column-set.md
+  - name: Column
+    href: column.md
+  - name: FactSet
+    href: fact-set.md
+  - name: Fact
+    href: fact.md
+  - name: ImagetSet
+    href: image-set.md
+  - name: Table
+    href: table.md
+  - name: TableCell
+    href: table-cell.md
+- name: Actions
+  items:
+  - name: Action.OpenUrl
+    href: action-open-url.md
+  - name: Action.Submit
+    href: action-submit.md
+  - name: Action.ShowCard
+    href: action-show-card.md
+  - name: Action.ToggleVisibility
+    href: action-toggle-visibility.md
+  - name: TargetElement
+    href: target-element.md
+  - name: Action.Execute
+    href: action-execute.md
+- name: Inputs
+  items:
+  - name: Input.Text
+    href: input-text.md
+  - name: Input.Number
+    href: input-number.md
+  - name: Input.Date
+    href: input-date.md
+  - name: Input.Time
+    href: input-time.md
+  - name: Input.Toggle
+    href: input-toggle.md
+  - name: Input.ChoiceSet
+    href: input-choice-set.md
+  - name: Input.Choice
+    href: input-choice.md
+  - name: Data.Query
+    href: data-query.md
+- name: Types
+  items:
+  - name: BackgroundImage
+    href: background-image.md
+  - name: Refresh
+    href: refresh.md
+  - name: Authentication
+    href: authentication.md
+  - name: TokenExchangeResource
+    href: token-exchange-resource.md
+  - name: AuthCardButton
+    href: authentication-card-button.md
+  - name: Metadata
+    href: metadata.md
     
