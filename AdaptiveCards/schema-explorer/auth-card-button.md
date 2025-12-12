@@ -18,7 +18,7 @@ ms.topic: concept-article
 
 ## AuthCardButton
 
-Defines a button as displayed when prompting a user to authenticate. This maps to the `cardAction` type defined by the Bot Framework ([https://docs.microsoft.com/dotnet/api/microsoft.bot.schema.cardaction](https://docs.microsoft.com/dotnet/api/microsoft.bot.schema.cardaction)).
+Defines a button as displayed when prompting a user to authenticate. This maps to the [`cardAction`](/dotnet/api/microsoft.bot.schema.cardaction) type defined by the Bot Framework.
 
 **Introduced in version 1.4**
 
@@ -62,4 +62,5 @@ The value associated with the button. The meaning of value depends on the button
 
 * **Type**: `string`
 * **Required**: Yes
+
 
