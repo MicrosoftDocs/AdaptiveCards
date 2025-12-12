@@ -18,7 +18,7 @@ ms.topic: concept-article
 
 ## TokenExchangeResource
 
-Defines information required to enable on-behalf-of single sign-on user authentication. It maps to the `TokenExchangeResource` type defined by the Bot Framework ([https://docs.microsoft.com/dotnet/api/microsoft.bot.schema.tokenexchangeresource](https://docs.microsoft.com/dotnet/api/microsoft.bot.schema.tokenexchangeresource)).
+Defines information required to enable on-behalf-of single sign-on user authentication. It maps to the [`TokenExchangeResource`](/dotnet/api/microsoft.bot.schema.tokenexchangeresource) type defined by the Bot Framework.
 
 **Introduced in version 1.4**
 
@@ -54,3 +54,4 @@ An identifier for the identity provider with which to attempt a token exchange.
 
 * **Type**: `string`
 * **Required**: Yes
+
