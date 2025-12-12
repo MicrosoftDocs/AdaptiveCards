@@ -13,7 +13,7 @@ ms.topic: concept-article
 > **Are you building Copilot, Teams or Outlook scenarios powered by Adaptive Cards?**
 > Visit [**Adaptive Card Documentation Hub**](https://adaptivecards.microsoft.com/), the new one-stop-shop for all your Adaptive Card needs! It has all the resources you're looking for, including complete documentation for many new features, such as [Responsive layout](https://adaptivecards.microsoft.com/?topic=responsive-layout), [Icon](https://adaptivecards.microsoft.com/?topic=Icon), [Badge](https://adaptivecards.microsoft.com/?topic=Badge), [Carousel](https://adaptivecards.microsoft.com/?topic=Carousel), [Charts](https://adaptivecards.microsoft.com/?topic=Chart.Line), and much more!
 
-Gathers input fields, merges with optional data field, and sends an event to the client. Clients process the event by sending an Invoke activity of type `adaptiveCard/action` to the target Bot. The inputs that are gathered are those on the current card, and in the case of a show card those on any parent cards. See [Universal Action Model](https://docs.microsoft.com/en-us/adaptive-cards/authoring-cards/universal-action-model) documentation for more details.
+Gathers input fields, merges with optional data field, and sends an event to the client. Clients process the event by sending an Invoke activity of type `adaptiveCard/action` to the target Bot. The inputs that are gathered are those on the current card, and in the case of a show card those on any parent cards. See [Universal Action Model](/adaptive-cards/authoring-cards/universal-action-model) documentation for more details.
 
 > **Important note about accessibility:**
 > In version 1.3 of the schema we introduced a [**label**](/adaptive-cards/authoring-cards/input-validation#labels) property on Inputs to improve accessibility. If the [Host app you are targeting](/adaptive-cards/resources/partners) supports v1.3 you should use **label** instead of a **TextBlock** as seen in some samples below. Once most Host apps have updated to the latest version we will update the samples accordingly.
@@ -174,4 +174,5 @@ A series of key/value pairs indicating features that the item requires with corr
   * **Type**: `Dictionary<string>`
   * **Version** : 1.2
   * **Required**: No
+
 
