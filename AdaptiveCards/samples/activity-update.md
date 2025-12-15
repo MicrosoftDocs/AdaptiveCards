@@ -13,11 +13,12 @@ ms.topic: concept-article
 > **Are you building Copilot, Teams or Outlook scenarios powered by Adaptive Cards?**
 > Visit [**Adaptive Card Documentation Hub**](https://adaptivecards.microsoft.com/), the new one-stop-shop for all your Adaptive Card needs! It has all the resources you're looking for, including complete documentation for many new features, such as [Responsive layout](https://adaptivecards.microsoft.com/?topic=responsive-layout), [Icon](https://adaptivecards.microsoft.com/?topic=Icon), [Badge](https://adaptivecards.microsoft.com/?topic=Badge), [Carousel](https://adaptivecards.microsoft.com/?topic=Carousel), [Charts](https://adaptivecards.microsoft.com/?topic=Chart.Line), and much more!
 
-## Samples and Templates
 
 These samples are *just a teaser* of the type of cards you can create. Go ahead and tweak them to make any scenario possible\!
 
 **Important note about accessibility:** In version 1.3 of the schema we introduced a **label** property on Inputs to improve accessibility. If the [Host app you are targeting](/adaptive-cards/resources/partners) supports v1.3 you should use **label** instead of a **TextBlock** as seen in some samples below. Once most Host apps have updated to the latest version we will update the samples accordingly.
+
+# Activity Update sample
 
 ### JSON Code (Without Templating)
 
