@@ -1,5 +1,5 @@
 ---
-title:  Sample - Activity Update
+title:  Sample of Activity Update
 author: luywang
 description: This page provides a sample code for Adaptive Cards.
 ms.author: luywang
