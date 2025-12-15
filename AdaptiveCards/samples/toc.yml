@@ -1,5 +1,3 @@
-- name: Samples
-  items:
-  - name: Activity Update
-  - href: activity-update.md
+- name: Activity Update
+  href: activity-update.md
   
