@@ -20,6 +20,8 @@ These samples are *just a teaser* of the type of cards you can create. Go ahead 
 
 ## Activity update sample
 
+The following section displays the JSON for an "Activity Update" Adaptive Card sample, shown with and without templating.
+
 ### JSON Code (Without Templating)
 
 **JSON**
