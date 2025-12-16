@@ -1,7 +1,7 @@
 ---
 title:  Sample of Agenda
 author: luywang
-description: This page provides a sample code for Adaptive Cards.
+description: This page provides a sample code for Agenda Cards.
 ms.author: luywang
 ms.date: 12/15/2025
 ms.topic: concept-article
@@ -1028,5 +1028,6 @@ The following section displays the JSON for an "Agenda" Adaptive Card sample, sh
 	"version": "1.5"
 }
 ```
+
 
 
