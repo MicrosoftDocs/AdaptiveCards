@@ -1,7 +1,7 @@
 ---
 title:  Sample of Activity Update
 author: luywang
-description: This page provides a sample code for Adaptive Cards.
+description: This page provides a sample code for Activity Update Cards.
 ms.author: luywang
 ms.date: 12/15/2025
 ms.topic: concept-article
