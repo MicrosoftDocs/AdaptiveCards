@@ -158,7 +158,7 @@ var card = template.expand({
 
 The Adaptive Card Designer has been updated to support templating. 
 
-> Try it out at: **[https://adaptivecards.microsoft.com/designer.html](https://adaptivecards.microsoft.com/designer.html)**
+> Try it out at: **[https://adaptivecards.microsoft.com/designer](https://adaptivecards.microsoft.com/designer)**
 
 [![image](https://user-images.githubusercontent.com/1432195/53214462-88d46980-3601-11e9-908d-253a1bb940a8.png)](https://adaptivecards.io/designer)
 
