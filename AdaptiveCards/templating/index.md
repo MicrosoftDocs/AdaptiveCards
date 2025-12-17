@@ -30,7 +30,7 @@ Templating enables the separation of **data** from the **layout** in an Adaptive
 
 ### It helps design a card once, and then populate it with real data
 
-Today it's impossible to create a card using the [Adaptive Card Designer](https://adaptivecards.io/designer) and use that JSON to populate the payload with **dynamic content**. In order to achieve this you must write custom code to build a JSON string, or use the Object Model SDKs to build an OM representing your card and serialize it to JSON. In either case the Designer is a one-time one-way operation and doesn't make it easy to tweak the card design later once you've converted it to code.
+Today it's impossible to create a card using the [Adaptive Card Designer](https://adaptivecards.microsoft.com/designer) and use that JSON to populate the payload with **dynamic content**. In order to achieve this you must write custom code to build a JSON string, or use the Object Model SDKs to build an OM representing your card and serialize it to JSON. In either case the Designer is a one-time one-way operation and doesn't make it easy to tweak the card design later once you've converted it to code.
 
 ### It makes transmissions over the wire smaller
 
