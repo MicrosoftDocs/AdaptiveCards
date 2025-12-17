@@ -10,7 +10,7 @@ ms.topic: article
 
 The Adaptive Card Designer provides a rich, interactive design-time experience for authoring adaptive cards.
 
-Try it out at [https://adaptivecards.io/designer](https://adaptivecards.io/designer)
+Try it out at [https://adaptivecards.microsoft.com/designer.html](https://adaptivecards.microsoft.com/designer.html))
 
 ![Designer screenshot](../content/designer.png)
 
