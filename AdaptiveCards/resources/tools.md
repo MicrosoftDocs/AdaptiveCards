@@ -12,7 +12,7 @@ ms.topic: article
 
 Need for a tool to design your cards? Look no further than the browser-based adaptive card designer at [https://adaptivecards.microsoft.com/designer.html](https://adaptivecards.microsoft.com/designer.html).
 
-[![designer screenshot](media/tools/designer.jpg)](https://adaptivecards.io/designer)
+[![designer screenshot](media/tools/designer.png)](https://adaptivecards.microsoft.com/designer.html)
 
 ### Embed the designer into your app
 
