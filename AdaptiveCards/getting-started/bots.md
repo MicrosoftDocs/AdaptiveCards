@@ -13,18 +13,6 @@ Adaptive Cards are a great fit for Bots. They let you author a card once and hav
 > [!NOTE]
 > Skype is not supported in the current preview. See the [Partner Status](../resources/partners.md) page for the latest.
 
-## Try it out
-
-Click the following link and [talk to our Scuba Bot](http://contososcubademo.azurewebsites.net/). Say `I'm looking for scuba` and it'll help you book the scuba trip of your dreams.  
-
-All of the bot's responses are created with Adaptive Cards.
-
-[![Scuba chat screenshot](media/bots/scuba-chat.png)](http://contososcubademo.azurewebsites.net/)
-
-**Get the code**: the full [Contoso Scuba Bot source code](https://github.com/matthidinger/ContosoScubaBot
-) can be found on GitHub.
-
-
 ## Bot Framework Integration
 
 With the [Bot Framework](https://dev.botframework.com/) you can write a single bot that is able to chat with users across multiple "channels", like Skype, Microsoft Teams, Facebook Messenger, etc.
