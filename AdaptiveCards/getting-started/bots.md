@@ -123,7 +123,7 @@ The Bot Framework lets you publish your bot to multiple channels. We're working 
 
 We've just scratched the surface in this tutorial, so please take a look at the links below to explore more ways that Adaptive Cards can enhance your bot.
 
-* [Browse Sample cards](https://adaptivecards.io/samples/) for inspiration
-* Use the [Schema Explorer](https://adaptivecards.io/explorer) to learn the available elements
-* Build a card using the [Interactive Visualizer](https://vnext.adaptivecards.io/visualizer/)
+* [Browse Sample cards](../schema-explorer/adaptive-card.md) for inspiration
+* Use the [Schema Explorer](../samples/activity-update.md) to learn the available elements
+* Build a card using the [Adaptive Card Designer](https://adaptivecards.microsoft.com/designer)
 * [Get in touch](https://github.com/Microsoft/AdaptiveCards/issues/new?title=%5BWebsite%5D%20%5BYour%20feedback%20title%20here%5D&body=%0D%0A%0D%0A%5BYour%20detailed%20feedback%20here%5D%0D%0A%0D%0A---%0D%0A*%20URL%3A%20https%3A%2F%2Fadaptivecards.io%2Fsamples%2F) with any feedback you have
