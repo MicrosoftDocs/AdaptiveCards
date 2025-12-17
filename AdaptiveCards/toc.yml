@@ -12,8 +12,10 @@
   href: schema-explorer/toc.yml
 - name: Samples
   href: samples/toc.yml
+- name: Designer
+  href: 
 - name: Authoring Cards
-  items:
+  items: https://adaptivecards.microsoft.com/designer.html
   - name: Getting Started
     href: authoring-cards/getting-started.md
   - name: Card Schema
