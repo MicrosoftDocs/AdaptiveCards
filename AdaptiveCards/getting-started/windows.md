@@ -45,7 +45,7 @@ We don't have anything to share just yet, but we're working on incorporating Ada
 
 We've barely scratched the surface in this tutorial, so check back soon and browse the links below to explore more about Adaptive Cards.
 
-* [Browse Sample cards](https://adaptivecards.io/samples/) for inspiration
-* Use the [Schema Explorer](https://adaptivecards.io/explorer) to learn the available elements
-* Build a card using the [Interactive Visualizer](https://vnext.adaptivecards.io/visualizer/)
+* [Browse Sample cards](../schema-explorer/adaptive-card.md) for inspiration
+* Use the [Schema Explorer](../samples/activity-update.md) to learn the available elements
+* Build a card using the [Adaptive Card Designer](https://adaptivecards.microsoft.com/designer)
 * [Get in touch](https://github.com/Microsoft/AdaptiveCards/issues/new) with any feedback you have
