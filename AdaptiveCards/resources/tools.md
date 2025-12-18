@@ -54,16 +54,7 @@ With AdaptiveCards Studio you can author cards directly in Visual Studio Code. T
 [Read more and install it from the Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=madewithcardsio.adaptivecardsstudiobeta)
 
 
-### **Adaptive Card Viewer**
 
-We have created a Visual Studio code extension which allows you to visualize the card you are editing in real time
-inside the editor itself. 
-
-![extension](media/tools/vscode-extension.png)
-
-To install, open Extensions Marketplace and search for **Adaptive Card Viewer**.
-
-![marketplace](media/tools/vscode-extension-marketplace.png)
 
 ### Usage
 
