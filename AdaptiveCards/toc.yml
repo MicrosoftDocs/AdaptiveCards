@@ -12,12 +12,14 @@
   href: schema-explorer/toc.yml
 - name: Samples
   href: samples/toc.yml
+- name: Designer
+  href: https://adaptivecards.microsoft.com/designer
 - name: Authoring Cards
-  items:
+  items: 
   - name: Getting Started
     href: authoring-cards/getting-started.md
   - name: Card Schema
-    href: https://adaptivecards.io/explorer
+    href: schema-explorer/adaptive-card.md
   - name: Text Features
     href: authoring-cards/text-features.md
   - name: Input Validation

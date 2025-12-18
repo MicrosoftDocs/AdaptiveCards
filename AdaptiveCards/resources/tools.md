@@ -10,9 +10,9 @@ ms.topic: article
 
 ## Card Designer 
 
-Need for a tool to design your cards? Look no further than the browser-based adaptive card designer at [https://adaptivecards.io/designer](https://adaptivecards.io/designer)
+Need for a tool to design your cards? Look no further than the browser-based adaptive card designer at [https://adaptivecards.microsoft.com/designer](https://adaptivecards.microsoft.com/designer).
 
-[![designer screenshot](media/tools/designer.jpg)](https://adaptivecards.io/designer)
+[![designer screenshot](media/tools/designer.png)](https://adaptivecards.microsoft.com/designer)
 
 ### Embed the designer into your app
 
