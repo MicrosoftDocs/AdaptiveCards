@@ -4,7 +4,7 @@ description: This article walks you through how to implement Actions in Adaptive
 author: JeanRoca
 ms.author: jproca
 ms.date: 05/04/2023
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Actions - WinUI 3
