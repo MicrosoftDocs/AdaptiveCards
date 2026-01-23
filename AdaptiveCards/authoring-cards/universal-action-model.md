@@ -3,7 +3,7 @@ title:  Universal Action Model
 author: sowrabh-msft
 ms.author: sonrs
 ms.date: 02/10/2021
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Universal Action Model
