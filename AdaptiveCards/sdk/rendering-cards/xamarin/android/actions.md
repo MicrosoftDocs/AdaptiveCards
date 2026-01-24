@@ -3,7 +3,7 @@ title: Actions - Xamarin.Android SDK
 author: almedina-ms
 ms.author: almedina
 ms.date: 12/02/2019
-ms.topic: how-to
+ms.topic: concept-article
 ---
 
 # Actions - Xamarin.Android
