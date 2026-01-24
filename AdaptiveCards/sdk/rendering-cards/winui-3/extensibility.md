@@ -4,7 +4,7 @@ description: This article walks you through the process of using extensibility i
 author: JeanRoca
 ms.author: jproca
 ms.date: 05/04/2023
-ms.topic: how-to
+ms.topic: concept-article
 ---
 
 # Extensibility - WinUI 3
