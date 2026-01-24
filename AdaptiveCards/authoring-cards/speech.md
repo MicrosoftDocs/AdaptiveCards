@@ -3,7 +3,7 @@ title: Speech and Advanced Customization
 author: matthidinger
 ms.author: mahiding
 ms.date: 06/26/2017
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Speech and advanced customization

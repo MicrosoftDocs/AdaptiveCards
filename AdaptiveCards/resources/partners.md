@@ -4,7 +4,7 @@ description: Adaptive Card platform partners and supported versions
 author: matthidinger
 ms.author: mahiding
 ms.date: 2/15/2021
-ms.topic: article
+ms.topic: partner-tools
 ---
 
 # Partners

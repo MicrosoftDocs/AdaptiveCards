@@ -3,7 +3,7 @@ title: JavaScript SDK for Adaptive Cards
 author: matthidinger
 ms.author: mahiding
 ms.date: 07/26/2019
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # JavaScript SDK for creating cards

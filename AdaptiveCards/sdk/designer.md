@@ -3,7 +3,7 @@ title: Adaptive Cards Designer SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 01/04/2021
-ms.topic: article
+ms.topic: get-started
 ---
 
 # Adaptive Cards Designer SDK
