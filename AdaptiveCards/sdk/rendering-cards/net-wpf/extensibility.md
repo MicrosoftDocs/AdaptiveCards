@@ -3,7 +3,7 @@ title: Extensibility - .NET WPF SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 10/19/2017
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Extensibility - .NET WPF
