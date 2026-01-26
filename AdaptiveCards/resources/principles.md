@@ -3,7 +3,7 @@ title: Motivations and Principles
 author: matthidinger
 ms.author: mahiding
 ms.date: 5/14/2018
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Motivations and Principles

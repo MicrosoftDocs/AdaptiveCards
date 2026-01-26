@@ -3,7 +3,7 @@ title:  Adaptive Cards Template Service
 author: matthidinger
 ms.author: mahiding
 ms.date: 08/01/2019
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Adaptive Cards Template Service

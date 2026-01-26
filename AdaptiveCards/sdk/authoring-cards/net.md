@@ -3,7 +3,7 @@ title: .NET SDK for Adaptive Cards
 author: matthidinger
 ms.author: mahiding
 ms.date: 10/01/2017
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # .NET SDK for Authoring Cards

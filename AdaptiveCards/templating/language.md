@@ -3,7 +3,7 @@ title:  Adaptive Cards Template Language
 author: matthidinger
 ms.author: mahiding
 ms.date: 05/18/2020
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Adaptive Cards Template Language

@@ -3,7 +3,7 @@ title: Native styling - UWP SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 08/15/2018
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Native styling - UWP

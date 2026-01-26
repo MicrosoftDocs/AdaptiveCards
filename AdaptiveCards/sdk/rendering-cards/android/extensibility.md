@@ -3,7 +3,7 @@ title: Android SDK Extensibility
 author: almedina-ms
 ms.author: almedina
 ms.date: 09/27/2017
-ms.topic: article
+ms.topic: concept-article
 description: Learn how to extend the Android renderer for custom parsing and rendering of card elements, actions, image loading, and media loading on Microsoft's platform.
 ---
 

@@ -3,7 +3,7 @@ title: Text Features
 author: matthidinger
 ms.author: mahiding
 ms.date: 06/18/2020
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Text features

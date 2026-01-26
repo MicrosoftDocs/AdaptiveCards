@@ -3,7 +3,7 @@ title: Fabric integration
 author: matthidinger
 ms.author: mahiding
 ms.date: 08/15/2019
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Adaptive Cards with Fabric UI

@@ -4,7 +4,7 @@ description: Styling and customization options for the card rendering
 author: matthidinger
 ms.author: mahiding
 ms.date: 03/15/2021
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # ReactNative Customization

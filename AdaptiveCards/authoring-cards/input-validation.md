@@ -3,7 +3,7 @@ title: Input Validation
 author: rebeccaanne
 ms.author: rebecch
 ms.date: 07/24/2020
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Input Validation

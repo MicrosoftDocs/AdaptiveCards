@@ -3,7 +3,7 @@ title:  Adaptive Cards Tools
 author: matthidinger
 ms.author: mahiding
 ms.date: 03/14/2019
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Tools and Samples

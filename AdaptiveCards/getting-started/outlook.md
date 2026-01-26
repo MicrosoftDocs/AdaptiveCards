@@ -3,7 +3,7 @@ title: Adaptive Cards in Outlook
 author: dclaux
 ms.author: dclaux
 ms.date: 5/10/2018
-ms.topic: article
+ms.topic: get-started
 ---
 
 # Adaptive Cards for Outlook Actionable Message Developers

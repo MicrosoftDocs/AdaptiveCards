@@ -4,7 +4,7 @@ description: This article walks you through the process of implementing native s
 author: JeanRoca
 ms.author: jproca
 ms.date: 05/04/2023
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Native styling - WinUI 3
