@@ -4,7 +4,7 @@ description: Collected media links discussing Adaptive Cards
 author: matthidinger
 ms.author: mahiding
 ms.date: 5/14/2018
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Adaptive Cards Media
