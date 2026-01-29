@@ -3,7 +3,7 @@ title:  Adaptive Cards Roadmap
 author: matthidinger
 ms.author: mahiding
 ms.date: 05/16/2018
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Roadmap

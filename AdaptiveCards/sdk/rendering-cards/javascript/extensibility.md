@@ -3,7 +3,7 @@ title: Extensibility - JavaScript SDK
 author: matthidinger
 ms.author: mahiding
 ms.date: 07/16/2020
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Extensibility - JavaScript

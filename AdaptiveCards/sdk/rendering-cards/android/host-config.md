@@ -3,7 +3,7 @@ title: Host config - Android SDK
 author: almedina-ms
 ms.author: almedina
 ms.date: 09/27/2017
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Host config for Android

@@ -3,7 +3,7 @@ title: Extensibility - iOS SDK
 author: jwoo-msft
 ms.author: joswo
 ms.date: 03/02/2021
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Extensibility - iOS
